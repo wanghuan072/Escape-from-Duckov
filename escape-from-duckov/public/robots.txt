@@ -1,0 +1,39 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://duckovgame.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /node_modules/
+
+# Allow important pages
+Allow: /guides/
+Allow: /wiki/
+Allow: /maps/
+Allow: /mods/
+Allow: /escape-from-duckov-notes
+Allow: /escape-from-duckov-quests
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
