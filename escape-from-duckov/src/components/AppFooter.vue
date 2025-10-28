@@ -3,7 +3,10 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
-          <h3>Escape from Duckov</h3>
+          <div class="footer-logo">
+            <img src="/images/logo.png" alt="Escape from Duckov" class="logo-image">
+            <span class="logo-text">Escape from Duckov</span>
+          </div>
           <p>Guides, wiki, and community tools crafted by players.</p>
         </div>
         <div class="footer-links">
@@ -29,8 +32,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>Escape from Duckov is developed by Enigma Dev. This is an unofficial community resource.</p>
-        <p class="copyright">© 2025 Escape from Duckov. All trademarks belong to their respective owners.</p>
+        <p class="copyright">© 2025 duckovgame.com. All rights reserved.</p>
+        <p>duckovgame.com is not affiliated with, endorsed by, or connected to the original or its publishers. This is an independent fan site created for informational purposes only. All trademarks and copyrights belong to their respective owners.</p>
       </div>
     </div>
   </footer>
@@ -47,15 +50,29 @@
 
 .footer-content {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 48px;
   margin-bottom: 32px;
 }
 
-.footer-brand h3 {
-  font-size: 1.125rem;
-  margin-bottom: 8px;
+.footer-logo{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
 }
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-text {
+  font-size: 1.25rem;
+  color: var(--text-heading);
+  font-weight: 700;
+}
+
 
 .footer-brand p {
   color: var(--text-secondary);
@@ -95,6 +112,7 @@
 .footer-bottom {
   padding-top: 24px;
   border-top: 1px solid var(--border-color);
+  text-align: center;
 }
 
 .footer-bottom p {

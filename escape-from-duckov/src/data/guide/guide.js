@@ -624,5 +624,273 @@ export const guides = [
         <h2>Conclusion</h2>
         <p>The Storm Zone represents the pinnacle of challenge in Escape from Duckov. Success requires meticulous preparation, optimal equipment, and mastery of advanced combat techniques. Follow this guide carefully, prepare thoroughly, and remember that survival in the Storm Zone demands respect for its extreme dangers. Good luck with your ultimate escape from Duckov!</p>
         `
+    },
+
+    {
+        id: 6,
+        title: "escape from duckov ledx",
+        description: "Looking for the elusive LEDX in Escape from Duckov? This guide breaks down the best methods for acquisition, covering spawn locations, key usage, enemy drops, and market value. Maximize your chances of finding this vital medical item and discover smart trading tips!",
+        tags: ["Escape from Duckov", "LEDX", "Rare Item", "Loot Guide", "Sanatorium Key"],
+        publishDate: "2025-10-28",
+        imageUrl: "/images/guide/guide06-01.webp",
+        imageAlt: "A LEDX Skin Transilluminator in Escape from Duckov displayed on a workbench.",
+        category: 'advanced',
+        seo: {
+            title: "Escape from Duckov LEDX: The Ultimate Acquisition Guide",
+            description: "Learn how to find the rare LEDX in Escape from Duckov. Get tips on spawn locations, key requirements, trading strategies, and quest implications for maximizing profit!",
+            keywords: "escape from duckov, ledx, loot guide, sanatorium, key, rare item, trading, quests",
+        },
+        addressBar: "/escape-from-duckov-ledx",
+        detailsHtml: `
+        <h2 style="font-size: 1.5em; font-weight: bold;">
+  <span>escape from duckov ledx</span>
+</h2>
+<p style="margin: 1em 0px;">
+    The LEDX Skin Transilluminator in Escape from Duckov is a highly sought-after and incredibly rare item, coveted for its high market value and critical role in various late-game quests.
+    Acquiring this medical device can significantly boost your wealth and progress. This comprehensive guide provides detailed information on where and how to find the LEDX, its value on the market, and strategic recommendations for its use.
+    </p>
+<img src="/images/guide/guide06-02.webp" alt="LEDX-1">
+
+<h3 style="font-size: 1.17em; font-weight: bold;">
+  <span >About the LEDX</span>
+</h3>
+<p style="margin: 1em 0px;">
+  <span>
+    The LEDX Skin Transilluminator is categorized as a medical item within Escape from Duckov. Its primary purpose is to enhance the visibility of blood vessels, facilitating easier and more accurate injections.
+    Weighing just 0.2kg, it is relatively lightweight, making it a manageable addition to your inventory. Its rarity and value make it a high-priority target for many players, whether for personal use, completing tasks, or capitalizing on its market value.
+    Remember that finding the LEDX in Escape from Duckov requires patience and a strategic approach.
+  </span>
+</p>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">
+  <span >LEDX Acquisition Methods</span>
+</h3>
+<ol>
+  <li><strong >Random Loot Spawn Points:</strong>
+    <span > The most common method involves searching specific loot spawn points across various maps. The Sanatorium, particularly a specific room containing a bed, is a known location for LEDX spawns. However, remember that spawn rates are random.</span>
+  </li>
+  <li><strong >Room Keys:</strong>
+    <span > Accessing certain rooms, such as those requiring the "Sanatorium Room Key 2," increases your chances of finding a LEDX. These rooms often contain higher-tier loot, making them worthwhile investments. Keep an eye out for these keys as you explore.</span>
+  </li>
+  <li><strong >Enemy Drops:</strong>
+    <span > While less frequent, defeating enemies like Scavs, Raiders, and Bosses provides a small chance of them dropping a LEDX. Targeting high-value areas with increased enemy presence can improve your odds.</span>
+  </li>
+  <li><strong >Scav Case:</strong>
+    <span > Using the Scav Case at your hideout could potentially yield a LEDX, although it is a very rare outcome. This is a passive method for attempting to acquire the item.</span>
+  </li>
+  <li><strong >Crafting:</strong>
+    <span > While you cannot craft the LEDX directly, having other necessary items can lead to opportunities to trade for it or barter for keys to locations where LEDX's spawn.</span>
+  </li>
+  <li><strong >Flea Market:</strong>
+    <span > Though you can't directly purchase from merchants, the Flea Market allows for player-to-player transactions. This may not be reliable, but can give an estimate of current LEDX value.</span>
+  </li>
+  <li><strong >Quest Rewards:</strong>
+    <span > Some rare quests will offer the LEDX as a reward, so keep an eye out for these!</span>
+  </li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">
+  <span >FAQ</span>
+</h3>
+<ol>
+  <li><span >What is the market value of a LEDX in Escape from Duckov?</span></li>
+  <li><span >The LEDX can fetch up to 16,250 HKD on the market, making it a lucrative item to sell. Prices can fluctuate, so keep an eye on the market trends.</span></li>
+  <li><span >Can I purchase the LEDX from merchants?</span></li>
+  <li><span >No, the LEDX cannot be purchased directly from merchants. Its buy-in value is displayed as "???" due to its unavailability through these channels.</span></li>
+  <li><span >How many LEDX should I keep for quests?</span></li>
+  <li><span >It's recommended to keep at least 5 LEDX for future quests and crafting purposes. This will save you time and money in the long run.</span></li>
+  <li><span >Which keys are most useful for finding LEDX?</span></li>
+  <li><span >The "Sanatorium Room Key 2" is a particularly valuable key to acquire, as it unlocks rooms known for higher-tier loot, including the potential for LEDX spawns.</span></li>
+  <li><span >Is it better to sell or keep a LEDX early in the game?</span></li>
+  <li><span >While tempting to sell for quick cash, consider the value of saving some for upcoming quests. If you have more than 5, selling the extras is a reasonable choice.</span></li>
+</ol>
+
+<p style="margin: 1em 0px;">
+  <span >
+    In summary, the LEDX in Escape from Duckov is a valuable and rare item with both economic and strategic importance.
+    Securing a LEDX in Escape from Duckov requires patience, knowledge of spawn locations, and a bit of luck.
+    Knowing how to obtain, value, and utilize the LEDX can significantly impact your progression and financial success within the game. Good luck in your hunt!
+  </span>
+</p>
+
+        `
+    },
+
+    {
+        id: 7,
+        title: "Escape from Duckov J-Lab Access Cards Acquisition Guide",
+        iframeUrl: "1",
+        description: "Navigate the treacherous suburbs of Duckov and secure your access to the J-Labs! This guide provides detailed spawn locations, quest walkthroughs, and expert tips to acquire every J-Lab Access Card, from the basic J-Lab 1 to the elusive colored variants. Dominate the labs and loot like a pro!",
+        tags: ["Escape from Duckov", "J-Lab Cards", "Access Guide"],
+        publishDate: "2025-10-28",
+        imageUrl: "/images/guide/guide07-01.webp",
+        imageAlt: "A player character looting a J-Lab Access Card in Escape from Duckov, inside a dimly lit room filled with industrial equipment.",
+        category: 'advanced',
+        seo:{
+            title: "Escape from Duckov: J-Lab Card Guide - Unlock All Labs!",
+            description: "Unlock all J-Labs in Escape from Duckov! This guide details J-Lab Card locations, quest rewards, and farming methods to efficiently raid high-tier loot. Dominate Duckov now!",
+            keywords: "escape from duckov j-lab cards, access card guide, duckov, lab access, looting guide, quest guide, farming guide, red card, blue card, green card",
+        },
+        addressBar: "escape-from-duckov-j-lab-access-card-acquisition-guide",
+        detailsHtml: `
+        <p style="margin: 1em 0px;">
+  In Escape from Duckov, J-Lab Access Cards are crucial for gaining access to the restricted laboratories scattered throughout the Duckov suburbs.
+  While the first entry-level card (J-Lab 1) is relatively easy to find, more advanced versions—including Level 2 cards and colored access cards (red, blue, green, purple, yellow, and black)—are much rarer and typically unlocked through deeper exploration, looting, and completing specific quests.
+</p>
+
+<p style="margin: 1em 0px;">
+  This guide details how to find each J-Lab card, its confirmed spawn areas, and the best search routes to make your lab raids efficient and repeatable.
+</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;"><strong>What are J-Lab Cards?</strong></h2>
+
+<p style="margin: 1em 0px;">
+  J-Lab Cards are security passes used to access underground research facilities located throughout the Duckov region.
+  Different levels of cards grant access to deeper areas of the lab or color-coded containment zones associated with top-tier loot and lab equipment.
+</p>
+
+<p style="margin: 1em 0px;">Here's a brief description of each card type:</p>
+
+<ol>
+  <li><strong>J-Lab 1 Card</strong> – Basic-level access (access to standard lab areas)</li>
+  <li><strong>J-Lab 2 Card</strong> – Intermediate-level access (access to areas B1 and below)</li>
+  <li><strong>Colored Cards (Red, Blue, Green, Purple, Yellow, Black)</strong> – Advanced and optional keys used to unlock sealed wings or hidden lab areas</li>
+</ol>
+
+<p style="margin: 1em 0px;"><strong>Note:</strong> Unlike typical key items, these cards are <strong>consumable</strong>; one is consumed each time you enter the lab.</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 1 Card – Basic Access</strong></h2>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>How to Obtain</strong></h3>
+
+<p style="margin: 1em 0px;">
+  In Escape from Duckov, there are two main ways to obtain your first J-Lab 1 Card:
+</p>
+
+<ol>
+  <li><strong>Hidden Mine (Farm Town Area)</strong></li>
+  <li>Search for card spawn points in the hidden mines near Farm Town. Cards may appear in corners, near mining equipment, or on walls. Cards respawn approximately every 4-5 game cycles, making them the best method of finding them in the early game.</li>
+  <li><strong>Post-Quest Purchase: "Duplicate Pass"</strong></li>
+  <li>Completing the "Duplicate Pass" side quest unlocks the merchant, Xiao Ming. After completing the mission, you can purchase J-Lab 1 Cards from Xiao Ming's shop for a fixed price. This is the most reliable way to restock.</li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Purpose</strong></h3>
+
+<ol>
+  <li>Open the entrance gate to J-Lab and begin your first official lab infiltration.</li>
+  <li>Required for completing several early objectives related to the main storyline and loot milestones.</li>
+</ol>
+
+<h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 2 Cards – Deeper Lab Access (Level B1)</strong></h2>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Where to Find It</strong></h3>
+
+<ol>
+  <li><strong>Lab B1 – Wanderer Drop</strong></li>
+  <li>Level 2 Cards have a low chance of dropping from Wanderers on the B1 floor of the J-Lab complex after they are defeated. While the drop rate is low, consistently clearing the lab increases your chances of obtaining one.</li>
+  <li><strong>Administrative Office Room Spawn</strong></li>
+  <li>Some players have reported finding Level 2 Cards in the office on the first floor of the lab. Carefully inspect the room for desks, metal shelves, or computer terminals. These spawn points are not guaranteed to appear.</li>
+</ol>
+
+<p style="margin: 1em 0px;">
+  <strong>Tips:</strong> Focus your search on areas patrolled by Wanderers, as they have the highest reported drop rate. Restarting a raid or switching servers may refresh the loot table, increasing your chances of finding a card.
+</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;"><strong>Colored Access Cards</strong></h2>
+
+<p style="margin: 1em 0px;">
+  There are several ways to collect colored access cards for the Laboratory.
+  One of the most effective methods is to search the <strong>Mysterious Key (X/O) room</strong>, where almost all cards and high-level supplies have a chance to spawn.
+  However, the following cards have specific ways to obtain them:
+</p>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Red Cards</strong></h3>
+
+<ol>
+  <li>A random drop after defeating the "?" boss in Farm Town.</li>
+  <li>They may also spawn on the table in the northeast corner of the Blue Card room in the Laboratory.</li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Blue Cards</strong></h3>
+
+<ol>
+  <li>There is a chance of dropping them after defeating the Mine boss in Farm Town.</li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Green Cards</strong></h3>
+
+<ol>
+  <li>Spawn in two locations in the B2 Laboratory:</li>
+  <li>On the west-facing chair in the small blue room across the hallway above the Yellow Card room.</li>
+  <li>By the water fountain in the passage between the Jail and the Red Room.</li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Black Cards</strong></h3>
+
+<ol>
+  <li>The Mysterious Merchant in Farm Town may sell them for 200,000 credits.</li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Yellow Cards</strong></h3>
+
+<ol>
+  <li>May spawn in two locations in the Laboratory:</li>
+  <li>On the table between the glass door of the Key Room and the facility entrance.</li>
+  <li>On the table in the small room at the bottom left of the map (to the left of the extraction point).</li>
+  <li><strong>PS:</strong> This card also drops from defeating the Mysterious Merchant in Farm Town. You can sneak attack him from behind the shipping container to his left.</li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Purple Cards</strong></h3>
+
+<ol>
+  <li>May spawn in the small house to the right of the Lumberyard in Farm Town.</li>
+</ol>
+
+<p style="margin: 1em 0px;">
+  <img src="/images/guide/guide07-02.webp" alt="J-Lab Access Card (Purple)">
+</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;"><strong>Scouting and Development Strategy</strong></h2>
+
+<p style="margin: 1em 0px;">For maximum efficiency, follow this route:</p>
+
+<ol>
+  <li><strong>Start in Farm Town → Hidden Mine</strong></li>
+  <li>While collecting loot and supplies, repeatedly search for J-Lab 1 cards, stocking up on at least 5-10.</li>
+  <li><strong>Complete the "Duplicate Pass" quest.</strong></li>
+  <li>Unlock Xiao Ming's shop to ensure a sustainable supply of J-Lab 1 cards.</li>
+  <li><strong>Repeat J-Lab B1.</strong></li>
+  <li>Focus on clearing enemies to obtain J-Lab 2 cards. Each complete clear increases your chances of receiving a rare drop.</li>
+  <li><strong>Revisit Farm Town periodically.</strong></li>
+  <li>Regularly check the Lumberyard, the Mysterious Merchant, and boss spawn points for purple, yellow, and other colored cards.</li>
+  <li><strong>Save Premium Cards</strong></li>
+  <li>Use colored cards only after you've identified your target room and are fully prepared. These cards are extremely valuable, so plan your exploration carefully.</li>
+</ol>
+
+<p style="margin: 1em 0px;">
+  Collecting all the J-Lab cards in Escape from Duckov requires patience and consistent exploration.
+  While the basic cards can be easily replenished, the vibrantly colored premium cards are reserved for players who truly delve into the game world—exploring every corner, raiding every bunker, and piecing together scattered clues.
+  Good luck!
+</p>
+
+        `,
     }
+
+
+    //   {
+    //     id: 5,
+    //     title: '',
+    //     description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
+    //     imageUrl: '/images/guide-05.webp',
+    //     imageAlt: 'Storm Zone Access & Roadblock Boss Guide',
+    //     publishDate: '2025-10-27',
+    //     addressBar: '/storm-zone-access-roadblock-boss-guide',
+    //     category: 'advanced',
+    //     tags: ['STORM ZONE', 'BOSS FIGHT', 'CERTIFICATE FARMING', 'ENDGAME CONTENT', 'SURVIVAL'],
+    //     seo: {
+    //         title: 'Storm Zone Access & Roadblock Boss Guide - Escape from Duckov',
+    //         description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
+    //         keywords: 'Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy',
+    //     },
+    //   }
 ]

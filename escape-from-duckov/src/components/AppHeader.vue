@@ -3,7 +3,8 @@
     <div class="container">
       <nav class="navbar">
         <div class="logo">
-          <h1>Escape from Duckov</h1>
+          <img src="/images/logo.png" alt="Escape from Duckov" class="logo-image">
+          <span class="logo-text">Escape from Duckov</span>
         </div>
         <ul class="nav-links">
           <li><a href="/">Home</a></li>
@@ -60,7 +61,18 @@ onUnmounted(() => {
   padding: 16px 0;
 }
 
-.logo h1 {
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-text {
   font-size: 1.25rem;
   color: var(--text-heading);
   font-weight: 700;
