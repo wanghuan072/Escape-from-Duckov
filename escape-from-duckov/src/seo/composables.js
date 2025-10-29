@@ -21,10 +21,12 @@ export function useSEO() {
 
     // 设置页面SEO数据
     const setSEO = (seoData) => {
+        console.log('🔧 setSEO被调用:', seoData)
         currentSEO.value = {
             ...seoConfig.defaults,
             ...seoData
         }
+        console.log('📝 当前SEO值:', currentSEO.value)
         updateMetaTags()
     }
 
@@ -65,13 +67,19 @@ export function useSEO() {
     const updateMetaTag = (name, content, attribute = 'name') => {
         if (!content) return
 
+        // 查找现有标签
         let tag = document.querySelector(`meta[${attribute}="${name}"]`)
-        if (!tag) {
+        
+        if (tag) {
+            // 如果标签存在，直接更新content
+            tag.setAttribute('content', content)
+        } else {
+            // 如果标签不存在，创建新标签
             tag = document.createElement('meta')
             tag.setAttribute(attribute, name)
+            tag.setAttribute('content', content)
             document.head.appendChild(tag)
         }
-        tag.setAttribute('content', content)
     }
 
     // 更新Canonical链接
@@ -165,8 +173,11 @@ export function useAutoSEO() {
     
     // 处理SEO的函数
     const handleSEO = async () => {
+        console.log('🔄 SEO更新触发:', route.path, route.name)
+        
         // 获取路由中的SEO信息
         const seoData = route.meta?.seo || {}
+        console.log('📊 路由SEO数据:', seoData)
         
         // 处理动态内容（指南详情页和模组详情页）
         let finalSEOData = {
@@ -177,6 +188,8 @@ export function useAutoSEO() {
             image: seoConfig.defaults.image,
             type: seoData.type || seoConfig.defaults.type
         }
+        
+        console.log('🎯 最终SEO数据:', finalSEOData)
         
         // 如果是动态路由，需要从数据中获取实际内容
         if (route.name === 'guide-detail' || route.name === 'mod-detail') {
@@ -217,10 +230,10 @@ export function useAutoSEO() {
     
     // 监听路由变化
     watch(
-        () => route.path,
+        () => route,
         () => {
             handleSEO()
         },
-        { immediate: true } // 立即执行一次
+        { immediate: true, deep: true } // 立即执行一次，深度监听
     )
 }
