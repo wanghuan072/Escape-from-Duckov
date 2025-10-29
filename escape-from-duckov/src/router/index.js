@@ -23,9 +23,9 @@ const router = createRouter({
       component: HomeView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Guide & Community | duckovgame.com',
-          description: 'Complete Escape from Duckov survival guide with maps, mods, quests, and strategies. Expert tips for beginners and advanced players.',
-          keywords: 'Escape from Duckov, survival guide, game maps, mods, quests, strategies, tips',
+          title: 'Escape from Duckov Wiki & Guides | Maps, Quests, Weapons',
+          description: 'Explore the ultimate Escape from Duckov hub — detailed guides, quests, maps, weapons, bosses, and survival strategies. Stay updated with all game mechanics and tips.',
+          keywords: 'Escape from Duckov, game wiki, maps, quests, weapons, bosses, skills, survival guide, tips, updates',
           type: 'website'
         }
       }
@@ -36,9 +36,9 @@ const router = createRouter({
       component: GuideView,
       meta: {
         seo: {
-          title: 'Strategy Guides & Walkthroughs | duckovgame.com',
-          description: 'Master Escape from Duckov with expert guides. Learn survival tactics, combat strategies, and advanced gameplay techniques.',
-          keywords: 'Escape from Duckov guides, survival strategies, combat tips, gameplay tactics, walkthrough',
+          title: 'Escape from Duckov Guides | Survival & Combat Tips',
+          description: 'Master Escape from Duckov with our complete guide collection. Learn beginner strategies, combat tactics, survival tips, and pro walkthroughs to conquer every mission.',
+          keywords: 'Escape from Duckov guides, walkthroughs, combat tips, survival strategies, gameplay tactics, pro tips',
           type: 'website'
         }
       }
@@ -49,7 +49,7 @@ const router = createRouter({
       component: GuideDetailView,
       meta: {
         seo: {
-          title: 'Detailed Strategy Guide | duckovgame.com',
+          title: 'Escape from Duckov Guide | duckovgame.com',
           description: 'Detailed Escape from Duckov strategy guide with expert tips, step-by-step instructions, and advanced techniques.',
           keywords: 'Escape from Duckov guide, strategy tips, gameplay tactics, survival techniques',
           type: 'article'
@@ -62,9 +62,9 @@ const router = createRouter({
       component: WikiView,
       meta: {
         seo: {
-          title: 'Game Wiki & Database | duckovgame.com',
-          description: 'Complete Escape from Duckov wiki with quest guides, collectible database, and comprehensive game information.',
-          keywords: 'Escape from Duckov wiki, quest database, collectibles, game information, lore',
+          title: 'Escape from Duckov Wiki | Complete Database of Maps, Weapons & Quests',
+          description: 'Access the full Escape from Duckov Wiki — your source for maps, weapons, quests, bosses, skills, and game mechanics. Discover everything about Duckov’s survival world.',
+          keywords: 'Escape from Duckov wiki, maps, weapons, quests, bosses, skills, survival database, game info, items',
           type: 'website'
         }
       }
@@ -75,9 +75,9 @@ const router = createRouter({
       component: MapsView,
       meta: {
         seo: {
-          title: 'Interactive Zone Maps | duckovgame.com',
-          description: 'Explore all Escape from Duckov zones with interactive maps. Find loot locations, extraction points, and strategic positions.',
-          keywords: 'Escape from Duckov maps, zone layouts, loot locations, extraction points, interactive maps',
+          title: 'Escape from Duckov Maps | All Locations, Zones & Extraction Points',
+          description: 'Explore every area in Escape from Duckov with our interactive maps. Find loot zones, extraction points, safe routes, and secret locations to master your survival runs.',
+          keywords: 'Escape from Duckov maps, locations, zones, extraction points, loot areas, survival routes, map guide',
           type: 'website'
         }
       }
@@ -88,9 +88,9 @@ const router = createRouter({
       component: ModsView,
       meta: {
         seo: {
-          title: 'Community Mods & Enhancements | duckovgame.com',
-          description: 'Enhance your Escape from Duckov experience with community mods. Utility tools, UI improvements, and gameplay enhancements.',
-          keywords: 'Escape from Duckov mods, community modifications, utility tools, UI enhancements, gameplay tweaks',
+          title: 'Escape from Duckov Mods | Best Custom Weapons, Maps & Gameplay Tweaks',
+          description: 'Discover the best Escape from Duckov mods — new weapons, custom maps, enhanced visuals, and gameplay tweaks. Upgrade your survival experience with community creations.',
+          keywords: 'Escape from Duckov mods, custom weapons, map mods, gameplay tweaks, visual mods, community content',
           type: 'website'
         }
       }
@@ -101,9 +101,9 @@ const router = createRouter({
       component: ModDetailView,
       meta: {
         seo: {
-          title: 'Mod Download & Installation | duckovgame.com',
-          description: 'Download Escape from Duckov community modification with installation guide and detailed feature descriptions.',
-          keywords: 'Escape from Duckov mod, community modification, download, installation guide, features',
+          title: 'Escape from Duckov Mods | Best Custom Weapons, Maps & Gameplay Tweaks',
+          description: 'Discover the best Escape from Duckov mods — new weapons, custom maps, enhanced visuals, and gameplay tweaks. Upgrade your survival experience with community creations.',
+          keywords: 'Escape from Duckov mods, custom weapons, map mods, gameplay tweaks, visual mods, community content',
           type: 'article'
         }
       }
@@ -114,9 +114,9 @@ const router = createRouter({
       component: NotesView,
       meta: {
         seo: {
-          title: 'Collectible Notes Guide (56 Notes) | duckovgame.com',
-          description: 'Complete guide to all 56 collectible notes in Escape from Duckov. Find exact locations and collection strategies.',
-          keywords: 'Escape from Duckov notes, collectible guide, note locations, collection strategies, 56 notes',
+          title: 'Escape from Duckov Notes | All Collectible Notes Locations & Guide',
+          description: 'Complete Escape from Duckov Notes guide featuring all collectible notes, their exact map locations, lore details, and collection tips for every region.',
+          keywords: 'Escape from Duckov notes, collectible notes, item locations, lore guide, collection tips, map locations, note list',
           type: 'website'
         }
       }
@@ -127,9 +127,9 @@ const router = createRouter({
       component: QuestsView,
       meta: {
         seo: {
-          title: 'Complete Quest Database (790+ Quests) | duckovgame.com',
-          description: 'Complete guide to all 790+ Escape from Duckov quests. Track objectives, rewards, and completion strategies.',
-          keywords: 'Escape from Duckov quests, mission guide, quest objectives, rewards, completion strategies',
+          title: 'Escape from Duckov Quests | Full Mission Database',
+          description: 'Explore all quests in Escape from Duckov. Track objectives, rewards, task chains, and completion routes with this ultimate quest database and mission guide.',
+          keywords: 'Escape from Duckov quests, mission database, task list, quest objectives, rewards, mission guide, completion routes',
           type: 'website'
         }
       }

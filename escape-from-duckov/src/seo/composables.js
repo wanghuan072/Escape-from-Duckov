@@ -21,12 +21,10 @@ export function useSEO() {
 
     // 设置页面SEO数据
     const setSEO = (seoData) => {
-        console.log('🔧 setSEO被调用:', seoData)
         currentSEO.value = {
             ...seoConfig.defaults,
             ...seoData
         }
-        console.log('📝 当前SEO值:', currentSEO.value)
         updateMetaTags()
     }
 
@@ -173,11 +171,8 @@ export function useAutoSEO() {
     
     // 处理SEO的函数
     const handleSEO = async () => {
-        console.log('🔄 SEO更新触发:', route.path, route.name)
-        
         // 获取路由中的SEO信息
         const seoData = route.meta?.seo || {}
-        console.log('📊 路由SEO数据:', seoData)
         
         // 处理动态内容（指南详情页和模组详情页）
         let finalSEOData = {
@@ -188,8 +183,6 @@ export function useAutoSEO() {
             image: seoConfig.defaults.image,
             type: seoData.type || seoConfig.defaults.type
         }
-        
-        console.log('🎯 最终SEO数据:', finalSEOData)
         
         // 如果是动态路由，需要从数据中获取实际内容
         if (route.name === 'guide-detail' || route.name === 'mod-detail') {
