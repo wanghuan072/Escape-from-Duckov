@@ -20,7 +20,7 @@
                         <a href="https://store.steampowered.com" class="btn btn-steam" target="_blank">
                             <div class="icon">
                                 <svg t="1761617030408" class="icon" viewBox="0 0 1024 1024" version="1.1"
-                                    xmlns="http://www.w3.org/2000/svg" p-id="4538" width="200" height="200">
+                                    xmlns="http://www.w3.org/2000/svg" p-id="4538" width="30" height="30">
                                     <path
                                         d="M511.104 0C242.261333 0 21.802667 207.36 0.938667 470.912l274.432 113.408a144.512 144.512 0 0 1 81.578666-25.173333c2.688 0 5.333333 0.170667 8.021334 0.256l122.069333-176.725334V380.16a193.194667 193.194667 0 0 1 193.024-193.024c106.410667 0 193.024 86.656 193.024 193.152s-86.613333 193.066667-193.024 193.066667h-4.48l-173.909333 124.202666c0 2.218667 0.170667 4.48 0.170666 6.784a144.725333 144.725333 0 0 1-144.64 144.896 145.578667 145.578667 0 0 1-142.122666-116.352L18.602667 651.52C79.445333 866.432 276.736 1024 511.104 1024c282.752 0 511.957333-229.248 511.957333-512S793.813333 0 511.104 0zM321.706667 776.96l-62.848-26.026667c11.178667 23.168 30.464 42.624 56.064 53.333334a108.842667 108.842667 0 0 0 142.378666-141.824 108.672 108.672 0 0 0-138.88-60.288l64.981334 26.88a80.128 80.128 0 0 1-61.653334 147.925333H321.706667z m487.04-396.928a128.810667 128.810667 0 0 0-128.64-128.64 128.64 128.64 0 1 0 128.64 128.64z m-224.981334-0.213333a96.597333 96.597333 0 1 1 193.322667 0 96.725333 96.725333 0 0 1-96.682667 96.64 96.597333 96.597333 0 0 1-96.64-96.64z"
                                         fill="#ffffff" p-id="4539"></path>
@@ -297,74 +297,78 @@
                                 <h3>Languages</h3>
                             </div>
                             <div class="language-table">
-                                <div class="table-header">
-                                    <span class="col-language">Language</span>
-                                    <span class="col-interface">Interface</span>
-                                    <span class="col-audio">Full Audio</span>
-                                    <span class="col-subtitles">Subtitles</span>
-                                </div>
-                                <div class="table-body">
-                                    <div class="table-row">
-                                        <span class="col-language">Simplified Chinese</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                    <div class="table-row">
-                                        <span class="col-language">English</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                    <div class="table-row">
-                                        <span class="col-language">Traditional Chinese</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                    <div class="table-row">
-                                        <span class="col-language">Japanese</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                    <div class="table-row">
-                                        <span class="col-language">German</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                    <div class="table-row">
-                                        <span class="col-language">Russian</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                    <div class="table-row">
-                                        <span class="col-language">Spanish - Latin America</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                    <div class="table-row">
-                                        <span class="col-language">Korean</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                    <div class="table-row">
-                                        <span class="col-language">French</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                    <div class="table-row">
-                                        <span class="col-language">Portuguese - Brazil</span>
-                                        <span class="col-interface">✓</span>
-                                        <span class="col-audio"></span>
-                                        <span class="col-subtitles">✓</span>
-                                    </div>
-                                </div>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th class="col-language">Language</th>
+                                            <th class="col-interface">Interface</th>
+                                            <th class="col-audio">Full Audio</th>
+                                            <th class="col-subtitles">Subtitles</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="col-language">Simplified Chinese</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-language">English</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-language">Traditional Chinese</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-language">Japanese</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-language">German</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-language">Russian</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-language">Spanish - Latin America</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-language">Korean</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-language">French</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-language">Portuguese - Brazil</td>
+                                            <td class="col-interface">✓</td>
+                                            <td class="col-audio"></td>
+                                            <td class="col-subtitles">✓</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -582,10 +586,6 @@ section {
     margin: 0 auto;
 }
 
-.hero-text {
-    padding-right: 24px;
-}
-
 .hero-title {
     font-size: 3rem;
     font-weight: 700;
@@ -603,6 +603,7 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    padding: 0 3px;
 }
 
 .hero-subtitle {
@@ -769,7 +770,6 @@ section {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--text-heading);
-    margin-bottom: 8px;
 }
 
 /* What is Section */
@@ -849,7 +849,7 @@ section {
 
 .maps-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
     margin-bottom: 32px;
 }
@@ -1068,58 +1068,44 @@ section {
     border: 1px solid var(--border-color);
 }
 
-.table-header {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    background: rgba(250, 147, 23, 0.1);
-    border-bottom: 1px solid var(--border-color);
+.language-table table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-.table-header span {
+.language-table th {
     padding: 12px 16px;
     font-weight: 600;
     color: var(--text-heading);
     font-size: 0.9rem;
     text-align: center;
+    background: rgba(250, 147, 23, 0.1);
+    border-bottom: 1px solid var(--border-color);
 }
 
-.col-language {
-    text-align: left !important;
+.language-table th.col-language {
+    text-align: left;
 }
 
-.table-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.table-row {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    transition: background 0.3s ease;
-}
-
-.table-row:last-child {
-    border-bottom: none;
-}
-
-.table-row:hover {
-    background: rgba(250, 147, 23, 0.05);
-}
-
-.table-row span {
+.language-table td {
     padding: 12px 16px;
     color: var(--text-primary);
     font-size: 0.9rem;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease;
 }
 
-.table-row .col-language {
+.language-table td.col-language {
     text-align: left;
-    justify-content: flex-start;
+}
+
+.language-table tr:hover td {
+    background: rgba(250, 147, 23, 0.05);
+}
+
+.language-table tr:last-child td {
+    border-bottom: none;
 }
 
 .col-interface,
@@ -1194,7 +1180,7 @@ section {
 
 .guides-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
 }
 
@@ -1257,17 +1243,10 @@ section {
     box-shadow: 0 8px 32px rgba(250, 147, 23, 0.2);
 }
 
-/* Reviews Section */
-.reviews-section {
-    padding: 80px 0;
-}
-
 .reviews-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .review-card {
@@ -1286,6 +1265,12 @@ section {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 16px;
+}
+
+.review-content p{
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
 }
 
 .reviewer-info {
@@ -1330,8 +1315,6 @@ section {
     color: #ffd700;
     font-size: 0.9rem;
 }
-
-
 
 /* Animations */
 @keyframes letterReveal {
@@ -1380,14 +1363,6 @@ section {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-
-
-
-/* Hideout Section */
-.hideout-section {
-    padding: 80px 0;
 }
 
 .guides-grid {
@@ -1482,28 +1457,303 @@ section {
     letter-spacing: 1px;
 }
 
+/* Mobile Responsive Styles (≤768px) */
 @media (max-width: 768px) {
+    /* Typography - Mobile Font Sizes */
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 24px;
+        margin-bottom: 10px;
     }
 
+    .hero-title span{
+        padding: 0;
+    }
+    
+    .section-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
     .hero-subtitle {
-        font-size: 1.125rem;
+        font-size: 12px;
+        margin-bottom: 10px;
     }
-
-    .game-info-content {
-        grid-template-columns: 1fr;
-        gap: 32px;
+    
+    .what-is-description p {
+        font-size: 12px;
+        margin-bottom: 10px;
     }
-
-    .single-player-content {
+    
+    .section-subtitle {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    /* Section Spacing */
+    section {
+        padding: 20px 0;
+    }
+    
+    .hero {
+        padding: 20px 0;
+    }
+    
+    
+    /* Hero Section Layout */
+    .hero-content {
         grid-template-columns: 1fr;
+        gap: 20px;
         text-align: center;
     }
+    
+    /* What is Section Layout */
+    .what-is-content {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
 
+    .what-is-text .section-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    /* Maps Section Layout */
+    .maps-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .map-content {
+        padding: 10px;
+    }
+
+    .map-content h3{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .map-content p {
+        font-size: 12px;
+    }
+    
+    /* Guides Section Layout */
+    .guides-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .guide-content {
+        padding: 10px;
+    }
+    
+    .guide-content h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .guide-content p {
+        font-size: 12px;
+    }
+
+    .guide-card{
+        padding: 20px;
+    }
+    
+    .guide-card h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .guide-card p {
+        font-size: 12px;
+    }
+    
+    /* Game Info Section Layout */
+    .game-info-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .info-card,
+    .requirements-card {
+        padding: 10px;
+    }
+    
+    .info-header h3 {
+        font-size: 16px;
+    }
+    
+    .req-header h3 {
+        font-size: 16px;
+    }
+    
+    .info-item {
+        padding: 5px 10px;
+        gap: 5px;
+    }
+    
+    .item-label {
+        font-size: 12px;
+    }
+    
+    .item-value {
+        font-size: 12px;
+    }
+    
+    /* Reviews Section Layout */
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .review-card {
+        padding: 16px;
+    }
+    
+    .reviewer-details h4 {
+        font-size: 14px;
+    }
+    
+    .review-text {
+        font-size: 12px;
+    }
+
+    .review-content p{
+        font-size: 12px;
+    }
+    
+    /* FAQ Section Layout */
+    .faq-list {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .faq-item {
+        padding: 16px;
+    }
+    
+    .faq-item h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .faq-item p {
+        font-size: 12px;
+    }
+    
+    /* Button Adjustments */
+    .btn-primary {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+    
+    .btn-steam {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    .btn-steam .icon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* Video Player Adjustments */
+    .video-info {
+        padding: 10px;
+    }
+    
+    .video-header {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    
+    .video-label {
+        font-size: 12px;
+    }
+
+    .video-footer{
+        padding-top: 10px;
+    }
+
+    .play-button{
+        width: 50px;
+        height: 50px;
+    }
+
+    .play-icon{
+        font-size: 16px;
+    }
+    
+    /* Stats Section */
     .stats {
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    
+    .stat-item h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    
+    .stat-item p {
+        font-size: 12px;
+    }
+    
+    /* Language Table */
+    .language-table th,
+    .language-table td {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    
+    .language-table {
+        overflow-x: auto;
+    }
+    
+    /* Feature Cards */
+    .feature-card h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .feature-card p {
+        font-size: 12px;
+    }
+    
+    /* Legacy Cards */
+    .legacy-card h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .legacy-card p {
+        font-size: 12px;
+    }
+    
+    /* World Cards */
+    .world-card h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .world-card p {
+        font-size: 12px;
+    }
+    
+    /* Hideout Cards */
+    .hideout-card h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .hideout-card p {
+        font-size: 12px;
     }
 }
+
 </style>

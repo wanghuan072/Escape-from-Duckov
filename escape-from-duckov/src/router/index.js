@@ -6,8 +6,8 @@ import MapsView from '../views/MapsView.vue'
 import ModsView from '../views/ModsView.vue'
 import ModDetailView from '../views/ModDetailView.vue'
 import WikiView from '../views/wiki/WikiView.vue'
-import NotesView from '../views/wiki/NotesView.vue'
 import QuestsView from '../views/wiki/QuestsView.vue'
+import WikiDetailView from '../views/wiki/WikiDetailView.vue'
 import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
 import TermsOfServiceView from '../views/TermsOfServiceView.vue'
 import CopyrightView from '../views/CopyrightView.vue'
@@ -109,19 +109,6 @@ const router = createRouter({
       }
     },
     {
-      path: '/escape-from-duckov-notes',
-      name: 'notes',
-      component: NotesView,
-      meta: {
-        seo: {
-          title: 'Escape from Duckov Notes | All Collectible Notes Locations & Guide',
-          description: 'Complete Escape from Duckov Notes guide featuring all collectible notes, their exact map locations, lore details, and collection tips for every region.',
-          keywords: 'Escape from Duckov notes, collectible notes, item locations, lore guide, collection tips, map locations, note list',
-          type: 'website'
-        }
-      }
-    },
-    {
       path: '/escape-from-duckov-quests',
       name: 'quests',
       component: QuestsView,
@@ -131,6 +118,19 @@ const router = createRouter({
           description: 'Explore all quests in Escape from Duckov. Track objectives, rewards, task chains, and completion routes with this ultimate quest database and mission guide.',
           keywords: 'Escape from Duckov quests, mission database, task list, quest objectives, rewards, mission guide, completion routes',
           type: 'website'
+        }
+      }
+    },
+    {
+      path: '/wiki/:category/:id',
+      name: 'wiki-detail',
+      component: WikiDetailView,
+      meta: {
+        seo: {
+          title: 'Wiki Detail | duckovgame.com',
+          description: 'Detailed wiki information for Escape from Duckov.',
+          keywords: 'Escape from Duckov, wiki, game information, detailed guide',
+          type: 'article'
         }
       }
     },

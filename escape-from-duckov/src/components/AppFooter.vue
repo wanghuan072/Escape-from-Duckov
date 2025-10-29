@@ -127,14 +127,30 @@
 }
 
 @media (max-width: 768px) {
-  .footer-content {
-    grid-template-columns: 1fr;
-    gap: 32px;
+  .app-footer{
+    padding: 20px 0 10px;
   }
-  
-  .footer-links {
+  .footer-content{
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 10px;
+  }
+  .link-column h4{
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .link-column ul li{
+    margin-bottom: 5px;
+    line-height: 20px;
+  }
+  .link-column ul li a{
+    font-size: 12px;
+  }
+  .footer-bottom p{
+    font-size: 12px;
+  }
+  .copyright{
+    font-size: 12px;
   }
 }
+
 </style>

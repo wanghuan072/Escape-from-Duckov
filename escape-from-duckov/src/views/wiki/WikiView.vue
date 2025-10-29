@@ -20,13 +20,6 @@
                         </div>
                         <h3 class="card-title">Quests</h3>
                     </a>
-
-                    <a href="/escape-from-duckov-notes" class="article-card">
-                        <div class="card-image-container">
-                            <img src="/images/wiki-02.webp" alt="Notes" class="card-image" />
-                        </div>
-                        <h3 class="card-title">Notes</h3>
-                    </a>
                 </div>
             </section>
         </div>
