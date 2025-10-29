@@ -71,7 +71,6 @@ const goToQuestDetail = (quest) => {
 .page-subtitle {
     font-size: 1.125rem;
     color: var(--text-primary);
-    margin-bottom: 8px;
     line-height: 1.6;
 }
 
@@ -188,54 +187,75 @@ const goToQuestDetail = (quest) => {
     line-height: 1.5;
 }
 
+/* Medium screens (≤1024px) */
 @media (max-width: 1024px) {
-    .rewards-col {
-        min-width: 250px;
-    }
-    
-    .npc-col {
-        width: 100px;
-    }
-    
-    .quest-name-col {
-        width: 150px;
-    }
-}
-
-@media (max-width: 768px) {
-    .page-title {
-        font-size: 1.75rem;
-    }
-
-    .page-subtitle {
-        font-size: 1rem;
-    }
-
-    .quests-table th,
-    .quests-table td {
-        padding: 8px 6px;
-        font-size: 0.8rem;
-    }
-
-    .npc-col {
-        width: 80px;
-    }
-
-    .quest-name-col {
-        width: 120px;
-    }
-
     .rewards-col {
         min-width: 200px;
     }
     
-    .npc-image {
-        width: 30px;
-        height: 30px;
+    .npc-col {
+        width: 80px;
+    }
+    
+    .quest-name-col {
+        width: 120px;
+    }
+    
+    .quests-table th,
+    .quests-table td {
+        padding: 12px 8px;
+        font-size: 0.85rem;
+    }
+}
+
+/* Mobile screens (≤768px) */
+@media (max-width: 768px) {
+    /* Typography - Mobile Font Sizes */
+    .page-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .page-subtitle {
+        font-size: 12px;
+    }
+    
+    .quest-name-cell {
+        font-size: 12px;
     }
     
     .reward-item {
-        font-size: 0.8rem;
+        font-size: 12px;
+    }
+
+    /* Layout Adjustments */
+    .quests-table th,
+    .quests-table td {
+        padding: 6px 4px;
+        font-size: 12px;
+    }
+
+    .npc-col {
+        width: 60px;
+    }
+
+    .quest-name-col {
+        width: 100px;
+    }
+
+    .rewards-col {
+        min-width: 150px;
+    }
+    
+    .npc-image {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .reward-item {
+        font-size: 12px;
+        margin-bottom: 2px;
+        padding-left: 6px;
     }
 }
 </style>

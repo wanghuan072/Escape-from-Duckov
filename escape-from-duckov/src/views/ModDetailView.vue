@@ -53,8 +53,45 @@
         <!-- Mod Content -->
         <section class="mod-content">
             <div class="container">
-                <div class="content-wrapper">
-                    <article class="detail-article" v-html="mod?.detailsHtml"></article>
+                <div class="content-layout">
+                    <!-- Left Content -->
+                    <div class="left-content">
+                        <article class="detail-article" v-html="mod?.detailsHtml"></article>
+                    </div>
+
+                    <!-- Right Sidebar -->
+                    <div class="right-sidebar">
+                        <div class="mod-info-box">
+                            <div class="info-box-header">
+                                <h3 class="info-box-title">{{ mod?.title }}</h3>
+                            </div>
+
+                            <div class="mod-category-info">
+                                <div class="category-badge">{{ mod?.category?.toUpperCase() }}</div>
+                            </div>
+
+                            <div class="mod-meta">
+                                <div class="meta-item">
+                                    <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="12" cy="7" r="4"/>
+                                    </svg>
+                                    <span class="meta-text">by {{ mod?.author }}</span>
+                                </div>
+                                <div class="meta-item">
+                                    <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <polyline points="12,6 12,12 16,14"/>
+                                    </svg>
+                                    <span class="meta-text">{{ formatDate(mod?.publishDate) }}</span>
+                                </div>
+                            </div>
+
+                            <div class="mod-tags">
+                                <span v-for="tag in mod?.tags" :key="tag" class="tag">{{ tag }}</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -92,7 +129,7 @@ const formatDate = (dateString) => {
 
 /* Mod Detail Header */
 .mod-detail-header {
-    padding: 120px 0 80px;
+    padding: 80px 0 40px;
 }
 
 .breadcrumb {
@@ -137,9 +174,20 @@ const formatDate = (dateString) => {
     font-weight: 500;
 }
 
-.mod-detail-content {
-    max-width: 800px;
+/* Content Layout */
+.content-layout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 40px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.left-content {
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid var(--border-color);
 }
 
 .mod-category {
@@ -160,22 +208,18 @@ const formatDate = (dateString) => {
 }
 
 .mod-detail-title {
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--text-heading);
-    margin-bottom: 24px;
-    line-height: 1.1;
-    background: linear-gradient(135deg, var(--text-heading) 0%, #FA9317 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    margin-bottom: 16px;
+    line-height: 1.2;
 }
 
 .mod-detail-description {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: var(--text-secondary);
     line-height: 1.6;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .mod-detail-meta {
@@ -203,6 +247,7 @@ const formatDate = (dateString) => {
 }
 
 .mod-tags {
+    padding: 16px;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -226,30 +271,153 @@ const formatDate = (dateString) => {
 
 /* Mod Content */
 .mod-content {
-    padding: 80px 0;
+    padding: 0 0 80px;
 }
 
-.content-wrapper {
-    max-width: 900px;
-    margin: 0 auto;
+/* Right Sidebar */
+.right-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.mod-info-box {
+    background-color: var(--bg-card);
+    border: 2px solid #FA9317;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.info-box-header {
+    background-color: #FA9317;
+    padding: 16px;
+}
+
+.info-box-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--bg-primary);
+    margin: 0;
+    text-align: center;
+}
+
+.mod-category-info {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.mod-meta {
+    padding: 16px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.mod-meta .meta-item {
+    margin-bottom: 12px;
+}
+
+.mod-meta .meta-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Medium screens (≤1024px) */
+@media (max-width: 1024px) {
+    .content-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .right-sidebar {
+        order: -1;
+    }
+    
+    .mod-info-box {
+        max-width: 400px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
     .mod-detail-title {
-        font-size: 2.5rem;
+        font-size: 24px;
+        margin-bottom: 10px;
     }
-    
+
     .mod-detail-description {
-        font-size: 1.1rem;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .mod-detail-meta{
+        gap: 10px;
+        margin-bottom: 10px;
     }
     
-    .mod-article {
-        padding: 32px 24px;
+    .category-badge {
+        font-size: 12px;
+        padding: 4px 12px;
     }
     
-    .mod-detail-meta {
-        flex-direction: column;
-        gap: 16px;
+    .meta-text {
+        font-size: 12px;
+    }
+    
+    .tag {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+    
+    .breadcrumb {
+        font-size: 12px;
+        gap: 8px;
+    }
+    
+    .breadcrumb-link {
+        font-size: 12px;
+    }
+    
+    .breadcrumb-icon,
+    .breadcrumb-arrow {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .mod-detail-header {
+        padding: 20px 0;
+    }
+    
+    .mod-content {
+        padding: 20px 0;
+    }
+    
+    .left-content {
+        padding: 10px;
+    }
+    
+    .content-layout {
+        gap: 10px;
+    }
+    
+    .right-sidebar {
+        gap: 10px;
+    }
+    
+    .mod-info-box {
+        max-width: 100%;
+    }
+    
+    .info-box-header {
+        padding: 10px;
+    }
+    
+    .info-box-title {
+        font-size: 16px;
+    }
+    
+    .mod-category-info,
+    .mod-meta,
+    .mod-tags {
+        padding: 10px;
     }
 }
 </style>

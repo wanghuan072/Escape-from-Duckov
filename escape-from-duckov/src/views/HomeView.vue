@@ -155,31 +155,26 @@
                     treacherous Ground Zero.</p>
                 <div class="maps-grid">
                     <div class="map-card card">
-                        <a href="/maps">
-                            <div class="map-image">
-                                <img src="/images/map-01.webp" alt="Ground Zero" class="map-screenshot">
-                            </div>
-                            <div class="map-content">
-                                <h3>Ground Zero</h3>
-                                <p>The heart of the cataclysm. Highest risk, highest reward.</p>
-                            </div>
-                        </a>
-
+                        <div class="map-image">
+                            <img src="/images/map-01.webp" alt="Ground Zero" class="map-screenshot">
+                        </div>
+                        <div class="map-content">
+                            <h3>Ground Zero</h3>
+                            <p>The heart of the cataclysm. Highest risk, highest reward.</p>
+                        </div>
                     </div>
                     <div class="map-card card">
-                        <a href="/maps">
-                            <div class="map-image">
-                                <img src="/images/map-02.webp" alt="Warehouse District" class="map-screenshot">
-                            </div>
-                            <div class="map-content">
-                                <h3>Warehouse District</h3>
-                                <p>Abandoned factories and storage facilities filled with guarded loot.</p>
-                            </div>
-                        </a>
+                        <div class="map-image">
+                            <img src="/images/map-02.webp" alt="Warehouse District" class="map-screenshot">
+                        </div>
+                        <div class="map-content">
+                            <h3>Warehouse District</h3>
+                            <p>Abandoned factories and storage facilities filled with guarded loot.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary">View All Maps →</a>
+                    <a href="/maps" class="btn btn-primary">View All Maps →</a>
                 </div>
             </div>
         </section>
@@ -199,15 +194,6 @@
                         <div class="guide-content">
                             <h3>Quests</h3>
                             <p>Complete your missions and track progress through all available quests.</p>
-                        </div>
-                    </a>
-                    <a href="/escape-from-duckov-notes" class="guide-card-link card">
-                        <div class="guide-image">
-                            <img src="/images/wiki-02.webp" alt="Notes Guide" class="guide-img">
-                        </div>
-                        <div class="guide-content">
-                            <h3>Notes</h3>
-                            <p>Collect all 56 notes scattered throughout the dangerous territories.</p>
                         </div>
                     </a>
                 </div>
@@ -251,7 +237,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary">View All Guides →</a>
+                    <a href="/guides" class="btn btn-primary">View All Guides →</a>
                 </div>
             </div>
         </section>
@@ -1267,7 +1253,7 @@ section {
     margin-bottom: 16px;
 }
 
-.review-content p{
+.review-content p {
     font-size: 14px;
     color: var(--text-secondary);
     line-height: 1.6;
@@ -1459,53 +1445,54 @@ section {
 
 /* Mobile Responsive Styles (≤768px) */
 @media (max-width: 768px) {
+
     /* Typography - Mobile Font Sizes */
     .hero-title {
         font-size: 24px;
         margin-bottom: 10px;
     }
 
-    .hero-title span{
+    .hero-title span {
         padding: 0;
     }
-    
+
     .section-title {
         font-size: 20px;
         margin-bottom: 10px;
     }
-    
+
     .hero-subtitle {
         font-size: 12px;
         margin-bottom: 10px;
     }
-    
+
     .what-is-description p {
         font-size: 12px;
         margin-bottom: 10px;
     }
-    
+
     .section-subtitle {
         font-size: 12px;
         margin-bottom: 10px;
     }
-    
+
     /* Section Spacing */
     section {
         padding: 20px 0;
     }
-    
+
     .hero {
         padding: 20px 0;
     }
-    
-    
+
+
     /* Hero Section Layout */
     .hero-content {
         grid-template-columns: 1fr;
         gap: 20px;
         text-align: center;
     }
-    
+
     /* What is Section Layout */
     .what-is-content {
         grid-template-columns: 1fr;
@@ -1514,23 +1501,23 @@ section {
         margin-bottom: 10px;
     }
 
-    .what-is-text .section-title{
+    .what-is-text .section-title {
         font-size: 20px;
         margin-bottom: 10px;
     }
-    
+
     /* Maps Section Layout */
     .maps-grid {
         grid-template-columns: 1fr;
         gap: 10px;
         margin-bottom: 20px;
     }
-    
+
     .map-content {
         padding: 10px;
     }
 
-    .map-content h3{
+    .map-content h3 {
         font-size: 16px;
         margin-bottom: 5px;
     }
@@ -1538,222 +1525,221 @@ section {
     .map-content p {
         font-size: 12px;
     }
-    
+
     /* Guides Section Layout */
     .guides-grid {
         grid-template-columns: 1fr;
         gap: 10px;
         margin-bottom: 20px;
     }
-    
+
     .guide-content {
         padding: 10px;
     }
-    
+
     .guide-content h3 {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     .guide-content p {
         font-size: 12px;
     }
 
-    .guide-card{
+    .guide-card {
         padding: 20px;
     }
-    
+
     .guide-card h3 {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     .guide-card p {
         font-size: 12px;
     }
-    
+
     /* Game Info Section Layout */
     .game-info-content {
         grid-template-columns: 1fr;
         gap: 20px;
     }
-    
+
     .info-card,
     .requirements-card {
         padding: 10px;
     }
-    
+
     .info-header h3 {
         font-size: 16px;
     }
-    
+
     .req-header h3 {
         font-size: 16px;
     }
-    
+
     .info-item {
         padding: 5px 10px;
         gap: 5px;
     }
-    
+
     .item-label {
         font-size: 12px;
     }
-    
+
     .item-value {
         font-size: 12px;
     }
-    
+
     /* Reviews Section Layout */
     .reviews-grid {
         grid-template-columns: 1fr;
         gap: 10px;
     }
-    
+
     .review-card {
         padding: 16px;
     }
-    
+
     .reviewer-details h4 {
         font-size: 14px;
     }
-    
+
     .review-text {
         font-size: 12px;
     }
 
-    .review-content p{
+    .review-content p {
         font-size: 12px;
     }
-    
+
     /* FAQ Section Layout */
     .faq-list {
         grid-template-columns: 1fr;
         gap: 10px;
     }
-    
+
     .faq-item {
         padding: 16px;
     }
-    
+
     .faq-item h3 {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     .faq-item p {
         font-size: 12px;
     }
-    
+
     /* Button Adjustments */
     .btn-primary {
         padding: 10px 16px;
         font-size: 12px;
     }
-    
+
     .btn-steam {
         padding: 10px 16px;
         font-size: 12px;
     }
 
-    .btn-steam .icon{
+    .btn-steam .icon {
         width: 20px;
         height: 20px;
     }
-    
+
     /* Video Player Adjustments */
     .video-info {
         padding: 10px;
     }
-    
+
     .video-header {
         font-size: 12px;
         margin-bottom: 8px;
     }
-    
+
     .video-label {
         font-size: 12px;
     }
 
-    .video-footer{
+    .video-footer {
         padding-top: 10px;
     }
 
-    .play-button{
+    .play-button {
         width: 50px;
         height: 50px;
     }
 
-    .play-icon{
+    .play-icon {
         font-size: 16px;
     }
-    
+
     /* Stats Section */
     .stats {
         grid-template-columns: 1fr;
         gap: 20px;
         margin-top: 20px;
     }
-    
+
     .stat-item h3 {
         font-size: 20px;
         margin-bottom: 8px;
     }
-    
+
     .stat-item p {
         font-size: 12px;
     }
-    
+
     /* Language Table */
     .language-table th,
     .language-table td {
         padding: 8px 12px;
         font-size: 12px;
     }
-    
+
     .language-table {
         overflow-x: auto;
     }
-    
+
     /* Feature Cards */
     .feature-card h3 {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     .feature-card p {
         font-size: 12px;
     }
-    
+
     /* Legacy Cards */
     .legacy-card h3 {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     .legacy-card p {
         font-size: 12px;
     }
-    
+
     /* World Cards */
     .world-card h3 {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     .world-card p {
         font-size: 12px;
     }
-    
+
     /* Hideout Cards */
     .hideout-card h3 {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     .hideout-card p {
         font-size: 12px;
     }
 }
-
 </style>

@@ -29,22 +29,8 @@
                 <div class="content-layout">
                     <!-- Left Content -->
                     <div class="left-content">
-                        <div class="quest-header">
-                            <h1 class="quest-title">{{ item?.title }}</h1>
-                            <p class="quest-description">{{ item?.description }}</p>
-                        </div>
-
                         <!-- 使用 v-html 渲染 detailsHtml -->
                         <div class="detail-article" v-html="item?.detailsHtml"></div>
-
-                        <!-- Footer -->
-                        <div class="quest-footer">
-                            <p class="footer-text">
-                                Community content is available under 
-                                <span class="license-link">CC-BY-SA</span> 
-                                unless otherwise noted.
-                            </p>
-                        </div>
                     </div>
 
                     <!-- Right Sidebar -->
@@ -134,20 +120,17 @@ const getCategoryDisplayName = (category) => {
 <style scoped>
 .wiki-detail-view {
     min-height: 100vh;
-    background-color: var(--bg-primary);
 }
 
 /* Wiki Detail Header */
 .wiki-detail-header {
-    padding: 120px 0 40px;
-    background-color: var(--bg-primary);
+    padding: 40px 0 20px;
 }
 
 .breadcrumb {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-bottom: 0;
     font-size: 0.875rem;
     color: var(--text-secondary);
 }
@@ -184,7 +167,6 @@ const getCategoryDisplayName = (category) => {
 /* Wiki Content */
 .wiki-content {
     padding: 0 0 80px;
-    background-color: var(--bg-primary);
 }
 
 .content-layout {
@@ -201,44 +183,6 @@ const getCategoryDisplayName = (category) => {
     border-radius: 8px;
     padding: 20px;
     border: 1px solid var(--border-color);
-}
-
-.quest-header {
-    margin-bottom: 40px;
-    border-bottom: 2px solid var(--border-color);
-    padding-bottom: 20px;
-}
-
-.quest-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--text-heading);
-    margin-bottom: 16px;
-    line-height: 1.2;
-}
-
-.quest-description {
-    font-size: 1.125rem;
-    color: var(--text-primary);
-    line-height: 1.6;
-}
-
-
-.quest-footer {
-    border-top: 1px solid var(--border-color);
-    padding-top: 20px;
-    margin-top: 40px;
-}
-
-.footer-text {
-    font-size: 0.875rem;
-    color: var(--text-secondary);
-    margin: 0;
-}
-
-.license-link {
-    color: #FFD700;
-    font-weight: 500;
 }
 
 /* Right Sidebar */
@@ -352,36 +296,89 @@ const getCategoryDisplayName = (category) => {
     .right-sidebar {
         order: -1;
     }
-    
-    .quest-info-box {
-        max-width: 400px;
-        margin: 0 auto;
-    }
 }
 
+/* Mobile screens (≤768px) */
 @media (max-width: 768px) {
+    .info-box-title {
+        font-size: 16px;
+    }
+    
+    .nav-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .detail-label{
+        font-size: 12px;
+    }
+    .detail-value{
+        font-size: 12px;
+    }
+    .detail-item{
+        gap: 2px;
+        margin-bottom: 5px;
+    }
+    
+    .breadcrumb {
+        font-size: 12px;
+        gap: 8px;
+    }
+    
+    .breadcrumb-link {
+        font-size: 12px;
+    }
+    
+    .breadcrumb-icon,
+    .breadcrumb-arrow {
+        width: 14px;
+        height: 14px;
+    }
+
+    /* Section Spacing */
     .wiki-detail-header {
-        padding: 80px 0 20px;
+        padding: 10px 0;
     }
-
-    .quest-title {
-        font-size: 1.75rem;
-    }
-
-    .quest-description {
-        font-size: 1rem;
+    
+    .wiki-content {
+        padding: 20px 0;
     }
 
     .left-content {
-        padding: 24px;
+        padding: 10px;
     }
-
-    .section-title {
-        font-size: 1.125rem;
+    
+    .content-layout {
+        gap: 10px;
+    }
+    
+    .right-sidebar {
+        gap: 10px;
     }
     
     .quest-image {
-        height: 150px;
+        height: 120px;
+    }
+    
+    .info-box-header {
+        padding: 10px;
+    }
+    
+    .quest-details {
+        padding: 10px;
+    }
+    
+    .quest-navigation {
+        padding: 10px;
+    }
+    
+    .nav-links {
+        gap: 6px;
     }
 }
 </style>

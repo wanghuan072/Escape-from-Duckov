@@ -216,6 +216,7 @@ const formatDate = (dateString) => {
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: -1;
     background: linear-gradient(135deg, rgba(250, 147, 23, 0.05) 0%, transparent 50%);
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -310,15 +311,16 @@ const formatDate = (dateString) => {
     text-shadow: 0 0 8px rgba(250, 147, 23, 0.6);
 }
 
-@media (max-width: 768px) {
-    .category-title {
-        font-size: 2rem;
-        text-align: center;
+/* Medium screens (≤1024px) */
+@media (max-width: 1024px) {
+    .guides-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
     
-    .guides-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
+    .category-title {
+        font-size: 2.2rem;
+        margin-bottom: 32px;
     }
     
     .guide-card {
@@ -326,7 +328,90 @@ const formatDate = (dateString) => {
     }
     
     .guide-title {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
+    }
+    
+    .guide-description {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile screens (≤768px) */
+@media (max-width: 768px) {
+    /* Typography - Mobile Font Sizes */
+    .page-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .page-subtitle {
+        font-size: 12px;
+    }
+    
+    .category-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .guide-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .guide-description {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .category-tag {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+    
+    .tag {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+    
+    .update-date {
+        font-size: 12px;
+    }
+    
+    .view-link {
+        font-size: 12px;
+    }
+    
+    .guide-categories {
+        padding: 20px 0;
+    }
+    
+    .category-section {
+        margin-bottom: 20px;
+    }
+    
+    /* Layout Adjustments */
+    .guides-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .guide-card {
+        padding: 10px;
+    }
+    
+    .guide-card-header {
+        margin-bottom: 10px;
+    }
+    
+    .guide-tags {
+        gap: 6px;
+        margin-bottom: 10px;
+    }
+    
+    .guide-footer {
+        padding-top: 10px;
+        gap: 8px;
     }
 }
 </style>

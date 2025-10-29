@@ -130,18 +130,75 @@ const goToMod = (addressBar) => {
     color: #FA9317;
 }
 
-@media (max-width: 768px) {
+/* Medium screens (≤1024px) */
+@media (max-width: 1024px) {
     .mods-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
     }
-    
+
     .mod-card {
         padding: 20px;
     }
-    
+
     .mod-title {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
+    }
+
+    .mod-description {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile screens (≤768px) */
+@media (max-width: 768px) {
+    /* Typography - Mobile Font Sizes */
+    .page-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .page-subtitle {
+        font-size: 12px;
+    }
+
+    .mod-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .mod-description {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .category-tag,
+    .tag {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    /* Layout Adjustments */
+    .mods-content {
+        padding: 20px 0;
+    }
+
+    .mods-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .mod-card {
+        padding: 16px;
+    }
+
+    .mod-card-header {
+        margin-bottom: 10px;
+    }
+
+    .mod-tags {
+        gap: 6px;
+        margin-bottom: 0;
     }
 }
 </style>

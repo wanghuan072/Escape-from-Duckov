@@ -78,7 +78,6 @@
 <style scoped>
 .legal-page {
   min-height: 100vh;
-  background: var(--bg-primary);
 }
 
 .legal-content {

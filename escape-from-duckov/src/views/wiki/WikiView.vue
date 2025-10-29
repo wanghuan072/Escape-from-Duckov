@@ -114,10 +114,46 @@
     margin: 0;
 }
 
-@media (max-width: 768px) {
+/* Medium screens (≤1024px) */
+@media (max-width: 1024px) {
     .articles-grid {
-        grid-template-columns: 1fr;
-        gap: 24px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+/* Mobile screens (≤768px) */
+@media (max-width: 768px) {
+    /* Typography - Mobile Font Sizes */
+    .page-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .page-subtitle {
+        font-size: 12px;
+    }
+    
+    .card-title {
+        font-size: 16px;
+        padding: 8px;
+    }
+    
+    /* Layout Adjustments */
+    .articles-grid {
+        gap: 10px;
+    }
+    
+    .article-card {
+        border-radius: 6px;
+    }
+    
+    .card-image-container {
+        font-size: 0;
+    }
+    
+    .card-image {
+        aspect-ratio: 16/9;
     }
 }
 </style>
