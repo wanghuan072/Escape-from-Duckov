@@ -376,6 +376,12 @@ a:hover {
   font-weight: 600;
 }
 
+.detail-article img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
