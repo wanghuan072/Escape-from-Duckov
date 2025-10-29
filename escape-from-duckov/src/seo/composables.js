@@ -1,4 +1,4 @@
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { seoConfig } from './config.js'
 
@@ -156,4 +156,61 @@ export function useSEO() {
         generateStructuredData,
         addStructuredData
     }
+}
+
+// 自动SEO composable - 在组件挂载时自动设置SEO
+export function useAutoSEO() {
+    const { setSEO, generateStructuredData, addStructuredData } = useSEO()
+    const route = useRoute()
+    
+    onMounted(async () => {
+        // 获取路由中的SEO信息
+        const seoData = route.meta?.seo || {}
+        
+        // 处理动态内容（指南详情页和模组详情页）
+        let finalSEOData = {
+            title: seoData.title || seoConfig.defaults.title,
+            description: seoData.description || seoConfig.defaults.description,
+            keywords: seoData.keywords || seoConfig.defaults.keywords,
+            author: seoConfig.defaults.author,
+            image: seoConfig.defaults.image,
+            type: seoData.type || seoConfig.defaults.type
+        }
+        
+        // 如果是动态路由，需要从数据中获取实际内容
+        if (route.name === 'guide-detail' || route.name === 'mod-detail') {
+            try {
+                let item = null
+                
+                if (route.name === 'guide-detail') {
+                    const { guides } = await import('../data/guide/guide.js')
+                    item = guides.find(g => g.addressBar === `/${route.params.id}`)
+                } else if (route.name === 'mod-detail') {
+                    const { mods } = await import('../data/mods/mods.js')
+                    item = mods.find(m => m.addressBar === `/${route.params.id}`)
+                }
+                
+                if (item && item.seo) {
+                    // 使用数据中的SEO信息
+                    finalSEOData = {
+                        title: item.seo.title || finalSEOData.title,
+                        description: item.seo.description || finalSEOData.description,
+                        keywords: item.seo.keywords || finalSEOData.keywords,
+                        author: seoConfig.defaults.author,
+                        image: seoConfig.defaults.image,
+                        type: 'article'
+                    }
+                }
+            } catch (error) {
+                console.warn('Failed to load dynamic SEO data:', error)
+            }
+        }
+        
+        // 设置SEO信息
+        setSEO(finalSEOData)
+        
+        // 添加结构化数据
+        const structuredData = generateStructuredData(finalSEOData.type === 'article' ? 'Article' : 'WebPage')
+        addStructuredData(structuredData)
+    })
 }

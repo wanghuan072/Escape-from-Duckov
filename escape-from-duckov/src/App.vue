@@ -1,6 +1,10 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
 import AppFooter from './components/AppFooter.vue'
+import { useAutoSEO } from './seo/composables.js'
+
+// 自动处理SEO
+useAutoSEO()
 </script>
 
 <template>

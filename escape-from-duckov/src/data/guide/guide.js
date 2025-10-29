@@ -731,7 +731,7 @@ export const guides = [
             description: "Unlock all J-Labs in Escape from Duckov! This guide details J-Lab Card locations, quest rewards, and farming methods to efficiently raid high-tier loot. Dominate Duckov now!",
             keywords: "escape from duckov j-lab cards, access card guide, duckov, lab access, looting guide, quest guide, farming guide, red card, blue card, green card",
         },
-        addressBar: "escape-from-duckov-j-lab-access-card-acquisition-guide",
+        addressBar: "/escape-from-duckov-j-lab-access-card-acquisition-guide",
         detailsHtml: `
         <p style="margin: 1em 0px;">
   In Escape from Duckov, J-Lab Access Cards are crucial for gaining access to the restricted laboratories scattered throughout the Duckov suburbs.

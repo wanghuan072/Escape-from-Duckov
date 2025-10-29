@@ -23,9 +23,9 @@ const router = createRouter({
       component: HomeView,
       meta: {
         seo: {
-          title: 'Escape from Duckov - Official Community Site',
-          description: 'The ultimate community resource for Escape from Duckov. Find guides, maps, mods, quests, notes, and strategies to survive in Duckov.',
-          keywords: 'Escape from Duckov, survival game, guides, maps, mods, quests, notes, community, strategies',
+          title: 'Escape from Duckov Guide & Community | duckovgame.com',
+          description: 'Complete Escape from Duckov survival guide with maps, mods, quests, and strategies. Expert tips for beginners and advanced players.',
+          keywords: 'Escape from Duckov, survival guide, game maps, mods, quests, strategies, tips',
           type: 'website'
         }
       }
@@ -36,9 +36,9 @@ const router = createRouter({
       component: GuideView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Guides - Complete Strategy Hub',
-          description: 'Comprehensive guides and strategies for Escape from Duckov. Learn survival tips, combat techniques, resource management, and advanced gameplay mechanics.',
-          keywords: 'Escape from Duckov guides, survival strategies, combat tips, resource management, gameplay mechanics',
+          title: 'Strategy Guides & Walkthroughs | duckovgame.com',
+          description: 'Master Escape from Duckov with expert guides. Learn survival tactics, combat strategies, and advanced gameplay techniques.',
+          keywords: 'Escape from Duckov guides, survival strategies, combat tips, gameplay tactics, walkthrough',
           type: 'website'
         }
       }
@@ -49,9 +49,9 @@ const router = createRouter({
       component: GuideDetailView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Guide - {{title}}',
-          description: 'Detailed guide for Escape from Duckov: {{description}}',
-          keywords: 'Escape from Duckov guide, {{tags}}',
+          title: 'Detailed Strategy Guide | duckovgame.com',
+          description: 'Detailed Escape from Duckov strategy guide with expert tips, step-by-step instructions, and advanced techniques.',
+          keywords: 'Escape from Duckov guide, strategy tips, gameplay tactics, survival techniques',
           type: 'article'
         }
       }
@@ -62,9 +62,9 @@ const router = createRouter({
       component: WikiView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Wiki - Complete Game Information',
-          description: 'The unofficial wiki for Escape from Duckov, providing guides, information, and community tools for players.',
-          keywords: 'Escape from Duckov wiki, game information, quests, notes, community tools',
+          title: 'Game Wiki & Database | duckovgame.com',
+          description: 'Complete Escape from Duckov wiki with quest guides, collectible database, and comprehensive game information.',
+          keywords: 'Escape from Duckov wiki, quest database, collectibles, game information, lore',
           type: 'website'
         }
       }
@@ -75,9 +75,9 @@ const router = createRouter({
       component: MapsView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Maps - Interactive Zone Guide',
-          description: 'Explore detailed layouts and strategies for every location in Escape from Duckov. Interactive maps for all zones including Bunker, Ground Zero, Farm, Warehouse, J-Lab, and Storm Area.',
-          keywords: 'Escape from Duckov maps, zone layouts, interactive maps, Bunker, Ground Zero, Farm, Warehouse, J-Lab, Storm Area',
+          title: 'Interactive Zone Maps | duckovgame.com',
+          description: 'Explore all Escape from Duckov zones with interactive maps. Find loot locations, extraction points, and strategic positions.',
+          keywords: 'Escape from Duckov maps, zone layouts, loot locations, extraction points, interactive maps',
           type: 'website'
         }
       }
@@ -88,9 +88,9 @@ const router = createRouter({
       component: ModsView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Mods - Community Modifications',
-          description: 'Enhance your gameplay experience with community-created modifications for Escape from Duckov. Find utility mods, enhancements, and visual improvements.',
-          keywords: 'Escape from Duckov mods, community modifications, utility mods, enhancements, visual improvements',
+          title: 'Community Mods & Enhancements | duckovgame.com',
+          description: 'Enhance your Escape from Duckov experience with community mods. Utility tools, UI improvements, and gameplay enhancements.',
+          keywords: 'Escape from Duckov mods, community modifications, utility tools, UI enhancements, gameplay tweaks',
           type: 'website'
         }
       }
@@ -101,9 +101,9 @@ const router = createRouter({
       component: ModDetailView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Mod - {{title}}',
-          description: '{{description}} - Escape from Duckov community modification',
-          keywords: 'Escape from Duckov mod, {{tags}}',
+          title: 'Mod Download & Installation | duckovgame.com',
+          description: 'Download Escape from Duckov community modification with installation guide and detailed feature descriptions.',
+          keywords: 'Escape from Duckov mod, community modification, download, installation guide, features',
           type: 'article'
         }
       }
@@ -114,91 +114,91 @@ const router = createRouter({
       component: NotesView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Notes - Complete Collection Guide',
-          description: 'Complete guide to all 56 collectible notes in Escape from Duckov. Find locations, strategies, and lore information for every note.',
-          keywords: 'Escape from Duckov notes, collectible notes, note locations, lore, collection guide',
+          title: 'Collectible Notes Guide (56 Notes) | duckovgame.com',
+          description: 'Complete guide to all 56 collectible notes in Escape from Duckov. Find exact locations and collection strategies.',
+          keywords: 'Escape from Duckov notes, collectible guide, note locations, collection strategies, 56 notes',
           type: 'website'
         }
       }
     },
-            {
-              path: '/escape-from-duckov-quests',
-              name: 'quests',
-              component: QuestsView,
-              meta: {
-                seo: {
-                  title: 'Escape from Duckov Quests - Complete Quest Guide',
-                  description: 'Complete guide to all quests and missions in Escape from Duckov. Track progress, find objectives, and complete every available quest.',
-                  keywords: 'Escape from Duckov quests, mission guide, quest objectives, progress tracking, quest completion',
-                  type: 'website'
-                }
-              }
-            },
-            {
-              path: '/privacy-policy',
-              name: 'privacy-policy',
-              component: PrivacyPolicyView,
-              meta: {
-                seo: {
-                  title: 'Privacy Policy - DuckovGame',
-                  description: 'Learn how DuckovGame protects and handles your personal information. Our comprehensive privacy policy covers data collection, usage, and your rights.',
-                  keywords: 'privacy policy, data protection, personal information, DuckovGame privacy',
-                  type: 'website'
-                }
-              }
-            },
-            {
-              path: '/terms-of-service',
-              name: 'terms-of-service',
-              component: TermsOfServiceView,
-              meta: {
-                seo: {
-                  title: 'Terms of Service - DuckovGame',
-                  description: 'Terms and conditions for using DuckovGame website. Read our terms of service to understand your rights and responsibilities.',
-                  keywords: 'terms of service, terms and conditions, DuckovGame terms, user agreement',
-                  type: 'website'
-                }
-              }
-            },
-            {
-              path: '/copyright',
-              name: 'copyright',
-              component: CopyrightView,
-              meta: {
-                seo: {
-                  title: 'Copyright Information - DuckovGame',
-                  description: 'Copyright information and usage guidelines for DuckovGame content. Learn about fair use, licensing, and intellectual property rights.',
-                  keywords: 'copyright, intellectual property, fair use, licensing, DuckovGame copyright',
-                  type: 'website'
-                }
-              }
-            },
-            {
-              path: '/about-us',
-              name: 'about-us',
-              component: AboutUsView,
-              meta: {
-                seo: {
-                  title: 'About Us - DuckovGame',
-                  description: 'Learn more about DuckovGame, our mission, and commitment to providing high-quality content and community resources.',
-                  keywords: 'about us, DuckovGame team, mission, community, quality content',
-                  type: 'website'
-                }
-              }
-            },
-            {
-              path: '/contact-us',
-              name: 'contact-us',
-              component: ContactUsView,
-              meta: {
-                seo: {
-                  title: 'Contact Us - DuckovGame',
-                  description: 'Get in touch with DuckovGame team. Contact information, response times, and how we can help with your questions and feedback.',
-                  keywords: 'contact us, support, help, feedback, DuckovGame contact',
-                  type: 'website'
-                }
-              }
-            }
+    {
+      path: '/escape-from-duckov-quests',
+      name: 'quests',
+      component: QuestsView,
+      meta: {
+        seo: {
+          title: 'Complete Quest Database (790+ Quests) | duckovgame.com',
+          description: 'Complete guide to all 790+ Escape from Duckov quests. Track objectives, rewards, and completion strategies.',
+          keywords: 'Escape from Duckov quests, mission guide, quest objectives, rewards, completion strategies',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/privacy-policy',
+      name: 'privacy-policy',
+      component: PrivacyPolicyView,
+      meta: {
+        seo: {
+          title: 'Privacy Policy & Data Protection | duckovgame.com',
+          description: 'DuckovGame privacy policy covering data collection, usage, GDPR compliance, and your privacy rights.',
+          keywords: 'privacy policy, data protection, GDPR compliance, privacy rights, DuckovGame',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/terms-of-service',
+      name: 'terms-of-service',
+      component: TermsOfServiceView,
+      meta: {
+        seo: {
+          title: 'Terms of Service & User Agreement | duckovgame.com',
+          description: 'DuckovGame terms of service covering user rights, responsibilities, and website usage conditions.',
+          keywords: 'terms of service, user agreement, legal terms, website usage, DuckovGame',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/copyright',
+      name: 'copyright',
+      component: CopyrightView,
+      meta: {
+        seo: {
+          title: 'Copyright & Intellectual Property Rights | duckovgame.com',
+          description: 'DuckovGame copyright information covering fair use policies, licensing, and intellectual property rights.',
+          keywords: 'copyright, intellectual property, fair use, licensing, DMCA compliance, DuckovGame',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/about-us',
+      name: 'about-us',
+      component: AboutUsView,
+      meta: {
+        seo: {
+          title: 'About DuckovGame & Our Mission | duckovgame.com',
+          description: 'Learn about DuckovGame\'s mission to provide high-quality gaming content and community resources.',
+          keywords: 'about DuckovGame, gaming community, quality content, mission, team',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/contact-us',
+      name: 'contact-us',
+      component: ContactUsView,
+      meta: {
+        seo: {
+          title: 'Contact Us & Support | duckovgame.com',
+          description: 'Contact DuckovGame for support, feedback, and inquiries. Get help with your questions and suggestions.',
+          keywords: 'contact DuckovGame, support, feedback, help, customer service, inquiries',
+          type: 'website'
+        }
+      }
+    }
   ],
 })
 

@@ -32,12 +32,12 @@
                     <div class="hero-video">
                         <div class="video-player">
                             <div class="video-thumbnail" v-if="!isVideoPlaying">
-                                <img src="/images/bg.jpg" alt="Escape From Duckov Trailer" class="video-preview">
+                                <img src="/images/video-bg.webp" alt="Escape From Duckov Trailer" class="video-preview">
                                 <div class="play-button" @click="playVideo">
                                     <span class="play-icon">▶</span>
                                 </div>
                                 <div class="video-overlay">
-                                    <div class="video-title">ESCAPE FROM DUCKOV</div>
+                                    <!-- <div class="video-title">ESCAPE FROM DUCKOV</div> -->
                                 </div>
                             </div>
                             <div class="video-iframe" v-if="isVideoPlaying">
@@ -155,22 +155,27 @@
                     treacherous Ground Zero.</p>
                 <div class="maps-grid">
                     <div class="map-card card">
-                        <div class="map-image">
-                            <img src="/images/bg.jpg" alt="Ground Zero" class="map-screenshot">
-                        </div>
-                        <div class="map-content">
-                            <h3>Ground Zero</h3>
-                            <p>The heart of the cataclysm. Highest risk, highest reward.</p>
-                        </div>
+                        <a href="/maps">
+                            <div class="map-image">
+                                <img src="/images/map-01.webp" alt="Ground Zero" class="map-screenshot">
+                            </div>
+                            <div class="map-content">
+                                <h3>Ground Zero</h3>
+                                <p>The heart of the cataclysm. Highest risk, highest reward.</p>
+                            </div>
+                        </a>
+
                     </div>
                     <div class="map-card card">
-                        <div class="map-image">
-                            <img src="/images/bg.jpg" alt="Warehouse District" class="map-screenshot">
-                        </div>
-                        <div class="map-content">
-                            <h3>Warehouse District</h3>
-                            <p>Abandoned factories and storage facilities filled with guarded loot.</p>
-                        </div>
+                        <a href="/maps">
+                            <div class="map-image">
+                                <img src="/images/map-02.webp" alt="Warehouse District" class="map-screenshot">
+                            </div>
+                            <div class="map-content">
+                                <h3>Warehouse District</h3>
+                                <p>Abandoned factories and storage facilities filled with guarded loot.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="text-center">
@@ -853,7 +858,6 @@ section {
     padding: 0;
     text-align: center;
     background: linear-gradient(135deg, rgba(21, 21, 21, 0.6) 0%, rgba(21, 21, 21, 0.4) 100%);
-    cursor: pointer;
     overflow: hidden;
 }
 
@@ -865,7 +869,7 @@ section {
 
 .map-image {
     width: 100%;
-    height: 200px;
+    aspect-ratio: 16/9;
     overflow: hidden;
 }
 
