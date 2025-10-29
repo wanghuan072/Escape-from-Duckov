@@ -215,6 +215,61 @@ export default [
         <p>In this Quest you have to handover 1888 Money to Jeff.</p>
         <p>Community content is available under CC-BY-SA unless otherwise noted.</p>
         `
+    },
+
+    {
+        id: 5,
+        title: 'Stop Bleeding',
+        description: 'Stop Bleeding is a Quest in Escape From Duckov.',
+        imageUrl: '/images/wiki/quest-03.webp',
+        imageAlt: 'Stop Bleeding',
+        publishDate: '2025-10-27',
+        addressBar: '/stop-bleeding',
+        rewards: [
+            '+1500 Experience',
+            '300 Money',
+            '1 Pile of Medicine',
+            'Unlock Merchandise Aspirin'
+        ],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Infrastructure'
+            },
+            {
+                label: 'Following',
+                value: 'Infrastructure - Medical'
+            }
+        ],
+        seo: {
+            title: 'A New Hunter Quest - Escape from Duckov',
+            description: 'A New Hunter is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, A New Hunter, Jeff quest, Rampage Scavenger, Cleaver',
+        },
+        detailsHtml: `
+        <h2>Stop Bleeding</h2>
+        <p>Stop Bleeding is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>Bleeding is very deadly. Although you won't die immediatly, if you don't stop the bleeding in time, you'll keep losing HP. Bandages are the simplest tool to stop bleeding. Try to use them to stop the bleeding. If you can't find bandages, you can buy some from the vending machine.</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Use Item(s): 1 Bandage</li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>+1500 Experience</li>
+            <li>300 Money</li>
+            <li>1 Pile of Medicine</li>
+            <li>Unlock Merchandise Aspirin</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p>In this Quest you have to use a Bandage.<br/>Note: You can only use Bandages when you are hurt.</p>
+        <p>Community content is available under CC-BY-SA unless otherwise noted.</p>
+        `
     }
 
 

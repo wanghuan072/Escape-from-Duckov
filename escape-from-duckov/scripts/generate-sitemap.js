@@ -3,6 +3,7 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import { guides } from '../src/data/guide/guide.js'
 import { mods } from '../src/data/mods/mods.js'
+import quests from '../src/data/wiki/quests/quests.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -70,6 +71,14 @@ function generateSitemap() {
         mods.forEach(mod => {
             const modPath = `/mods${mod.addressBar}`
             sitemapXml += `\n${generateUrlXml(modPath, mod.publishDate || lastmod, 0.6, 'monthly')}`
+        })
+    }
+
+    // 为每个任务生成URL
+    if (quests && Array.isArray(quests)) {
+        quests.forEach(quest => {
+            const questPath = `/wiki/quests${quest.addressBar}`
+            sitemapXml += `\n${generateUrlXml(questPath, quest.publishDate || lastmod, 0.7, 'monthly')}`
         })
     }
 
