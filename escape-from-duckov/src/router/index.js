@@ -23,7 +23,7 @@ const router = createRouter({
       component: HomeView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Wiki & Guides | Maps, Quests, Weapons',
+          title: 'Escape from Duckov | Wiki, Guides, Maps, Mods, Quests, Weapons',
           description: 'Explore the ultimate Escape from Duckov hub — detailed guides, quests, maps, weapons, bosses, and survival strategies. Stay updated with all game mechanics and tips.',
           keywords: 'Escape from Duckov, game wiki, maps, quests, weapons, bosses, skills, survival guide, tips, updates',
           type: 'website'
