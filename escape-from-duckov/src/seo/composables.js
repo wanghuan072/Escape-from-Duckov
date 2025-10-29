@@ -1,4 +1,4 @@
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { seoConfig } from './config.js'
 
@@ -158,12 +158,13 @@ export function useSEO() {
     }
 }
 
-// 自动SEO composable - 在组件挂载时自动设置SEO
+// 自动SEO composable - 监听路由变化自动设置SEO
 export function useAutoSEO() {
     const { setSEO, generateStructuredData, addStructuredData } = useSEO()
     const route = useRoute()
     
-    onMounted(async () => {
+    // 处理SEO的函数
+    const handleSEO = async () => {
         // 获取路由中的SEO信息
         const seoData = route.meta?.seo || {}
         
@@ -212,5 +213,14 @@ export function useAutoSEO() {
         // 添加结构化数据
         const structuredData = generateStructuredData(finalSEOData.type === 'article' ? 'Article' : 'WebPage')
         addStructuredData(structuredData)
-    })
+    }
+    
+    // 监听路由变化
+    watch(
+        () => route.path,
+        () => {
+            handleSEO()
+        },
+        { immediate: true } // 立即执行一次
+    )
 }
