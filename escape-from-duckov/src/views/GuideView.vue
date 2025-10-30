@@ -17,7 +17,7 @@
             <div class="container">
                 <!-- Getting Started -->
                 <div class="category-section">
-                    <h2 class="category-title">Getting Started</h2>
+                    <h2 class="category-title">Escape from Duckov Getting Started</h2>
                     <div class="guides-grid">
                         <div 
                             v-for="guide in gettingStartedGuides" 
@@ -43,7 +43,7 @@
 
                 <!-- Walkthroughs -->
                 <div class="category-section">
-                    <h2 class="category-title">Walkthroughs</h2>
+                    <h2 class="category-title">Escape from Duckov Advanced Walkthroughs</h2>
                     <div class="guides-grid">
                         <div 
                             v-for="guide in walkthroughGuides" 
@@ -69,7 +69,7 @@
 
                 <!-- Advanced -->
                 <div class="category-section">
-                    <h2 class="category-title">Advanced</h2>
+                    <h2 class="category-title">Specific Guides for Escape from Duckov</h2>
                     <div class="guides-grid">
                         <div 
                             v-for="guide in advancedGuides" 

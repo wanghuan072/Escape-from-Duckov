@@ -125,7 +125,8 @@ export const guides = [
     imageAlt: 'Complete Tutorial & Early Game Walkthrough',
     publishDate: '2025-10-27',
     addressBar: '/complete-tutorial-early-game-walkthrough',
-    category: 'walkthroughs',
+    category: 'getting-started',
+    // category: 'walkthroughs',
     tags: ['TUTORIAL', 'EARLY GAME', 'GROUND ZERO', 'QUEST GUIDE', 'BASE BUILDING'],
     seo: {
       title: 'Complete Tutorial & Early Game Walkthrough - Escape from Duckov',
@@ -377,7 +378,7 @@ export const guides = [
     imageAlt: 'Master Core Game Mechanics & Systems',
     publishDate: '2025-10-27',
     addressBar: '/master-core-game-mechanics-systems',
-    category: 'advanced',
+    category: 'getting-started',
     tags: ['CORE MECHANICS', 'BASE MANAGEMENT', 'COMBAT SYSTEMS', 'CHARACTER PROGRESSION', 'SURVIVAL'],
     seo: {
       title: 'Master Core Game Mechanics & Systems - Escape from Duckov',
