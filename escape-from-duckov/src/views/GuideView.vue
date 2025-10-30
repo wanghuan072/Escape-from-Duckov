@@ -43,7 +43,7 @@
 
                 <!-- Walkthroughs -->
                 <div class="category-section">
-                    <h2 class="category-title">Escape from Duckov Advanced Walkthroughs</h2>
+                    <h2 class="category-title">Escape from Duckov: Advanced Walkthroughs</h2>
                     <div class="guides-grid">
                         <div 
                             v-for="guide in walkthroughGuides" 
