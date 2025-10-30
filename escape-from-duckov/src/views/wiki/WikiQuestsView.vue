@@ -16,7 +16,8 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="quest in questsData" :key="quest.id" @click="goToQuestDetail(quest)" class="quest-row">
+                        <tr v-for="quest in questsData" :key="quest.id" @click="onRowClick(quest)"
+                            :class="['quest-row', { 'disabled': quest.showDetail === false }]">
                             <td class="npc-cell">
                                 <div class="npc-avatar">
                                     <img :src="quest.imageUrl" :alt="quest.imageAlt" class="npc-image">
@@ -25,7 +26,8 @@
                             <td class="quest-name-cell">{{ quest.title }}</td>
                             <td class="rewards-cell">
                                 <ul class="rewards-list">
-                                    <li v-for="reward in quest.rewards" :key="reward" class="reward-item">{{ reward }}</li>
+                                    <li v-for="reward in quest.rewards" :key="reward" class="reward-item">{{ reward }}
+                                    </li>
                                 </ul>
                             </td>
                         </tr>
@@ -48,8 +50,10 @@ onMounted(() => {
     loadData()
 })
 
-const goToQuestDetail = (quest) => {
-    const questId = quest.addressBar.replace('/', '')
+const onRowClick = (quest) => {
+    if (quest && quest.showDetail === false) return
+    const questId = (quest.addressBar || '').replace('/', '')
+    if (!questId) return
     router.push(`/wiki/quests/${questId}`)
 }
 </script>
@@ -91,16 +95,16 @@ const goToQuestDetail = (quest) => {
     font-size: 0.875rem;
 }
 
-.quest-name-col {
-    width: 200px;
-}
-
 .npc-col {
     width: 120px;
 }
 
+.quest-name-col {
+    width: 240px;
+}
+
 .rewards-col {
-    min-width: 300px;
+    min-width: 360px;
 }
 
 .npc-cell {
@@ -115,10 +119,12 @@ const goToQuestDetail = (quest) => {
 }
 
 .npc-image {
-    width: 80px;
-    height: 80px;
-    border-radius: 4px;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
     object-fit: cover;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .rewards-cell {
@@ -148,64 +154,23 @@ const goToQuestDetail = (quest) => {
 
 .quest-row {
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .quest-row:hover {
     background-color: var(--bg-card-hover);
 }
 
-.quests-table td {
-    padding: 16px;
-    border-bottom: 1px solid var(--border-color);
-    color: var(--text-primary);
-    background-color: var(--bg-card);
+.quest-row.disabled {
+    cursor: default;
 }
 
-.quests-table tbody tr:nth-child(even) td {
-    background-color: rgba(21, 21, 21, 0.6);
+.quest-row.disabled:hover td,
+.quest-row.disabled:hover {
+    background-color: inherit;
 }
 
-.quests-table tbody tr:hover td {
-    background-color: var(--bg-card-hover);
-}
-
-.quest-name-cell {
-    font-weight: 600;
-    color: var(--text-heading);
-    font-size: 1rem;
-}
-
-.info-cell {
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-    line-height: 1.5;
-}
-
-/* Medium screens (≤1024px) */
-@media (max-width: 1024px) {
-    .rewards-col {
-        min-width: 200px;
-    }
-    
-    .npc-col {
-        width: 80px;
-    }
-    
-    .quest-name-col {
-        width: 120px;
-    }
-    
-    .quests-table th,
-    .quests-table td {
-        padding: 12px 8px;
-        font-size: 0.85rem;
-    }
-}
-
-/* Mobile screens (≤768px) */
 @media (max-width: 768px) {
-    /* Typography - Mobile Font Sizes */
     .page-title {
         font-size: 24px;
         margin-bottom: 10px;
@@ -214,43 +179,16 @@ const goToQuestDetail = (quest) => {
     .page-subtitle {
         font-size: 12px;
     }
-    
-    .quest-name-cell {
-        font-size: 12px;
-    }
-    
-    .reward-item {
-        font-size: 12px;
-    }
 
-    /* Layout Adjustments */
     .quests-table th,
     .quests-table td {
         padding: 6px 4px;
         font-size: 12px;
     }
 
-    .npc-col {
-        width: 60px;
-    }
-
-    .quest-name-col {
-        width: 100px;
-    }
-
-    .rewards-col {
-        min-width: 150px;
-    }
-    
     .npc-image {
         width: 40px;
         height: 40px;
-    }
-    
-    .reward-item {
-        font-size: 12px;
-        margin-bottom: 2px;
-        padding-left: 6px;
     }
 }
 </style>

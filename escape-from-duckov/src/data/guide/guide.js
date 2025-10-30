@@ -1,20 +1,20 @@
 export const guides = [
-    {
-        id: 1,
-        title: 'Complete Beginner\'s Survival Guide',
-        description: 'Master the fundamentals of Escape from Duckov with this comprehensive guide covering base setup, first raids, NPC interactions, and essential survival strategies.',
-        imageUrl: '/images/guide-01.webp',
-        imageAlt: 'Complete Beginner\'s Survival Guide',
-        publishDate: '2025-10-27',
-        addressBar: '/complete-beginner-survival-guide',
-        category: 'getting-started',
-        tags: ['SURVIVAL', 'BASE SETUP', 'FIRST RAID', 'NPC GUIDE', 'COMBAT BASICS'],
-        seo: {
-            title: 'Complete Beginner\'s Survival Guide - Escape from Duckov',
-            description: 'Master the fundamentals of Escape from Duckov with this comprehensive guide covering base setup, first raids, NPC interactions, and essential survival strategies.',
-            keywords: 'Escape from Duckov, Beginner Guide, Survival Guide, Base Setup, First Raid, NPC Guide, Combat Basics, Ground Zero',
-        },
-        detailsHtml: `
+  {
+    id: 1,
+    title: 'Complete Beginner\'s Survival Guide',
+    description: 'Master the fundamentals of Escape from Duckov with this comprehensive guide covering base setup, first raids, NPC interactions, and essential survival strategies.',
+    imageUrl: '/images/guide-01.webp',
+    imageAlt: 'Complete Beginner\'s Survival Guide',
+    publishDate: '2025-10-27',
+    addressBar: '/complete-beginner-survival-guide',
+    category: 'getting-started',
+    tags: ['SURVIVAL', 'BASE SETUP', 'FIRST RAID', 'NPC GUIDE', 'COMBAT BASICS'],
+    seo: {
+      title: 'Complete Beginner\'s Survival Guide - Escape from Duckov',
+      description: 'Master the fundamentals of Escape from Duckov with this comprehensive guide covering base setup, first raids, NPC interactions, and essential survival strategies.',
+      keywords: 'Escape from Duckov, Beginner Guide, Survival Guide, Base Setup, First Raid, NPC Guide, Combat Basics, Ground Zero',
+    },
+    detailsHtml: `
         <p>Welcome to the dangerous world of Duckov! This comprehensive beginner's guide will walk you through your first steps in this survival RPG, from setting up your base to completing your initial expeditions.</p>
         
         <h2>1. Base Configuration and Early Missions</h2>
@@ -116,31 +116,34 @@ export const guides = [
         <h2>Final Recommendations</h2>
         <p>Maximize your base facilities, prioritize armor shop construction, invest in Backpack Expert perks, and establish the teleportation shortcut early. These strategies will significantly improve your survival chances in Duckov's harsh environment. Good luck with your escape!</p>
         `
+  },
+  {
+    id: 2,
+    title: 'Complete Tutorial & Early Game Walkthrough',
+    description: 'Follow this comprehensive step-by-step walkthrough covering the tutorial escape, base establishment, and your first Ground Zero expeditions with detailed quest guidance.',
+    imageUrl: '/images/guide-02.webp',
+    imageAlt: 'Complete Tutorial & Early Game Walkthrough',
+    publishDate: '2025-10-27',
+    addressBar: '/complete-tutorial-early-game-walkthrough',
+    category: 'walkthroughs',
+    tags: ['TUTORIAL', 'EARLY GAME', 'GROUND ZERO', 'QUEST GUIDE', 'BASE BUILDING'],
+    seo: {
+      title: 'Complete Tutorial & Early Game Walkthrough - Escape from Duckov',
+      description: 'Follow this comprehensive step-by-step walkthrough covering the tutorial escape, base establishment, and your first Ground Zero expeditions with detailed quest guidance.',
+      keywords: 'Escape from Duckov, Tutorial Walkthrough, Early Game Guide, Ground Zero, Quest Guide, Base Building, Prison Escape',
     },
-    {
-        id: 2,
-        title: 'Complete Tutorial & Early Game Walkthrough',
-        description: 'Follow this comprehensive step-by-step walkthrough covering the tutorial escape, base establishment, and your first Ground Zero expeditions with detailed quest guidance.',
-        imageUrl: '/images/guide-02.webp',
-        imageAlt: 'Complete Tutorial & Early Game Walkthrough',
-        publishDate: '2025-10-27',
-        addressBar: '/complete-tutorial-early-game-walkthrough',
-        category: 'walkthroughs',
-        tags: ['TUTORIAL', 'EARLY GAME', 'GROUND ZERO', 'QUEST GUIDE', 'BASE BUILDING'],
-        seo: {
-            title: 'Complete Tutorial & Early Game Walkthrough - Escape from Duckov',
-            description: 'Follow this comprehensive step-by-step walkthrough covering the tutorial escape, base establishment, and your first Ground Zero expeditions with detailed quest guidance.',
-            keywords: 'Escape from Duckov, Tutorial Walkthrough, Early Game Guide, Ground Zero, Quest Guide, Base Building, Prison Escape',
-        },
-        detailsHtml: `
+    detailsHtml: `
         <p>This comprehensive walkthrough will guide you through your first hours in Escape from Duckov, from escaping the prison to establishing your base and completing your initial Ground Zero expeditions. Perfect for players who want a structured approach to the early game.</p>
         
         <h2>1. Tutorial: Prison Escape</h2>
         
         <h3>Character Creation and Initial Setup</h3>
-        <p>After the introductory cutscene, approach the mirror to customize your character appearance. Once satisfied, proceed through the door to begin your first test - escaping the prison.</p>
         
+        <img src="/images/guide/guide02-01.webp" alt="Tutorial: Prison Escape" class="guide-image" />
+
+        <p>After the introductory cutscene, approach the mirror to customize your character appearance. Once satisfied, proceed through the door to begin your first test - escaping the prison.</p>
         <h3>Initial Equipment and Movement</h3>
+
         <p><strong>Starting Gear:</strong> Follow the floor markings to locate your first equipment crate containing a TT-33 pistol, 30 rounds of ammunition, bandages, and crackers.</p>
         <p><strong>Stamina Management:</strong> Running and rolling consume stamina, indicated by the gauge next to your character. Monitor this carefully during combat.</p>
         <p><strong>Room Exploration:</strong> Search the adjacent room for a Carrot in the crate, and check trash bins for a lighter, lollipop, and electronic components.</p>
@@ -150,6 +153,8 @@ export const guides = [
         <p><strong>Loot Collection:</strong> After defeating the guard, collect the Police Baton, White Lab Coat, and Black Rimmed Sunglasses. Set up the baton on your hotbar for melee combat.</p>
         <p><strong>Accuracy Tips:</strong> Hold the right mouse button for improved shooting accuracy, as instructed by the mysterious voice.</p>
         
+        <img src="/images/guide/guide02-02.webp" alt="Initial Equipment and Movement" class="guide-image" />
+
         <h3>Advanced Equipment Discovery</h3>
         <p><strong>Secondary Weapon:</strong> Locate a PM pistol in the next room and assign it to slot 2 for weapon switching.</p>
         <p><strong>Glick Acquisition:</strong> Defeat another guard to obtain a Glick pistol and additional lab coat and sunglasses.</p>
@@ -166,6 +171,8 @@ export const guides = [
             <li><strong>Enhancer:</strong> Character progression and skill upgrades</li>
             <li><strong>Exfiltration Point:</strong> Mission departure location</li>
         </ul>
+
+        <img src="/images/guide/guide02-03.webp" alt="Advanced Equipment Discovery" class="guide-image" />
         
         <h3>Initial Upgrades and Enhancements</h3>
         <p><strong>Backpack Expert I:</strong> Research and activate this enhancement for +4 backpack capacity - essential for longer expeditions.</p>
@@ -218,6 +225,8 @@ export const guides = [
         <p><strong>Letter Quest:</strong> Submit "Letter from an Old Friend" (1500 XP, 450 Currency)</p>
         
         <h2>6. Character Progression and Preparation</h2>
+
+        <img src="/images/guide/guide02-04.webp" alt="Character Progression and Preparation" class="guide-image" />
         
         <h3>Enhancement Upgrades</h3>
         <p><strong>Survival Instinct 1:</strong> +5 Max HP for improved survivability</p>
@@ -233,32 +242,35 @@ export const guides = [
         <h2>Conclusion</h2>
         <p>This walkthrough covers the essential first steps in Escape from Duckov. You've successfully escaped the prison, established your base, completed your first Ground Zero expedition, and unlocked multiple quest lines. Focus on completing the available quests, upgrading your equipment, and preparing for more challenging expeditions ahead.</p>
         `
+  },
+  {
+    id: 3,
+    title: 'Advanced Ground Zero Exploration & Base Expansion',
+    description: 'Master advanced Ground Zero expeditions, complete complex quest chains, and expand your base facilities with this comprehensive mid-game walkthrough.',
+    imageUrl: '/images/guide-03.webp',
+    imageAlt: 'Advanced Ground Zero Exploration & Base Expansion',
+    publishDate: '2025-10-27',
+    addressBar: '/advanced-ground-zero-exploration-base-expansion',
+    category: 'walkthroughs',
+    tags: ['ADVANCED EXPLORATION', 'BASE EXPANSION', 'QUEST CHAINS', 'EQUIPMENT UPGRADES', 'GROUND ZERO'],
+    seo: {
+      title: 'Advanced Ground Zero Exploration & Base Expansion - Escape from Duckov',
+      description: 'Master advanced Ground Zero expeditions, complete complex quest chains, and expand your base facilities with this comprehensive mid-game walkthrough.',
+      keywords: 'Escape from Duckov, Advanced Walkthrough, Ground Zero Exploration, Base Expansion, Quest Chains, Equipment Upgrades, Mid Game Guide',
     },
-    {
-        id: 3,
-        title: 'Advanced Ground Zero Exploration & Base Expansion',
-        description: 'Master advanced Ground Zero expeditions, complete complex quest chains, and expand your base facilities with this comprehensive mid-game walkthrough.',
-        imageUrl: '/images/guide-03.webp',
-        imageAlt: 'Advanced Ground Zero Exploration & Base Expansion',
-        publishDate: '2025-10-27',
-        addressBar: '/advanced-ground-zero-exploration-base-expansion',
-        category: 'walkthroughs',
-        tags: ['ADVANCED EXPLORATION', 'BASE EXPANSION', 'QUEST CHAINS', 'EQUIPMENT UPGRADES', 'GROUND ZERO'],
-        seo: {
-            title: 'Advanced Ground Zero Exploration & Base Expansion - Escape from Duckov',
-            description: 'Master advanced Ground Zero expeditions, complete complex quest chains, and expand your base facilities with this comprehensive mid-game walkthrough.',
-            keywords: 'Escape from Duckov, Advanced Walkthrough, Ground Zero Exploration, Base Expansion, Quest Chains, Equipment Upgrades, Mid Game Guide',
-        },
-        detailsHtml: `
+    detailsHtml: `
         <p>This advanced walkthrough covers the mid-game progression in Escape from Duckov, focusing on complex Ground Zero expeditions, base facility expansion, and completing intricate quest chains. Perfect for players ready to tackle more challenging content.</p>
         
         <h2>1. Advanced Ground Zero Exploration</h2>
-        
+        <img src="/images/guide/guide03-01.webp" alt="Advanced Ground Zero Exploration" class="guide-image" />
         <h3>Northern Tower Mission</h3>
+
         <p><strong>Signal Tower Quest:</strong> Head towards Road Camp and locate the northern tower. Search the toolbox for 2 Metal Plates, nails, and a Flathead Screwdriver.</p>
         <p><strong>Power Box Interaction:</strong> Interact with the power box at the tower's base to complete the Signal Tower quest objective.</p>
         <p><strong>Blueprint Discovery:</strong> Move right of the tower to find the Potato Graphics Card blueprint - essential for advanced crafting.</p>
-        
+
+        <img src="/images/guide/guide03-02.webp" alt="Northern Tower Mission" class="guide-image" />
+
         <h3>Road Camp Approach</h3>
         <p><strong>New Enemy Type:</strong> Encounter advanced shotgun-wielding enemies near Road Camp. These foes require careful positioning and adequate ammunition.</p>
         <p><strong>Equipment Acquisition:</strong> Defeat enemies to obtain MP-155 shotguns, Motorcycle helmets, and medical supplies.</p>
@@ -267,10 +279,14 @@ export const guides = [
         <h2>2. NPC Interactions and New Quests</h2>
         
         <h3>Mud the Trainer</h3>
+
         <p><strong>Location:</strong> Found in a house near Road Camp - a jacked duck offering body training services.</p>
         <p><strong>Quest Assignment:</strong> Accept "Balanced Nutrition 1" from Mud for physical enhancement opportunities.</p>
         
         <h3>Balanced Nutrition Quest</h3>
+
+        <img src="/images/guide/guide03-03.webp" alt="Mud the Trainer" class="guide-image" />
+
         <p><strong>Objective:</strong> Submit 1x Duck Egg</p>
         <p><strong>Rewards:</strong> 800 XP, 500 Currency</p>
         <p><strong>Strategy:</strong> Duck eggs can be found in various locations throughout Ground Zero - prioritize collection during expeditions.</p>
@@ -352,23 +368,23 @@ export const guides = [
         <h2>Conclusion</h2>
         <p>This advanced walkthrough covers the crucial mid-game progression in Escape from Duckov. You've successfully completed complex Ground Zero expeditions, expanded your base facilities, and unlocked advanced crafting capabilities. Focus on completing the new quest chains, upgrading your equipment, and preparing for even more challenging content ahead. The foundation you've built will be essential for surviving Duckov's most dangerous areas.</p>
         `
+  },
+  {
+    id: 4,
+    title: 'Master Core Game Mechanics & Systems',
+    description: 'Comprehensive guide to Escape from Duckov\'s core mechanics covering base management, character progression, combat systems, exploration, and survival strategies.',
+    imageUrl: '/images/guide-04.webp',
+    imageAlt: 'Master Core Game Mechanics & Systems',
+    publishDate: '2025-10-27',
+    addressBar: '/master-core-game-mechanics-systems',
+    category: 'advanced',
+    tags: ['CORE MECHANICS', 'BASE MANAGEMENT', 'COMBAT SYSTEMS', 'CHARACTER PROGRESSION', 'SURVIVAL'],
+    seo: {
+      title: 'Master Core Game Mechanics & Systems - Escape from Duckov',
+      description: 'Comprehensive guide to Escape from Duckov\'s core mechanics covering base management, character progression, combat systems, exploration, and survival strategies.',
+      keywords: 'Escape from Duckov, Core Mechanics, Base Management, Combat Systems, Character Progression, Survival Guide, Game Systems',
     },
-    {
-        id: 4,
-        title: 'Master Core Game Mechanics & Systems',
-        description: 'Comprehensive guide to Escape from Duckov\'s core mechanics covering base management, character progression, combat systems, exploration, and survival strategies.',
-        imageUrl: '/images/guide-04.webp',
-        imageAlt: 'Master Core Game Mechanics & Systems',
-        publishDate: '2025-10-27',
-        addressBar: '/master-core-game-mechanics-systems',
-        category: 'advanced',
-        tags: ['CORE MECHANICS', 'BASE MANAGEMENT', 'COMBAT SYSTEMS', 'CHARACTER PROGRESSION', 'SURVIVAL'],
-        seo: {
-            title: 'Master Core Game Mechanics & Systems - Escape from Duckov',
-            description: 'Comprehensive guide to Escape from Duckov\'s core mechanics covering base management, character progression, combat systems, exploration, and survival strategies.',
-            keywords: 'Escape from Duckov, Core Mechanics, Base Management, Combat Systems, Character Progression, Survival Guide, Game Systems',
-        },
-        detailsHtml: `
+    detailsHtml: `
         <p>This comprehensive guide covers all essential game mechanics in Escape from Duckov, from base management and character development to combat systems and exploration strategies. Master these core systems to maximize your survival potential.</p>
         
         <h2>I. Base Management and Crafting Systems</h2>
@@ -514,23 +530,23 @@ export const guides = [
         <h2>Conclusion</h2>
         <p>Mastering these core mechanics is essential for success in Escape from Duckov. Focus on efficient base management, strategic character development, and careful risk assessment. The systems work together to create a challenging but rewarding survival experience where preparation and knowledge are your greatest assets.</p>
         `
+  },
+  {
+    id: 5,
+    title: 'Storm Zone Access & Roadblock Boss Guide',
+    description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
+    imageUrl: '/images/guide-05.webp',
+    imageAlt: 'Storm Zone Access & Roadblock Boss Guide',
+    publishDate: '2025-10-27',
+    addressBar: '/storm-zone-access-roadblock-boss-guide',
+    category: 'advanced',
+    tags: ['STORM ZONE', 'BOSS FIGHT', 'CERTIFICATE FARMING', 'ENDGAME CONTENT', 'SURVIVAL'],
+    seo: {
+      title: 'Storm Zone Access & Roadblock Boss Guide - Escape from Duckov',
+      description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
+      keywords: 'Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy',
     },
-    {
-        id: 5,
-        title: 'Storm Zone Access & Roadblock Boss Guide',
-        description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-        imageUrl: '/images/guide-05.webp',
-        imageAlt: 'Storm Zone Access & Roadblock Boss Guide',
-        publishDate: '2025-10-27',
-        addressBar: '/storm-zone-access-roadblock-boss-guide',
-        category: 'advanced',
-        tags: ['STORM ZONE', 'BOSS FIGHT', 'CERTIFICATE FARMING', 'ENDGAME CONTENT', 'SURVIVAL'],
-        seo: {
-            title: 'Storm Zone Access & Roadblock Boss Guide - Escape from Duckov',
-            description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-            keywords: 'Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy',
-        },
-        detailsHtml: `
+    detailsHtml: `
         <p>This comprehensive guide covers the complete process of accessing Duckov's most dangerous area - the Storm Zone. Learn how to activate power systems, acquire necessary certificates, defeat the Roadblock boss, and prepare for extreme endgame challenges.</p>
         
         <h2>1. Facility Power Activation</h2>
@@ -624,24 +640,24 @@ export const guides = [
         <h2>Conclusion</h2>
         <p>The Storm Zone represents the pinnacle of challenge in Escape from Duckov. Success requires meticulous preparation, optimal equipment, and mastery of advanced combat techniques. Follow this guide carefully, prepare thoroughly, and remember that survival in the Storm Zone demands respect for its extreme dangers. Good luck with your ultimate escape from Duckov!</p>
         `
-    },
+  },
 
-    {
-        id: 6,
-        title: "escape from duckov ledx",
-        description: "Looking for the elusive LEDX in Escape from Duckov? This guide breaks down the best methods for acquisition, covering spawn locations, key usage, enemy drops, and market value. Maximize your chances of finding this vital medical item and discover smart trading tips!",
-        tags: ["Escape from Duckov", "LEDX", "Rare Item", "Loot Guide", "Sanatorium Key"],
-        publishDate: "2025-10-28",
-        imageUrl: "/images/guide/guide06-01.webp",
-        imageAlt: "A LEDX Skin Transilluminator in Escape from Duckov displayed on a workbench.",
-        category: 'advanced',
-        seo: {
-            title: "Escape from Duckov LEDX: The Ultimate Acquisition Guide",
-            description: "Learn how to find the rare LEDX in Escape from Duckov. Get tips on spawn locations, key requirements, trading strategies, and quest implications for maximizing profit!",
-            keywords: "escape from duckov, ledx, loot guide, sanatorium, key, rare item, trading, quests",
-        },
-        addressBar: "/escape-from-duckov-ledx",
-        detailsHtml: `
+  {
+    id: 6,
+    title: "escape from duckov ledx",
+    description: "Looking for the elusive LEDX in Escape from Duckov? This guide breaks down the best methods for acquisition, covering spawn locations, key usage, enemy drops, and market value. Maximize your chances of finding this vital medical item and discover smart trading tips!",
+    tags: ["Escape from Duckov", "LEDX", "Rare Item", "Loot Guide", "Sanatorium Key"],
+    publishDate: "2025-10-28",
+    imageUrl: "/images/guide/guide06-01.webp",
+    imageAlt: "A LEDX Skin Transilluminator in Escape from Duckov displayed on a workbench.",
+    category: 'advanced',
+    seo: {
+      title: "Escape from Duckov LEDX: The Ultimate Acquisition Guide",
+      description: "Learn how to find the rare LEDX in Escape from Duckov. Get tips on spawn locations, key requirements, trading strategies, and quest implications for maximizing profit!",
+      keywords: "escape from duckov, ledx, loot guide, sanatorium, key, rare item, trading, quests",
+    },
+    addressBar: "/escape-from-duckov-ledx",
+    detailsHtml: `
         <h2 style="font-size: 1.5em; font-weight: bold;">
   <span>escape from duckov ledx</span>
 </h2>
@@ -714,25 +730,25 @@ export const guides = [
 </p>
 
         `
-    },
+  },
 
-    {
-        id: 7,
-        title: "Escape from Duckov J-Lab Access Cards Acquisition Guide",
-        iframeUrl: "1",
-        description: "Navigate the treacherous suburbs of Duckov and secure your access to the J-Labs! This guide provides detailed spawn locations, quest walkthroughs, and expert tips to acquire every J-Lab Access Card, from the basic J-Lab 1 to the elusive colored variants. Dominate the labs and loot like a pro!",
-        tags: ["Escape from Duckov", "J-Lab Cards", "Access Guide"],
-        publishDate: "2025-10-28",
-        imageUrl: "/images/guide/guide07-01.webp",
-        imageAlt: "A player character looting a J-Lab Access Card in Escape from Duckov, inside a dimly lit room filled with industrial equipment.",
-        category: 'advanced',
-        seo:{
-            title: "Escape from Duckov: J-Lab Card Guide - Unlock All Labs!",
-            description: "Unlock all J-Labs in Escape from Duckov! This guide details J-Lab Card locations, quest rewards, and farming methods to efficiently raid high-tier loot. Dominate Duckov now!",
-            keywords: "escape from duckov j-lab cards, access card guide, duckov, lab access, looting guide, quest guide, farming guide, red card, blue card, green card",
-        },
-        addressBar: "/escape-from-duckov-j-lab-access-card-acquisition-guide",
-        detailsHtml: `
+  {
+    id: 7,
+    title: "Escape from Duckov J-Lab Access Cards Acquisition Guide",
+    iframeUrl: "1",
+    description: "Navigate the treacherous suburbs of Duckov and secure your access to the J-Labs! This guide provides detailed spawn locations, quest walkthroughs, and expert tips to acquire every J-Lab Access Card, from the basic J-Lab 1 to the elusive colored variants. Dominate the labs and loot like a pro!",
+    tags: ["Escape from Duckov", "J-Lab Cards", "Access Guide"],
+    publishDate: "2025-10-28",
+    imageUrl: "/images/guide/guide07-01.webp",
+    imageAlt: "A player character looting a J-Lab Access Card in Escape from Duckov, inside a dimly lit room filled with industrial equipment.",
+    category: 'advanced',
+    seo: {
+      title: "Escape from Duckov: J-Lab Card Guide - Unlock All Labs!",
+      description: "Unlock all J-Labs in Escape from Duckov! This guide details J-Lab Card locations, quest rewards, and farming methods to efficiently raid high-tier loot. Dominate Duckov now!",
+      keywords: "escape from duckov j-lab cards, access card guide, duckov, lab access, looting guide, quest guide, farming guide, red card, blue card, green card",
+    },
+    addressBar: "/escape-from-duckov-j-lab-access-card-acquisition-guide",
+    detailsHtml: `
         <p style="margin: 1em 0px;">
   In Escape from Duckov, J-Lab Access Cards are crucial for gaining access to the restricted laboratories scattered throughout the Duckov suburbs.
   While the first entry-level card (J-Lab 1) is relatively easy to find, more advanced versions—including Level 2 cards and colored access cards (red, blue, green, purple, yellow, and black)—are much rarer and typically unlocked through deeper exploration, looting, and completing specific quests.
@@ -874,23 +890,292 @@ export const guides = [
 </p>
 
         `,
-    }
+  },
+
+  {
+    id: 8,
+    title: "Escape from Duckov Scavenger: Where To Finding Rampaging Scavengers",
+    description: "Embark on the 'Hunter's Path' in Escape from Duckov! This guide provides precise locations and strategies for eliminating Rampaging Scavengers.",
+    tags: ["Escape from Duckov", "Hunter's Path Quest"],
+    publishDate: "2025-10-30",
+    imageUrl: "/images/guide/guide08-01.webp",
+    imageAlt: "Rampaging Scavengers in Escape from Duckov, identifiable by their red clothing and butcher knives.",
+    category: 'advanced',
+    seo: {
+      title: "Escape from Duckov Scavenger: Where To Finding Rampaging Scavengers",
+      description: "Complete the 'Hunter's Path' quest in Escape from Duckov with our expert guide! Find Rampaging Scavengers, kill them quickly, and claim your reward. Read now!",
+      keywords: "escape from duckov, hunter's path, rampaging scavengers, quest guide, wasteland survival, headshot strategy, gaming tips",
+    },
+    addressBar: "/escape-from-duckov-rampaging-scavenger",
+    detailsHtml: `
+      <p style="margin: 1em 0px;">
+  One of the early missions you'll receive in Escape from Duckov is the <strong>"Hunter's Path"</strong> quest, which tasks you with hunting down and eliminating some of the wasteland's more aggressive inhabitants: Rampaging Scavengers. This guide will show you exactly where to find these nimble foes, how to kill them efficiently, and how to complete the quest.
+</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;">
+  <strong>Step 1: Where to Find Rampaging Scavengers</strong>
+</h2>
+
+<p style="margin: 1em 0px;">
+  Unlike other enemies that roam randomly, Rampaging Scavengers are found in a specific, fixed location. You won't stumble upon them in the middle of the main path; you need to seek out their camp.
+</p>
+
+<h4 style="font-size: 1em; font-weight: bold;">
+  <strong>Location:</strong>
+</h4>
+
+<p style="margin: 1em 0px;">
+  The Rampaging Scavenger camp is located in a clearing in the <strong>southwest corner of the map</strong>, just south of the main Forest Path.
+  <img src="/images/guide/guide08-02.webp" alt="Rampaging Scavenger2">
+</p>
+
+<h4 style="font-size: 1em; font-weight: bold;">
+  <strong>How to Get There:</strong>
+</h4>
+
+<ol>
+  <li>Start from the main bunker entrance and head west along the dirt path.</li>
+  <li>Keep to the left side of the path. You will soon see a <strong>break in the wire fence line</strong> that leads south into a wooded area.</li>
+  <li>Follow this small detour path south into the clearing. You can't miss the camp from here.</li>
+</ol>
+
+<p style="margin: 1em 0px;">
+  Once you enter their camp, you will immediately spot them. They are easily identifiable by their bright red clothing and the menacing butcher knives they wield. Typically, you will find <strong>two to three scavengers</strong> spawned in this camp at any given time.
+</p>
+
+<p style="margin: 1em 0px;">
+  <strong>Warning:</strong> Be cautious! Once they spot you, Rampaging Scavengers are incredibly fast and will chase you relentlessly, potentially all the way back to the bunker. Do not underestimate their pursuit.
+</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;">
+  <strong>Step 2: How to Quickly Kill Rampaging Scavengers</strong>
+</h2>
+
+<p style="margin: 1em 0px;">
+  The key to dealing with these enemies is speed and precision. They will sprint directly at you to engage in fast, damaging melee combat that inflicts a bleeding status effect.
+</p>
+
+<h4 style="font-size: 1em; font-weight: bold;">
+  <strong>The Best Strategy: Aim for the Head</strong>
+</h4>
+
+<p style="margin: 1em 0px;">
+  <img src="/images/guide/guide08-03.webp" alt="Rampaging Scavenger2">
+</p>
+
+<p style="margin: 1em 0px;">
+  The single most effective way to kill a Rampaging Scavenger is with a clean headshot. This neutralizes them instantly, preventing them from closing the distance and causing you harm.
+</p>
+
+<ul>
+  <li><strong>Recommended Weapons:</strong> Use a precision weapon like a pistol or a rifle. Avoid shotguns, as their spread may not be effective at a distance, and do not attempt to fight them with melee weapons.</li>
+  <li><strong>Keep Your Distance:</strong> Do not let them get close. As soon as you spot them, take your position and aim carefully.</li>
+  <li><strong>Beware of the Environment:</strong> You will notice red explosive barrels in their camp. While you can shoot these to cause an explosion, it's a risky strategy. Once they are alerted, they will sprint towards you, likely moving out of the blast radius before it can do significant damage. It is safer to rely on direct shots.</li>
+  <li><strong>Prepare for the Aftermath:</strong> Even if you kill them quickly, you might take a hit. <strong>Bring bandages</strong> to stop any bleeding effects you may suffer during the fight.</li>
+</ul>
+
+<h2 style="font-size: 1.5em; font-weight: bold;">
+  <strong>Step 3: Completing the Hunter's Path Quest</strong>
+</h2>
+
+<p style="margin: 1em 0px;">
+  Once you have dealt with the scavengers, the final step is to complete the quest objectives.
+</p>
+
+<ol>
+  <li><strong>Kill Two Scavengers:</strong> Ensure you have killed at least two Rampaging Scavengers.</li>
+  <li><strong>Loot Their Butcher Knives:</strong> Approach the bodies of the scavengers you killed and loot the <strong>"Butcher Knife"</strong> from each of them. You need two knives for the quest.</li>
+  <li><strong>Return to the Bunker:</strong> With the knives in your inventory, safely make your way back to the bunker and turn in the quest to complete it.</li>
+</ol>
+
+<p style="text-align: center;">
+  <em>Follow these steps, and you'll have the Hunter's Path quest completed in no time. Good luck out there.</em>
+</p>
+
+      `,
+  },
+
+  {
+    id: 9,
+    title: "Escape From Duckov Tote Bag Guide",
+    description: "Unravel the mystery of the Tote Bag in Escape From Duckov! Many players overlook this 'luxury item,' but it's essential for acquiring unique boss drops. Learn where to find it, its purpose, and why keeping it is crucial for progressing in Farm Town. Don't make the same mistake!",
+    tags: ["Escape From Duckov", "Tote Bag", "Red Blob Boss", "Red Eye", "Farm Town"],
+    publishDate: "2025-10-30",
+    imageUrl: "/images/guide/guide09-01.webp",
+    imageAlt: "A player character in Escape From Duckov holding a Tote Bag near a loot cache.",
+    category: 'advanced',
+    seo: {
+      title: "Escape From Duckov Tote Bag Guide",
+      description: "Discover the secret of the Tote Bag in Escape From Duckov. Learn how to find it, use it, and why it's essential for obtaining the Red Eye from the Red Blob Boss. Complete guide!",
+      keywords: "escape from duckov, tote bag, red blob boss, red eye, farm town, unique item, boss drop, guide, walkthrough, strategy",
+    },
+    addressBar: "/escape-from-duckov-tote-bag-guide",
+    detailsHtml: `
+    <p style="margin: 1em 0px;">
+  In the world of Escape from Duckov, you'll come across many items. Some are for crafting, some for selling, and some, like the Tote Bag, have a very specific and crucial purpose that isn't immediately obvious. Many new players make the mistake of selling this "luxury item" for a quick profit, not realizing they are discarding an essential tool for obtaining one of the game's unique boss drops.
+</p>
+
+<p style="margin: 1em 0px;">
+  This guide covers what the Tote Bag does, where to find it, and why you should absolutely keep it.
+</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;">
+  <strong>What is the Tote Bag?</strong>
+</h2>
+
+<p style="margin: 1em 0px;">
+  The Tote Bag is a unique piece of equipment with very specific properties that set it apart from standard backpacks.
+</p>
+
+<p style="margin: 1em 0px;">
+  <img src="/images/guide/guide09-02.webp" alt="tote-bag1">
+</p>
+
+<ul>
+  <li><strong>Item Type:</strong> Luxury Item</li>
+  <li><strong>Acquisition:</strong> Found as random environmental loot (cannot be purchased).</li>
+  <li><strong>Stackable:</strong> No</li>
+  <li><strong>Key Feature:</strong> It contains a single, special storage slot labeled <strong>“?”</strong>. This slot is the entire reason for the bag's existence.</li>
+</ul>
+
+<p style="margin: 1em 0px;">
+  Unlike other bags, the Tote Bag provides no general inventory bonus, such as extra capacity or weight limit. Its value is entirely functional.
+</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;">
+  <strong>Where to Find the Tote Bag</strong>
+</h2>
+
+<p style="margin: 1em 0px;">
+  There is no single, guaranteed location to find a Tote Bag. Its acquisition is entirely based on luck and thorough exploration.
+</p>
+
+<ul>
+  <li><strong>Spawn Location:</strong> Appears as random <strong>environmental loot</strong> scattered throughout the game world.</li>
+  <li><strong>How to Find:</strong> The best way to increase your chances of finding one is to be meticulous during your raids. <strong>Thoroughly search buildings, containers, and loot caches</strong> across any map. Eventually, you will stumble upon one.</li>
+</ul>
+
+<p style="margin: 1em 0px;">
+  Once you find a Tote Bag, <strong>do not sell it</strong>. Store it safely in your hideout's warehouse until you are ready to use it.
+</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;">
+  <strong>The True Purpose: How to Use the Tote Bag</strong>
+</h2>
+
+<p style="margin: 1em 0px;">
+  The Tote Bag is the only tool that allows you to transport a special item dropped by a specific boss.
+</p>
+
+<ol>
+  <li><strong>The Boss:</strong> In <strong>Farm Town</strong>, there is a unique boss known as the <strong>"Red Blob Boss."</strong></li>
+  <li><strong>The Drop:</strong> When defeated, this boss drops a mysterious item called the <strong>Red Eye</strong> (originally identified as "??? Glowing eye").</li>
+  <li><strong>The Mechanic:</strong> You <strong>cannot pick up the Red Eye through normal means</strong>. If you try to loot it like a standard item, it won't work.</li>
+  <li><strong>The Solution:</strong> To transport the Red Eye, you must have the <strong>Tote Bag</strong> in your inventory. You then interact with the Red Eye and place it directly into the Tote Bag's special <strong>"?"</strong> slot. Only then can you carry it back to your base.</li>
+</ol>
+
+<p style="margin: 1em 0px;">
+  The Red Eye itself provides a powerful and lasting enhancement when used, making the Tote Bag an essential item for any player looking to farm this boss for its unique reward.
+</p>
+
+<h2 style="font-size: 1.5em; font-weight: bold;">
+  <strong>Tote Bag vs. Decoration Bag: What's the Difference?</strong>
+</h2>
+
+<p style="margin: 1em 0px;">
+  It's crucial to understand that the Tote Bag is a tool, not a backpack. For general loot runs, the Decoration Bag is the superior choice.
+</p>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin: 1em 0px;">
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Tote Bag</th>
+      <th>Decoration Bag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Type</strong></td>
+      <td>Luxury Item (Special Tool)</td>
+      <td>Wearable Backpack</td>
+    </tr>
+    <tr>
+      <td><strong>Purpose</strong></td>
+      <td>To extract the Red Eye from the Farm Town boss</td>
+      <td>General carry capacity for loot</td>
+    </tr>
+    <tr>
+      <td><strong>Inventory Bonus</strong></td>
+      <td>None</td>
+      <td>+8 capacity, +5 max weight</td>
+    </tr>
+    <tr>
+      <td><strong>Slot Function</strong></td>
+      <td>Special single “?” slot for the Red Eye</td>
+      <td>Standard backpack inventory expansion</td>
+    </tr>
+    <tr>
+      <td><strong>How to Get</strong></td>
+      <td>Found as random environmental loot</td>
+      <td>Purchased at Orange’s Armor Shop</td>
+    </tr>
+    <tr>
+      <td><strong>Price</strong></td>
+      <td>Not for sale (found only)</td>
+      <td>87 Money</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">
+  <strong>When to Use Which:</strong>
+</h3>
+
+<ul>
+  <li>Use the <strong>Decoration Bag</strong> for all your normal loot runs where you need to maximize carrying capacity.</li>
+  <li>
+    Use the <strong>Tote Bag</strong> <em>only</em> when you are specifically planning to hunt the Red Blob Boss in Farm Town and need to extract the Red Eye.
+    <img src="/images/guide/guide09-03.webp" alt="red-eye1">
+  </li>
+</ul>
+
+<h2 style="font-size: 1.5em; font-weight: bold;">
+  <strong>Why You Should Never Sell the Tote Bag</strong>
+</h2>
+
+<p style="margin: 1em 0px;">
+  Selling the Tote Bag is a common mistake for new players who don't understand its unique function. Because it's classified as a "luxury item" and has no obvious stats, it can seem like vendor trash.
+</p>
+
+<p style="margin: 1em 0px;">
+  However, the Tote Bag is an essential, non-purchasable tool required for repeatedly hunting the Red Blob Boss and acquiring the valuable Red Eye. If you plan on engaging with this content, you need to keep the bag.
+</p>
+
+<p style="margin: 1em 0px;">
+  If you have already sold yours, don't panic. Just be sure to keep the next one you find—you will need it later.
+</p>
+
+    `,
+  }
 
 
-    //   {
-    //     id: 5,
-    //     title: '',
-    //     description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-    //     imageUrl: '/images/guide-05.webp',
-    //     imageAlt: 'Storm Zone Access & Roadblock Boss Guide',
-    //     publishDate: '2025-10-27',
-    //     addressBar: '/storm-zone-access-roadblock-boss-guide',
-    //     category: 'advanced',
-    //     tags: ['STORM ZONE', 'BOSS FIGHT', 'CERTIFICATE FARMING', 'ENDGAME CONTENT', 'SURVIVAL'],
-    //     seo: {
-    //         title: 'Storm Zone Access & Roadblock Boss Guide - Escape from Duckov',
-    //         description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-    //         keywords: 'Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy',
-    //     },
-    //   }
+
+
+  //   {
+  //     id: 5,
+  //     title: '',
+  //     description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
+  //     imageUrl: '/images/guide-05.webp',
+  //     imageAlt: 'Storm Zone Access & Roadblock Boss Guide',
+  //     publishDate: '2025-10-27',
+  //     addressBar: '/storm-zone-access-roadblock-boss-guide',
+  //     category: 'advanced',
+  //     tags: ['STORM ZONE', 'BOSS FIGHT', 'CERTIFICATE FARMING', 'ENDGAME CONTENT', 'SURVIVAL'],
+  //     seo: {
+  //         title: 'Storm Zone Access & Roadblock Boss Guide - Escape from Duckov',
+  //         description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
+  //         keywords: 'Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy',
+  //     },
+  //   }
 ]

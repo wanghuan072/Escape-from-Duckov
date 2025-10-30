@@ -108,7 +108,7 @@ a:hover {
 
 /* Page Header Styles */
 .page-header {
-  padding: 80px 0;
+  padding: 80px 0 40px 0;
 }
 
 .page-header-content {
@@ -184,7 +184,7 @@ a:hover {
   position: absolute;
   width: 20px;
   height: 20px;
-  border: 2px solid var(--accent-blue);
+  border: 2px solid #FA9317;
   transition: all 0.3s ease;
 }
 
@@ -213,7 +213,7 @@ a:hover {
 .card:hover::after {
   width: 24px;
   height: 24px;
-  box-shadow: 0 0 8px rgba(77, 166, 255, 0.6);
+  box-shadow: 0 0 8px rgba(250, 147, 23, 0.6);
 }
 
 /* Grid layouts */

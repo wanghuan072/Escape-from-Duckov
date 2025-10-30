@@ -4,6 +4,8 @@ import { fileURLToPath } from 'url'
 import { guides } from '../src/data/guide/guide.js'
 import { mods } from '../src/data/mods/mods.js'
 import quests from '../src/data/wiki/quests/quests.js'
+import itemsWeapons from '../src/data/items/weapons/weapons.js'
+import itemsEquipment from '../src/data/items/equipment/equipment.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -19,7 +21,10 @@ const routes = [
     { path: '/guides', name: 'guides', priority: 0.9, changefreq: 'weekly' },
     { path: '/wiki', name: 'wiki', priority: 0.8, changefreq: 'weekly' },
     { path: '/escape-from-duckov-notes', name: 'notes', priority: 0.7, changefreq: 'monthly' },
-    { path: '/escape-from-duckov-quests', name: 'quests', priority: 0.7, changefreq: 'monthly' },
+    { path: '/wiki/quests', name: 'quests', priority: 0.7, changefreq: 'monthly' },
+    { path: '/items', name: 'items', priority: 0.7, changefreq: 'weekly' },
+    { path: '/items/weapons', name: 'items-weapons', priority: 0.7, changefreq: 'weekly' },
+    { path: '/items/equipment', name: 'items-equipment', priority: 0.7, changefreq: 'weekly' },
     { path: '/maps', name: 'maps', priority: 0.8, changefreq: 'monthly' },
     { path: '/mods', name: 'mods', priority: 0.7, changefreq: 'weekly' },
     { path: '/privacy-policy', name: 'privacy-policy', priority: 0.5, changefreq: 'yearly' },
@@ -61,6 +66,7 @@ function generateSitemap() {
     // 为每个指南生成URL
     if (guides && Array.isArray(guides)) {
         guides.forEach(guide => {
+            if (!guide || !guide.addressBar) return
             const guidePath = `/guides${guide.addressBar}`
             sitemapXml += `\n${generateUrlXml(guidePath, guide.publishDate || lastmod, 0.8, 'monthly')}`
         })
@@ -69,6 +75,7 @@ function generateSitemap() {
     // 为每个模组生成URL
     if (mods && Array.isArray(mods)) {
         mods.forEach(mod => {
+            if (!mod || !mod.addressBar) return
             const modPath = `/mods${mod.addressBar}`
             sitemapXml += `\n${generateUrlXml(modPath, mod.publishDate || lastmod, 0.6, 'monthly')}`
         })
@@ -76,10 +83,34 @@ function generateSitemap() {
 
     // 为每个任务生成URL
     if (quests && Array.isArray(quests)) {
-        quests.forEach(quest => {
-            const questPath = `/wiki/quests${quest.addressBar}`
-            sitemapXml += `\n${generateUrlXml(questPath, quest.publishDate || lastmod, 0.7, 'monthly')}`
-        })
+        quests
+            .filter(quest => quest && quest.showDetail !== false)
+            .forEach(quest => {
+                if (!quest.addressBar) return
+                const questPath = `/wiki/quests${quest.addressBar}`
+                sitemapXml += `\n${generateUrlXml(questPath, quest.publishDate || lastmod, 0.7, 'monthly')}`
+            })
+    }
+
+
+    // 为 items/weapons 生成URL
+    if (itemsWeapons && Array.isArray(itemsWeapons)) {
+        itemsWeapons
+            .filter(item => item && item.showDetail !== false && item.addressBar)
+            .forEach(item => {
+                const p = `/items/weapons${item.addressBar}`
+                sitemapXml += `\n${generateUrlXml(p, item.publishDate || lastmod, 0.7, 'monthly')}`
+            })
+    }
+
+    // 为 items/equipment 生成URL
+    if (itemsEquipment && Array.isArray(itemsEquipment)) {
+        itemsEquipment
+            .filter(item => item && item.showDetail !== false && item.addressBar)
+            .forEach(item => {
+                const p = `/items/equipment${item.addressBar}`
+                sitemapXml += `\n${generateUrlXml(p, item.publishDate || lastmod, 0.7, 'monthly')}`
+            })
     }
 
     sitemapXml += `\n</urlset>`

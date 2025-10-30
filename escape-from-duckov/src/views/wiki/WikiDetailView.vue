@@ -5,18 +5,22 @@
             <div class="container">
                 <div class="breadcrumb">
                     <a href="/wiki" class="breadcrumb-link">
-                        <svg class="breadcrumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                            <polyline points="9,22 9,12 15,12 15,22"/>
+                        <svg class="breadcrumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                            <polyline points="9,22 9,12 15,12 15,22" />
                         </svg>
                         Wiki
                     </a>
-                    <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="9,18 15,12 9,6"/>
+                    <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <polyline points="9,18 15,12 9,6" />
                     </svg>
-                    <a :href="getCategoryLink(category)" class="breadcrumb-link">{{ getCategoryDisplayName(category) }}</a>
-                    <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="9,18 15,12 9,6"/>
+                    <a :href="getCategoryLink(category)" class="breadcrumb-link">{{ getCategoryDisplayName(category)
+                    }}</a>
+                    <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <polyline points="9,18 15,12 9,6" />
                     </svg>
                     <span class="breadcrumb-current">{{ item?.title }}</span>
                 </div>
@@ -42,7 +46,7 @@
                             <div class="info-box-header">
                                 <h3 class="info-box-title">{{ item?.title }}</h3>
                             </div>
-                            
+
                             <!-- 直接显示图片 -->
                             <div class="quest-image" v-if="item?.imageUrl">
                                 <img :src="item?.imageUrl" :alt="item?.imageAlt" class="quest-image-img">
@@ -59,11 +63,12 @@
 
                         <!-- Other Items 自动总结所有数据 -->
                         <div class="quest-navigation">
-                            <h4 class="nav-title">Other {{ category === 'quests' ? 'Quests' : category === 'weapons' ? 'Weapons' : 'Items' }}</h4>
+                            <h4 class="nav-title">Other {{ category === 'quests' ? 'Quests' : category === 'weapons' ?
+                                'Weapons' : 'Items' }}</h4>
                             <div class="nav-links">
-                                <a v-for="quest in otherQuests" :key="quest.id" 
-                                   :href="`/wiki/${category}/${quest.addressBar.replace('/', '')}`" 
-                                   class="nav-link">{{ quest.title }}</a>
+                                <a v-for="quest in otherQuests" :key="quest.id"
+                                    :href="`/wiki/${category}/${quest.addressBar.replace('/', '')}`" class="nav-link">{{
+                                        quest.title }}</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +115,7 @@ const getCategoryDisplayName = (category) => {
 }
 
 const getCategoryLink = (category) => {
-    if (category === 'quests') return '/escape-from-duckov-quests'
+    if (category === 'quests') return '/wiki/quests'
     if (category) return `/wiki/${category}`
     return '/wiki'
 }
@@ -291,7 +296,7 @@ const getCategoryLink = (category) => {
         grid-template-columns: 1fr;
         gap: 24px;
     }
-    
+
     .right-sidebar {
         order: -1;
     }
@@ -302,37 +307,39 @@ const getCategoryLink = (category) => {
     .info-box-title {
         font-size: 16px;
     }
-    
+
     .nav-title {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     .nav-link {
         font-size: 12px;
         padding: 5px 10px;
     }
 
-    .detail-label{
+    .detail-label {
         font-size: 12px;
     }
-    .detail-value{
+
+    .detail-value {
         font-size: 12px;
     }
-    .detail-item{
+
+    .detail-item {
         gap: 2px;
         margin-bottom: 5px;
     }
-    
+
     .breadcrumb {
         font-size: 12px;
         gap: 8px;
     }
-    
+
     .breadcrumb-link {
         font-size: 12px;
     }
-    
+
     .breadcrumb-icon,
     .breadcrumb-arrow {
         width: 14px;
@@ -343,7 +350,7 @@ const getCategoryLink = (category) => {
     .wiki-detail-header {
         padding: 10px 0;
     }
-    
+
     .wiki-content {
         padding: 20px 0;
     }
@@ -351,31 +358,31 @@ const getCategoryLink = (category) => {
     .left-content {
         padding: 10px;
     }
-    
+
     .content-layout {
         gap: 10px;
     }
-    
+
     .right-sidebar {
         gap: 10px;
     }
-    
+
     .quest-image {
         height: 120px;
     }
-    
+
     .info-box-header {
         padding: 10px;
     }
-    
+
     .quest-details {
         padding: 10px;
     }
-    
+
     .quest-navigation {
         padding: 10px;
     }
-    
+
     .nav-links {
         gap: 6px;
     }

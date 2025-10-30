@@ -10,6 +10,7 @@
           <li><a href="/">Home</a></li>
           <li><a href="/guides">Guides</a></li>
           <li><a href="/wiki">Wiki</a></li>
+          <li><a href="/items">Items</a></li>
           <li><a href="/maps">Maps</a></li>
           <li><a href="/mods">Mods</a></li>
         </ul>
@@ -38,6 +39,7 @@
           <li><a href="/" @click="closeMenu">Home</a></li>
           <li><a href="/guides" @click="closeMenu">Guides</a></li>
           <li><a href="/wiki" @click="closeMenu">Wiki</a></li>
+          <li><a href="/items" @click="closeMenu">Items</a></li>
           <li><a href="/maps" @click="closeMenu">Maps</a></li>
           <li><a href="/mods" @click="closeMenu">Mods</a></li>
         </ul>

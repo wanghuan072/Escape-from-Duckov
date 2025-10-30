@@ -187,7 +187,7 @@
                     through
                     our comprehensive wiki.</p>
                 <div class="guides-grid">
-                    <a href="/escape-from-duckov-quests" class="guide-card-link card">
+                    <a href="/wiki/quests" class="guide-card-link card">
                         <div class="guide-image">
                             <img src="/images/wiki-01.webp" alt="Quests Guide" class="guide-img">
                         </div>

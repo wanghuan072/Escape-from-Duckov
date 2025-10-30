@@ -15,6 +15,7 @@
             <ul>
               <li><a href="#guides">Guides</a></li>
               <li><a href="#wiki">Wiki</a></li>
+              <li><a href="/items">Items</a></li>
               <li><a href="#maps">Maps</a></li>
               <li><a href="#mods">Mods</a></li>
             </ul>

@@ -14,18 +14,13 @@
             <!-- Important Articles -->
             <section class="articles-section">
                 <div class="articles-grid">
-                    <a href="/escape-from-duckov-quests" class="article-card">
+                    <a href="/wiki/quests" class="article-card">
                         <div class="card-image-container">
                             <img src="/images/wiki-01.webp" alt="Quests" class="card-image">
                         </div>
                         <h3 class="card-title">Quests</h3>
                     </a>
-                    <a href="/wiki/weapons" class="article-card">
-                        <div class="card-image-container">
-                            <img src="/images/wiki-02.webp" alt="Weapons" class="card-image">
-                        </div>
-                        <h3 class="card-title">Weapons</h3>
-                    </a>
+                    
                 </div>
             </section>
         </div>

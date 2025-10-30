@@ -6,10 +6,7 @@ import { ref } from 'vue'
  */
 const WIKI_DATA_CONFIG = {
     quests: {
-        routePath: '/escape-from-duckov-quests'
-    },
-    weapons: {
-        routePath: '/wiki/weapons'
+        routePath: '/wiki/quests'
     }
     // 添加新的类别示例：
     // equipment: {
@@ -26,8 +23,6 @@ const loadDataModule = async (category) => {
     switch (category) {
         case 'quests':
             return await import('../data/wiki/quests/quests.js')
-        case 'weapons':
-            return await import('../data/wiki/weapons/weapons.js')
         // 添加新的类别时，在这里添加对应的导入：
         // case 'equipment':
         //     return await import('../data/wiki/equipment/equipment.js')

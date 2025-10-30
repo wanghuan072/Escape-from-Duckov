@@ -6,9 +6,13 @@ import MapsView from '../views/MapsView.vue'
 import ModsView from '../views/ModsView.vue'
 import ModDetailView from '../views/ModDetailView.vue'
 import WikiView from '../views/wiki/WikiView.vue'
-import QuestsView from '../views/wiki/QuestsView.vue'
-import WeaponsView from '../views/wiki/WeaponsView.vue'
+// Generic wiki category listing
+import WikiQuestsView from '../views/wiki/WikiQuestsView.vue'
 import WikiDetailView from '../views/wiki/WikiDetailView.vue'
+import ItemsView from '../views/items/ItemsView.vue'
+import ItemsWeaponsView from '../views/items/ItemsWeaponsView.vue'
+import ItemsEquipmentView from '../views/items/ItemsEquipmentView.vue'
+import ItemsDetailView from '../views/items/ItemsDetailView.vue'
 import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
 import TermsOfServiceView from '../views/TermsOfServiceView.vue'
 import CopyrightView from '../views/CopyrightView.vue'
@@ -109,28 +113,16 @@ const router = createRouter({
         }
       }
     },
+    { path: '/escape-from-duckov-quests', redirect: '/wiki/quests' },
     {
-      path: '/escape-from-duckov-quests',
-      name: 'quests',
-      component: QuestsView,
+      path: '/wiki/quests',
+      name: 'wiki-quests',
+      component: WikiQuestsView,
       meta: {
         seo: {
           title: 'Escape from Duckov Quests | Full Mission Database',
           description: 'Explore all quests in Escape from Duckov. Track objectives, rewards, task chains, and completion routes with this ultimate quest database and mission guide.',
           keywords: 'Escape from Duckov quests, mission database, task list, quest objectives, rewards, mission guide, completion routes',
-          type: 'website'
-        }
-      }
-    },
-    {
-      path: '/wiki/weapons',
-      name: 'weapons',
-      component: WeaponsView,
-      meta: {
-        seo: {
-          title: 'Escape from Duckov Weapons | Complete Weapon Database',
-          description: 'Explore all weapons in Escape from Duckov. Find weapon stats, damage, types, and specifications in this comprehensive weapon database.',
-          keywords: 'Escape from Duckov weapons, weapon database, weapon stats, damage, weapon types, weapon specifications, armory',
           type: 'website'
         }
       }
@@ -210,6 +202,59 @@ const router = createRouter({
           description: 'Contact DuckovGame for support, feedback, and inquiries. Get help with your questions and suggestions.',
           keywords: 'contact DuckovGame, support, feedback, help, customer service, inquiries',
           type: 'website'
+        }
+      }
+    }
+    ,
+    {
+      path: '/items',
+      name: 'items',
+      component: ItemsView,
+      meta: {
+        seo: {
+          title: 'Escape from Duckov Items | Weapons & Equipment',
+          description: 'Browse items database including weapons and equipment for Escape from Duckov.',
+          keywords: 'Duckov items, weapons, equipment, database',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/items/weapons',
+      name: 'items-weapons',
+      component: ItemsWeaponsView,
+      meta: {
+        seo: {
+          title: 'Escape from Duckov Weapons | duckovgame.com',
+          description: 'Browse all weapons in the items database.',
+          keywords: 'duckov items weapons, weapons list',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/items/equipment',
+      name: 'items-equipment',
+      component: ItemsEquipmentView,
+      meta: {
+        seo: {
+          title: 'Escape from Duckov Equipment | duckovgame.com',
+          description: 'Browse all equipment in the items database.',
+          keywords: 'duckov items equipment, helmets, armor',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/items/:category/:id',
+      name: 'items-detail',
+      component: ItemsDetailView,
+      meta: {
+        seo: {
+          title: 'Escape from Duckov Detail | duckovgame.com',
+          description: 'Detailed item information for Escape from Duckov.',
+          keywords: 'Duckov item detail, weapon detail, equipment detail',
+          type: 'article'
         }
       }
     }
