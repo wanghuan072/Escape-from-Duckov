@@ -1,32 +1,38 @@
 <template>
-    <div class="quests-view">
+    <div class="weapons-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Escape From Duckov - All Quests</h1>
-                <p class="page-subtitle">Quest checklist for Duckov with requirements & objectives maps!</p>
+                <h1 class="page-title">Escape From Duckov - All Weapons</h1>
+                <p class="page-subtitle">Complete weapon database with stats, damage, and specifications!</p>
             </div>
 
             <div class="table-container">
-                <table class="quests-table">
+                <table class="weapons-table">
                     <thead>
                         <tr>
-                            <th class="npc-col">NPC</th>
-                            <th class="quest-name-col">Quest Name</th>
-                            <th class="rewards-col">Rewards</th>
+                            <th class="weapon-image-col">Image</th>
+                            <th class="weapon-name-col">Weapon Name</th>
+                            <th class="weapon-type-col">Type</th>
+                            <th class="weapon-stats-col">Stats</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="quest in questsData" :key="quest.id" @click="goToQuestDetail(quest)" class="quest-row">
-                            <td class="npc-cell">
-                                <div class="npc-avatar">
-                                    <img :src="quest.imageUrl" :alt="quest.imageAlt" class="npc-image">
+                        <tr v-for="weapon in weaponsData" :key="weapon.id" @click="goToWeaponDetail(weapon)" class="weapon-row">
+                            <td class="weapon-image-cell">
+                                <div class="weapon-avatar">
+                                    <img :src="weapon.imageUrl" :alt="weapon.imageAlt" class="weapon-image">
                                 </div>
                             </td>
-                            <td class="quest-name-cell">{{ quest.title }}</td>
-                            <td class="rewards-cell">
-                                <ul class="rewards-list">
-                                    <li v-for="reward in quest.rewards" :key="reward" class="reward-item">{{ reward }}</li>
+                            <td class="weapon-name-cell">{{ weapon.title }}</td>
+                            <td class="weapon-type-cell">{{ weapon.type || '-' }}</td>
+                            <td class="weapon-stats-cell">
+                                <ul class="stats-list" v-if="weapon.stats && weapon.stats.length > 0">
+                                    <li v-for="stat in weapon.stats" :key="stat" class="stat-item">{{ stat }}</li>
                                 </ul>
+                                <ul class="stats-list" v-else-if="weapon.rewards && weapon.rewards.length > 0">
+                                    <li v-for="reward in weapon.rewards" :key="reward" class="stat-item">{{ reward }}</li>
+                                </ul>
+                                <span v-else>-</span>
                             </td>
                         </tr>
                     </tbody>
@@ -42,15 +48,15 @@ import { useRouter } from 'vue-router'
 import { useWikiData } from '../../composables/useWikiData.js'
 
 const router = useRouter()
-const { data: questsData, loadData } = useWikiData('quests')
+const { data: weaponsData, loadData } = useWikiData('weapons')
 
 onMounted(() => {
     loadData()
 })
 
-const goToQuestDetail = (quest) => {
-    const questId = quest.addressBar.replace('/', '')
-    router.push(`/wiki/quests/${questId}`)
+const goToWeaponDetail = (weapon) => {
+    const weaponId = weapon.addressBar.replace('/', '')
+    router.push(`/wiki/weapons/${weaponId}`)
 }
 </script>
 
@@ -76,12 +82,12 @@ const goToQuestDetail = (quest) => {
     border: 1px solid var(--border-color);
 }
 
-.quests-table {
+.weapons-table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.quests-table th {
+.weapons-table th {
     background-color: var(--bg-secondary);
     color: var(--text-heading);
     font-weight: 600;
@@ -91,47 +97,51 @@ const goToQuestDetail = (quest) => {
     font-size: 0.875rem;
 }
 
-.quest-name-col {
+.weapon-name-col {
     width: 200px;
 }
 
-.npc-col {
+.weapon-image-col {
     width: 120px;
 }
 
-.rewards-col {
+.weapon-type-col {
+    width: 150px;
+}
+
+.weapon-stats-col {
     min-width: 300px;
 }
 
-.npc-cell {
+.weapon-image-cell {
     text-align: center;
     padding: 12px;
 }
 
-.npc-avatar {
+.weapon-avatar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.npc-image {
+.weapon-image {
     width: 80px;
     height: 80px;
     border-radius: 4px;
     object-fit: cover;
 }
 
-.rewards-cell {
+.weapon-stats-cell {
     padding: 12px;
 }
 
-.rewards-list {
+.stats-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.reward-item {
+.stat-item {
     color: #FFD700;
     font-size: 0.875rem;
     margin-bottom: 4px;
@@ -139,41 +149,46 @@ const goToQuestDetail = (quest) => {
     position: relative;
 }
 
-.reward-item::before {
+.stat-item::before {
     content: '•';
     color: #FFD700;
     position: absolute;
     left: 0;
 }
 
-.quest-row {
+.weapon-row {
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
 
-.quest-row:hover {
+.weapon-row:hover {
     background-color: var(--bg-card-hover);
 }
 
-.quests-table td {
+.weapons-table td {
     padding: 16px;
     border-bottom: 1px solid var(--border-color);
     color: var(--text-primary);
     background-color: var(--bg-card);
 }
 
-.quests-table tbody tr:nth-child(even) td {
+.weapons-table tbody tr:nth-child(even) td {
     background-color: rgba(21, 21, 21, 0.6);
 }
 
-.quests-table tbody tr:hover td {
+.weapons-table tbody tr:hover td {
     background-color: var(--bg-card-hover);
 }
 
-.quest-name-cell {
+.weapon-name-cell {
     font-weight: 600;
     color: var(--text-heading);
     font-size: 1rem;
+}
+
+.weapon-type-cell {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
 }
 
 .info-cell {
@@ -184,20 +199,24 @@ const goToQuestDetail = (quest) => {
 
 /* Medium screens (≤1024px) */
 @media (max-width: 1024px) {
-    .rewards-col {
+    .weapon-stats-col {
         min-width: 200px;
     }
     
-    .npc-col {
+    .weapon-image-col {
         width: 80px;
     }
     
-    .quest-name-col {
+    .weapon-name-col {
         width: 120px;
     }
     
-    .quests-table th,
-    .quests-table td {
+    .weapon-type-col {
+        width: 100px;
+    }
+    
+    .weapons-table th,
+    .weapons-table td {
         padding: 12px 8px;
         font-size: 0.85rem;
     }
@@ -215,42 +234,51 @@ const goToQuestDetail = (quest) => {
         font-size: 12px;
     }
     
-    .quest-name-cell {
+    .weapon-name-cell {
         font-size: 12px;
     }
     
-    .reward-item {
+    .weapon-type-cell {
+        font-size: 12px;
+    }
+    
+    .stat-item {
         font-size: 12px;
     }
 
     /* Layout Adjustments */
-    .quests-table th,
-    .quests-table td {
+    .weapons-table th,
+    .weapons-table td {
         padding: 6px 4px;
         font-size: 12px;
     }
 
-    .npc-col {
+    .weapon-image-col {
         width: 60px;
     }
 
-    .quest-name-col {
+    .weapon-name-col {
         width: 100px;
     }
+    
+    .weapon-type-col {
+        width: 80px;
+    }
 
-    .rewards-col {
+    .weapon-stats-col {
         min-width: 150px;
     }
     
-    .npc-image {
+    .weapon-image {
         width: 40px;
         height: 40px;
     }
     
-    .reward-item {
+    .stat-item {
         font-size: 12px;
         margin-bottom: 2px;
         padding-left: 6px;
     }
 }
 </style>
+

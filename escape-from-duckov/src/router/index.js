@@ -7,6 +7,7 @@ import ModsView from '../views/ModsView.vue'
 import ModDetailView from '../views/ModDetailView.vue'
 import WikiView from '../views/wiki/WikiView.vue'
 import QuestsView from '../views/wiki/QuestsView.vue'
+import WeaponsView from '../views/wiki/WeaponsView.vue'
 import WikiDetailView from '../views/wiki/WikiDetailView.vue'
 import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
 import TermsOfServiceView from '../views/TermsOfServiceView.vue'
@@ -117,6 +118,19 @@ const router = createRouter({
           title: 'Escape from Duckov Quests | Full Mission Database',
           description: 'Explore all quests in Escape from Duckov. Track objectives, rewards, task chains, and completion routes with this ultimate quest database and mission guide.',
           keywords: 'Escape from Duckov quests, mission database, task list, quest objectives, rewards, mission guide, completion routes',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/wiki/weapons',
+      name: 'weapons',
+      component: WeaponsView,
+      meta: {
+        seo: {
+          title: 'Escape from Duckov Weapons | Complete Weapon Database',
+          description: 'Explore all weapons in Escape from Duckov. Find weapon stats, damage, types, and specifications in this comprehensive weapon database.',
+          keywords: 'Escape from Duckov weapons, weapon database, weapon stats, damage, weapon types, weapon specifications, armory',
           type: 'website'
         }
       }

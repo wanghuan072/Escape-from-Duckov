@@ -374,6 +374,18 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.detail-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.detail-article table th, .detail-article table td {
+  padding: 10px;
+  border: 1px solid #333;
+}
+
 
 @media (max-width: 768px) {
   .container{

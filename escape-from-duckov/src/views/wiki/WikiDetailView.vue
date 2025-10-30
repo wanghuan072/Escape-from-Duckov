@@ -14,7 +14,7 @@
                     <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="9,18 15,12 9,6"/>
                     </svg>
-                    <a :href="`/${category}`" class="breadcrumb-link">{{ getCategoryDisplayName(category) }}</a>
+                    <a :href="getCategoryLink(category)" class="breadcrumb-link">{{ getCategoryDisplayName(category) }}</a>
                     <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="9,18 15,12 9,6"/>
                     </svg>
@@ -29,24 +29,27 @@
                 <div class="content-layout">
                     <!-- Left Content -->
                     <div class="left-content">
+                        <div v-if="!item" style="text-align: center; padding: 40px; color: var(--text-secondary);">
+                            Loading...
+                        </div>
                         <!-- 使用 v-html 渲染 detailsHtml -->
-                        <div class="detail-article" v-html="item?.detailsHtml"></div>
+                        <div v-else class="detail-article" v-html="item?.detailsHtml"></div>
                     </div>
 
                     <!-- Right Sidebar -->
-                    <div class="right-sidebar">
+                    <div class="right-sidebar" v-if="item">
                         <div class="quest-info-box">
                             <div class="info-box-header">
                                 <h3 class="info-box-title">{{ item?.title }}</h3>
                             </div>
                             
                             <!-- 直接显示图片 -->
-                            <div class="quest-image">
+                            <div class="quest-image" v-if="item?.imageUrl">
                                 <img :src="item?.imageUrl" :alt="item?.imageAlt" class="quest-image-img">
                             </div>
 
                             <!-- 使用数据中的 rightContent 数组 -->
-                            <div class="quest-details">
+                            <div class="quest-details" v-if="item?.rightContent && item.rightContent.length > 0">
                                 <div v-for="content in item?.rightContent" :key="content.label" class="detail-item">
                                     <span class="detail-label">{{ content.label }}:</span>
                                     <span class="detail-value">{{ content.value }}</span>
@@ -54,12 +57,12 @@
                             </div>
                         </div>
 
-                        <!-- Other Quests 自动总结所有数据 -->
+                        <!-- Other Items 自动总结所有数据 -->
                         <div class="quest-navigation">
-                            <h4 class="nav-title">Other Quests</h4>
+                            <h4 class="nav-title">Other {{ category === 'quests' ? 'Quests' : category === 'weapons' ? 'Weapons' : 'Items' }}</h4>
                             <div class="nav-links">
                                 <a v-for="quest in otherQuests" :key="quest.id" 
-                                   :href="`/wiki/quests/${quest.addressBar.replace('/', '')}`" 
+                                   :href="`/wiki/${category}/${quest.addressBar.replace('/', '')}`" 
                                    class="nav-link">{{ quest.title }}</a>
                             </div>
                         </div>
@@ -73,38 +76,28 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
 import { useRoute } from 'vue-router'
+import { useWikiData } from '../../composables/useWikiData.js'
 
 const route = useRoute()
 const item = ref(null)
 const category = ref('')
-const allQuests = ref([])
+
+const { category: routeCategory, id } = route.params
+category.value = routeCategory
+
+const { data: allItems, loadData, findItemById, getOtherItems } = useWikiData(routeCategory)
 
 onMounted(async () => {
-    const { category: routeCategory, id } = route.params
-    
-    category.value = routeCategory
-    
-    try {
-        // 根据类别动态导入对应的数据
-        let dataModule = null
-        if (routeCategory === 'quests') {
-            dataModule = await import('../../data/wiki/quests/quests.js')
-        }
-        
-        if (dataModule && dataModule.default) {
-            const items = dataModule.default
-            allQuests.value = items
-            item.value = items.find(item => item.addressBar === `/${id}`)
-        }
-    } catch (error) {
-        console.error('Failed to load wiki data:', error)
+    await loadData()
+    if (id) {
+        item.value = findItemById(id)
     }
 })
 
-// 计算其他任务（排除当前任务）
+// 计算其他项目（排除当前项目，只显示最后10个）
 const otherQuests = computed(() => {
     if (!item.value) return []
-    return allQuests.value.filter(quest => quest.id !== item.value.id)
+    return getOtherItems(item.value.id)
 })
 
 const getCategoryDisplayName = (category) => {
@@ -114,6 +107,12 @@ const getCategoryDisplayName = (category) => {
         'equipment': 'Equipment'
     }
     return categoryMap[category] || 'Wiki'
+}
+
+const getCategoryLink = (category) => {
+    if (category === 'quests') return '/escape-from-duckov-quests'
+    if (category) return `/wiki/${category}`
+    return '/wiki'
 }
 </script>
 
