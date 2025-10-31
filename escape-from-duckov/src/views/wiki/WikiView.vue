@@ -6,7 +6,7 @@
                 <div class="page-header-content">
                     <div class="page-header-text">
                         <h1 class="page-title">Escape from Duckov Wiki</h1>
-                        <p class="page-subtitle">The unofficial wiki for Escape from Duckov, providing guides, information, and community tools for players.</p>
+                        <p class="page-subtitle">Complete Escape from Duckov quest database with detailed objectives, rewards, and NPC information. Your comprehensive reference for all missions, requirements, and quest chains in Duckov.</p>
                     </div>
                 </div>
             </section>

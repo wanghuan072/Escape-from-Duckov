@@ -20,6 +20,12 @@
                     </svg>
                     <span class="breadcrumb-current">{{ item?.title || 'Item Detail' }}</span>
                 </div>
+                
+                <div class="items-detail-content" v-if="item">
+                    <div class="items-detail-text">
+                        <h1 class="items-title">{{ item?.title }}</h1>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -36,7 +42,7 @@
                             <div class="hero-box">
                                 <img :src="item.imageUrl" :alt="item.imageAlt" class="hero-image">
                                 <div class="hero-meta">
-                                    <h1 class="hero-title">{{ item.title }}</h1>
+                                    <h2 class="hero-title">{{ item.title }}</h2>
                                     <div class="hero-tags" v-if="item.type">
                                         <span class="tag">{{ item.type }}</span>
                                     </div>
@@ -103,13 +109,34 @@ onMounted(async () => {
 <style scoped>
 .items-detail-view { min-height: 100vh; }
 
-.detail-header-section { padding: 40px 0 20px; }
+.detail-header-section { padding: 80px 0 40px; }
 .breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 0.875rem; color: var(--text-secondary); }
 .breadcrumb-link { color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 4px; transition: color 0.2s ease; }
 .breadcrumb-link:hover { color: var(--text-primary); }
 .breadcrumb-icon { width: 16px; height: 16px; }
 .breadcrumb-arrow { width: 16px; height: 16px; opacity: 0.6; }
 .breadcrumb-current { color: var(--text-primary); font-weight: 500; }
+
+/* Items Title (H1) */
+.items-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-heading);
+    margin: 0;
+    line-height: 1.2;
+    background: linear-gradient(135deg, var(--text-heading) 0%, #FFD700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.items-detail-content {
+    padding-top: 24px;
+}
+
+.items-detail-text {
+    max-width: 800px;
+}
 
 .items-content { padding: 0 0 80px; }
 .content-layout { display: grid; grid-template-columns: 1fr 300px; gap: 40px; max-width: 1200px; margin: 0 auto; }
@@ -138,11 +165,28 @@ onMounted(async () => {
 .nav-link:hover { background-color: var(--bg-secondary); border-color: var(--border-color); color: #FFD700; }
 
 @media (max-width: 1024px) {
+    .items-title {
+        font-size: 2.5rem;
+    }
+    
     .content-layout { grid-template-columns: 1fr; gap: 24px; }
     .right-sidebar { order: -1; }
 }
 
 @media (max-width: 768px) {
+    .items-title {
+        font-size: 1.75rem;
+        line-height: 1.3;
+    }
+    
+    .items-detail-content {
+        padding-top: 16px;
+    }
+    
+    .detail-header-section {
+        padding: 20px 0;
+    }
+    
     .breadcrumb { font-size: 12px; gap: 8px; }
     .breadcrumb-link { font-size: 12px; }
     .breadcrumb-icon, .breadcrumb-arrow { width: 14px; height: 14px; }

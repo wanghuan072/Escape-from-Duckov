@@ -19,6 +19,8 @@
                 
                 <div class="guide-detail-content">
                     <div class="guide-detail-text">
+                        <h1 class="guide-title">{{ guide?.title }}</h1>
+                        
                         <div class="guide-category">
                             <span class="category-badge">{{ getCategoryName(guide?.category) }}</span>
                         </div>
@@ -187,6 +189,23 @@ const getCategoryName = (category) => {
     font-weight: 500;
 }
 
+/* Guide Title (H1) */
+.guide-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-heading);
+    margin: 0 0 24px 0;
+    line-height: 1.2;
+    background: linear-gradient(135deg, var(--text-heading) 0%, #FA9317 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.guide-detail-text {
+    max-width: 800px;
+}
+
 /* Guide Content */
 .guide-content {
     padding: 0 0 80px;
@@ -340,6 +359,11 @@ const getCategoryName = (category) => {
 
 /* Medium screens (≤1024px) */
 @media (max-width: 1024px) {
+    .guide-title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    
     .content-layout {
         grid-template-columns: 1fr;
         gap: 24px;
@@ -357,6 +381,12 @@ const getCategoryName = (category) => {
 
 /* Mobile screens (≤768px) */
 @media (max-width: 768px) {
+    .guide-title {
+        font-size: 1.75rem;
+        margin-bottom: 16px;
+        line-height: 1.3;
+    }
+    
     .category-badge {
         font-size: 12px;
         padding: 4px 12px;

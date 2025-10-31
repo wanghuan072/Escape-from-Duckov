@@ -3,7 +3,7 @@
         <div class="container">
             <div class="page-header">
                 <h1 class="page-title">Escape From Duckov - All Quests</h1>
-                <p class="page-subtitle">Quest checklist for Duckov with requirements & objectives maps!</p>
+                <p class="page-subtitle">Complete Escape from Duckov quest database with all NPC missions, objectives, requirements, and rewards. Track your progress through quest chains from Jeff, Mud, Orange, Xavier, and other NPCs.</p>
             </div>
 
             <div class="table-container">

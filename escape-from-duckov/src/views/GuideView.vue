@@ -6,7 +6,7 @@
                 <div class="page-header-content">
                     <div class="page-header-text">
                         <h1 class="page-title">Escape from Duckov Guides</h1>
-                        <p class="page-subtitle">Master the art of survival with our comprehensive strategy guides</p>
+                        <p class="page-subtitle">From beginner tutorials to advanced walkthroughs. Comprehensive Escape from Duckov guides covering survival strategies, rare item acquisition, boss fights, base building, and endgame content.</p>
                     </div>
                 </div>
             </div>

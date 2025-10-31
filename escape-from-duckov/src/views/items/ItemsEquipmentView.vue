@@ -3,7 +3,7 @@
         <div class="container">
             <div class="page-header">
                 <h1 class="page-title">Items - Equipment</h1>
-                <p class="page-subtitle">Browse Equipment list.</p>
+                <p class="page-subtitle">Complete Escape from Duckov equipment database featuring helmets, armor, face protection, and tactical gear. Browse Level 2-5 helmets, SWAT gear, night vision devices, and protective equipment. Find descriptions, stats, and details for all defensive gear in Duckov.</p>
             </div>
 
             <h2 class="group-title">Headgear</h2>

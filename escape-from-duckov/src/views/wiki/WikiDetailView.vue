@@ -24,6 +24,12 @@
                     </svg>
                     <span class="breadcrumb-current">{{ item?.title }}</span>
                 </div>
+                
+                <div class="wiki-detail-content" v-if="item">
+                    <div class="wiki-detail-text">
+                        <h1 class="wiki-title">{{ item?.title }}</h1>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -128,7 +134,7 @@ const getCategoryLink = (category) => {
 
 /* Wiki Detail Header */
 .wiki-detail-header {
-    padding: 40px 0 20px;
+    padding: 80px 0 40px;
 }
 
 .breadcrumb {
@@ -166,6 +172,27 @@ const getCategoryLink = (category) => {
 .breadcrumb-current {
     color: var(--text-primary);
     font-weight: 500;
+}
+
+/* Wiki Title (H1) */
+.wiki-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-heading);
+    margin: 0;
+    line-height: 1.2;
+    background: linear-gradient(135deg, var(--text-heading) 0%, #FFD700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.wiki-detail-content {
+    padding-top: 24px;
+}
+
+.wiki-detail-text {
+    max-width: 800px;
 }
 
 /* Wiki Content */
@@ -292,6 +319,10 @@ const getCategoryLink = (category) => {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+    .wiki-title {
+        font-size: 2.5rem;
+    }
+    
     .content-layout {
         grid-template-columns: 1fr;
         gap: 24px;
@@ -304,6 +335,15 @@ const getCategoryLink = (category) => {
 
 /* Mobile screens (≤768px) */
 @media (max-width: 768px) {
+    .wiki-title {
+        font-size: 1.75rem;
+        line-height: 1.3;
+    }
+    
+    .wiki-detail-content {
+        padding-top: 16px;
+    }
+    
     .info-box-title {
         font-size: 16px;
     }
@@ -348,7 +388,7 @@ const getCategoryLink = (category) => {
 
     /* Section Spacing */
     .wiki-detail-header {
-        padding: 10px 0;
+        padding: 20px 0;
     }
 
     .wiki-content {

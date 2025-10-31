@@ -3,7 +3,7 @@
         <div class="container">
             <div class="page-header">
                 <h1 class="page-title">Escape From Duckov - Items</h1>
-                <p class="page-subtitle">Browse core item categories and discover featured gear.</p>
+                <p class="page-subtitle">Comprehensive Escape from Duckov database of weapons and equipment. Browse firearms, melee weapons, armor, helmets, and protective gear. Find stats, descriptions, and details for every item in Duckov's arsenal.</p>
             </div>
 
             <div class="category-grid">

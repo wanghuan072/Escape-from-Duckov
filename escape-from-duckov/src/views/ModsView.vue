@@ -6,7 +6,7 @@
                 <div class="page-header-content">
                     <div class="page-header-text">
                         <h1 class="page-title">Escape from Duckov Mods</h1>
-                        <p class="page-subtitle">Enhance your gameplay with community-created modifications and custom content</p>
+                        <p class="page-subtitle">Discover and download the best Escape from Duckov mods created by the community. Enhance your gameplay with custom modifications including quality of life improvements, new features, visual enhancements, and gameplay tweaks. Browse mods by category and find the perfect additions to your Duckov experience.</p>
                     </div>
                 </div>
             </div>
