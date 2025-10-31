@@ -45,3 +45,4 @@ export function switchLanguagePath(currentPath, targetLocale) {
   return getLocalizedPath(basePath, targetLocale)
 }
 
+

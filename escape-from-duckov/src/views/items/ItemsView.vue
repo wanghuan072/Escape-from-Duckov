@@ -19,9 +19,9 @@
                             <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ weaponsFeatured || '—' }}</div>
                         </div>
-                        <div class="tag-list">
+                        <!-- <div class="tag-list">
                             <span class="tag" v-for="tag in t('ItemsPage.weapons.tags')" :key="tag">{{ tag }}</span>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="card-bottom">
                         <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
@@ -41,9 +41,9 @@
                             <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ equipmentFeatured || '—' }}</div>
                         </div>
-                        <div class="tag-list">
+                        <!-- <div class="tag-list">
                             <span class="tag" v-for="tag in t('ItemsPage.equipment.tags')" :key="tag">{{ tag }}</span>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="card-bottom">
                         <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
@@ -63,9 +63,9 @@
                             <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ ammunitionFeatured || '—' }}</div>
                         </div>
-                        <div class="tag-list">
+                        <!-- <div class="tag-list">
                             <span class="tag" v-for="tag in t('ItemsPage.ammunition.tags')" :key="tag">{{ tag }}</span>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="card-bottom">
                         <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
@@ -85,9 +85,9 @@
                             <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ keysFeatured || '—' }}</div>
                         </div>
-                        <div class="tag-list">
+                        <!-- <div class="tag-list">
                             <span class="tag" v-for="tag in t('ItemsPage.key.tags')" :key="tag">{{ tag }}</span>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="card-bottom">
                         <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
@@ -107,9 +107,9 @@
                             <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ fishFeatured || '—' }}</div>
                         </div>
-                        <div class="tag-list">
+                        <!-- <div class="tag-list">
                             <span class="tag" v-for="tag in t('ItemsPage.fish.tags')" :key="tag">{{ tag }}</span>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="card-bottom">
                         <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
