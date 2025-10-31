@@ -5,8 +5,8 @@
       <div class="container">
         <div class="page-header-content">
           <div class="page-header-text">
-            <h1 class="page-title">Escape from Duckov - Copyright</h1>
-            <p class="page-subtitle">Copyright information and usage guidelines</p>
+            <h1 class="page-title">{{ t('CopyrightPage.title') }}</h1>
+            <p class="page-subtitle">{{ t('CopyrightPage.subtitle') }}</p>
           </div>
         </div>
       </div>
@@ -16,92 +16,71 @@
     <section class="legal-content">
       <div class="container">
         <div class="legal-document">
-          <h2>Copyright Statement</h2>
+          <h2>{{ t('CopyrightPage.statement.title') }}</h2>
           <p>
-            All content on <strong>DuckovGame</strong>, including but not limited to text, graphics, images,
-            videos, and software, is the property of <strong>DuckovGame</strong> and is protected by international
-            copyright laws. Unauthorized use, reproduction, or distribution of this content is strictly prohibited.
+            {{ t('CopyrightPage.statement.text') }}
           </p>
 
-          <h2>What We Own</h2>
+          <h2>{{ t('CopyrightPage.whatWeOwn.title') }}</h2>
           <ul>
-            <li><strong>Original Content:</strong> All written content, guides, tutorials, and reviews created by our
-                team.</li>
-            <li><strong>Website Design:</strong> Layout, styling, user interface, and overall website design elements.
-            </li>
-            <li><strong>Original Images:</strong> Photographs, screenshots, and graphics created specifically for this
-                website.</li>
-            <li><strong>Code & Software:</strong> Website code, scripts, and software developed for this platform.
-            </li>
+            <li><strong>{{ t('CopyrightPage.whatWeOwn.items.original') }}</strong></li>
+            <li><strong>{{ t('CopyrightPage.whatWeOwn.items.design') }}</strong></li>
+            <li><strong>{{ t('CopyrightPage.whatWeOwn.items.images') }}</strong></li>
+            <li><strong>{{ t('CopyrightPage.whatWeOwn.items.code') }}</strong></li>
           </ul>
 
-          <h2>Third-Party Content</h2>
+          <h2>{{ t('CopyrightPage.thirdParty.title') }}</h2>
           <p>
-            We respect the intellectual property rights of others. Some content on our website may include references,
-            images, or information related to <strong>Escape from Duckov</strong>, which belongs to their respective owners.
+            {{ t('CopyrightPage.thirdParty.text') }}
           </p>
 
-          <h2>Fair Use Policy</h2>
+          <h2>{{ t('CopyrightPage.fairUse.title') }}</h2>
           <p>
-            We support fair use of our content for educational, research, and personal purposes. However, commercial use
-            requires explicit permission.
+            {{ t('CopyrightPage.fairUse.text') }}
           </p>
-          <p><strong>Allowed Uses:</strong></p>
+          <p><strong>{{ t('CopyrightPage.fairUse.allowed') }}</strong></p>
           <ul>
-            <li>Personal study and research</li>
-            <li>Educational purposes</li>
-            <li>Non-commercial sharing</li>
-            <li>Criticism and commentary</li>
+            <li v-for="item in t('CopyrightPage.fairUse.allowedItems')" :key="item">{{ item }}</li>
           </ul>
-          <p><strong>Restricted Uses:</strong></p>
+          <p><strong>{{ t('CopyrightPage.fairUse.restricted') }}</strong></p>
           <ul>
-            <li>Commercial reproduction</li>
-            <li>Mass distribution</li>
-            <li>Modification without permission</li>
-            <li>Removal of attribution</li>
+            <li v-for="item in t('CopyrightPage.fairUse.restrictedItems')" :key="item">{{ item }}</li>
           </ul>
 
-          <h2>DMCA Compliance</h2>
+          <h2>{{ t('CopyrightPage.dmca.title') }}</h2>
           <p>
-            We comply with the Digital Millennium Copyright Act (DMCA). If you believe your copyrighted work has been
-            used without permission, please contact us immediately.
+            {{ t('CopyrightPage.dmca.text') }}
           </p>
-          <p><strong>To file a DMCA takedown notice, please include:</strong></p>
+          <p><strong>{{ t('CopyrightPage.dmca.subtitle') }}</strong></p>
           <ul>
-            <li>Specific details about the copyrighted material</li>
-            <li>Proof that you own the rights to the content</li>
-            <li>A formal DMCA takedown notice sent to our designated agent</li>
+            <li v-for="item in t('CopyrightPage.dmca.items')" :key="item">{{ item }}</li>
           </ul>
 
-          <h2>Attribution Requirements</h2>
+          <h2>{{ t('CopyrightPage.attribution.title') }}</h2>
           <p>
-            When using our content under fair use or with permission, proper attribution is required.
+            {{ t('CopyrightPage.attribution.text') }}
           </p>
 
-          <h2>License Requests</h2>
+          <h2>{{ t('CopyrightPage.license.title') }}</h2>
           <p>
-            For commercial use, licensing, or other permissions, please contact us with your specific request.
+            {{ t('CopyrightPage.license.text') }}
           </p>
-          <p><strong>Your request should include:</strong></p>
+          <p><strong>{{ t('CopyrightPage.license.subtitle') }}</strong></p>
           <ul>
-            <li>Specific content you want to use</li>
-            <li>Intended purpose and audience</li>
-            <li>Duration of use</li>
-            <li>Contact information</li>
+            <li v-for="item in t('CopyrightPage.license.items')" :key="item">{{ item }}</li>
           </ul>
 
-          <h2>Contact Information</h2>
+          <h2>{{ t('CopyrightPage.contact.title') }}</h2>
           <p>
-            Email: <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a>
+            {{ t('CopyrightPage.contact.email') }} <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a>
           </p>
 
-          <h2>Updates to Copyright Notice</h2>
+          <h2>{{ t('CopyrightPage.updates.title') }}</h2>
           <p>
-            This copyright notice may be updated periodically. The most recent version will always be available on this
-            page. Continued use of our website constitutes acceptance of any changes.
+            {{ t('CopyrightPage.updates.p1') }}
           </p>
           <p>
-            Check this page regularly for updates to our copyright policy.
+            {{ t('CopyrightPage.updates.p2') }}
           </p>
         </div>
       </div>
@@ -110,7 +89,9 @@
 </template>
 
 <script setup>
-// Copyright page component
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <style scoped>

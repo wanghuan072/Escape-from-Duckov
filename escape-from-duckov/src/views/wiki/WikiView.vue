@@ -5,8 +5,8 @@
             <section class="page-header">
                 <div class="page-header-content">
                     <div class="page-header-text">
-                        <h1 class="page-title">Escape from Duckov Wiki</h1>
-                        <p class="page-subtitle">Complete Escape from Duckov quest database with detailed objectives, rewards, and NPC information. Your comprehensive reference for all missions, requirements, and quest chains in Duckov.</p>
+                        <h1 class="page-title">{{ t('WikiPage.title') }}</h1>
+                        <p class="page-subtitle">{{ t('WikiPage.subtitle') }}</p>
                     </div>
                 </div>
             </section>
@@ -14,11 +14,11 @@
             <!-- Important Articles -->
             <section class="articles-section">
                 <div class="articles-grid">
-                    <a href="/wiki/quests" class="article-card">
+                    <a :href="getLocalizedPathForCurrentLang('/wiki/quests')" class="article-card">
                         <div class="card-image-container">
                             <img src="/images/wiki-01.webp" alt="Quests" class="card-image">
                         </div>
-                        <h3 class="card-title">Quests</h3>
+                        <h3 class="card-title">{{ t('WikiPage.quests.title') }}</h3>
                     </a>
                     
                 </div>
@@ -28,7 +28,32 @@
 </template>
 
 <script setup>
-// No additional logic needed for this static page
+import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
+import { getLocalizedPath } from '../../utils/routeUtils'
+
+const route = useRoute()
+const { t, locale } = useI18n()
+
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
+// 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
+const getLocalizedPathForCurrentLang = (path) => {
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    return getLocalizedPath(path, targetLang)
+}
 </script>
 
 <style scoped>

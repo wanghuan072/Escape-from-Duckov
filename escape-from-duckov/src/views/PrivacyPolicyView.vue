@@ -5,8 +5,8 @@
       <div class="container">
         <div class="page-header-content">
           <div class="page-header-text">
-            <h1 class="page-title">Escape from Duckov - Privacy Policy</h1>
-            <p class="page-subtitle">How we protect and handle your personal information</p>
+            <h1 class="page-title">{{ t('PrivacyPolicyPage.title') }}</h1>
+            <p class="page-subtitle">{{ t('PrivacyPolicyPage.subtitle') }}</p>
           </div>
         </div>
       </div>
@@ -16,143 +16,100 @@
     <section class="legal-content">
       <div class="container">
         <div class="legal-document">
-          <p class="last-updated">Last updated: October 28, 2025</p>
+          <p class="last-updated">{{ t('PrivacyPolicyPage.lastUpdated') }}</p>
           
           <section>
-            <h2>General Information</h2>
+            <h2>{{ t('PrivacyPolicyPage.generalInfo.title') }}</h2>
             <p>
-              At <strong>DuckovGame</strong>, we are committed to protecting the privacy of all users of our
-              websites and applications. This Privacy Policy applies to all services and products offered by
-              <strong>duckovgame.com</strong>. By using this Site you agree to this Privacy Policy and confirm you
-              are of legal age to consent to its terms. Continued use of the Site following any changes to this policy
-              will constitute acceptance of those changes.
+              {{ t('PrivacyPolicyPage.generalInfo.p1') }}
             </p>
             <p>
-              The Site is intended for visitors aged 16 and above. If you are under 16, please do not use the Site. If
-              you are a parent or guardian and allow a child to access the Site, you consent to this Privacy Policy on
-              their behalf.
+              {{ t('PrivacyPolicyPage.generalInfo.p2') }}
             </p>
             <p>
-              If you have questions about this Privacy Policy, contact us at <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a>.
+              {{ t('PrivacyPolicyPage.generalInfo.p3') }} <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a>.
             </p>
           </section>
 
           <section>
-            <h2>Which Data Do We Collect?</h2>
+            <h2>{{ t('PrivacyPolicyPage.dataCollection.title') }}</h2>
 
-            <h3>Data you provide</h3>
-            <p>We only process personal data you voluntarily provide, for example when filling forms or contacting us.
-                This may include:</p>
+            <h3>{{ t('PrivacyPolicyPage.dataCollection.provided.title') }}</h3>
+            <p>{{ t('PrivacyPolicyPage.dataCollection.provided.text') }}</p>
             <ul>
-                <li>Name</li>
-                <li>Email address</li>
-                <li>Any other information you choose to provide</li>
+                <li v-for="item in t('PrivacyPolicyPage.dataCollection.provided.items')" :key="item">{{ item }}</li>
             </ul>
 
-            <h3>Data collected automatically</h3>
-            <p>We may collect certain data automatically during your visit, such as:</p>
+            <h3>{{ t('PrivacyPolicyPage.dataCollection.automated.title') }}</h3>
+            <p>{{ t('PrivacyPolicyPage.dataCollection.automated.text') }}</p>
             <ul>
-                <li>IP address (for fraud prevention, analytics, or location-based features)</li>
-                <li>Browser type and version</li>
-                <li>Referring page or site</li>
-                <li>Device identifiers (including mobile device IDs)</li>
-                <li>Cookie and tracking data</li>
-                <li>User interaction data (e.g., whether you viewed or clicked an advertisement)</li>
+                <li v-for="item in t('PrivacyPolicyPage.dataCollection.automated.items')" :key="item">{{ item }}</li>
             </ul>
 
-            <h3>Third-party data</h3>
-            <p>If we receive personal data from third parties, we will inform you when required.</p>
+            <h3>{{ t('PrivacyPolicyPage.dataCollection.thirdParty.title') }}</h3>
+            <p>{{ t('PrivacyPolicyPage.dataCollection.thirdParty.text') }}</p>
           </section>
 
           <section>
-            <h2>Why We Collect Data & Legal Basis</h2>
-            <p>We collect and process personal data for purposes including, but not limited to:</p>
+            <h2>{{ t('PrivacyPolicyPage.legalBasis.title') }}</h2>
+            <p>{{ t('PrivacyPolicyPage.legalBasis.text') }}</p>
             <ul>
-                <li>Providing, improving, and optimizing our services and content</li>
-                <li>Performing contractual obligations</li>
-                <li>Sending updates, newsletters, and marketing communications (where permitted)</li>
-                <li>Statistical analysis and research</li>
-                <li>Compliance with legal obligations (e.g., age verification)</li>
+                <li v-for="item in t('PrivacyPolicyPage.legalBasis.items')" :key="item">{{ item }}</li>
             </ul>
-            <p>Legal bases for processing may include your consent, performance of a contract, legitimate interests, or
-                compliance with legal obligations.</p>
-            <p><em>Note:</em> Advertisers or third-party services may collect data via their own cookies or tracking
-                technologies. <strong>DuckovGame</strong> is not responsible for third-party data collection
-                practices.</p>
+            <p>{{ t('PrivacyPolicyPage.legalBasis.p2') }}</p>
+            <p><em>Note:</em> {{ t('PrivacyPolicyPage.legalBasis.note') }}</p>
           </section>
 
           <section>
-            <h2>Data Retention</h2>
-            <p>We retain personal data only as long as necessary to fulfil the purposes described in this policy. Data
-                associated with inactive accounts or visitors may be deleted after a reasonable period of inactivity
-                unless retention is required by law or for legitimate business reasons.</p>
+            <h2>{{ t('PrivacyPolicyPage.dataRetention.title') }}</h2>
+            <p>{{ t('PrivacyPolicyPage.dataRetention.text') }}</p>
           </section>
 
           <section>
-            <h2>GDPR & Your Rights (EEA Residents)</h2>
-            <p>If you are a resident of the European Economic Area (EEA), you have certain rights regarding your
-                personal data, including:</p>
+            <h2>{{ t('PrivacyPolicyPage.gdpr.title') }}</h2>
+            <p>{{ t('PrivacyPolicyPage.gdpr.text') }}</p>
             <ul>
-                <li>The right to access, update, or delete your personal data</li>
-                <li>The right to rectification of inaccurate information</li>
-                <li>The right to object to processing</li>
-                <li>The right to restrict processing</li>
-                <li>The right to data portability</li>
-                <li>The right to withdraw consent where processing is based on consent</li>
+                <li v-for="item in t('PrivacyPolicyPage.gdpr.items')" :key="item">{{ item }}</li>
             </ul>
-            <p>We may request identity verification before fulfilling requests. For more information, you can also
-                contact your local data protection authority.</p>
+            <p>{{ t('PrivacyPolicyPage.gdpr.p2') }}</p>
           </section>
 
           <section>
-            <h2>Your Rights & Communication Preferences</h2>
-            <p>You may opt out of marketing communications at any time by contacting <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a>
-                or by following unsubscribe instructions included in such communications. To request correction,
-                deletion, or restriction of processing, please provide a clear reason for the request to help us verify and fulfil
-                it promptly.</p>
+            <h2>{{ t('PrivacyPolicyPage.rights.title') }}</h2>
+            <p>{{ t('PrivacyPolicyPage.rights.text1') }} <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a>
+                {{ t('PrivacyPolicyPage.rights.text2') }}</p>
           </section>
 
           <section>
-            <h2>Cookies</h2>
+            <h2>{{ t('PrivacyPolicyPage.cookies.title') }}</h2>
 
-            <h3>What are cookies?</h3>
-            <p>Cookies are small files stored on your device that help websites remember preferences and improve user
-                experience. Web beacons are small, typically transparent images used to monitor user behavior.</p>
+            <h3>{{ t('PrivacyPolicyPage.cookies.what.title') }}</h3>
+            <p>{{ t('PrivacyPolicyPage.cookies.what.text') }}</p>
 
-            <h3>Types of cookies</h3>
+            <h3>{{ t('PrivacyPolicyPage.cookies.types.title') }}</h3>
             <ul>
-                <li><strong>First-party cookies</strong>: Placed by this Site to support technical features (e.g.,
-                    language settings, session handling).</li>
-                <li><strong>Third-party cookies</strong>: Placed by external providers (e.g., analytics, advertising
-                    networks) and used to track browsing behavior across sites.</li>
+                <li><strong>{{ t('PrivacyPolicyPage.cookies.types.first') }}</strong></li>
+                <li><strong>{{ t('PrivacyPolicyPage.cookies.types.third') }}</strong></li>
             </ul>
 
-            <h3>Which cookies we use</h3>
-            <p><strong>DuckovGame</strong> uses first-party cookies to enhance usability and may allow third-party
-                cookies (for example, Google Analytics or advertising partners) to provide analytics and advertising
-                services. Cookies essential for site function do not require consent; other cookies may require your
-                permission.</p>
+            <h3>{{ t('PrivacyPolicyPage.cookies.use.title') }}</h3>
+            <p>{{ t('PrivacyPolicyPage.cookies.use.text') }}</p>
 
-            <h3>How to manage cookies</h3>
-            <p>You may manage or disable cookies via your browser settings. Refer to your browser's support
-                documentation (Chrome, Firefox, Safari, Edge/Internet Explorer, Opera) for instructions on blocking or removing
-                cookies.</p>
+            <h3>{{ t('PrivacyPolicyPage.cookies.manage.title') }}</h3>
+            <p>{{ t('PrivacyPolicyPage.cookies.manage.text') }}</p>
           </section>
 
           <section>
-            <h2>Security Measures</h2>
-            <p>We implement reasonable technical and organizational measures to protect personal data and restrict
-                access to authorized personnel only. We do not sell or rent your personal data. When external processors are used,
-                they are contractually required to protect and securely process data and to delete it after completing
-                assigned tasks.</p>
+            <h2>{{ t('PrivacyPolicyPage.security.title') }}</h2>
+            <p>{{ t('PrivacyPolicyPage.security.text') }}</p>
           </section>
 
           <section>
-            <h2>Contact Information</h2>
-            <p>If you have questions or concerns about this Privacy Policy, please contact:</p>
+            <h2>{{ t('PrivacyPolicyPage.contact.title') }}</h2>
+            <p>{{ t('PrivacyPolicyPage.contact.text') }}</p>
             <ul>
-                <li>Email: <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a></li>
-                <li>Website: <a href="https://duckovgame.com">duckovgame.com</a></li>
+                <li>{{ t('PrivacyPolicyPage.contact.email') }} <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a></li>
+                <li>{{ t('PrivacyPolicyPage.contact.website') }} <a href="https://duckovgame.com">duckovgame.com</a></li>
             </ul>
           </section>
         </div>
@@ -162,7 +119,9 @@
 </template>
 
 <script setup>
-// Privacy Policy page component
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <style scoped>

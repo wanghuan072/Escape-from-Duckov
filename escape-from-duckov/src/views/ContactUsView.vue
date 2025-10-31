@@ -5,8 +5,8 @@
       <div class="container">
         <div class="page-header-content">
           <div class="page-header-text">
-            <h1 class="page-title">Escape from Duckov - Contact Us</h1>
-            <p class="page-subtitle">Get in touch with our team</p>
+            <h1 class="page-title">{{ t('ContactUsPage.title') }}</h1>
+            <p class="page-subtitle">{{ t('ContactUsPage.subtitle') }}</p>
           </div>
         </div>
       </div>
@@ -16,60 +16,53 @@
     <section class="legal-content">
       <div class="container">
         <div class="legal-document">
-          <h2>Get in Touch</h2>
-          <p>We'd love to hear from you! Whether you have questions about our services, suggestions for improvement, or
-              just want to say hello, we're here to help.</p>
+          <h2>{{ t('ContactUsPage.getInTouch.title') }}</h2>
+          <p>{{ t('ContactUsPage.getInTouch.text') }}</p>
 
-          <h2>Contact Information</h2>
-          <p><strong>Email:</strong> <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a></p>
-          <p>We typically respond within 24 hours.</p>
+          <h2>{{ t('ContactUsPage.contactInfo.title') }}</h2>
+          <p><strong>{{ t('ContactUsPage.contactInfo.email') }}</strong> <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a></p>
+          <p>{{ t('ContactUsPage.contactInfo.responseTime') }}</p>
 
-          <h2>Response Time</h2>
+          <h2>{{ t('ContactUsPage.responseTime.title') }}</h2>
           <ul>
-            <li><strong>Monday - Friday:</strong> Within 24 hours</li>
-            <li><strong>Weekends:</strong> Within 48 hours</li>
+            <li><strong>{{ t('ContactUsPage.responseTime.weekday') }}</strong></li>
+            <li><strong>{{ t('ContactUsPage.responseTime.weekend') }}</strong></li>
           </ul>
 
-          <h2>What We Can Help With</h2>
+          <h2>{{ t('ContactUsPage.helpWith.title') }}</h2>
           <ul>
-            <li><strong>Account or Access Issues:</strong> Help with login, membership, or subscription problems</li>
-            <li><strong>Website Feedback:</strong> Suggestions for improving DuckovGame (duckovgame.com)</li>
-            <li><strong>Content Requests:</strong> Ideas for new articles, guides, or resources</li>
-            <li><strong>Technical Support:</strong> Assistance with site functionality</li>
-            <li><strong>Partnership Inquiries:</strong> Collaboration opportunities</li>
-            <li><strong>General Questions:</strong> Anything else related to DuckovGame and our services</li>
+            <li><strong>{{ t('ContactUsPage.helpWith.account') }}</strong></li>
+            <li><strong>{{ t('ContactUsPage.helpWith.feedback') }}</strong></li>
+            <li><strong>{{ t('ContactUsPage.helpWith.content') }}</strong></li>
+            <li><strong>{{ t('ContactUsPage.helpWith.tech') }}</strong></li>
+            <li><strong>{{ t('ContactUsPage.helpWith.partnership') }}</strong></li>
+            <li><strong>{{ t('ContactUsPage.helpWith.general') }}</strong></li>
           </ul>
 
-          <h2>Before You Contact Us</h2>
-          <p>To help us provide the best assistance, please include the following details in your email:</p>
+          <h2>{{ t('ContactUsPage.beforeContact.title') }}</h2>
+          <p>{{ t('ContactUsPage.beforeContact.text') }}</p>
           <ul>
-            <li>Your specific question or issue</li>
-            <li>Any error messages (if applicable)</li>
-            <li>Steps you've already tried</li>
-            <li>Your device and browser information (if relevant)</li>
+            <li>{{ t('ContactUsPage.beforeContact.items.question') }}</li>
+            <li>{{ t('ContactUsPage.beforeContact.items.error') }}</li>
+            <li>{{ t('ContactUsPage.beforeContact.items.steps') }}</li>
+            <li>{{ t('ContactUsPage.beforeContact.items.device') }}</li>
           </ul>
 
-          <h2>Frequently Asked Questions</h2>
+          <h2>{{ t('ContactUsPage.faq.title') }}</h2>
           <ul>
-            <li><strong>How often is your content updated?</strong><br>We update our resources regularly to ensure
-                accuracy and freshness.</li>
-            <li><strong>Is your content safe and reliable?</strong><br>Yes, all information we provide is verified and
-                sourced responsibly.</li>
-            <li><strong>Can I suggest new content?</strong><br>Absolutely! We welcome your ideas and contributions—just
-                send them our way.</li>
+            <li><strong>{{ t('ContactUsPage.faq.q1.question') }}</strong><br>{{ t('ContactUsPage.faq.q1.answer') }}</li>
+            <li><strong>{{ t('ContactUsPage.faq.q2.question') }}</strong><br>{{ t('ContactUsPage.faq.q2.answer') }}</li>
+            <li><strong>{{ t('ContactUsPage.faq.q3.question') }}</strong><br>{{ t('ContactUsPage.faq.q3.answer') }}</li>
           </ul>
 
-          <h2>Business Hours</h2>
-          <p>Our team is available Monday through Friday, 9:00 AM to 6:00 PM (EST). While we may respond outside these
-              hours, please allow up to 24–48 hours for replies during weekends and holidays.</p>
+          <h2>{{ t('ContactUsPage.businessHours.title') }}</h2>
+          <p>{{ t('ContactUsPage.businessHours.text') }}</p>
 
-          <h2>Privacy</h2>
-          <p>We respect your privacy and will never share your personal information with third parties. All
-              communications are kept confidential and used only to provide you with the best possible service.</p>
+          <h2>{{ t('ContactUsPage.privacy.title') }}</h2>
+          <p>{{ t('ContactUsPage.privacy.text') }}</p>
 
-          <h2>Thank You</h2>
-          <p>Thank you for being part of the DuckovGame community! Your feedback and support help us continue to provide the
-              best experience for our users worldwide.</p>
+          <h2>{{ t('ContactUsPage.thankYou.title') }}</h2>
+          <p>{{ t('ContactUsPage.thankYou.text') }}</p>
         </div>
       </div>
     </section>
@@ -77,7 +70,9 @@
 </template>
 
 <script setup>
-// Contact Us page component
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <style scoped>

@@ -2,18 +2,18 @@
     <div class="items-category-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Escape from Duckov Ammunition</h1>
-                <p class="page-subtitle">Complete Escape from Duckov ammunition database with all bullet types, calibers, and rounds. Browse pistol ammunition, rifle cartridges, shotgun shells, and special rounds. Find detailed descriptions, damage stats, weapon compatibility, and usage information for every ammunition type in Duckov's arsenal.</p>
+                <h1 class="page-title">{{ t('ItemsAmmunitionPage.title') }}</h1>
+                <p class="page-subtitle">{{ t('ItemsAmmunitionPage.subtitle') }}</p>
             </div>
 
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsAmmunitionPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsAmmunitionPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsAmmunitionPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsAmmunitionPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -42,10 +42,13 @@
 
 <script setup>
 import { onMounted, computed } from 'vue'
-import { useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
+import { getLocalizedPath } from '../../utils/routeUtils'
 
-const router = useRouter()
+const route = useRoute()
+const { t, locale } = useI18n()
 const { data: itemsData, loadData } = useItemsData('ammunition')
 
 const allAmmo = computed(() => itemsData?.value || [])
@@ -54,11 +57,27 @@ onMounted(() => {
     loadData('ammunition')
 })
 
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
 const onRowClick = (item) => {
     if (item && item.showDetail === false) return
     const id = (item.addressBar || '').replace('/', '')
     if (!id) return
-    router.push(`/items/ammunition/${id}`)
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    const path = getLocalizedPath(`/items/ammunition/${id}`, targetLang)
+    window.location.href = path
 }
 </script>
 

@@ -2,19 +2,19 @@
     <div class="items-category-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Escape From Duckov fishing guide</h1>
-                <p class="page-subtitle">Complete Escape from Duckov fishing guide featuring all catchable fish species, fishing rods, baits, and fishing gear. Learn about fishing mechanics, fish habits, location distribution, time-of-day catches, weather patterns, and bait recipes. Master the fishing mini-game with detailed guides on catching fish and using equipment in Duckov.</p>
+                <h1 class="page-title">{{ t('ItemsFishPage.title') }}</h1>
+                <p class="page-subtitle">{{ t('ItemsFishPage.subtitle') }}</p>
             </div>
 
-            <h2 class="group-title">Catch</h2>
+            <h2 class="group-title">{{ t('ItemsFishPage.catchTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsFishPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsFishPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsFishPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsFishPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -38,15 +38,15 @@
                 </table>
             </div>
 
-            <h2 class="group-title">Fishing Rod</h2>
+            <h2 class="group-title">{{ t('ItemsFishPage.rodTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsFishPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsFishPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsFishPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsFishPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -70,15 +70,15 @@
                 </table>
             </div>
 
-            <h2 class="group-title">Fish Bait</h2>
+            <h2 class="group-title">{{ t('ItemsFishPage.baitTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsFishPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsFishPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsFishPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsFishPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -107,10 +107,10 @@
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsFishPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsFishPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsFishPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsFishPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -140,10 +140,13 @@
 
 <script setup>
 import { onMounted, computed } from 'vue'
-import { useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
+import { getLocalizedPath } from '../../utils/routeUtils'
 
-const router = useRouter()
+const route = useRoute()
+const { t, locale } = useI18n()
 const { data: itemsData, loadData } = useItemsData('fish')
 
 
@@ -156,11 +159,27 @@ onMounted(() => {
     loadData('fish')
 })
 
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
 const onRowClick = (item) => {
     if (item && item.showDetail === false) return
     const id = (item.addressBar || '').replace('/', '')
     if (!id) return
-    router.push(`/items/fish/${id}`)
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    const path = getLocalizedPath(`/items/fish/${id}`, targetLang)
+    window.location.href = path
 }
 </script>
 

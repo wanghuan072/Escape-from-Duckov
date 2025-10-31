@@ -4,7 +4,7 @@
         <section class="detail-header-section">
             <div class="container">
                 <div class="breadcrumb">
-                    <a href="/items" class="breadcrumb-link">
+                    <a :href="getLocalizedPathForCurrentLang('/items')" class="breadcrumb-link">
                         <svg class="breadcrumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                             <polyline points="9,22 9,12 15,12 15,22"/>
@@ -14,7 +14,7 @@
                     <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="9,18 15,12 9,6"/>
                     </svg>
-                    <a :href="`/items/${category}`" class="breadcrumb-link">{{ categoryTitle }}</a>
+                    <a :href="getLocalizedPathForCurrentLang(`/items/${category}`)" class="breadcrumb-link">{{ categoryTitle }}</a>
                     <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="9,18 15,12 9,6"/>
                     </svg>
@@ -71,7 +71,7 @@
                         <div class="nav-box" v-if="otherItems.length">
                             <h4 class="nav-title">Other {{ categoryTitle }}</h4>
                             <div class="nav-links">
-                                <a v-for="it in otherItems" :key="it.id" :href="`/items/${category}/${(it.addressBar||'').replace('/', '')}`" class="nav-link">{{ it.title }}</a>
+                                <a v-for="it in otherItems" :key="it.id" :href="getLocalizedPathForCurrentLang(`/items/${category}/${(it.addressBar||'').replace('/', '')}`)" class="nav-link">{{ it.title }}</a>
                             </div>
                         </div>
                     </div>
@@ -85,13 +85,36 @@
 <script setup>
 import { onMounted, ref, computed } from 'vue'
 import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
+import { getLocalizedPath } from '../../utils/routeUtils'
 
 const route = useRoute()
+const { locale } = useI18n()
 const category = String(route.params.category || '')
 const id = String(route.params.id || '')
 const { data, loadData, findByAddress } = useItemsData(category)
 const item = ref(null)
+
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
+// 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
+const getLocalizedPathForCurrentLang = (path) => {
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    return getLocalizedPath(path, targetLang)
+}
 
 const categoryTitle = computed(() => category.charAt(0).toUpperCase() + category.slice(1))
 const otherItems = computed(() => {

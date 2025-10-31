@@ -6,14 +6,9 @@
                 <div class="hero-content">
                     <div class="hero-text">
                         <h1 class="hero-title">
-                            EscapefromDuckov FansCommunity
-                          
+                            {{ t('HomePage.hero.title') }}
                         </h1>
-                        <p class="hero-subtitle">Escape from Duckov is a PVE indie survival RPG — in a duck's world!.
-                            Scavenge for resources,
-                            build your hideout, and upgrade your gear in the world of Duckov. Start from nothing and
-                            rise to the top. Outwit
-                            hostile ducks, survive, or make it out alive.</p>
+                        <p class="hero-subtitle">{{ t('HomePage.hero.subtitle') }}</p>
                         <a href="https://store.steampowered.com" class="btn btn-steam" target="_blank">
                             <div class="icon">
                                 <svg t="1761617030408" class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -23,7 +18,7 @@
                                         fill="#ffffff" p-id="4539"></path>
                                 </svg>
                             </div>
-                            Play on Steam
+                            {{ t('HomePage.hero.steamButton') }}
                         </a>
                     </div>
                     <div class="hero-video">
@@ -31,7 +26,7 @@
                             <div class="video-thumbnail" v-if="!isVideoPlaying">
                                 <img src="/images/video-bg.webp" alt="Escape From Duckov Trailer" class="video-preview">
                                 <div class="play-button" @click="playVideo">
-                                    <span class="play-icon">▶</span>
+                                    <span class="play-icon">{{ t('HomePage.video.playIcon') }}</span>
                                 </div>
                                 <div class="video-overlay">
                                     <!-- <div class="video-title">ESCAPE FROM DUCKOV</div> -->
@@ -46,10 +41,10 @@
                             <div class="video-info">
                                 <div class="video-header">
                                     <span class="video-icon">🎮</span>
-                                    <span class="video-channel">Escape From Duckov - Official</span>
+                                    <span class="video-channel">{{ t('HomePage.video.channel') }}</span>
                                 </div>
                                 <div class="video-footer">
-                                    <div class="video-label">OFFICIAL TRAILER</div>
+                                    <div class="video-label">{{ t('HomePage.video.label') }}</div>
                                 </div>
                             </div>
                         </div>
@@ -66,19 +61,10 @@
                         <img src="/images/about-01.webp" alt="Escape From Duckov Gameplay" class="gameplay-screenshot">
                     </div>
                     <div class="what-is-text">
-                        <h2 class="section-title">What is Escape From Duckov?</h2>
+                        <h2 class="section-title">{{ t('HomePage.about.section1.title') }}</h2>
                         <div class="what-is-description">
-                            <p>Step into the whimsical yet treacherous world of Duckov, where survival meets absurdity
-                                in this
-                                indie RPG adventure. You're not just another survivor—you're a duck thrust into a
-                                post-apocalyptic landscape where feathers fly and danger quacks around every corner.</p>
-                            <p>From humble beginnings as a clueless waterfowl to becoming the ultimate survivor, your
-                                journey
-                                through Duckov's twisted reality will test your wits, reflexes, and ability to adapt.
-                                Every
-                                decision matters, every resource counts, and every enemy encounter could be your last
-                                waddle. Check out our <a href="/guides">comprehensive guides</a> to master the survival mechanics.
-                            </p>
+                            <p v-html="tWithLocalizedLinks('HomePage.about.section1.p1', {}, { raw: true })"></p>
+                            <p v-html="tWithLocalizedLinks('HomePage.about.section1.p2', {}, { raw: true })"></p>
                         </div>
                     </div>
                 </div>
@@ -87,17 +73,10 @@
                         <img src="/images/about-02.webp" alt="Escape From Duckov Gameplay" class="gameplay-screenshot">
                     </div>
                     <div class="what-is-text">
-                        <h2 class="section-title">Dangerous Territories Await</h2>
+                        <h2 class="section-title">{{ t('HomePage.about.section2.title') }}</h2>
                         <div class="what-is-description">
-                            <p>Navigate through five distinct zones, each with its own personality and perils. From the
-                                radioactive Ground Zero to the industrial maze of Warehouse District, every location
-                                tells a
-                                story of what went wrong in Duckov's world. Explore detailed <a href="/maps">interactive maps</a> to plan your routes.</p>
-                            <p>The extraction timer isn't just a countdown—it's your lifeline. Push your luck for better
-                                rewards
-                                or play it safe with basic supplies. In Duckov, fortune favors the bold, but survival
-                                favors the
-                                smart. Will you risk it all for legendary loot or settle for safety?</p>
+                            <p v-html="tWithLocalizedLinks('HomePage.about.section2.p1', {}, { raw: true })"></p>
+                            <p v-html="tWithLocalizedLinks('HomePage.about.section2.p2', {}, { raw: true })"></p>
                         </div>
                     </div>
                 </div>
@@ -106,17 +85,10 @@
                         <img src="/images/about-03.webp" alt="Escape From Duckov Gameplay" class="gameplay-screenshot">
                     </div>
                     <div class="what-is-text">
-                        <h2 class="section-title">Arsenal of Feathered Fury</h2>
+                        <h2 class="section-title">{{ t('HomePage.about.section3.title') }}</h2>
                         <div class="what-is-description">
-                            <p>Choose your weapon of choice from an extensive arsenal spanning from makeshift clubs to
-                                high-tech
-                                firearms. The weapon modification system lets you customize every aspect of your
-                                gear—because
-                                when you're fighting for survival, every advantage counts. Browse our complete <a href="/items/weapons">weapons database</a> and <a href="/items/equipment">equipment catalog</a> to find the perfect loadout.</p>
-                            <p>Face off against cunning AI enemies that adapt to your tactics. These aren't mindless
-                                drones—they're intelligent adversaries that will flank, ambush, and outmaneuver you if
-                                you're
-                                not careful. Master the art of duck combat and prove that feathers can be deadly.</p>
+                            <p v-html="tWithLocalizedLinks('HomePage.about.section3.p1', {}, { raw: true })"></p>
+                            <p v-html="tWithLocalizedLinks('HomePage.about.section3.p2', {}, { raw: true })"></p>
                         </div>
                     </div>
                 </div>
@@ -125,18 +97,10 @@
                         <img src="/images/about-04.webp" alt="Escape From Duckov Gameplay" class="gameplay-screenshot">
                     </div>
                     <div class="what-is-text">
-                        <h2 class="section-title">From Nest to Fortress</h2>
+                        <h2 class="section-title">{{ t('HomePage.about.section4.title') }}</h2>
                         <div class="what-is-description">
-                            <p>Transform your humble hideout into an impenetrable fortress through deep progression
-                                systems.
-                                Every upgrade matters, every blueprint unlocks new possibilities, and every successful
-                                raid
-                                brings you closer to becoming the ultimate survivor. Learn advanced strategies in our <a href="/guides">guide collection</a>.</p>
-                            <p>Develop your skills across multiple trees—whether you prefer the precision of ranged
-                                combat, the
-                                brutality of melee encounters, or the strategic depth of character attributes. In
-                                Duckov,
-                                there's no one-size-fits-all approach to survival.</p>
+                            <p v-html="tWithLocalizedLinks('HomePage.about.section4.p1', {}, { raw: true })"></p>
+                            <p v-html="tWithLocalizedLinks('HomePage.about.section4.p2', {}, { raw: true })"></p>
                         </div>
                     </div>
                 </div>
@@ -146,18 +110,16 @@
         <!-- Maps Section -->
         <section class="maps-section" id="maps">
             <div class="container">
-                <h2 class="section-title">Explore Duckov's Zones</h2>
-                <p class="section-subtitle">Navigate through dangerous territories, from abandoned industrial areas to
-                    the
-                    treacherous Ground Zero.</p>
+                <h2 class="section-title">{{ t('HomePage.maps.title') }}</h2>
+                <p class="section-subtitle">{{ t('HomePage.maps.subtitle') }}</p>
                 <div class="maps-grid">
                     <div class="map-card card">
                         <div class="map-image">
                             <img src="/images/map-01.webp" alt="Ground Zero" class="map-screenshot">
                         </div>
                         <div class="map-content">
-                            <h3>Ground Zero</h3>
-                            <p>The heart of the cataclysm. Highest risk, highest reward.</p>
+                            <h3>{{ t('HomePage.maps.map1.name') }}</h3>
+                            <p>{{ t('HomePage.maps.map1.desc') }}</p>
                         </div>
                     </div>
                     <div class="map-card card">
@@ -165,13 +127,13 @@
                             <img src="/images/map-02.webp" alt="Warehouse District" class="map-screenshot">
                         </div>
                         <div class="map-content">
-                            <h3>Warehouse District</h3>
-                            <p>Abandoned factories and storage facilities filled with guarded loot.</p>
+                            <h3>{{ t('HomePage.maps.map2.name') }}</h3>
+                            <p>{{ t('HomePage.maps.map2.desc') }}</p>
                         </div>
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="/maps" class="btn btn-primary">View All Maps →</a>
+                    <a :href="getLocalizedPathForCurrentLang('/maps')" class="btn btn-primary">{{ t('HomePage.maps.viewAll') }}</a>
                 </div>
             </div>
         </section>
@@ -179,23 +141,21 @@
         <!-- Duckov Wiki Section -->
         <section class="hideout-section">
             <div class="container">
-                <h2 class="section-title">Discover Duckov's Secrets</h2>
-                <p class="section-subtitle">Unlock quests, collect notes, and master every aspect of the Duckov world
-                    through
-                    our comprehensive wiki.</p>
+                <h2 class="section-title">{{ t('HomePage.wiki.title') }}</h2>
+                <p class="section-subtitle">{{ t('HomePage.wiki.subtitle') }}</p>
                 <div class="guides-grid">
-                    <a href="/wiki/quests" class="guide-card-link card">
+                    <a :href="getLocalizedPathForCurrentLang('/wiki/quests')" class="guide-card-link card">
                         <div class="guide-image">
                             <img src="/images/wiki-01.webp" alt="Quests Guide" class="guide-img">
                         </div>
                         <div class="guide-content">
-                            <h3>Quests</h3>
-                            <p>Complete your missions and track progress through all available quests.</p>
+                            <h3>{{ t('HomePage.wiki.quests.title') }}</h3>
+                            <p>{{ t('HomePage.wiki.quests.desc') }}</p>
                         </div>
                     </a>
                 </div>
                 <div class="text-center">
-                    <a href="/wiki" class="btn btn-primary">Explore All Guides →</a>
+                    <a :href="getLocalizedPathForCurrentLang('/wiki')" class="btn btn-primary">{{ t('HomePage.wiki.exploreAll') }}</a>
                 </div>
             </div>
         </section>
@@ -203,38 +163,32 @@
         <!-- Guides Section -->
         <section class="guides-section" id="guides">
             <div class="container">
-                <h2 class="section-title">Essential Guides</h2>
+                <h2 class="section-title">{{ t('HomePage.guides.title') }}</h2>
                 <div class="guides-grid">
                     <div class="guide-card card">
                         <div class="guide-header">
-                            <span class="guide-badge">Beginner</span>
+                            <span class="guide-badge">{{ t('HomePage.guides.guide1.badge') }}</span>
                         </div>
-                        <h3>Getting Started in Duckov</h3>
-                        <p>Learn the basics: how to bust out of prison, complete your first missions, and start building
-                            your
-                            hideout from the ground up. Check our <a href="/guides">beginner guides</a> and <a href="/wiki/quests">quest database</a> for detailed walkthroughs.</p>
+                        <h3>{{ t('HomePage.guides.guide1.title') }}</h3>
+                        <p v-html="tWithLocalizedLinks('HomePage.guides.guide1.desc', {}, { raw: true })"></p>
                     </div>
                     <div class="guide-card card">
                         <div class="guide-header">
-                            <span class="guide-badge">Strategy</span>
+                            <span class="guide-badge">{{ t('HomePage.guides.guide2.badge') }}</span>
                         </div>
-                        <h3>Surviving the Storm</h3>
-                        <p>A comprehensive guide on preparing for and surviving the periodic Storm events that threaten
-                            to end
-                            your run. Explore our <a href="/guides">advanced guides</a> including Storm Zone access strategies.</p>
+                        <h3>{{ t('HomePage.guides.guide2.title') }}</h3>
+                        <p v-html="tWithLocalizedLinks('HomePage.guides.guide2.desc', {}, { raw: true })"></p>
                     </div>
                     <div class="guide-card card">
                         <div class="guide-header">
-                            <span class="guide-badge">Advanced</span>
+                            <span class="guide-badge">{{ t('HomePage.guides.guide3.badge') }}</span>
                         </div>
-                        <h3>Hideout Optimization</h3>
-                        <p>Maximize your hideout efficiency, prioritize station upgrades, and understand which NPCs to
-                            recruit
-                            for the best gear. Browse our <a href="/items">items database</a> to optimize your equipment loadout.</p>
+                        <h3>{{ t('HomePage.guides.guide3.title') }}</h3>
+                        <p v-html="tWithLocalizedLinks('HomePage.guides.guide3.desc', {}, { raw: true })"></p>
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="/guides" class="btn btn-primary">View All Guides →</a>
+                    <a :href="getLocalizedPathForCurrentLang('/guides')" class="btn btn-primary">{{ t('HomePage.guides.viewAll') }}</a>
                 </div>
             </div>
         </section>
@@ -242,34 +196,34 @@
         <!-- Game Information -->
         <section class="single-player">
             <div class="container">
-                <h2 class="section-title">Game Information</h2>
-                <p class="section-subtitle">Everything you need to know about Escape from Duckov</p>
+                <h2 class="section-title">{{ t('HomePage.gameInfo.title') }}</h2>
+                <p class="section-subtitle">{{ t('HomePage.gameInfo.subtitle') }}</p>
                 <div class="game-info-content">
                     <div class="game-left">
                         <div class="info-card">
                             <div class="info-header">
-                                <h3>Game Details</h3>
+                                <h3>{{ t('HomePage.gameInfo.details.title') }}</h3>
                             </div>
                             <div class="info-items">
                                 <div class="info-item">
-                                    <span class="item-label">Name</span>
-                                    <span class="item-value">Escape from Duckov</span>
+                                    <span class="item-label">{{ t('HomePage.gameInfo.details.name') }}</span>
+                                    <span class="item-value">{{ t('HomePage.gameInfo.details.nameValue') }}</span>
                                 </div>
                                 <div class="info-item">
-                                    <span class="item-label">Genre</span>
-                                    <span class="item-value">Action, Adventure, Indie, RPG</span>
+                                    <span class="item-label">{{ t('HomePage.gameInfo.details.genre') }}</span>
+                                    <span class="item-value">{{ t('HomePage.gameInfo.details.genreValue') }}</span>
                                 </div>
                                 <div class="info-item">
-                                    <span class="item-label">Developer</span>
-                                    <span class="item-value">Team Soda</span>
+                                    <span class="item-label">{{ t('HomePage.gameInfo.details.developer') }}</span>
+                                    <span class="item-value">{{ t('HomePage.gameInfo.details.developerValue') }}</span>
                                 </div>
                                 <div class="info-item">
-                                    <span class="item-label">Publisher</span>
-                                    <span class="item-value">bilibili</span>
+                                    <span class="item-label">{{ t('HomePage.gameInfo.details.publisher') }}</span>
+                                    <span class="item-value">{{ t('HomePage.gameInfo.details.publisherValue') }}</span>
                                 </div>
                                 <div class="info-item">
-                                    <span class="item-label">Release Date</span>
-                                    <span class="item-value">October 16, 2025</span>
+                                    <span class="item-label">{{ t('HomePage.gameInfo.details.release') }}</span>
+                                    <span class="item-value">{{ t('HomePage.gameInfo.details.releaseValue') }}</span>
                                 </div>
                             </div>
                         </div>
@@ -277,75 +231,75 @@
                     <div class="game-right">
                         <div class="info-card">
                             <div class="info-header">
-                                <h3>Languages</h3>
+                                <h3>{{ t('HomePage.gameInfo.languages.title') }}</h3>
                             </div>
                             <div class="language-table">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th class="col-language">Language</th>
-                                            <th class="col-interface">Interface</th>
-                                            <th class="col-audio">Full Audio</th>
-                                            <th class="col-subtitles">Subtitles</th>
+                                            <th class="col-language">{{ t('HomePage.gameInfo.languages.lang') }}</th>
+                                            <th class="col-interface">{{ t('HomePage.gameInfo.languages.interface') }}</th>
+                                            <th class="col-audio">{{ t('HomePage.gameInfo.languages.audio') }}</th>
+                                            <th class="col-subtitles">{{ t('HomePage.gameInfo.languages.subtitles') }}</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="col-language">Simplified Chinese</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang1') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
                                         </tr>
                                         <tr>
-                                            <td class="col-language">English</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang2') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
                                         </tr>
                                         <tr>
-                                            <td class="col-language">Traditional Chinese</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang3') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
                                         </tr>
                                         <tr>
-                                            <td class="col-language">Japanese</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang4') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
                                         </tr>
                                         <tr>
-                                            <td class="col-language">German</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang5') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
                                         </tr>
                                         <tr>
-                                            <td class="col-language">Russian</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang6') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
                                         </tr>
                                         <tr>
-                                            <td class="col-language">Spanish - Latin America</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang7') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
                                         </tr>
                                         <tr>
-                                            <td class="col-language">Korean</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang8') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
                                         </tr>
                                         <tr>
-                                            <td class="col-language">French</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang9') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
                                         </tr>
                                         <tr>
-                                            <td class="col-language">Portuguese - Brazil</td>
+                                            <td class="col-language">{{ t('HomePage.gameInfo.languages.lang10') }}</td>
                                             <td class="col-interface">✓</td>
                                             <td class="col-audio"></td>
                                             <td class="col-subtitles">✓</td>
@@ -362,28 +316,25 @@
         <!-- Reviews Section -->
         <section class="reviews-section">
             <div class="container">
-                <h2 class="section-title">Player Reviews</h2>
-                <p class="section-subtitle">What players are saying about Escape from Duckov</p>
+                <h2 class="section-title">{{ t('HomePage.reviews.title') }}</h2>
+                <p class="section-subtitle">{{ t('HomePage.reviews.subtitle') }}</p>
                 <div class="reviews-grid">
                     <div class="review-card card">
                         <div class="review-header">
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">
-                                    <img src="/images/review-01.webp" alt="boko" class="reviewer-avatar-img">
+                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review1.name')" class="reviewer-avatar-img">
                                 </div>
                                 <div class="reviewer-details">
-                                    <h4>boko</h4>
+                                    <h4>{{ t('HomePage.reviews.review1.name') }}</h4>
                                     <div class="review-rating">
-                                        <span class="stars">★★★★★</span>
+                                        <span class="stars">{{ t('HomePage.reviews.review1.rating') }}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="review-content">
-                            <p>"Absolutely amazing game! The duck world is so immersive and the survival mechanics are
-                                perfectly
-                                balanced. I've spent over 50 hours already and still discovering new things. The hideout
-                                building system is incredible!"</p>
+                            <p>{{ t('HomePage.reviews.review1.text') }}</p>
                         </div>
                     </div>
 
@@ -391,19 +342,18 @@
                         <div class="review-header">
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">
-                                    <img src="/images/review-01.webp" alt="edythe" class="reviewer-avatar-img">
+                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review2.name')" class="reviewer-avatar-img">
                                 </div>
                                 <div class="reviewer-details">
-                                    <h4>Edythe</h4>
+                                    <h4>{{ t('HomePage.reviews.review2.name') }}</h4>
                                     <div class="review-rating">
-                                        <span class="stars">★★★★★</span>
+                                        <span class="stars">{{ t('HomePage.reviews.review2.rating') }}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="review-content">
-                            <p>"Genuinely fun, but wished it comes with at least official gamepad controls for steam
-                                deck"</p>
+                            <p>{{ t('HomePage.reviews.review2.text') }}</p>
                         </div>
                     </div>
 
@@ -411,18 +361,18 @@
                         <div class="review-header">
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">
-                                    <img src="/images/review-01.webp" alt="steakyb" class="reviewer-avatar-img">
+                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review3.name')" class="reviewer-avatar-img">
                                 </div>
                                 <div class="reviewer-details">
-                                    <h4>SteakyB</h4>
+                                    <h4>{{ t('HomePage.reviews.review3.name') }}</h4>
                                     <div class="review-rating">
-                                        <span class="stars">★★★★☆</span>
+                                        <span class="stars">{{ t('HomePage.reviews.review3.rating') }}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="review-content">
-                            <p>"10/10 only needs co-op to be in the main game and not a mod and its perfect"</p>
+                            <p>{{ t('HomePage.reviews.review3.text') }}</p>
                         </div>
                     </div>
 
@@ -431,19 +381,15 @@
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">🏗️</div>
                                 <div class="reviewer-details">
-                                    <h4>BuilderPro</h4>
+                                    <h4>{{ t('HomePage.reviews.review4.name') }}</h4>
                                     <div class="review-rating">
-                                        <span class="stars">★★★★★</span>
+                                        <span class="stars">{{ t('HomePage.reviews.review4.rating') }}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="review-content">
-                            <p>"The hideout building is incredible! I love how you can customize every aspect of your
-                                base. The
-                                crafting system is deep and rewarding. This game has become my go-to for relaxing after
-                                work."
-                            </p>
+                            <p>{{ t('HomePage.reviews.review4.text') }}</p>
                         </div>
                     </div>
 
@@ -452,18 +398,15 @@
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">🗺️</div>
                                 <div class="reviewer-details">
-                                    <h4>ExplorerDuck</h4>
+                                    <h4>{{ t('HomePage.reviews.review5.name') }}</h4>
                                     <div class="review-rating">
-                                        <span class="stars">★★★★★</span>
+                                        <span class="stars">{{ t('HomePage.reviews.review5.rating') }}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="review-content">
-                            <p>"The maps are beautifully designed with tons of secrets to discover. Each raid feels
-                                different
-                                thanks to the dynamic loot and weather systems. The extraction timer adds perfect
-                                tension!"</p>
+                            <p>{{ t('HomePage.reviews.review5.text') }}</p>
                         </div>
                     </div>
 
@@ -472,18 +415,15 @@
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">🎯</div>
                                 <div class="reviewer-details">
-                                    <h4>StealthMaster</h4>
+                                    <h4>{{ t('HomePage.reviews.review6.name') }}</h4>
                                     <div class="review-rating">
-                                        <span class="stars">★★★★☆</span>
+                                        <span class="stars">{{ t('HomePage.reviews.review6.rating') }}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="review-content">
-                            <p>"Great stealth mechanics and tactical gameplay. The AI is smart and the maps offer
-                                multiple
-                                approaches to objectives. Love the risk/reward system - makes every decision matter!"
-                            </p>
+                            <p>{{ t('HomePage.reviews.review6.text') }}</p>
                         </div>
                     </div>
                 </div>
@@ -493,35 +433,23 @@
         <!-- FAQ Section -->
         <section class="faq-section">
             <div class="container">
-                <h2 class="section-title">Frequently Asked Questions</h2>
+                <h2 class="section-title">{{ t('HomePage.faq.title') }}</h2>
                 <div class="faq-list">
                     <div class="faq-item card">
-                        <h3>Is Escape from Duckov just a Tarkov clone?</h3>
-                        <p>Not at all. While it draws inspiration from the extraction shooter genre, Escape from Duckov
-                            is a
-                            complete single-player experience with its own story, progression systems, and unique
-                            mechanics like
-                            the periodic Storm events. Explore our <a href="/guides">comprehensive guides</a> to learn about unique game mechanics.</p>
+                        <h3>{{ t('HomePage.faq.q1.question') }}</h3>
+                        <p v-html="tWithLocalizedLinks('HomePage.faq.q1.answer', {}, { raw: true })"></p>
                     </div>
                     <div class="faq-item card">
-                        <h3>What happens when I die?</h3>
-                        <p>On Balanced difficulty, you drop your inventory where you died—one chance to recover it. On
-                            Extreme
-                            difficulty, death means permanent loss. Lower difficulties are more forgiving with minimal
-                            consequences.</p>
+                        <h3>{{ t('HomePage.faq.q2.question') }}</h3>
+                        <p>{{ t('HomePage.faq.q2.answer') }}</p>
                     </div>
                     <div class="faq-item card">
-                        <h3>Can I play this offline?</h3>
-                        <p>Absolutely! The game is designed as a complete offline experience with no online
-                            requirements, PvP,
-                            or daily wipes. Play at your own pace without any multiplayer stress.</p>
+                        <h3>{{ t('HomePage.faq.q3.question') }}</h3>
+                        <p>{{ t('HomePage.faq.q3.answer') }}</p>
                     </div>
                     <div class="faq-item card">
-                        <h3>How long is the game?</h3>
-                        <p>The main campaign offers 50+ hours of content, with extensive replayability through dynamic
-                            loot,
-                            multiple difficulty settings, and the continuous challenge of surviving the Storm events. Check out our <a href="/maps">maps</a>, <a href="/wiki/quests">quests</a>, and <a href="/items">items</a> databases to discover everything Duckov has to offer.
-                        </p>
+                        <h3>{{ t('HomePage.faq.q4.question') }}</h3>
+                        <p v-html="tWithLocalizedLinks('HomePage.faq.q4.answer', {}, { raw: true })"></p>
                     </div>
                 </div>
             </div>
@@ -530,7 +458,75 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
+import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
+import { getLocalizedPath } from '../utils/routeUtils'
+
+const route = useRoute()
+const { t, locale } = useI18n()
+
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
+// 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
+const getLocalizedPathForCurrentLang = (path) => {
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    return getLocalizedPath(path, targetLang)
+}
+
+// 处理 HTML 内容中的链接，将其转换为多语言路径
+const processHtmlLinks = (htmlContent) => {
+    if (!htmlContent || typeof htmlContent !== 'string') return htmlContent
+    
+    // 获取当前语言
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    
+    // 匹配 href="/xxx" 或 href='/xxx' 格式的链接
+    return htmlContent.replace(/href=["'](\/[^"']+)["']/g, (match, path) => {
+        // 如果是外部链接（http/https）或已经是多语言路径，不处理
+        if (path.startsWith('http://') || path.startsWith('https://')) {
+            return match
+        }
+        
+        // 检查是否已经是多语言路径
+        const supportedLanguagesForCheck = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+        const isAlreadyLocalized = supportedLanguagesForCheck.some(lang => {
+            if (lang === 'en') return false
+            return path.startsWith(`/${lang}/`) || path === `/${lang}`
+        })
+        
+        if (isAlreadyLocalized) {
+            return match // 已经是多语言路径，不处理
+        }
+        
+        // 转换为多语言路径
+        const localizedPath = getLocalizedPath(path, targetLang)
+        return `href="${localizedPath}"`
+    })
+}
+
+// 包装 t() 函数以处理 HTML 内容中的链接
+const tWithLocalizedLinks = (key, params = {}, options = {}) => {
+    const content = t(key, params, options)
+    // 如果内容包含 HTML，处理其中的链接
+    if (options.raw || content.includes('<a href')) {
+        return processHtmlLinks(content)
+    }
+    return content
+}
 
 const isVideoPlaying = ref(false)
 

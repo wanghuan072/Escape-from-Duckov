@@ -4,7 +4,7 @@
         <section class="wiki-detail-header">
             <div class="container">
                 <div class="breadcrumb">
-                    <a href="/wiki" class="breadcrumb-link">
+                    <a :href="getLocalizedPathForCurrentLang('/wiki')" class="breadcrumb-link">
                         <svg class="breadcrumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
                             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
@@ -16,7 +16,7 @@
                         stroke-width="2">
                         <polyline points="9,18 15,12 9,6" />
                     </svg>
-                    <a :href="getCategoryLink(category)" class="breadcrumb-link">{{ getCategoryDisplayName(category)
+                    <a :href="getLocalizedPathForCurrentLang(getCategoryLink(category))" class="breadcrumb-link">{{ getCategoryDisplayName(category)
                     }}</a>
                     <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                         stroke-width="2">
@@ -73,7 +73,7 @@
                                 'Weapons' : 'Items' }}</h4>
                             <div class="nav-links">
                                 <a v-for="quest in otherQuests" :key="quest.id"
-                                    :href="`/wiki/${category}/${quest.addressBar.replace('/', '')}`" class="nav-link">{{
+                                    :href="getLocalizedPathForCurrentLang(`/wiki/${category}/${quest.addressBar.replace('/', '')}`)" class="nav-link">{{
                                         quest.title }}</a>
                             </div>
                         </div>
@@ -87,9 +87,12 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
 import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { useWikiData } from '../../composables/useWikiData.js'
+import { getLocalizedPath } from '../../utils/routeUtils'
 
 const route = useRoute()
+const { locale } = useI18n()
 const item = ref(null)
 const category = ref('')
 
@@ -124,6 +127,26 @@ const getCategoryLink = (category) => {
     if (category === 'quests') return '/wiki/quests'
     if (category) return `/wiki/${category}`
     return '/wiki'
+}
+
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
+// 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
+const getLocalizedPathForCurrentLang = (path) => {
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    return getLocalizedPath(path, targetLang)
 }
 </script>
 

@@ -2,18 +2,18 @@
     <div class="items-category-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Escape from Duckov Keys</h1>
-                <p class="page-subtitle">Complete Escape from Duckov keys database featuring J-Lab certificates, access cards, factory keys, dormitory keys, and location-specific keys. Browse Level 1-3 J-Lab certificates, colored access cards, sanatorium keys, cellar keys, and special tickets. Find descriptions, locations, and access information for every key, card, and certificate in Duckov.</p>
+                <h1 class="page-title">{{ t('ItemsKeyPage.title') }}</h1>
+                <p class="page-subtitle">{{ t('ItemsKeyPage.subtitle') }}</p>
             </div>
 
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsKeyPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsKeyPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsKeyPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsKeyPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -42,10 +42,13 @@
 
 <script setup>
 import { onMounted, computed } from 'vue'
-import { useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
+import { getLocalizedPath } from '../../utils/routeUtils'
 
-const router = useRouter()
+const route = useRoute()
+const { t, locale } = useI18n()
 const { data: itemsData, loadData } = useItemsData('key')
 
 const allKeys = computed(() => itemsData?.value || [])
@@ -54,11 +57,27 @@ onMounted(() => {
     loadData('key')
 })
 
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
 const onRowClick = (item) => {
     if (item && item.showDetail === false) return
     const id = (item.addressBar || '').replace('/', '')
     if (!id) return
-    router.push(`/items/key/${id}`)
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    const path = getLocalizedPath(`/items/key/${id}`, targetLang)
+    window.location.href = path
 }
 </script>
 

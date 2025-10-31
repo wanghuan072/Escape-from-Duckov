@@ -2,127 +2,117 @@
     <div class="items-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Escape from Duckov Items</h1>
-                <p class="page-subtitle">Comprehensive Escape from Duckov database of weapons, equipment, ammunition, keys, and fish. Browse firearms, melee weapons, armor, helmets, ammunition, keys, fish, and protective gear. Find stats, descriptions, and details for every item in Duckov's arsenal.</p>
+                <h1 class="page-title">{{ t('ItemsPage.title') }}</h1>
+                <p class="page-subtitle">{{ t('ItemsPage.subtitle') }}</p>
             </div>
 
             <div class="category-grid">
                 <!-- Weapons Card -->
-                <a href="/items/weapons" class="category-card card">
+                <a :href="getLocalizedPathForCurrentLang('/items/weapons')" class="category-card card">
                     <div class="card-top">
                         <div class="card-title-wrap">
-                            <h3 class="card-title">Weapons</h3>
-                            <span class="item-count">{{ weaponsCount }} items</span>
+                            <h3 class="card-title">{{ t('ItemsPage.weapons.title') }}</h3>
+                            <span class="item-count">{{ weaponsCount }} {{ t('ItemsPage.itemsCount') }}</span>
                         </div>
-                        <p class="card-desc">Firearms, melee tools, and everything you need for direct encounters.</p>
+                        <p class="card-desc">{{ t('ItemsPage.weapons.desc') }}</p>
                         <div class="featured-gear">
-                            <div class="featured-label">Featured Gear</div>
+                            <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ weaponsFeatured || '—' }}</div>
                         </div>
                         <div class="tag-list">
-                            <span class="tag">Combat</span>
-                            <span class="tag">Damage</span>
-                            <span class="tag">Gear</span>
+                            <span class="tag" v-for="tag in t('ItemsPage.weapons.tags')" :key="tag">{{ tag }}</span>
                         </div>
                     </div>
                     <div class="card-bottom">
-                        <span class="explore">Explore category</span>
+                        <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
                         <span class="arrow">›</span>
                     </div>
                 </a>
 
                 <!-- Equipment Card -->
-                <a href="/items/equipment" class="category-card card">
+                <a :href="getLocalizedPathForCurrentLang('/items/equipment')" class="category-card card">
                     <div class="card-top">
                         <div class="card-title-wrap">
-                            <h3 class="card-title">Equipment</h3>
-                            <span class="item-count">{{ equipmentCount }} items</span>
+                            <h3 class="card-title">{{ t('ItemsPage.equipment.title') }}</h3>
+                            <span class="item-count">{{ equipmentCount }} {{ t('ItemsPage.itemsCount') }}</span>
                         </div>
-                        <p class="card-desc">Protective gear and tactical wear to survive longer runs.</p>
+                        <p class="card-desc">{{ t('ItemsPage.equipment.desc') }}</p>
                         <div class="featured-gear">
-                            <div class="featured-label">Featured Gear</div>
+                            <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ equipmentFeatured || '—' }}</div>
                         </div>
                         <div class="tag-list">
-                            <span class="tag">Defense</span>
-                            <span class="tag">Gear</span>
-                            <span class="tag">Survival</span>
+                            <span class="tag" v-for="tag in t('ItemsPage.equipment.tags')" :key="tag">{{ tag }}</span>
                         </div>
                     </div>
                     <div class="card-bottom">
-                        <span class="explore">Explore category</span>
+                        <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
                         <span class="arrow">›</span>
                     </div>
                 </a>
 
                 <!-- Ammunition Card -->
-                <a href="/items/ammunition" class="category-card card">
+                <a :href="getLocalizedPathForCurrentLang('/items/ammunition')" class="category-card card">
                     <div class="card-top">
                         <div class="card-title-wrap">
-                            <h3 class="card-title">Ammunition</h3>
-                            <span class="item-count">{{ ammunitionCount }} items</span>
+                            <h3 class="card-title">{{ t('ItemsPage.ammunition.title') }}</h3>
+                            <span class="item-count">{{ ammunitionCount }} {{ t('ItemsPage.itemsCount') }}</span>
                         </div>
-                        <p class="card-desc">Pistol rounds, rifle cartridges, shotgun shells, and all types of ammunition for your weapons.</p>
+                        <p class="card-desc">{{ t('ItemsPage.ammunition.desc') }}</p>
                         <div class="featured-gear">
-                            <div class="featured-label">Featured Gear</div>
+                            <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ ammunitionFeatured || '—' }}</div>
                         </div>
                         <div class="tag-list">
-                            <span class="tag">Ammo</span>
-                            <span class="tag">Caliber</span>
-                            <span class="tag">Compatibility</span>
+                            <span class="tag" v-for="tag in t('ItemsPage.ammunition.tags')" :key="tag">{{ tag }}</span>
                         </div>
                     </div>
                     <div class="card-bottom">
-                        <span class="explore">Explore category</span>
+                        <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
                         <span class="arrow">›</span>
                     </div>
                 </a>
 
                 <!-- Keys Card -->
-                <a href="/items/key" class="category-card card">
+                <a :href="getLocalizedPathForCurrentLang('/items/key')" class="category-card card">
                     <div class="card-top">
                         <div class="card-title-wrap">
-                            <h3 class="card-title">Keys</h3>
-                            <span class="item-count">{{ keysCount }} items</span>
+                            <h3 class="card-title">{{ t('ItemsPage.key.title') }}</h3>
+                            <span class="item-count">{{ keysCount }} {{ t('ItemsPage.itemsCount') }}</span>
                         </div>
-                        <p class="card-desc">Access cards, keycards, and security keys to unlock doors, containers, and restricted areas.</p>
+                        <p class="card-desc">{{ t('ItemsPage.key.desc') }}</p>
                         <div class="featured-gear">
-                            <div class="featured-label">Featured Gear</div>
+                            <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ keysFeatured || '—' }}</div>
                         </div>
                         <div class="tag-list">
-                            <span class="tag">Access</span>
-                            <span class="tag">Keys</span>
-                            <span class="tag">Security</span>
+                            <span class="tag" v-for="tag in t('ItemsPage.key.tags')" :key="tag">{{ tag }}</span>
                         </div>
                     </div>
                     <div class="card-bottom">
-                        <span class="explore">Explore category</span>
+                        <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
                         <span class="arrow">›</span>
                     </div>
                 </a>
 
                 <!-- Fish Card -->
-                <a href="/items/fish" class="category-card card">
+                <a :href="getLocalizedPathForCurrentLang('/items/fish')" class="category-card card">
                     <div class="card-top">
                         <div class="card-title-wrap">
-                            <h3 class="card-title">Fish</h3>
-                            <span class="item-count">{{ fishCount }} items</span>
+                            <h3 class="card-title">{{ t('ItemsPage.fish.title') }}</h3>
+                            <span class="item-count">{{ fishCount }} {{ t('ItemsPage.itemsCount') }}</span>
                         </div>
-                        <p class="card-desc">All fish species, fishing spots, baits, and fishing mechanics with habits and location information.</p>
+                        <p class="card-desc">{{ t('ItemsPage.fish.desc') }}</p>
                         <div class="featured-gear">
-                            <div class="featured-label">Featured Gear</div>
+                            <div class="featured-label">{{ t('ItemsPage.featuredGear') }}</div>
                             <div class="featured-list">{{ fishFeatured || '—' }}</div>
                         </div>
                         <div class="tag-list">
-                            <span class="tag">Fishing</span>
-                            <span class="tag">Fish</span>
-                            <span class="tag">Baits</span>
+                            <span class="tag" v-for="tag in t('ItemsPage.fish.tags')" :key="tag">{{ tag }}</span>
                         </div>
                     </div>
                     <div class="card-bottom">
-                        <span class="explore">Explore category</span>
+                        <span class="explore">{{ t('ItemsPage.exploreCategory') }}</span>
                         <span class="arrow">›</span>
                     </div>
                 </a>
@@ -134,7 +124,33 @@
 
 <script setup>
 import { onMounted, computed } from 'vue'
+import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
+import { getLocalizedPath } from '../../utils/routeUtils'
+
+const route = useRoute()
+const { t, locale } = useI18n()
+
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
+// 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
+const getLocalizedPathForCurrentLang = (path) => {
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    return getLocalizedPath(path, targetLang)
+}
 
 const { data: weapons, loadData: loadWeapons } = useItemsData('weapons')
 const { data: equipment, loadData: loadEquipment } = useItemsData('equipment')

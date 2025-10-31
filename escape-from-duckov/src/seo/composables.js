@@ -1,6 +1,8 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { seoConfig } from './config.js'
+import { getCurrentLocale } from '../i18n'
 
 // SEO composable
 export function useSEO() {
@@ -164,35 +166,110 @@ export function useSEO() {
     }
 }
 
+// 路由名称到SEO key的映射
+const routeToSeoKey = {
+    'home': 'home',
+    'guides': 'guides',
+    'guide-detail': 'guideDetail',
+    'wiki': 'wiki',
+    'wiki-quests': 'wikiQuests',
+    'wiki-detail': 'wikiDetail',
+    'maps': 'maps',
+    'mods': 'mods',
+    'mod-detail': 'modDetail',
+    'items': 'items',
+    'items-weapons': 'itemsWeapons',
+    'items-equipment': 'itemsEquipment',
+    'items-ammunition': 'itemsAmmunition',
+    'items-key': 'itemsKey',
+    'items-fish': 'itemsFish',
+    'items-detail': 'itemsDetail',
+    'privacy-policy': 'privacyPolicy',
+    'terms-of-service': 'termsOfService',
+    'copyright': 'copyright',
+    'about-us': 'aboutUs',
+    'contact-us': 'contactUs'
+}
+
 // 自动SEO composable - 监听路由变化自动设置SEO
 export function useAutoSEO() {
     const { setSEO, generateStructuredData, addStructuredData } = useSEO()
     const route = useRoute()
+    const { t } = useI18n()
     
     // 处理SEO的函数
     const handleSEO = async () => {
-        // 获取路由中的SEO信息
-        const seoData = route.meta?.seo || {}
+        // 从路由名称获取SEO key
+        const routeName = route.name
+        const seoKey = routeToSeoKey[routeName]
         
         // 处理动态内容（指南详情页和模组详情页）
         let finalSEOData = {
-            title: seoData.title || seoConfig.defaults.title,
-            description: seoData.description || seoConfig.defaults.description,
-            keywords: seoData.keywords || seoConfig.defaults.keywords,
+            title: seoConfig.defaults.title,
+            description: seoConfig.defaults.description,
+            keywords: seoConfig.defaults.keywords,
             author: seoConfig.defaults.author,
             image: seoConfig.defaults.image,
-            type: seoData.type || seoConfig.defaults.type
+            type: seoConfig.defaults.type
         }
         
         // 如果是动态路由，需要从数据中获取实际内容
-        if (route.name === 'guide-detail' || route.name === 'mod-detail') {
+        if (routeName === 'guide-detail' || routeName === 'mod-detail') {
             try {
                 let item = null
                 
-                if (route.name === 'guide-detail') {
-                    const { guides } = await import('../data/guide/guide.js')
-                    item = guides.find(g => g.addressBar === `/${route.params.id}`)
-                } else if (route.name === 'mod-detail') {
+                if (routeName === 'guide-detail') {
+                    // 根据当前语言动态加载 guide 数据
+                    const locale = getCurrentLocale()
+                    const supportedLocales = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+                    const targetLocale = supportedLocales.includes(locale) ? locale : 'en'
+                    try {
+                        let module = null
+                        // 使用 switch case 确保 Vite 可以正确解析路径
+                        switch (targetLocale) {
+                            case 'en':
+                                module = await import('../data/guide/en/guide.js')
+                                break
+                            case 'de':
+                                module = await import('../data/guide/de/guide.js')
+                                break
+                            case 'fr':
+                                module = await import('../data/guide/fr/guide.js')
+                                break
+                            case 'es':
+                                module = await import('../data/guide/es/guide.js')
+                                break
+                            case 'ja':
+                                module = await import('../data/guide/ja/guide.js')
+                                break
+                            case 'ko':
+                                module = await import('../data/guide/ko/guide.js')
+                                break
+                            case 'ru':
+                                module = await import('../data/guide/ru/guide.js')
+                                break
+                            case 'pt':
+                                module = await import('../data/guide/pt/guide.js')
+                                break
+                            case 'zh':
+                                module = await import('../data/guide/zh/guide.js')
+                                break
+                            default:
+                                module = await import('../data/guide/en/guide.js')
+                        }
+                        item = module.guides.find(g => g.addressBar === `/${route.params.id}`)
+                    } catch (error) {
+                        // 如果加载失败，回退到英文
+                        if (targetLocale !== 'en') {
+                            try {
+                                const enModule = await import('../data/guide/en/guide.js')
+                                item = enModule.guides.find(g => g.addressBar === `/${route.params.id}`)
+                            } catch (e) {
+                                console.error('Failed to load fallback guide data:', e)
+                            }
+                        }
+                    }
+                } else if (routeName === 'mod-detail') {
                     const { mods } = await import('../data/mods/mods.js')
                     item = mods.find(m => m.addressBar === `/${route.params.id}`)
                 }
@@ -207,9 +284,29 @@ export function useAutoSEO() {
                         image: seoConfig.defaults.image,
                         type: 'article'
                     }
+                } else if (seoKey) {
+                    // 如果数据中没有SEO，从i18n读取
+                    finalSEOData = {
+                        title: t(`seo.${seoKey}.title`, finalSEOData.title),
+                        description: t(`seo.${seoKey}.description`, finalSEOData.description),
+                        keywords: t(`seo.${seoKey}.keywords`, finalSEOData.keywords),
+                        author: seoConfig.defaults.author,
+                        image: seoConfig.defaults.image,
+                        type: t(`seo.${seoKey}.type`, 'article')
+                    }
                 }
             } catch (error) {
                 console.warn('Failed to load dynamic SEO data:', error)
+            }
+        } else if (seoKey) {
+            // 从i18n读取SEO信息
+            finalSEOData = {
+                title: t(`seo.${seoKey}.title`, finalSEOData.title),
+                description: t(`seo.${seoKey}.description`, finalSEOData.description),
+                keywords: t(`seo.${seoKey}.keywords`, finalSEOData.keywords),
+                author: seoConfig.defaults.author,
+                image: seoConfig.defaults.image,
+                type: t(`seo.${seoKey}.type`, 'website')
             }
         }
         

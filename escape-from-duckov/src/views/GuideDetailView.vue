@@ -4,7 +4,7 @@
         <section class="guide-detail-header">
             <div class="container">
                 <div class="breadcrumb">
-                    <a href="/guides" class="breadcrumb-link">
+                    <a :href="getLocalizedPathForCurrentLang('/guides')" class="breadcrumb-link">
                         <svg class="breadcrumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                             <polyline points="9,22 9,12 15,12 15,22"/>
@@ -87,7 +87,7 @@
                             <h4 class="nav-title">Other Guides</h4>
                             <div class="nav-links">
                                 <a v-for="otherGuide in otherGuides" :key="otherGuide.id" 
-                                   :href="`/guides${otherGuide.addressBar}`" 
+                                   :href="getLocalizedPathForCurrentLang(`/guides${otherGuide.addressBar}`)" 
                                    class="nav-link">{{ otherGuide.title }}</a>
                             </div>
                         </div>
@@ -99,24 +99,48 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { guides } from '../data/guide/guide.js'
+import { useI18n } from 'vue-i18n'
+import { useGuideData } from '../composables/useGuideData'
+import { getLocalizedPath } from '../utils/routeUtils'
 
 const route = useRoute()
+const { locale } = useI18n()
+const { guides, loadData, findGuideByAddressBar } = useGuideData()
 const guide = ref(null)
-const allGuides = ref([])
+
+// 获取当前语言的路径
+const getLocalizedPathForCurrentLang = (path) => {
+    return getLocalizedPath(path, locale.value)
+}
+
+// 初始化加载数据并查找 guide
+const initGuide = async () => {
+    await loadData()
+    const guideId = route.params.id
+    guide.value = findGuideByAddressBar(`/${guideId}`)
+}
 
 onMounted(() => {
+    initGuide()
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
+    initGuide()
+})
+
+// 监听路由变化，更新当前 guide
+watch(() => route.params.id, () => {
     const guideId = route.params.id
-    allGuides.value = guides
-    guide.value = guides.find(g => g.addressBar === `/${guideId}`)
+    guide.value = findGuideByAddressBar(`/${guideId}`)
 })
 
 // 计算其他guides（排除当前guide，只显示最后5个）
 const otherGuides = computed(() => {
     if (!guide.value) return []
-    const filtered = allGuides.value.filter(g => g.id !== guide.value.id)
+    const filtered = guides.value.filter(g => g.id !== guide.value.id)
     return filtered.slice(-5)
 })
 

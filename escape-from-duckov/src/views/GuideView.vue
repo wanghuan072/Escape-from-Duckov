@@ -5,8 +5,8 @@
             <div class="container">
                 <div class="page-header-content">
                     <div class="page-header-text">
-                        <h1 class="page-title">Escape from Duckov Guides</h1>
-                        <p class="page-subtitle">From beginner tutorials to advanced walkthroughs. Comprehensive Escape from Duckov guides covering survival strategies, rare item acquisition, boss fights, base building, and endgame content.</p>
+                        <h1 class="page-title">{{ t('GuidesPage.title') }}</h1>
+                        <p class="page-subtitle">{{ t('GuidesPage.subtitle') }}</p>
                     </div>
                 </div>
             </div>
@@ -15,9 +15,19 @@
         <!-- Guide Categories -->
         <section class="guide-categories">
             <div class="container">
+                <!-- Loading State -->
+                <div v-if="loading" class="loading-state">
+                    <p>Loading guides...</p>
+                </div>
+                
+                <!-- Error State -->
+                <div v-if="error" class="error-state">
+                    <p>Error loading guides: {{ error }}</p>
+                </div>
+                
                 <!-- Getting Started -->
                 <div class="category-section">
-                    <h2 class="category-title">Escape from Duckov Getting Started</h2>
+                    <h2 class="category-title">{{ t('GuidesPage.category1.title') }}</h2>
                     <div class="guides-grid">
                         <div 
                             v-for="guide in gettingStartedGuides" 
@@ -26,7 +36,7 @@
                             @click="goToGuide(guide.addressBar)"
                         >
                             <div class="guide-card-header">
-                                <span class="category-tag">GETTING STARTED</span>
+                                <span class="category-tag">{{ t('GuidesPage.category1.tag') }}</span>
                             </div>
                             <h3 class="guide-title">{{ guide.title }}</h3>
                             <p class="guide-description">{{ guide.description }}</p>
@@ -35,7 +45,7 @@
                             </div>
                             <div class="guide-footer">
                                 <span class="update-date">{{ formatDate(guide.publishDate) }}</span>
-                                <span class="view-link">VIEW GUIDE ></span>
+                                <span class="view-link">{{ t('GuidesPage.viewGuide') }}</span>
                             </div>
                         </div>
                     </div>
@@ -43,7 +53,7 @@
 
                 <!-- Walkthroughs -->
                 <div class="category-section">
-                    <h2 class="category-title">Escape from Duckov: Advanced Walkthroughs</h2>
+                    <h2 class="category-title">{{ t('GuidesPage.category2.title') }}</h2>
                     <div class="guides-grid">
                         <div 
                             v-for="guide in walkthroughGuides" 
@@ -52,7 +62,7 @@
                             @click="goToGuide(guide.addressBar)"
                         >
                             <div class="guide-card-header">
-                                <span class="category-tag">WALKTHROUGHS</span>
+                                <span class="category-tag">{{ t('GuidesPage.category2.tag') }}</span>
                             </div>
                             <h3 class="guide-title">{{ guide.title }}</h3>
                             <p class="guide-description">{{ guide.description }}</p>
@@ -61,7 +71,7 @@
                             </div>
                             <div class="guide-footer">
                                 <span class="update-date">{{ formatDate(guide.publishDate) }}</span>
-                                <span class="view-link">VIEW GUIDE ></span>
+                                <span class="view-link">{{ t('GuidesPage.viewGuide') }}</span>
                             </div>
                         </div>
                     </div>
@@ -69,7 +79,7 @@
 
                 <!-- Advanced -->
                 <div class="category-section">
-                    <h2 class="category-title">Specific Guides for Escape from Duckov</h2>
+                    <h2 class="category-title">{{ t('GuidesPage.category3.title') }}</h2>
                     <div class="guides-grid">
                         <div 
                             v-for="guide in advancedGuides" 
@@ -78,7 +88,7 @@
                             @click="goToGuide(guide.addressBar)"
                         >
                             <div class="guide-card-header">
-                                <span class="category-tag">ADVANCED</span>
+                                <span class="category-tag">{{ t('GuidesPage.category3.tag') }}</span>
                             </div>
                             <h3 class="guide-title">{{ guide.title }}</h3>
                             <p class="guide-description">{{ guide.description }}</p>
@@ -87,7 +97,7 @@
                             </div>
                             <div class="guide-footer">
                                 <span class="update-date">{{ formatDate(guide.publishDate) }}</span>
-                                <span class="view-link">VIEW GUIDE ></span>
+                                <span class="view-link">{{ t('GuidesPage.viewGuide') }}</span>
                             </div>
                         </div>
                     </div>
@@ -98,32 +108,47 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
-import { guides } from '../data/guide/guide.js'
+import { useI18n } from 'vue-i18n'
+import { useGuideData } from '../composables/useGuideData'
+import { getLocalizedPath } from '../utils/routeUtils'
 
 const router = useRouter()
+const { t, locale } = useI18n()
+const { guides, loading, error, loadData } = useGuideData()
+
+// 初始化加载数据
+onMounted(() => {
+    loadData()
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
+    loadData()
+})
 
 // 计算属性：按分类分组
 const gettingStartedGuides = computed(() => 
-    guides.filter(guide => guide.category === 'getting-started')
+    (guides.value || []).filter(guide => guide.category === 'getting-started')
 )
 
 const walkthroughGuides = computed(() => 
-    guides.filter(guide => guide.category === 'walkthroughs')
+    (guides.value || []).filter(guide => guide.category === 'walkthroughs')
 )
 
 const advancedGuides = computed(() => 
-    guides.filter(guide => guide.category === 'advanced')
+    (guides.value || []).filter(guide => guide.category === 'advanced')
 )
 
 const goToGuide = (addressBar) => {
-    router.push(`/guides${addressBar}`)
+    const path = getLocalizedPath(`/guides${addressBar}`, locale.value)
+    window.location.href = path
 }
 
 const formatDate = (dateString) => {
     const date = new Date(dateString)
-    return `Updated ${date.toLocaleDateString('en-US', { 
+    return `${t('GuidesPage.updated')} ${date.toLocaleDateString('en-US', { 
         month: 'short', 
         day: 'numeric', 
         year: 'numeric' 

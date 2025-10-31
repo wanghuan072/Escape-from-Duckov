@@ -5,8 +5,8 @@
       <div class="container">
         <div class="page-header-content">
           <div class="page-header-text">
-            <h1 class="page-title">Escape from Duckov - About Us</h1>
-            <p class="page-subtitle">Learn more about DuckovGame and our mission</p>
+            <h1 class="page-title">{{ t('AboutUsPage.title') }}</h1>
+            <p class="page-subtitle">{{ t('AboutUsPage.subtitle') }}</p>
           </div>
         </div>
       </div>
@@ -16,55 +16,37 @@
     <section class="legal-content">
       <div class="container">
         <div class="legal-document">
-          <h2>Who We Are</h2>
-          <p>DuckovGame is a leading platform dedicated to providing high-quality content, guides, and resources for
-              our community. We are a passionate team of creators, researchers, and enthusiasts who aim to
-              deliver accurate, engaging, and valuable information across various fields.</p>
+          <h2>{{ t('AboutUsPage.whoWeAre.title') }}</h2>
+          <p>{{ t('AboutUsPage.whoWeAre.text') }}</p>
 
-          <h2>Our Mission</h2>
-          <p>Our mission is to empower users by offering reliable knowledge, practical strategies, and
-              community-driven insights. Whether it's games, technology, lifestyle, or creative resources, we
-              strive to become the go-to source for trustworthy and up-to-date content.</p>
+          <h2>{{ t('AboutUsPage.mission.title') }}</h2>
+          <p>{{ t('AboutUsPage.mission.text') }}</p>
 
-          <h2>What We Offer</h2>
+          <h2>{{ t('AboutUsPage.offer.title') }}</h2>
           <ul>
-            <li><strong>Guides & Tutorials:</strong> Comprehensive resources to help users learn, grow, and
-                solve problems.</li>
-            <li><strong>Latest Updates:</strong> Regularly refreshed content to ensure relevance and
-                accuracy.</li>
-            <li><strong>Community Resources:</strong> A hub for collaboration, knowledge sharing, and
-                meaningful interaction.</li>
-            <li><strong>Special Features:</strong> Exclusive insights, tools, and curated content for our
-                audience.</li>
+            <li><strong>{{ t('AboutUsPage.offer.items.guides') }}</strong></li>
+            <li><strong>{{ t('AboutUsPage.offer.items.updates') }}</strong></li>
+            <li><strong>{{ t('AboutUsPage.offer.items.community') }}</strong></li>
+            <li><strong>{{ t('AboutUsPage.offer.items.features') }}</strong></li>
           </ul>
 
-          <h2>Our Commitment</h2>
-          <p>We are committed to maintaining a high standard of quality, integrity, and transparency in
-              everything we publish. Our team works continuously to verify information, update resources, and
-              ensure our platform remains reliable and user-focused.</p>
+          <h2>{{ t('AboutUsPage.commitment.title') }}</h2>
+          <p>{{ t('AboutUsPage.commitment.text') }}</p>
 
-          <h2>Community Focus</h2>
-          <p>At DuckovGame, we believe in the power of community. Our platform is designed to connect people,
-              encourage collaboration, and foster a positive environment where everyone can learn and
-              contribute.</p>
+          <h2>{{ t('AboutUsPage.community.title') }}</h2>
+          <p>{{ t('AboutUsPage.community.text') }}</p>
 
-          <h2>Quality Assurance</h2>
-          <p>Accuracy is at the core of what we do. Every piece of content is carefully reviewed and verified
-              by our team to ensure it meets the highest standards before being published on DuckovGame (duckovgame.com).</p>
+          <h2>{{ t('AboutUsPage.quality.title') }}</h2>
+          <p>{{ t('AboutUsPage.quality.text') }}</p>
 
-          <h2>Regular Updates</h2>
-          <p>We update our resources frequently to keep pace with industry changes, community needs, and user
-              feedback. This ensures that our audience always has access to the most relevant and valuable
-              information.</p>
+          <h2>{{ t('AboutUsPage.updates.title') }}</h2>
+          <p>{{ t('AboutUsPage.updates.text') }}</p>
 
-          <h2>Contact Us</h2>
-          <p>Have questions, suggestions, or feedback? We'd love to hear from you! You can reach us at <a
-                  href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a> and we'll get back to you as soon as
-              possible.</p>
+          <h2>{{ t('AboutUsPage.contact.title') }}</h2>
+          <p>{{ t('AboutUsPage.contact.text1') }} <a href="mailto:wyong@duckovgame.com">wyong@duckovgame.com</a> {{ t('AboutUsPage.contact.text2') }}</p>
 
-          <h2>Join Our Community</h2>
-          <p>Stay connected with DuckovGame by following our updates and engaging with the community. Together, we
-              can build a stronger, more informed, and more supportive space for everyone.</p>
+          <h2>{{ t('AboutUsPage.join.title') }}</h2>
+          <p>{{ t('AboutUsPage.join.text') }}</p>
         </div>
       </div>
     </section>
@@ -72,7 +54,9 @@
 </template>
 
 <script setup>
-// About Us page component
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <style scoped>

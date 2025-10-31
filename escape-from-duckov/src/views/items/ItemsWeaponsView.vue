@@ -2,19 +2,19 @@
     <div class="items-category-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Escape from Duckov Weapons</h1>
-                <p class="page-subtitle">Complete Escape from Duckov weapons database featuring melee weapons and firearms. Browse pistols, rifles, shotguns, sniper rifles, SMGs, and melee tools. Find descriptions, stats, and details for all combat weapons in Duckov.</p>
+                <h1 class="page-title">{{ t('ItemsWeaponsPage.title') }}</h1>
+                <p class="page-subtitle">{{ t('ItemsWeaponsPage.subtitle') }}</p>
             </div>
 
-            <h2 class="group-title">Melee Weapons</h2>
+            <h2 class="group-title">{{ t('ItemsWeaponsPage.meleeTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsWeaponsPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsWeaponsPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsWeaponsPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsWeaponsPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -38,15 +38,15 @@
                 </table>
             </div>
 
-            <h2 class="group-title">Ranged Weapons</h2>
+            <h2 class="group-title">{{ t('ItemsWeaponsPage.rangedTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsWeaponsPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsWeaponsPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsWeaponsPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsWeaponsPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -75,10 +75,13 @@
 
 <script setup>
 import { onMounted, computed } from 'vue'
-import { useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
+import { getLocalizedPath } from '../../utils/routeUtils'
 
-const router = useRouter()
+const route = useRoute()
+const { t, locale } = useI18n()
 const { data: itemsData, loadData } = useItemsData('weapons')
 
 // 根据本地数据中的 type 字段分组：包含 “Melee” 视为近战，其余视为远程
@@ -94,11 +97,27 @@ onMounted(() => {
     loadData('weapons')
 })
 
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
 const onRowClick = (item) => {
     if (item && item.showDetail === false) return
     const id = (item.addressBar || '').replace('/', '')
     if (!id) return
-    router.push(`/items/weapons/${id}`)
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    const path = getLocalizedPath(`/items/weapons/${id}`, targetLang)
+    window.location.href = path
 }
 </script>
 

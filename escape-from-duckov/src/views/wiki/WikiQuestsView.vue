@@ -2,17 +2,17 @@
     <div class="quests-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Escape from Duckov Quests</h1>
-                <p class="page-subtitle">Complete Escape from Duckov quest database with all NPC missions, objectives, requirements, and rewards. Track your progress through quest chains from Jeff, Mud, Orange, Xavier, and other NPCs.</p>
+                <h1 class="page-title">{{ t('WikiQuestsPage.title') }}</h1>
+                <p class="page-subtitle">{{ t('WikiQuestsPage.subtitle') }}</p>
             </div>
 
             <div class="table-container">
                 <table class="quests-table">
                     <thead>
                         <tr>
-                            <th class="npc-col">NPC</th>
-                            <th class="quest-name-col">Quest Name</th>
-                            <th class="rewards-col">Rewards</th>
+                            <th class="npc-col">{{ t('WikiQuestsPage.table.npc') }}</th>
+                            <th class="quest-name-col">{{ t('WikiQuestsPage.table.questName') }}</th>
+                            <th class="rewards-col">{{ t('WikiQuestsPage.table.rewards') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -40,21 +40,40 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import { useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { useWikiData } from '../../composables/useWikiData.js'
+import { getLocalizedPath } from '../../utils/routeUtils'
 
-const router = useRouter()
+const route = useRoute()
+const { t, locale } = useI18n()
 const { data: questsData, loadData } = useWikiData('quests')
 
 onMounted(() => {
     loadData()
 })
 
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
 const onRowClick = (quest) => {
     if (quest && quest.showDetail === false) return
     const questId = (quest.addressBar || '').replace('/', '')
     if (!questId) return
-    router.push(`/wiki/quests/${questId}`)
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    const path = getLocalizedPath(`/wiki/quests/${questId}`, targetLang)
+    window.location.href = path
 }
 </script>
 

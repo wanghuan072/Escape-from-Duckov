@@ -2,19 +2,19 @@
     <div class="items-category-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Escape from Duckov Equipment</h1>
-                <p class="page-subtitle">Complete Escape from Duckov equipment database featuring helmets, armor, body protection, backpacks, earphones, and tactical gear. Browse Level 2-5 helmets, SWAT gear, night vision devices, storage containers, and protective equipment. Find descriptions, stats, and details for all defensive and utility gear in Duckov.</p>
+                <h1 class="page-title">{{ t('ItemsEquipmentPage.title') }}</h1>
+                <p class="page-subtitle">{{ t('ItemsEquipmentPage.subtitle') }}</p>
             </div>
 
-            <h2 class="group-title">Headgear</h2>
+            <h2 class="group-title">{{ t('ItemsEquipmentPage.headgearTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsEquipmentPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsEquipmentPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsEquipmentPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsEquipmentPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -39,15 +39,15 @@
                 </table>
             </div>
 
-            <h2 class="group-title">Other Equipment</h2>
+            <h2 class="group-title">{{ t('ItemsEquipmentPage.otherTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsEquipmentPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsEquipmentPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsEquipmentPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsEquipmentPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -72,15 +72,15 @@
                 </table>
             </div>
 
-            <h2 class="group-title">Body</h2>
+            <h2 class="group-title">{{ t('ItemsEquipmentPage.bodyTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsEquipmentPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsEquipmentPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsEquipmentPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsEquipmentPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -111,10 +111,10 @@
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsEquipmentPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsEquipmentPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsEquipmentPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsEquipmentPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -145,10 +145,10 @@
                 <table class="items-table">
                     <thead>
                         <tr>
-                            <th class="image-col">Image</th>
-                            <th class="name-col">Name</th>
-                            <th class="desc-col">Description</th>
-                            <th class="type-col">Type</th>
+                            <th class="image-col">{{ t('ItemsEquipmentPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsEquipmentPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsEquipmentPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsEquipmentPage.table.type') }}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -178,10 +178,13 @@
 
 <script setup>
 import { onMounted, computed } from 'vue'
-import { useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
+import { getLocalizedPath } from '../../utils/routeUtils'
 
-const router = useRouter()
+const route = useRoute()
+const { t, locale } = useI18n()
 const { data: itemsData, loadData } = useItemsData('equipment')
 
 // 显式分组：Headgear、Body、Other Equipment
@@ -201,11 +204,27 @@ onMounted(() => {
     loadData('equipment')
 })
 
+// 从路径检测语言
+const detectLanguageFromPath = (path) => {
+    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
+            return lang
+        }
+    }
+    return 'en'
+}
+
 const onRowClick = (item) => {
     if (item && item.showDetail === false) return
     const id = (item.addressBar || '').replace('/', '')
     if (!id) return
-    router.push(`/items/equipment/${id}`)
+    // 优先从当前路由路径检测语言，确保与 URL 一致
+    const pathLang = detectLanguageFromPath(route.path)
+    const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+    const path = getLocalizedPath(`/items/equipment/${id}`, targetLang)
+    window.location.href = path
 }
 </script>
 

@@ -5,8 +5,8 @@
             <div class="container">
                 <div class="page-header-content">
                     <div class="page-header-text">
-                        <h1 class="page-title">Escape from Duckov Mods</h1>
-                        <p class="page-subtitle">Discover and download the best Escape from Duckov mods created by the community. Enhance your gameplay with custom modifications including quality of life improvements, new features, visual enhancements, and gameplay tweaks. Browse mods by category and find the perfect additions to your Duckov experience.</p>
+                        <h1 class="page-title">{{ t('ModsPage.title') }}</h1>
+                        <p class="page-subtitle">{{ t('ModsPage.subtitle') }}</p>
                     </div>
                 </div>
             </div>
@@ -39,12 +39,16 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { mods } from '../data/mods/mods.js'
+import { getLocalizedPath } from '../utils/routeUtils'
 
 const router = useRouter()
+const { t, locale } = useI18n()
 
 const goToMod = (addressBar) => {
-    router.push(`/mods${addressBar}`)
+    const path = getLocalizedPath(`/mods${addressBar}`, locale.value)
+    window.location.href = path
 }
 </script>
 

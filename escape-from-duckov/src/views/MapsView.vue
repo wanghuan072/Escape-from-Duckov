@@ -5,8 +5,8 @@
             <div class="container">
                 <div class="page-header-content">
                     <div class="page-header-text">
-                        <h1 class="page-title">Escape from Duckov Maps</h1>
-                        <p class="page-subtitle">Interactive Escape from Duckov maps for all zones including Ground Zero, Farm, Warehouse, J-Lab, and Storm Area. Find loot locations, extraction points, enemy spawns, and navigation routes. Master every map with detailed layouts and strategic guides.</p>
+                        <h1 class="page-title">{{ t('MapsPage.title') }}</h1>
+                        <p class="page-subtitle">{{ t('MapsPage.subtitle') }}</p>
                     </div>
                 </div>
             </div>
@@ -19,8 +19,8 @@
                     <!-- Bunker Map -->
                     <div class="map-item">
                         <div class="map-header">
-                            <h2 class="map-title">Bunker</h2>
-                            <p class="map-description">Your safe haven and base of operations. Manage your inventory, upgrade equipment, and plan your next expedition.</p>
+                            <h2 class="map-title">{{ t('MapsPage.bunker.title') }}</h2>
+                            <p class="map-description">{{ t('MapsPage.bunker.desc') }}</p>
                         </div>
                         <div class="map-iframe-container">
                             <iframe src="https://mapgenie.io/escape-from-duckov/maps/bunker?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
@@ -30,8 +30,8 @@
                     <!-- Ground Zero Map -->
                     <div class="map-item">
                         <div class="map-header">
-                            <h2 class="map-title">Ground Zero</h2>
-                            <p class="map-description">The starting area for new survivors. Contains basic loot, early quest objectives, and relatively safe exploration opportunities.</p>
+                            <h2 class="map-title">{{ t('MapsPage.groundZero.title') }}</h2>
+                            <p class="map-description">{{ t('MapsPage.groundZero.desc') }}</p>
                         </div>
                         <div class="map-iframe-container">
                             <iframe src="https://mapgenie.io/escape-from-duckov/maps/ground-zero?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
@@ -41,8 +41,8 @@
                     <!-- Farm Map -->
                     <div class="map-item">
                         <div class="map-header">
-                            <h2 class="map-title">Farm</h2>
-                            <p class="map-description">Agricultural area with valuable resources and moderate danger. Perfect for mid-game progression and resource gathering.</p>
+                            <h2 class="map-title">{{ t('MapsPage.farm.title') }}</h2>
+                            <p class="map-description">{{ t('MapsPage.farm.desc') }}</p>
                         </div>
                         <div class="map-iframe-container">
                             <iframe src="https://mapgenie.io/escape-from-duckov/maps/farm?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
@@ -52,8 +52,8 @@
                     <!-- Warehouse Map -->
                     <div class="map-item">
                         <div class="map-header">
-                            <h2 class="map-title">Warehouse</h2>
-                            <p class="map-description">Industrial storage facility with high-value loot and increased enemy presence. Requires careful planning and adequate equipment.</p>
+                            <h2 class="map-title">{{ t('MapsPage.warehouse.title') }}</h2>
+                            <p class="map-description">{{ t('MapsPage.warehouse.desc') }}</p>
                         </div>
                         <div class="map-iframe-container">
                             <iframe src="https://mapgenie.io/escape-from-duckov/maps/warehouse?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
@@ -63,8 +63,8 @@
                     <!-- J-Lab Map -->
                     <div class="map-item">
                         <div class="map-header">
-                            <h2 class="map-title">J-Lab</h2>
-                            <p class="map-description">High-tech research facility with advanced equipment and dangerous experiments. Only for experienced survivors with top-tier gear.</p>
+                            <h2 class="map-title">{{ t('MapsPage.jLab.title') }}</h2>
+                            <p class="map-description">{{ t('MapsPage.jLab.desc') }}</p>
                         </div>
                         <div class="map-iframe-container">
                             <iframe src="https://mapgenie.io/escape-from-duckov/maps/j-lab?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
@@ -74,8 +74,8 @@
                     <!-- Storm Area Map -->
                     <div class="map-item">
                         <div class="map-header">
-                            <h2 class="map-title">Storm Area</h2>
-                            <p class="map-description">The most dangerous zone in Duckov. Extreme weather conditions, elite enemies, and legendary loot await the bravest survivors.</p>
+                            <h2 class="map-title">{{ t('MapsPage.stormArea.title') }}</h2>
+                            <p class="map-description">{{ t('MapsPage.stormArea.desc') }}</p>
                         </div>
                         <div class="map-iframe-container">
                             <iframe src="https://mapgenie.io/escape-from-duckov/maps/storm-area?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
@@ -88,7 +88,9 @@
 </template>
 
 <script setup>
-// Maps page placeholder
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <style scoped>
