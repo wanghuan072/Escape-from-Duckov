@@ -5,7 +5,7 @@
       <div class="container">
         <div class="page-header-content">
           <div class="page-header-text">
-            <h1 class="page-title">Contact Us</h1>
+            <h1 class="page-title">Escape from Duckov - Contact Us</h1>
             <p class="page-subtitle">Get in touch with our team</p>
           </div>
         </div>

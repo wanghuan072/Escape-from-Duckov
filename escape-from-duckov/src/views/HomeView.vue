@@ -6,11 +6,8 @@
                 <div class="hero-content">
                     <div class="hero-text">
                         <h1 class="hero-title">
-                            <template v-for="(char, index) in titleChars">
-                                <span v-if="char !== '\n'" :key="`span-${index}`"
-                                    :style="{ animationDelay: `${index * 0.05}s` }">{{ char }}</span>
-                                <br v-else :key="`br-${index}`" />
-                            </template>
+                            EscapefromDuckov FansCommunity
+                          
                         </h1>
                         <p class="hero-subtitle">Escape from Duckov is a PVE indie survival RPG — in a duck's world!.
                             Scavenge for resources,
@@ -80,7 +77,7 @@
                                 through Duckov's twisted reality will test your wits, reflexes, and ability to adapt.
                                 Every
                                 decision matters, every resource counts, and every enemy encounter could be your last
-                                waddle.
+                                waddle. Check out our <a href="/guides">comprehensive guides</a> to master the survival mechanics.
                             </p>
                         </div>
                     </div>
@@ -95,7 +92,7 @@
                             <p>Navigate through five distinct zones, each with its own personality and perils. From the
                                 radioactive Ground Zero to the industrial maze of Warehouse District, every location
                                 tells a
-                                story of what went wrong in Duckov's world.</p>
+                                story of what went wrong in Duckov's world. Explore detailed <a href="/maps">interactive maps</a> to plan your routes.</p>
                             <p>The extraction timer isn't just a countdown—it's your lifeline. Push your luck for better
                                 rewards
                                 or play it safe with basic supplies. In Duckov, fortune favors the bold, but survival
@@ -115,7 +112,7 @@
                                 high-tech
                                 firearms. The weapon modification system lets you customize every aspect of your
                                 gear—because
-                                when you're fighting for survival, every advantage counts.</p>
+                                when you're fighting for survival, every advantage counts. Browse our complete <a href="/items/weapons">weapons database</a> and <a href="/items/equipment">equipment catalog</a> to find the perfect loadout.</p>
                             <p>Face off against cunning AI enemies that adapt to your tactics. These aren't mindless
                                 drones—they're intelligent adversaries that will flank, ambush, and outmaneuver you if
                                 you're
@@ -134,7 +131,7 @@
                                 systems.
                                 Every upgrade matters, every blueprint unlocks new possibilities, and every successful
                                 raid
-                                brings you closer to becoming the ultimate survivor.</p>
+                                brings you closer to becoming the ultimate survivor. Learn advanced strategies in our <a href="/guides">guide collection</a>.</p>
                             <p>Develop your skills across multiple trees—whether you prefer the precision of ranged
                                 combat, the
                                 brutality of melee encounters, or the strategic depth of character attributes. In
@@ -215,7 +212,7 @@
                         <h3>Getting Started in Duckov</h3>
                         <p>Learn the basics: how to bust out of prison, complete your first missions, and start building
                             your
-                            hideout from the ground up.</p>
+                            hideout from the ground up. Check our <a href="/guides">beginner guides</a> and <a href="/wiki/quests">quest database</a> for detailed walkthroughs.</p>
                     </div>
                     <div class="guide-card card">
                         <div class="guide-header">
@@ -224,7 +221,7 @@
                         <h3>Surviving the Storm</h3>
                         <p>A comprehensive guide on preparing for and surviving the periodic Storm events that threaten
                             to end
-                            your run.</p>
+                            your run. Explore our <a href="/guides">advanced guides</a> including Storm Zone access strategies.</p>
                     </div>
                     <div class="guide-card card">
                         <div class="guide-header">
@@ -233,7 +230,7 @@
                         <h3>Hideout Optimization</h3>
                         <p>Maximize your hideout efficiency, prioritize station upgrades, and understand which NPCs to
                             recruit
-                            for the best gear.</p>
+                            for the best gear. Browse our <a href="/items">items database</a> to optimize your equipment loadout.</p>
                     </div>
                 </div>
                 <div class="text-center">
@@ -504,7 +501,7 @@
                             is a
                             complete single-player experience with its own story, progression systems, and unique
                             mechanics like
-                            the periodic Storm events.</p>
+                            the periodic Storm events. Explore our <a href="/guides">comprehensive guides</a> to learn about unique game mechanics.</p>
                     </div>
                     <div class="faq-item card">
                         <h3>What happens when I die?</h3>
@@ -523,7 +520,7 @@
                         <h3>How long is the game?</h3>
                         <p>The main campaign offers 50+ hours of content, with extensive replayability through dynamic
                             loot,
-                            multiple difficulty settings, and the continuous challenge of surviving the Storm events.
+                            multiple difficulty settings, and the continuous challenge of surviving the Storm events. Check out our <a href="/maps">maps</a>, <a href="/wiki/quests">quests</a>, and <a href="/items">items</a> databases to discover everything Duckov has to offer.
                         </p>
                     </div>
                 </div>
@@ -534,11 +531,6 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-
-const titleChars = ref([
-    'E', 's', 'c', 'a', 'p', 'e', ' ', 'f', 'r', 'o', 'm', ' ', 'D', 'u', 'c', 'k', 'o', 'v', '\n',
-    'F', 'a', 'n', 's', ' ', 'C', 'o', 'm', 'm', 'u', 'n', 'i', 't', 'y'
-])
 
 const isVideoPlaying = ref(false)
 
@@ -579,18 +571,9 @@ section {
     line-height: 1.1;
     color: var(--secondary-color);
     text-align: left;
+    letter-spacing: 8px;
 }
 
-.hero-title span {
-    display: inline-block;
-    opacity: 0;
-    animation: letterReveal 0.6s forwards;
-    background: linear-gradient(135deg, #ffffff 0%, #FA9317 50%, var(--secondary-color) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    padding: 0 3px;
-}
 
 .hero-subtitle {
     font-size: 1.125rem;
@@ -791,6 +774,19 @@ section {
     color: var(--text-secondary);
     line-height: 1.6;
     margin-bottom: 16px;
+}
+
+.what-is-description a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.what-is-description a:hover {
+    color: #e67e22;
+    border-bottom-color: #e67e22;
 }
 
 .what-is-image {
@@ -1200,6 +1196,19 @@ section {
     line-height: 1.6;
 }
 
+.guide-card a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.guide-card a:hover {
+    color: #e67e22;
+    border-bottom-color: #e67e22;
+}
+
 .faq-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1220,6 +1229,19 @@ section {
 .faq-item p {
     color: var(--text-secondary);
     line-height: 1.6;
+}
+
+.faq-item a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.faq-item a:hover {
+    color: #e67e22;
+    border-bottom-color: #e67e22;
 }
 
 .faq-item:hover {
@@ -1300,55 +1322,6 @@ section {
 .stars {
     color: #ffd700;
     font-size: 0.9rem;
-}
-
-/* Animations */
-@keyframes letterReveal {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideInRight {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 .guides-grid {
@@ -1450,6 +1423,7 @@ section {
     .hero-title {
         font-size: 24px;
         margin-bottom: 10px;
+        letter-spacing: 4px;
     }
 
     .hero-title span {

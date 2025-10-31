@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="page-header-content">
                     <div class="page-header-text">
-                        <h1 class="page-title">Duckov Zones & Maps</h1>
+                        <h1 class="page-title">Escape from Duckov Maps</h1>
                         <p class="page-subtitle">Interactive Escape from Duckov maps for all zones including Ground Zero, Farm, Warehouse, J-Lab, and Storm Area. Find loot locations, extraction points, enemy spawns, and navigation routes. Master every map with detailed layouts and strategic guides.</p>
                     </div>
                 </div>

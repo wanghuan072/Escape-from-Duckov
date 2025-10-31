@@ -6,6 +6,15 @@ const ITEMS_DATA_CONFIG = {
     },
     equipment: {
         routePath: '/items/equipment'
+    },
+    ammunition: {
+        routePath: '/items/ammunition'
+    },
+    key: {
+        routePath: '/items/key'
+    },
+    fish: {
+        routePath: '/items/fish'
     }
 }
 
@@ -15,6 +24,12 @@ const loadDataModule = async (category) => {
             return await import('../data/items/weapons/weapons.js')
         case 'equipment':
             return await import('../data/items/equipment/equipment.js')
+        case 'ammunition':
+            return await import('../data/items/ammunition/ammunition.js')
+        case 'key':
+            return await import('../data/items/key/key.js')
+        case 'fish':
+            return await import('../data/items/fish/fish.js')
         default:
             throw new Error(`Unknown items category: ${category}`)
     }

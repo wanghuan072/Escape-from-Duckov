@@ -113,11 +113,11 @@ onMounted(() => {
     guide.value = guides.find(g => g.addressBar === `/${guideId}`)
 })
 
-// 计算其他guides（排除当前guide，只显示最后10个）
+// 计算其他guides（排除当前guide，只显示最后5个）
 const otherGuides = computed(() => {
     if (!guide.value) return []
     const filtered = allGuides.value.filter(g => g.id !== guide.value.id)
-    return filtered.slice(-10)
+    return filtered.slice(-5)
 })
 
 const formatDate = (dateString) => {

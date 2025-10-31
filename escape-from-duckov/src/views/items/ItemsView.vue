@@ -2,8 +2,8 @@
     <div class="items-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Escape From Duckov - Items</h1>
-                <p class="page-subtitle">Comprehensive Escape from Duckov database of weapons and equipment. Browse firearms, melee weapons, armor, helmets, and protective gear. Find stats, descriptions, and details for every item in Duckov's arsenal.</p>
+                <h1 class="page-title">Escape from Duckov Items</h1>
+                <p class="page-subtitle">Comprehensive Escape from Duckov database of weapons, equipment, ammunition, keys, and fish. Browse firearms, melee weapons, armor, helmets, ammunition, keys, fish, and protective gear. Find stats, descriptions, and details for every item in Duckov's arsenal.</p>
             </div>
 
             <div class="category-grid">
@@ -54,6 +54,78 @@
                         <span class="arrow">›</span>
                     </div>
                 </a>
+
+                <!-- Ammunition Card -->
+                <a href="/items/ammunition" class="category-card card">
+                    <div class="card-top">
+                        <div class="card-title-wrap">
+                            <h3 class="card-title">Ammunition</h3>
+                            <span class="item-count">{{ ammunitionCount }} items</span>
+                        </div>
+                        <p class="card-desc">Pistol rounds, rifle cartridges, shotgun shells, and all types of ammunition for your weapons.</p>
+                        <div class="featured-gear">
+                            <div class="featured-label">Featured Gear</div>
+                            <div class="featured-list">{{ ammunitionFeatured || '—' }}</div>
+                        </div>
+                        <div class="tag-list">
+                            <span class="tag">Ammo</span>
+                            <span class="tag">Caliber</span>
+                            <span class="tag">Compatibility</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <span class="explore">Explore category</span>
+                        <span class="arrow">›</span>
+                    </div>
+                </a>
+
+                <!-- Keys Card -->
+                <a href="/items/key" class="category-card card">
+                    <div class="card-top">
+                        <div class="card-title-wrap">
+                            <h3 class="card-title">Keys</h3>
+                            <span class="item-count">{{ keysCount }} items</span>
+                        </div>
+                        <p class="card-desc">Access cards, keycards, and security keys to unlock doors, containers, and restricted areas.</p>
+                        <div class="featured-gear">
+                            <div class="featured-label">Featured Gear</div>
+                            <div class="featured-list">{{ keysFeatured || '—' }}</div>
+                        </div>
+                        <div class="tag-list">
+                            <span class="tag">Access</span>
+                            <span class="tag">Keys</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <span class="explore">Explore category</span>
+                        <span class="arrow">›</span>
+                    </div>
+                </a>
+
+                <!-- Fish Card -->
+                <a href="/items/fish" class="category-card card">
+                    <div class="card-top">
+                        <div class="card-title-wrap">
+                            <h3 class="card-title">Fish</h3>
+                            <span class="item-count">{{ fishCount }} items</span>
+                        </div>
+                        <p class="card-desc">All fish species, fishing spots, baits, and fishing mechanics with habits and location information.</p>
+                        <div class="featured-gear">
+                            <div class="featured-label">Featured Gear</div>
+                            <div class="featured-list">{{ fishFeatured || '—' }}</div>
+                        </div>
+                        <div class="tag-list">
+                            <span class="tag">Fishing</span>
+                            <span class="tag">Fish</span>
+                            <span class="tag">Baits</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <span class="explore">Explore category</span>
+                        <span class="arrow">›</span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -66,19 +138,31 @@ import { useItemsData } from '../../composables/useItemsData.js'
 
 const { data: weapons, loadData: loadWeapons } = useItemsData('weapons')
 const { data: equipment, loadData: loadEquipment } = useItemsData('equipment')
+const { data: ammunition, loadData: loadAmmunition } = useItemsData('ammunition')
+const { data: keys, loadData: loadKeys } = useItemsData('key')
+const { data: fish, loadData: loadFish } = useItemsData('fish')
 
 onMounted(async () => {
     await Promise.all([
         loadWeapons('weapons'),
-        loadEquipment('equipment')
+        loadEquipment('equipment'),
+        loadAmmunition('ammunition'),
+        loadKeys('key'),
+        loadFish('fish')
     ])
 })
 
 const toFeatured = (list) => (list || []).slice(0, 3).map(i => i.title).join(', ')
 const weaponsCount = computed(() => (weapons?.value || []).length)
 const equipmentCount = computed(() => (equipment?.value || []).length)
+const ammunitionCount = computed(() => (ammunition?.value || []).length)
+const keysCount = computed(() => (keys?.value || []).length)
+const fishCount = computed(() => (fish?.value || []).length)
 const weaponsFeatured = computed(() => toFeatured(weapons?.value))
 const equipmentFeatured = computed(() => toFeatured(equipment?.value))
+const ammunitionFeatured = computed(() => toFeatured(ammunition?.value))
+const keysFeatured = computed(() => toFeatured(keys?.value))
+const fishFeatured = computed(() => toFeatured(fish?.value))
 </script>
 
 <style scoped>
@@ -212,6 +296,12 @@ const equipmentFeatured = computed(() => toFeatured(equipment?.value))
     line-height: 1;
 }
 
+@media (max-width: 1024px) {
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
     .page-title {
         font-size: 24px;
@@ -220,6 +310,10 @@ const equipmentFeatured = computed(() => toFeatured(equipment?.value))
 
     .page-subtitle {
         font-size: 12px;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
     }
 }
 </style>

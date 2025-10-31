@@ -5,7 +5,7 @@
       <div class="container">
         <div class="page-header-content">
           <div class="page-header-text">
-            <h1 class="page-title">About Us</h1>
+            <h1 class="page-title">Escape from Duckov - About Us</h1>
             <p class="page-subtitle">Learn more about DuckovGame and our mission</p>
           </div>
         </div>

@@ -15,14 +15,13 @@ export const guides = [
       keywords: 'Escape from Duckov, Beginner Guide, Survival Guide, Base Setup, First Raid, NPC Guide, Combat Basics, Ground Zero',
     },
     detailsHtml: `
-        <p>Welcome to the dangerous world of Duckov! This comprehensive beginner's guide will walk you through your first steps in this survival RPG, from setting up your base to completing your initial expeditions.</p>
+        <p>Welcome to the dangerous world of <a href="/">Escape from Duckov</a>! This comprehensive beginner's guide will walk you through your first steps in this survival RPG, from setting up your base to completing your initial expeditions.</p>
         
         <h2>1. Base Configuration and Early Missions</h2>
         
         <h3>Difficulty Settings</h3>
         <p><strong>Adjusting Difficulty:</strong> Press the F key near the table in your hideout to modify game difficulty at any time.</p>
         <p><strong>Survival Mode:</strong> Recommended for experienced players seeking maximum challenge and realistic survival mechanics.</p>
-        
         
         <h3>Inventory Management</h3>
         <p><strong>Storage System:</strong> Use your stash to safely store items you don't want to risk losing during raids.</p>
@@ -32,7 +31,7 @@ export const guides = [
         <img src="/images/guide/guide01-01.webp" alt="Difficulty Settings" class="guide-image" />
 
         <h3>Starting Missions</h3>
-        <p>Visit Jeff to accept your first quests:</p>
+        <p>Visit Jeff to accept your first quests. For a complete list of available quests, check our <a href="/wiki/quests">quest database</a>:</p>
         <ul>
             <li><strong>Crafting Station:</strong> Gather 2 pieces of Wood to build your first workbench</li>
             <li><strong>Initial Capital:</strong> Eliminate any hostile enemy and successfully escape from the "Ground Zero" area</li>
@@ -41,19 +40,19 @@ export const guides = [
         <h2>2. Your First Raid: Ground Zero</h2>
         
         <h3>Equipment and Combat</h3>
-        <p><strong>Recommended Loadout:</strong> Bring a Glick pistol for its excellent ammunition capacity. Set hotkeys for medical supplies like bandages and aspirin (suggested key: 5).</p>
+        <p><strong>Recommended Loadout:</strong> Bring a <a href="/items/weapons">Glick pistol</a> for its excellent ammunition capacity. Set hotkeys for medical supplies like bandages and aspirin (suggested key: 5). Browse our <a href="/items">complete items database</a> to find the best weapons and equipment.</p>
         <p><strong>Enemy Awareness:</strong> Beware of Rampaging Scavengers - these melee fighters deal massive damage. Watch for red warning lights before their attacks and dodge using the spacebar.</p>
         
         <h3>Priority Loot</h3>
         <ul>
             <li><strong>Currency:</strong> Cash is essential for trading with specialized merchants</li>
-            <li><strong>Access Keys:</strong> Dorm Key and Cellar Key are extremely valuable</li>
+            <li><strong>Access Keys:</strong> Dorm Key and Cellar Key are extremely valuable. Check our <a href="/items/key">keys database</a> for all available keys and their locations</li>
             <li><strong>Electronics:</strong> Circuit Boards are required for early quest equipment</li>
             <li><strong>Medical Supplies:</strong> Herat stops bleeding and is crucial for survival</li>
         </ul>
         
         <h3>Extraction Strategy</h3>
-        <p>Ground Zero doesn't require reaching specific extraction points. Simply return to your base entrance to safely exit. Remember: don't be greedy - frequent short raids are safer than long, risky expeditions.</p>
+        <p>Ground Zero doesn't require reaching specific extraction points. Simply return to your base entrance to safely exit. For detailed <a href="/maps">map information</a> including extraction points and loot locations, visit our maps section. Remember: don't be greedy - frequent short raids are safer than long, risky expeditions.</p>
         
         <h2>3. Base Development and Character Progression</h2>
         
@@ -76,7 +75,7 @@ export const guides = [
         <p><strong>Training Benefits:</strong> Permanent attribute increases through physical conditioning</p>
         
         <h3>Mysterious Merchant</h3>
-        <p><strong>Location:</strong> Found on the elevated area within Ground Zero</p>
+        <p><strong>Location:</strong> Found on the elevated area within Ground Zero. For more information about NPCs and merchant locations, check our <a href="/wiki">wiki section</a>.</p>
         <p><strong>Services:</strong> Exchange cash for quest items including honey, writing implements, and medical supplies</p>
         <p><strong>Safety Tip:</strong> Store cash in your Pet Slot during raids to prevent loss upon death</p>
         
@@ -93,7 +92,7 @@ export const guides = [
         <p><strong>Cave Exploration:</strong> Repair bridges (requires metal and wood) to access cave systems containing data boxes and rare equipment like the Cube Gun</p>
         
         <h3>Equipment and Crafting</h3>
-        <p><strong>Armor Shop:</strong> Purchase superior protection including SWAT Helmets, dramatically improving early-game survivability</p>
+        <p><strong>Armor Shop:</strong> Purchase superior protection including <a href="/items/equipment">SWAT Helmets</a>, dramatically improving early-game survivability. Browse all available <a href="/items/equipment">protective equipment</a> to find the best gear for your playstyle.</p>
         <p><strong>Tech Center:</strong> Requires Power Cord and Nuts to unlock new NPCs and advanced questlines</p>
         <p><strong>Blueprint Management:</strong> Immediately register discovered blueprints to free storage space and avoid duplicate collection</p>
         <p><strong>Repair Station:</strong> Unlocked through Advanced Processing workbench upgrades, allowing weapon restoration from scavenger drops</p>
@@ -114,7 +113,7 @@ export const guides = [
         <img src="/images/guide/guide01-05.webp" alt="Advanced Combat" class="guide-image" />
 
         <h2>Final Recommendations</h2>
-        <p>Maximize your base facilities, prioritize armor shop construction, invest in Backpack Expert perks, and establish the teleportation shortcut early. These strategies will significantly improve your survival chances in Duckov's harsh environment. Good luck with your escape!</p>
+        <p>Maximize your base facilities, prioritize armor shop construction, invest in Backpack Expert perks, and establish the teleportation shortcut early. For more advanced strategies, explore our complete <a href="/guides">guides collection</a>. These strategies will significantly improve your survival chances in Duckov's harsh environment. Good luck with your escape!</p>
         `
   },
   {
@@ -134,7 +133,7 @@ export const guides = [
       keywords: 'Escape from Duckov, Tutorial Walkthrough, Early Game Guide, Ground Zero, Quest Guide, Base Building, Prison Escape',
     },
     detailsHtml: `
-        <p>This comprehensive walkthrough will guide you through your first hours in Escape from Duckov, from escaping the prison to establishing your base and completing your initial Ground Zero expeditions. Perfect for players who want a structured approach to the early game.</p>
+        <p>This comprehensive walkthrough will guide you through your first hours in <a href="/">Escape from Duckov</a>, from escaping the prison to establishing your base and completing your initial Ground Zero expeditions. Perfect for players who want a structured approach to the early game.</p>
         
         <h2>1. Tutorial: Prison Escape</h2>
         
@@ -145,7 +144,7 @@ export const guides = [
         <p>After the introductory cutscene, approach the mirror to customize your character appearance. Once satisfied, proceed through the door to begin your first test - escaping the prison.</p>
         <h3>Initial Equipment and Movement</h3>
 
-        <p><strong>Starting Gear:</strong> Follow the floor markings to locate your first equipment crate containing a TT-33 pistol, 30 rounds of ammunition, bandages, and crackers.</p>
+        <p><strong>Starting Gear:</strong> Follow the floor markings to locate your first equipment crate containing a TT-33 pistol, 30 rounds of <a href="/items/ammunition">ammunition</a>, bandages, and crackers. Browse our <a href="/items/weapons">weapons database</a> to learn more about available firearms.</p>
         <p><strong>Stamina Management:</strong> Running and rolling consume stamina, indicated by the gauge next to your character. Monitor this carefully during combat.</p>
         <p><strong>Room Exploration:</strong> Search the adjacent room for a Carrot in the crate, and check trash bins for a lighter, lollipop, and electronic components.</p>
         
@@ -158,7 +157,7 @@ export const guides = [
 
         <h3>Advanced Equipment Discovery</h3>
         <p><strong>Secondary Weapon:</strong> Locate a PM pistol in the next room and assign it to slot 2 for weapon switching.</p>
-        <p><strong>Glick Acquisition:</strong> Defeat another guard to obtain a Glick pistol and additional lab coat and sunglasses.</p>
+        <p><strong>Glick Acquisition:</strong> Defeat another guard to obtain a <a href="/items/weapons">Glick pistol</a> and additional lab coat and sunglasses.</p>
         <p><strong>Resource Management:</strong> Monitor your inventory space carefully - prioritize essential items and consume food items like carrots and crackers to maintain energy levels.</p>
         
         <h2>2. Base Establishment and Jeff's Introduction</h2>
@@ -183,7 +182,7 @@ export const guides = [
         <h2>3. First Quest Assignment</h2>
         
         <h3>Basic Construction Quest</h3>
-        <p><strong>Location:</strong> Ground Zero</p>
+        <p><strong>Location:</strong> Ground Zero. For detailed <a href="/maps">map locations</a> and extraction points, visit our maps section.</p>
         <p><strong>Objective:</strong> Collect two pieces of wood to build a workbench</p>
         <p><strong>Rewards:</strong> 1000 XP, 500 Currency, 3 Bandages</p>
         
@@ -206,13 +205,13 @@ export const guides = [
         <h3>Equipment and Resource Collection</h3>
         <p><strong>Essential Items:</strong> Collect Fading Feathers, Cold Core Fragments (needed for enhancements), and various weapon attachments.</p>
         <p><strong>Storage Upgrades:</strong> Find and equip backpacks to increase carrying capacity to 39 slots.</p>
-        <p><strong>Weapon Variety:</strong> Acquire AK-74U rifles, homemade shotguns, and various ammunition types.</p>
+        <p><strong>Weapon Variety:</strong> Acquire AK-74U rifles, homemade shotguns, and various ammunition types. Check our <a href="/items">items database</a> for complete weapon and equipment information.</p>
         
         <h2>5. Advanced Exploration and Quest Completion</h2>
         
         <h3>Map Expansion</h3>
         <p><strong>Teleportation Nodes:</strong> Discover and use teleportation points to access hidden areas and containers.</p>
-        <p><strong>Digging Mechanics:</strong> Use shovels to uncover buried items like J-Lab Floppy discs and Storage Fence Keys.</p>
+        <p><strong>Digging Mechanics:</strong> Use shovels to uncover buried items like J-Lab Floppy discs and Storage Fence Keys. Browse our <a href="/items/key">keys database</a> to find information about all available keys.</p>
         <p><strong>Bridge Repair:</strong> Note that cave access requires 2 metal plates and 2 wood - plan accordingly for future expeditions.</p>
         
         <h3>Quest Completion and New Assignments</h3>
@@ -241,7 +240,7 @@ export const guides = [
         <p><strong>Day/Night Cycle:</strong> Sleep until 7 AM to avoid dangerous nighttime conditions. Night raids are significantly more challenging and should be avoided until better equipped.</p>
         
         <h2>Conclusion</h2>
-        <p>This walkthrough covers the essential first steps in Escape from Duckov. You've successfully escaped the prison, established your base, completed your first Ground Zero expedition, and unlocked multiple quest lines. Focus on completing the available quests, upgrading your equipment, and preparing for more challenging expeditions ahead.</p>
+        <p>This walkthrough covers the essential first steps in Escape from Duckov. You've successfully escaped the prison, established your base, completed your first Ground Zero expedition, and unlocked multiple quest lines. Check our <a href="/wiki/quests">complete quest database</a> for all available missions. Focus on completing the available quests, upgrading your equipment, and preparing for more challenging expeditions ahead. Explore more <a href="/guides">advanced guides</a> for deeper strategies.</p>
         `
   },
   {
@@ -260,7 +259,7 @@ export const guides = [
       keywords: 'Escape from Duckov, Advanced Walkthrough, Ground Zero Exploration, Base Expansion, Quest Chains, Equipment Upgrades, Mid Game Guide',
     },
     detailsHtml: `
-        <p>This advanced walkthrough covers the mid-game progression in Escape from Duckov, focusing on complex Ground Zero expeditions, base facility expansion, and completing intricate quest chains. Perfect for players ready to tackle more challenging content.</p>
+        <p>This advanced walkthrough covers the mid-game progression in <a href="/">Escape from Duckov</a>, focusing on complex Ground Zero expeditions, base facility expansion, and completing intricate quest chains. Perfect for players ready to tackle more challenging content.</p>
         
         <h2>1. Advanced Ground Zero Exploration</h2>
         <img src="/images/guide/guide03-01.webp" alt="Advanced Ground Zero Exploration" class="guide-image" />
@@ -274,7 +273,7 @@ export const guides = [
 
         <h3>Road Camp Approach</h3>
         <p><strong>New Enemy Type:</strong> Encounter advanced shotgun-wielding enemies near Road Camp. These foes require careful positioning and adequate ammunition.</p>
-        <p><strong>Equipment Acquisition:</strong> Defeat enemies to obtain MP-155 shotguns, Motorcycle helmets, and medical supplies.</p>
+        <p><strong>Equipment Acquisition:</strong> Defeat enemies to obtain MP-155 shotguns, <a href="/items/equipment">Motorcycle helmets</a>, and medical supplies. Browse our <a href="/items/equipment">equipment database</a> for all available protective gear.</p>
         <p><strong>Bridge Repair:</strong> Use 2 pieces of wood to repair the broken bridge leading to Road Camp. Check hiding spots under electric poles for additional loot.</p>
         
         <h2>2. NPC Interactions and New Quests</h2>
@@ -298,8 +297,8 @@ export const guides = [
         <p><strong>Bridge Repair:</strong> Repair the bridge near the cave entrance using collected materials to access hidden areas.</p>
         <p><strong>High-Value Loot:</strong> The cave contains premium equipment including:</p>
         <ul>
-            <li><strong>Weapons:</strong> Pistol Muzzle, UP 45, AK-47, Hip-fire attachment</li>
-            <li><strong>Ammunition:</strong> Various ammo types and Laser attachment</li>
+            <li><strong>Weapons:</strong> Pistol Muzzle, UP 45, AK-47, Hip-fire attachment. Check our <a href="/items/weapons">weapons database</a> for detailed weapon information</li>
+            <li><strong>Ammunition:</strong> Various ammo types and Laser attachment. Browse <a href="/items/ammunition">all ammunition types</a> for compatibility details</li>
             <li><strong>Blueprints:</strong> Cube Gun and Small Energy Ammo recipes</li>
         </ul>
         
@@ -318,7 +317,7 @@ export const guides = [
         
         <h3>Resource Management</h3>
         <p><strong>Dehydration Warning:</strong> Monitor your hydration levels - dehydration can occur during extended expeditions.</p>
-        <p><strong>Key Collection:</strong> Gather Abandoned Gas Station and Fence keys, plus holographic scope before extraction.</p>
+        <p><strong>Key Collection:</strong> Gather Abandoned Gas Station and Fence keys, plus holographic scope before extraction. Check our <a href="/items/key">keys database</a> for key locations and usage information.</p>
         
         <h2>5. Base Facility Expansion</h2>
         
@@ -342,7 +341,7 @@ export const guides = [
         
         <h3>Armor Shop Construction</h3>
         <p><strong>Immediate Availability:</strong> Armor Shop can be built immediately with available materials.</p>
-        <p><strong>Equipment Purchases:</strong> Acquire Level 2 Body Armor and Steel Helmet for significant protection improvements.</p>
+        <p><strong>Equipment Purchases:</strong> Acquire Level 2 Body Armor and Steel Helmet for significant protection improvements. Browse our <a href="/items/equipment">complete equipment catalog</a> to compare all available armor options.</p>
         <p><strong>Quest Assignments:</strong> Accept Supply Route and Bookkeeping quests from the armor shop.</p>
         
         <h3>Workbench Enhancements</h3>
@@ -367,7 +366,7 @@ export const guides = [
         <p><strong>Inventory Optimization:</strong> Regularly research blueprints and organize storage to maintain efficient inventory management.</p>
         
         <h2>Conclusion</h2>
-        <p>This advanced walkthrough covers the crucial mid-game progression in Escape from Duckov. You've successfully completed complex Ground Zero expeditions, expanded your base facilities, and unlocked advanced crafting capabilities. Focus on completing the new quest chains, upgrading your equipment, and preparing for even more challenging content ahead. The foundation you've built will be essential for surviving Duckov's most dangerous areas.</p>
+        <p>This advanced walkthrough covers the crucial mid-game progression in Escape from Duckov. You've successfully completed complex Ground Zero expeditions, expanded your base facilities, and unlocked advanced crafting capabilities. Check our <a href="/wiki/quests">quest database</a> for all available mission details. Focus on completing the new quest chains, upgrading your equipment, and preparing for even more challenging content ahead. Explore more <a href="/guides">advanced guides</a> including Storm Zone access guides. The foundation you've built will be essential for surviving Duckov's most dangerous areas.</p>
         `
   },
   {
@@ -386,7 +385,7 @@ export const guides = [
       keywords: 'Escape from Duckov, Core Mechanics, Base Management, Combat Systems, Character Progression, Survival Guide, Game Systems',
     },
     detailsHtml: `
-        <p>This comprehensive guide covers all essential game mechanics in Escape from Duckov, from base management and character development to combat systems and exploration strategies. Master these core systems to maximize your survival potential.</p>
+        <p>This comprehensive guide covers all essential game mechanics in <a href="/">Escape from Duckov</a>, from base management and character development to combat systems and exploration strategies. Master these core systems to maximize your survival potential.</p>
         
         <h2>I. Base Management and Crafting Systems</h2>
         
@@ -457,7 +456,7 @@ export const guides = [
         <h3>1. Firearm Mechanics and Damage</h3>
         
         <h4>Ammunition Types</h4>
-        <p><strong>Caliber Variety:</strong> Different firearms use specific ammunition types (S, L, AR rounds). Early weapons like Glick use S rounds, while AK-74U requires AR rounds.</p>
+        <p><strong>Caliber Variety:</strong> Different firearms use specific ammunition types (S, L, AR rounds). Early weapons like Glick use S rounds, while AK-74U requires AR rounds. Browse our <a href="/items/ammunition">ammunition database</a> and <a href="/items/weapons">weapons database</a> for complete compatibility information.</p>
         <p><strong>Rusty Bullets:</strong> Common early ammunition with reduced damage output - requires more shots to eliminate enemies effectively.</p>
         
         <h4>Range and Accuracy</h4>
@@ -478,7 +477,7 @@ export const guides = [
         <h3>3. Equipment and Protection</h3>
         
         <h4>Armor Systems</h4>
-        <p><strong>Damage Reduction:</strong> Armor and helmets provide direct damage mitigation. Advanced equipment like SWAT Helmets significantly improve early-game survivability.</p>
+        <p><strong>Damage Reduction:</strong> Armor and helmets provide direct damage mitigation. Advanced equipment like SWAT Helmets significantly improve early-game survivability. Check our <a href="/items/equipment">equipment database</a> to compare protection levels and stats.</p>
         <p><strong>Durability Management:</strong> All equipment has durability ratings. Damaged items can be repaired at repair workbenches using currency.</p>
         
         <h2>IV. Exploration and Economic Systems</h2>
@@ -529,7 +528,7 @@ export const guides = [
         <p><strong>Strategic Planning:</strong> Plan expeditions with corpse recovery routes in mind, prioritizing safety over speed.</p>
         
         <h2>Conclusion</h2>
-        <p>Mastering these core mechanics is essential for success in Escape from Duckov. Focus on efficient base management, strategic character development, and careful risk assessment. The systems work together to create a challenging but rewarding survival experience where preparation and knowledge are your greatest assets.</p>
+        <p>Mastering these core mechanics is essential for success in Escape from Duckov. Focus on efficient base management, strategic character development, and careful risk assessment. For detailed item information, visit our <a href="/items">complete items database</a>. The systems work together to create a challenging but rewarding survival experience where preparation and knowledge are your greatest assets. Explore more <a href="/guides">strategic guides</a> to enhance your gameplay.</p>
         `
   },
   {
@@ -548,7 +547,7 @@ export const guides = [
       keywords: 'Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy',
     },
     detailsHtml: `
-        <p>This comprehensive guide covers the complete process of accessing Duckov's most dangerous area - the Storm Zone. Learn how to activate power systems, acquire necessary certificates, defeat the Roadblock boss, and prepare for extreme endgame challenges.</p>
+        <p>This comprehensive guide covers the complete process of accessing Duckov's most dangerous area - the Storm Zone. Learn how to activate power systems, acquire necessary certificates, defeat the Roadblock boss, and prepare for extreme endgame challenges. For <a href="/maps">map locations</a> and detailed area information, visit our maps section.</p>
         
         <h2>1. Facility Power Activation</h2>
         
@@ -606,7 +605,7 @@ export const guides = [
         
         <h3>Essential Preparation Items</h3>
         <p><strong>Storm Stim Requirement:</strong> Bring at least five Storm Stims before entering. These specialized consumables are essential for countering Storm Zone hazards.</p>
-        <p><strong>Equipment Standards:</strong> Ensure your loadout includes the best available weapons, armor, and consumables.</p>
+        <p><strong>Equipment Standards:</strong> Ensure your loadout includes the best available <a href="/items/weapons">weapons</a>, <a href="/items/equipment">armor</a>, and consumables. Browse our <a href="/items">items database</a> to find the optimal gear for endgame content.</p>
         <p><strong>Extended Combat Readiness:</strong> Prepare for prolonged engagements with top-tier enemies. Standard equipment may prove insufficient.</p>
         
         <h2>6. Key Terminology and Items</h2>
@@ -639,7 +638,7 @@ export const guides = [
         <p><strong>Team Coordination:</strong> If playing with others, coordinate roles and responsibilities for maximum efficiency.</p>
         
         <h2>Conclusion</h2>
-        <p>The Storm Zone represents the pinnacle of challenge in Escape from Duckov. Success requires meticulous preparation, optimal equipment, and mastery of advanced combat techniques. Follow this guide carefully, prepare thoroughly, and remember that survival in the Storm Zone demands respect for its extreme dangers. Good luck with your ultimate escape from Duckov!</p>
+        <p>The Storm Zone represents the pinnacle of challenge in Escape from Duckov. Success requires meticulous preparation, optimal equipment, and mastery of advanced combat techniques. Check our <a href="/wiki/quests">quest database</a> for mission-related certificate requirements. Follow this guide carefully, prepare thoroughly, and remember that survival in the Storm Zone demands respect for its extreme dangers. For more advanced strategies, explore our <a href="/guides">complete guides collection</a>. Good luck with your ultimate escape from Duckov!</p>
         `
   },
 
@@ -663,8 +662,8 @@ export const guides = [
   <span>escape from duckov ledx</span>
 </h2>
 <p style="margin: 1em 0px;">
-    The LEDX Skin Transilluminator in Escape from Duckov is a highly sought-after and incredibly rare item, coveted for its high market value and critical role in various late-game quests.
-    Acquiring this medical device can significantly boost your wealth and progress. This comprehensive guide provides detailed information on where and how to find the LEDX, its value on the market, and strategic recommendations for its use.
+    The LEDX Skin Transilluminator in <a href="/">Escape from Duckov</a> is a highly sought-after and incredibly rare item, coveted for its high market value and critical role in various late-game quests.
+    Acquiring this medical device can significantly boost your wealth and progress. This comprehensive guide provides detailed information on where and how to find the LEDX, its value on the market, and strategic recommendations for its use. Check our <a href="/wiki/quests">quest database</a> to see which missions require the LEDX.
     </p>
 <img src="/images/guide/guide06-02.webp" alt="LEDX-1">
 
@@ -675,7 +674,7 @@ export const guides = [
   <span>
     The LEDX Skin Transilluminator is categorized as a medical item within Escape from Duckov. Its primary purpose is to enhance the visibility of blood vessels, facilitating easier and more accurate injections.
     Weighing just 0.2kg, it is relatively lightweight, making it a manageable addition to your inventory. Its rarity and value make it a high-priority target for many players, whether for personal use, completing tasks, or capitalizing on its market value.
-    Remember that finding the LEDX in Escape from Duckov requires patience and a strategic approach.
+    Remember that finding the LEDX in Escape from Duckov requires patience and a strategic approach. For more loot guides and strategies, explore our <a href="/guides">complete guides collection</a>.
   </span>
 </p>
 
@@ -687,7 +686,7 @@ export const guides = [
     <span > The most common method involves searching specific loot spawn points across various maps. The Sanatorium, particularly a specific room containing a bed, is a known location for LEDX spawns. However, remember that spawn rates are random.</span>
   </li>
   <li><strong >Room Keys:</strong>
-    <span > Accessing certain rooms, such as those requiring the "Sanatorium Room Key 2," increases your chances of finding a LEDX. These rooms often contain higher-tier loot, making them worthwhile investments. Keep an eye out for these keys as you explore.</span>
+    <span > Accessing certain rooms, such as those requiring the "Sanatorium Room Key 2," increases your chances of finding a LEDX. These rooms often contain higher-tier loot, making them worthwhile investments. Browse our <a href="/items/key">keys database</a> to find all available keys. Keep an eye out for these keys as you explore.</span>
   </li>
   <li><strong >Enemy Drops:</strong>
     <span > While less frequent, defeating enemies like Scavs, Raiders, and Bosses provides a small chance of them dropping a LEDX. Targeting high-value areas with increased enemy presence can improve your odds.</span>
@@ -702,7 +701,7 @@ export const guides = [
     <span > Though you can't directly purchase from merchants, the Flea Market allows for player-to-player transactions. This may not be reliable, but can give an estimate of current LEDX value.</span>
   </li>
   <li><strong >Quest Rewards:</strong>
-    <span > Some rare quests will offer the LEDX as a reward, so keep an eye out for these!</span>
+    <span > Some rare quests will offer the LEDX as a reward, so keep an eye out for these! Check our <a href="/wiki/quests">complete quest database</a> for all mission rewards.</span>
   </li>
 </ol>
 
@@ -751,12 +750,12 @@ export const guides = [
     addressBar: "/escape-from-duckov-j-lab-access-card-acquisition-guide",
     detailsHtml: `
         <p style="margin: 1em 0px;">
-  In Escape from Duckov, J-Lab Access Cards are crucial for gaining access to the restricted laboratories scattered throughout the Duckov suburbs.
-  While the first entry-level card (J-Lab 1) is relatively easy to find, more advanced versions—including Level 2 cards and colored access cards (red, blue, green, purple, yellow, and black)—are much rarer and typically unlocked through deeper exploration, looting, and completing specific quests.
+  In <a href="/">Escape from Duckov</a>, J-Lab Access Cards are crucial for gaining access to the restricted laboratories scattered throughout the Duckov suburbs.
+  While the first entry-level card (J-Lab 1) is relatively easy to find, more advanced versions—including Level 2 cards and colored access cards (red, blue, green, purple, yellow, and black)—are much rarer and typically unlocked through deeper exploration, looting, and completing specific quests. Check our <a href="/items/key">keys database</a> for keycard information.
 </p>
 
 <p style="margin: 1em 0px;">
-  This guide details how to find each J-Lab card, its confirmed spawn areas, and the best search routes to make your lab raids efficient and repeatable.
+  This guide details how to find each J-Lab card, its confirmed spawn areas, and the best search routes to make your lab raids efficient and repeatable. For detailed <a href="/maps">map locations</a> and lab access points, visit our maps section.
 </p>
 
 <h2 style="font-size: 1.5em; font-weight: bold;"><strong>What are J-Lab Cards?</strong></h2>
@@ -887,7 +886,7 @@ export const guides = [
 <p style="margin: 1em 0px;">
   Collecting all the J-Lab cards in Escape from Duckov requires patience and consistent exploration.
   While the basic cards can be easily replenished, the vibrantly colored premium cards are reserved for players who truly delve into the game world—exploring every corner, raiding every bunker, and piecing together scattered clues.
-  Good luck!
+  Check our <a href="/wiki/quests">quest database</a> for missions related to J-Lab access. Explore more <a href="/guides">advanced guides</a> for comprehensive loot strategies. Good luck!
 </p>
 
         `,
@@ -910,7 +909,7 @@ export const guides = [
     addressBar: "/escape-from-duckov-rampaging-scavenger",
     detailsHtml: `
       <p style="margin: 1em 0px;">
-  One of the early missions you'll receive in Escape from Duckov is the <strong>"Hunter's Path"</strong> quest, which tasks you with hunting down and eliminating some of the wasteland's more aggressive inhabitants: Rampaging Scavengers. This guide will show you exactly where to find these nimble foes, how to kill them efficiently, and how to complete the quest.
+  One of the early missions you'll receive in <a href="/">Escape from Duckov</a> is the <strong>"Hunter's Path"</strong> quest, which tasks you with hunting down and eliminating some of the wasteland's more aggressive inhabitants: Rampaging Scavengers. This guide will show you exactly where to find these nimble foes, how to kill them efficiently, and how to complete the quest. Check our <a href="/wiki/quests">quest database</a> for all available missions.
 </p>
 
 <h2 style="font-size: 1.5em; font-weight: bold;">
@@ -926,7 +925,7 @@ export const guides = [
 </h4>
 
 <p style="margin: 1em 0px;">
-  The Rampaging Scavenger camp is located in a clearing in the <strong>southwest corner of the map</strong>, just south of the main Forest Path.
+  The Rampaging Scavenger camp is located in a clearing in the <strong>southwest corner of the map</strong>, just south of the main Forest Path. For detailed <a href="/maps">map information</a>, visit our maps section.
   <img src="/images/guide/guide08-02.webp" alt="Rampaging Scavenger2">
 </p>
 
@@ -969,7 +968,7 @@ export const guides = [
 </p>
 
 <ul>
-  <li><strong>Recommended Weapons:</strong> Use a precision weapon like a pistol or a rifle. Avoid shotguns, as their spread may not be effective at a distance, and do not attempt to fight them with melee weapons.</li>
+  <li><strong>Recommended Weapons:</strong> Use a precision weapon like a pistol or a rifle. Browse our <a href="/items/weapons">weapons database</a> to find the best firearms for this encounter. Avoid shotguns, as their spread may not be effective at a distance, and do not attempt to fight them with melee weapons.</li>
   <li><strong>Keep Your Distance:</strong> Do not let them get close. As soon as you spot them, take your position and aim carefully.</li>
   <li><strong>Beware of the Environment:</strong> You will notice red explosive barrels in their camp. While you can shoot these to cause an explosion, it's a risky strategy. Once they are alerted, they will sprint towards you, likely moving out of the blast radius before it can do significant damage. It is safer to rely on direct shots.</li>
   <li><strong>Prepare for the Aftermath:</strong> Even if you kill them quickly, you might take a hit. <strong>Bring bandages</strong> to stop any bleeding effects you may suffer during the fight.</li>
@@ -1013,7 +1012,7 @@ export const guides = [
     addressBar: "/escape-from-duckov-tote-bag-guide",
     detailsHtml: `
     <p style="margin: 1em 0px;">
-  In the world of Escape from Duckov, you'll come across many items. Some are for crafting, some for selling, and some, like the Tote Bag, have a very specific and crucial purpose that isn't immediately obvious. Many new players make the mistake of selling this "luxury item" for a quick profit, not realizing they are discarding an essential tool for obtaining one of the game's unique boss drops.
+  In the world of <a href="/">Escape from Duckov</a>, you'll come across many items. Some are for crafting, some for selling, and some, like the Tote Bag, have a very specific and crucial purpose that isn't immediately obvious. Many new players make the mistake of selling this "luxury item" for a quick profit, not realizing they are discarding an essential tool for obtaining one of the game's unique boss drops. Browse our <a href="/items">items database</a> to learn about all special items.
 </p>
 
 <p style="margin: 1em 0px;">
@@ -1040,7 +1039,7 @@ export const guides = [
 </ul>
 
 <p style="margin: 1em 0px;">
-  Unlike other bags, the Tote Bag provides no general inventory bonus, such as extra capacity or weight limit. Its value is entirely functional.
+  Unlike other bags, the Tote Bag provides no general inventory bonus, such as extra capacity or weight limit. Its value is entirely functional. Compare it with other <a href="/items/equipment">backpacks and storage items</a> in our equipment database.
 </p>
 
 <h2 style="font-size: 1.5em; font-weight: bold;">
@@ -1154,9 +1153,153 @@ export const guides = [
 </p>
 
 <p style="margin: 1em 0px;">
-  If you have already sold yours, don't panic. Just be sure to keep the next one you find—you will need it later.
+  If you have already sold yours, don't panic. Just be sure to keep the next one you find—you will need it later. For more item guides and boss strategies, explore our <a href="/guides">complete guides collection</a>.
 </p>
 
+    `,
+  },
+
+  {
+    id: 10,
+    title: 'Fishing Guides for Escape from Duckov',
+    description: 'Complete guide to fishing mechanics in Escape from Duckov including bait crafting, fishing rod usage, QTE timing, fishing spots, weather conditions, and special fish requirements. Master the fishing mini-game and optimize your catch rate.',
+    imageUrl: '/images/guide/guide10-01.webp',
+    imageAlt: 'Fishing Guide for Escape from Duckov',
+    publishDate: '2025-10-31',
+    addressBar: '/fishing-guides-for-escape-from-duckov',
+    category: 'advanced',
+    tags: ['FISHING', 'BAIT', 'FISHING ROD', 'QTE', 'MINI-GAME', 'ADVANCED MECHANICS'],
+    seo: {
+      title: 'Fishing Guides for Escape from Duckov - Complete Bait, Rod & Mechanics Guide',
+      description: 'Master fishing in Escape from Duckov with our comprehensive guide covering bait crafting (earthworms, cookies), fishing rod equipment, QTE mini-game mechanics, weather-based catches, special fish like Whiteback Fish, and fishing spot locations. Includes tips for using fishing mods.',
+      keywords: 'Escape from Duckov fishing, fishing guide, bait crafting, fishing rod, QTE mini-game, earthworms, fishing spots, weather fishing, Whiteback Fish, R6 battery bait, fishing mod',
+    },
+    detailsHtml: `
+        <p>Fishing is an essential survival mechanic in <a href="/">Escape from Duckov</a> that provides valuable resources and quest completion items. This comprehensive guide covers everything you need to know about fishing mechanics, bait preparation, fishing rod usage, and mastering the challenging QTE mini-game.</p>
+        
+        <h2>1. Bait Preparation and Crafting</h2>
+        
+        <h3>Basic Bait Crafting</h3>
+        <p><strong>Standard Bait Recipe:</strong> Common fishing bait can be crafted at the workbench using 3 Earthworms + 2 Cookies. This is the primary method for obtaining bait in the early game.</p>
+        <p><strong>Fishing Store Purchase:</strong> After completing a certain number of fishing quests (specifically the "Path of the Fish King 3" quest), you can purchase bait directly from the fishing store, making bait acquisition much more convenient. Check our <a href="/wiki/quests">quest database</a> for all fishing-related missions.</p>
+        
+        <h3>Obtaining Earthworms</h3>
+        <p><strong>Digging Requirements:</strong> To collect earthworms, you need to have a shovel in your inventory (no equipment slot required). Earthworms are obtained by searching digging points scattered across various maps.</p>
+        <p><strong>Digging Point Locations:</strong> Digging points appear at fixed locations on each map. Search these spots while carrying a shovel to harvest earthworms.</p>
+        <p><strong>Yield Rate:</strong> Each digging point yields 1-3 earthworms, so multiple digging points may be needed to gather sufficient materials for bait crafting.</p>
+        <p>For a complete list of <a href="/items/fish">fishing items and equipment</a>, visit our comprehensive fishing database.</p>
+        
+        <h3>Cookie Acquisition Strategy</h3>
+        <p><strong>Vending Machine Source:</strong> Cookies can be purchased from vending machines, which refresh every 5 minutes. Each purchase yields 2 cookies.</p>
+        <p><strong>Recommended Habit:</strong> Develop a routine of purchasing cookies every time you return to your base. This ensures you always have cookies available for bait crafting without having to wait for machine refreshes.</p>
+        <p><strong>Resource Planning:</strong> Since cookies refresh on a timer, consistent purchases prevent delays when you need to craft bait urgently for fishing sessions.</p>
+        
+        <h2>2. Fishing Rod Equipment and Setup</h2>
+        
+        <h3>Fishing Rod Requirements</h3>
+        <p><strong>Equipment Slot:</strong> You must equip a fishing rod to engage in fishing activities. Ensure you have an appropriate fishing rod in your equipment inventory.</p>
+        <p><strong>Bait Attachment:</strong> Bait must be equipped to the fishing rod as an attachment/accessory. Configure your fishing rod with the desired bait before approaching fishing spots.</p>
+        <p>Browse our <a href="/items/fish">complete fishing equipment database</a> to view all available fishing rods and their specifications.</p>
+        
+        <h3>Fishing Spot Activation</h3>
+        <p><strong>Location Requirements:</strong> Fishing spots are located at fixed positions on each map. Navigate to these designated areas to begin fishing.</p>
+        <p><strong>Activation Method:</strong> Press F when positioned at a fishing spot to enter fishing mode. Ensure you're at the correct location and have your fishing rod equipped before pressing the activation key.</p>
+        <p><strong>Map Distribution:</strong> For detailed information about fishing spot distribution across different maps, refer to our <a href="/maps">interactive maps section</a>.</p>
+        
+        <h2>3. Fishing Mini-Game Mechanics</h2>
+        
+        <h3>Fish Bite Indicators</h3>
+        <p><strong>Warning Sign:</strong> When a fish takes the bait, an exclamation mark "!" appears near the fishing rod as a visual prompt. This indicates that a fish has bitten and the QTE sequence is about to begin.</p>
+        <p><strong>Timing Window:</strong> Approximately 1 second after the exclamation mark appears, the QTE (Quick Time Event) will activate. Pay close attention to timing your response correctly.</p>
+        
+        <h3>QTE Sequence</h3>
+        <p><strong>Circle Mechanics:</strong> The fishing mini-game displays two concentric circles - an outer circle that shrinks inward toward an inner circle. Your goal is to press the spacebar when the two circles overlap perfectly.</p>
+        <p><strong>Success Condition:</strong> Pressing spacebar when the circles align results in a successful catch and the fish is added to your inventory.</p>
+        <p><strong>Failure Consequence:</strong> Missing the timing or pressing spacebar too early/late results in fishing failure. Importantly, one bait is consumed regardless of success or failure, making accurate timing crucial for resource conservation.</p>
+        
+        <h3>Difficulty and Mod Recommendations</h3>
+        <p><strong>Challenge Assessment:</strong> The fishing mini-game is quite challenging due to its precise timing requirements and the cost of failed attempts.</p>
+        <p><strong>Mod Usage:</strong> Players are strongly recommended to install a fishing mod to make the mini-game more manageable, especially during the early game when bait resources are limited. Browse our <a href="/mods">mods collection</a> to find helpful fishing mods.</p>
+        <p><strong>Alternative Method:</strong> Alternatively, using Cheat Engine (CE) to adjust game speed can lower the difficulty by providing more time to react during the QTE sequence.</p>
+        <p><strong>Resource Conservation:</strong> Since bait cannot be purchased initially and crafting requires significant effort, losing bait to failed fishing attempts carries a substantial cost. Mods or speed adjustments help minimize unnecessary bait loss.</p>
+        
+        <h2>4. Fishing Notes and Information System</h2>
+        
+        <h3>Fishing Notes Discovery</h3>
+        <p><strong>Note Locations:</strong> Fishing notes can be found near fishing spots throughout the game world. These notes contain valuable information about fish behavior and requirements.</p>
+        <p><strong>Note Content:</strong> Fishing notes provide details about:</p>
+        <ul>
+            <li>Weather conditions required for specific fish to appear</li>
+            <li>Bait types needed to catch particular fish species</li>
+            <li>Time-of-day preferences for different fish</li>
+        </ul>
+        
+        <h3>Accessing Fishing Notes</h3>
+        <p><strong>Collection:</strong> Pick up fishing notes when you encounter them near fishing spots. Collected notes are automatically added to your information database.</p>
+        <p><strong>Review Method:</strong> Open your inventory (TAB key) and navigate to the notes section to review all collected fishing information. This helps you plan fishing sessions based on current weather conditions and available bait.</p>
+        
+        <h2>5. Special Fish and Quest Requirements</h2>
+        
+        <h3>Whiteback Fish (Path of the Fish King 3)</h3>
+        <p><strong>Quest Requirement:</strong> The "Path of the Fish King 3" quest specifically requires the Whiteback Fish as a quest item. View this and other fishing quests in our <a href="/wiki/quests">complete quest database</a>.</p>
+        <p><strong>Weather Condition:</strong> Whiteback Fish only appears during rainy weather conditions. You cannot catch this fish during clear or other weather conditions.</p>
+        <p><strong>Fishing Strategy:</strong> Monitor weather patterns and plan your fishing sessions accordingly. Wait for rain before attempting to catch the Whiteback Fish to avoid wasting bait on unsuccessful attempts.</p>
+        <p>Check our <a href="/items/fish">complete fish database</a> for detailed information about all catchable fish species and their requirements.</p>
+        
+        <h3>Alternative Bait Options</h3>
+        <p><strong>Special Bait Items:</strong> In addition to standard crafted bait, certain items can be used as alternative bait with specific effects:</p>
+        <ul>
+            <li><strong>R6 Battery:</strong> Can be used as bait to catch specific fish species</li>
+            <li><strong>Lighter:</strong> Functions as bait for certain fish types</li>
+            <li><strong>Toilet Cleaner:</strong> Acts as specialized bait for corresponding fish species</li>
+        </ul>
+        <p><strong>Experimentation:</strong> Try using different items as bait to discover which fish they attract. Fishing notes may provide hints about these alternative bait options.</p>
+        <p>For comprehensive information about <a href="/items/fish">baits and fishing equipment</a>, visit our detailed fishing items guide.</p>
+        
+        <h2>6. Fishing Spot Information and Distribution</h2>
+        
+        <h3>Map-Specific Fishing Spots</h3>
+        <p><strong>Location Variety:</strong> Each map in Escape from Duckov contains specific fishing spots with different fish spawn rates and species availability.</p>
+        <p><strong>Spot Distribution:</strong> For detailed information about fishing spot locations and distribution on each map, please refer to our <a href="/maps">interactive maps section</a>.</p>
+        <p><strong>Strategic Planning:</strong> Understanding fishing spot locations helps you plan efficient routes that combine fishing with other activities like looting or quest completion.</p>
+        
+        <h2>7. Weather and Time-Based Fishing</h2>
+        
+        <h3>Weather Conditions</h3>
+        <p><strong>Weather Impact:</strong> Different fish species appear based on weather conditions. Some fish only spawn during specific weather patterns (rain, clear skies, etc.).</p>
+        <p><strong>Weather Monitoring:</strong> Pay attention to weather changes in the game. Use fishing notes and experience to determine the best weather conditions for your target fish.</p>
+        
+        <h3>Time-of-Day Factors</h3>
+        <p><strong>Temporal Variations:</strong> The types of fish you can catch vary depending on the time of day. Different fish may be more active during morning, afternoon, or evening hours.</p>
+        <p><strong>Optimization Strategy:</strong> Combine weather and time-of-day information to maximize your fishing success rate. Plan fishing sessions during optimal conditions for your target species.</p>
+        
+        <h2>8. Resource Management and Optimization</h2>
+        
+        <h3>Bait Conservation</h3>
+        <p><strong>Early Game Scarcity:</strong> Bait cannot be purchased initially, making each bait valuable. Craft bait efficiently and avoid wasting it on poorly timed fishing attempts.</p>
+        <p><strong>Crafting Efficiency:</strong> Maintain a steady supply of earthworms and cookies through regular collection and purchases. Don't let your bait stock run low.</p>
+        
+        <h3>Fishing Efficiency Tips</h3>
+        <ul>
+            <li><strong>Mod Usage:</strong> Consider installing fishing mods to reduce bait waste during learning phases</li>
+            <li><strong>Weather Planning:</strong> Only fish during appropriate weather conditions for your target species</li>
+            <li><strong>Note Collection:</strong> Prioritize collecting fishing notes to optimize your fishing strategies</li>
+            <li><strong>Cookie Stockpiling:</strong> Buy cookies consistently to maintain bait crafting capability</li>
+            <li><strong>Equipment Preparation:</strong> Always ensure your fishing rod is properly equipped with bait before heading to fishing spots</li>
+        </ul>
+        
+        <h2>9. Advanced Fishing Strategies</h2>
+        
+        <h3>Quest-Focused Fishing</h3>
+        <p><strong>Quest Preparation:</strong> Before accepting fishing-related quests, check weather forecasts and prepare appropriate bait. Some quests require specific fish that only appear under certain conditions.</p>
+        <p><strong>Efficient Completion:</strong> Complete multiple fishing objectives in a single session when weather conditions align with multiple quest requirements.</p>
+        
+        <h3>Resource Diversification</h3>
+        <p><strong>Multiple Bait Types:</strong> Experiment with different bait types (crafted bait, R6 batteries, lighters, toilet cleaner) to discover optimal combinations for different fish species.</p>
+        <p><strong>Alternative Methods:</strong> Don't limit yourself to standard bait. Explore special item baits for potentially better catch rates on specific fish.</p>
+        
+        <h2>Conclusion</h2>
+        <p>Mastering fishing in Escape from Duckov requires understanding bait mechanics, equipment setup, QTE timing, and environmental factors. The fishing system is challenging but rewarding, providing essential resources and quest completion items. Use this guide to optimize your fishing efficiency, conserve valuable bait resources, and successfully complete fishing-related quests. Remember to check weather conditions, collect fishing notes, and consider using mods or game speed adjustments to enhance your fishing experience. For detailed information about all fishing items, visit our comprehensive <a href="/items/fish">fishing database</a>. Explore more <a href="/guides">advanced guides</a> for additional survival strategies.</p>
     `,
   }
 

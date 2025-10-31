@@ -5,7 +5,7 @@
       <div class="container">
         <div class="page-header-content">
           <div class="page-header-text">
-            <h1 class="page-title">Terms of Service</h1>
+            <h1 class="page-title">Escape from Duckov - Terms of Service</h1>
             <p class="page-subtitle">Terms and conditions for using our website</p>
           </div>
         </div>

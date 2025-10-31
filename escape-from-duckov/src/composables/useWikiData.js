@@ -129,14 +129,14 @@ export function useWikiData(category) {
     }
 
     /**
-     * 获取其他项目（排除当前项目，返回最后10个）
+     * 获取其他项目（排除当前项目，返回最后5个）
      * @param {string|number} currentItemId - 当前项目的 ID
      * @returns {Array} 其他项目数组
      */
     const getOtherItems = (currentItemId) => {
         if (!currentItemId || !data.value.length) return []
         const filtered = data.value.filter(item => item.id !== currentItemId)
-        return filtered.slice(-10)
+        return filtered.slice(-5)
     }
 
     /**

@@ -2,7 +2,7 @@
     <div class="items-category-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Items - Weapons</h1>
+                <h1 class="page-title">Escape from Duckov Weapons</h1>
                 <p class="page-subtitle">Complete Escape from Duckov weapons database featuring melee weapons and firearms. Browse pistols, rifles, shotguns, sniper rifles, SMGs, and melee tools. Find descriptions, stats, and details for all combat weapons in Duckov.</p>
             </div>
 

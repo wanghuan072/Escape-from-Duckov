@@ -5,7 +5,7 @@
       <div class="container">
         <div class="page-header-content">
           <div class="page-header-text">
-            <h1 class="page-title">Privacy Policy</h1>
+            <h1 class="page-title">Escape from Duckov - Privacy Policy</h1>
             <p class="page-subtitle">How we protect and handle your personal information</p>
           </div>
         </div>

@@ -2,8 +2,8 @@
     <div class="items-category-view">
         <div class="container">
             <div class="page-header">
-                <h1 class="page-title">Items - Equipment</h1>
-                <p class="page-subtitle">Complete Escape from Duckov equipment database featuring helmets, armor, face protection, and tactical gear. Browse Level 2-5 helmets, SWAT gear, night vision devices, and protective equipment. Find descriptions, stats, and details for all defensive gear in Duckov.</p>
+                <h1 class="page-title">Escape from Duckov Equipment</h1>
+                <p class="page-subtitle">Complete Escape from Duckov equipment database featuring helmets, armor, body protection, backpacks, earphones, and tactical gear. Browse Level 2-5 helmets, SWAT gear, night vision devices, storage containers, and protective equipment. Find descriptions, stats, and details for all defensive and utility gear in Duckov.</p>
             </div>
 
             <h2 class="group-title">Headgear</h2>
@@ -84,23 +84,91 @@
                         </tr>
                     </thead>
                     <tbody>
-                            <tr v-for="item in bodyItems" :key="item.id" @click="onRowClick(item)"
-                                :class="['item-row', { 'disabled': item.showDetail === false }]">
-                                <td class="image-cell">
-                                    <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image">
-                                    </div>
-                                </td>
-                                <td class="name-cell">
-                                    <div class="name-main">{{ item.title }}</div>
-                                </td>
-                                <td class="desc-cell">
-                                    <span class="desc-text">{{ item.description || '-' }}</span>
-                                </td>
-                                <td class="type-cell">
-                                    <span class="type-tag" v-if="item.type">{{ item.type }}</span>
-                                    <span v-else>-</span>
-                                </td>
-                            </tr>
+                        <tr v-for="item in bodyItems" :key="item.id" @click="onRowClick(item)"
+                            :class="['item-row', { 'disabled': item.showDetail === false }]">
+                            <td class="image-cell">
+                                <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image">
+                                </div>
+                            </td>
+                            <td class="name-cell">
+                                <div class="name-main">{{ item.title }}</div>
+                            </td>
+                            <td class="desc-cell">
+                                <span class="desc-text">{{ item.description || '-' }}</span>
+                            </td>
+                            <td class="type-cell">
+                                <span class="type-tag" v-if="item.type">{{ item.type }}</span>
+                                <span v-else>-</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!--  -->
+            <h2 class="group-title">Backpack</h2>
+            <div class="table-container">
+                <table class="items-table">
+                    <thead>
+                        <tr>
+                            <th class="image-col">Image</th>
+                            <th class="name-col">Name</th>
+                            <th class="desc-col">Description</th>
+                            <th class="type-col">Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="item in backpackItems" :key="item.id" @click="onRowClick(item)"
+                            :class="['item-row', { 'disabled': item.showDetail === false }]">
+                            <td class="image-cell">
+                                <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image">
+                                </div>
+                            </td>
+                            <td class="name-cell">
+                                <div class="name-main">{{ item.title }}</div>
+                            </td>
+                            <td class="desc-cell">
+                                <span class="desc-text">{{ item.description || '-' }}</span>
+                            </td>
+                            <td class="type-cell">
+                                <span class="type-tag" v-if="item.type">{{ item.type }}</span>
+                                <span v-else>-</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!--  -->
+            <h2 class="group-title">Backpack</h2>
+            <div class="table-container">
+                <table class="items-table">
+                    <thead>
+                        <tr>
+                            <th class="image-col">Image</th>
+                            <th class="name-col">Name</th>
+                            <th class="desc-col">Description</th>
+                            <th class="type-col">Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="item in earphoneItems" :key="item.id" @click="onRowClick(item)"
+                            :class="['item-row', { 'disabled': item.showDetail === false }]">
+                            <td class="image-cell">
+                                <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image">
+                                </div>
+                            </td>
+                            <td class="name-cell">
+                                <div class="name-main">{{ item.title }}</div>
+                            </td>
+                            <td class="desc-cell">
+                                <span class="desc-text">{{ item.description || '-' }}</span>
+                            </td>
+                            <td class="type-cell">
+                                <span class="type-tag" v-if="item.type">{{ item.type }}</span>
+                                <span v-else>-</span>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -120,10 +188,14 @@ const { data: itemsData, loadData } = useItemsData('equipment')
 const norm = (t) => String(t || '').toLowerCase()
 const isHeadgear = (t) => norm(t).includes('head') || norm(t).includes('helmet')
 const isBody = (t) => norm(t).includes('body') || norm(t).includes('armor')
+const isBackpack = (t) => norm(t).includes('backpack')
+const isEarphone = (t) => norm(t).includes('earphone')
 
 const headgearItems = computed(() => (itemsData?.value || []).filter(i => isHeadgear(i.type)))
 const bodyItems = computed(() => (itemsData?.value || []).filter(i => isBody(i.type)))
-const otherEquipmentItems = computed(() => (itemsData?.value || []).filter(i => !isHeadgear(i.type) && !isBody(i.type)))
+const backpackItems = computed(() => (itemsData?.value || []).filter(i => isBackpack(i.type)))
+const earphoneItems = computed(() => (itemsData?.value || []).filter(i => isEarphone(i.type)))
+const otherEquipmentItems = computed(() => (itemsData?.value || []).filter(i => !isHeadgear(i.type) && !isBody(i.type) && !isBackpack(i.type) && !isEarphone(i.type)))
 
 onMounted(() => {
     loadData('equipment')

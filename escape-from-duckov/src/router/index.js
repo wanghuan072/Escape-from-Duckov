@@ -12,6 +12,9 @@ import WikiDetailView from '../views/wiki/WikiDetailView.vue'
 import ItemsView from '../views/items/ItemsView.vue'
 import ItemsWeaponsView from '../views/items/ItemsWeaponsView.vue'
 import ItemsEquipmentView from '../views/items/ItemsEquipmentView.vue'
+import ItemsAmmunitionView from '../views/items/ItemsAmmunitionView.vue'
+import ItemsKeyView from '../views/items/ItemsKeyView.vue'
+import ItemsFishView from '../views/items/ItemsFishView.vue'
 import ItemsDetailView from '../views/items/ItemsDetailView.vue'
 import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
 import TermsOfServiceView from '../views/TermsOfServiceView.vue'
@@ -133,9 +136,9 @@ const router = createRouter({
       component: WikiDetailView,
       meta: {
         seo: {
-          title: 'Wiki Detail | duckovgame.com',
-          description: 'Detailed wiki information for Escape from Duckov.',
-          keywords: 'Escape from Duckov, wiki, game information, detailed guide',
+          title: 'Escape from Duckov Wiki | Complete Game Database & Information',
+          description: 'Access detailed Escape from Duckov wiki information including quests, missions, objectives, rewards, and game mechanics. Complete reference database for all Duckov gameplay content.',
+          keywords: 'Escape from Duckov wiki, quest database, mission guide, game information, objectives, rewards, NPCs, detailed guide',
           type: 'article'
         }
       }
@@ -212,9 +215,9 @@ const router = createRouter({
       component: ItemsView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Items | Weapons & Equipment',
-          description: 'Browse items database including weapons and equipment for Escape from Duckov.',
-          keywords: 'Duckov items, weapons, equipment, database',
+          title: 'Escape from Duckov Items | Complete Weapon & Equipment Database',
+          description: 'Browse the complete Escape from Duckov items database featuring weapons, equipment, ammunition, keys, and fishing gear. Find detailed stats, descriptions, and information for every item in Duckov.',
+          keywords: 'Escape from Duckov items, weapons database, equipment catalog, ammunition, keys, fishing gear, item stats, weapon details',
           type: 'website'
         }
       }
@@ -225,9 +228,9 @@ const router = createRouter({
       component: ItemsWeaponsView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Weapons | duckovgame.com',
-          description: 'Browse all weapons in the items database.',
-          keywords: 'duckov items weapons, weapons list',
+          title: 'Escape from Duckov Weapons | Complete Firearms & Melee Database',
+          description: 'Complete Escape from Duckov weapons database featuring all firearms, melee weapons, pistols, rifles, shotguns, and combat tools. Find detailed weapon stats, descriptions, and specifications for every weapon in Duckov.',
+          keywords: 'Escape from Duckov weapons, firearms database, melee weapons, pistols, rifles, shotguns, weapon stats, combat tools, weapon specifications',
           type: 'website'
         }
       }
@@ -238,9 +241,48 @@ const router = createRouter({
       component: ItemsEquipmentView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Equipment | duckovgame.com',
-          description: 'Browse all equipment in the items database.',
-          keywords: 'duckov items equipment, helmets, armor',
+          title: 'Escape from Duckov Equipment | Complete Armor & Protection Database',
+          description: 'Complete Escape from Duckov equipment database featuring helmets, armor, body protection, backpacks, earphones, and tactical gear. Browse Level 2-5 helmets, SWAT gear, and protective equipment with detailed stats.',
+          keywords: 'Escape from Duckov equipment, armor database, helmets, body protection, backpacks, SWAT gear, protective equipment, Level 2-5 helmets, tactical gear',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/items/ammunition',
+      name: 'items-ammunition',
+      component: ItemsAmmunitionView,
+      meta: {
+        seo: {
+          title: 'Escape from Duckov Ammunition | Complete Bullet & Round Database',
+          description: 'Complete Escape from Duckov ammunition database with all bullet types, calibers, and rounds. Browse pistol ammunition, rifle cartridges, shotgun shells, and special rounds with detailed damage stats and weapon compatibility information.',
+          keywords: 'Escape from Duckov ammunition, ammo database, bullets, cartridges, rounds, 9mm, 5.56mm, 7.62mm, pistol rounds, rifle cartridges, shotgun shells, weapon compatibility',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/items/key',
+      name: 'items-key',
+      component: ItemsKeyView,
+      meta: {
+        seo: {
+          title: 'Escape from Duckov Keys | Complete Access Card & Key Database',
+          description: 'Complete Escape from Duckov keys database featuring J-Lab certificates, access cards, factory keys, dormitory keys, and location-specific keys. Browse Level 1-3 J-Lab certificates, colored access cards, and special tickets with location information.',
+          keywords: 'Escape from Duckov keys, access cards database, J-Lab certificates, keycards, security keys, factory keys, dormitory keys, Level 1-3 certificates, colored access cards',
+          type: 'website'
+        }
+      }
+    },
+    {
+      path: '/items/fish',
+      name: 'items-fish',
+      component: ItemsFishView,
+      meta: {
+        seo: {
+          title: 'Escape from Duckov Fishing Guide | Complete Fish & Fishing Equipment Database',
+          description: 'Complete Escape from Duckov fishing guide featuring all catchable fish species, fishing rods, baits, and fishing gear. Learn about fishing mechanics, fish habits, location distribution, time-of-day catches, weather patterns, and bait recipes.',
+          keywords: 'Escape from Duckov fishing, fish database, fishing rods, fish baits, fishing spots, fishing mechanics, fish species, time-of-day catches, weather patterns, bait recipes, Buddha NPC, fishing mini-game',
           type: 'website'
         }
       }
@@ -251,9 +293,9 @@ const router = createRouter({
       component: ItemsDetailView,
       meta: {
         seo: {
-          title: 'Escape from Duckov Detail | duckovgame.com',
-          description: 'Detailed item information for Escape from Duckov.',
-          keywords: 'Duckov item detail, weapon detail, equipment detail',
+          title: 'Escape from Duckov Item | Complete Item Details & Stats',
+          description: 'Detailed Escape from Duckov item information including stats, descriptions, specifications, and usage guides. Complete reference for weapons, equipment, ammunition, keys, and fishing gear in Duckov.',
+          keywords: 'Escape from Duckov item, weapon details, equipment stats, item specifications, weapon information, equipment information, item guide',
           type: 'article'
         }
       }

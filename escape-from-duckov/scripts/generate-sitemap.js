@@ -6,6 +6,9 @@ import { mods } from '../src/data/mods/mods.js'
 import quests from '../src/data/wiki/quests/quests.js'
 import itemsWeapons from '../src/data/items/weapons/weapons.js'
 import itemsEquipment from '../src/data/items/equipment/equipment.js'
+import itemsAmmunition from '../src/data/items/ammunition/ammunition.js'
+import itemsKey from '../src/data/items/key/key.js'
+import itemsFish from '../src/data/items/fish/fish.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -20,11 +23,13 @@ const routes = [
     { path: '/', name: 'home', priority: 1.0, changefreq: 'weekly' },
     { path: '/guides', name: 'guides', priority: 0.9, changefreq: 'weekly' },
     { path: '/wiki', name: 'wiki', priority: 0.8, changefreq: 'weekly' },
-    { path: '/escape-from-duckov-notes', name: 'notes', priority: 0.7, changefreq: 'monthly' },
     { path: '/wiki/quests', name: 'quests', priority: 0.7, changefreq: 'monthly' },
     { path: '/items', name: 'items', priority: 0.7, changefreq: 'weekly' },
     { path: '/items/weapons', name: 'items-weapons', priority: 0.7, changefreq: 'weekly' },
     { path: '/items/equipment', name: 'items-equipment', priority: 0.7, changefreq: 'weekly' },
+    { path: '/items/ammunition', name: 'items-ammunition', priority: 0.7, changefreq: 'weekly' },
+    { path: '/items/key', name: 'items-key', priority: 0.7, changefreq: 'weekly' },
+    { path: '/items/fish', name: 'items-fish', priority: 0.7, changefreq: 'weekly' },
     { path: '/maps', name: 'maps', priority: 0.8, changefreq: 'monthly' },
     { path: '/mods', name: 'mods', priority: 0.7, changefreq: 'weekly' },
     { path: '/privacy-policy', name: 'privacy-policy', priority: 0.5, changefreq: 'yearly' },
@@ -109,6 +114,36 @@ function generateSitemap() {
             .filter(item => item && item.showDetail !== false && item.addressBar)
             .forEach(item => {
                 const p = `/items/equipment${item.addressBar}`
+                sitemapXml += `\n${generateUrlXml(p, item.publishDate || lastmod, 0.7, 'monthly')}`
+            })
+    }
+
+    // 为 items/ammunition 生成URL
+    if (itemsAmmunition && Array.isArray(itemsAmmunition)) {
+        itemsAmmunition
+            .filter(item => item && item.showDetail !== false && item.addressBar)
+            .forEach(item => {
+                const p = `/items/ammunition${item.addressBar}`
+                sitemapXml += `\n${generateUrlXml(p, item.publishDate || lastmod, 0.7, 'monthly')}`
+            })
+    }
+
+    // 为 items/key 生成URL
+    if (itemsKey && Array.isArray(itemsKey)) {
+        itemsKey
+            .filter(item => item && item.showDetail !== false && item.addressBar)
+            .forEach(item => {
+                const p = `/items/key${item.addressBar}`
+                sitemapXml += `\n${generateUrlXml(p, item.publishDate || lastmod, 0.7, 'monthly')}`
+            })
+    }
+
+    // 为 items/fish 生成URL
+    if (itemsFish && Array.isArray(itemsFish)) {
+        itemsFish
+            .filter(item => item && item.showDetail !== false && item.addressBar)
+            .forEach(item => {
+                const p = `/items/fish${item.addressBar}`
                 sitemapXml += `\n${generateUrlXml(p, item.publishDate || lastmod, 0.7, 'monthly')}`
             })
     }

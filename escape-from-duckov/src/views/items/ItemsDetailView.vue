@@ -97,7 +97,7 @@ const categoryTitle = computed(() => category.charAt(0).toUpperCase() + category
 const otherItems = computed(() => {
     const list = Array.isArray(data.value) ? data.value : []
     if (!item.value) return []
-    return list.filter(x => x && x.id !== item.value.id && x.showDetail !== false).slice(0, 10)
+    return list.filter(x => x && x.id !== item.value.id && x.showDetail !== false).slice(-5)
 })
 
 onMounted(async () => {

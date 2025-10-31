@@ -5,7 +5,7 @@
       <div class="container">
         <div class="page-header-content">
           <div class="page-header-text">
-            <h1 class="page-title">Copyright</h1>
+            <h1 class="page-title">Escape from Duckov - Copyright</h1>
             <p class="page-subtitle">Copyright information and usage guidelines</p>
           </div>
         </div>
