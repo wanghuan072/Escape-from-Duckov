@@ -16,7 +16,7 @@
         </ul>
         
         <!-- 语言选择器 -->
-        <!-- <div class="language-switcher">
+        <div class="language-switcher">
           <div class="language-dropdown" @click="toggleLanguageDropdown">
             <span class="current-language">{{ getLanguageDisplayName(currentLocale) }}</span>
             <span class="dropdown-arrow">▼</span>
@@ -28,7 +28,7 @@
               </a>
             </li>
           </ul>
-        </div> -->
+        </div>
         
         <button class="hamburger-btn" @click="toggleMenu" :class="{ 'active': isMenuOpen }">
           <span class="hamburger-line"></span>

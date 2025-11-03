@@ -1,3 +1,833 @@
-{}
-
-
+{
+    "seo": {
+        "home": {
+            "title": "Escape from Duckov | Wiki, Guías, Mapas, Mods, Misiones, Armas",
+            "description": "Explora el centro definitivo de Escape from Duckov: guías detalladas, misiones, mapas, armas, jefes y estrategias de supervivencia. Mantente al día con todas las mecánicas y consejos del juego.",
+            "keywords": "Escape from Duckov, wiki del juego, mapas, misiones, armas, jefes, habilidades, guía de supervivencia, consejos, actualizaciones",
+            "type": "website"
+        },
+        "guides": {
+            "title": "Guías de Escape from Duckov | Consejos de Supervivencia y Combate",
+            "description": "Domina Escape from Duckov con nuestra colección completa de guías. Aprende estrategias para principiantes, tácticas de combate, consejos de supervivencia y recorridos (walkthroughs) profesionales para conquistar cada misión.",
+            "keywords": "Guías de Escape from Duckov, recorridos, consejos de combate, estrategias de supervivencia, tácticas de juego, consejos profesionales",
+            "type": "website"
+        },
+        "guideDetail": {
+            "title": "Guía de Escape from Duckov | duckovgame.com",
+            "description": "Guía de estrategia detallada de Escape from Duckov con consejos de expertos, instrucciones paso a paso y técnicas avanzadas.",
+            "keywords": "Guía de Escape from Duckov, consejos de estrategia, tácticas de juego, técnicas de supervivencia",
+            "type": "article"
+        },
+        "wiki": {
+            "title": "Wiki de Escape from Duckov | Base de Datos Completa de Mapas, Armas y Misiones",
+            "description": "Accede a la Wiki completa de Escape from Duckov: tu fuente de mapas, armas, misiones, jefes, habilidades y mecánicas de juego. Descubre todo sobre el mundo de supervivencia de Duckov.",
+            "keywords": "Wiki de Escape from Duckov, mapas, armas, misiones, jefes, habilidades, base de datos de supervivencia, información del juego, artículos",
+            "type": "website"
+        },
+        "wikiQuests": {
+            "title": "Misiones de Escape from Duckov | Base de Datos Completa de Misiones",
+            "description": "Explora todas las misiones en Escape from Duckov. Sigue los objetivos, recompensas, cadenas de tareas y rutas de finalización con esta base de datos de misiones y guía definitiva.",
+            "keywords": "Misiones de Escape from Duckov, base de datos de misiones, lista de tareas, objetivos de misión, recompensas, guía de misiones, rutas de finalización",
+            "type": "website"
+        },
+        "wikiDetail": {
+            "title": "Wiki de Escape from Duckov | Base de Datos e Información Completa del Juego",
+            "description": "Accede a información detallada de la wiki de Escape from Duckov, incluyendo misiones, objetivos, recompensas y mecánicas de juego. Base de datos de referencia completa para todo el contenido de juego de Duckov.",
+            "keywords": "Wiki de Escape from Duckov, base de datos de misiones, guía de misiones, información del juego, objetivos, recompensas, NPC, guía detallada",
+            "type": "article"
+        },
+        "maps": {
+            "title": "Mapas de Escape from Duckov | Todas las Ubicaciones, Zonas y Puntos de Extracción",
+            "description": "Explora cada área en Escape from Duckov con nuestros mapas interactivos. Encuentra zonas de botín, puntos de extracción, rutas seguras y ubicaciones secretas para dominar tus incursiones de supervivencia.",
+            "keywords": "Mapas de Escape from Duckov, ubicaciones, zonas, puntos de extracción, áreas de botín, rutas de supervivencia, guía de mapas",
+            "type": "website"
+        },
+        "mods": {
+            "title": "Mods de Escape from Duckov | Mejores Armas Personalizadas, Mapas y Ajustes de Jugabilidad",
+            "description": "Descubre los mejores mods de Escape from Duckov: nuevas armas, mapas personalizados, mejoras visuales y ajustes de jugabilidad. Mejora tu experiencia de supervivencia con creaciones de la comunidad.",
+            "keywords": "Mods de Escape from Duckov, armas personalizadas, mods de mapas, ajustes de jugabilidad, mods visuales, contenido de la comunidad",
+            "type": "website"
+        },
+        "modDetail": {
+            "title": "Mods de Escape from Duckov | Mejores Armas Personalizadas, Mapas y Ajustes de Jugabilidad",
+            "description": "Descubre los mejores mods de Escape from Duckov: nuevas armas, mapas personalizados, mejoras visuales y ajustes de jugabilidad. Mejora tu experiencia de supervivencia con creaciones de la comunidad.",
+            "keywords": "Mods de Escape from Duckov, armas personalizadas, mods de mapas, ajustes de jugabilidad, mods visuales, contenido de la comunidad",
+            "type": "article"
+        },
+        "items": {
+            "title": "Artículos de Escape from Duckov | Base de Datos Completa de Armas y Equipamiento",
+            "description": "Explora la base de datos completa de artículos de Escape from Duckov que incluye armas, equipamiento, munición, llaves y equipo de pesca. Encuentra estadísticas detalladas, descripciones e información de cada artículo en Duckov.",
+            "keywords": "Artículos de Escape from Duckov, base de datos de armas, catálogo de equipamiento, munición, llaves, equipo de pesca, estadísticas de artículos, detalles de armas",
+            "type": "website"
+        },
+        "itemsWeapons": {
+            "title": "Armas de Escape from Duckov | Base de Datos Completa de Armas de Fuego y Cuerpo a Cuerpo",
+            "description": "Base de datos completa de armas de Escape from Duckov que incluye todas las armas de fuego, armas cuerpo a cuerpo, pistolas, rifles, escopetas y herramientas de combate. Encuentra estadísticas detalladas, descripciones y especificaciones de cada arma en Duckov.",
+            "keywords": "Armas de Escape from Duckov, base de datos de armas de fuego, armas cuerpo a cuerpo, pistolas, rifles, escopetas, estadísticas de armas, herramientas de combate, especificaciones de armas",
+            "type": "website"
+        },
+        "itemsEquipment": {
+            "title": "Equipamiento de Escape from Duckov | Base de Datos Completa de Armaduras y Protección",
+            "description": "Base de datos completa de equipamiento de Escape from Duckov que incluye cascos, armaduras, protección corporal, mochilas, auriculares y equipo táctico. Explora cascos de Nivel 2-5, equipo SWAT y equipo de protección con estadísticas detalladas.",
+            "keywords": "Equipamiento de Escape from Duckov, base de datos de armaduras, cascos, protección corporal, mochilas, equipo SWAT, equipo de protección, cascos Nivel 2-5, equipo táctico",
+            "type": "website"
+        },
+        "itemsAmmunition": {
+            "title": "Munición de Escape from Duckov | Base de Datos Completa de Balas y Proyectiles",
+            "description": "Base de datos completa de munición de Escape from Duckov con todos los tipos de balas, calibres y proyectiles. Explora munición de pistola, cartuchos de rifle, cartuchos de escopeta y proyectiles especiales con estadísticas de daño detalladas e información de compatibilidad con armas.",
+            "keywords": "Munición de Escape from Duckov, base de datos de munición, balas, cartuchos, proyectiles, 9 mm, 5.56 mm, 7.62 mm, balas de pistola, cartuchos de rifle, cartuchos de escopeta, compatibilidad con armas",
+            "type": "website"
+        },
+        "itemsKey": {
+            "title": "Llaves de Escape from Duckov | Base de Datos Completa de Tarjetas de Acceso y Llaves",
+            "description": "Base de datos completa de llaves de Escape from Duckov que incluye certificados J-Lab, tarjetas de acceso, llaves de fábrica, llaves de dormitorio y llaves específicas de ubicación. Explora certificados J-Lab Nivel 1-3, tarjetas de acceso de colores y tickets especiales con información de ubicación.",
+            "keywords": "Llaves de Escape from Duckov, base de datos de tarjetas de acceso, certificados J-Lab, tarjetas llave, llaves de seguridad, llaves de fábrica, llaves de dormitorio, certificados Nivel 1-3, tarjetas de acceso de colores",
+            "type": "website"
+        },
+        "itemsFish": {
+            "title": "Guía de Pesca de Escape from Duckov | Base de Datos Completa de Peces y Equipos de Pesca",
+            "description": "Guía de pesca completa de Escape from Duckov que incluye todas las especies de peces capturables, cañas de pescar, cebos y equipo de pesca. Aprende sobre la mecánica de pesca, hábitos de los peces, distribución por ubicación, capturas según la hora del día, patrones climáticos y recetas de cebo.",
+            "keywords": "Pesca de Escape from Duckov, base de datos de peces, cañas de pescar, cebos para peces, zonas de pesca, mecánica de pesca, especies de peces, capturas según la hora del día, patrones climáticos, recetas de cebo, NPC Buddha, minijuego de pesca",
+            "type": "website"
+        },
+        "itemsDetail": {
+            "title": "Artículo de Escape from Duckov | Detalles y Estadísticas Completas del Artículo",
+            "description": "Información detallada de artículos de Escape from Duckov, incluyendo estadísticas, descripciones, especificaciones y guías de uso. Referencia completa de armas, equipamiento, munición, llaves y equipo de pesca en Duckov.",
+            "keywords": "Artículo de Escape from Duckov, detalles de armas, estadísticas de equipamiento, especificaciones de artículos, información de armas, información de equipamiento, guía de artículos",
+            "type": "article"
+        },
+        "privacyPolicy": {
+            "title": "Política de Privacidad y Protección de Datos | duckovgame.com",
+            "description": "Política de privacidad de DuckovGame que cubre la recopilación de datos, el uso, el cumplimiento del RGPD y sus derechos de privacidad.",
+            "keywords": "política de privacidad, protección de datos, cumplimiento del RGPD, derechos de privacidad, DuckovGame",
+            "type": "website"
+        },
+        "termsOfService": {
+            "title": "Términos de Servicio y Acuerdo de Usuario | duckovgame.com",
+            "description": "Términos de servicio de DuckovGame que cubren los derechos del usuario, las responsabilidades y las condiciones de uso del sitio web.",
+            "keywords": "términos de servicio, acuerdo de usuario, términos legales, uso del sitio web, DuckovGame",
+            "type": "website"
+        },
+        "copyright": {
+            "title": "Derechos de Autor y Propiedad Intelectual | duckovgame.com",
+            "description": "Información de derechos de autor de DuckovGame que cubre las políticas de uso justo, licencias y derechos de propiedad intelectual.",
+            "keywords": "derechos de autor, propiedad intelectual, uso justo, licencias, cumplimiento de DMCA, DuckovGame",
+            "type": "website"
+        },
+        "aboutUs": {
+            "title": "Acerca de DuckovGame y Nuestra Misión | duckovgame.com",
+            "description": "Conoce la misión de DuckovGame de proporcionar contenido de juego y recursos comunitarios de alta calidad.",
+            "keywords": "acerca de DuckovGame, comunidad de juegos, contenido de calidad, misión, equipo",
+            "type": "website"
+        },
+        "contactUs": {
+            "title": "Contáctanos y Soporte | duckovgame.com",
+            "description": "Contacta con DuckovGame para soporte, comentarios y consultas. Obtén ayuda con tus preguntas y sugerencias.",
+            "keywords": "contacto DuckovGame, soporte, comentarios, ayuda, servicio al cliente, consultas",
+            "type": "website"
+        }
+    },
+    "HomePage": {
+        "hero": {
+            "title": "Escape from Duckov Comunidad de Fans",
+            "subtitle": "**Escape from Duckov** es un RPG indie de supervivencia PVE — ¡ambientado en un mundo de patos! Busca recursos, construye tu escondite y mejora tu equipo en el mundo de Duckov. Empieza de cero y llega a la cima. Sé más astuto que los patos hostiles, sobrevive, o sal con vida.",
+            "steamButton": "Jugar en Steam"
+        },
+        "video": {
+            "playIcon": "▶",
+            "channel": "Escape From Duckov - Official",
+            "label": "TRAILER OFICIAL"
+        },
+        "about": {
+            "section1": {
+                "title": "¿Qué es Escape From Duckov?",
+                "p1": "Adéntrate en el mundo caprichoso pero traicionero de **Duckov**, donde la supervivencia se encuentra con el absurdo en esta aventura RPG independiente. No eres un superviviente cualquiera: eres un pato inmerso en un paisaje posapocalíptico donde las plumas vuelan y el peligro grazna en cada esquina.",
+                "p2": "Desde unos humildes comienzos como un pato despistado hasta convertirte en el superviviente definitivo, tu viaje a través de la retorcida realidad de Duckov pondrá a prueba tu ingenio, reflejos y capacidad de adaptación. Cada decisión importa, cada recurso cuenta y cada encuentro con el enemigo podría ser tu último chapoteo. Consulta nuestras <a href=\"/guides\">guías completas</a> para dominar las mecánicas de supervivencia."
+            },
+            "section2": {
+                "title": "Territorios Peligrosos te Esperan",
+                "p1": "Navega a través de **cinco zonas distintas**, cada una con su propia personalidad y peligros. Desde la radiactiva **Zona Cero** hasta el laberinto industrial del **Distrito de Almacenes**, cada ubicación cuenta una historia de lo que salió mal en el mundo de Duckov. Explora <a href=\"/maps\">mapas interactivos</a> detallados para planificar tus rutas.",
+                "p2": "El **temporizador de extracción** no es solo una cuenta regresiva: es tu salvavidas. Fuerza tu suerte para obtener mejores recompensas o juega a lo seguro con suministros básicos. En Duckov, la fortuna favorece a los audaces, pero la supervivencia favorece a los inteligentes. ¿Lo arriesgarás todo por un botín legendario o te conformarás con la seguridad?"
+            },
+            "section3": {
+                "title": "Arsenal de Furia Emplumada",
+                "p1": "Elige tu arma favorita de un **extenso arsenal** que abarca desde garrotes improvisados hasta armas de fuego de alta tecnología. El **sistema de modificación de armas** te permite personalizar cada aspecto de tu equipo, porque cuando luchas por la supervivencia, cada ventaja cuenta. Explora nuestra <a href=\"/items/weapons\">base de datos completa de armas</a> y <a href=\"/items/equipment\">catálogo de equipamiento</a> para encontrar el equipo perfecto.",
+                "p2": "Enfréntate a **astutos enemigos con IA** que se adaptan a tus tácticas. No son drones sin cerebro: son adversarios inteligentes que te flanquearán, tenderán emboscadas y te superarán si no tienes cuidado. Domina el arte del combate de patos y demuestra que las plumas pueden ser mortales."
+            },
+            "section4": {
+                "title": "Del Nido a la Fortaleza",
+                "p1": "Transforma tu humilde escondite en una **fortaleza impenetrable** a través de profundos sistemas de progresión. Cada mejora es importante, cada plano desbloquea nuevas posibilidades y cada incursión exitosa te acerca a convertirte en el superviviente definitivo. Aprende estrategias avanzadas en nuestra <a href=\"/guides\">colección de guías</a>.",
+                "p2": "Desarrolla tus habilidades en **múltiples árboles**— ya sea que prefieras la precisión del combate a distancia, la brutalidad de los encuentros cuerpo a cuerpo o la profundidad estratégica de los atributos del personaje. En Duckov, no hay un enfoque único para la supervivencia."
+            }
+        },
+        "maps": {
+            "title": "Explora las Zonas de Duckov",
+            "subtitle": "Navega a través de territorios peligrosos, desde zonas industriales abandonadas hasta la traicionera Zona Cero.",
+            "map1": {
+                "name": "Zona Cero (Ground Zero)",
+                "desc": "El corazón del cataclismo. Mayor riesgo, mayor recompensa."
+            },
+            "map2": {
+                "name": "Distrito de Almacenes (Warehouse District)",
+                "desc": "Fábricas y almacenes abandonados llenos de botín vigilado."
+            },
+            "viewAll": "Ver Todos los Mapas →"
+        },
+        "wiki": {
+            "title": "Descubre los Secretos de Duckov",
+            "subtitle": "Desbloquea misiones, recopila notas y domina cada aspecto del mundo de Duckov a través de nuestra wiki completa.",
+            "quests": {
+                "title": "Misiones",
+                "desc": "Completa tus misiones y sigue el progreso de todas las misiones disponibles."
+            },
+            "exploreAll": "Explorar Todas las Guías →"
+        },
+        "guides": {
+            "title": "Guías Esenciales",
+            "guide1": {
+                "badge": "Principiante",
+                "title": "Cómo Empezar en Duckov",
+                "desc": "Aprende lo básico: cómo escapar de la prisión, completar tus primeras misiones y empezar a construir tu escondite desde cero. Consulta nuestras <a href=\"/guides\">guías para principiantes</a> y la <a href=\"/wiki/quests\">base de datos de misiones</a> para ver recorridos detallados."
+            },
+            "guide2": {
+                "badge": "Estrategia",
+                "title": "Sobrevivir a la Tormenta",
+                "desc": "Una guía completa sobre cómo prepararse y sobrevivir a los eventos periódicos de la **Tormenta** que amenazan con poner fin a tu incursión. Explora nuestras <a href=\"/guides\">guías avanzadas</a>, incluidas las estrategias de acceso a la Zona de Tormenta."
+            },
+            "guide3": {
+                "badge": "Avanzado",
+                "title": "Optimización del Escondite",
+                "desc": "Maximiza la eficiencia de tu escondite, prioriza las mejoras de estaciones y comprende qué NPC reclutar para obtener el mejor equipo. Explora nuestra <a href=\"/items\">base de datos de artículos</a> para optimizar tu equipamiento."
+            },
+            "viewAll": "Ver Todas las Guías →"
+        },
+        "gameInfo": {
+            "title": "Información del Juego",
+            "subtitle": "Todo lo que necesitas saber sobre Escape from Duckov",
+            "details": {
+                "title": "Detalles del Juego",
+                "name": "Nombre",
+                "nameValue": "Escape from Duckov",
+                "genre": "Género",
+                "genreValue": "Acción, Aventura, Indie, RPG",
+                "developer": "Desarrollador",
+                "developerValue": "Team Soda",
+                "publisher": "Distribuidor",
+                "publisherValue": "bilibili",
+                "release": "Fecha de Lanzamiento",
+                "releaseValue": "16 de octubre de 2025"
+            },
+            "languages": {
+                "title": "Idiomas",
+                "lang": "Idioma",
+                "interface": "Interfaz",
+                "audio": "Audio Completo",
+                "subtitles": "Subtítulos",
+                "lang1": "Chino Simplificado",
+                "lang2": "Inglés",
+                "lang3": "Chino Tradicional",
+                "lang4": "Japonés",
+                "lang5": "Alemán",
+                "lang6": "Ruso",
+                "lang7": "Español - Latinoamérica",
+                "lang8": "Coreano",
+                "lang9": "Francés",
+                "lang10": "Portugués - Brasil"
+            }
+        },
+        "reviews": {
+            "title": "Reseñas de Jugadores",
+            "subtitle": "Lo que dicen los jugadores sobre Escape from Duckov",
+            "review1": {
+                "name": "boko",
+                "rating": "★★★★★",
+                "text": "¡Juego absolutamente increíble! El mundo de los patos es muy inmersivo y las mecánicas de supervivencia están perfectamente equilibradas. Ya he pasado más de 50 horas y sigo descubriendo cosas nuevas. ¡El sistema de construcción de escondites es increíble!"
+            },
+            "review2": {
+                "name": "Edythe",
+                "rating": "★★★★★",
+                "text": "Genuinamente divertido, pero ojalá viniera con al menos controles oficiales para gamepad para Steam Deck."
+            },
+            "review3": {
+                "name": "SteakyB",
+                "rating": "★★★★☆",
+                "text": "10/10, solo necesita que el modo cooperativo esté en el juego principal y no sea un mod y es perfecto."
+            },
+            "review4": {
+                "name": "BuilderPro",
+                "rating": "★★★★★",
+                "text": "¡La construcción del escondite es increíble! Me encanta cómo puedes personalizar cada aspecto de tu base. El sistema de creación es profundo y gratificante. Este juego se ha convertido en mi opción preferida para relajarme después del trabajo."
+            },
+            "review5": {
+                "name": "ExplorerDuck",
+                "rating": "★★★★★",
+                "text": "Los mapas están bellamente diseñados con toneladas de secretos por descubrir. Cada incursión se siente diferente gracias al botín dinámico y a los sistemas climáticos. ¡El temporizador de extracción añade una tensión perfecta!"
+            },
+            "review6": {
+                "name": "StealthMaster",
+                "rating": "★★★★☆",
+                "text": "Grandes mecánicas de sigilo y jugabilidad táctica. La IA es inteligente y los mapas ofrecen múltiples enfoques para los objetivos. Me encanta el sistema de riesgo/recompensa, ¡hace que cada decisión sea importante!"
+            }
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes",
+            "q1": {
+                "question": "¿Es Escape from Duckov solo un clon de Tarkov?",
+                "answer": "En absoluto. Si bien se inspira en el género de *extraction shooter*, **Escape from Duckov** es una experiencia completa para un solo jugador con su propia historia, sistemas de progresión y mecánicas únicas como los eventos periódicos de la **Tormenta**. Explora nuestras <a href=\"/guides\">guías completas</a> para conocer las mecánicas únicas del juego."
+            },
+            "q2": {
+                "question": "¿Qué pasa cuando muero?",
+                "answer": "En la dificultad **Equilibrada**, pierdes tu inventario donde moriste, con una oportunidad de recuperarlo. En la dificultad **Extrema**, la muerte significa pérdida permanente. Las dificultades más bajas son más indulgentes con consecuencias mínimas."
+            },
+            "q3": {
+                "question": "¿Puedo jugar sin conexión (offline)?",
+                "answer": "¡Absolutamente! El juego está diseñado como una experiencia completa sin conexión, sin requisitos en línea, PvP ni borrados de progreso diarios. Juega a tu propio ritmo sin el estrés del modo multijugador."
+            },
+            "q4": {
+                "question": "¿Cuánto dura el juego?",
+                "answer": "La campaña principal ofrece más de **50 horas de contenido**, con una amplia rejugabilidad a través de botín dinámico, múltiples configuraciones de dificultad y el desafío continuo de sobrevivir a los eventos de la Tormenta. Echa un vistazo a nuestros <a href=\"/maps\">mapas</a>, <a href=\"/wiki/quests\">misiones</a> y <a href=\"/items\">bases de datos de artículos</a> para descubrir todo lo que Duckov tiene para ofrecer."
+            }
+        }
+    },
+    "GuidesPage": {
+        "title": "Guías de Escape from Duckov",
+        "subtitle": "Desde tutoriales para principiantes hasta recorridos avanzados. Guías completas de Escape from Duckov que cubren estrategias de supervivencia, adquisición de artículos raros, luchas contra jefes, construcción de bases y contenido de juego avanzado (endgame).",
+        "category1": {
+            "title": "Escape from Duckov: Primeros Pasos",
+            "tag": "PRIMEROS PASOS"
+        },
+        "category2": {
+            "title": "Escape from Duckov: Recorridos Avanzados",
+            "tag": "RECORRIDOS"
+        },
+        "category3": {
+            "title": "Guías Específicas para Escape from Duckov",
+            "tag": "AVANZADO"
+        },
+        "viewGuide": "VER GUÍA >",
+        "updated": "Actualizado"
+    },
+    "GuideDetailPage": {},
+    "WikiPage": {
+        "title": "Wiki de Escape from Duckov",
+        "subtitle": "Base de datos completa de misiones de Escape from Duckov con objetivos detallados, recompensas e información de NPC. Su referencia integral para todas las misiones, requisitos y cadenas de misiones en Duckov.",
+        "quests": {
+            "title": "Misiones"
+        }
+    },
+    "WikiQuestsPage": {
+        "title": "Misiones de Escape from Duckov",
+        "subtitle": "Base de datos completa de misiones de Escape from Duckov con todas las misiones de NPC, objetivos, requisitos y recompensas. Sigue tu progreso a través de las cadenas de misiones de Jeff, Mud, Orange, Xavier y otros NPC.",
+        "table": {
+            "npc": "NPC",
+            "questName": "Nombre de la Misión",
+            "rewards": "Recompensas"
+        }
+    },
+    "WikiDetailPage": {},
+    "MapsPage": {
+        "title": "Mapas de Escape from Duckov",
+        "subtitle": "Mapas interactivos de Escape from Duckov para todas las zonas, incluyendo Zona Cero, Granja, Almacén, J-Lab y Área de la Tormenta. Encuentra ubicaciones de botín, puntos de extracción, puntos de aparición de enemigos y rutas de navegación. Domina cada mapa con diseños detallados y guías estratégicas.",
+        "bunker": {
+            "title": "Búnker",
+            "desc": "Tu refugio seguro y base de operaciones. Administra tu inventario, mejora el equipo y planifica tu próxima expedición."
+        },
+        "groundZero": {
+            "title": "Zona Cero (Ground Zero)",
+            "desc": "El área de partida para los nuevos supervivientes. Contiene botín básico, objetivos de misiones iniciales y oportunidades de exploración relativamente seguras."
+        },
+        "farm": {
+            "title": "Granja (Farm)",
+            "desc": "Área agrícola con recursos valiosos y peligro moderado. Perfecta para la progresión de mitad de juego y la recolección de recursos."
+        },
+        "warehouse": {
+            "title": "Almacén (Warehouse)",
+            "desc": "Instalación de almacenamiento industrial con botín de alto valor y mayor presencia enemiga. Requiere una planificación cuidadosa y equipo adecuado."
+        },
+        "jLab": {
+            "title": "J-Lab",
+            "desc": "Instalación de investigación de alta tecnología con equipo avanzado y experimentos peligrosos. Solo para supervivientes experimentados con equipo de primer nivel."
+        },
+        "stormArea": {
+            "title": "Área de la Tormenta (Storm Area)",
+            "desc": "La zona más peligrosa de Duckov. Condiciones climáticas extremas, enemigos de élite y botín legendario esperan a los supervivientes más valientes."
+        }
+    },
+    "ModsPage": {
+        "title": "Mods de Escape from Duckov",
+        "subtitle": "Descubre y descarga los mejores mods de Escape from Duckov creados por la comunidad. Mejora tu jugabilidad con modificaciones personalizadas que incluyen mejoras en la calidad de vida, nuevas características, mejoras visuales y ajustes de juego. Explora mods por categoría y encuentra las adiciones perfectas para tu experiencia en Duckov."
+    },
+    "ModDetailPage": {},
+    "ItemsPage": {
+        "title": "Artículos de Escape from Duckov",
+        "subtitle": "Base de datos completa de Escape from Duckov de armas, equipamiento, munición, llaves y peces. Explora armas de fuego, armas cuerpo a cuerpo, armaduras, cascos, munición, llaves, peces y equipo de protección. Encuentra estadísticas, descripciones y detalles de cada artículo en el arsenal de Duckov.",
+        "weapons": {
+            "title": "Armas",
+            "desc": "Armas de fuego, herramientas cuerpo a cuerpo y todo lo que necesitas para encuentros directos.",
+            "tags": [
+                "Combate",
+                "Daño",
+                "Equipo"
+            ]
+        },
+        "equipment": {
+            "title": "Equipamiento",
+            "desc": "Equipo de protección y vestimenta táctica para sobrevivir a incursiones más largas.",
+            "tags": [
+                "Defensa",
+                "Equipo",
+                "Supervivencia"
+            ]
+        },
+        "ammunition": {
+            "title": "Munición",
+            "desc": "Balas de pistola, cartuchos de rifle, cartuchos de escopeta y todo tipo de munición para tus armas.",
+            "tags": [
+                "Munición",
+                "Calibre",
+                "Compatibilidad"
+            ]
+        },
+        "key": {
+            "title": "Llaves",
+            "desc": "Tarjetas de acceso, tarjetas llave y llaves de seguridad para desbloquear puertas, contenedores y áreas restringidas.",
+            "tags": [
+                "Acceso",
+                "Llaves",
+                "Seguridad"
+            ]
+        },
+        "fish": {
+            "title": "Peces",
+            "desc": "Especies de peces capturables y artículos relacionados con la pesca para tus necesidades de supervivencia.",
+            "tags": [
+                "Pesca",
+                "Comida",
+                "Recursos"
+            ]
+        },
+        "itemsCount": "artículos",
+        "featuredGear": "Equipamiento Destacado",
+        "exploreCategory": "Explorar categoría"
+    },
+    "ItemsWeaponsPage": {
+        "title": "Armas de Escape from Duckov",
+        "subtitle": "Base de datos completa de armas de Escape from Duckov que incluye armas cuerpo a cuerpo y armas de fuego. Explora pistolas, rifles, escopetas, rifles de francotirador, subfusiles (SMGs) y herramientas cuerpo a cuerpo. Encuentra descripciones, estadísticas y detalles de todas las armas de combate en Duckov.",
+        "meleeTitle": "Armas Cuerpo a Cuerpo",
+        "rangedTitle": "Armas a Distancia",
+        "table": {
+            "image": "Imagen",
+            "name": "Nombre",
+            "desc": "Descripción",
+            "type": "Tipo"
+        }
+    },
+    "ItemsEquipmentPage": {
+        "title": "Equipamiento de Escape from Duckov",
+        "subtitle": "Base de datos completa de equipamiento de Escape from Duckov que incluye cascos, armaduras, protección corporal, mochilas, auriculares y equipo táctico. Explora cascos de Nivel 2-5, equipo SWAT, dispositivos de visión nocturna, contenedores de almacenamiento y equipo de protección. Encuentra descripciones, estadísticas y detalles de todo el equipo defensivo y de utilidad en Duckov.",
+        "headgearTitle": "Cascos",
+        "otherTitle": "Otro Equipamiento",
+        "bodyTitle": "Cuerpo",
+        "table": {
+            "image": "Imagen",
+            "name": "Nombre",
+            "desc": "Descripción",
+            "type": "Tipo"
+        }
+    },
+    "ItemsAmmunitionPage": {
+        "title": "Munición de Escape from Duckov",
+        "subtitle": "Base de datos completa de munición de Escape from Duckov con todos los tipos de balas, calibres y proyectiles. Explora munición de pistola, cartuchos de rifle, cartuchos de escopeta y proyectiles especiales con estadísticas de daño detalladas e información de compatibilidad con armas.",
+        "table": {
+            "image": "Imagen",
+            "name": "Nombre",
+            "desc": "Descripción",
+            "type": "Tipo"
+        }
+    },
+    "ItemsKeyPage": {
+        "title": "Llaves de Escape from Duckov",
+        "subtitle": "Base de datos completa de llaves de Escape from Duckov que incluye certificados J-Lab, tarjetas de acceso, llaves de fábrica, llaves de dormitorio y llaves específicas de ubicación. Explora certificados J-Lab Nivel 1-3, tarjetas de acceso de colores y tickets especiales con información de ubicación.",
+        "table": {
+            "image": "Imagen",
+            "name": "Nombre",
+            "desc": "Descripción",
+            "type": "Tipo"
+        }
+    },
+    "ItemsFishPage": {
+        "title": "Guía de Pesca de Escape from Duckov",
+        "subtitle": "Guía de pesca completa de Escape from Duckov que incluye todas las especies de peces capturables, cañas de pescar, cebos y equipo de pesca. Aprende sobre la mecánica de pesca, hábitos de los peces, distribución por ubicación, capturas según la hora del día, patrones climáticos y recetas de cebo. Domina el minijuego de pesca con guías detalladas sobre la captura de peces y el uso de equipo en Duckov.",
+        "catchTitle": "Capturas",
+        "rodTitle": "Caña de Pescar",
+        "baitTitle": "Cebo para Peces",
+        "table": {
+            "image": "Imagen",
+            "name": "Nombre",
+            "desc": "Descripción",
+            "type": "Tipo"
+        }
+    },
+    "ItemsDetailPage": {},
+    "PrivacyPolicyPage": {
+        "title": "Escape from Duckov - Política de Privacidad",
+        "subtitle": "Cómo protegemos y manejamos su información personal",
+        "lastUpdated": "Última actualización: 28 de octubre de 2025",
+        "generalInfo": {
+            "title": "Información General",
+            "p1": "En DuckovGame, nos comprometemos a proteger la privacidad de todos los usuarios de nuestros sitios web y aplicaciones. Esta Política de Privacidad se aplica a todos los servicios y productos ofrecidos por duckovgame.com. Al utilizar este Sitio, usted acepta esta Política de Privacidad y confirma que es mayor de edad para dar su consentimiento a sus términos. El uso continuado del Sitio después de cualquier cambio en esta política constituirá la aceptación de dichos cambios.",
+            "p2": "El Sitio está destinado a visitantes mayores de 16 años. Si tiene menos de 16 años, por favor no use el Sitio. Si usted es padre o tutor y permite que un niño acceda al Sitio, usted da su consentimiento a esta Política de Privacidad en su nombre.",
+            "p3": "Si tiene preguntas sobre esta Política de Privacidad, contáctenos en"
+        },
+        "dataCollection": {
+            "title": "¿Qué Datos Recopilamos?",
+            "provided": {
+                "title": "Datos que usted proporciona",
+                "text": "Solo procesamos los datos personales que usted nos proporciona voluntariamente, por ejemplo, al completar formularios o contactarnos. Esto puede incluir:",
+                "items": [
+                    "Nombre",
+                    "Dirección de correo electrónico",
+                    "Cualquier otra información que elija proporcionar"
+                ]
+            },
+            "automated": {
+                "title": "Datos recopilados automáticamente",
+                "text": "Podemos recopilar ciertos datos automáticamente durante su visita, como:",
+                "items": [
+                    "Dirección IP (para prevención de fraude, análisis o funciones basadas en la ubicación)",
+                    "Tipo y versión de navegador",
+                    "Página o sitio de referencia",
+                    "Identificadores de dispositivo (incluidos los ID de dispositivos móviles)",
+                    "Datos de cookies y seguimiento",
+                    "Datos de interacción del usuario (por ejemplo, si vio o hizo clic en un anuncio)"
+                ]
+            },
+            "thirdParty": {
+                "title": "Datos de terceros",
+                "text": "Si recibimos datos personales de terceros, le informaremos cuando sea necesario."
+            }
+        },
+        "legalBasis": {
+            "title": "Por Qué Recopilamos Datos y Base Legal",
+            "text": "Recopilamos y procesamos datos personales para fines que incluyen, entre otros:",
+            "items": [
+                "Proporcionar, mejorar y optimizar nuestros servicios y contenido",
+                "Cumplir con obligaciones contractuales",
+                "Enviar actualizaciones, boletines informativos y comunicaciones de marketing (cuando esté permitido)",
+                "Análisis estadístico e investigación",
+                "Cumplimiento de obligaciones legales (por ejemplo, verificación de edad)"
+            ],
+            "p2": "Las bases legales para el procesamiento pueden incluir su consentimiento, la ejecución de un contrato, intereses legítimos o el cumplimiento de obligaciones legales.",
+            "note": "Los anunciantes o servicios de terceros pueden recopilar datos a través de sus propias cookies o tecnologías de seguimiento. DuckovGame no es responsable de las prácticas de recopilación de datos de terceros."
+        },
+        "dataRetention": {
+            "title": "Retención de Datos",
+            "text": "Retenemos los datos personales solo durante el tiempo que sea necesario para cumplir con los fines descritos en esta política. Los datos asociados con cuentas inactivas o visitantes pueden eliminarse después de un período de inactividad razonable, a menos que la retención sea requerida por ley o por razones comerciales legítimas."
+        },
+        "gdpr": {
+            "title": "GDPR y Sus Derechos (Residentes del EEE)",
+            "text": "Si usted es residente del Espacio Económico Europeo (EEE), tiene ciertos derechos con respecto a sus datos personales, incluidos:",
+            "items": [
+                "El derecho a acceder, actualizar o eliminar sus datos personales",
+                "El derecho a la rectificación de información inexacta",
+                "El derecho a oponerse al procesamiento",
+                "El derecho a restringir el procesamiento",
+                "El derecho a la portabilidad de los datos",
+                "El derecho a retirar el consentimiento cuando el procesamiento se base en el consentimiento"
+            ],
+            "p2": "Podemos solicitar la verificación de identidad antes de atender las solicitudes. Para obtener más información, también puede comunicarse con su autoridad local de protección de datos."
+        },
+        "rights": {
+            "title": "Sus Derechos y Preferencias de Comunicación",
+            "text1": "Puede optar por no recibir comunicaciones de marketing en cualquier momento contactando a",
+            "text2": "o siguiendo las instrucciones de cancelación de suscripción incluidas en dichas comunicaciones. Para solicitar la corrección, eliminación o restricción del procesamiento, proporcione un motivo claro para la solicitud que nos ayude a verificarla y cumplirla rápidamente."
+        },
+        "cookies": {
+            "title": "Cookies",
+            "what": {
+                "title": "¿Qué son las cookies?",
+                "text": "Las cookies son pequeños archivos almacenados en su dispositivo que ayudan a los sitios web a recordar preferencias y mejorar la experiencia del usuario. Las balizas web son imágenes pequeñas, generalmente transparentes, que se utilizan para monitorear el comportamiento del usuario."
+            },
+            "types": {
+                "title": "Tipos de cookies",
+                "first": "Cookies de origen (First-party): Colocadas por este Sitio para admitir funciones técnicas (por ejemplo, configuración de idioma, manejo de sesiones).",
+                "third": "Cookies de terceros (Third-party): Colocadas por proveedores externos (por ejemplo, análisis, redes publicitarias) y utilizadas para rastrear el comportamiento de navegación en varios sitios."
+            },
+            "use": {
+                "title": "Qué cookies utilizamos",
+                "text": "DuckovGame utiliza cookies de origen para mejorar la usabilidad y puede permitir cookies de terceros (por ejemplo, Google Analytics o socios publicitarios) para proporcionar servicios de análisis y publicidad. Las cookies esenciales para la función del sitio no requieren consentimiento; otras cookies pueden requerir su permiso."
+            },
+            "manage": {
+                "title": "Cómo gestionar las cookies",
+                "text": "Puede gestionar o deshabilitar las cookies a través de la configuración de su navegador. Consulte la documentación de soporte de su navegador (Chrome, Firefox, Safari, Edge/Internet Explorer, Opera) para obtener instrucciones sobre cómo bloquear o eliminar cookies."
+            }
+        },
+        "security": {
+            "title": "Medidas de Seguridad",
+            "text": "Implementamos medidas técnicas y organizativas razonables para proteger los datos personales y restringir el acceso solo al personal autorizado. No vendemos ni alquilamos sus datos personales. Cuando se utilizan procesadores externos, se les exige contractualmente que protejan y procesen los datos de forma segura y que los eliminen después de completar las tareas asignadas."
+        },
+        "contact": {
+            "title": "Información de Contacto",
+            "text": "Si tiene preguntas o inquietudes sobre esta Política de Privacidad, comuníquese con:",
+            "email": "Correo Electrónico:",
+            "website": "Sitio Web:"
+        }
+    },
+    "TermsOfServicePage": {
+        "title": "Escape from Duckov - Términos de Servicio",
+        "subtitle": "Términos y condiciones para el uso de nuestro sitio web",
+        "lastUpdated": "Última actualización:",
+        "date": "28 de octubre de 2025",
+        "generalInfo": {
+            "title": "Información General",
+            "p1": "Los siguientes Términos de Servicio (el \"Acuerdo\") son importantes y requieren una lectura cuidadosa. Su aceptación de estos \"Términos de Servicio\" significa su acuerdo a estar obligado por ellos. Este Acuerdo es entre usted y DuckovGame (en adelante: \"Sitio\", \"nosotros\", o \"nuestro\") y se refiere a su uso de nuestro sitio web, incluyendo cualquier material y servicio disponible en el mismo, y cualquier sitio(s) sucesor(es) (el \"Sitio\").",
+            "p2": "AL UTILIZAR EL SITIO, USTED ACEPTA ESTOS TÉRMINOS DE SERVICIO Y CONFIRMA QUE ES MAYOR DE 16 AÑOS. Cualquier referencia a \"usted\" o \"su\" en este Acuerdo se aplica a la persona que utiliza el Sitio.",
+            "p3": "Este Acuerdo incluye una disposición de arbitraje obligatorio, explicada en la Sección 11 a continuación. Esta disposición requiere arbitraje sobre una base individual para resolver disputas, en lugar de juicios con jurado, procedimientos judiciales o acciones colectivas. Revise esta sección detenidamente."
+        },
+        "changes": {
+            "title": "Cambios",
+            "p1": "Este Acuerdo puede ser modificado periódicamente, y le notificaremos dichos cambios por medios razonables, lo que puede incluir la publicación de un Acuerdo revisado en el Sitio. Cualquier cambio realizado no se aplicará a las disputas que surgieron antes de la fecha de dichos cambios.",
+            "p2": "Al utilizar el Sitio después de que se publiquen los cambios, usted acepta estar sujeto a los términos revisados. El uso continuado se considerará la aceptación de los cambios.",
+            "p3": "Nos reservamos el derecho de modificar o interrumpir la totalidad o parte del Sitio, ajustar o eximir tarifas, u ofrecer oportunidades especiales a algunos o todos los usuarios del Sitio en cualquier momento, sin responsabilidad."
+        },
+        "information": {
+            "title": "Información Enviada a Través del Sitio",
+            "p1": "El envío de información a través del Sitio está sujeto a la Política de Privacidad. Al utilizar el Sitio, usted reconoce y acepta la Política de Privacidad.",
+            "p2": "Usted afirma que toda la información que proporciona es precisa y completa, y acepta mantenerla y actualizarla. Si surgen discrepancias entre este Acuerdo y la Política de Privacidad con respecto a los datos personales, prevalecerá la Política de Privacidad."
+        },
+        "jurisdiction": {
+            "title": "Cuestiones Jurisdiccionales",
+            "p1": "El Sitio es controlado y operado desde dentro del Espacio Económico Europeo y no tiene la intención de someternos a ninguna jurisdicción fuera de esta área. Es posible que el Sitio no sea adecuado o accesible en todas partes. Al utilizar el Sitio, usted asume todos los riesgos y es responsable de cumplir con las leyes aplicables.",
+            "p2": "Podemos restringir o limitar el acceso al Sitio, en su totalidad o en parte, a cualquier persona, ubicación o jurisdicción en cualquier momento."
+        },
+        "rules": {
+            "title": "Reglas de Conducta",
+            "items": [
+                "No debe publicar ni transmitir material que sea amenazante, acosador, difamatorio, obsceno, ilegal o que infrinja los derechos de otros.",
+                "No debe utilizar el Sitio con fines comerciales, fraudulentos o ilegales no autorizados.",
+                "No puede recopilar información sobre los usuarios, excepto según lo permita la Política de Privacidad.",
+                "No debe interferir o interrumpir el funcionamiento del Sitio o sus servidores y redes.",
+                "No debe restringir o inhibir a otros de usar el Sitio.",
+                "No puede reproducir, modificar, vender, distribuir o explotar ninguna parte del Sitio sin nuestro consentimiento previo por escrito.",
+                "No puede realizar ingeniería inversa o descompilar el Sitio, excepto donde lo prohíba la ley.",
+                "No debe eliminar los avisos de derechos de autor o marcas comerciales del Sitio.",
+                "No puede enmarcar, duplicar (mirror) o descargar contenido sistemáticamente sin consentimiento.",
+                "No puede usar bots, arañas, raspadores (scrapers) o herramientas similares sin consentimiento.",
+                "Usted es responsable de todos los costos de hardware, internet y servicios necesarios para usar el Sitio."
+            ]
+        },
+        "monitoring": {
+            "title": "Monitoreo",
+            "text": "Podemos, pero no estamos obligados a, monitorear, evaluar o eliminar el contenido enviado al Sitio. Podemos analizar su uso y divulgar información relacionada según lo permita la ley y nuestra Política de Privacidad."
+        },
+        "thirdParty": {
+            "title": "Materiales y Enlaces de Terceros",
+            "p1": "El Sitio puede proporcionar acceso a materiales de terceros (incluidos contenido, productos, servicios, anuncios y promociones). No controlamos ni respaldamos los materiales de terceros y no somos responsables de su precisión, legalidad o seguridad.",
+            "p2": "El uso de materiales de terceros es bajo su propio riesgo y está sujeto a los términos y políticas de esos terceros."
+        },
+        "disclaimer": {
+            "title": "Descargo de Responsabilidad de Garantías",
+            "p1": "EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY: (A) EL SITIO Y TODOS LOS PRODUCTOS Y MATERIALES DE TERCEROS SE PROPORCIONAN \"TAL CUAL\", \"DONDE ESTÁN\" Y \"DONDE ESTÉN DISPONIBLES\", SIN GARANTÍAS DE NINGÚN TIPO; Y (B) DuckovGame RENUNCIA A TODAS LAS GARANTÍAS, INCLUIDAS LA COMERCIABILIDAD, LA IDONEIDAD PARA UN PROPÓSITO PARTICULAR, LA NO INFRACCIÓN Y EL TÍTULO.",
+            "p2": "Aunque nos esforzamos por la precisión y la seguridad, no podemos garantizar que el Sitio sea siempre correcto, seguro o ininterrumpido. Si nota alteraciones no autorizadas, contáctenos en"
+        },
+        "filtering": {
+            "title": "Filtrado",
+            "text1": "Las protecciones de control parental están disponibles para ayudar a restringir el acceso a material dañino. Se puede encontrar más información",
+            "text2": "No respaldamos ningún producto o servicio listado."
+        },
+        "copyright": {
+            "title": "Reclamaciones por Infracción de Derechos de Autor",
+            "text1": "Si cree que los materiales en el Sitio violan sus derechos de autor, puede enviarnos un aviso solicitando su eliminación. Si cree que se presentó una reclamación erróneamente en su contra, puede enviar una contranotificación. Recomendamos buscar asesoramiento legal antes de presentar avisos. Contacto:"
+        },
+        "miscellaneous": {
+            "title": "Varios",
+            "p1": "Este Acuerdo no crea ninguna asociación, empresa conjunta, relación laboral o de agencia entre usted y DuckovGame. Si alguna disposición no es exigible, se eliminará sin afectar los términos restantes.",
+            "p2": "Usted no puede transferir sus derechos u obligaciones sin nuestro consentimiento, pero podemos ceder los nuestros sin restricciones. La falta de cumplimiento de cualquier disposición no renuncia a nuestro derecho a hacerla cumplir más tarde.",
+            "p3": "Este Acuerdo, junto con los términos incorporados, es el acuerdo completo entre usted y DuckovGame y reemplaza todos los acuerdos anteriores. Las notificaciones se pueden entregar por correo electrónico, correo postal o publicación en el Sitio.",
+            "p4": "DuckovGame no será responsable por el incumplimiento debido a causas fuera de su control."
+        }
+    },
+    "CopyrightPage": {
+        "title": "Escape from Duckov - Derechos de Autor",
+        "subtitle": "Información de derechos de autor y pautas de uso",
+        "statement": {
+            "title": "Declaración de Derechos de Autor",
+            "text": "Todo el contenido de DuckovGame, incluidos, entre otros, texto, gráficos, imágenes, videos y software, es propiedad de DuckovGame y está protegido por las leyes internacionales de derechos de autor. Queda estrictamente prohibido el uso, la reproducción o la distribución no autorizados de este contenido."
+        },
+        "whatWeOwn": {
+            "title": "Lo Que Poseemos",
+            "items": {
+                "original": "Contenido Original: Todo el contenido escrito, guías, tutoriales y reseñas creadas por nuestro equipo.",
+                "design": "Diseño del Sitio Web: Diseño, estilo, interfaz de usuario y elementos de diseño general del sitio web.",
+                "images": "Imágenes Originales: Fotografías, capturas de pantalla y gráficos creados específicamente para este sitio web.",
+                "code": "Código y Software: Código del sitio web, scripts y software desarrollados para esta plataforma."
+            }
+        },
+        "thirdParty": {
+            "title": "Contenido de Terceros",
+            "text": "Respetamos los derechos de propiedad intelectual de otros. Parte del contenido de nuestro sitio web puede incluir referencias, imágenes o información relacionada con Escape from Duckov, que pertenecen a sus respectivos propietarios."
+        },
+        "fairUse": {
+            "title": "Política de Uso Justo (Fair Use)",
+            "text": "Apoyamos el uso justo de nuestro contenido con fines educativos, de investigación y personales. Sin embargo, el uso comercial requiere un permiso explícito.",
+            "allowed": "Usos Permitidos:",
+            "allowedItems": [
+                "Estudio e investigación personal",
+                "Fines educativos",
+                "Compartir sin fines comerciales",
+                "Crítica y comentario"
+            ],
+            "restricted": "Usos Restringidos:",
+            "restrictedItems": [
+                "Reproducción comercial",
+                "Distribución masiva",
+                "Modificación sin permiso",
+                "Eliminación de la atribución"
+            ]
+        },
+        "dmca": {
+            "title": "Cumplimiento de DMCA (Digital Millennium Copyright Act)",
+            "text": "Cumplimos con la Ley de Derechos de Autor del Milenio Digital (DMCA). Si cree que su trabajo con derechos de autor ha sido utilizado sin permiso, contáctenos de inmediato.",
+            "subtitle": "Para presentar un aviso de eliminación de DMCA, incluya:",
+            "items": [
+                "Detalles específicos sobre el material con derechos de autor",
+                "Prueba de que usted posee los derechos sobre el contenido",
+                "Un aviso formal de eliminación de DMCA enviado a nuestro agente designado"
+            ]
+        },
+        "attribution": {
+            "title": "Requisitos de Atribución",
+            "text": "Al utilizar nuestro contenido bajo uso justo o con permiso, se requiere una atribución adecuada."
+        },
+        "license": {
+            "title": "Solicitudes de Licencia",
+            "text": "Para uso comercial, licencias u otros permisos, contáctenos con su solicitud específica.",
+            "subtitle": "Su solicitud debe incluir:",
+            "items": [
+                "Contenido específico que desea utilizar",
+                "Propósito e audiencia prevista",
+                "Duración del uso",
+                "Información de contacto"
+            ]
+        },
+        "contact": {
+            "title": "Información de Contacto",
+            "email": "Correo Electrónico:"
+        },
+        "updates": {
+            "title": "Actualizaciones al Aviso de Derechos de Autor",
+            "p1": "Este aviso de derechos de autor puede actualizarse periódicamente. La versión más reciente estará siempre disponible en esta página. El uso continuado de nuestro sitio web constituye la aceptación de cualquier cambio.",
+            "p2": "Revise esta página regularmente para ver las actualizaciones de nuestra política de derechos de autor."
+        }
+    },
+    "AboutUsPage": {
+        "title": "Escape from Duckov - Quiénes Somos",
+        "subtitle": "Conozca más sobre DuckovGame y nuestra misión",
+        "whoWeAre": {
+            "title": "Quiénes Somos",
+            "text": "DuckovGame es una plataforma líder dedicada a proporcionar contenido, guías y recursos de alta calidad para nuestra comunidad. Somos un equipo apasionado de creadores, investigadores y entusiastas cuyo objetivo es ofrecer información precisa, atractiva y valiosa en diversos campos."
+        },
+        "mission": {
+            "title": "Nuestra Misión",
+            "text": "Nuestra misión es empoderar a los usuarios ofreciendo conocimiento confiable, estrategias prácticas y perspectivas impulsadas por la comunidad. Ya sea juegos, tecnología, estilo de vida o recursos creativos, nos esforzamos por convertirnos en la fuente de referencia para contenido confiable y actualizado."
+        },
+        "offer": {
+            "title": "Lo Que Ofrecemos",
+            "items": {
+                "guides": "Guías y Tutoriales: Recursos completos para ayudar a los usuarios a aprender, crecer y resolver problemas.",
+                "updates": "Últimas Actualizaciones: Contenido actualizado regularmente para garantizar relevancia y precisión.",
+                "community": "Recursos Comunitarios: Un centro para la colaboración, el intercambio de conocimientos y la interacción significativa.",
+                "features": "Características Especiales: Información exclusiva, herramientas y contenido curado para nuestra audiencia."
+            }
+        },
+        "commitment": {
+            "title": "Nuestro Compromiso",
+            "text": "Estamos comprometidos a mantener un alto nivel de calidad, integridad y transparencia en todo lo que publicamos. Nuestro equipo trabaja continuamente para verificar la información, actualizar los recursos y garantizar que nuestra plataforma siga siendo confiable y centrada en el usuario."
+        },
+        "community": {
+            "title": "Enfoque en la Comunidad",
+            "text": "En DuckovGame, creemos en el poder de la comunidad. Nuestra plataforma está diseñada para conectar personas, fomentar la colaboración y promover un entorno positivo donde todos puedan aprender y contribuir."
+        },
+        "quality": {
+            "title": "Garantía de Calidad",
+            "text": "La precisión es el núcleo de lo que hacemos. Cada pieza de contenido es revisada y verificada cuidadosamente por nuestro equipo para garantizar que cumple con los más altos estándares antes de ser publicada en DuckovGame (duckovgame.com)."
+        },
+        "updates": {
+            "title": "Actualizaciones Regulares",
+            "text": "Actualizamos nuestros recursos con frecuencia para seguir el ritmo de los cambios de la industria, las necesidades de la comunidad y los comentarios de los usuarios. Esto garantiza que nuestra audiencia siempre tenga acceso a la información más relevante y valiosa."
+        },
+        "contact": {
+            "title": "Contáctenos",
+            "text1": "¿Tiene preguntas, sugerencias o comentarios? ¡Nos encantaría saber de usted! Puede comunicarse con nosotros en",
+            "text2": "y nos comunicaremos con usted lo antes posible."
+        },
+        "join": {
+            "title": "Únase a Nuestra Comunidad",
+            "text": "Manténgase conectado con DuckovGame siguiendo nuestras actualizaciones e interactuando con la comunidad. Juntos, podemos construir un espacio más fuerte, más informado y de mayor apoyo para todos."
+        }
+    },
+    "ContactUsPage": {
+        "title": "Escape from Duckov - Contáctenos",
+        "subtitle": "Póngase en contacto con nuestro equipo",
+        "getInTouch": {
+            "title": "Póngase en Contacto",
+            "text": "¡Nos encantaría saber de usted! Si tiene preguntas sobre nuestros servicios, sugerencias de mejora o simplemente quiere saludar, estamos aquí para ayudarle."
+        },
+        "contactInfo": {
+            "title": "Información de Contacto",
+            "email": "Correo Electrónico:",
+            "responseTime": "Generalmente respondemos en 24 horas."
+        },
+        "responseTime": {
+            "title": "Tiempo de Respuesta",
+            "weekday": "Lunes a Viernes: Dentro de 24 horas",
+            "weekend": "Fines de Semana: Dentro de 48 horas"
+        },
+        "helpWith": {
+            "title": "Temas en los que Podemos Ayudar",
+            "account": "Problemas de Cuenta o Acceso: Ayuda con problemas de inicio de sesión, membresía o suscripción",
+            "feedback": "Comentarios del Sitio Web: Sugerencias para mejorar DuckovGame (duckovgame.com)",
+            "content": "Solicitudes de Contenido: Ideas para nuevos artículos, guías o recursos",
+            "tech": "Soporte Técnico: Asistencia con la funcionalidad del sitio",
+            "partnership": "Consultas de Colaboración: Oportunidades de asociación",
+            "general": "Preguntas Generales: Cualquier otra cosa relacionada con DuckovGame y nuestros servicios"
+        },
+        "beforeContact": {
+            "title": "Antes de Contactarnos",
+            "text": "Para ayudarnos a brindarle la mejor asistencia, por favor incluya los siguientes detalles en su correo electrónico:",
+            "items": {
+                "question": "Su pregunta o problema específico",
+                "error": "Cualquier mensaje de error (si aplica)",
+                "steps": "Pasos que ya ha intentado",
+                "device": "Información de su dispositivo y navegador (si es relevante)"
+            }
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes",
+            "q1": {
+                "question": "¿Con qué frecuencia se actualiza su contenido?",
+                "answer": "Actualizamos nuestros recursos regularmente para garantizar la precisión y la actualidad."
+            },
+            "q2": {
+                "question": "¿Es su contenido seguro y confiable?",
+                "answer": "Sí, toda la información que proporcionamos es verificada y obtenida de fuentes responsables."
+            },
+            "q3": {
+                "question": "¿Puedo sugerir contenido nuevo?",
+                "answer": "¡Absolutamente! Agradecemos sus ideas y contribuciones; simplemente envíenoslas."
+            }
+        },
+        "businessHours": {
+            "title": "Horario Comercial",
+            "text": "Nuestro equipo está disponible de lunes a viernes, de 9:00 AM a 6:00 PM (EST). Si bien podemos responder fuera de este horario, por favor espere hasta 24 a 48 horas para recibir respuestas durante los fines de semana y días festivos."
+        },
+        "privacy": {
+            "title": "Privacidad",
+            "text": "Respetamos su privacidad y nunca compartiremos su información personal con terceros. Todas las comunicaciones se mantienen confidenciales y se utilizan solo para brindarle el mejor servicio posible."
+        },
+        "thankYou": {
+            "title": "Gracias",
+            "text": "¡Gracias por ser parte de la comunidad DuckovGame! Sus comentarios y apoyo nos ayudan a seguir brindando la mejor experiencia a nuestros usuarios en todo el mundo."
+        }
+    }
+}

@@ -99,16 +99,19 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed, watch } from 'vue'
+import { ref, onMounted, computed, watch, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useGuideData } from '../composables/useGuideData'
 import { getLocalizedPath } from '../utils/routeUtils'
+import { useSEO } from '../seo/composables.js'
+import { seoConfig } from '../seo/config.js'
 
 const route = useRoute()
 const { locale } = useI18n()
 const { guides, loadData, findGuideByAddressBar } = useGuideData()
 const guide = ref(null)
+const { setSEO } = useSEO()
 
 // 获取当前语言的路径
 const getLocalizedPathForCurrentLang = (path) => {
@@ -122,20 +125,60 @@ const initGuide = async () => {
     guide.value = findGuideByAddressBar(`/${guideId}`)
 }
 
-onMounted(() => {
-    initGuide()
+// 手动更新SEO
+const updateSEO = () => {
+    if (!guide.value) return
+    
+    if (guide.value.seo) {
+        setSEO({
+            title: guide.value.seo.title || guide.value.title || seoConfig.defaults.title,
+            description: guide.value.seo.description || guide.value.description || seoConfig.defaults.description,
+            keywords: guide.value.seo.keywords || seoConfig.defaults.keywords,
+            author: seoConfig.defaults.author,
+            image: guide.value.imageUrl || seoConfig.defaults.image,
+            type: 'article'
+        })
+    } else {
+        setSEO({
+            title: guide.value.title ? `${guide.value.title} - Escape from Duckov` : seoConfig.defaults.title,
+            description: guide.value.description || seoConfig.defaults.description,
+            keywords: seoConfig.defaults.keywords,
+            author: seoConfig.defaults.author,
+            image: guide.value.imageUrl || seoConfig.defaults.image,
+            type: 'article'
+        })
+    }
+}
+
+onMounted(async () => {
+    await initGuide()
+    await nextTick()
+    updateSEO()
 })
 
 // 监听语言变化，重新加载数据
-watch(locale, () => {
-    initGuide()
+watch(locale, async () => {
+    await initGuide()
+    await nextTick()
+    updateSEO()
 })
 
 // 监听路由变化，更新当前 guide
-watch(() => route.params.id, () => {
+watch(() => route.params.id, async () => {
     const guideId = route.params.id
     guide.value = findGuideByAddressBar(`/${guideId}`)
+    await nextTick()
+    updateSEO()
 })
+
+// 监听guide变化，自动更新SEO
+watch(guide, () => {
+    if (guide.value) {
+        nextTick(() => {
+            updateSEO()
+        })
+    }
+}, { immediate: true })
 
 // 计算其他guides（排除当前guide，只显示最后5个）
 const otherGuides = computed(() => {

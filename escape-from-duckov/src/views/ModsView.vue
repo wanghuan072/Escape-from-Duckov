@@ -38,13 +38,24 @@
 </template>
 
 <script setup>
+import { onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { mods } from '../data/mods/mods.js'
+import { useModsData } from '../composables/useModsData'
 import { getLocalizedPath } from '../utils/routeUtils'
 
 const router = useRouter()
 const { t, locale } = useI18n()
+const { mods, loadData } = useModsData()
+
+onMounted(() => {
+    loadData()
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
+    loadData()
+})
 
 const goToMod = (addressBar) => {
     const path = getLocalizedPath(`/mods${addressBar}`, locale.value)

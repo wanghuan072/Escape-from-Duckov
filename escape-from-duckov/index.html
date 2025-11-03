@@ -60,6 +60,8 @@
     }
     </script>
 
+
+
     <!--  -->
     <!-- 延迟加载第三方脚本 -->
   <script>
@@ -77,6 +79,14 @@
         gtag('js', new Date());
         gtag('config', 'G-FK6RY91JR7');
 
+
+        // 延迟加载广告
+        const adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.defer = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8808022933234990';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
       }, 3000);
     });
   </script>

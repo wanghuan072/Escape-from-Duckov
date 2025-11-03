@@ -74,7 +74,7 @@
 </template>
 
 <script setup>
-import { onMounted, computed } from 'vue'
+import { onMounted, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
@@ -94,6 +94,11 @@ const meleeItems = computed(() => (itemsData?.value || []).filter(i => isMelee(i
 const rangedItems = computed(() => (itemsData?.value || []).filter(i => !isMelee(i.type)))
 
 onMounted(() => {
+    loadData('weapons')
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
     loadData('weapons')
 })
 

@@ -1,962 +1,1028 @@
 export const guides = [
-    {
-      id: 1,
-      title: 'Complete Beginner\'s Survival Guide',
-      description: 'Master the fundamentals of Escape from Duckov with this comprehensive guide covering base setup, first raids, NPC interactions, and essential survival strategies.',
-      imageUrl: '/images/guide-01.webp',
-      imageAlt: 'Complete Beginner\'s Survival Guide',
-      publishDate: '2025-10-27',
-      addressBar: '/complete-beginner-survival-guide',
-      category: 'getting-started',
-      tags: ['SURVIVAL', 'BASE SETUP', 'FIRST RAID', 'NPC GUIDE', 'COMBAT BASICS'],
-      seo: {
-        title: 'Complete Beginner\'s Survival Guide - Escape from Duckov',
-        description: 'Master the fundamentals of Escape from Duckov with this comprehensive guide covering base setup, first raids, NPC interactions, and essential survival strategies.',
-        keywords: 'Escape from Duckov, Beginner Guide, Survival Guide, Base Setup, First Raid, NPC Guide, Combat Basics, Ground Zero',
-      },
-      detailsHtml: `
-          <p>你好</p>
+  {
+    "id": 1,
+    "title": "完整的初学者生存指南",
+    "description": "通过这份综合指南掌握《逃离达科夫》的基础知识，内容涵盖基地设置、首次突袭、NPC 互动和必要的生存策略。",
+    "imageUrl": "/images/guide-01.webp",
+    "imageAlt": "完整的初学者生存指南",
+    "publishDate": "2025-10-27",
+    "addressBar": "/complete-beginner-survival-guide",
+    "category": "getting-started",
+    "tags": [
+      "SURVIVAL",
+      "BASE SETUP",
+      "FIRST RAID",
+      "NPC GUIDE",
+      "COMBAT BASICS"
+    ],
+    "seo": {
+      "title": "完整的初学者生存指南 - 逃离达科夫",
+      "description": "通过这份综合指南掌握《逃离达科夫》的基础知识，内容涵盖基地设置、首次突袭、NPC 互动和必要的生存策略。",
+      "keywords": "Escape from Duckov, Beginner Guide, Survival Guide, Base Setup, First Raid, NPC Guide, Combat Basics, Ground Zero"
+    },
+    "detailsHtml": `
+          <p>欢迎来到危险的<a href="/">逃离达科夫</a>世界！这份全面的初学者指南将引导您迈出在这个生存 RPG 中的第一步，从设置您的基地到完成您的首次探险。</p>
           
-          <h2>1. Base Configuration and Early Missions</h2>
+          <h2>1. 基地配置和早期任务</h2>
           
-          <h3>Difficulty Settings</h3>
-          <p><strong>Adjusting Difficulty:</strong> Press the F key near the table in your hideout to modify game difficulty at any time.</p>
-          <p><strong>Survival Mode:</strong> Recommended for experienced players seeking maximum challenge and realistic survival mechanics.</p>
+          <h3>难度设置</h3>
+          <p><strong>调整难度：</strong> 在您的藏身处靠近桌子处按 F 键可随时修改游戏难度。</p>
+          <p><strong>生存模式：</strong> 推荐给寻求最大挑战和真实生存机制的经验丰富的玩家。</p>
           
-          <h3>Inventory Management</h3>
-          <p><strong>Storage System:</strong> Use your stash to safely store items you don't want to risk losing during raids.</p>
-          <p><strong>Slot Protection:</strong> Press L to lock important item slots, preventing accidental storage when using "Store All" functions.</p>
-          <p><strong>Item Marking:</strong> Press N on quest items in crafting interfaces to tag them. Marked items will display a heart icon during looting.</p>
+          <h3>库存管理</h3>
+          <p><strong>存储系统：</strong> 使用您的储藏室安全地存储您不想在突袭中冒着丢失风险的物品。</p>
+          <p><strong>槽位保护：</strong> 按 L 键锁定重要的物品槽位，防止在使用“全部存储”功能时意外存储。</p>
+          <p><strong>物品标记：</strong> 在制作界面中对任务物品按 N 键进行标记。标记的物品在搜刮时会显示一个心形图标。</p>
           
           <img src="/images/guide/guide01-01.webp" alt="Difficulty Settings" class="guide-image" />
   
-          <h3>Starting Missions</h3>
-          <p>Visit Jeff to accept your first quests. For a complete list of available quests, check our <a href="/wiki/quests">quest database</a>:</p>
+          <h3>起始任务</h3>
+          <p>拜访杰夫（Jeff）以接受您的第一个任务。如需所有可用任务的完整列表，请查看我们的<a href="/wiki/quests">任务数据库</a>：</p>
           <ul>
-              <li><strong>Crafting Station:</strong> Gather 2 pieces of Wood to build your first workbench</li>
-              <li><strong>Initial Capital:</strong> Eliminate any hostile enemy and successfully escape from the "Ground Zero" area</li>
+              <li><strong>制作站：</strong> 收集 2 块木材来建造您的第一个工作台</li>
+              <li><strong>初始资金：</strong> 消灭任何一个敌对敌人并成功从“零号地带”（Ground Zero）区域撤离</li>
           </ul>
           
-          <h2>2. Your First Raid: Ground Zero</h2>
+          <h2>2. 您的首次突袭：零号地带</h2>
           
-          <h3>Equipment and Combat</h3>
-          <p><strong>Recommended Loadout:</strong> Bring a <a href="/items/weapons">Glick pistol</a> for its excellent ammunition capacity. Set hotkeys for medical supplies like bandages and aspirin (suggested key: 5). Browse our <a href="/items">complete items database</a> to find the best weapons and equipment.</p>
-          <p><strong>Enemy Awareness:</strong> Beware of Rampaging Scavengers - these melee fighters deal massive damage. Watch for red warning lights before their attacks and dodge using the spacebar.</p>
+          <h3>装备和战斗</h3>
+          <p><strong>推荐配置：</strong> 带一把<a href="/items/weapons">格洛克手枪</a>（Glick pistol），因为它弹药容量优秀。为绷带和阿司匹林等医疗用品设置快捷键（建议键：5）。浏览我们的<a href="/items">完整物品数据库</a>以找到最好的武器和装备。</p>
+          <p><strong>敌人警觉：</strong> 警惕横冲直撞的拾荒者（Rampaging Scavengers）——这些近战单位会造成巨大伤害。在他们攻击前注意红色警告灯，并使用空格键躲避。</p>
           
-          <h3>Priority Loot</h3>
+          <h3>优先搜刮</h3>
           <ul>
-              <li><strong>Currency:</strong> Cash is essential for trading with specialized merchants</li>
-              <li><strong>Access Keys:</strong> Dorm Key and Cellar Key are extremely valuable. Check our <a href="/items/key">keys database</a> for all available keys and their locations</li>
-              <li><strong>Electronics:</strong> Circuit Boards are required for early quest equipment</li>
-              <li><strong>Medical Supplies:</strong> Herat stops bleeding and is crucial for survival</li>
+              <li><strong>货币：</strong> 现金对于与专业商人交易至关重要</li>
+              <li><strong>门禁钥匙：</strong> 宿舍钥匙（Dorm Key）和地窖钥匙（Cellar Key）极其宝贵。查看我们的<a href="/items/key">钥匙数据库</a>以获取所有可用钥匙及其位置</li>
+              <li><strong>电子产品：</strong> 早期任务装备需要电路板（Circuit Boards）</li>
+              <li><strong>医疗用品：</strong> 赫拉特（Herat）可以止血，对生存至关重要</li>
           </ul>
           
-          <h3>Extraction Strategy</h3>
-          <p>Ground Zero doesn't require reaching specific extraction points. Simply return to your base entrance to safely exit. For detailed <a href="/maps">map information</a> including extraction points and loot locations, visit our maps section. Remember: don't be greedy - frequent short raids are safer than long, risky expeditions.</p>
+          <h3>撤离策略</h3>
+          <p>零号地带不需要到达特定的撤离点。只需返回您的基地入口即可安全退出。有关包括撤离点和搜刮位置在内的详细<a href="/maps">地图信息</a>，请访问我们的地图部分。请记住：不要贪婪——频繁的短途突袭比漫长、危险的探险更安全。</p>
           
-          <h2>3. Base Development and Character Progression</h2>
+          <h2>3. 基地发展和角色培养</h2>
           
-          <h3>Essential Constructions</h3>
-          <p><strong>Workbench:</strong> Construct with wood and upgrade immediately to unlock advanced crafting options and recipes.</p>
-          <p><strong>Key Management System:</strong> Requires Circuit Board and CD drive. Once operational, found keys automatically transfer to the device, freeing up inventory space.</p>
-          <p><strong>Training Facility:</strong> Building the gym unlocks Mud, a specialized trainer NPC.</p>
+          <h3>基本建筑</h3>
+          <p><strong>工作台：</strong> 用木材建造并立即升级以解锁高级制作选项和配方。</p>
+          <p><strong>钥匙管理系统：</strong> 需要电路板和 CD 驱动器。一旦投入运行，找到的钥匙会自动转移到设备中，释放库存空间。</p>
+          <p><strong>训练设施：</strong> 建造健身房可解锁专业训练师 NPC 泥巴（Mud）。</p>
           
           <img src="/images/guide/guide01-02.webp" alt="Priority Loot" class="guide-image" />
   
-          <h3>Character Development</h3>
-          <p><strong>Perk System:</strong> Spend cash and core fragments at the Perk Palace to enhance abilities. Prioritize Backpack Expert for increased carrying capacity.</p>
-          <p><strong>Physical Training:</strong> Early gym sessions are free and permanently boost health attributes. Later training requires food resources.</p>
+          <h3>角色培养</h3>
+          <p><strong>天赋系统：</strong> 在天赋宫殿（Perk Palace）花费现金和核心碎片来增强能力。优先升级<strong>背包专家</strong>（Backpack Expert）以增加携带容量。</p>
+          <p><strong>体能训练：</strong> 早期的健身房训练是免费的，并能永久提升健康属性。后期的训练需要食物资源。</p>
           
-          <h2>4. Key NPCs and Trading</h2>
+          <h2>4. 关键 NPC 和交易</h2>
           
-          <h3>Mud the Trainer</h3>
-          <p><strong>Unlock Requirements:</strong> Appears after constructing the gym facility</p>
-          <p><strong>Initial Tasks:</strong> Provide 1 Duck Egg and Soda Crackers, followed by cigarette requests</p>
-          <p><strong>Training Benefits:</strong> Permanent attribute increases through physical conditioning</p>
+          <h3>训练师泥巴（Mud the Trainer）</h3>
+          <p><strong>解锁要求：</strong> 建造健身房设施后出现</p>
+          <p><strong>初始任务：</strong> 提供 1 个鸭蛋和苏打饼干，随后是香烟请求</p>
+          <p><strong>训练益处：</strong> 通过体能调节永久增加属性</p>
           
-          <h3>Mysterious Merchant</h3>
-          <p><strong>Location:</strong> Found on the elevated area within Ground Zero. For more information about NPCs and merchant locations, check our <a href="/wiki">wiki section</a>.</p>
-          <p><strong>Services:</strong> Exchange cash for quest items including honey, writing implements, and medical supplies</p>
-          <p><strong>Safety Tip:</strong> Store cash in your Pet Slot during raids to prevent loss upon death</p>
+          <h3>神秘商人（Mysterious Merchant）</h3>
+          <p><strong>位置：</strong> 位于零号地带的高架区域。有关 NPC 和商人位置的更多信息，请查看我们的<a href="/wiki">维基百科部分</a>。</p>
+          <p><strong>服务：</strong> 用现金换取包括蜂蜜、书写工具和医疗用品在内的任务物品</p>
+          <p><strong>安全提示：</strong> 在突袭中将现金存放在您的宠物槽位（Pet Slot）中，以防止死亡时丢失</p>
           
           <img src="/images/guide/guide01-03.webp" alt="Movement and Access" class="guide-image" />
   
-          <h3>Resource Locations</h3>
-          <p><strong>Honey Source:</strong> Check near the beehive on Ground Zero's hilltop - spawn rates vary but worth investigating</p>
+          <h3>资源位置</h3>
+          <p><strong>蜂蜜来源：</strong> 检查零号地带山顶蜂巢附近——刷新率不一，但值得调查</p>
           
-          <h2>5. Advanced Exploration and Map Expansion</h2>
+          <h2>5. 高级探索和地图扩展</h2>
           
-          <h3>Movement and Access</h3>
-          <p><strong>Speed Boost:</strong> Press C to holster weapons and increase movement speed</p>
-          <p><strong>Sewer Access:</strong> Clear obstacles on the main road to unlock alternative Ground Zero entrance/exit</p>
-          <p><strong>Cave Exploration:</strong> Repair bridges (requires metal and wood) to access cave systems containing data boxes and rare equipment like the Cube Gun</p>
+          <h3>移动和进入</h3>
+          <p><strong>速度提升：</strong> 按 C 键收起武器以增加移动速度</p>
+          <p><strong>下水道入口：</strong> 清除主干道上的障碍物以解锁零号地带的备用入口/出口</p>
+          <p><strong>洞穴探索：</strong> 修理桥梁（需要金属和木材）以进入含有数据盒和稀有装备（如方块枪）的洞穴系统</p>
           
-          <h3>Equipment and Crafting</h3>
-          <p><strong>Armor Shop:</strong> Purchase superior protection including <a href="/items/equipment">SWAT Helmets</a>, dramatically improving early-game survivability. Browse all available <a href="/items/equipment">protective equipment</a> to find the best gear for your playstyle.</p>
-          <p><strong>Tech Center:</strong> Requires Power Cord and Nuts to unlock new NPCs and advanced questlines</p>
-          <p><strong>Blueprint Management:</strong> Immediately register discovered blueprints to free storage space and avoid duplicate collection</p>
-          <p><strong>Repair Station:</strong> Unlocked through Advanced Processing workbench upgrades, allowing weapon restoration from scavenger drops</p>
+          <h3>装备和制作</h3>
+          <p><strong>盔甲店：</strong> 购买包括<a href="/items/equipment">特警头盔</a>（SWAT Helmets）在内的优质防护装备，显著提高早期游戏的生存能力。浏览所有可用的<a href="/items/equipment">防护装备</a>以找到最适合您游戏风格的装备。</p>
+          <p><strong>技术中心：</strong> 需要电源线和螺母才能解锁新的 NPC 和高级任务线</p>
+          <p><strong>蓝图管理：</strong> 立即注册已发现的蓝图以释放存储空间并避免重复收集</p>
+          <p><strong>维修站：</strong> 通过高级加工工作台升级解锁，允许从拾荒者掉落物中修复武器</p>
           
           <img src="/images/guide/guide01-04.webp" alt="Resource Locations" class="guide-image" />
   
-          <h2>6. Combat Tactics and Recovery Systems</h2>
+          <h2>6. 战斗战术和恢复系统</h2>
           
-          <h3>Advanced Combat</h3>
-          <p><strong>Precision Shooting:</strong> Some missions require headshot eliminations for completion</p>
-          <p><strong>Boss Encounters:</strong> Avoid Big Boy encounters until properly equipped - this Ground Zero boss is extremely dangerous</p>
+          <h3>高级战斗</h3>
+          <p><strong>精确射击：</strong> 有些任务需要爆头消灭才能完成</p>
+          <p><strong>首领遭遇：</strong> 在装备妥当前避免遭遇大块头（Big Boy）——这个零号地带的首领极其危险</p>
           
-          <h3>Death and Recovery</h3>
-          <p><strong>Death Penalties:</strong> All carried items are lost upon death. Dying again permanently destroys previous death bags</p>
-          <p><strong>Body Recovery:</strong> Return to death locations quickly to reclaim lost equipment</p>
-          <p><strong>Fast Travel:</strong> Use Dynamite on the broken wall outside base entrance to create a teleportation shortcut, dramatically improving recovery efficiency</p>
+          <h3>死亡与恢复</h3>
+          <p><strong>死亡惩罚：</strong> 死亡时所有携带物品都会丢失。再次死亡会永久摧毁上一个死亡包裹</p>
+          <p><strong>尸体恢复：</strong> 快速返回死亡地点以找回丢失的装备</p>
+          <p><strong>快速旅行：</strong> 在基地入口外的破墙上使用炸药（Dynamite）创建传送捷径，显着提高恢复效率</p>
           
           <img src="/images/guide/guide01-05.webp" alt="Advanced Combat" class="guide-image" />
   
-          <h2>Final Recommendations</h2>
-          <p>Maximize your base facilities, prioritize armor shop construction, invest in Backpack Expert perks, and establish the teleportation shortcut early. For more advanced strategies, explore our complete <a href="/guides">guides collection</a>. These strategies will significantly improve your survival chances in Duckov's harsh environment. Good luck with your escape!</p>
+          <h2>最终建议</h2>
+          <p>最大限度地利用您的基地设施，优先建造盔甲店，投资<strong>背包专家</strong>天赋，并尽早建立传送捷径。有关更高级的策略，请探索我们完整的<a href="/guides">指南合集</a>。这些策略将显着提高您在达科夫严酷环境中的生存机会。祝您逃离成功！</p>
           `
+  },
+
+  {
+    "id": 2,
+    "title": "完整的教程和早期游戏演练",
+    "description": "按照这个全面的分步演练，涵盖教程逃生、基地建立以及您第一次的零号地带远征，并提供详细的任务指导。",
+    "imageUrl": "/images/guide-02.webp",
+    "imageAlt": "完整的教程和早期游戏演练",
+    "publishDate": "2025-10-27",
+    "addressBar": "/complete-tutorial-early-game-walkthrough",
+    "category": "getting-started",
+    "tags": [
+      "TUTORIAL",
+      "EARLY GAME",
+      "GROUND ZERO",
+      "QUEST GUIDE",
+      "BASE BUILDING"
+    ],
+    "seo": {
+      "title": "完整的教程和早期游戏演练 - 逃离达科夫",
+      "description": "按照这个全面的分步演练，涵盖教程逃生、基地建立以及您第一次的零号地带远征，并提供详细的任务指导。",
+      "keywords": "Escape from Duckov, Tutorial Walkthrough, Early Game Guide, Ground Zero, Quest Guide, Base Building, Prison Escape"
     },
-    {
-      id: 2,
-      title: 'Complete Tutorial & Early Game Walkthrough',
-      description: 'Follow this comprehensive step-by-step walkthrough covering the tutorial escape, base establishment, and your first Ground Zero expeditions with detailed quest guidance.',
-      imageUrl: '/images/guide-02.webp',
-      imageAlt: 'Complete Tutorial & Early Game Walkthrough',
-      publishDate: '2025-10-27',
-      addressBar: '/complete-tutorial-early-game-walkthrough',
-      category: 'getting-started',
-      // category: 'walkthroughs',
-      tags: ['TUTORIAL', 'EARLY GAME', 'GROUND ZERO', 'QUEST GUIDE', 'BASE BUILDING'],
-      seo: {
-        title: 'Complete Tutorial & Early Game Walkthrough - Escape from Duckov',
-        description: 'Follow this comprehensive step-by-step walkthrough covering the tutorial escape, base establishment, and your first Ground Zero expeditions with detailed quest guidance.',
-        keywords: 'Escape from Duckov, Tutorial Walkthrough, Early Game Guide, Ground Zero, Quest Guide, Base Building, Prison Escape',
-      },
-      detailsHtml: `
-          <p>This comprehensive walkthrough will guide you through your first hours in <a href="/">Escape from Duckov</a>, from escaping the prison to establishing your base and completing your initial Ground Zero expeditions. Perfect for players who want a structured approach to the early game.</p>
+    "detailsHtml": `
+          <p>这份全面的演练将指导您度过在<a href="/">逃离达科夫</a>中的最初几个小时，从逃离监狱到建立基地并完成您的首次零号地带远征。非常适合想要结构化方法进行早期游戏的玩家。</p>
           
-          <h2>1. Tutorial: Prison Escape</h2>
+          <h2>1. 教程：监狱逃脱</h2>
           
-          <h3>Character Creation and Initial Setup</h3>
+          <h3>角色创建和初始设置</h3>
           
           <img src="/images/guide/guide02-01.webp" alt="Tutorial: Prison Escape" class="guide-image" />
   
-          <p>After the introductory cutscene, approach the mirror to customize your character appearance. Once satisfied, proceed through the door to begin your first test - escaping the prison.</p>
-          <h3>Initial Equipment and Movement</h3>
+          <p>在开场过场动画后，走向镜子自定义您的角色外观。满意后，穿过门开始您的第一次考验——逃离监狱。</p>
+          <h3>初始装备和移动</h3>
   
-          <p><strong>Starting Gear:</strong> Follow the floor markings to locate your first equipment crate containing a TT-33 pistol, 30 rounds of <a href="/items/ammunition">ammunition</a>, bandages, and crackers. Browse our <a href="/items/weapons">weapons database</a> to learn more about available firearms.</p>
-          <p><strong>Stamina Management:</strong> Running and rolling consume stamina, indicated by the gauge next to your character. Monitor this carefully during combat.</p>
-          <p><strong>Room Exploration:</strong> Search the adjacent room for a Carrot in the crate, and check trash bins for a lighter, lollipop, and electronic components.</p>
+          <p><strong>起始装备：</strong> 沿着地面标记找到您的第一个装备箱，里面装有一把 TT-33 手枪、30 发<a href="/items/ammunition">弹药</a>、绷带和饼干。浏览我们的<a href="/items/weapons">武器数据库</a>以了解有关可用枪械的更多信息。</p>
+          <p><strong>耐力管理：</strong> 奔跑和翻滚会消耗耐力，耐力条显示在您的角色旁边。在战斗中要仔细监控这一点。</p>
+          <p><strong>房间探索：</strong> 搜索相邻的房间，在箱子里找到一根胡萝卜，并检查垃圾桶以寻找打火机、棒棒糖和电子元件。</p>
           
-          <h3>First Combat Encounter</h3>
-          <p><strong>Combat Preparation:</strong> Equip your pistol before engaging the first guard. Watch for red flash warnings before enemy attacks and dodge using the spacebar.</p>
-          <p><strong>Loot Collection:</strong> After defeating the guard, collect the Police Baton, White Lab Coat, and Black Rimmed Sunglasses. Set up the baton on your hotbar for melee combat.</p>
-          <p><strong>Accuracy Tips:</strong> Hold the right mouse button for improved shooting accuracy, as instructed by the mysterious voice.</p>
+          <h3>第一次战斗遭遇</h3>
+          <p><strong>战斗准备：</strong> 在与第一个守卫交战前装备您的手枪。在敌人攻击前注意红色闪光警告，并使用空格键躲避。</p>
+          <p><strong>战利品收集：</strong> 击败守卫后，收集警棍（Police Baton）、白色实验服和黑框太阳镜。将警棍设置在您的热键栏上以进行近战。</p>
+          <p><strong>精度提示：</strong> 按照神秘声音的指示，按住鼠标右键以提高射击精度。</p>
           
           <img src="/images/guide/guide02-02.webp" alt="Initial Equipment and Movement" class="guide-image" />
   
-          <h3>Advanced Equipment Discovery</h3>
-          <p><strong>Secondary Weapon:</strong> Locate a PM pistol in the next room and assign it to slot 2 for weapon switching.</p>
-          <p><strong>Glick Acquisition:</strong> Defeat another guard to obtain a <a href="/items/weapons">Glick pistol</a> and additional lab coat and sunglasses.</p>
-          <p><strong>Resource Management:</strong> Monitor your inventory space carefully - prioritize essential items and consume food items like carrots and crackers to maintain energy levels.</p>
+          <h3>高级装备发现</h3>
+          <p><strong>副武器：</strong> 在下一个房间找到一把 PM 手枪并将其分配到槽位 2 以进行武器切换。</p>
+          <p><strong>格洛克获取：</strong> 击败另一名守卫以获得一把<a href="/items/weapons">格洛克手枪</a>（Glick pistol）和额外的实验服和太阳镜。</p>
+          <p><strong>资源管理：</strong> 仔细监控您的库存空间——优先选择必需品并食用胡萝卜和饼干等食物以维持能量水平。</p>
           
-          <h2>2. Base Establishment and Jeff's Introduction</h2>
+          <h2>2. 基地建立和杰夫的介绍</h2>
           
-          <h3>Base Tour and Facilities</h3>
-          <p>Upon reaching your base, speak with Jeff for a comprehensive tour including:</p>
+          <h3>基地参观和设施</h3>
+          <p>到达您的基地后，与杰夫交谈进行一次全面的参观，包括：</p>
           <ul>
-              <li><strong>Warehouse:</strong> Storage facility for your equipment and resources</li>
-              <li><strong>Construction Panel:</strong> Building interface for base upgrades</li>
-              <li><strong>Vending Machine:</strong> Equipment and supply purchasing</li>
-              <li><strong>Enhancer:</strong> Character progression and skill upgrades</li>
-              <li><strong>Exfiltration Point:</strong> Mission departure location</li>
+              <li><strong>仓库：</strong> 存储您的装备和资源的设施</li>
+              <li><strong>建造面板：</strong> 用于基地升级的建造界面</li>
+              <li><strong>自动售货机：</strong> 装备和补给购买</li>
+              <li><strong>增强器：</strong> 角色培养和技能升级</li>
+              <li><strong>撤离点：</strong> 任务出发地点</li>
           </ul>
   
           <img src="/images/guide/guide02-03.webp" alt="Advanced Equipment Discovery" class="guide-image" />
           
-          <h3>Initial Upgrades and Enhancements</h3>
-          <p><strong>Backpack Expert I:</strong> Research and activate this enhancement for +4 backpack capacity - essential for longer expeditions.</p>
-          <p><strong>Storage Expansion Lv.1:</strong> Upgrade warehouse storage for +35 additional capacity.</p>
-          <p><strong>Resource Management:</strong> Sell excess Glick pistols while keeping your TT-33 equipped for immediate use.</p>
+          <h3>初始升级和增强</h3>
+          <p><strong>背包专家 I：</strong> 研究并激活此增强功能可增加 +4 背包容量——对于更长时间的远征至关重要。</p>
+          <p><strong>存储扩展 Lv.1：</strong> 升级仓库存储以增加 +35 额外容量。</p>
+          <p><strong>资源管理：</strong> 出售多余的格洛克手枪，同时保留您的 TT-33 装备以便立即使用。</p>
           
-          <h2>3. First Quest Assignment</h2>
+          <h2>3. 首次任务分配</h2>
           
-          <h3>Basic Construction Quest</h3>
-          <p><strong>Location:</strong> Ground Zero. For detailed <a href="/maps">map locations</a> and extraction points, visit our maps section.</p>
-          <p><strong>Objective:</strong> Collect two pieces of wood to build a workbench</p>
-          <p><strong>Rewards:</strong> 1000 XP, 500 Currency, 3 Bandages</p>
+          <h3>基本建造任务</h3>
+          <p><strong>地点：</strong> 零号地带。有关详细的<a href="/maps">地图位置</a>和撤离点，请访问我们的地图部分。</p>
+          <p><strong>目标：</strong> 收集两块木材来建造一个工作台</p>
+          <p><strong>奖励：</strong> 1000 XP，500 货币，3 个绷带</p>
           
-          <h3>Startup Capital Quest</h3>
-          <p><strong>Location:</strong> Ground Zero</p>
-          <p><strong>Objective:</strong> Eliminate any enemy and successfully extract</p>
-          <p><strong>Rewards:</strong> 500 XP, 1296 Currency</p>
+          <h3>启动资金任务</h3>
+          <p><strong>地点：</strong> 零号地带</p>
+          <p><strong>目标：</strong> 消灭任何敌人并成功撤离</p>
+          <p><strong>奖励：</strong> 500 XP，1296 货币</p>
           
-          <h2>4. Ground Zero Expedition</h2>
+          <h2>4. 零号地带远征</h2>
           
-          <h3>Map Navigation and Extraction</h3>
-          <p><strong>Return Options:</strong> You can return through the bunker door or locate extraction points marked by green smoke signals.</p>
-          <p><strong>Initial Loot:</strong> Search the first crate for additional bullets and another TT-33 pistol.</p>
+          <h3>地图导航和撤离</h3>
+          <p><strong>返回选项：</strong> 您可以通过地堡门返回，或找到标有绿色烟雾信号的撤离点。</p>
+          <p><strong>初始战利品：</strong> 搜索第一个箱子以获取额外的子弹和另一把 TT-33 手枪。</p>
           
-          <h3>Enemy Encounters and Combat</h3>
-          <p><strong>Rampaging Scavengers:</strong> Red Ducks armed with Butcher Knives use charge attacks and melee combat. Defeat one to complete the Startup Capital quest.</p>
-          <p><strong>Loot Priority:</strong> Collect Butcher Knives, wood, cash, and data boxes containing blueprints from defeated enemies.</p>
-          <p><strong>Green Ducks:</strong> More advanced enemies with shotguns and body armor - approach with caution.</p>
+          <h3>敌人遭遇和战斗</h3>
+          <p><strong>横冲直撞的拾荒者：</strong> 拿着屠刀的红鸭子使用冲锋攻击和近战。击败其中一个即可完成启动资金任务。</p>
+          <p><strong>战利品优先级：</strong> 从被击败的敌人身上收集屠刀、木材、现金和装有蓝图的数据盒。</p>
+          <p><strong>绿鸭子：</strong> 装备霰弹枪和防弹衣的更高级敌人——谨慎接近。</p>
           
-          <h3>Equipment and Resource Collection</h3>
-          <p><strong>Essential Items:</strong> Collect Fading Feathers, Cold Core Fragments (needed for enhancements), and various weapon attachments.</p>
-          <p><strong>Storage Upgrades:</strong> Find and equip backpacks to increase carrying capacity to 39 slots.</p>
-          <p><strong>Weapon Variety:</strong> Acquire AK-74U rifles, homemade shotguns, and various ammunition types. Check our <a href="/items">items database</a> for complete weapon and equipment information.</p>
+          <h3>装备和资源收集</h3>
+          <p><strong>必需品：</strong> 收集褪色羽毛（Fading Feathers）、冷核心碎片（Cold Core Fragments，增强所需）和各种武器附件。</p>
+          <p><strong>存储升级：</strong> 找到并装备背包以将携带容量增加到 39 个槽位。</p>
+          <p><strong>武器种类：</strong> 获取 AK-74U 步枪、自制霰弹枪和各种弹药类型。查看我们的<a href="/items">物品数据库</a>以获取完整的武器和装备信息。</p>
           
-          <h2>5. Advanced Exploration and Quest Completion</h2>
+          <h2>5. 高级探索和任务完成</h2>
           
-          <h3>Map Expansion</h3>
-          <p><strong>Teleportation Nodes:</strong> Discover and use teleportation points to access hidden areas and containers.</p>
-          <p><strong>Digging Mechanics:</strong> Use shovels to uncover buried items like J-Lab Floppy discs and Storage Fence Keys. Browse our <a href="/items/key">keys database</a> to find information about all available keys.</p>
-          <p><strong>Bridge Repair:</strong> Note that cave access requires 2 metal plates and 2 wood - plan accordingly for future expeditions.</p>
+          <h3>地图扩展</h3>
+          <p><strong>传送节点：</strong> 发现并使用传送点来进入隐藏区域和容器。</p>
+          <p><strong>挖掘机制：</strong> 使用铲子挖出埋藏的物品，例如 J-Lab 软盘和存储围栏钥匙。浏览我们的<a href="/items/key">钥匙数据库</a>以查找有关所有可用钥匙的信息。</p>
+          <p><strong>桥梁修复：</strong> 请注意，进入洞穴需要 2 块金属板和 2 块木材——为未来的远征做好相应计划。</p>
           
-          <h3>Quest Completion and New Assignments</h3>
-          <p><strong>Workbench Construction:</strong> Build your first workbench to unlock the Key Registration Device (requires circuit boards and CD-ROM drive).</p>
-          <p><strong>Blueprint Research:</strong> Unlock all collected blueprints and research Advanced Processing for workbench upgrades.</p>
+          <h3>任务完成和新任务分配</h3>
+          <p><strong>工作台建造：</strong> 建造您的第一个工作台以解锁钥匙注册设备（需要电路板和 CD-ROM 驱动器）。</p>
+          <p><strong>蓝图研究：</strong> 解锁所有收集到的蓝图并研究高级加工以升级工作台。</p>
           
-          <h3>Additional Quest Unlocks</h3>
-          <p><strong>Hunter's Path:</strong> Kill 2 Rampaging Scavengers and submit 2 Butcher Knives (1500 XP, 380 Currency, 2 Metal Plates, 1 Nut, 1 Bolt)</p>
-          <p><strong>Bleeding Control:</strong> Use a bandage to unlock Aspirin (500 XP, 150 Currency, Pile of Medicine)</p>
-          <p><strong>Signal Tower:</strong> Fix the northern signal tower using a Flathead Screwdriver (1500 XP, 450 Currency)</p>
-          <p><strong>Letter Quest:</strong> Submit "Letter from an Old Friend" (1500 XP, 450 Currency)</p>
+          <h3>额外任务解锁</h3>
+          <ul>
+              <li><strong>猎人之路：</strong> 杀死 2 个横冲直撞的拾荒者并上交 2 把屠刀（1500 XP，380 货币，2 块金属板，1 个螺母，1 个螺栓）</li>
+              <li><strong>止血：</strong> 使用绷带解锁阿司匹林（500 XP，150 货币，一堆药品）</li>
+              <li><strong>信号塔：</strong> 使用平头螺丝刀修理北部信号塔（1500 XP，450 货币）</li>
+              <li><strong>信件任务：</strong> 上交“老朋友的信”（1500 XP，450 货币）</li>
+          </ul>
           
-          <h2>6. Character Progression and Preparation</h2>
+          <h2>6. 角色培养和准备</h2>
   
           <img src="/images/guide/guide02-04.webp" alt="Character Progression and Preparation" class="guide-image" />
           
-          <h3>Enhancement Upgrades</h3>
-          <p><strong>Survival Instinct 1:</strong> +5 Max HP for improved survivability</p>
-          <p><strong>Wide View 1:</strong> +15 Field of View for better situational awareness</p>
+          <h3>增强升级</h3>
+          <ul>
+              <li><strong>生存本能 1：</strong> +5 最大生命值以提高生存能力</li>
+              <li><strong>广阔视野 1：</strong> +15 视野范围以获得更好的态势感知</li>
+          </ul>
           
-          <h3>Equipment Preparation</h3>
-          <p><strong>Tool Acquisition:</strong> Purchase Flathead Screwdriver from the Vending Machine for Signal Tower quest</p>
-          <p><strong>Inventory Management:</strong> Clean up your warehouse storage and organize equipment for future expeditions</p>
+          <h3>装备准备</h3>
+          <p><strong>工具获取：</strong> 从自动售货机购买平头螺丝刀以完成信号塔任务</p>
+          <p><strong>库存管理：</strong> 清理您的仓库存储并组织装备以备将来远征</p>
           
-          <h3>Time Management</h3>
-          <p><strong>Day/Night Cycle:</strong> Sleep until 7 AM to avoid dangerous nighttime conditions. Night raids are significantly more challenging and should be avoided until better equipped.</p>
+          <h3>时间管理</h3>
+          <p><strong>昼夜循环：</strong> 睡到早上 7 点以避开危险的夜间条件。夜间突袭更具挑战性，应等到装备更好后再进行。</p>
           
-          <h2>Conclusion</h2>
-          <p>This walkthrough covers the essential first steps in Escape from Duckov. You've successfully escaped the prison, established your base, completed your first Ground Zero expedition, and unlocked multiple quest lines. Check our <a href="/wiki/quests">complete quest database</a> for all available missions. Focus on completing the available quests, upgrading your equipment, and preparing for more challenging expeditions ahead. Explore more <a href="/guides">advanced guides</a> for deeper strategies.</p>
+          <h2>总结</h2>
+          <p>本演练涵盖了《逃离达科夫》中必不可少的第一步。您已成功逃离监狱，建立了基地，完成了您的第一次零号地带远征，并解锁了多条任务线。查看我们<a href="/wiki/quests">完整的任务数据库</a>以获取所有可用任务。重点完成可用任务，升级您的装备，并为未来更具挑战性的远征做好准备。探索更多<a href="/guides">高级指南</a>以获取更深入的策略。</p>
           `
+  },
+
+  {
+    "id": 3,
+    "title": "零号地带高级探索与基地扩张",
+    "description": "通过这份全面的中期游戏演练，掌握高级零号地带探险，完成复杂的任务链，并扩展您的基地设施。",
+    "imageUrl": "/images/guide-03.webp",
+    "imageAlt": "零号地带高级探索与基地扩张",
+    "publishDate": "2025-10-27",
+    "addressBar": "/advanced-ground-zero-exploration-base-expansion",
+    "category": "walkthroughs",
+    "tags": [
+      "ADVANCED EXPLORATION",
+      "BASE EXPANSION",
+      "QUEST CHAINS",
+      "EQUIPMENT UPGRADES",
+      "GROUND ZERO"
+    ],
+    "seo": {
+      "title": "零号地带高级探索与基地扩张 - 逃离达科夫",
+      "description": "通过这份全面的中期游戏演练，掌握高级零号地带探险，完成复杂的任务链，并扩展您的基地设施。",
+      "keywords": "Escape from Duckov, Advanced Walkthrough, Ground Zero Exploration, Base Expansion, Quest Chains, Equipment Upgrades, Mid Game Guide"
     },
-    {
-      id: 3,
-      title: 'Advanced Ground Zero Exploration & Base Expansion',
-      description: 'Master advanced Ground Zero expeditions, complete complex quest chains, and expand your base facilities with this comprehensive mid-game walkthrough.',
-      imageUrl: '/images/guide-03.webp',
-      imageAlt: 'Advanced Ground Zero Exploration & Base Expansion',
-      publishDate: '2025-10-27',
-      addressBar: '/advanced-ground-zero-exploration-base-expansion',
-      category: 'walkthroughs',
-      tags: ['ADVANCED EXPLORATION', 'BASE EXPANSION', 'QUEST CHAINS', 'EQUIPMENT UPGRADES', 'GROUND ZERO'],
-      seo: {
-        title: 'Advanced Ground Zero Exploration & Base Expansion - Escape from Duckov',
-        description: 'Master advanced Ground Zero expeditions, complete complex quest chains, and expand your base facilities with this comprehensive mid-game walkthrough.',
-        keywords: 'Escape from Duckov, Advanced Walkthrough, Ground Zero Exploration, Base Expansion, Quest Chains, Equipment Upgrades, Mid Game Guide',
-      },
-      detailsHtml: `
-          <p>This advanced walkthrough covers the mid-game progression in <a href="/">Escape from Duckov</a>, focusing on complex Ground Zero expeditions, base facility expansion, and completing intricate quest chains. Perfect for players ready to tackle more challenging content.</p>
+    "detailsHtml": `
+          <p>这份高级演练涵盖了《<a href="/">逃离达科夫</a>》的中期游戏进程，重点是复杂的零号地带探险、基地设施扩张以及完成错综复杂的任务链。非常适合准备好应对更具挑战性内容的玩家。</p>
           
-          <h2>1. Advanced Ground Zero Exploration</h2>
+          <h2>1. 零号地带高级探索</h2>
           <img src="/images/guide/guide03-01.webp" alt="Advanced Ground Zero Exploration" class="guide-image" />
-          <h3>Northern Tower Mission</h3>
+          <h3>北部信号塔任务</h3>
   
-          <p><strong>Signal Tower Quest:</strong> Head towards Road Camp and locate the northern tower. Search the toolbox for 2 Metal Plates, nails, and a Flathead Screwdriver.</p>
-          <p><strong>Power Box Interaction:</strong> Interact with the power box at the tower's base to complete the Signal Tower quest objective.</p>
-          <p><strong>Blueprint Discovery:</strong> Move right of the tower to find the Potato Graphics Card blueprint - essential for advanced crafting.</p>
+          <p><strong>信号塔任务：</strong> 前往路边营地（Road Camp）并找到北部信号塔。搜索工具箱以获取 2 块金属板、钉子和一把平头螺丝刀。</p>
+          <p><strong>电源箱互动：</strong> 与信号塔底部的电源箱互动，完成信号塔任务目标。</p>
+          <p><strong>蓝图发现：</strong> 移到信号塔右侧，找到**土豆显卡**（Potato Graphics Card）蓝图——这是高级制作的关键。</p>
   
           <img src="/images/guide/guide03-02.webp" alt="Northern Tower Mission" class="guide-image" />
   
-          <h3>Road Camp Approach</h3>
-          <p><strong>New Enemy Type:</strong> Encounter advanced shotgun-wielding enemies near Road Camp. These foes require careful positioning and adequate ammunition.</p>
-          <p><strong>Equipment Acquisition:</strong> Defeat enemies to obtain MP-155 shotguns, <a href="/items/equipment">Motorcycle helmets</a>, and medical supplies. Browse our <a href="/items/equipment">equipment database</a> for all available protective gear.</p>
-          <p><strong>Bridge Repair:</strong> Use 2 pieces of wood to repair the broken bridge leading to Road Camp. Check hiding spots under electric poles for additional loot.</p>
+          <h3>路边营地路径</h3>
+          <p><strong>新型敌人：</strong> 在路边营地附近遭遇手持霰弹枪的高级敌人。这些敌人需要小心的走位和充足的弹药。</p>
+          <p><strong>装备获取：</strong> 击败敌人以获得 MP-155 霰弹枪、<a href="/items/equipment">摩托车头盔</a>和医疗用品。浏览我们的<a href="/items/equipment">装备数据库</a>以获取所有可用的防护装备。</p>
+          <p><strong>修桥：</strong> 使用 2 块木材修复通往路边营地的断桥。检查电线杆下的藏匿点以获取额外的战利品。</p>
           
-          <h2>2. NPC Interactions and New Quests</h2>
+          <h2>2. NPC 互动和新任务</h2>
           
-          <h3>Mud the Trainer</h3>
+          <h3>训练师泥巴（Mud the Trainer）</h3>
   
-          <p><strong>Location:</strong> Found in a house near Road Camp - a jacked duck offering body training services.</p>
-          <p><strong>Quest Assignment:</strong> Accept "Balanced Nutrition 1" from Mud for physical enhancement opportunities.</p>
+          <p><strong>位置：</strong> 在路边营地附近的一所房子里找到——一只强壮的鸭子，提供体能训练服务。</p>
+          <p><strong>任务分配：</strong> 从泥巴那里接受“均衡营养 1”（Balanced Nutrition 1）任务以获得体能增强机会。</p>
           
-          <h3>Balanced Nutrition Quest</h3>
+          <h3>均衡营养任务</h3>
   
           <img src="/images/guide/guide03-03.webp" alt="Mud the Trainer" class="guide-image" />
   
-          <p><strong>Objective:</strong> Submit 1x Duck Egg</p>
-          <p><strong>Rewards:</strong> 800 XP, 500 Currency</p>
-          <p><strong>Strategy:</strong> Duck eggs can be found in various locations throughout Ground Zero - prioritize collection during expeditions.</p>
+          <p><strong>目标：</strong> 上交 1 个鸭蛋</p>
+          <p><strong>奖励：</strong> 800 XP，500 货币</p>
+          <p><strong>策略：</strong> 鸭蛋可以在整个零号地带的各种地点找到——在远征期间优先收集。</p>
           
-          <h2>3. Cave Exploration and Advanced Loot</h2>
+          <h2>3. 洞穴探索和高级战利品</h2>
           
-          <h3>Cave Access</h3>
-          <p><strong>Bridge Repair:</strong> Repair the bridge near the cave entrance using collected materials to access hidden areas.</p>
-          <p><strong>High-Value Loot:</strong> The cave contains premium equipment including:</p>
+          <h3>进入洞穴</h3>
+          <p><strong>修桥：</strong> 使用收集到的材料修复洞穴入口附近的桥梁以进入隐藏区域。</p>
+          <p><strong>高价值战利品：</strong> 洞穴内含有优质装备，包括：</p>
           <ul>
-              <li><strong>Weapons:</strong> Pistol Muzzle, UP 45, AK-47, Hip-fire attachment. Check our <a href="/items/weapons">weapons database</a> for detailed weapon information</li>
-              <li><strong>Ammunition:</strong> Various ammo types and Laser attachment. Browse <a href="/items/ammunition">all ammunition types</a> for compatibility details</li>
-              <li><strong>Blueprints:</strong> Cube Gun and Small Energy Ammo recipes</li>
+              <li><strong>武器：</strong> 手枪枪口（Pistol Muzzle）、UP 45、AK-47、盲射配件。查看我们的<a href="/items/weapons">武器数据库</a>以获取详细的武器信息</li>
+              <li><strong>弹药：</strong> 各种弹药类型和激光配件。浏览<a href="/items/ammunition">所有弹药类型</a>以获取兼容性详情</li>
+              <li><strong>蓝图：</strong> 方块枪（Cube Gun）和小型能量弹药（Small Energy Ammo）配方</li>
           </ul>
           
-          <h3>Northwest Camp Infiltration</h3>
-          <p><strong>Stealth Approach:</strong> Carefully navigate to Northwest Camp, clearing smaller enemy camps along the route.</p>
-          <p><strong>Quest Item Collection:</strong> Retrieve the "Letter from Old Friend" from inside the tent for quest completion.</p>
-          <p><strong>Additional Discoveries:</strong> Find Crowbar recipe in nearby data boxes and Ground Zero Watch Log warning notes.</p>
+          <h3>西北营地渗透</h3>
+          <p><strong>潜行接近：</strong> 小心翼翼地前往西北营地，沿途清除较小的敌方营地。</p>
+          <p><strong>任务物品收集：</strong> 从帐篷内取回“老朋友的信”（Letter from Old Friend）以完成任务。</p>
+          <p><strong>额外发现：</strong> 在附近的数据盒中找到撬棍配方以及零号地带观察日志（Ground Zero Watch Log）警告笔记。</p>
           
-          <h2>4. Challenging Combat Encounters</h2>
+          <h2>4. 挑战性战斗遭遇</h2>
           
-          <h3>Hooded Enemy Boss Fight</h3>
-          <p><strong>Enemy Description:</strong> A heavily armed enemy wearing a hood and wielding a shotgun - significantly more dangerous than standard foes.</p>
-          <p><strong>Combat Preparation:</strong> Ensure you have ample ammunition and medical supplies before engaging.</p>
-          <p><strong>Quest Integration:</strong> Use bandages during combat to complete "The Importance of Bleeding Control" quest.</p>
-          <p><strong>Reward Collection:</strong> Defeat the enemy to obtain Black Market Contact Notes and Advanced AP Shotgun Shells.</p>
+          <h3>戴兜帽的敌人首领战</h3>
+          <p><strong>敌人描述：</strong> 一名全副武装、戴着兜帽并手持霰弹枪的敌人——比标准敌人危险得多。</p>
+          <p><strong>战斗准备：</strong> 确保在交战前拥有充足的弹药和医疗用品。</p>
+          <p><strong>任务整合：</strong> 在战斗中使用绷带以完成“控制出血的重要性”（The Importance of Bleeding Control）任务。</p>
+          <p><strong>奖励收集：</strong> 击败敌人以获得**黑市联系笔记**（Black Market Contact Notes）和**高级穿甲霰弹**（Advanced AP Shotgun Shells）。</p>
           
-          <h3>Resource Management</h3>
-          <p><strong>Dehydration Warning:</strong> Monitor your hydration levels - dehydration can occur during extended expeditions.</p>
-          <p><strong>Key Collection:</strong> Gather Abandoned Gas Station and Fence keys, plus holographic scope before extraction. Check our <a href="/items/key">keys database</a> for key locations and usage information.</p>
+          <h3>资源管理</h3>
+          <p><strong>脱水警告：</strong> 监控您的水合水平——在长时间的远征中可能会发生脱水。</p>
+          <p><strong>钥匙收集：</strong> 在撤离前收集**废弃加油站钥匙**（Abandoned Gas Station key）和**围栏钥匙**（Fence key），以及全息瞄准镜。查看我们的<a href="/items/key">钥匙数据库</a>以获取钥匙位置和使用信息。</p>
           
-          <h2>5. Base Facility Expansion</h2>
+          <h2>5. 基地设施扩张</h2>
           
-          <h3>New Construction Quests</h3>
-          <p><strong>Basic Construction II:</strong> Build Weapon Shop in the Bunker</p>
-          <p><strong>Basic Construction III:</strong> Build Armor Shop in the Bunker</p>
-          <p><strong>Medical Construction:</strong> Build Medic Station in the Bunker</p>
-          <p><strong>Tech Expert:</strong> Submit a Pile of Electronic Components</p>
-          
-          <h3>Combat and Skill Quests</h3>
-          <p><strong>Aim for the Head:</strong> Kill 5 enemies with headshots in Ground Zero</p>
-          <p><strong>Expanded Pocket:</strong> Unlock Backpack Expert 1 (if not already completed)</p>
-          <p><strong>Upgrade Workbench:</strong> Unlock Advanced Processing (if not already completed)</p>
-          
-          <h3>Resource Submission Quests</h3>
-          <p><strong>Full of Love:</strong> Submit 1888 Currency for significant rewards</p>
-          <p><strong>Crafting Apprenticeship:</strong> Submit a Glick pistol for crafting knowledge</p>
-          <p><strong>Bookkeeping:</strong> Submit Ink, Pen, and Notebook for administrative tasks</p>
-          
-          <h2>6. Equipment and Facility Upgrades</h2>
-          
-          <h3>Armor Shop Construction</h3>
-          <p><strong>Immediate Availability:</strong> Armor Shop can be built immediately with available materials.</p>
-          <p><strong>Equipment Purchases:</strong> Acquire Level 2 Body Armor and Steel Helmet for significant protection improvements. Browse our <a href="/items/equipment">complete equipment catalog</a> to compare all available armor options.</p>
-          <p><strong>Quest Assignments:</strong> Accept Supply Route and Bookkeeping quests from the armor shop.</p>
-          
-          <h3>Workbench Enhancements</h3>
-          <p><strong>Blueprint Research:</strong> Research all collected blueprints to free inventory space and unlock new crafting options.</p>
-          <p><strong>Fix Station Research:</strong> Unlock weapon repair capabilities for damaged equipment.</p>
-          <p><strong>Disassemble Station:</strong> Research disassembly capabilities using scissors and wrench from vending machine.</p>
-          
-          <h3>Character Progression</h3>
-          <p><strong>Gun Mastery I:</strong> Upgrade firearm proficiency at the enhancer for improved combat effectiveness.</p>
-          <p><strong>Skill Prioritization:</strong> Focus on combat-related enhancements for upcoming challenging encounters.</p>
-          
-          <h2>7. Advanced Quest Management</h2>
-          
-          <h3>Supply Route Quest</h3>
-          <p><strong>Location:</strong> Ground Zero</p>
-          <p><strong>Objective:</strong> Mark the supply box with a Marker (available in storage)</p>
-          <p><strong>Strategy:</strong> Use previously collected markers to complete this objective efficiently.</p>
-          
-          <h3>Resource Planning</h3>
-          <p><strong>Currency Management:</strong> Monitor your financial resources - advanced equipment and upgrades require significant investment.</p>
-          <p><strong>Material Collection:</strong> Prioritize gathering materials for future construction projects.</p>
-          <p><strong>Inventory Optimization:</strong> Regularly research blueprints and organize storage to maintain efficient inventory management.</p>
-          
-          <h2>Conclusion</h2>
-          <p>This advanced walkthrough covers the crucial mid-game progression in Escape from Duckov. You've successfully completed complex Ground Zero expeditions, expanded your base facilities, and unlocked advanced crafting capabilities. Check our <a href="/wiki/quests">quest database</a> for all available mission details. Focus on completing the new quest chains, upgrading your equipment, and preparing for even more challenging content ahead. Explore more <a href="/guides">advanced guides</a> including Storm Zone access guides. The foundation you've built will be essential for surviving Duckov's most dangerous areas.</p>
-          `
-    },
-    {
-      id: 4,
-      title: 'Master Core Game Mechanics & Systems',
-      description: 'Comprehensive guide to Escape from Duckov\'s core mechanics covering base management, character progression, combat systems, exploration, and survival strategies.',
-      imageUrl: '/images/guide-04.webp',
-      imageAlt: 'Master Core Game Mechanics & Systems',
-      publishDate: '2025-10-27',
-      addressBar: '/master-core-game-mechanics-systems',
-      category: 'getting-started',
-      tags: ['CORE MECHANICS', 'BASE MANAGEMENT', 'COMBAT SYSTEMS', 'CHARACTER PROGRESSION', 'SURVIVAL'],
-      seo: {
-        title: 'Master Core Game Mechanics & Systems - Escape from Duckov',
-        description: 'Comprehensive guide to Escape from Duckov\'s core mechanics covering base management, character progression, combat systems, exploration, and survival strategies.',
-        keywords: 'Escape from Duckov, Core Mechanics, Base Management, Combat Systems, Character Progression, Survival Guide, Game Systems',
-      },
-      detailsHtml: `
-          <p>This comprehensive guide covers all essential game mechanics in <a href="/">Escape from Duckov</a>, from base management and character development to combat systems and exploration strategies. Master these core systems to maximize your survival potential.</p>
-          
-          <h2>I. Base Management and Crafting Systems</h2>
-          
-          <h3>1. Base Functions and Configuration</h3>
-          
-          <h4>Difficulty Management</h4>
-          <p><strong>Dynamic Difficulty:</strong> Game difficulty settings (including Survival mode) can be modified at any time using the desk in your base (press F key). This allows you to adjust challenge level based on your current equipment and experience.</p>
-          
-          <h4>Blueprint Research System</h4>
-          <p><strong>Registration Process:</strong> After locating the blueprint research station in your base, you must register all scavenged blueprints (such as Cube Gun recipes) to unlock crafting options and free up valuable inventory space.</p>
-          <p><strong>Strategic Benefits:</strong> Registered blueprints prevent duplicate collection and provide permanent access to crafting recipes without carrying physical blueprints.</p>
-          
-          <h4>Building Upgrades</h4>
-          <p><strong>Progressive Enhancement:</strong> Facilities like workbenches, tech centers, and gyms can be upgraded to unlock advanced crafting capabilities and specialized functions.</p>
-          <p><strong>Advanced Processing:</strong> Upgrading your workbench to Advanced Processing unlocks weapon repair functions, essential for maintaining equipment durability.</p>
-          
-          <h3>2. Storage and Inventory Management</h3>
-          
-          <h4>Stash System</h4>
-          <p><strong>Safe Storage:</strong> Your base stash serves as the secure storage area for all items. Use "Store All" to quickly transfer items from your inventory to storage.</p>
-          <p><strong>Space Expansion:</strong> Stash capacity can be increased by investing currency and materials in storage upgrades.</p>
-          
-          <h4>Item Protection</h4>
-          <p><strong>Slot Locking:</strong> Press the L key to lock specific item slots. Locked items are protected from accidental transfer via "Store All" or selling functions.</p>
-          <p><strong>Equipment Safety:</strong> This system prevents loss of valuable equipment during inventory management operations.</p>
-          
-          <h3>3. Crafting and Resource Tracking</h3>
-          
-          <h4>Item Marking System</h4>
-          <p><strong>Material Tracking:</strong> In crafting and upgrade interfaces, press N on required materials to add heart icons next to them. This visual system helps track quest items and crafting requirements.</p>
-          <p><strong>Quest Integration:</strong> Marked items are easily identifiable during looting, streamlining quest completion and resource gathering.</p>
-          
-          <h4>Dismantling Mechanics</h4>
-          <p><strong>Resource Conversion:</strong> Many items (including Rusty Bullets and plastic components) can be dismantled into basic materials like Gunpowder for crafting or quest submission.</p>
-          <p><strong>Efficiency Strategy:</strong> Regular dismantling maximizes resource utilization and provides materials for advanced crafting projects.</p>
-          
-          <h2>II. Character Development and Progression</h2>
-          
-          <h3>1. Attribute Enhancement and Perks</h3>
-          
-          <h4>Perk Palace System</h4>
-          <p><strong>Core Progression:</strong> The Perk Palace serves as the primary character advancement system, offering permanent buffs through Cash and Core Fragment investment.</p>
-          <p><strong>Priority Recommendation:</strong> Backpack Expert provides additional weight capacity and storage space - the most valuable early-game investment for expedition efficiency.</p>
-          
-          <h4>Physical Training</h4>
-          <p><strong>Mud's Training:</strong> Visit Mud in the gym to access physical training programs that permanently increase attributes like maximum health.</p>
-          <p><strong>Long-term Benefits:</strong> Physical training provides permanent stat improvements, making it a worthwhile investment for character development.</p>
-          
-          <h3>2. Survival and Medical Systems</h3>
-          
-          <h4>Healing Item Categories</h4>
-          <p><strong>Health Restoration:</strong> Bandages and First Aid Kits restore health points and are essential for combat survival.</p>
-          <p><strong>Pain Management:</strong> Aspirin relieves pain but causes dehydration - monitor water intake after usage.</p>
-          <p><strong>Bleeding Control:</strong> Herat serves as hemostatic medicine, specifically designed to treat bleeding status effects.</p>
-          
-          <h3>3. Movement and Combat Mechanics</h3>
-          
-          <h4>Speed Optimization</h4>
-          <p><strong>Weapon Holstering:</strong> Press C to holster your weapon, increasing movement speed - particularly effective when carrying rifles or heavy weapons.</p>
-          <p><strong>Strategic Mobility:</strong> Holstering weapons is crucial for quick repositioning and escape scenarios.</p>
-          
-          <h4>Evasion Techniques</h4>
-          <p><strong>Dodge Rolling:</strong> Use the spacebar for dodge rolls when fighting melee enemies. This is essential for avoiding fatal attacks from Rampaging Scavengers.</p>
-          <p><strong>Timing Critical:</strong> Master the timing of dodge rolls to maximize survival against high-damage melee opponents.</p>
-          
-          <h2>III. Combat Systems and Equipment</h2>
-          
-          <h3>1. Firearm Mechanics and Damage</h3>
-          
-          <h4>Ammunition Types</h4>
-          <p><strong>Caliber Variety:</strong> Different firearms use specific ammunition types (S, L, AR rounds). Early weapons like Glick use S rounds, while AK-74U requires AR rounds. Browse our <a href="/items/ammunition">ammunition database</a> and <a href="/items/weapons">weapons database</a> for complete compatibility information.</p>
-          <p><strong>Rusty Bullets:</strong> Common early ammunition with reduced damage output - requires more shots to eliminate enemies effectively.</p>
-          
-          <h4>Range and Accuracy</h4>
-          <p><strong>Distance Indicator:</strong> The UI displays a range indicator in the lower right corner, showing optimal weapon effectiveness.</p>
-          <p><strong>Color Coding:</strong> Green/White indicates effective range with maximum damage, while Red signals reduced damage due to range or accuracy issues.</p>
-          <p><strong>Attachment Effects:</strong> Weapon modifications like suppressors and muzzle brakes directly impact range effectiveness and damage output.</p>
-          
-          <h3>2. Enemy Behavior and Tactics</h3>
-          
-          <h4>Rampaging Scavengers</h4>
-          <p><strong>Melee Threats:</strong> High-damage melee enemies with clear attack patterns. Red flash warnings precede weapon swings - your signal to dodge roll.</p>
-          <p><strong>Combat Strategy:</strong> Maintain distance and use dodge rolls to avoid their devastating melee attacks.</p>
-          
-          <h4>Environmental Advantages</h4>
-          <p><strong>Cover Utilization:</strong> Sandbags provide excellent cover. Enemies, especially ranged attackers, have difficulty hitting targets behind sandbag barriers.</p>
-          <p><strong>Positioning Strategy:</strong> Use terrain features to minimize enemy accuracy and maximize your combat effectiveness.</p>
-          
-          <h3>3. Equipment and Protection</h3>
-          
-          <h4>Armor Systems</h4>
-          <p><strong>Damage Reduction:</strong> Armor and helmets provide direct damage mitigation. Advanced equipment like SWAT Helmets significantly improve early-game survivability. Check our <a href="/items/equipment">equipment database</a> to compare protection levels and stats.</p>
-          <p><strong>Durability Management:</strong> All equipment has durability ratings. Damaged items can be repaired at repair workbenches using currency.</p>
-          
-          <h2>IV. Exploration and Economic Systems</h2>
-          
-          <h3>1. Extraction Mechanics</h3>
-          
-          <h4>Ground Zero Specificity</h4>
-          <p><strong>Unique Extraction:</strong> Ground Zero doesn't require reaching designated extraction points. Simply return to the base entrance for safe extraction.</p>
-          <p><strong>Other Maps:</strong> Most locations require finding extraction points marked with green smoke or locating special exit points.</p>
-          
-          <h3>2. Specialized Storage Solutions</h3>
-          
-          <h4>Pet Slot Functionality</h4>
-          <p><strong>Heavy Item Storage:</strong> Located above your backpack, the Pet Slot is designed for heavy or extremely valuable items you cannot afford to lose.</p>
-          <p><strong>Weight Exemption:</strong> Items in the Pet Slot don't contribute to your total weight, making it ideal for Car Batteries, large cash amounts, and critical quest items.</p>
-          
-          <h3>3. Trading and Commerce</h3>
-          
-          <h4>Mysterious Merchant</h4>
-          <p><strong>Fixed Location Trading:</strong> Located at a specific Ground Zero position, this merchant accepts Cash for rare quest items including Honey, Pens, and IV Medicine.</p>
-          <p><strong>Preparation Requirement:</strong> You must bring Cash into the map before entering to trade with the Mysterious Merchant.</p>
-          
-          <h3>4. Map Expansion and Shortcuts</h3>
-          
-          <h4>Sewer Access</h4>
-          <p><strong>Secondary Route:</strong> Unlocked by removing obstacles on specific roads after bridge repairs, providing alternative Ground Zero access points.</p>
-          
-          <h4>Teleportation System</h4>
-          <p><strong>Unlock Method:</strong> Use Dynamite to detonate the cracked wall outside your base entrance.</p>
-          <p><strong>Strategic Value:</strong> Creates a two-way teleportation shortcut, enabling instant travel between map endpoints - the most crucial early-game unlock for efficient corpse recovery and expedition management.</p>
-          
-          <h2>V. Risk Management and Death Systems</h2>
-          
-          <h3>1. Death Penalties and Recovery</h3>
-          
-          <h4>Item Loss Mechanics</h4>
-          <p><strong>Complete Loss:</strong> Death results in loss of all carried items, making risk assessment crucial for expedition planning.</p>
-          <p><strong>Corpse Recovery:</strong> Your items remain in a corpse bag at your death location, requiring re-entry to recover them.</p>
-          
-          <h4>Second Death Risk</h4>
-          <p><strong>Permanent Loss:</strong> Dying again before recovering your corpse bag results in permanent loss of all previous items.</p>
-          <p><strong>Recovery Strategy:</strong> Travel light and use the fastest route when recovering corpse bags to minimize risk.</p>
-          
-          <h3>2. Risk Mitigation Strategies</h3>
-          
-          <h4>Teleportation Advantage</h4>
-          <p><strong>Quick Recovery:</strong> The Teleport Bubble (Dynamite shortcut) is essential for rapid corpse recovery and risk reduction.</p>
-          <p><strong>Strategic Planning:</strong> Plan expeditions with corpse recovery routes in mind, prioritizing safety over speed.</p>
-          
-          <h2>Conclusion</h2>
-          <p>Mastering these core mechanics is essential for success in Escape from Duckov. Focus on efficient base management, strategic character development, and careful risk assessment. For detailed item information, visit our <a href="/items">complete items database</a>. The systems work together to create a challenging but rewarding survival experience where preparation and knowledge are your greatest assets. Explore more <a href="/guides">strategic guides</a> to enhance your gameplay.</p>
-          `
-    },
-    {
-      id: 5,
-      title: 'Storm Zone Access & Roadblock Boss Guide',
-      description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-      imageUrl: '/images/guide-05.webp',
-      imageAlt: 'Storm Zone Access & Roadblock Boss Guide',
-      publishDate: '2025-10-27',
-      addressBar: '/storm-zone-access-roadblock-boss-guide',
-      category: 'advanced',
-      tags: ['STORM ZONE', 'BOSS FIGHT', 'CERTIFICATE FARMING', 'ENDGAME CONTENT', 'SURVIVAL'],
-      seo: {
-        title: 'Storm Zone Access & Roadblock Boss Guide - Escape from Duckov',
-        description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-        keywords: 'Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy',
-      },
-      detailsHtml: `
-          <p>This comprehensive guide covers the complete process of accessing Duckov's most dangerous area - the Storm Zone. Learn how to activate power systems, acquire necessary certificates, defeat the Roadblock boss, and prepare for extreme endgame challenges. For <a href="/maps">map locations</a> and detailed area information, visit our maps section.</p>
-          
-          <h2>1. Facility Power Activation</h2>
-          
-          <h3>Ground Floor Power Switch</h3>
-          <p><strong>Initial Activation:</strong> Navigate to the ground floor and locate the first power breaker. This is your starting point for the entire power activation sequence.</p>
-          <p><strong>Rogue Patrols:</strong> Stay extremely alert - heavily armed Rogues patrol this area with high-damage weapons and armor-piercing ammunition. These enemies can eliminate unprepared players quickly.</p>
-          <p><strong>Combat Preparation:</strong> Ensure you have adequate ammunition and medical supplies before engaging. Rogues are significantly more dangerous than standard enemies.</p>
-          
-          <h3>Basement Power Switch</h3>
-          <p><strong>Hazardous Descent:</strong> After activating the first breaker, proceed to the basement to activate the second power switch. This area contains environmental hazards that require careful navigation.</p>
-          <p><strong>Yellow Stim Usage:</strong> Use a Yellow Stim to enhance your movement speed and dash through dangerous sections safely. This temporary buff is essential for surviving the hazardous basement area.</p>
-          <p><strong>Quick Exit Strategy:</strong> Once power is activated, avoid lingering in the basement. The activated power systems may trigger additional hazards or enemy spawns.</p>
-          
-          <h2>2. Tier 2 Certificate Acquisition</h2>
-          
-          <h3>Certificate Spawn Locations</h3>
-          <p><strong>Primary Location:</strong> The Tier 2 certificate can spawn inside the Projection Room - check all containers and surfaces thoroughly.</p>
-          <p><strong>Secondary Location:</strong> Alternative spawn point is located directly outside the Projection Room door. Search the immediate area if not found inside.</p>
-          <p><strong>Search Strategy:</strong> Methodically check both locations as the certificate is essential for progression to higher-tier content.</p>
-          
-          <h3>Stealth Monster Threats</h3>
-          <p><strong>Invisible Predators:</strong> Stealth monsters patrol the Projection Room area and possess the ability to instantly eliminate players wearing Tier 4 armor.</p>
-          <p><strong>One-Shot Capability:</strong> These enemies can kill even heavily armored players with a single attack, making them extremely dangerous.</p>
-          <p><strong>Clearance Strategy:</strong> Eliminate all nearby Rogues before attempting to loot the certificate. This ensures safer access to the spawn locations.</p>
-          
-          <h2>3. Roadblock Boss Encounter</h2>
-          
-          <h3>Boss Preparation</h3>
-          <p><strong>Prerequisites:</strong> Ensure both power breakers have been activated before attempting the Roadblock encounter. The boss will only spawn with full power activation.</p>
-          <p><strong>Location:</strong> Return to the first floor after completing power activation to challenge the Roadblock boss.</p>
-          <p><strong>Equipment Check:</strong> Verify you have sufficient ammunition, medical supplies, and appropriate armor before engaging.</p>
-          
-          <h3>Boss Mechanics and Strategy</h3>
-          <p><strong>Guaranteed Reward:</strong> Roadblock always drops the Tier 3 certificate upon defeat - this is your guaranteed reward for completing the encounter.</p>
-          <p><strong>Combat Approach:</strong> Use cover effectively and maintain distance. Roadblock's attacks are devastating at close range.</p>
-          <p><strong>Resource Management:</strong> Conserve ammunition and medical supplies throughout the fight. The encounter can be lengthy and resource-intensive.</p>
-          
-          <h3>Post-Boss Extraction</h3>
-          <p><strong>Certificate Collection:</strong> Immediately collect the Tier 3 certificate from Roadblock's corpse.</p>
-          <p><strong>Extraction Route:</strong> Move quickly to the designated extraction zone after defeating the boss. Delaying extraction increases the risk of additional enemy encounters.</p>
-          
-          <h2>4. Storm Zone Entry</h2>
-          
-          <h3>Gateway Access</h3>
-          <p><strong>Certificate Requirement:</strong> With the Tier 3 certificate in your possession, return to Sector 0 to locate the Storm Zone gateway.</p>
-          <p><strong>Entry Process:</strong> Present the certificate at the gateway to gain access to Duckov's most dangerous area.</p>
-          <p><strong>Point of No Return:</strong> Once inside the Storm Zone, extraction becomes significantly more challenging.</p>
-          
-          <h2>5. Storm Zone Preparation and Risks</h2>
-          
-          <h3>Extreme Danger Assessment</h3>
-          <p><strong>Enemy Equipment:</strong> Expect enemies equipped with Tier 6 gear - the highest tier equipment in the game.</p>
-          <p><strong>Combat Difficulty:</strong> All enemies inside the Storm Zone are significantly more powerful than those encountered in other areas.</p>
-          <p><strong>Survival Challenge:</strong> The Storm Zone represents the ultimate test of player skill, equipment, and preparation.</p>
-          
-          <h3>Essential Preparation Items</h3>
-          <p><strong>Storm Stim Requirement:</strong> Bring at least five Storm Stims before entering. These specialized consumables are essential for countering Storm Zone hazards.</p>
-          <p><strong>Equipment Standards:</strong> Ensure your loadout includes the best available <a href="/items/weapons">weapons</a>, <a href="/items/equipment">armor</a>, and consumables. Browse our <a href="/items">items database</a> to find the optimal gear for endgame content.</p>
-          <p><strong>Extended Combat Readiness:</strong> Prepare for prolonged engagements with top-tier enemies. Standard equipment may prove insufficient.</p>
-          
-          <h2>6. Key Terminology and Items</h2>
-          
-          <h3>Certificate System</h3>
-          <p><strong>Tier 2 Certificate:</strong> Required for accessing mid-tier content and progressing toward higher difficulty areas.</p>
-          <p><strong>Tier 3 Certificate:</strong> Mandatory key item for Storm Zone access, guaranteed drop from Roadblock boss encounter.</p>
-          
-          <h3>Enemy Classifications</h3>
-          <p><strong>Rogues:</strong> AI opponents with high-end weapons and armor-piercing ammunition, significantly more dangerous than standard enemies.</p>
-          <p><strong>Stealth Monsters:</strong> Deadly invisible enemies capable of instant kills, found around the Projection Room area.</p>
-          
-          <h3>Consumable Items</h3>
-          <p><strong>Yellow Stim:</strong> Temporary movement buff ideal for navigating hazardous areas, particularly useful in basement sections.</p>
-          <p><strong>Storm Stim:</strong> Specialized consumable designed to counter Storm Zone environmental hazards and combat mechanics.</p>
-          
-          <h2>7. Strategic Recommendations</h2>
-          
-          <h3>Preparation Checklist</h3>
+          <h3>新建造任务</h3>
           <ul>
-              <li><strong>Equipment:</strong> Best available weapons and armor</li>
-              <li><strong>Consumables:</strong> Medical supplies, Yellow Stims, and Storm Stims</li>
-              <li><strong>Ammunition:</strong> Sufficient rounds for extended combat</li>
-              <li><strong>Knowledge:</strong> Understanding of enemy patterns and area layouts</li>
+              <li><strong>基本建造 II：</strong> 在地堡中建造**武器店**</li>
+              <li><strong>基本建造 III：</strong> 在地堡中建造**盔甲店**</li>
+              <li><strong>医疗建造：</strong> 在地堡中建造**医疗站**</li>
+              <li><strong>技术专家：</strong> 上交一堆**电子元件**</li>
           </ul>
           
-          <h3>Risk Management</h3>
-          <p><strong>Gradual Progression:</strong> Don't attempt Storm Zone entry until you've mastered all previous content and acquired optimal equipment.</p>
-          <p><strong>Backup Plans:</strong> Always have extraction routes planned and emergency supplies ready.</p>
-          <p><strong>Team Coordination:</strong> If playing with others, coordinate roles and responsibilities for maximum efficiency.</p>
+          <h3>战斗和技能任务</h3>
+          <ul>
+              <li><strong>瞄准头部：</strong> 在零号地带爆头击杀 5 个敌人</li>
+              <li><strong>扩展口袋：</strong> 解锁**背包专家 1**（如果尚未完成）</li>
+              <li><strong>升级工作台：</strong> 解锁**高级加工**（如果尚未完成）</li>
+          </ul>
           
-          <h2>Conclusion</h2>
-          <p>The Storm Zone represents the pinnacle of challenge in Escape from Duckov. Success requires meticulous preparation, optimal equipment, and mastery of advanced combat techniques. Check our <a href="/wiki/quests">quest database</a> for mission-related certificate requirements. Follow this guide carefully, prepare thoroughly, and remember that survival in the Storm Zone demands respect for its extreme dangers. For more advanced strategies, explore our <a href="/guides">complete guides collection</a>. Good luck with your ultimate escape from Duckov!</p>
+          <h3>资源上交任务</h3>
+          <ul>
+              <li><strong>充满爱意：</strong> 上交 1888 货币以获得丰厚奖励</li>
+              <li><strong>制作学徒：</strong> 上交一把**格洛克手枪**以获得制作知识</li>
+              <li><strong>簿记：</strong> 上交**墨水、钢笔和笔记本**以完成行政任务</li>
+          </ul>
+          
+          <h2>6. 装备和设施升级</h2>
+          
+          <h3>盔甲店建造</h3>
+          <p><strong>立即可用性：</strong> 盔甲店可以使用现有材料立即建造。</p>
+          <p><strong>装备购买：</strong> 购买**二级防弹衣**和**钢盔**以显著提升防护能力。浏览我们的<a href="/items/equipment">完整装备目录</a>以比较所有可用的盔甲选项。</p>
+          <p><strong>任务分配：</strong> 从盔甲店接受**补给路线**和**簿记**任务。</p>
+          
+          <h3>工作台增强</h3>
+          <p><strong>蓝图研究：</strong> 研究所有收集到的蓝图以释放库存空间并解锁新的制作选项。</p>
+          <p><strong>修复站研究：</strong> 解锁损坏装备的武器修复能力。</p>
+          <p><strong>拆解站：</strong> 使用自动售货机中的剪刀和扳手研究拆解能力。</p>
+          
+          <h3>角色培养</h3>
+          <p><strong>枪械精通 I：</strong> 在增强器处升级枪械熟练度以提高战斗效率。</p>
+          <p><strong>技能优先：</strong> 专注于战斗相关的增强以应对即将到来的挑战性遭遇。</p>
+          
+          <h2>7. 高级任务管理</h2>
+          
+          <h3>补给路线任务</h3>
+          <p><strong>位置：</strong> 零号地带</p>
+          <p><strong>目标：</strong> 用**记号笔**（可在储藏室获得）标记补给箱</p>
+          <p><strong>策略：</strong> 使用之前收集的记号笔高效地完成此目标。</p>
+          
+          <h3>资源规划</h3>
+          <p><strong>货币管理：</strong> 监控您的财务资源——高级装备和升级需要大量投资。</p>
+          <p><strong>材料收集：</strong> 优先收集用于未来建设项目的材料。</p>
+          <p><strong>库存优化：</strong> 定期研究蓝图并组织存储以保持高效的库存管理。</p>
+          
+          <h2>总结</h2>
+          <p>这份高级演练涵盖了《逃离达科夫》中至关重要的中期游戏进程。您已成功完成了复杂的零号地带探险，扩展了您的基地设施，并解锁了高级制作能力。查看我们的<a href="/wiki/quests">任务数据库</a>以获取所有可用任务的详细信息。重点完成新的任务链，升级您的装备，并为未来更具挑战性的内容做好准备。探索更多<a href="/guides">高级指南</a>，包括风暴区（Storm Zone）进入指南。您所建立的基础对于在达科夫最危险的地区生存至关重要。</p>
           `
+  },
+
+  {
+    "id": 4,
+    "title": "掌握核心游戏机制与系统",
+    "description": "《逃离达科夫》核心机制的综合指南，涵盖基地管理、角色培养、战斗系统、探索和生存策略。",
+    "imageUrl": "/images/guide-04.webp",
+    "imageAlt": "掌握核心游戏机制与系统",
+    "publishDate": "2025-10-27",
+    "addressBar": "/master-core-game-mechanics-systems",
+    "category": "getting-started",
+    "tags": [
+      "CORE MECHANICS",
+      "BASE MANAGEMENT",
+      "COMBAT SYSTEMS",
+      "CHARACTER PROGRESSION",
+      "SURVIVAL"
+    ],
+    "seo": {
+      "title": "掌握核心游戏机制与系统 - 逃离达科夫",
+      "description": "《逃离达科夫》核心机制的综合指南，涵盖基地管理、角色培养、战斗系统、探索和生存策略。",
+      "keywords": "Escape from Duckov, Core Mechanics, Base Management, Combat Systems, Character Progression, Survival Guide, Game Systems"
     },
-  
-    {
-      id: 6,
-      title: "escape from duckov ledx",
-      description: "Looking for the elusive LEDX in Escape from Duckov? This guide breaks down the best methods for acquisition, covering spawn locations, key usage, enemy drops, and market value. Maximize your chances of finding this vital medical item and discover smart trading tips!",
-      tags: ["Escape from Duckov", "LEDX", "Rare Item", "Loot Guide", "Sanatorium Key"],
-      publishDate: "2025-10-28",
-      imageUrl: "/images/guide/guide06-01.webp",
-      imageAlt: "A LEDX Skin Transilluminator in Escape from Duckov displayed on a workbench.",
-      category: 'advanced',
-      seo: {
-        title: "Escape from Duckov LEDX: The Ultimate Acquisition Guide",
-        description: "Learn how to find the rare LEDX in Escape from Duckov. Get tips on spawn locations, key requirements, trading strategies, and quest implications for maximizing profit!",
-        keywords: "escape from duckov, ledx, loot guide, sanatorium, key, rare item, trading, quests",
-      },
-      addressBar: "/escape-from-duckov-ledx",
-      detailsHtml: `
+    "detailsHtml": `
+          <p>这份综合指南涵盖了《<a href="/">逃离达科夫</a>》中所有必要的游戏机制，从基地管理和角色培养到战斗系统和探索策略。掌握这些核心系统，最大限度地提高您的生存潜力。</p>
+          
+          <h2>I. 基地管理和制作系统</h2>
+          
+          <h3>1. 基地功能和配置</h3>
+          
+          <h4>难度管理</h4>
+          <p><strong>动态难度：</strong> 游戏难度设置（包括生存模式）可以随时使用基地里的桌子进行修改（按 F 键）。这允许您根据当前的装备和经验调整挑战级别。</p>
+          
+          <h4>蓝图研究系统</h4>
+          <p><strong>注册过程：</strong> 在基地找到蓝图研究站后，您必须注册所有搜刮到的蓝图（例如方块枪配方），以解锁制作选项并释放宝贵的库存空间。</p>
+          <p><strong>战略益处：</strong> 注册的蓝图可以防止重复收集，并提供永久访问制作配方的权限，而无需携带实物蓝图。</p>
+          
+          <h4>建筑升级</h4>
+          <p><strong>渐进式增强：</strong> 工作台、技术中心和健身房等设施可以升级，以解锁高级制作能力和专业功能。</p>
+          <p><strong>高级加工：</strong> 将您的工作台升级到**高级加工**可解锁武器修复功能，这对于维护装备耐久性至关重要。</p>
+          
+          <h3>2. 存储和库存管理</h3>
+          
+          <h4>储藏室系统</h4>
+          <p><strong>安全存储：</strong> 您的基地储藏室是所有物品的安全存储区。使用“全部存储”可快速将物品从您的库存转移到存储。</p>
+          <p><strong>空间扩展：</strong> 可以通过投资货币和材料进行存储升级来增加储藏室容量。</p>
+          
+          <h4>物品保护</h4>
+          <p><strong>槽位锁定：</strong> 按 L 键锁定特定的物品槽位。锁定的物品受到保护，不会被“全部存储”或出售功能意外转移。</p>
+          <p><strong>装备安全：</strong> 此系统可防止在库存管理操作过程中丢失有价值的装备。</p>
+          
+          <h3>3. 制作和资源追踪</h3>
+          
+          <h4>物品标记系统</h4>
+          <p><strong>材料追踪：</strong> 在制作和升级界面中，对所需材料按 N 键，在其旁边添加心形图标。此视觉系统有助于追踪任务物品和制作需求。</p>
+          <p><strong>任务整合：</strong> 标记的物品在搜刮时很容易识别，简化了任务完成和资源收集。</p>
+          
+          <h4>拆解机制</h4>
+          <p><strong>资源转换：</strong> 许多物品（包括生锈子弹和塑料元件）可以拆解成火药等基本材料，用于制作或任务上交。</p>
+          <p><strong>效率策略：</strong> 定期拆解可最大限度地利用资源，并为高级制作项目提供材料。</p>
+          
+          <h2>II. 角色培养和进程</h2>
+          
+          <h3>1. 属性增强和天赋</h3>
+          
+          <h4>天赋宫殿系统</h4>
+          <p><strong>核心进程：</strong> 天赋宫殿是主要的角色进阶系统，通过投资现金和核心碎片提供永久增益。</p>
+          <p><strong>优先推荐：</strong> **背包专家**（Backpack Expert）提供额外的负重能力和存储空间——这是早期游戏中最有价值的投资，可提高探险效率。</p>
+          
+          <h4>体能训练</h4>
+          <p><strong>泥巴的训练：</strong> 拜访健身房的泥巴（Mud），进行可永久增加最大生命值等属性的体能训练计划。</p>
+          <p><strong>长期益处：</strong> 体能训练提供永久属性提升，是角色培养中值得的投资。</p>
+          
+          <h3>2. 生存和医疗系统</h3>
+          
+          <h4>治疗物品类别</h4>
+          <ul>
+              <li><strong>生命值恢复：</strong> 绷带和急救包可恢复生命值，对于战斗生存至关重要。</li>
+              <li><strong>疼痛管理：</strong> 阿司匹林可以缓解疼痛，但会导致脱水——使用后请监测饮水量。</li>
+              <li><strong>出血控制：</strong> 赫拉特（Herat）作为止血药物，专门用于治疗出血状态效果。</li>
+          </ul>
+          
+          <h3>3. 移动和战斗机制</h3>
+          
+          <h4>速度优化</h4>
+          <p><strong>收起武器：</strong> 按 C 键收起武器，提高移动速度——在使用步枪或重型武器时特别有效。</p>
+          <p><strong>战略机动性：</strong> 收起武器对于快速重新定位和逃跑情景至关重要。</p>
+          
+          <h4>规避技术</h4>
+          <p><strong>闪避翻滚：</strong> 在与近战敌人战斗时使用空格键进行闪避翻滚。这对于避免横冲直撞的拾荒者造成致命攻击至关重要。</p>
+          <p><strong>时机关键：</strong> 掌握闪避翻滚的时机，最大限度地提高对抗高伤害近战对手的生存率。</p>
+          
+          <h2>III. 战斗系统和装备</h2>
+          
+          <h3>1. 枪械机制和伤害</h3>
+          
+          <h4>弹药类型</h4>
+          <p><strong>口径种类：</strong> 不同的枪械使用特定的弹药类型（S、L、AR 弹）。格洛克等早期武器使用 S 弹，而 AK-74U 则需要 AR 弹。浏览我们的<a href="/items/ammunition">弹药数据库</a>和<a href="/items/weapons">武器数据库</a>以获取完整的兼容性信息。</p>
+          <p><strong>生锈子弹：</strong> 常见的早期弹药，伤害输出较低——需要更多射击才能有效消灭敌人。</p>
+          
+          <h4>射程和精度</h4>
+          <p><strong>距离指示器：</strong> 用户界面右下角显示一个距离指示器，显示最佳武器有效性。</p>
+          <p><strong>颜色编码：</strong> 绿色/白色表示有效射程和最大伤害，而红色表示由于射程或精度问题导致的伤害降低。</p>
+          <p><strong>配件效果：</strong> 消音器和枪口制退器等武器改装直接影响射程有效性和伤害输出。</p>
+          
+          <h3>2. 敌人行为和战术</h3>
+          
+          <h4>横冲直撞的拾荒者</h4>
+          <p><strong>近战威胁：</strong> 具有明显攻击模式的高伤害近战敌人。红色闪光警告先于武器挥动——这是您进行闪避翻滚的信号。</p>
+          <p><strong>战斗策略：</strong> 保持距离并使用闪避翻滚来避开他们毁灭性的近战攻击。</p>
+          
+          <h4>环境优势</h4>
+          <p><strong>利用掩体：</strong> 沙袋提供极好的掩护。敌人，尤其是远程攻击者，很难击中沙袋障碍物后面的目标。</p>
+          <p><strong>定位策略：</strong> 利用地形特征来最大限度地减少敌人的准确性并最大限度地提高您的战斗效率。</p>
+          
+          <h3>3. 装备和防护</h3>
+          
+          <h4>盔甲系统</h4>
+          <p><strong>伤害减免：</strong> 盔甲和头盔提供直接的伤害减免。特警头盔等高级装备显著提高了早期游戏的生存能力。查看我们的<a href="/items/equipment">装备数据库</a>以比较防护等级和属性。</p>
+          <p><strong>耐久度管理：</strong> 所有装备都有耐久度等级。损坏的物品可以在维修工作台使用货币进行修复。</p>
+          
+          <h2>IV. 探索和经济系统</h2>
+          
+          <h3>1. 撤离机制</h3>
+          
+          <h4>零号地带特殊性</h4>
+          <p><strong>独特撤离：</strong> 零号地带不需要到达指定的撤离点。只需返回基地入口即可安全撤离。</p>
+          <p><strong>其他地图：</strong> 大多数地点需要找到标有绿色烟雾的撤离点或找到特殊的出口点。</p>
+          
+          <h3>2. 专业存储解决方案</h3>
+          
+          <h4>宠物槽位功能</h4>
+          <p><strong>重物存储：</strong> 位于背包上方，宠物槽位专为您不能承受丢失的重物或极其有价值的物品而设计。</p>
+          <p><strong>重量豁免：</strong> 宠物槽位中的物品不计入您的总重量，使其成为汽车电池、大量现金和关键任务物品的理想选择。</p>
+          
+          <h3>3. 交易和商业</h3>
+          
+          <h4>神秘商人</h4>
+          <p><strong>固定地点交易：</strong> 这位商人位于零号地带的特定位置，接受现金以换取稀有的任务物品，包括蜂蜜、钢笔和静脉注射药物。</p>
+          <p><strong>准备要求：</strong> 您必须在进入地图之前携带现金才能与神秘商人进行交易。</p>
+          
+          <h3>4. 地图扩展和捷径</h3>
+          
+          <h4>下水道入口</h4>
+          <p><strong>次要路线：</strong> 在桥梁修复后，通过清除特定道路上的障碍物解锁，提供备用的零号地带进入点。</p>
+          
+          <h4>传送系统</h4>
+          <p><strong>解锁方法：</strong> 使用炸药炸毁基地入口外的裂墙。</p>
+          <p><strong>战略价值：</strong> 创建一个双向传送捷径，实现地图端点之间的即时旅行——这是实现高效尸体回收和探险管理的最关键的早期游戏解锁。</p>
+          
+          <h2>V. 风险管理和死亡系统</h2>
+          
+          <h3>1. 死亡惩罚和恢复</h3>
+          
+          <h4>物品丢失机制</h4>
+          <p><strong>完全丢失：</strong> 死亡会导致所有携带物品丢失，使得风险评估对于探险规划至关重要。</p>
+          <p><strong>尸体恢复：</strong> 您的物品留在您死亡地点的尸体包中，需要重新进入才能恢复它们。</p>
+          
+          <h4>二次死亡风险</h4>
+          <p><strong>永久丢失：</strong> 在恢复尸体包之前再次死亡会导致所有先前的物品永久丢失。</p>
+          <p><strong>恢复策略：</strong> 在恢复尸体包时，轻装上阵并使用最快的路线以最大限度地降低风险。</p>
+          
+          <h3>2. 风险缓解策略</h3>
+          
+          <h4>传送优势</h4>
+          <p><strong>快速恢复：</strong> 传送气泡（炸药捷径）对于快速尸体恢复和降低风险至关重要。</p>
+          <p><strong>战略规划：</strong> 在规划探险时，考虑到尸体恢复路线，将安全置于速度之上。</p>
+          
+          <h2>总结</h2>
+          <p>掌握这些核心机制对于在《逃离达科夫》中取得成功至关重要。专注于高效的基地管理、战略性的角色培养和仔细的风险评估。有关详细的物品信息，请访问我们的<a href="/items">完整物品数据库</a>。这些系统共同作用，创造了一个具有挑战性但有回报的生存体验，其中准备和知识是您最大的资产。探索更多<a href="/guides">战略指南</a>以增强您的游戏体验。</p>
+          `
+  },
+
+  {
+    "id": 5,
+    "title": "风暴区进入与路障首领指南",
+    "description": "完整的风暴区进入指南，包括电力激活、证书获取、路障首领策略，以及为达科夫最危险区域进行的基本准备。",
+    "imageUrl": "/images/guide-05.webp",
+    "imageAlt": "风暴区进入与路障首领指南",
+    "publishDate": "2025-10-27",
+    "addressBar": "/storm-zone-access-roadblock-boss-guide",
+    "category": "advanced",
+    "tags": [
+      "STORM ZONE",
+      "BOSS FIGHT",
+      "CERTIFICATE FARMING",
+      "ENDGAME CONTENT",
+      "SURVIVAL"
+    ],
+    "seo": {
+      "title": "风暴区进入与路障首领指南 - 逃离达科夫",
+      "description": "完整的风暴区进入指南，包括电力激活、证书获取、路障首领策略，以及为达科夫最危险区域进行的基本准备。",
+      "keywords": "Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy"
+    },
+    "detailsHtml": `
+          <p>这份综合指南涵盖了进入达科夫最危险区域——**风暴区**的完整过程。了解如何激活电力系统、获取必要的证书、击败**路障**首领，并为极端的终局挑战做好准备。有关<a href="/maps">地图位置</a>和详细区域信息，请访问我们的地图部分。</p>
+          
+          <h2>1. 设施电力激活</h2>
+          
+          <h3>一层电源开关</h3>
+          <p><strong>初始激活：</strong> 前往一层，找到第一个断路器。这是您整个电力激活序列的起点。</p>
+          <p><strong>流氓巡逻队：</strong> 保持高度警惕——全副武装的**流氓**（Rogues）携带高伤害武器和穿甲弹在该区域巡逻。这些敌人可以迅速淘汰没有准备的玩家。</p>
+          <p><strong>战斗准备：</strong> 确保在交战前有充足的弹药和医疗用品。流氓比标准敌人危险得多。</p>
+          
+          <h3>地下室电源开关</h3>
+          <p><strong>危险下降：</strong> 激活第一个断路器后，进入地下室激活第二个电源开关。该区域包含环境危险，需要小心导航。</p>
+          <p><strong>黄色兴奋剂使用：</strong> 使用**黄色兴奋剂**（Yellow Stim）来增强您的移动速度，并安全地冲过危险区域。这种临时增益对于在危险的地下室区域生存至关重要。</p>
+          <p><strong>快速撤离策略：</strong> 一旦电力激活，避免在地下室逗留。激活的电力系统可能会触发额外的危险或敌人生成。</p>
+          
+          <h2>2. 二级证书获取</h2>
+          
+          <h3>证书生成位置</h3>
+          <p><strong>主要位置：</strong> **二级证书**可以在**放映室**（Projection Room）内生成——彻底检查所有容器和表面。</p>
+          <p><strong>次要位置：</strong> 另一个生成点位于放映室门外。如果室内没有找到，请搜索附近区域。</p>
+          <p><strong>搜索策略：</strong> 有条不紊地检查这两个位置，因为证书对于进阶到更高等级的内容至关重要。</p>
+          
+          <h3>潜行怪物威胁</h3>
+          <p><strong>隐形捕食者：</strong> **潜行怪物**（Stealth monsters）在放映室区域巡逻，并具有**即时淘汰**穿着四级护甲玩家的能力。</p>
+          <p><strong>一击必杀能力：</strong> 这些敌人即使是穿着重甲的玩家也能一击必杀，使其极其危险。</p>
+          <p><strong>清除策略：</strong> 在尝试搜刮证书之前，先消灭附近所有的流氓。这确保了更安全的证书获取通道。</p>
+          
+          <h2>3. 路障首领遭遇战</h2>
+          
+          <h3>首领准备</h3>
+          <p><strong>先决条件：</strong> 确保在尝试路障遭遇战之前，两个断路器都已激活。只有在完全激活电力后，首领才会生成。</p>
+          <p><strong>位置：</strong> 完成电力激活后返回一层，挑战**路障**（Roadblock）首领。</p>
+          <p><strong>装备检查：</strong> 在交战前，确认您有足够的弹药、医疗用品和合适的护甲。</p>
+          
+          <h3>首领机制和策略</h3>
+          <p><strong>保证奖励：</strong> 路障在被击败后总是会掉落**三级证书**——这是您完成遭遇战的保证奖励。</p>
+          <p><strong>战斗方法：</strong> 有效利用掩体并保持距离。路障的攻击在近距离具有毁灭性。</p>
+          <p><strong>资源管理：</strong> 在整个战斗中节省弹药和医疗用品。遭遇战可能耗时且资源消耗大。</p>
+          
+          <h3>首领战后撤离</h3>
+          <p><strong>证书收集：</strong> 立即从路障的尸体上收集三级证书。</p>
+          <p><strong>撤离路线：</strong> 击败首领后快速前往指定的撤离区。延迟撤离会增加额外敌人遭遇的风险。</p>
+          
+          <h2>4. 风暴区进入</h2>
+          
+          <h3>网关通道</h3>
+          <p><strong>证书要求：</strong> 拥有三级证书后，返回**扇区 0**（Sector 0）找到风暴区网关。</p>
+          <p><strong>进入过程：</strong> 在网关处出示证书，即可进入达科夫最危险的区域。</p>
+          <p><strong>不归路：</strong> 一旦进入风暴区，撤离将变得更具挑战性。</p>
+          
+          <h2>5. 风暴区准备和风险</h2>
+          
+          <h3>极端危险评估</h3>
+          <p><strong>敌人装备：</strong> 预计敌人将配备**六级装备**——游戏中最高级别的装备。</p>
+          <p><strong>战斗难度：</strong> 风暴区内的所有敌人都比在其他区域遇到的敌人强大得多。</p>
+          <p><strong>生存挑战：</strong> 风暴区代表了对玩家技能、装备和准备的终极考验。</p>
+          
+          <h3>基本准备物品</h3>
+          <p><strong>风暴兴奋剂要求：</strong> 在进入前至少携带五个**风暴兴奋剂**（Storm Stims）。这些专用消耗品对于应对风暴区危险至关重要。</p>
+          <p><strong>装备标准：</strong> 确保您的装备包括最佳的<a href="/items/weapons">武器</a>、<a href="/items/equipment">护甲</a>和消耗品。浏览我们的<a href="/items">物品数据库</a>以找到终局内容所需的最佳装备。</p>
+          <p><strong>延长战斗准备：</strong> 准备与顶级敌人进行长时间交战。标准装备可能不足。</p>
+          
+          <h2>6. 关键术语和物品</h2>
+          
+          <h3>证书系统</h3>
+          <ul>
+              <li><strong>二级证书：</strong> 进入中级内容并进阶到更高难度区域所需。</li>
+              <li><strong>三级证书：</strong> 进入风暴区的强制性关键物品，保证从路障首领遭遇战中掉落。</li>
+          </ul>
+          
+          <h3>敌人分类</h3>
+          <ul>
+              <li><strong>流氓：</strong> 携带高阶武器和穿甲弹的 AI 对手，比标准敌人危险得多。</li>
+              <li><strong>潜行怪物：</strong> 致命的隐形敌人，能够一击必杀，出现在放映室区域附近。</li>
+          </ul>
+          
+          <h3>消耗品</h3>
+          <ul>
+              <li><strong>黄色兴奋剂：</strong> 临时的移动增益，非常适合导航危险区域，特别是在地下室部分。</li>
+              <li><strong>风暴兴奋剂：</strong> 专用的消耗品，旨在应对风暴区环境危险和战斗机制。</li>
+          </ul>
+          
+          <h2>7. 战略建议</h2>
+          
+          <h3>准备清单</h3>
+          <ul>
+              <li><strong>装备：</strong> 最佳可用武器和护甲</li>
+              <li><strong>消耗品：</strong> 医疗用品、黄色兴奋剂和风暴兴奋剂</li>
+              <li><strong>弹药：</strong> 充足的弹药用于长时间战斗</li>
+              <li><strong>知识：</strong> 了解敌人模式和区域布局</li>
+          </ul>
+          
+          <h3>风险管理</h3>
+          <ul>
+              <li><strong>循序渐进：</strong> 在掌握所有先前内容并获得最佳装备之前，不要尝试进入风暴区。</li>
+              <li><strong>后备计划：</strong> 始终规划好撤离路线并准备好紧急补给。</li>
+              <li><strong>团队协调：</strong> 如果与其他玩家一起游戏，协调角色和职责以实现最大效率。</li>
+          </ul>
+          
+          <h2>总结</h2>
+          <p>风暴区代表了《逃离达科夫》中挑战的顶峰。成功需要一丝不苟的准备、最佳的装备和对高级战斗技术的掌握。查看我们的<a href="/wiki/quests">任务数据库</a>以了解与任务相关的证书要求。仔细遵循本指南，做好充分准备，请记住在风暴区生存需要尊重其极端的危险。有关更高级的策略，请探索我们的<a href="/guides">完整指南合集</a>。祝您最终成功逃离达科夫！</p>
+          `
+  },
+
+  {
+    "id": 6,
+    "title": "逃离达科夫 LEDX",
+    "description": "正在寻找《逃离达科夫》中难以捉摸的 LEDX 吗？本指南分解了最佳获取方法，涵盖生成位置、钥匙使用、敌人掉落和市场价值。最大限度地提高您找到这个重要医疗物品的机会，并发现明智的交易技巧！",
+    "tags": [
+      "Escape from Duckov",
+      "LEDX",
+      "Rare Item",
+      "Loot Guide",
+      "Sanatorium Key"
+    ],
+    "publishDate": "2025-10-28",
+    "imageUrl": "/images/guide/guide06-01.webp",
+    "imageAlt": "Escape from Duckov 中的 LEDX 皮肤透照仪显示在工作台上。",
+    "category": "advanced",
+    "seo": {
+      "title": "逃离达科夫 LEDX：终极获取指南",
+      "description": "了解如何在《逃离达科夫》中找到稀有的 LEDX。获取有关生成位置、钥匙要求、交易策略和任务影响的提示，以最大限度地提高利润！",
+      "keywords": "escape from duckov, ledx, loot guide, sanatorium, key, rare item, trading, quests"
+    },
+    "addressBar": "/escape-from-duckov-ledx",
+    "detailsHtml": `
           <h2 style="font-size: 1.5em; font-weight: bold;">
-    <span>escape from duckov ledx</span>
+    <span>逃离达科夫 LEDX</span>
   </h2>
   <p style="margin: 1em 0px;">
-      The LEDX Skin Transilluminator in <a href="/">Escape from Duckov</a> is a highly sought-after and incredibly rare item, coveted for its high market value and critical role in various late-game quests.
-      Acquiring this medical device can significantly boost your wealth and progress. This comprehensive guide provides detailed information on where and how to find the LEDX, its value on the market, and strategic recommendations for its use. Check our <a href="/wiki/quests">quest database</a> to see which missions require the LEDX.
+      《<a href="/">逃离达科夫</a>》中的 **LEDX 皮肤透照仪** 是一种备受追捧且极其稀有的物品，因其高市场价值和在各种后期任务中的关键作用而备受青睐。
+      获取此医疗设备可以显著增加您的财富和进度。这份综合指南提供了有关在何处以及如何找到 LEDX、其市场价值以及使用它的战略建议的详细信息。查看我们的<a href="/wiki/quests">任务数据库</a>，了解哪些任务需要 LEDX。
       </p>
   <img src="/images/guide/guide06-02.webp" alt="LEDX-1">
   
   <h3 style="font-size: 1.17em; font-weight: bold;">
-    <span >About the LEDX</span>
+    <span>关于 LEDX</span>
   </h3>
   <p style="margin: 1em 0px;">
     <span>
-      The LEDX Skin Transilluminator is categorized as a medical item within Escape from Duckov. Its primary purpose is to enhance the visibility of blood vessels, facilitating easier and more accurate injections.
-      Weighing just 0.2kg, it is relatively lightweight, making it a manageable addition to your inventory. Its rarity and value make it a high-priority target for many players, whether for personal use, completing tasks, or capitalizing on its market value.
-      Remember that finding the LEDX in Escape from Duckov requires patience and a strategic approach. For more loot guides and strategies, explore our <a href="/guides">complete guides collection</a>.
+      LEDX 皮肤透照仪在《逃离达科夫》中被归类为医疗物品。其主要目的是增强血管的可见性，有助于更轻松、更准确地进行注射。
+      它重仅 0.2 千克，相对较轻，可以方便地添加到您的库存中。它的稀有性和价值使其成为许多玩家的首要目标，无论是出于个人使用、完成任务，还是利用其市场价值。
+      请记住，在《逃离达科夫》中找到 LEDX 需要耐心和战略方法。有关更多战利品指南和策略，请探索我们的<a href="/guides">完整指南合集</a>。
     </span>
   </p>
   
   <h3 style="font-size: 1.17em; font-weight: bold;">
-    <span >LEDX Acquisition Methods</span>
+    <span>LEDX 获取方法</span>
   </h3>
   <ol>
-    <li><strong >Random Loot Spawn Points:</strong>
-      <span > The most common method involves searching specific loot spawn points across various maps. The Sanatorium, particularly a specific room containing a bed, is a known location for LEDX spawns. However, remember that spawn rates are random.</span>
+    <li><strong>随机战利品生成点：</strong>
+      <span> 最常见的方法是搜索各种地图上的特定战利品生成点。疗养院（Sanatorium），尤其是一个包含床的特定房间，是已知的 LEDX 生成位置。但请记住，生成率是随机的。</span>
     </li>
-    <li><strong >Room Keys:</strong>
-      <span > Accessing certain rooms, such as those requiring the "Sanatorium Room Key 2," increases your chances of finding a LEDX. These rooms often contain higher-tier loot, making them worthwhile investments. Browse our <a href="/items/key">keys database</a> to find all available keys. Keep an eye out for these keys as you explore.</span>
+    <li><strong>房间钥匙：</strong>
+      <span> 进入某些房间，例如需要“疗养院房间钥匙 2”（Sanatorium Room Key 2）的房间，会增加您找到 LEDX 的机会。这些房间通常包含更高级别的战利品，使它们成为值得投资的区域。浏览我们的<a href="/items/key">钥匙数据库</a>以查找所有可用钥匙。在探索时留意这些钥匙。</span>
     </li>
-    <li><strong >Enemy Drops:</strong>
-      <span > While less frequent, defeating enemies like Scavs, Raiders, and Bosses provides a small chance of them dropping a LEDX. Targeting high-value areas with increased enemy presence can improve your odds.</span>
+    <li><strong>敌人掉落：</strong>
+      <span> 虽然不那么频繁，但击败 Scavs、Raiders 和 Bosses 等敌人有很小的几率让他们掉落 LEDX。瞄准敌人密度增加的高价值区域可以提高您的几率。</span>
     </li>
-    <li><strong >Scav Case:</strong>
-      <span > Using the Scav Case at your hideout could potentially yield a LEDX, although it is a very rare outcome. This is a passive method for attempting to acquire the item.</span>
+    <li><strong>拾荒者箱：</strong>
+      <span> 在您的藏身处使用**拾荒者箱**（Scav Case）可能会获得 LEDX，尽管这是一个非常罕见的结果。这是尝试获取此物品的被动方法。</span>
     </li>
-    <li><strong >Crafting:</strong>
-      <span > While you cannot craft the LEDX directly, having other necessary items can lead to opportunities to trade for it or barter for keys to locations where LEDX's spawn.</span>
+    <li><strong>制作：</strong>
+      <span> 虽然您不能直接制作 LEDX，但拥有其他必需物品可以带来交易或易物获取 LEDX 或 LEDX 生成位置钥匙的机会。</span>
     </li>
-    <li><strong >Flea Market:</strong>
-      <span > Though you can't directly purchase from merchants, the Flea Market allows for player-to-player transactions. This may not be reliable, but can give an estimate of current LEDX value.</span>
+    <li><strong>跳蚤市场：</strong>
+      <span> 虽然您不能直接从商人那里购买，但**跳蚤市场**（Flea Market）允许玩家之间的交易。这可能不太可靠，但可以估算出当前 LEDX 的价值。</span>
     </li>
-    <li><strong >Quest Rewards:</strong>
-      <span > Some rare quests will offer the LEDX as a reward, so keep an eye out for these! Check our <a href="/wiki/quests">complete quest database</a> for all mission rewards.</span>
+    <li><strong>任务奖励：</strong>
+      <span> 一些稀有任务将提供 LEDX 作为奖励，所以请留意这些任务！查看我们的<a href="/wiki/quests">完整任务数据库</a>以获取所有任务奖励。</span>
     </li>
   </ol>
   
   <h3 style="font-size: 1.17em; font-weight: bold;">
-    <span >FAQ</span>
+    <span>常见问题</span>
   </h3>
   <ol>
-    <li><span >What is the market value of a LEDX in Escape from Duckov?</span></li>
-    <li><span >The LEDX can fetch up to 16,250 HKD on the market, making it a lucrative item to sell. Prices can fluctuate, so keep an eye on the market trends.</span></li>
-    <li><span >Can I purchase the LEDX from merchants?</span></li>
-    <li><span >No, the LEDX cannot be purchased directly from merchants. Its buy-in value is displayed as "???" due to its unavailability through these channels.</span></li>
-    <li><span >How many LEDX should I keep for quests?</span></li>
-    <li><span >It's recommended to keep at least 5 LEDX for future quests and crafting purposes. This will save you time and money in the long run.</span></li>
-    <li><span >Which keys are most useful for finding LEDX?</span></li>
-    <li><span >The "Sanatorium Room Key 2" is a particularly valuable key to acquire, as it unlocks rooms known for higher-tier loot, including the potential for LEDX spawns.</span></li>
-    <li><span >Is it better to sell or keep a LEDX early in the game?</span></li>
-    <li><span >While tempting to sell for quick cash, consider the value of saving some for upcoming quests. If you have more than 5, selling the extras is a reasonable choice.</span></li>
+    <li><span>LEDX 在《逃离达科夫》中的市场价值是多少？</span></li>
+    <li><span>LEDX 在市场上可以卖到高达 **16,250 港币**，使其成为一个利润丰厚的出售物品。价格可能会波动，因此请密切关注市场趋势。</span></li>
+    <li><span>我可以从商人那里购买 LEDX 吗？</span></li>
+    <li><span>不，LEDX 不能直接从商人那里购买。由于无法通过这些渠道获取，其买入价值显示为“???”。</span></li>
+    <li><span>我应该为任务保留多少个 LEDX？</span></li>
+    <li><span>建议至少保留 **5 个 LEDX** 以用于未来的任务和制作目的。从长远来看，这将为您节省时间和金钱。</span></li>
+    <li><span>哪些钥匙对于找到 LEDX 最有用？</span></li>
+    <li><span>“**疗养院房间钥匙 2**”是一把特别有价值的钥匙，因为它解锁的房间以高阶战利品而闻名，包括 LEDX 的潜在生成。</span></li>
+    <li><span>在游戏早期出售还是保留 LEDX 更好？</span></li>
+    <li><span>虽然出售以快速套现很诱人，但请考虑为即将到来的任务保留一些的价值。如果您拥有超过 5 个，出售多余的是一个合理的选择。</span></li>
   </ol>
   
   <p style="margin: 1em 0px;">
-    <span >
-      In summary, the LEDX in Escape from Duckov is a valuable and rare item with both economic and strategic importance.
-      Securing a LEDX in Escape from Duckov requires patience, knowledge of spawn locations, and a bit of luck.
-      Knowing how to obtain, value, and utilize the LEDX can significantly impact your progression and financial success within the game. Good luck in your hunt!
+    <span>
+      总而言之，《逃离达科夫》中的 LEDX 是一种具有经济和战略重要性的宝贵稀有物品。
+      在《逃离达科夫》中获得 LEDX 需要耐心、对生成位置的了解，以及一点运气。
+      了解如何获取、评估和利用 LEDX 可以显著影响您的游戏进程和财务成功。祝您狩猎顺利！
     </span>
   </p>
   
           `
+  },
+
+  {
+    "id": 7,
+    "title": "逃离达科夫 J 实验室门禁卡获取指南",
+    "iframeUrl": "1",
+    "description": "穿梭于达科夫险恶的郊区，确保您进入 J 实验室的权限！本指南提供详细的生成位置、任务演练和专家提示，以获取所有 J 实验室门禁卡，从基本的 J-Lab 1 到难以捉摸的彩色变体。主宰实验室，像专业人士一样搜刮战利品！",
+    "tags": [
+      "Escape from Duckov",
+      "J-Lab Cards",
+      "Access Guide"
+    ],
+    "publishDate": "2025-10-28",
+    "imageUrl": "/images/guide/guide07-01.webp",
+    "imageAlt": "一名玩家角色在充满工业设备的昏暗房间内搜刮《逃离达科夫》中的 J 实验室门禁卡。",
+    "category": "advanced",
+    "seo": {
+      "title": "逃离达科夫：J 实验室卡指南 - 解锁所有实验室！",
+      "description": "解锁《逃离达科夫》中的所有 J 实验室！本指南详细介绍了 J 实验室卡的位置、任务奖励和刷取方法，以高效地突袭高阶战利品。立即主宰达科夫！",
+      "keywords": "escape from duckov j-lab cards, access card guide, duckov, lab access, looting guide, quest guide, farming guide, red card, blue card, green card"
     },
-  
-    {
-      id: 7,
-      title: "Escape from Duckov J-Lab Access Cards Acquisition Guide",
-      iframeUrl: "1",
-      description: "Navigate the treacherous suburbs of Duckov and secure your access to the J-Labs! This guide provides detailed spawn locations, quest walkthroughs, and expert tips to acquire every J-Lab Access Card, from the basic J-Lab 1 to the elusive colored variants. Dominate the labs and loot like a pro!",
-      tags: ["Escape from Duckov", "J-Lab Cards", "Access Guide"],
-      publishDate: "2025-10-28",
-      imageUrl: "/images/guide/guide07-01.webp",
-      imageAlt: "A player character looting a J-Lab Access Card in Escape from Duckov, inside a dimly lit room filled with industrial equipment.",
-      category: 'advanced',
-      seo: {
-        title: "Escape from Duckov: J-Lab Card Guide - Unlock All Labs!",
-        description: "Unlock all J-Labs in Escape from Duckov! This guide details J-Lab Card locations, quest rewards, and farming methods to efficiently raid high-tier loot. Dominate Duckov now!",
-        keywords: "escape from duckov j-lab cards, access card guide, duckov, lab access, looting guide, quest guide, farming guide, red card, blue card, green card",
-      },
-      addressBar: "/escape-from-duckov-j-lab-access-card-acquisition-guide",
-      detailsHtml: `
+    "addressBar": "/escape-from-duckov-j-lab-access-card-acquisition-guide",
+    "detailsHtml": `
           <p style="margin: 1em 0px;">
-    In <a href="/">Escape from Duckov</a>, J-Lab Access Cards are crucial for gaining access to the restricted laboratories scattered throughout the Duckov suburbs.
-    While the first entry-level card (J-Lab 1) is relatively easy to find, more advanced versions—including Level 2 cards and colored access cards (red, blue, green, purple, yellow, and black)—are much rarer and typically unlocked through deeper exploration, looting, and completing specific quests. Check our <a href="/items/key">keys database</a> for keycard information.
+    在《<a href="/">逃离达科夫</a>》中，**J 实验室门禁卡**对于进入散布在达科夫郊区的受限制实验室至关重要。
+    虽然第一张入门级卡（**J-Lab 1**）相对容易找到，但更高级的版本——包括 **二级卡**和**彩色门禁卡**（红色、蓝色、绿色、紫色、黄色和黑色）——则稀有得多，通常通过更深入的探索、搜刮和完成特定任务来解锁。查看我们的<a href="/items/key">钥匙数据库</a>以获取钥匙卡信息。
   </p>
   
   <p style="margin: 1em 0px;">
-    This guide details how to find each J-Lab card, its confirmed spawn areas, and the best search routes to make your lab raids efficient and repeatable. For detailed <a href="/maps">map locations</a> and lab access points, visit our maps section.
+    本指南详细介绍了如何找到每张 J 实验室卡、其确认的生成区域以及最佳搜索路线，以使您的实验室突袭高效且可重复。有关详细的<a href="/maps">地图位置</a>和实验室入口点，请访问我们的地图部分。
   </p>
   
-  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>What are J-Lab Cards?</strong></h2>
+  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>什么是 J 实验室卡？</strong></h2>
   
   <p style="margin: 1em 0px;">
-    J-Lab Cards are security passes used to access underground research facilities located throughout the Duckov region.
-    Different levels of cards grant access to deeper areas of the lab or color-coded containment zones associated with top-tier loot and lab equipment.
+    J 实验室卡是用于进入散布在达科夫地区的地下研究设施的安全通行证。
+    不同级别的卡授予进入实验室更深区域或与顶级战利品和实验室设备相关的**颜色编码**收容区的权限。
   </p>
   
-  <p style="margin: 1em 0px;">Here's a brief description of each card type:</p>
+  <p style="margin: 1em 0px;">以下是每种卡类型的简要描述：</p>
   
   <ol>
-    <li><strong>J-Lab 1 Card</strong> – Basic-level access (access to standard lab areas)</li>
-    <li><strong>J-Lab 2 Card</strong> – Intermediate-level access (access to areas B1 and below)</li>
-    <li><strong>Colored Cards (Red, Blue, Green, Purple, Yellow, Black)</strong> – Advanced and optional keys used to unlock sealed wings or hidden lab areas</li>
+    <li><strong>J-Lab 1 卡</strong> – 基本级别权限（进入标准实验室区域）</li>
+    <li><strong>J-Lab 2 卡</strong> – 中级级别权限（进入 B1 区及以下区域）</li>
+    <li><strong>彩色卡（红色、蓝色、绿色、紫色、黄色、黑色）</strong> – 用于解锁密封翼楼或隐藏实验室区域的高级和可选钥匙</li>
   </ol>
   
-  <p style="margin: 1em 0px;"><strong>Note:</strong> Unlike typical key items, these cards are <strong>consumable</strong>; one is consumed each time you enter the lab.</p>
+  <p style="margin: 1em 0px;"><strong>注意：</strong> 与典型的钥匙物品不同，这些卡是**消耗品**；每次进入实验室时都会消耗一张。</p>
   
-  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 1 Card – Basic Access</strong></h2>
+  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 1 卡 – 基本权限</strong></h2>
   
-  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>How to Obtain</strong></h3>
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>如何获取</strong></h3>
   
   <p style="margin: 1em 0px;">
-    In Escape from Duckov, there are two main ways to obtain your first J-Lab 1 Card:
+    在《逃离达科夫》中，有两种主要方式可以获得您的第一张 J-Lab 1 卡：
   </p>
   
   <ol>
-    <li><strong>Hidden Mine (Farm Town Area)</strong></li>
-    <li>Search for card spawn points in the hidden mines near Farm Town. Cards may appear in corners, near mining equipment, or on walls. Cards respawn approximately every 4-5 game cycles, making them the best method of finding them in the early game.</li>
-    <li><strong>Post-Quest Purchase: "Duplicate Pass"</strong></li>
-    <li>Completing the "Duplicate Pass" side quest unlocks the merchant, Xiao Ming. After completing the mission, you can purchase J-Lab 1 Cards from Xiao Ming's shop for a fixed price. This is the most reliable way to restock.</li>
+    <li><strong>隐藏矿井（农场小镇区域）</strong></li>
+    <li>搜索农场小镇附近**隐藏矿井**中的卡片生成点。卡片可能出现在角落、采矿设备附近或墙壁上。卡片大约每 4-5 个游戏周期重新生成一次，使其成为早期游戏中最可靠的发现方法。</li>
+    <li><strong>任务后购买：“重复通行证”</strong></li>
+    <li>完成“**重复通行证**”（Duplicate Pass）支线任务会解锁商人**小明**（Xiao Ming）。完成任务后，您可以从小明的商店以固定价格购买 J-Lab 1 卡。这是最可靠的补货方式。</li>
   </ol>
   
-  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Purpose</strong></h3>
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>用途</strong></h3>
   
   <ol>
-    <li>Open the entrance gate to J-Lab and begin your first official lab infiltration.</li>
-    <li>Required for completing several early objectives related to the main storyline and loot milestones.</li>
+    <li>打开 J 实验室的入口大门，开始您的第一次正式实验室渗透。</li>
+    <li>完成与主线剧情和战利品里程碑相关的几个早期目标所必需。</li>
   </ol>
   
-  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 2 Cards – Deeper Lab Access (Level B1)</strong></h2>
+  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 2 卡 – 更深层实验室权限 (B1 层)</strong></h2>
   
-  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Where to Find It</strong></h3>
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>在哪里可以找到它</strong></h3>
   
   <ol>
-    <li><strong>Lab B1 – Wanderer Drop</strong></li>
-    <li>Level 2 Cards have a low chance of dropping from Wanderers on the B1 floor of the J-Lab complex after they are defeated. While the drop rate is low, consistently clearing the lab increases your chances of obtaining one.</li>
-    <li><strong>Administrative Office Room Spawn</strong></li>
-    <li>Some players have reported finding Level 2 Cards in the office on the first floor of the lab. Carefully inspect the room for desks, metal shelves, or computer terminals. These spawn points are not guaranteed to appear.</li>
+    <li><strong>实验室 B1 – 流浪者掉落</strong></li>
+    <li>在 J 实验室综合体 B1 层击败**流浪者**（Wanderer）后，二级卡有低几率掉落。虽然掉落率低，但持续清理实验室会增加您获得卡的机会。</li>
+    <li><strong>行政办公室房间生成</strong></li>
+    <li>一些玩家报告称在实验室一层**办公室**中找到了二级卡。仔细检查房间内的桌子、金属架子或电脑终端。这些生成点**不保证**出现。</li>
   </ol>
   
   <p style="margin: 1em 0px;">
-    <strong>Tips:</strong> Focus your search on areas patrolled by Wanderers, as they have the highest reported drop rate. Restarting a raid or switching servers may refresh the loot table, increasing your chances of finding a card.
+    <strong>提示：</strong> 将您的搜索重点放在流浪者巡逻的区域，因为它们报告的掉落率最高。重新开始突袭或切换服务器可能会刷新战利品表，增加找到卡的机会。
   </p>
   
-  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Colored Access Cards</strong></h2>
+  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>彩色门禁卡</strong></h2>
   
   <p style="margin: 1em 0px;">
-    There are several ways to collect colored access cards for the Laboratory.
-    One of the most effective methods is to search the <strong>Mysterious Key (X/O) room</strong>, where almost all cards and high-level supplies have a chance to spawn.
-    However, the following cards have specific ways to obtain them:
+    有几种方法可以收集实验室的彩色门禁卡。
+    最有效的方法之一是搜索**神秘钥匙 (X/O) 房间**，几乎所有卡和高级补给品都有机会在那里生成。
+    但是，以下卡片有特定的获取方式：
   </p>
   
-  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Red Cards</strong></h3>
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>红卡</strong></h3>
   
   <ol>
-    <li>A random drop after defeating the "?" boss in Farm Town.</li>
-    <li>They may also spawn on the table in the northeast corner of the Blue Card room in the Laboratory.</li>
+    <li>击败农场小镇的“**?**”首领后随机掉落。</li>
+    <li>它们也可能生成在实验室**蓝卡房间**东北角的桌子上。</li>
   </ol>
   
-  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Blue Cards</strong></h3>
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>蓝卡</strong></h3>
   
   <ol>
-    <li>There is a chance of dropping them after defeating the Mine boss in Farm Town.</li>
+    <li>击败农场小镇的**矿井首领**后有几率掉落。</li>
   </ol>
   
-  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Green Cards</strong></h3>
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>绿卡</strong></h3>
   
   <ol>
-    <li>Spawn in two locations in the B2 Laboratory:</li>
-    <li>On the west-facing chair in the small blue room across the hallway above the Yellow Card room.</li>
-    <li>By the water fountain in the passage between the Jail and the Red Room.</li>
+    <li>在 B2 实验室的两个位置生成：</li>
+    <li>在**黄卡房间**上方走廊对面的**小蓝房间**中面向西方的椅子上。</li>
+    <li>在**监狱**和**红房间**之间通道的饮水机旁边。</li>
   </ol>
   
-  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Black Cards</strong></h3>
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>黑卡</strong></h3>
   
   <ol>
-    <li>The Mysterious Merchant in Farm Town may sell them for 200,000 credits.</li>
+    <li>农场小镇的**神秘商人**可能以 200,000 信用点出售。</li>
   </ol>
   
-  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Yellow Cards</strong></h3>
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>黄卡</strong></h3>
   
   <ol>
-    <li>May spawn in two locations in the Laboratory:</li>
-    <li>On the table between the glass door of the Key Room and the facility entrance.</li>
-    <li>On the table in the small room at the bottom left of the map (to the left of the extraction point).</li>
-    <li><strong>PS:</strong> This card also drops from defeating the Mysterious Merchant in Farm Town. You can sneak attack him from behind the shipping container to his left.</li>
+    <li>可能在实验室的两个位置生成：</li>
+    <li>在**钥匙房间**的玻璃门和设施入口之间的桌子上。</li>
+    <li>在地图左下方**小房间**的桌子上（在撤离点的左侧）。</li>
+    <li><strong>附注：</strong> 这张卡也会在击败农场小镇的**神秘商人**后掉落。您可以从他左侧的集装箱后面进行偷袭。</li>
   </ol>
   
-  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Purple Cards</strong></h3>
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>紫卡</strong></h3>
   
   <ol>
-    <li>May spawn in the small house to the right of the Lumberyard in Farm Town.</li>
+    <li>可能在农场小镇**伐木场**右侧的**小房子**里生成。</li>
   </ol>
   
   <p style="margin: 1em 0px;">
     <img src="/images/guide/guide07-02.webp" alt="J-Lab Access Card (Purple)">
   </p>
   
-  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Scouting and Development Strategy</strong></h2>
+  <h2 style="font-size: 1.5em; font-weight: bold;"><strong>侦察与发展策略</strong></h2>
   
-  <p style="margin: 1em 0px;">For maximum efficiency, follow this route:</p>
+  <p style="margin: 1em 0px;">为实现最高效率，请遵循以下路线：</p>
   
   <ol>
-    <li><strong>Start in Farm Town → Hidden Mine</strong></li>
-    <li>While collecting loot and supplies, repeatedly search for J-Lab 1 cards, stocking up on at least 5-10.</li>
-    <li><strong>Complete the "Duplicate Pass" quest.</strong></li>
-    <li>Unlock Xiao Ming's shop to ensure a sustainable supply of J-Lab 1 cards.</li>
-    <li><strong>Repeat J-Lab B1.</strong></li>
-    <li>Focus on clearing enemies to obtain J-Lab 2 cards. Each complete clear increases your chances of receiving a rare drop.</li>
-    <li><strong>Revisit Farm Town periodically.</strong></li>
-    <li>Regularly check the Lumberyard, the Mysterious Merchant, and boss spawn points for purple, yellow, and other colored cards.</li>
-    <li><strong>Save Premium Cards</strong></li>
-    <li>Use colored cards only after you've identified your target room and are fully prepared. These cards are extremely valuable, so plan your exploration carefully.</li>
+    <li><strong>从农场小镇 → 隐藏矿井开始</strong></li>
+    <li>在收集战利品和补给品的同时，反复搜索 J-Lab 1 卡，囤积至少 5-10 张。</li>
+    <li><strong>完成“重复通行证”任务。</strong></li>
+    <li>解锁**小明**的商店，以确保 J-Lab 1 卡的可持续供应。</li>
+    <li><strong>重复 J-Lab B1。</strong></li>
+    <li>专注于清除敌人以获取 J-Lab 2 卡。每次彻底清理都会增加您获得稀有掉落的机会。</li>
+    <li><strong>定期回访农场小镇。</strong></li>
+    <li>定期检查**伐木场**、**神秘商人**和**首领生成点**以获取紫色、黄色和其他彩色卡。</li>
+    <li><strong>保存高级卡</strong></li>
+    <li>只有在确定了您的目标房间并做好了充分准备后，才使用彩色卡。这些卡极其宝贵，因此请仔细规划您的探索。</li>
   </ol>
   
   <p style="margin: 1em 0px;">
-    Collecting all the J-Lab cards in Escape from Duckov requires patience and consistent exploration.
-    While the basic cards can be easily replenished, the vibrantly colored premium cards are reserved for players who truly delve into the game world—exploring every corner, raiding every bunker, and piecing together scattered clues.
-    Check our <a href="/wiki/quests">quest database</a> for missions related to J-Lab access. Explore more <a href="/guides">advanced guides</a> for comprehensive loot strategies. Good luck!
+    在《逃离达科夫》中收集所有 J 实验室卡需要耐心和持续的探索。
+    虽然基本卡可以轻松补充，但色彩鲜艳的高级卡专为真正深入游戏世界的玩家保留——他们探索每一个角落，突袭每一个地堡，并拼凑零散的线索。
+    查看我们的<a href="/wiki/quests">任务数据库</a>以获取与 J 实验室权限相关的任务。探索更多<a href="/guides">高级指南</a>以获取全面的战利品策略。祝您好运！
   </p>
   
-          `,
+          `
+  },
+
+  {
+    "id": 8,
+    "title": "逃离达科夫拾荒者：在哪里可以找到横冲直撞的拾荒者",
+    "description": "踏上《逃离达科夫》中的“猎人之路”！本指南提供了消除横冲直撞的拾荒者的精确位置和策略。",
+    "tags": [
+      "Escape from Duckov",
+      "Hunter's Path Quest"
+    ],
+    "publishDate": "2025-10-30",
+    "imageUrl": "/images/guide/guide08-01.webp",
+    "imageAlt": "《逃离达科夫》中的横冲直撞的拾荒者，可通过他们的红色衣服和屠刀识别。",
+    "category": "advanced",
+    "seo": {
+      "title": "逃离达科夫拾荒者：在哪里可以找到横冲直撞的拾荒者",
+      "description": "通过我们的专家指南完成《逃离达科夫》中的“猎人之路”任务！找到横冲直撞的拾荒者，快速击杀他们，并领取您的奖励。立即阅读！",
+      "keywords": "escape from duckov, hunter's path, rampaging scavengers, quest guide, wasteland survival, headshot strategy, gaming tips"
     },
-  
-    {
-      id: 8,
-      title: "Escape from Duckov Scavenger: Where To Finding Rampaging Scavengers",
-      description: "Embark on the 'Hunter's Path' in Escape from Duckov! This guide provides precise locations and strategies for eliminating Rampaging Scavengers.",
-      tags: ["Escape from Duckov", "Hunter's Path Quest"],
-      publishDate: "2025-10-30",
-      imageUrl: "/images/guide/guide08-01.webp",
-      imageAlt: "Rampaging Scavengers in Escape from Duckov, identifiable by their red clothing and butcher knives.",
-      category: 'advanced',
-      seo: {
-        title: "Escape from Duckov Scavenger: Where To Finding Rampaging Scavengers",
-        description: "Complete the 'Hunter's Path' quest in Escape from Duckov with our expert guide! Find Rampaging Scavengers, kill them quickly, and claim your reward. Read now!",
-        keywords: "escape from duckov, hunter's path, rampaging scavengers, quest guide, wasteland survival, headshot strategy, gaming tips",
-      },
-      addressBar: "/escape-from-duckov-rampaging-scavenger",
-      detailsHtml: `
+    "addressBar": "/escape-from-duckov-rampaging-scavenger",
+    "detailsHtml": `
         <p style="margin: 1em 0px;">
-    One of the early missions you'll receive in <a href="/">Escape from Duckov</a> is the <strong>"Hunter's Path"</strong> quest, which tasks you with hunting down and eliminating some of the wasteland's more aggressive inhabitants: Rampaging Scavengers. This guide will show you exactly where to find these nimble foes, how to kill them efficiently, and how to complete the quest. Check our <a href="/wiki/quests">quest database</a> for all available missions.
+    您在《<a href="/">逃离达科夫</a>》中收到的早期任务之一是“**猎人之路**”（Hunter's Path）任务，该任务要求您追捕并消灭荒地中一些更具攻击性的居民：**横冲直撞的拾荒者**（Rampaging Scavengers）。本指南将向您展示在哪里可以准确找到这些敏捷的敌人，如何高效地杀死他们，以及如何完成任务。查看我们的<a href="/wiki/quests">任务数据库</a>以获取所有可用任务。
   </p>
   
   <h2 style="font-size: 1.5em; font-weight: bold;">
-    <strong>Step 1: Where to Find Rampaging Scavengers</strong>
+    <strong>第 1 步：在哪里可以找到横冲直撞的拾荒者</strong>
   </h2>
   
   <p style="margin: 1em 0px;">
-    Unlike other enemies that roam randomly, Rampaging Scavengers are found in a specific, fixed location. You won't stumble upon them in the middle of the main path; you need to seek out their camp.
+    与随机漫游的其他敌人不同，横冲直撞的拾荒者位于一个特定的、固定的位置。您不会在主要路径的中间偶然发现他们；您需要找到他们的营地。
   </p>
   
   <h4 style="font-size: 1em; font-weight: bold;">
-    <strong>Location:</strong>
+    <strong>位置：</strong>
   </h4>
   
   <p style="margin: 1em 0px;">
-    The Rampaging Scavenger camp is located in a clearing in the <strong>southwest corner of the map</strong>, just south of the main Forest Path. For detailed <a href="/maps">map information</a>, visit our maps section.
+    横冲直撞的拾荒者营地位于**地图西南角**的一块空地上，就在主森林小路的南面。有关详细的<a href="/maps">地图信息</a>，请访问我们的地图部分。
     <img src="/images/guide/guide08-02.webp" alt="Rampaging Scavenger2">
   </p>
   
   <h4 style="font-size: 1em; font-weight: bold;">
-    <strong>How to Get There:</strong>
+    <strong>如何到达那里：</strong>
   </h4>
   
   <ol>
-    <li>Start from the main bunker entrance and head west along the dirt path.</li>
-    <li>Keep to the left side of the path. You will soon see a <strong>break in the wire fence line</strong> that leads south into a wooded area.</li>
-    <li>Follow this small detour path south into the clearing. You can't miss the camp from here.</li>
+    <li>从主地堡入口出发，沿着土路向西走。</li>
+    <li>保持在路径的左侧。您很快就会看到**铁丝网围栏线的一处缺口**，通向南面的树木繁茂区域。</li>
+    <li>沿着这条小绕行小路向南进入空地。从这里您不会错过营地。</li>
   </ol>
   
   <p style="margin: 1em 0px;">
-    Once you enter their camp, you will immediately spot them. They are easily identifiable by their bright red clothing and the menacing butcher knives they wield. Typically, you will find <strong>two to three scavengers</strong> spawned in this camp at any given time.
+    一旦您进入他们的营地，您会立即发现他们。他们很容易通过他们鲜红的衣服和他们挥舞的带有威胁性的**屠刀**来识别。通常，您会在这个营地中找到**两到三名拾荒者**同时生成。
   </p>
   
   <p style="margin: 1em 0px;">
-    <strong>Warning:</strong> Be cautious! Once they spot you, Rampaging Scavengers are incredibly fast and will chase you relentlessly, potentially all the way back to the bunker. Do not underestimate their pursuit.
+    <strong>警告：</strong> 小心！一旦他们发现您，横冲直撞的拾荒者速度极快，会无情地追逐您，可能会一直追到地堡。不要低估他们的追击。
   </p>
   
   <h2 style="font-size: 1.5em; font-weight: bold;">
-    <strong>Step 2: How to Quickly Kill Rampaging Scavengers</strong>
+    <strong>第 2 步：如何快速击杀横冲直撞的拾荒者</strong>
   </h2>
   
   <p style="margin: 1em 0px;">
-    The key to dealing with these enemies is speed and precision. They will sprint directly at you to engage in fast, damaging melee combat that inflicts a bleeding status effect.
+    对付这些敌人的关键是速度和精准度。他们会直接冲向您，进行快速、高伤害的近战，这会造成**出血**状态效果。
   </p>
   
   <h4 style="font-size: 1em; font-weight: bold;">
-    <strong>The Best Strategy: Aim for the Head</strong>
+    <strong>最佳策略：瞄准头部</strong>
   </h4>
   
   <p style="margin: 1em 0px;">
@@ -964,67 +1030,73 @@ export const guides = [
   </p>
   
   <p style="margin: 1em 0px;">
-    The single most effective way to kill a Rampaging Scavenger is with a clean headshot. This neutralizes them instantly, preventing them from closing the distance and causing you harm.
+    击杀横冲直撞的拾荒者最有效的方法是**干净利落的爆头**。这会立即消灭他们，防止他们拉近距离并伤害您。
   </p>
   
   <ul>
-    <li><strong>Recommended Weapons:</strong> Use a precision weapon like a pistol or a rifle. Browse our <a href="/items/weapons">weapons database</a> to find the best firearms for this encounter. Avoid shotguns, as their spread may not be effective at a distance, and do not attempt to fight them with melee weapons.</li>
-    <li><strong>Keep Your Distance:</strong> Do not let them get close. As soon as you spot them, take your position and aim carefully.</li>
-    <li><strong>Beware of the Environment:</strong> You will notice red explosive barrels in their camp. While you can shoot these to cause an explosion, it's a risky strategy. Once they are alerted, they will sprint towards you, likely moving out of the blast radius before it can do significant damage. It is safer to rely on direct shots.</li>
-    <li><strong>Prepare for the Aftermath:</strong> Even if you kill them quickly, you might take a hit. <strong>Bring bandages</strong> to stop any bleeding effects you may suffer during the fight.</li>
+    <li><strong>推荐武器：</strong> 使用手枪或步枪等精准武器。浏览我们的<a href="/items/weapons">武器数据库</a>以找到最适合这次遭遇战的枪械。避免使用霰弹枪，因为它们的散射可能在远距离上效果不佳，并且不要试图用近战武器与他们战斗。</li>
+    <li><strong>保持距离：</strong> 不要让他们靠近。一旦发现他们，立即就位并仔细瞄准。</li>
+    <li><strong>提防环境：</strong> 您会注意到他们的营地里有**红色爆炸桶**。虽然您可以射击这些桶造成爆炸，但这是一种冒险的策略。一旦他们被惊动，他们会冲向您，很可能会在爆炸造成重大伤害之前就跑出爆炸半径。依靠直接射击更安全。</li>
+    <li><strong>为后果做准备：</strong> 即使您快速击杀他们，您仍可能会受到伤害。**带上绷带**以止住您在战斗中可能遭受的任何出血效果。</li>
   </ul>
   
   <h2 style="font-size: 1.5em; font-weight: bold;">
-    <strong>Step 3: Completing the Hunter's Path Quest</strong>
+    <strong>第 3 步：完成猎人之路任务</strong>
   </h2>
   
   <p style="margin: 1em 0px;">
-    Once you have dealt with the scavengers, the final step is to complete the quest objectives.
+    处理完拾荒者后，最后一步是完成任务目标。
   </p>
   
   <ol>
-    <li><strong>Kill Two Scavengers:</strong> Ensure you have killed at least two Rampaging Scavengers.</li>
-    <li><strong>Loot Their Butcher Knives:</strong> Approach the bodies of the scavengers you killed and loot the <strong>"Butcher Knife"</strong> from each of them. You need two knives for the quest.</li>
-    <li><strong>Return to the Bunker:</strong> With the knives in your inventory, safely make your way back to the bunker and turn in the quest to complete it.</li>
+    <li><strong>击杀两名拾荒者：</strong> 确保您至少击杀了**两名**横冲直撞的拾荒者。</li>
+    <li><strong>搜刮他们的屠刀：</strong> 靠近您杀死的拾荒者的尸体，并从他们每人身上搜刮**“屠刀”**（Butcher Knife）。您需要两把刀来完成任务。</li>
+    <li><strong>返回地堡：</strong> 将刀放入您的库存后，安全地返回地堡并上交任务即可完成。</li>
   </ol>
   
   <p style="text-align: center;">
-    <em>Follow these steps, and you'll have the Hunter's Path quest completed in no time. Good luck out there.</em>
+    <em>遵循这些步骤，您将很快完成“猎人之路”任务。祝您在外一切顺利。</em>
   </p>
   
         `,
+  },
+
+  {
+    "id": 9,
+    "title": "逃离达科夫大手提袋指南",
+    "description": "揭开《逃离达科夫》中大手提袋的神秘面纱！许多玩家忽略了这个“奢侈品”，但它对于获取独特的首领掉落物至关重要。了解在哪里找到它、它的用途，以及为什么保留它对于在农场小镇取得进展至关重要。不要犯同样的错误！",
+    "tags": [
+      "Escape From Duckov",
+      "Tote Bag",
+      "Red Blob Boss",
+      "Red Eye",
+      "Farm Town"
+    ],
+    "publishDate": "2025-10-30",
+    "imageUrl": "/images/guide/guide09-01.webp",
+    "imageAlt": "《逃离达科夫》中的玩家角色在一个战利品藏匿处附近拿着一个大手提袋。",
+    "category": "advanced",
+    "seo": {
+      "title": "逃离达科夫大手提袋指南",
+      "description": "发现《逃离达科夫》中大手提袋的秘密。了解如何找到它、使用它，以及为什么它对于从红色团块首领那里获得红眼至关重要。完整指南！",
+      "keywords": "escape from duckov, tote bag, red blob boss, red eye, farm town, unique item, boss drop, guide, walkthrough, strategy"
     },
-  
-    {
-      id: 9,
-      title: "Escape From Duckov Tote Bag Guide",
-      description: "Unravel the mystery of the Tote Bag in Escape From Duckov! Many players overlook this 'luxury item,' but it's essential for acquiring unique boss drops. Learn where to find it, its purpose, and why keeping it is crucial for progressing in Farm Town. Don't make the same mistake!",
-      tags: ["Escape From Duckov", "Tote Bag", "Red Blob Boss", "Red Eye", "Farm Town"],
-      publishDate: "2025-10-30",
-      imageUrl: "/images/guide/guide09-01.webp",
-      imageAlt: "A player character in Escape From Duckov holding a Tote Bag near a loot cache.",
-      category: 'advanced',
-      seo: {
-        title: "Escape From Duckov Tote Bag Guide",
-        description: "Discover the secret of the Tote Bag in Escape From Duckov. Learn how to find it, use it, and why it's essential for obtaining the Red Eye from the Red Blob Boss. Complete guide!",
-        keywords: "escape from duckov, tote bag, red blob boss, red eye, farm town, unique item, boss drop, guide, walkthrough, strategy",
-      },
-      addressBar: "/escape-from-duckov-tote-bag-guide",
-      detailsHtml: `
+    "addressBar": "/escape-from-duckov-tote-bag-guide",
+    "detailsHtml": `
       <p style="margin: 1em 0px;">
-    In the world of <a href="/">Escape from Duckov</a>, you'll come across many items. Some are for crafting, some for selling, and some, like the Tote Bag, have a very specific and crucial purpose that isn't immediately obvious. Many new players make the mistake of selling this "luxury item" for a quick profit, not realizing they are discarding an essential tool for obtaining one of the game's unique boss drops. Browse our <a href="/items">items database</a> to learn about all special items.
+    在《<a href="/">逃离达科夫</a>》的世界中，您会遇到许多物品。有些用于制作，有些用于出售，而有些，比如**大手提袋**（Tote Bag），具有一个并非立即显而易见的、非常具体且至关重要的用途。许多新玩家犯了出售这个“奢侈品”以获取快速利润的错误，却没有意识到他们正在丢弃一个用于获取游戏中**独特首领掉落物**的关键工具。浏览我们的<a href="/items">物品数据库</a>以了解所有特殊物品。
   </p>
   
   <p style="margin: 1em 0px;">
-    This guide covers what the Tote Bag does, where to find it, and why you should absolutely keep it.
+    本指南将介绍大手提袋的作用、在哪里可以找到它，以及为什么您绝对应该保留它。
   </p>
   
   <h2 style="font-size: 1.5em; font-weight: bold;">
-    <strong>What is the Tote Bag?</strong>
+    <strong>大手提袋是什么？</strong>
   </h2>
   
   <p style="margin: 1em 0px;">
-    The Tote Bag is a unique piece of equipment with very specific properties that set it apart from standard backpacks.
+    大手提袋是一件独特的装备，具有使其区别于标准背包的非常特殊的属性。
   </p>
   
   <p style="margin: 1em 0px;">
@@ -1032,294 +1104,399 @@ export const guides = [
   </p>
   
   <ul>
-    <li><strong>Item Type:</strong> Luxury Item</li>
-    <li><strong>Acquisition:</strong> Found as random environmental loot (cannot be purchased).</li>
-    <li><strong>Stackable:</strong> No</li>
-    <li><strong>Key Feature:</strong> It contains a single, special storage slot labeled <strong>“?”</strong>. This slot is the entire reason for the bag's existence.</li>
+    <li><strong>物品类型：</strong> 奢侈品</li>
+    <li><strong>获取：</strong> 作为随机环境战利品发现（无法购买）。</li>
+    <li><strong>可堆叠：</strong> 否</li>
+    <li><strong>关键特性：</strong> 它包含一个标记为 **“?”** 的特殊存储槽位。这个槽位是该包存在的全部原因。</li>
   </ul>
   
   <p style="margin: 1em 0px;">
-    Unlike other bags, the Tote Bag provides no general inventory bonus, such as extra capacity or weight limit. Its value is entirely functional. Compare it with other <a href="/items/equipment">backpacks and storage items</a> in our equipment database.
+    与其他包不同，大手提袋不提供额外的容量或重量限制等通用库存奖励。它的价值完全在于功能性。在我们的装备数据库中将其与其他<a href="/items/equipment">背包和存储物品</a>进行比较。
   </p>
   
   <h2 style="font-size: 1.5em; font-weight: bold;">
-    <strong>Where to Find the Tote Bag</strong>
+    <strong>在哪里可以找到大手提袋</strong>
   </h2>
   
   <p style="margin: 1em 0px;">
-    There is no single, guaranteed location to find a Tote Bag. Its acquisition is entirely based on luck and thorough exploration.
+    没有一个单一的、保证的位置可以找到大手提袋。它的获取完全取决于运气和彻底的探索。
   </p>
   
   <ul>
-    <li><strong>Spawn Location:</strong> Appears as random <strong>environmental loot</strong> scattered throughout the game world.</li>
-    <li><strong>How to Find:</strong> The best way to increase your chances of finding one is to be meticulous during your raids. <strong>Thoroughly search buildings, containers, and loot caches</strong> across any map. Eventually, you will stumble upon one.</li>
+    <li><strong>生成位置：</strong> 作为随机**环境战利品**出现在整个游戏世界中。</li>
+    <li><strong>如何找到：</strong> 增加找到它的机会的最佳方法是在您的突袭中一丝不苟。在任何地图上**彻底搜索建筑物、容器和战利品藏匿处**。最终，您会偶然发现一个。</li>
   </ul>
   
   <p style="margin: 1em 0px;">
-    Once you find a Tote Bag, <strong>do not sell it</strong>. Store it safely in your hideout's warehouse until you are ready to use it.
+    一旦您找到一个大手提袋，**不要出售它**。将其安全地存放在您的藏身处仓库中，直到您准备使用它为止。
   </p>
   
   <h2 style="font-size: 1.5em; font-weight: bold;">
-    <strong>The True Purpose: How to Use the Tote Bag</strong>
+    <strong>真正的用途：如何使用大手提袋</strong>
   </h2>
   
   <p style="margin: 1em 0px;">
-    The Tote Bag is the only tool that allows you to transport a special item dropped by a specific boss.
+    大手提袋是唯一允许您运输特定首领掉落的特殊物品的工具。
   </p>
   
   <ol>
-    <li><strong>The Boss:</strong> In <strong>Farm Town</strong>, there is a unique boss known as the <strong>"Red Blob Boss."</strong></li>
-    <li><strong>The Drop:</strong> When defeated, this boss drops a mysterious item called the <strong>Red Eye</strong> (originally identified as "??? Glowing eye").</li>
-    <li><strong>The Mechanic:</strong> You <strong>cannot pick up the Red Eye through normal means</strong>. If you try to loot it like a standard item, it won't work.</li>
-    <li><strong>The Solution:</strong> To transport the Red Eye, you must have the <strong>Tote Bag</strong> in your inventory. You then interact with the Red Eye and place it directly into the Tote Bag's special <strong>"?"</strong> slot. Only then can you carry it back to your base.</li>
+    <li><strong>首领：</strong> 在**农场小镇**（Farm Town），有一个被称为**“红色团块首领”**（Red Blob Boss）的独特首领。</li>
+    <li><strong>掉落物：</strong> 当被击败时，这个首领会掉落一个名为**红眼**（Red Eye）（最初被识别为“??? 发光的眼睛”）的神秘物品。</li>
+    <li><strong>机制：</strong> 您**无法通过正常方式捡起红眼**。如果您像搜刮标准物品一样尝试搜刮它，它将不起作用。</li>
+    <li><strong>解决方案：</strong> 要运输红眼，您的库存中必须有**大手提袋**。然后，您与红眼互动，并将其直接放入大手提袋的特殊 **“?”** 槽位中。只有这样，您才能将其带回您的基地。</li>
   </ol>
   
   <p style="margin: 1em 0px;">
-    The Red Eye itself provides a powerful and lasting enhancement when used, making the Tote Bag an essential item for any player looking to farm this boss for its unique reward.
+    红眼本身在使用时提供强大而持久的增强效果，使大手提袋成为任何希望刷这个首领以获取其独特奖励的玩家的必备物品。
   </p>
   
   <h2 style="font-size: 1.5em; font-weight: bold;">
-    <strong>Tote Bag vs. Decoration Bag: What's the Difference?</strong>
+    <strong>大手提袋 vs. 装饰背包：有什么区别？</strong>
   </h2>
   
   <p style="margin: 1em 0px;">
-    It's crucial to understand that the Tote Bag is a tool, not a backpack. For general loot runs, the Decoration Bag is the superior choice.
+    至关重要的是要理解大手提袋是一个工具，而不是一个背包。对于一般的战利品搜寻，**装饰背包**（Decoration Bag）是更优的选择。
   </p>
   
   <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin: 1em 0px;">
     <thead>
       <tr>
-        <th>Feature</th>
-        <th>Tote Bag</th>
-        <th>Decoration Bag</th>
+        <th>特性</th>
+        <th>大手提袋</th>
+        <th>装饰背包</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><strong>Type</strong></td>
-        <td>Luxury Item (Special Tool)</td>
-        <td>Wearable Backpack</td>
+        <td><strong>类型</strong></td>
+        <td>奢侈品（特殊工具）</td>
+        <td>可穿戴背包</td>
       </tr>
       <tr>
-        <td><strong>Purpose</strong></td>
-        <td>To extract the Red Eye from the Farm Town boss</td>
-        <td>General carry capacity for loot</td>
+        <td><strong>用途</strong></td>
+        <td>从农场小镇首领那里提取红眼</td>
+        <td>用于战利品的通用携带容量</td>
       </tr>
       <tr>
-        <td><strong>Inventory Bonus</strong></td>
-        <td>None</td>
-        <td>+8 capacity, +5 max weight</td>
+        <td><strong>库存奖励</strong></td>
+        <td>无</td>
+        <td>+8 容量，+5 最大重量</td>
       </tr>
       <tr>
-        <td><strong>Slot Function</strong></td>
-        <td>Special single “?” slot for the Red Eye</td>
-        <td>Standard backpack inventory expansion</td>
+        <td><strong>槽位功能</strong></td>
+        <td>用于红眼的特殊单个 “?” 槽位</td>
+        <td>标准背包库存扩展</td>
       </tr>
       <tr>
-        <td><strong>How to Get</strong></td>
-        <td>Found as random environmental loot</td>
-        <td>Purchased at Orange’s Armor Shop</td>
+        <td><strong>如何获取</strong></td>
+        <td>作为随机环境战利品发现</td>
+        <td>在 Orange 的装甲店购买</td>
       </tr>
       <tr>
-        <td><strong>Price</strong></td>
-        <td>Not for sale (found only)</td>
-        <td>87 Money</td>
+        <td><strong>价格</strong></td>
+        <td>不出售（仅发现）</td>
+        <td>87 钞票</td>
       </tr>
     </tbody>
   </table>
   
   <h3 style="font-size: 1.17em; font-weight: bold;">
-    <strong>When to Use Which:</strong>
+    <strong>何时使用哪一个：</strong>
   </h3>
   
   <ul>
-    <li>Use the <strong>Decoration Bag</strong> for all your normal loot runs where you need to maximize carrying capacity.</li>
+    <li>在所有需要最大化携带容量的正常战利品搜寻中，请使用**装饰背包**。</li>
     <li>
-      Use the <strong>Tote Bag</strong> <em>only</em> when you are specifically planning to hunt the Red Blob Boss in Farm Town and need to extract the Red Eye.
+      **仅在**您专门计划狩猎农场小镇的红色团块首领并需要提取红眼时，才使用**大手提袋**。
       <img src="/images/guide/guide09-03.webp" alt="red-eye1">
     </li>
   </ul>
   
   <h2 style="font-size: 1.5em; font-weight: bold;">
-    <strong>Why You Should Never Sell the Tote Bag</strong>
+    <strong>为什么您永远不应该出售大手提袋</strong>
   </h2>
   
   <p style="margin: 1em 0px;">
-    Selling the Tote Bag is a common mistake for new players who don't understand its unique function. Because it's classified as a "luxury item" and has no obvious stats, it can seem like vendor trash.
+    出售大手提袋是新玩家不了解其独特功能时常犯的错误。因为它被归类为“奢侈品”并且没有明显的属性，所以它可能看起来像是**卖给商人的垃圾**。
   </p>
   
   <p style="margin: 1em 0px;">
-    However, the Tote Bag is an essential, non-purchasable tool required for repeatedly hunting the Red Blob Boss and acquiring the valuable Red Eye. If you plan on engaging with this content, you need to keep the bag.
+    然而，大手提袋是**重复狩猎红色团块首领并获取宝贵红眼**所需的、无法购买的**基本工具**。如果您计划参与此内容，您就需要保留这个包。
   </p>
   
   <p style="margin: 1em 0px;">
-    If you have already sold yours, don't panic. Just be sure to keep the next one you find—you will need it later. For more item guides and boss strategies, explore our <a href="/guides">complete guides collection</a>.
+    如果您已经出售了您的包，请不要惊慌。请务必保留您找到的下一个——您稍后会需要它。有关更多物品指南和首领策略，请探索我们的<a href="/guides">完整指南合集</a>。
   </p>
   
-      `,
+      `
+  },
+
+  {
+    "id": 10,
+    "title": "逃离达科夫钓鱼指南",
+    "description": "《逃离达科夫》钓鱼机制的完整指南，包括鱼饵制作、鱼竿使用、QTE 时机、钓鱼点、天气条件和特殊鱼类要求。掌握钓鱼小游戏并优化您的捕获率。",
+    "imageUrl": "/images/guide/guide10-01.webp",
+    "imageAlt": "逃离达科夫钓鱼指南",
+    "publishDate": "2025-10-31",
+    "addressBar": "/fishing-guides-for-escape-from-duckov",
+    "category": "advanced",
+    "tags": [
+      "FISHING",
+      "BAIT",
+      "FISHING ROD",
+      "QTE",
+      "MINI-GAME",
+      "ADVANCED MECHANICS"
+    ],
+    "seo": {
+      "title": "逃离达科夫钓鱼指南 - 完整鱼饵、鱼竿和机制指南",
+      "description": "通过我们的综合指南掌握《逃离达科夫》中的钓鱼，涵盖鱼饵制作（蚯蚓、饼干）、鱼竿装备、QTE 小游戏机制、基于天气的捕获、白背鱼等特殊鱼类，以及钓鱼点位置。包括使用钓鱼模组的提示。",
+      "keywords": "Escape from Duckov fishing, fishing guide, bait crafting, fishing rod, QTE mini-game, earthworms, fishing spots, weather fishing, Whiteback Fish, R6 battery bait, fishing mod"
     },
-  
-    {
-      id: 10,
-      title: 'Fishing Guides for Escape from Duckov',
-      description: 'Complete guide to fishing mechanics in Escape from Duckov including bait crafting, fishing rod usage, QTE timing, fishing spots, weather conditions, and special fish requirements. Master the fishing mini-game and optimize your catch rate.',
-      imageUrl: '/images/guide/guide10-01.webp',
-      imageAlt: 'Fishing Guide for Escape from Duckov',
-      publishDate: '2025-10-31',
-      addressBar: '/fishing-guides-for-escape-from-duckov',
-      category: 'advanced',
-      tags: ['FISHING', 'BAIT', 'FISHING ROD', 'QTE', 'MINI-GAME', 'ADVANCED MECHANICS'],
-      seo: {
-        title: 'Fishing Guides for Escape from Duckov - Complete Bait, Rod & Mechanics Guide',
-        description: 'Master fishing in Escape from Duckov with our comprehensive guide covering bait crafting (earthworms, cookies), fishing rod equipment, QTE mini-game mechanics, weather-based catches, special fish like Whiteback Fish, and fishing spot locations. Includes tips for using fishing mods.',
-        keywords: 'Escape from Duckov fishing, fishing guide, bait crafting, fishing rod, QTE mini-game, earthworms, fishing spots, weather fishing, Whiteback Fish, R6 battery bait, fishing mod',
-      },
-      detailsHtml: `
-          <p>Fishing is an essential survival mechanic in <a href="/">Escape from Duckov</a> that provides valuable resources and quest completion items. This comprehensive guide covers everything you need to know about fishing mechanics, bait preparation, fishing rod usage, and mastering the challenging QTE mini-game.</p>
+    "addressBar": "/fishing-guides-for-escape-from-duckov",
+    "detailsHtml": `
+          <p>钓鱼是《<a href="/">逃离达科夫</a>》中一项重要的生存机制，它提供宝贵的资源和任务完成物品。这份综合指南涵盖了您需要了解的有关钓鱼机制、鱼饵准备、鱼竿使用以及掌握具有挑战性的 **QTE 小游戏**的所有信息。</p>
           
-          <h2>1. Bait Preparation and Crafting</h2>
+          <h2>1. 鱼饵准备和制作</h2>
           
-          <h3>Basic Bait Crafting</h3>
-          <p><strong>Standard Bait Recipe:</strong> Common fishing bait can be crafted at the workbench using 3 Earthworms + 2 Cookies. This is the primary method for obtaining bait in the early game.</p>
-          <p><strong>Fishing Store Purchase:</strong> After completing a certain number of fishing quests (specifically the "Path of the Fish King 3" quest), you can purchase bait directly from the fishing store, making bait acquisition much more convenient. Check our <a href="/wiki/quests">quest database</a> for all fishing-related missions.</p>
+          <h3>基础鱼饵制作</h3>
+          <p><strong>标准鱼饵配方：</strong> 可以在工作台上使用 **3 条蚯蚓 + 2 块饼干** 制作通用鱼饵。这是早期游戏获取鱼饵的主要方法。</p>
+          <p><strong>渔具店购买：</strong> 在完成一定数量的钓鱼任务（特别是“**渔王之路 3**”任务）后，您可以直接从渔具店购买鱼饵，使鱼饵获取更加方便。查看我们的<a href="/wiki/quests">任务数据库</a>以获取所有与钓鱼相关的任务。</p>
           
-          <h3>Obtaining Earthworms</h3>
-          <p><strong>Digging Requirements:</strong> To collect earthworms, you need to have a shovel in your inventory (no equipment slot required). Earthworms are obtained by searching digging points scattered across various maps.</p>
-          <p><strong>Digging Point Locations:</strong> Digging points appear at fixed locations on each map. Search these spots while carrying a shovel to harvest earthworms.</p>
-          <p><strong>Yield Rate:</strong> Each digging point yields 1-3 earthworms, so multiple digging points may be needed to gather sufficient materials for bait crafting.</p>
-          <p>For a complete list of <a href="/items/fish">fishing items and equipment</a>, visit our comprehensive fishing database.</p>
+          <h3>获取蚯蚓</h3>
+          <p><strong>挖掘要求：</strong> 要收集蚯蚓，您的库存中需要有一把**铲子**（不需要装备槽位）。蚯蚓是通过搜索散布在各种地图上的**挖掘点**获得的。</p>
+          <p><strong>挖掘点位置：</strong> 挖掘点出现在每张地图的固定位置。携带铲子搜索这些地点即可收获蚯蚓。</p>
+          <p><strong>产量：</strong> 每个挖掘点产出 1-3 条蚯蚓，因此可能需要多个挖掘点才能收集足够的材料用于鱼饵制作。</p>
+          <p>有关<a href="/items/fish">钓鱼物品和装备</a>的完整列表，请访问我们的综合钓鱼数据库。</p>
           
-          <h3>Cookie Acquisition Strategy</h3>
-          <p><strong>Vending Machine Source:</strong> Cookies can be purchased from vending machines, which refresh every 5 minutes. Each purchase yields 2 cookies.</p>
-          <p><strong>Recommended Habit:</strong> Develop a routine of purchasing cookies every time you return to your base. This ensures you always have cookies available for bait crafting without having to wait for machine refreshes.</p>
-          <p><strong>Resource Planning:</strong> Since cookies refresh on a timer, consistent purchases prevent delays when you need to craft bait urgently for fishing sessions.</p>
+          <h3>饼干获取策略</h3>
+          <p><strong>自动售货机来源：</strong> 饼干可以从自动售货机购买，每 **5 分钟** 刷新一次。每次购买可获得 2 块饼干。</p>
+          <p><strong>推荐习惯：</strong> 养成每次返回基地时都购买饼干的习惯。这可确保您始终有饼干可用于鱼饵制作，而无需等待机器刷新。</p>
+          <p><strong>资源规划：</strong> 由于饼干会按时刷新，持续购买可防止在您急需制作鱼饵进行钓鱼时出现延迟。</p>
           
-          <h2>2. Fishing Rod Equipment and Setup</h2>
+          <h2>2. 鱼竿装备和设置</h2>
           
-          <h3>Fishing Rod Requirements</h3>
-          <p><strong>Equipment Slot:</strong> You must equip a fishing rod to engage in fishing activities. Ensure you have an appropriate fishing rod in your equipment inventory.</p>
-          <p><strong>Bait Attachment:</strong> Bait must be equipped to the fishing rod as an attachment/accessory. Configure your fishing rod with the desired bait before approaching fishing spots.</p>
-          <p>Browse our <a href="/items/fish">complete fishing equipment database</a> to view all available fishing rods and their specifications.</p>
+          <h3>鱼竿要求</h3>
+          <p><strong>装备槽位：</strong> 您必须装备一根**鱼竿**才能进行钓鱼活动。确保您的装备库存中有合适的鱼竿。</p>
+          <p><strong>鱼饵附加：</strong> 鱼饵必须作为附加/配件装备到鱼竿上。在靠近钓鱼点之前，用所需的鱼饵配置您的鱼竿。</p>
+          <p>浏览我们的<a href="/items/fish">完整钓鱼装备数据库</a>以查看所有可用的鱼竿及其规格。</p>
           
-          <h3>Fishing Spot Activation</h3>
-          <p><strong>Location Requirements:</strong> Fishing spots are located at fixed positions on each map. Navigate to these designated areas to begin fishing.</p>
-          <p><strong>Activation Method:</strong> Press F when positioned at a fishing spot to enter fishing mode. Ensure you're at the correct location and have your fishing rod equipped before pressing the activation key.</p>
-          <p><strong>Map Distribution:</strong> For detailed information about fishing spot distribution across different maps, refer to our <a href="/maps">interactive maps section</a>.</p>
+          <h3>钓鱼点激活</h3>
+          <p><strong>位置要求：</strong> 钓鱼点位于每张地图的固定位置。导航到这些指定区域即可开始钓鱼。</p>
+          <p><strong>激活方法：</strong> 当您位于钓鱼点时按 **F 键**进入钓鱼模式。在按下激活键之前，确保您位于正确的位置并且鱼竿已装备。</p>
+          <p><strong>地图分布：</strong> 有关不同地图上钓鱼点分布的详细信息，请参阅我们的<a href="/maps">互动地图部分</a>。</p>
           
-          <h2>3. Fishing Mini-Game Mechanics</h2>
+          <h2>3. 钓鱼小游戏机制</h2>
           
-          <h3>Fish Bite Indicators</h3>
-          <p><strong>Warning Sign:</strong> When a fish takes the bait, an exclamation mark "!" appears near the fishing rod as a visual prompt. This indicates that a fish has bitten and the QTE sequence is about to begin.</p>
-          <p><strong>Timing Window:</strong> Approximately 1 second after the exclamation mark appears, the QTE (Quick Time Event) will activate. Pay close attention to timing your response correctly.</p>
+          <h3>鱼咬钩指示器</h3>
+          <p><strong>警告标志：</strong> 当鱼咬钩时，鱼竿附近会出现一个感叹号 **"!"** 作为视觉提示。这表明鱼已咬钩，QTE 序列即将开始。</p>
+          <p><strong>时机窗口：</strong> 在感叹号出现后约 **1 秒**，QTE（快速反应事件）将激活。密切注意正确把握您的反应时机。</p>
           
-          <h3>QTE Sequence</h3>
-          <p><strong>Circle Mechanics:</strong> The fishing mini-game displays two concentric circles - an outer circle that shrinks inward toward an inner circle. Your goal is to press the spacebar when the two circles overlap perfectly.</p>
-          <p><strong>Success Condition:</strong> Pressing spacebar when the circles align results in a successful catch and the fish is added to your inventory.</p>
-          <p><strong>Failure Consequence:</strong> Missing the timing or pressing spacebar too early/late results in fishing failure. Importantly, one bait is consumed regardless of success or failure, making accurate timing crucial for resource conservation.</p>
+          <h3>QTE 序列</h3>
+          <p><strong>圆圈机制：</strong> 钓鱼小游戏显示两个同心圆 - 一个向内收缩的外圆和一个内圆。您的目标是当两个圆圈**完美重叠**时按下**空格键**。</p>
+          <p><strong>成功条件：</strong> 当圆圈对齐时按下空格键会导致成功捕获，鱼将被添加到您的库存中。</p>
+          <p><strong>失败后果：</strong> 错过时机或过早/过晚按下空格键会导致钓鱼失败。重要的是，**无论成功还是失败，都会消耗一个鱼饵**，因此精确的时机对于资源保护至关重要。</p>
           
-          <h3>Difficulty and Mod Recommendations</h3>
-          <p><strong>Challenge Assessment:</strong> The fishing mini-game is quite challenging due to its precise timing requirements and the cost of failed attempts.</p>
-          <p><strong>Mod Usage:</strong> Players are strongly recommended to install a fishing mod to make the mini-game more manageable, especially during the early game when bait resources are limited. Browse our <a href="/mods">mods collection</a> to find helpful fishing mods.</p>
-          <p><strong>Alternative Method:</strong> Alternatively, using Cheat Engine (CE) to adjust game speed can lower the difficulty by providing more time to react during the QTE sequence.</p>
-          <p><strong>Resource Conservation:</strong> Since bait cannot be purchased initially and crafting requires significant effort, losing bait to failed fishing attempts carries a substantial cost. Mods or speed adjustments help minimize unnecessary bait loss.</p>
+          <h3>难度和模组建议</h3>
+          <p><strong>挑战评估：</strong> 由于其精确的时机要求和失败尝试的成本，钓鱼小游戏**相当具有挑战性**。</p>
+          <p><strong>模组使用：</strong> 强烈建议玩家安装**钓鱼模组**以使小游戏更容易管理，尤其是在早期鱼饵资源有限时。浏览我们的<a href="/mods">模组合集</a>以找到有用的钓鱼模组。</p>
+          <p><strong>替代方法：</strong> 或者，使用 **Cheat Engine (CE)** 调整游戏速度可以降低难度，通过在 QTE 序列期间提供更多时间来反应。</p>
+          <p><strong>资源保护：</strong> 由于鱼饵最初无法购买且制作需要付出大量努力，因钓鱼失败而损失鱼饵会带来巨大的成本。模组或速度调整有助于最大限度地减少不必要的鱼饵损失。</p>
           
-          <h2>4. Fishing Notes and Information System</h2>
+          <h2>4. 钓鱼笔记和信息系统</h2>
           
-          <h3>Fishing Notes Discovery</h3>
-          <p><strong>Note Locations:</strong> Fishing notes can be found near fishing spots throughout the game world. These notes contain valuable information about fish behavior and requirements.</p>
-          <p><strong>Note Content:</strong> Fishing notes provide details about:</p>
+          <h3>钓鱼笔记发现</h3>
+          <p><strong>笔记位置：</strong> 钓鱼笔记可以在整个游戏世界的钓鱼点附近找到。这些笔记包含有关鱼类行为和要求的有价值信息。</p>
+          <p><strong>笔记内容：</strong> 钓鱼笔记提供有关以下内容的详细信息：</p>
           <ul>
-              <li>Weather conditions required for specific fish to appear</li>
-              <li>Bait types needed to catch particular fish species</li>
-              <li>Time-of-day preferences for different fish</li>
+              <li>特定鱼类出现所需的天气条件</li>
+              <li>捕获特定鱼种所需的鱼饵类型</li>
+              <li>不同鱼类的一天中的时间偏好</li>
           </ul>
           
-          <h3>Accessing Fishing Notes</h3>
-          <p><strong>Collection:</strong> Pick up fishing notes when you encounter them near fishing spots. Collected notes are automatically added to your information database.</p>
-          <p><strong>Review Method:</strong> Open your inventory (TAB key) and navigate to the notes section to review all collected fishing information. This helps you plan fishing sessions based on current weather conditions and available bait.</p>
+          <h3>查阅钓鱼笔记</h3>
+          <p><strong>收集：</strong> 当您在钓鱼点附近遇到钓鱼笔记时，将其捡起来。收集的笔记会自动添加到您的信息数据库中。</p>
+          <p><strong>查阅方法：</strong> 打开您的库存（TAB 键）并导航到笔记部分以查阅所有收集到的钓鱼信息。这有助于您根据当前天气条件和可用鱼饵规划钓鱼活动。</p>
           
-          <h2>5. Special Fish and Quest Requirements</h2>
+          <h2>5. 特殊鱼类和任务要求</h2>
           
-          <h3>Whiteback Fish (Path of the Fish King 3)</h3>
-          <p><strong>Quest Requirement:</strong> The "Path of the Fish King 3" quest specifically requires the Whiteback Fish as a quest item. View this and other fishing quests in our <a href="/wiki/quests">complete quest database</a>.</p>
-          <p><strong>Weather Condition:</strong> Whiteback Fish only appears during rainy weather conditions. You cannot catch this fish during clear or other weather conditions.</p>
-          <p><strong>Fishing Strategy:</strong> Monitor weather patterns and plan your fishing sessions accordingly. Wait for rain before attempting to catch the Whiteback Fish to avoid wasting bait on unsuccessful attempts.</p>
-          <p>Check our <a href="/items/fish">complete fish database</a> for detailed information about all catchable fish species and their requirements.</p>
+          <h3>白背鱼（渔王之路 3）</h3>
+          <p><strong>任务要求：</strong> “**渔王之路 3**”任务明确要求**白背鱼**（Whiteback Fish）作为任务物品。在我们的<a href="/wiki/quests">完整任务数据库</a>中查看此任务和其他钓鱼任务。</p>
+          <p><strong>天气条件：</strong> 白背鱼仅在**下雨**天气条件下出现。您不能在晴朗或其他天气条件下捕获这种鱼。</p>
+          <p><strong>钓鱼策略：</strong> 监控天气模式并相应地规划您的钓鱼活动。在尝试捕获白背鱼之前等待下雨，以避免浪费鱼饵在不成功的尝试上。</p>
+          <p>查看我们的<a href="/items/fish">完整鱼类数据库</a>，了解所有可捕获鱼种及其要求的详细信息。</p>
           
-          <h3>Alternative Bait Options</h3>
-          <p><strong>Special Bait Items:</strong> In addition to standard crafted bait, certain items can be used as alternative bait with specific effects:</p>
+          <h3>替代鱼饵选项</h3>
+          <p><strong>特殊鱼饵物品：</strong> 除了标准制作的鱼饵外，某些物品可用作具有特定效果的替代鱼饵：</p>
           <ul>
-              <li><strong>R6 Battery:</strong> Can be used as bait to catch specific fish species</li>
-              <li><strong>Lighter:</strong> Functions as bait for certain fish types</li>
-              <li><strong>Toilet Cleaner:</strong> Acts as specialized bait for corresponding fish species</li>
+              <li>**R6 电池：** 可用作鱼饵来捕获特定鱼种</li>
+              <li>**打火机：** 作为某些鱼类的鱼饵</li>
+              <li>**马桶清洁剂：** 作为相应鱼种的专用鱼饵</li>
           </ul>
-          <p><strong>Experimentation:</strong> Try using different items as bait to discover which fish they attract. Fishing notes may provide hints about these alternative bait options.</p>
-          <p>For comprehensive information about <a href="/items/fish">baits and fishing equipment</a>, visit our detailed fishing items guide.</p>
+          <p><strong>实验：</strong> 尝试使用不同的物品作为鱼饵，以发现它们吸引哪些鱼。钓鱼笔记可能会提供有关这些替代鱼饵选项的提示。</p>
+          <p>有关<a href="/items/fish">鱼饵和钓鱼装备</a>的全面信息，请访问我们的详细钓鱼物品指南。</p>
           
-          <h2>6. Fishing Spot Information and Distribution</h2>
+          <h2>6. 钓鱼点信息和分布</h2>
           
-          <h3>Map-Specific Fishing Spots</h3>
-          <p><strong>Location Variety:</strong> Each map in Escape from Duckov contains specific fishing spots with different fish spawn rates and species availability.</p>
-          <p><strong>Spot Distribution:</strong> For detailed information about fishing spot locations and distribution on each map, please refer to our <a href="/maps">interactive maps section</a>.</p>
-          <p><strong>Strategic Planning:</strong> Understanding fishing spot locations helps you plan efficient routes that combine fishing with other activities like looting or quest completion.</p>
+          <h3>特定地图的钓鱼点</h3>
+          <p><strong>位置多样性：</strong> 《逃离达科夫》中的每张地图都包含特定的钓鱼点，具有不同的鱼类生成率和物种可用性。</p>
+          <p><strong>地点分布：</strong> 有关每张地图上钓鱼点位置和分布的详细信息，请参阅我们的<a href="/maps">互动地图部分</a>。</p>
+          <p><strong>战略规划：</strong> 了解钓鱼点位置可帮助您规划将钓鱼与其他活动（如搜刮或任务完成）相结合的高效路线。</p>
           
-          <h2>7. Weather and Time-Based Fishing</h2>
+          <h2>7. 天气和基于时间的钓鱼</h2>
           
-          <h3>Weather Conditions</h3>
-          <p><strong>Weather Impact:</strong> Different fish species appear based on weather conditions. Some fish only spawn during specific weather patterns (rain, clear skies, etc.).</p>
-          <p><strong>Weather Monitoring:</strong> Pay attention to weather changes in the game. Use fishing notes and experience to determine the best weather conditions for your target fish.</p>
+          <h3>天气条件</h3>
+          <p><strong>天气影响：</strong> 不同的鱼种根据天气条件出现。有些鱼只在特定的天气模式（下雨、晴空等）下生成。</p>
+          <p><strong>天气监测：</strong> 注意游戏中的天气变化。使用钓鱼笔记和经验来确定您的目标鱼的最佳天气条件。</p>
           
-          <h3>Time-of-Day Factors</h3>
-          <p><strong>Temporal Variations:</strong> The types of fish you can catch vary depending on the time of day. Different fish may be more active during morning, afternoon, or evening hours.</p>
-          <p><strong>Optimization Strategy:</strong> Combine weather and time-of-day information to maximize your fishing success rate. Plan fishing sessions during optimal conditions for your target species.</p>
+          <h3>一天中的时间因素</h3>
+          <p><strong>时间变化：</strong> 您可以捕获的鱼的类型会根据一天中的时间而变化。不同的鱼可能在早上、下午或晚上更活跃。</p>
+          <p><strong>优化策略：</strong> 结合天气和一天中的时间信息，最大限度地提高您的钓鱼成功率。在目标物种的最佳条件下规划钓鱼活动。</p>
           
-          <h2>8. Resource Management and Optimization</h2>
+          <h2>8. 资源管理和优化</h2>
           
-          <h3>Bait Conservation</h3>
-          <p><strong>Early Game Scarcity:</strong> Bait cannot be purchased initially, making each bait valuable. Craft bait efficiently and avoid wasting it on poorly timed fishing attempts.</p>
-          <p><strong>Crafting Efficiency:</strong> Maintain a steady supply of earthworms and cookies through regular collection and purchases. Don't let your bait stock run low.</p>
+          <h3>鱼饵保护</h3>
+          <p><strong>早期游戏稀缺：</strong> 鱼饵最初无法购买，因此每个鱼饵都很宝贵。高效地制作鱼饵，避免将其浪费在时机不佳的钓鱼尝试上。</p>
+          <p><strong>制作效率：</strong> 通过定期收集和购买，保持稳定的蚯蚓和饼干供应。不要让您的鱼饵库存不足。</p>
           
-          <h3>Fishing Efficiency Tips</h3>
+          <h3>钓鱼效率提示</h3>
           <ul>
-              <li><strong>Mod Usage:</strong> Consider installing fishing mods to reduce bait waste during learning phases</li>
-              <li><strong>Weather Planning:</strong> Only fish during appropriate weather conditions for your target species</li>
-              <li><strong>Note Collection:</strong> Prioritize collecting fishing notes to optimize your fishing strategies</li>
-              <li><strong>Cookie Stockpiling:</strong> Buy cookies consistently to maintain bait crafting capability</li>
-              <li><strong>Equipment Preparation:</strong> Always ensure your fishing rod is properly equipped with bait before heading to fishing spots</li>
+              <li><strong>模组使用：</strong> 考虑安装钓鱼模组，以减少学习阶段的鱼饵浪费</li>
+              <li><strong>天气规划：</strong> 仅在适合您的目标物种的天气条件下钓鱼</li>
+              <li><strong>笔记收集：</strong> 优先收集钓鱼笔记，以优化您的钓鱼策略</li>
+              <li><strong>饼干囤积：</strong> 持续购买饼干以保持鱼饵制作能力</li>
+              <li><strong>装备准备：</strong> 在前往钓鱼点之前，务必确保您的鱼竿已正确装备鱼饵</li>
           </ul>
           
-          <h2>9. Advanced Fishing Strategies</h2>
+          <h2>9. 高级钓鱼策略</h2>
           
-          <h3>Quest-Focused Fishing</h3>
-          <p><strong>Quest Preparation:</strong> Before accepting fishing-related quests, check weather forecasts and prepare appropriate bait. Some quests require specific fish that only appear under certain conditions.</p>
-          <p><strong>Efficient Completion:</strong> Complete multiple fishing objectives in a single session when weather conditions align with multiple quest requirements.</p>
+          <h3>以任务为中心的钓鱼</h3>
+          <p><strong>任务准备：</strong> 在接受与钓鱼相关的任务之前，检查天气预报并准备好合适的鱼饵。有些任务需要特定的鱼，这些鱼只在某些条件下出现。</p>
+          <p><strong>高效完成：</strong> 当天气条件与多个任务要求一致时，在一次活动中完成多个钓鱼目标。</p>
           
-          <h3>Resource Diversification</h3>
-          <p><strong>Multiple Bait Types:</strong> Experiment with different bait types (crafted bait, R6 batteries, lighters, toilet cleaner) to discover optimal combinations for different fish species.</p>
-          <p><strong>Alternative Methods:</strong> Don't limit yourself to standard bait. Explore special item baits for potentially better catch rates on specific fish.</p>
+          <h3>资源多样化</h3>
+          <p><strong>多种鱼饵类型：</strong> 尝试使用不同类型的鱼饵（制作的鱼饵、R6 电池、打火机、马桶清洁剂）以发现不同鱼种的最佳组合。</p>
+          <p><strong>替代方法：</strong> 不要将自己限制在标准鱼饵上。探索特殊物品鱼饵，以获得特定鱼类更高的捕获率。</p>
           
-          <h2>Conclusion</h2>
-          <p>Mastering fishing in Escape from Duckov requires understanding bait mechanics, equipment setup, QTE timing, and environmental factors. The fishing system is challenging but rewarding, providing essential resources and quest completion items. Use this guide to optimize your fishing efficiency, conserve valuable bait resources, and successfully complete fishing-related quests. Remember to check weather conditions, collect fishing notes, and consider using mods or game speed adjustments to enhance your fishing experience. For detailed information about all fishing items, visit our comprehensive <a href="/items/fish">fishing database</a>. Explore more <a href="/guides">advanced guides</a> for additional survival strategies.</p>
-      `,
-    }
+          <h2>总结</h2>
+          <p>掌握《逃离达科夫》中的钓鱼需要了解鱼饵机制、装备设置、QTE 时机和环境因素。钓鱼系统具有挑战性，但也很有回报，提供必要的资源和任务完成物品。使用本指南来优化您的钓鱼效率，保护宝贵的鱼饵资源，并成功完成与钓鱼相关的任务。请记住检查天气条件，收集钓鱼笔记，并考虑使用模组或游戏速度调整来增强您的钓鱼体验。有关所有钓鱼物品的详细信息，请访问我们的综合<a href="/items/fish">钓鱼数据库</a>。探索更多<a href="/guides">高级指南</a>以获取额外的生存策略。</p>
+      `
+  },
+
+  {
+    "id": 11,
+    "title": "逃离达科夫囤积者指南：哪些该留，哪些该卖",
+    "description": "在达科夫中苦于库存管理？本指南可帮助您确定战利品的优先级，避免令人心力交瘁的资源焦虑，并将无用的垃圾变成宝贵的资产。学习搜刮的黄金法则，并发现为生存和进度而准备的终极“永不卖出”清单。",
+    "imageUrl": "/images/guide/guide11-01.webp",
+    "imageAlt": "逃离达科夫囤积者指南：哪些该留，哪些该卖",
+    "publishDate": "2025-10-31",
+    "addressBar": "/the-hoarders-guide-to-escape-from-duckov-what-to-keep-what-to-sell",
+    "category": "advanced",
+    "tags": [
+      "DUCKOV",
+      "LOOTING GUIDE",
+      "INVENTORY MANAGEMENT",
+      "HOARDER'S GUIDE",
+      "RESOURCE PRIORITIZATION"
+    ],
+    "seo": {
+      "title": "逃离达科夫囤积者指南：哪些该卖",
+      "description": "掌握达科夫的库存管理！我们的囤积者指南揭示了哪些物品该留哪些该卖，以实现最佳进度。克服战利品焦虑，最大限度地发挥您地堡的潜力。",
+      "keywords": "Duckov, hoarder guide, inventory management, looting, selling items, quest items, upgrade materials, resource management, escape Duckov, stash optimization"
+    },
+    "addressBar": "/the-hoarders-guide-to-escape-from-duckov-what-to-keep-what-to-sell",
+    "detailsHtml": `
+      <p style="text-align: center;">
+    <em style="color: rgb(127, 140, 141);">
+      <img src="../images/guide/guide11-01.webp" alt="Escape from Duckov what to sell 2">
+      哪些该留 &amp; 哪些该卖
+    </em>
+  </p>
   
+  <p>我们都经历过这种情况。您完成了一次完美的突袭，背包里塞满了战利品，回到地堡后却面临着这个游戏真正的最终首领：**库存管理。**</p>
   
+  <p>您的藏匿处已满，每个槽位都弥足珍贵，您因为害怕卖掉那个您在三周后会迫切需要的随机物品而感到不知所措。</p>
   
+  <p>让我们面对现实：**您不可能保留所有东西。** 了解什么该囤积，什么该变成白花花的现金是这个游戏中最重要的一项技能。那么，让我们来分解一下。</p>
   
-    //   {
-    //     id: 5,
-    //     title: '',
-    //     description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-    //     imageUrl: '/images/guide-05.webp',
-    //     imageAlt: 'Storm Zone Access & Roadblock Boss Guide',
-    //     publishDate: '2025-10-27',
-    //     addressBar: '/storm-zone-access-roadblock-boss-guide',
-    //     category: 'advanced',
-    //     tags: ['STORM ZONE', 'BOSS FIGHT', 'CERTIFICATE FARMING', 'ENDGAME CONTENT', 'SURVIVAL'],
-    //     seo: {
-    //         title: 'Storm Zone Access & Roadblock Boss Guide - Escape from Duckov',
-    //         description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-    //         keywords: 'Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy',
-    //     },
-    //   }
-  ]
+  <h2 style="font-size: 1.5em; font-weight: bold;">搜刮的黄金法则</h2>
+  
+  <p>在我们进入清单之前，让我们从心态开始。</p>
+  
+  <ol>
+    <li><strong>拥抱出售按钮：</strong> 出售不是失败；它是进步。您出售的每一个无用物品都是可以变成更好的弹药、护甲或您一直盯着的枪械零件的现金。</li>
+    <li><strong>了解您的需求：</strong> 最重要的物品是**您**现在需要的物品。养成习惯，查看您地堡中的升级站，看看需要哪些材料。在心理上（或实际上！）将这些物品标记为“不可动用”。</li>
+    <li><strong>“每样留一个”原则：</strong> 当您犹豫不决时，请至少保留您找到的每个**独特物品**的一个。如果您找到第二个并且没有立即使用它的用途，那么它是一个很好的出售候选者。</li>
+  </ol>
+  
+  <h2 style="font-size: 1.5em; font-weight: bold;">“永不卖出”清单：像性命攸关一样囤积这些物品</h2>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;">任务与升级必需品：</h3>
+  
+  <ul>
+    <li>羽毛和核心：您进度的命脉。使用它们，珍惜它们，永远不要出售它们。</li>
+    <li>仓库升级箱：不言自明。更大的空间是最终的奖赏。</li>
+    <li>狗牌：您稍后的存储升级需要**大量**狗牌。现在就开始您的收集。</li>
+    <li>首领掉落物：保留至少一件首领掉落的**每种物品**。它们通常是后期任务和升级所必需的。</li>
+  </ul>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;">高价值情报：</h3>
+  
+  <ul>
+    <li>显卡和黑市笔记本：这些是高价值物品，通常是任务或高级易物交易所需要的。请保留它们。</li>
+  </ul>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;">战斗装备（好东西）：</h3>
+  
+  <ul>
+    <li>穿甲步枪弹药：这东西很稀有，能穿透护甲。射击它比出售它更有价值。</li>
+    <li>特殊手榴弹：普通手榴弹可以购买，但稀有的特殊类型应该留到您真正需要它们的时候。</li>
+    <li>高阶装备：保留几套备用的 4-5 级护甲、背包和改装好的枪支，特别是如果它们的耐久度超过 75%。准备好备用装备意味着您可以在损失后立即投入下一次突袭。</li>
+  </ul>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;">通往王国之门的钥匙：</h3>
+  
+  <ul>
+    <li>所有钥匙：找到一把钥匙？保留它。注册它。您永远不知道哪一把钥匙会打开通往改变命运的战利品的大门。</li>
+  </ul>
+  
+  <h2 style="font-size: 1.5em; font-weight: bold;">“可以出售”清单：您的赚钱工具</h2>
+  
+  <p>释放宝贵的空间，充实您的腰包。这些物品通常可以安全地脱手。</p>
+  
+  <ul>
+    <li>**重复的“垃圾”物品：** 第十卷胶带或第五把螺丝刀？卖掉它们。您会找到更多的。</li>
+    <li>**低阶枪支和护甲：** 您前几次突袭中获得的基本手枪或破损的 2 级背心？卖掉它。它占据的空间您可以用来放更好的东西。</li>
+    <li>**普通制作材料（多余部分）：** 虽然您应该保留像枪械零件、布料和金属板等物品的充足库存，但您不需要 10 满叠。如果您溢出了，卖掉几叠。</li>
+    <li>**大多数食物和水：** 除非您需要特定类型进行升级，否则食物和饮料是充足的。不要让它们堵塞您的库存。</li>
+  </ul>
+  
+  <h2 style="font-size: 1.5em; font-weight: bold;">灰色区域：需要三思的物品</h2>
+  
+  <p>有些物品不是简单的保留或出售。</p>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;">奖杯、自行车模型和其他“玩具”</h3>
+  
+  <p>这很棘手。虽然大多数普通小饰品只是卖给商人的垃圾，但**不要出售奖杯。** 奖杯通常是独一无二的，是完成特定重要任务所必需的。对于其他玩具，在您确定之前，“保留一个”原则是您最好的朋友。</p>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;">大手提袋</h3>
+  
+  <p>这东西是怎么回事？它能卖个好价钱，但社区传言说它稍后可能有秘密用途或互动。**结论：** 如果您能腾出空间，请保留它。它看起来太独特了，不像是简单的卖给商人的垃圾。</p>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;">爆炸物（手榴弹/炸药）</h3>
+  
+  <p>很容易成为一个爆炸物囤积者。一位玩家承认：</p>
+  
+  <blockquote>
+    “我超过 30% 的存储空间是爆炸物（当前空间是 590 个槽位，我不需要进一步升级）”
+  </blockquote>
+  
+  <p>诚实地问自己：您现在需要 50 根炸药棒吗？可能不需要。保留合理的数量用于您的突袭（也许一两叠），然后卖掉剩下的。</p>
+  
+  <p>最后，请记住**打开所有**您找到的**红包**。它们包含您现在想要的**好东西**，而不是以后。</p>
+  
+  <p>祝您在外好运，搜刮（和出售）愉快！</p>
+  
+      `
+  }
+]

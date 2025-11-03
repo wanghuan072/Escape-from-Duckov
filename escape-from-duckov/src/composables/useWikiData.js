@@ -1,4 +1,5 @@
 import { ref } from 'vue'
+import { getCurrentLocale } from '../i18n'
 
 /**
  * Wiki 数据配置映射
@@ -14,20 +15,115 @@ const WIKI_DATA_CONFIG = {
     // }
 }
 
+// 语言映射表 - 支持多语言数据加载
+const localeMap = {
+    en: (category) => {
+        switch (category) {
+            case 'quests':
+                return import('../data/wiki/quests/en/quests.js')
+            default:
+                throw new Error(`Unknown wiki category: ${category}`)
+        }
+    },
+    de: (category) => {
+        switch (category) {
+            case 'quests':
+                return import('../data/wiki/quests/de/quests.js')
+            default:
+                throw new Error(`Unknown wiki category: ${category}`)
+        }
+    },
+    fr: (category) => {
+        switch (category) {
+            case 'quests':
+                return import('../data/wiki/quests/fr/quests.js')
+            default:
+                throw new Error(`Unknown wiki category: ${category}`)
+        }
+    },
+    es: (category) => {
+        switch (category) {
+            case 'quests':
+                return import('../data/wiki/quests/es/quests.js')
+            default:
+                throw new Error(`Unknown wiki category: ${category}`)
+        }
+    },
+    ja: (category) => {
+        switch (category) {
+            case 'quests':
+                return import('../data/wiki/quests/ja/quests.js')
+            default:
+                throw new Error(`Unknown wiki category: ${category}`)
+        }
+    },
+    ko: (category) => {
+        switch (category) {
+            case 'quests':
+                return import('../data/wiki/quests/ko/quests.js')
+            default:
+                throw new Error(`Unknown wiki category: ${category}`)
+        }
+    },
+    ru: (category) => {
+        switch (category) {
+            case 'quests':
+                return import('../data/wiki/quests/ru/quests.js')
+            default:
+                throw new Error(`Unknown wiki category: ${category}`)
+        }
+    },
+    pt: (category) => {
+        switch (category) {
+            case 'quests':
+                return import('../data/wiki/quests/pt/quests.js')
+            default:
+                throw new Error(`Unknown wiki category: ${category}`)
+        }
+    },
+    zh: (category) => {
+        switch (category) {
+            case 'quests':
+                return import('../data/wiki/quests/zh/quests.js')
+            default:
+                throw new Error(`Unknown wiki category: ${category}`)
+        }
+    }
+}
+
 /**
- * 动态导入数据模块
- * 注意：路径必须是静态字符串字面量才能被 Vite 正确解析
- * 从 src/composables/ 到 src/data/ 只需要向上 ../ 一级
+ * 加载指定语言和类别的 wiki 数据
  */
-const loadDataModule = async (category) => {
-    switch (category) {
-        case 'quests':
-            return await import('../data/wiki/quests/quests.js')
-        // 添加新的类别时，在这里添加对应的导入：
-        // case 'equipment':
-        //     return await import('../data/wiki/equipment/equipment.js')
-        default:
-            throw new Error(`Unknown wiki category: ${category}`)
+const loadWikiData = async (locale, category) => {
+    const targetLocale = localeMap[locale] ? locale : 'en'
+    
+    try {
+        const moduleLoader = localeMap[targetLocale]
+        if (!moduleLoader) {
+            throw new Error(`Locale ${targetLocale} not supported`)
+        }
+        
+        const module = await moduleLoader(category)
+        const data = module.default || []
+        
+        // 如果数据为空且不是英文，回退到英文
+        if (data.length === 0 && targetLocale !== 'en') {
+            const enModule = await localeMap.en(category)
+            return enModule.default || []
+        }
+        
+        return data
+    } catch (error) {
+        // 加载失败，回退到英文
+        if (targetLocale !== 'en') {
+            try {
+                const enModule = await localeMap.en(category)
+                return enModule.default || []
+            } catch {
+                return []
+            }
+        }
+        return []
     }
 }
 
@@ -61,9 +157,9 @@ export function useWikiData(category) {
     }
 
     /**
-     * 加载指定类别的 wiki 数据
+     * 加载指定类别的 wiki 数据（支持多语言）
      */
-    const loadData = async () => {
+    const loadData = async (locale = null) => {
         if (!category) {
             error.value = 'Category is required'
             return
@@ -79,8 +175,8 @@ export function useWikiData(category) {
         error.value = null
 
         try {
-            const module = await loadDataModule(category)
-            const extractedData = extractDataFromModule(module, category)
+            const targetLocale = locale || getCurrentLocale()
+            const extractedData = await loadWikiData(targetLocale, category)
             
             if (extractedData && Array.isArray(extractedData)) {
                 data.value = extractedData

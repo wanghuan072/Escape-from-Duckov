@@ -123,7 +123,7 @@
 </template>
 
 <script setup>
-import { onMounted, computed } from 'vue'
+import { onMounted, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
@@ -159,12 +159,25 @@ const { data: keys, loadData: loadKeys } = useItemsData('key')
 const { data: fish, loadData: loadFish } = useItemsData('fish')
 
 onMounted(async () => {
+    const currentLocale = locale.value || 'en'
     await Promise.all([
-        loadWeapons('weapons'),
-        loadEquipment('equipment'),
-        loadAmmunition('ammunition'),
-        loadKeys('key'),
-        loadFish('fish')
+        loadWeapons('weapons', currentLocale),
+        loadEquipment('equipment', currentLocale),
+        loadAmmunition('ammunition', currentLocale),
+        loadKeys('key', currentLocale),
+        loadFish('fish', currentLocale)
+    ])
+})
+
+// 监听语言变化，重新加载多语言数据
+watch(locale, async (newLocale) => {
+    const targetLocale = newLocale || 'en'
+    await Promise.all([
+        loadWeapons('weapons', targetLocale),
+        loadEquipment('equipment', targetLocale),
+        loadAmmunition('ammunition', targetLocale),
+        loadKeys('key', targetLocale),
+        loadFish('fish', targetLocale)
     ])
 })
 

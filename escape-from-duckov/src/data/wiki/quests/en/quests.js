@@ -1340,59 +1340,6 @@ export default [
             keywords: '',
         },
         detailsHtml: ``
-    },
-    
-
-
-
-
-
-
-    // {
-    //     id: 3,
-    //     title: '',
-    //     description: '',
-    //     imageUrl: '/images/wiki/quest-03.webp',
-    //     imageAlt: '',
-    //     publishDate: '2025-10-27',
-    //     addressBar: '/',
-    //     rewards: [],
-    //     rightContent: [
-    //         {
-    //      label: 'Given by',
-    // value: ''
-    // },
-    // {
-    // label: 'Previous',
-    // value: ''
-    // },
-    // {
-    // label: 'Following',
-    // value: ''
-    // }
-    //     ],
-    //     seo: {
-    //         title: 'A New Hunter Quest - Escape from Duckov',
-    //         description: 'A New Hunter is a Quest in Escape From Duckov.',
-    //         keywords: 'Escape from Duckov, A New Hunter, Jeff quest, Rampage Scavenger, Cleaver',
-    //     },
-    //     detailsHtml: `
-    //     <h2></h2>
-    //     <p></p>
-    //     <h3>Dialogue</h3>
-    //     <p></p>
-    //     <h3>Tasks</h3>
-    //     <ul>
-    //         <li></li>
-    //         <li></li>
-    //     </ul>
-    //     <h3>Rewards</h3>
-    //     <ul>
-    //         <li></li>
-    //     </ul>
-    //     <h3>Quest Guide</h3>
-    //     <p></p>
-    //     <p></p>
-    //     `
-    // }
+    }
 ]
+

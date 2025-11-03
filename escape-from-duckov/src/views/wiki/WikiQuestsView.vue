@@ -39,7 +39,7 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useWikiData } from '../../composables/useWikiData.js'
@@ -50,6 +50,11 @@ const { t, locale } = useI18n()
 const { data: questsData, loadData } = useWikiData('quests')
 
 onMounted(() => {
+    loadData()
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
     loadData()
 })
 

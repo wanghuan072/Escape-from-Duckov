@@ -177,7 +177,7 @@
 </template>
 
 <script setup>
-import { onMounted, computed } from 'vue'
+import { onMounted, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
@@ -201,6 +201,11 @@ const earphoneItems = computed(() => (itemsData?.value || []).filter(i => isEarp
 const otherEquipmentItems = computed(() => (itemsData?.value || []).filter(i => !isHeadgear(i.type) && !isBody(i.type) && !isBackpack(i.type) && !isEarphone(i.type)))
 
 onMounted(() => {
+    loadData('equipment')
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
     loadData('equipment')
 })
 

@@ -567,7 +567,7 @@ section {
     line-height: 1.1;
     color: var(--secondary-color);
     text-align: left;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
 }
 
 

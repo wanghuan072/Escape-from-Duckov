@@ -37,13 +37,13 @@
             <h3>{{ t('PrivacyPolicyPage.dataCollection.provided.title') }}</h3>
             <p>{{ t('PrivacyPolicyPage.dataCollection.provided.text') }}</p>
             <ul>
-                <li v-for="item in t('PrivacyPolicyPage.dataCollection.provided.items')" :key="item">{{ item }}</li>
+                <li v-for="(item, index) in providedItems" :key="index">{{ item }}</li>
             </ul>
 
             <h3>{{ t('PrivacyPolicyPage.dataCollection.automated.title') }}</h3>
             <p>{{ t('PrivacyPolicyPage.dataCollection.automated.text') }}</p>
             <ul>
-                <li v-for="item in t('PrivacyPolicyPage.dataCollection.automated.items')" :key="item">{{ item }}</li>
+                <li v-for="(item, index) in automatedItems" :key="index">{{ item }}</li>
             </ul>
 
             <h3>{{ t('PrivacyPolicyPage.dataCollection.thirdParty.title') }}</h3>
@@ -54,7 +54,7 @@
             <h2>{{ t('PrivacyPolicyPage.legalBasis.title') }}</h2>
             <p>{{ t('PrivacyPolicyPage.legalBasis.text') }}</p>
             <ul>
-                <li v-for="item in t('PrivacyPolicyPage.legalBasis.items')" :key="item">{{ item }}</li>
+                <li v-for="(item, index) in legalBasisItems" :key="index">{{ item }}</li>
             </ul>
             <p>{{ t('PrivacyPolicyPage.legalBasis.p2') }}</p>
             <p><em>Note:</em> {{ t('PrivacyPolicyPage.legalBasis.note') }}</p>
@@ -69,7 +69,7 @@
             <h2>{{ t('PrivacyPolicyPage.gdpr.title') }}</h2>
             <p>{{ t('PrivacyPolicyPage.gdpr.text') }}</p>
             <ul>
-                <li v-for="item in t('PrivacyPolicyPage.gdpr.items')" :key="item">{{ item }}</li>
+                <li v-for="(item, index) in gdprItems" :key="index">{{ item }}</li>
             </ul>
             <p>{{ t('PrivacyPolicyPage.gdpr.p2') }}</p>
           </section>
@@ -119,9 +119,31 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n()
+const { t, tm } = useI18n()
+
+// 使用 tm() 获取原始数组值
+const providedItems = computed(() => {
+  const items = tm('PrivacyPolicyPage.dataCollection.provided.items')
+  return Array.isArray(items) ? items : []
+})
+
+const automatedItems = computed(() => {
+  const items = tm('PrivacyPolicyPage.dataCollection.automated.items')
+  return Array.isArray(items) ? items : []
+})
+
+const legalBasisItems = computed(() => {
+  const items = tm('PrivacyPolicyPage.legalBasis.items')
+  return Array.isArray(items) ? items : []
+})
+
+const gdprItems = computed(() => {
+  const items = tm('PrivacyPolicyPage.gdpr.items')
+  return Array.isArray(items) ? items : []
+})
 </script>
 
 <style scoped>

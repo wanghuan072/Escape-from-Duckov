@@ -99,17 +99,80 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
-import { mods } from '../data/mods/mods.js'
+import { useI18n } from 'vue-i18n'
+import { useModsData } from '../composables/useModsData'
+import { useSEO } from '../seo/composables.js'
+import { seoConfig } from '../seo/config.js'
 
 const route = useRoute()
+const { locale } = useI18n()
 const mod = ref(null)
+const { mods: modsList, loadData, findModByAddressBar, getOtherMods } = useModsData()
+const { setSEO } = useSEO()
 
-onMounted(() => {
+const loadModData = async () => {
+    await loadData()
     const modId = route.params.id
-    mod.value = mods.find(m => m.addressBar === `/${modId}`)
+    mod.value = findModByAddressBar(`/${modId}`)
+}
+
+// 手动更新SEO
+const updateSEO = () => {
+    if (!mod.value) return
+    
+    if (mod.value.seo) {
+        setSEO({
+            title: mod.value.seo.title || mod.value.title || seoConfig.defaults.title,
+            description: mod.value.seo.description || mod.value.description || seoConfig.defaults.description,
+            keywords: mod.value.seo.keywords || seoConfig.defaults.keywords,
+            author: seoConfig.defaults.author,
+            image: mod.value.imageUrl || seoConfig.defaults.image,
+            type: 'article'
+        })
+    } else {
+        setSEO({
+            title: mod.value.title ? `${mod.value.title} - Escape from Duckov` : seoConfig.defaults.title,
+            description: mod.value.description || seoConfig.defaults.description,
+            keywords: seoConfig.defaults.keywords,
+            author: seoConfig.defaults.author,
+            image: mod.value.imageUrl || seoConfig.defaults.image,
+            type: 'article'
+        })
+    }
+}
+
+onMounted(async () => {
+    await loadModData()
+    await nextTick()
+    updateSEO()
 })
+
+// 监听语言变化，重新加载数据
+watch(locale, async () => {
+    await loadModData()
+    await nextTick()
+    updateSEO()
+})
+
+// 监听路由参数变化
+watch(() => route.params.id, async (newId) => {
+    if (newId) {
+        mod.value = findModByAddressBar(`/${newId}`)
+        await nextTick()
+        updateSEO()
+    }
+})
+
+// 监听mod变化，自动更新SEO
+watch(mod, () => {
+    if (mod.value) {
+        nextTick(() => {
+            updateSEO()
+        })
+    }
+}, { immediate: true })
 
 const formatDate = (dateString) => {
     if (!dateString) return ''

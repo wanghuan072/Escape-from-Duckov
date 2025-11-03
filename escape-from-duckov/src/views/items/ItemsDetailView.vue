@@ -83,7 +83,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref, computed } from 'vue'
+import { onMounted, ref, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
@@ -123,9 +123,28 @@ const otherItems = computed(() => {
     return list.filter(x => x && x.id !== item.value.id && x.showDetail !== false).slice(-5)
 })
 
-onMounted(async () => {
-    await loadData(category)
+const loadItemData = async () => {
+    const currentLocale = locale.value || 'en'
+    // 所有 items 类别都已支持多语言
+    const needsLocale = ['weapons', 'ammunition', 'equipment', 'fish', 'key'].includes(category)
+    await loadData(category, needsLocale ? currentLocale : null)
     item.value = findByAddress(category, id)
+}
+
+onMounted(async () => {
+    await loadItemData()
+})
+
+// 监听语言变化，所有 items 类别都支持多语言，重新加载数据
+watch(locale, async () => {
+    await loadItemData()
+})
+
+// 监听路由参数变化
+watch(() => route.params.id, async (newId) => {
+    if (newId) {
+        item.value = findByAddress(category, String(newId))
+    }
 })
 </script>
 

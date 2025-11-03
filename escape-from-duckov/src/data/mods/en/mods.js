@@ -1,4 +1,4 @@
-export const mods = [
+export default [
     {
         id: 1,
         title: 'ShowQuestsAreaOnMap',
@@ -148,3 +148,4 @@ export const mods = [
         `
     }
 ]
+

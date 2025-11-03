@@ -85,28 +85,87 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useWikiData } from '../../composables/useWikiData.js'
 import { getLocalizedPath } from '../../utils/routeUtils'
+import { useSEO } from '../../seo/composables.js'
+import { seoConfig } from '../../seo/config.js'
 
 const route = useRoute()
 const { locale } = useI18n()
 const item = ref(null)
 const category = ref('')
+const { setSEO } = useSEO()
 
 const { category: routeCategory, id } = route.params
 category.value = routeCategory
 
 const { data: allItems, loadData, findItemById, getOtherItems } = useWikiData(routeCategory)
 
-onMounted(async () => {
+const loadItemData = async () => {
     await loadData()
     if (id) {
         item.value = findItemById(id)
     }
+}
+
+// 手动更新SEO
+const updateSEO = () => {
+    if (!item.value) return
+    
+    if (item.value.seo) {
+        setSEO({
+            title: item.value.seo.title || item.value.title || seoConfig.defaults.title,
+            description: item.value.seo.description || item.value.description || seoConfig.defaults.description,
+            keywords: item.value.seo.keywords || seoConfig.defaults.keywords,
+            author: seoConfig.defaults.author,
+            image: item.value.imageUrl || seoConfig.defaults.image,
+            type: 'article'
+        })
+    } else {
+        setSEO({
+            title: item.value.title ? `${item.value.title} - Escape from Duckov` : seoConfig.defaults.title,
+            description: item.value.description || seoConfig.defaults.description,
+            keywords: seoConfig.defaults.keywords,
+            author: seoConfig.defaults.author,
+            image: item.value.imageUrl || seoConfig.defaults.image,
+            type: 'article'
+        })
+    }
+}
+
+onMounted(async () => {
+    await loadItemData()
+    await nextTick()
+    updateSEO()
 })
+
+// 监听语言变化，重新加载数据
+watch(locale, async () => {
+    await loadItemData()
+    await nextTick()
+    updateSEO()
+})
+
+// 监听路由参数变化
+watch(() => route.params.id, async (newId) => {
+    if (newId) {
+        item.value = findItemById(newId)
+        await nextTick()
+        updateSEO()
+    }
+})
+
+// 监听item变化，自动更新SEO
+watch(item, () => {
+    if (item.value) {
+        nextTick(() => {
+            updateSEO()
+        })
+    }
+}, { immediate: true })
 
 // 计算其他项目（排除当前项目，只显示最后10个）
 const otherQuests = computed(() => {

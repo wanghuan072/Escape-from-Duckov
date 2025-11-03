@@ -24,7 +24,7 @@
                                 <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image"></div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -56,7 +56,7 @@
                                 <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image"></div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -88,7 +88,7 @@
                                 <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image"></div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -120,7 +120,7 @@
                                 <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image"></div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -139,7 +139,7 @@
 </template>
 
 <script setup>
-import { onMounted, computed } from 'vue'
+import { onMounted, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
@@ -156,6 +156,11 @@ const FishBaitItems = computed(() => (itemsData?.value || []).filter(i => i.type
 const FishingGearItems = computed(() => (itemsData?.value || []).filter(i => i.type === 'fishing gear'))
 
 onMounted(() => {
+    loadData('fish')
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
     loadData('fish')
 })
 
@@ -266,6 +271,7 @@ const onRowClick = (item) => {
     font-weight: 800;
     color: var(--text-heading);
     letter-spacing: .2px;
+    font-size: 16px;
 }
 
 .desc-cell {
@@ -336,6 +342,10 @@ const onRowClick = (item) => {
     .image {
         width: 40px;
         height: 40px;
+    }
+
+    .name-main{
+        font-size: 14px;
     }
 }
 </style>

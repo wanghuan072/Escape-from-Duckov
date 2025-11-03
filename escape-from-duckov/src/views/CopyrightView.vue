@@ -40,11 +40,11 @@
           </p>
           <p><strong>{{ t('CopyrightPage.fairUse.allowed') }}</strong></p>
           <ul>
-            <li v-for="item in t('CopyrightPage.fairUse.allowedItems')" :key="item">{{ item }}</li>
+            <li v-for="(item, index) in allowedItems" :key="index">{{ item }}</li>
           </ul>
           <p><strong>{{ t('CopyrightPage.fairUse.restricted') }}</strong></p>
           <ul>
-            <li v-for="item in t('CopyrightPage.fairUse.restrictedItems')" :key="item">{{ item }}</li>
+            <li v-for="(item, index) in restrictedItems" :key="index">{{ item }}</li>
           </ul>
 
           <h2>{{ t('CopyrightPage.dmca.title') }}</h2>
@@ -53,7 +53,7 @@
           </p>
           <p><strong>{{ t('CopyrightPage.dmca.subtitle') }}</strong></p>
           <ul>
-            <li v-for="item in t('CopyrightPage.dmca.items')" :key="item">{{ item }}</li>
+            <li v-for="(item, index) in dmcaItems" :key="index">{{ item }}</li>
           </ul>
 
           <h2>{{ t('CopyrightPage.attribution.title') }}</h2>
@@ -67,7 +67,7 @@
           </p>
           <p><strong>{{ t('CopyrightPage.license.subtitle') }}</strong></p>
           <ul>
-            <li v-for="item in t('CopyrightPage.license.items')" :key="item">{{ item }}</li>
+            <li v-for="(item, index) in licenseItems" :key="index">{{ item }}</li>
           </ul>
 
           <h2>{{ t('CopyrightPage.contact.title') }}</h2>
@@ -89,9 +89,31 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n()
+const { t, tm } = useI18n()
+
+// 使用 tm() 获取原始数组值
+const allowedItems = computed(() => {
+  const items = tm('CopyrightPage.fairUse.allowedItems')
+  return Array.isArray(items) ? items : []
+})
+
+const restrictedItems = computed(() => {
+  const items = tm('CopyrightPage.fairUse.restrictedItems')
+  return Array.isArray(items) ? items : []
+})
+
+const dmcaItems = computed(() => {
+  const items = tm('CopyrightPage.dmca.items')
+  return Array.isArray(items) ? items : []
+})
+
+const licenseItems = computed(() => {
+  const items = tm('CopyrightPage.license.items')
+  return Array.isArray(items) ? items : []
+})
 </script>
 
 <style scoped>

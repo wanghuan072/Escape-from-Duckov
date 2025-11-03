@@ -1,1 +1,1490 @@
-export const guides = []
+export const guides = [
+
+    {
+        "id": 1,
+        "title": "Guide de Survie Complet du Débutant",
+        "description": "Maîtrisez les fondamentaux d'Escape from Duckov avec ce guide complet couvrant la configuration de la base, les premières incursions, les interactions avec les PNJ et les stratégies de survie essentielles.",
+        "imageUrl": "/images/guide-01.webp",
+        "imageAlt": "Guide de Survie Complet du Débutant",
+        "publishDate": "2025-10-27",
+        "addressBar": "/complete-beginner-survival-guide",
+        "category": "getting-started",
+        "tags": [
+            "SURVIVAL",
+            "BASE SETUP",
+            "FIRST RAID",
+            "NPC GUIDE",
+            "COMBAT BASICS"
+        ],
+        "seo": {
+            "title": "Guide de Survie Complet du Débutant - Escape from Duckov",
+            "description": "Maîtrisez les fondamentaux d'Escape from Duckov avec ce guide complet couvrant la configuration de la base, les premières incursions, les interactions avec les PNJ et les stratégies de survie essentielles.",
+            "keywords": "Escape from Duckov, Guide Débutant, Guide de Survie, Configuration de Base, Première Incursion, Guide PNJ, Bases du Combat, Ground Zero"
+        },
+        "detailsHtml": `
+            < p > Bienvenue dans le monde dangereux d'<a href=\"/\">Escape from Duckov</a> ! Ce guide complet pour débutants vous accompagnera à travers vos premiers pas dans ce RPG de survie, de la configuration de votre base à l'achèvement de vos premières expéditions.</>
+              
+              <h2>1. Configuration de la Base et Premières Missions</h2>
+              
+              <h3>Paramètres de Difficulté</h3>
+              <p><strong>Ajustement de la Difficulté :</strong> Appuyez sur la touche F près de la table dans votre planque pour modifier la difficulté du jeu à tout moment.</p>
+              <p><strong>Mode Survie :</strong> Recommandé pour les joueurs expérimentés recherchant un défi maximal et des mécaniques de survie réalistes.</p>
+              
+              <h3>Gestion de l'Inventaire</h3>
+              <p><strong>Système de Stockage :</strong> Utilisez votre cachette pour stocker en toute sécurité les objets que vous ne voulez pas risquer de perdre pendant les raids.</p>
+              <p><strong>Protection des Emplacements :</strong> Appuyez sur L pour verrouiller les emplacements d'objets importants, empêchant le stockage accidentel lors de l'utilisation des fonctions \"Tout Stocker\".</p>
+              <p><strong>Marquage d'Objets :</strong> Appuyez sur N sur les objets de quête dans les interfaces d'artisanat pour les marquer. Les objets marqués afficheront une icône de cœur lors du pillage.</p>
+              
+              <img src=\"/images/guide/guide01-01.webp\" alt=\"Difficulty Settings\" class=\"guide-image\" />
+
+    < h3 > Missions de Départ</ >
+    <p>Rendez-vous chez Jeff pour accepter vos premières quêtes. Pour une liste complète des quêtes disponibles, consultez notre <a href=\"/wiki/quests\">base de données des quêtes</a> :</p >
+              <ul>
+                  <li><strong>Station d'Artisanat :</strong> Rassemblez 2 morceaux de Bois pour construire votre premier établi.</li>
+                  <li><strong>Capital Initial :</strong> Éliminez n'importe quel ennemi hostile et échappez avec succès de la zone \"Ground Zero\".</li>
+              </ul>
+              
+              <h2>2. Votre Première Incursion : Ground Zero</h2>
+              
+              <h3>Équipement et Combat</h3>
+              <p><strong>Équipement Recommandé :</strong> Apportez un <a href=\"/items/weapons\">pistolet Glick</a> pour son excellente capacité en munitions.Configurez des raccourcis clavier pour les fournitures médicales comme les bandages et l'aspirine (touche suggérée : 5). Parcourez notre <a href=\"/items\">base de données complète d'objets</a > pour trouver les meilleures armes et équipements.</p >
+              <p><strong>Conscience Ennemie :</strong> Méfiez-vous des **Pilleurs Déchaînés** (**Rampaging Scavengers**) - ces combattants de mêlée infligent des dégâts massifs. Surveillez les lumières d'avertissement rouges avant leurs attaques et esquivez en utilisant la barre d'espace.</p>
+              
+              <h3>Butin Prioritaire</h3>
+              <ul>
+                  <li><strong>Monnaie :</strong> L'argent est essentiel pour le commerce avec les marchands spécialisés.</li>
+                  <li><strong>Clés d'Accès :</strong> La **Clé du Dortoir** et la **Clé de la Cave** sont extrêmement précieuses. Consultez notre <a href=\"/items/key\">base de données de clés</a> pour toutes les clés disponibles et leurs emplacements.</li>
+                  <li><strong>Électronique :</strong> Les **Cartes de Circuits Imprimés** sont requises pour l'équipement des premières quêtes.</li>
+                  <li><strong>Fournitures Médicales :</strong> L'**Herat** arrête les saignements et est crucial pour la survie.</li>
+              </ul >
+              
+              <h3>Stratégie d'Extraction</h3>
+              <p>Ground Zero ne nécessite pas d'atteindre des points d'extraction spécifiques. Retournez simplement à l'entrée de votre base pour sortir en toute sécurité. Pour des <a href=\"/maps\">informations détaillées sur les cartes</a>, y compris les points d'extraction et les emplacements de butin, visitez notre section cartes. N'oubliez pas: ne soyez pas gourmand - les raids courts et fréquents sont plus sûrs que les expéditions longues et risquées.</p >
+              
+              <h2>3. Développement de la Base et Progression du Personnage</h2>
+              
+              <h3>Constructions Essentielles</h3>
+              <p><strong>Établi (Workbench) :</strong> Construisez-le avec du bois et améliorez-le immédiatement pour débloquer des options et des recettes d'artisanat avancées.</p>
+              <p><strong>Système de Gestion des Clés :</strong> Nécessite une **Carte de Circuits Imprimés** et un **lecteur CD**. Une fois opérationnel, les clés trouvées sont automatiquement transférées à l'appareil, libérant de l'espace d'inventaire.</p>
+              <p><strong>Installation d'Entraînement :</strong> La construction du gymnase débloque Mud, un PNJ entraîneur spécialisé.</p>
+              
+              <img src=\"/images/guide/guide01-02.webp\" alt=\"Priority Loot\" class=\"guide-image\" />
+
+    < h3 > Développement du Personnage</ >
+              <p><strong>Système d'Avantages (Perk System) :</strong> Dépensez de l'argent et des fragments de noyau au Palais des Avantages pour améliorer les capacités. Priorisez **Expert en Sac à Dos** pour une capacité de transport accrue.</p>
+              <p><strong>Entraînement Physique :</strong> Les premières séances de gym sont gratuites et augmentent de façon permanente les attributs de santé. L'entraînement ultérieur nécessite des ressources alimentaires.</p>
+              
+              <h2>4. PNJ Clés et Commerce</h2>
+              
+              <h3>Mud l'Entraîneur</h3>
+              <p><strong>Conditions de Déverrouillage :</strong> Apparaît après la construction du gymnase.</p>
+              <p><strong>Tâches Initiales :</strong> Fournir 1 **Œuf de Canard** et des **Biscuits Sodas**, suivis de demandes de cigarettes.</p>
+              <p><strong>Avantages de l'Entraînement :</strong> Augmentations permanentes des attributs grâce au conditionnement physique.</p>
+              
+              <h3>Marchand Mystérieux</h3>
+              <p><strong>Emplacement :</strong> Se trouve sur la zone surélevée dans Ground Zero. Pour plus d'informations sur les PNJ et les emplacements des marchands, consultez notre <a href=\"/wiki\">section wiki</a>.</p >
+              <p><strong>Services :</strong> Échangez de l'argent contre des objets de quête, y compris du miel, des instruments d'écriture et des fournitures médicales.</p>
+              <p><strong>Conseil de Sécurité :</strong> Stockez l'argent dans votre **Emplacement pour Animal de Compagnie** pendant les raids pour éviter la perte en cas de mort.</p>
+              
+              <img src=\"/images/guide/guide01-03.webp\" alt=\"Movement and Access\" class=\"guide-image\" />
+
+    < h3 > Emplacements des Ressources</ >
+              <p><strong>Source de Miel :</strong> Vérifiez près de la ruche sur la colline de Ground Zero - les taux d'apparition varient mais cela vaut la peine d'enquêter.</p>
+              
+              <h2>5. Exploration Avancée et Expansion de la Carte</h2>
+              
+              <h3>Mouvement et Accès</h3>
+              <p><strong>Accélération :</strong> Appuyez sur C pour rengainer les armes et augmenter la vitesse de déplacement.</p>
+              <p><strong>Accès aux Égouts :</strong> Dégagez les obstacles sur la route principale pour débloquer une entrée/sortie alternative de Ground Zero.</p>
+              <p><strong>Exploration de la Cave :</strong> Réparez les ponts (nécessite du métal et du bois) pour accéder aux systèmes de grottes contenant des boîtes de données et des équipements rares comme le **Pistolet Cube**.</p>
+              
+              <h3>Équipement et Artisanat</h3>
+              <p><strong>Boutique d'Armures :</strong> Achetez une protection supérieure, y compris des <a href=\"/items/equipment\">Casques SWAT</a>, améliorant considérablement la survie en début de partie.Parcourez tous les < a href =\"/items/equipment\">équipements de protection</> disponibles pour trouver le meilleur équipement pour votre style de jeu.</p>
+    < p > <strong>Centre Technologique :</strong> Nécessite un ** Cordon d'Alimentation** et des **Écrous** pour débloquer de nouveaux PNJ et des quêtes avancées.</>
+        < p > <strong>Gestion des Plans :</strong> Enregistrez immédiatement les plans découverts pour libérer de l'espace de stockage et éviter la collecte en double.</>
+            < p > <strong>Station de Réparation :</strong> Déverrouillée grâce aux améliorations de l'établi **Traitement Avancé**, permettant la restauration des armes provenant des butins de pilleurs.</>
+
+                < img src =\"/images/guide/guide01-04.webp\" alt=\"Resource Locations\" class=\"guide-image\" />
+
+                    < h2 > 6. Tactiques de Combat et Systèmes de Récupération</ >
+              
+              <h3>Combat Avancé</h3>
+              <p><strong>Tir de Précision :</strong> Certaines missions nécessitent des éliminations par tir à la tête pour être complétées.</p>
+              <p><strong>Rencontres avec les Boss :</strong> Évitez les rencontres avec **Big Boy** jusqu'à ce que vous soyez correctement équipé - ce boss de Ground Zero est extrêmement dangereux.</p>
+              
+              <h3>Mort et Récupération</h3>
+              <p><strong>Pénalités de Mort :</strong> Tous les objets transportés sont perdus en cas de mort. Mourir à nouveau détruit définitivement les sacs de mort précédents.</p>
+              <p><strong>Récupération du Corps :</strong> Retournez rapidement aux lieux de décès pour récupérer l'équipement perdu.</p>
+              <p><strong>Voyage Rapide :</strong> Utilisez de la **Dynamite** sur le mur cassé à l'extérieur de l'entrée de la base pour créer un raccourci de téléportation, améliorant considérablement l'efficacité de la récupération.</p>
+              
+              <img src=\"/images/guide/guide01-05.webp\" alt=\"Advanced Combat\" class=\"guide-image\" />
+
+    < h2 > Recommandations Finales</ >
+        <p>Maximisez vos installations de base, priorisez la construction de la boutique d'armures, investissez dans l'avantage **Expert en Sac à Dos** et établissez le raccourci de téléportation tôt. Pour des stratégies plus avancées, explorez notre collection complète de <a href=\"/guides\">guides</a>. Ces stratégies amélioreront considérablement vos chances de survie dans l'environnement difficile de Duckov. Bonne chance pour votre évasion !</p>
+`
+    },
+    {
+        "id": 2,
+        "title": "Tutoriel Complet et Guide du Début de Jeu",
+        "description": "Suivez ce guide complet étape par étape couvrant l'évasion du tutoriel, l'établissement de la base et vos premières expéditions à Ground Zero avec des conseils de quête détaillés.",
+        "imageUrl": "/images/guide-02.webp",
+        "imageAlt": "Tutoriel Complet et Guide du Début de Jeu",
+        "publishDate": "2025-10-27",
+        "addressBar": "/complete-tutorial-early-game-walkthrough",
+        "category": "getting-started",
+        "tags": [
+            "TUTORIAL",
+            "EARLY GAME",
+            "GROUND ZERO",
+            "QUEST GUIDE",
+            "BASE BUILDING"
+        ],
+        "seo": {
+            "title": "Tutoriel Complet et Guide du Début de Jeu - Escape from Duckov",
+            "description": "Suivez ce guide complet étape par étape couvrant l'évasion du tutoriel, l'établissement de la base et vos premières expéditions à Ground Zero avec des conseils de quête détaillés.",
+            "keywords": "Escape from Duckov, Tutoriel, Guide Début de Jeu, Ground Zero, Guide de Quête, Construction de Base, Évasion de Prison"
+        },
+        "detailsHtml": `
+        < p > Ce guide complet vous accompagnera à travers vos premières heures dans < a href =\"/\">Escape from Duckov</>, de l'évasion de la prison à l'établissement de votre base et à l'achèvement de vos premières expéditions à Ground Zero. Parfait pour les joueurs qui souhaitent une approche structurée du début de jeu.</>
+
+            < h2 > 1. Tutoriel: Évasion de Prison</ >
+              
+              <h3>Création du Personnage et Configuration Initiale</h3>
+              
+              <img src=\"/images/guide/guide02-01.webp\" alt=\"Tutorial: Prison Escape\" class=\"guide-image\" />
+
+        < p > Après la cinématique d'introduction, approchez-vous du miroir pour personnaliser l'apparence de votre personnage.Une fois satisfait, franchissez la porte pour commencer votre première épreuve: l'évasion de la prison.</>
+            < h3 > Équipement Initial et Mouvement</ >
+
+                <p><strong>Équipement de Départ :</strong> Suivez les marquages au sol pour localiser votre première caisse d'équipement contenant un pistolet **TT-33**, 30 cartouches de <a href=\"/items/ammunition\">munitions</a>, des bandages et des biscuits.Parcourez notre < a href =\"/items/weapons\">base de données d'armes</> pour en savoir plus sur les armes à feu disponibles.</p>
+                    < p > <strong>Gestion de l'Endurance :</strong> Courir et rouler consomment de l'endurance, indiquée par la jauge à côté de votre personnage. Surveillez-la attentivement pendant le combat.</>
+                        < p > <strong>Exploration de la Pièce :</strong> Cherchez une ** Carotte ** dans la caisse de la pièce adjacente et vérifiez les poubelles pour un ** briquet **, une ** sucette ** et des ** composants électroniques **.</ >
+              
+              <h3>Première Rencontre de Combat</h3>
+              <p><strong>Préparation au Combat :</strong> Équipez votre pistolet avant d'engager le premier garde. Surveillez les avertissements de **flash rouge** avant les attaques ennemies et esquivez en utilisant la barre d'espace.</p>
+              <p><strong>Collecte de Butin :</strong> Après avoir vaincu le garde, ramassez la **Matraque de Police**, la **Blouse de Laboratoire Blanche** et les **Lunettes de Soleil à Monture Noire**. Configurez la matraque sur votre barre de raccourcis pour le combat au corps à corps.</p>
+              <p><strong>Conseils de Précision :</strong> Maintenez le bouton droit de la souris enfoncé pour une meilleure précision de tir, comme l'instruit la voix mystérieuse.</p>
+              
+              <img src=\"/images/guide/guide02-02.webp\" alt=\"Initial Equipment and Movement\" class=\"guide-image\" />
+
+        < h3 > Découverte d'Équipement Avancé</>
+            < p > <strong>Arme Secondaire :</strong> Localisez un pistolet ** PM ** dans la pièce suivante et attribuez - le à l'emplacement 2 pour le changement d'arme.</ >
+                <p><strong>Acquisition de Glick :</strong> Battez un autre garde pour obtenir un <a href=\"/items/weapons\">pistolet Glick</a> et une blouse de laboratoire et des lunettes de soleil supplémentaires.</p >
+              <p><strong>Gestion des Ressources :</strong> Surveillez attentivement votre espace d'inventaire - priorisez les objets essentiels et consommez des aliments comme les carottes et les biscuits pour maintenir les niveaux d'énergie.</p>
+              
+              <h2>2. Établissement de la Base et Introduction de Jeff</h2>
+              
+              <h3>Visite de la Base et Installations</h3>
+              <p>En arrivant à votre base, parlez à Jeff pour une visite complète, y compris :</p>
+              <ul>
+                  <li><strong>Entrepôt (Warehouse) :</strong> Installation de stockage pour votre équipement et vos ressources.</li>
+                  <li><strong>Panneau de Construction :</strong> Interface de construction pour les améliorations de la base.</li>
+                  <li><strong>Machine Distributrice :</strong> Achat d'équipement et de fournitures.</li>
+                  <li><strong>Améliorateur (Enhancer) :</strong> Progression du personnage et améliorations de compétences.</li>
+                  <li><strong>Point d'Exfiltration :</strong> Lieu de départ des missions.</li>
+              </ul>
+      
+              <img src=\"/images/guide/guide02-03.webp\" alt=\"Advanced Equipment Discovery\" class=\"guide-image\" />
+
+        < h3 > Améliorations et Améliorations Initiales</ >
+              <p><strong>Expert en Sac à Dos I :</strong> Recherchez et activez cette amélioration pour **+4 de capacité de sac à dos** - essentielle pour les expéditions plus longues.</p>
+              <p><strong>Extension de Stockage Niv. 1 :</strong> Améliorez le stockage de l'entrepôt pour **+35 de capacité supplémentaire**.</p>
+              <p><strong>Gestion des Ressources :</strong> Vendez les pistolets Glick en excès tout en gardant votre TT-33 équipé pour une utilisation immédiate.</p>
+              
+              <h2>3. Première Attribution de Quête</h2>
+              
+              <h3>Quête de Construction de Base</h3>
+              <p><strong>Emplacement :</strong> Ground Zero. Pour les <a href=\"/maps\">emplacements de carte</a> détaillés et les points d'extraction, visitez notre section cartes.</p>
+        < p > <strong>Objectif :</strong> Collecter ** deux morceaux de bois ** pour construire un établi.</ >
+              <p><strong>Récompenses :</strong> 1000 XP, 500 Monnaie, 3 Bandages.</p>
+              
+              <h3>Quête de Capital de Démarrage</h3>
+              <p><strong>Emplacement :</strong> Ground Zero.</p>
+              <p><strong>Objectif :</strong> Éliminer n'importe quel ennemi et s'extraire avec succès.</p>
+              <p><strong>Récompenses :</strong> 500 XP, 1296 Monnaie.</p>
+              
+              <h2>4. Expédition à Ground Zero</h2>
+              
+              <h3>Navigation sur la Carte et Extraction</h3>
+              <p><strong>Options de Retour :</strong> Vous pouvez revenir par la porte du bunker ou localiser les points d'extraction marqués par des signaux de fumée verte.</p>
+              <p><strong>Butin Initial :</strong> Cherchez la première caisse pour des balles supplémentaires et un autre pistolet TT-33.</p>
+              
+              <h3>Rencontres Ennemies et Combat</h3>
+              <p><strong>Pilleurs Déchaînés (Rampaging Scavengers) :</strong> Canards Rouges armés de **Couteaux de Boucher** qui utilisent des attaques de charge et le combat au corps à corps. Vaincre l'un d'eux permet de compléter la quête **Capital de Démarrage**.</p>
+              <p><strong>Priorité au Butin :</strong> Collectez les **Couteaux de Boucher**, le **bois**, l'**argent** et les **boîtes de données** contenant des plans sur les ennemis vaincus.</p>
+              <p><strong>Canards Verts (Green Ducks) :</strong> Ennemis plus avancés avec des fusils à pompe et des gilets pare-balles - approchez-vous avec prudence.</p>
+              
+              <h3>Collecte d'Équipement et de Ressources</h3>
+              <p><strong>Articles Essentiels :</strong> Collectez des **Plumes Fanées** (**Fading Feathers**), des **Fragments de Noyau Froid** (**Cold Core Fragments**) (nécessaires pour les améliorations) et divers **accessoires d'armes**.</p>
+              <p><strong>Améliorations de Stockage :</strong> Trouvez et équipez des sacs à dos pour augmenter la capacité de transport à 39 emplacements.</p>
+              <p><strong>Variété d'Armes :</strong> Acquérir des fusils **AK-74U**, des fusils à pompe artisanaux et divers types de munitions. Consultez notre <a href=\"/items\">base de données d'objets</a> pour des informations complètes sur les armes et l'équipement.</p>
+
+        < h2 > 5. Exploration Avancée et Achèvement de Quêtes</ >
+              
+              <h3>Expansion de la Carte</h3>
+              <p><strong>Nœuds de Téléportation :</strong> Découvrez et utilisez les points de téléportation pour accéder à des zones cachées et des conteneurs.</p>
+              <p><strong>Mécaniques de Fouille :</strong> Utilisez des **pelles** pour découvrir des objets enterrés comme des **disquettes J-Lab** et des **Clés de Clôture de Stockage**. Parcourez notre <a href=\"/items/key\">base de données de clés</a> pour trouver des informations sur toutes les clés disponibles.</p >
+              <p><strong>Réparation de Pont :</strong> Notez que l'accès à la grotte nécessite **2 plaques de métal** et **2 morceaux de bois** - planifiez en conséquence pour les futures expéditions.</p>
+              
+              <h3>Achèvement de Quêtes et Nouvelles Attributions</h3>
+              <p><strong>Construction de l'Établi :</strong> Construisez votre premier établi pour débloquer le **Dispositif d'Enregistrement de Clé** (nécessite des cartes de circuits imprimés et un lecteur CD-ROM).</p>
+              <p><strong>Recherche de Plans :</strong> Débloquez tous les plans collectés et recherchez **Traitement Avancé** pour les améliorations de l'établi.</p>
+              
+              <h3>Déverrouillages de Quêtes Supplémentaires</h3>
+              <ul>
+                  <li><strong>Chemin du Chasseur :</strong> Tuer 2 Pilleurs Déchaînés et soumettre 2 Couteaux de Boucher (1500 XP, 380 Monnaie, 2 Plaques de Métal, 1 Écrou, 1 Boulon).</li>
+                  <li><strong>Contrôle des Saignements :</strong> Utiliser un bandage pour débloquer l'Aspirine (500 XP, 150 Monnaie, Pile de Médicaments).</li>
+                  <li><strong>Tour de Signal :</strong> Réparer la tour de signalisation nord à l'aide d'un Tournevis à Tête Plate (1500 XP, 450 Monnaie).</li>
+                  <li><strong>Quête de la Lettre :</strong> Soumettre \"Lettre d'un Vieil Ami\" (1500 XP, 450 Monnaie).</li>
+              </ul>
+              
+              <h2>6. Progression et Préparation du Personnage</h2>
+      
+              <img src=\"/images/guide/guide02-04.webp\" alt=\"Character Progression and Preparation\" class=\"guide-image\" />
+
+        < h3 > Améliorations d'Amélioration</>
+            < ul >
+                  <li><strong>Instinct de Survie 1 :</strong> +5 PV Max pour une meilleure survie.</li>
+                  <li><strong>Vue Large 1 :</strong> +15 Champ de Vision pour une meilleure conscience de la situation.</li>
+              </ >
+              
+              <h3>Préparation de l'Équipement</h3>
+              <p><strong>Acquisition d'Outils :</strong> Achetez un **Tournevis à Tête Plate** à la Machine Distributrice pour la quête de la Tour de Signal.</p>
+              <p><strong>Gestion de l'Inventaire :</strong> Nettoyez votre stockage d'entrepôt et organisez l'équipement pour les futures expéditions.</p>
+              
+              <h3>Gestion du Temps</h3>
+              <p><strong>Cycle Jour/Nuit :</strong> Dormez jusqu'à 7h00 du matin pour éviter les conditions dangereuses de la nuit. Les raids de nuit sont beaucoup plus difficiles et doivent être évités jusqu'à ce que vous soyez mieux équipé.</p>
+              
+              <h2>Conclusion</h2>
+              <p>Ce guide couvre les premières étapes essentielles dans Escape from Duckov. Vous avez réussi à vous échapper de la prison, établi votre base, terminé votre première expédition à Ground Zero et débloqué plusieurs lignes de quêtes. Consultez notre <a href=\"/wiki/quests\">base de données complète des quêtes</a> pour toutes les missions disponibles.Concentrez - vous sur l'achèvement des quêtes disponibles, l'amélioration de votre équipement et la préparation pour des expéditions plus difficiles à venir.Explorez plus de < a href =\"/guides\">guides avancés</> pour des stratégies plus approfondies.</p>
+    `
+    },
+
+
+    {
+        "id": 3,
+        "title": "Exploration Avancée de Ground Zero et Expansion de la Base",
+        "description": "Maîtrisez les expéditions avancées de Ground Zero, complétez des chaînes de quêtes complexes et développez les installations de votre base avec ce guide de progression de milieu de jeu.",
+        "imageUrl": "/images/guide-03.webp",
+        "imageAlt": "Exploration Avancée de Ground Zero et Expansion de la Base",
+        "publishDate": "2025-10-27",
+        "addressBar": "/advanced-ground-zero-exploration-base-expansion",
+        "category": "walkthroughs",
+        "tags": [
+            "ADVANCED EXPLORATION",
+            "BASE EXPANSION",
+            "QUEST CHAINS",
+            "EQUIPMENT UPGRADES",
+            "GROUND ZERO"
+        ],
+        "seo": {
+            "title": "Exploration Avancée de Ground Zero et Expansion de la Base - Escape from Duckov",
+            "description": "Maîtrisez les expéditions avancées de Ground Zero, complétez des chaînes de quêtes complexes et développez les installations de votre base avec ce guide de progression de milieu de jeu.",
+            "keywords": "Escape from Duckov, Guide Avancé, Exploration Ground Zero, Expansion de Base, Chaînes de Quêtes, Améliorations d'Équipement, Guide Milieu de Jeu"
+        },
+        "detailsHtml": `
+              <p>Ce guide avancé couvre la progression de milieu de jeu dans <a href=\"/\">Escape from Duckov</a>, se concentrant sur les expéditions complexes à Ground Zero, l'expansion des installations de la base et l'achèvement de chaînes de quêtes complexes. Parfait pour les joueurs prêts à s'attaquer à un contenu plus difficile.</p>
+              
+              <h2>1. Exploration Avancée de Ground Zero</h2>
+              <img src=\"/images/guide/guide03-01.webp\" alt=\"Advanced Ground Zero Exploration\" class=\"guide-image\" />
+              <h3>Mission de la Tour Nord</h3>
+      
+              <p><strong>Quête de la Tour de Signalisation :</strong> Dirigez-vous vers le Camp de la Route (**Road Camp**) et localisez la tour nord. Cherchez dans la boîte à outils pour trouver 2 **Plaques de Métal**, des **clous** et un **Tournevis à Tête Plate**.</p>
+              <p><strong>Interaction avec le Boîtier Électrique :</strong> Interagissez avec le boîtier électrique à la base de la tour pour compléter l'objectif de la quête **Tour de Signalisation**.</p>
+              <p><strong>Découverte de Plan :</strong> Déplacez-vous à droite de la tour pour trouver le plan de la **Carte Graphique Pomme de Terre** (**Potato Graphics Card**) - essentielle pour l'artisanat avancé.</p>
+      
+              <img src=\"/images/guide/guide03-02.webp\" alt=\"Northern Tower Mission\" class=\"guide-image\" />
+      
+              <h3>Approche du Camp de la Route</h3>
+              <p><strong>Nouveau Type d'Ennemi :</strong> Rencontrez des ennemis avancés maniant des fusils à pompe près du Camp de la Route. Ces adversaires nécessitent un positionnement prudent et des munitions adéquates.</p>
+              <p><strong>Acquisition d'Équipement :</strong> Battez les ennemis pour obtenir des fusils à pompe **MP-155**, des <a href=\"/items/equipment\">Casques de Moto</a> et des fournitures médicales. Parcourez notre <a href=\"/items/equipment\">base de données d'équipement</a> pour tout l'équipement de protection disponible.</p>
+              <p><strong>Réparation de Pont :</strong> Utilisez 2 morceaux de **bois** pour réparer le pont cassé menant au Camp de la Route. Vérifiez les cachettes sous les poteaux électriques pour du butin supplémentaire.</p>
+              
+              <h2>2. Interactions avec les PNJ et Nouvelles Quêtes</h2>
+              
+              <h3>Mud l'Entraîneur</h3>
+      
+              <p><strong>Emplacement :</strong> Trouvé dans une maison près du Camp de la Route - un canard baraqué offrant des services d'entraînement physique.</p>
+              <p><strong>Attribution de Quête :</strong> Acceptez \"**Nutrition Équilibrée 1**\" de Mud pour des opportunités d'amélioration physique.</p>
+              
+              <h3>Quête de Nutrition Équilibrée</h3>
+      
+              <img src=\"/images/guide/guide03-03.webp\" alt=\"Mud the Trainer\" class=\"guide-image\" />
+      
+              <p><strong>Objectif :</strong> Soumettre 1x **Œuf de Canard**</p>
+              <p><strong>Récompenses :</strong> 800 XP, 500 Monnaie</p>
+              <p><strong>Stratégie :</strong> Les œufs de canard peuvent être trouvés à divers endroits dans Ground Zero - priorisez la collecte pendant les expéditions.</p>
+              
+              <h2>3. Exploration de la Cave et Butin Avancé</h2>
+              
+              <h3>Accès à la Cave</h3>
+              <p><strong>Réparation de Pont :</strong> Réparez le pont près de l'entrée de la cave en utilisant les matériaux collectés pour accéder aux zones cachées.</p>
+              <p><strong>Butin de Grande Valeur :</strong> La cave contient de l'équipement premium, y compris :</p>
+              <ul>
+                  <li>**Armes :** **Cache-flamme de Pistolet**, **UP 45**, **AK-47**, accessoire de **Tir à la Hanche**. Consultez notre <a href=\"/items/weapons\">base de données d'armes</a> pour des informations détaillées sur les armes.</li>
+                  <li>**Munitions :** Divers types de munitions et un accessoire **Laser**. Parcourez <a href=\"/items/ammunition\">tous les types de munitions</a> pour les détails de compatibilité.</li>
+                  <li>**Plans :** Recettes de **Pistolet Cube** et de **Petites Munitions Énergétiques** (**Small Energy Ammo**).</li>
+              </ul>
+              
+              <h3>Infiltration du Camp Nord-Ouest</h3>
+              <p><strong>Approche Furtive :</strong> Naviguez prudemment jusqu'au Camp Nord-Ouest, en nettoyant les petits camps ennemis le long de la route.</p>
+              <p><strong>Collecte d'Objets de Quête :</strong> Récupérez la \"**Lettre d'un Vieil Ami**\" à l'intérieur de la tente pour l'achèvement de la quête.</p>
+              <p><strong>Découvertes Supplémentaires :</strong> Trouvez la recette de la **Pied-de-biche** dans les boîtes de données à proximité et les notes d'avertissement du **Journal de Surveillance de Ground Zero**.</p>
+              
+              <h2>4. Rencontres de Combat Difficiles</h2>
+              
+              <h3>Combat de Boss Ennemi à Capuche</h3>
+              <p><strong>Description de l'Ennemi :</strong> Un ennemi lourdement armé portant une capuche et maniant un fusil à pompe - beaucoup plus dangereux que les ennemis standard.</p>
+              <p><strong>Préparation au Combat :</strong> Assurez-vous d'avoir suffisamment de munitions et de fournitures médicales avant d'engager.</p>
+              <p><strong>Intégration de Quête :</strong> Utilisez des **bandages** pendant le combat pour compléter la quête \"**L'Importance du Contrôle des Saignements**\".</p>
+              <p><strong>Collecte de Récompenses :</strong> Battez l'ennemi pour obtenir des **Notes de Contact du Marché Noir** et des **Obus de Fusil à Pompe AP Avancés**.</p>
+              
+              <h3>Gestion des Ressources</h3>
+              <p><strong>Avertissement de Déshydratation :</strong> Surveillez vos niveaux d'hydratation - la déshydratation peut survenir lors d'expéditions prolongées.</p>
+              <p><strong>Collecte de Clés :</strong> Rassemblez les clés de la **Station-service Abandonnée** et de la **Clôture**, ainsi qu'une **lunette holographique** avant l'extraction. Consultez notre <a href=\"/items/key\">base de données de clés</a> pour les emplacements et l'utilisation des clés.</p>
+              
+              <h2>5. Expansion des Installations de la Base</h2>
+              
+              <h3>Nouvelles Quêtes de Construction</h3>
+              <ul>
+                  <li>**Construction de Base II :** Construire la **Boutique d'Armes** dans le Bunker.</li>
+                  <li>**Construction de Base III :** Construire la **Boutique d'Armures** dans le Bunker.</li>
+                  <li>**Construction Médicale :** Construire la **Station Médicale** dans le Bunker.</li>
+                  <li>**Expert en Technologie :** Soumettre une **Pile de Composants Électroniques**.</li>
+              </ul>
+              
+              <h3>Quêtes de Combat et de Compétences</h3>
+              <ul>
+                  <li>**Visez la Tête :** Tuer 5 ennemis avec des tirs à la tête à Ground Zero.</li>
+                  <li>**Poche Agrandie :** Déverrouiller **Expert en Sac à Dos 1** (si ce n'est pas déjà fait).</li>
+                  <li>**Améliorer l'Établi :** Déverrouiller **Traitement Avancé** (si ce n'est pas déjà fait).</li>
+              </ul>
+              
+              <h3>Quêtes de Soumission de Ressources</h3>
+              <ul>
+                  <li>**Plein d'Amour :** Soumettre 1888 Monnaie pour des récompenses significatives.</li>
+                  <li>**Apprentissage de l'Artisanat :** Soumettre un pistolet **Glick** pour des connaissances en artisanat.</li>
+                  <li>**Comptabilité :** Soumettre de l'**Encre**, un **Stylo** et un **Carnet** pour les tâches administratives.</li>
+              </ul>
+              
+              <h2>6. Améliorations d'Équipement et d'Installation</h2>
+              
+              <h3>Construction de la Boutique d'Armures</h3>
+              <p><strong>Disponibilité Immédiate :</strong> La **Boutique d'Armures** peut être construite immédiatement avec les matériaux disponibles.</p>
+              <p><strong>Achats d'Équipement :</strong> Acquérir l'**Armure Corporelle de Niveau 2** et le **Casque d'Acier** pour des améliorations significatives de la protection. Parcourez notre <a href=\"/items/equipment\">catalogue complet d'équipement</a> pour comparer toutes les options d'armure disponibles.</p>
+              <p><strong>Attributions de Quêtes :</strong> Acceptez les quêtes **Route d'Approvisionnement** et **Comptabilité** à la boutique d'armures.</p>
+              
+              <h3>Améliorations de l'Établi</h3>
+              <ul>
+                  <li>**Recherche de Plans :** Recherchez tous les plans collectés pour libérer de l'espace d'inventaire et débloquer de nouvelles options d'artisanat.</li>
+                  <li>**Recherche de Station de Réparation :** Déverrouillez les capacités de réparation d'armes pour l'équipement endommagé.</li>
+                  <li>**Station de Démontage :** Recherchez les capacités de démontage en utilisant des **ciseaux** et une **clé à molette** de la machine distributrice.</li>
+              </ul>
+              
+              <h3>Progression du Personnage</h3>
+              <p><strong>Maîtrise des Armes I :</strong> Améliorez la compétence en armes à feu à l'**Améliorateur** pour une meilleure efficacité au combat.</p>
+              <p><strong>Priorisation des Compétences :</strong> Concentrez-vous sur les améliorations liées au combat pour les prochaines rencontres difficiles.</p>
+              
+              <h2>7. Gestion Avancée des Quêtes</h2>
+              
+              <h3>Quête de Route d'Approvisionnement</h3>
+              <p><strong>Emplacement :</strong> Ground Zero</p>
+              <p><strong>Objectif :</strong> Marquer la boîte de ravitaillement avec un **Marqueur** (disponible en stockage)</p>
+              <p><strong>Stratégie :</strong> Utilisez les marqueurs collectés précédemment pour compléter cet objectif efficacement.</p>
+              
+              <h3>Planification des Ressources</h3>
+              <p><strong>Gestion de la Monnaie :</strong> Surveillez vos ressources financières - l'équipement et les améliorations avancées nécessitent un investissement important.</p>
+              <p><strong>Collecte de Matériaux :</strong> Priorisez la collecte de matériaux pour les futurs projets de construction.</p>
+              <p><strong>Optimisation de l'Inventaire :</strong> Recherchez régulièrement des plans et organisez le stockage pour maintenir une gestion efficace de l'inventaire.</p>
+              
+              <h2>Conclusion</h2>
+              <p>Ce guide avancé couvre la progression cruciale de milieu de jeu dans Escape from Duckov. Vous avez réussi à terminer des expéditions complexes à Ground Zero, à étendre les installations de votre base et à débloquer des capacités d'artisanat avancées. Consultez notre <a href=\"/wiki/quests\">base de données des quêtes</a> pour tous les détails des missions disponibles. Concentrez-vous sur l'achèvement des nouvelles chaînes de quêtes, l'amélioration de votre équipement et la préparation pour un contenu encore plus difficile à venir. Explorez plus de <a href=\"/guides\">guides avancés</a>, y compris les guides d'accès à la **Zone de Tempête** (**Storm Zone**). La fondation que vous avez construite sera essentielle pour survivre dans les zones les plus dangereuses de Duckov.</p>
+              `
+    },
+    {
+        "id": 4,
+        "title": "Maîtriser les Systèmes et Mécaniques de Base du Jeu",
+        "description": "Guide complet des mécaniques de base d'Escape from Duckov couvrant la gestion de la base, la progression du personnage, les systèmes de combat, l'exploration et les stratégies de survie.",
+        "imageUrl": "/images/guide-04.webp",
+        "imageAlt": "Maîtriser les Systèmes et Mécaniques de Base du Jeu",
+        "publishDate": "2025-10-27",
+        "addressBar": "/master-core-game-mechanics-systems",
+        "category": "getting-started",
+        "tags": [
+            "CORE MECHANICS",
+            "BASE MANAGEMENT",
+            "COMBAT SYSTEMS",
+            "CHARACTER PROGRESSION",
+            "SURVIVAL"
+        ],
+        "seo": {
+            "title": "Maîtriser les Systèmes et Mécaniques de Base du Jeu - Escape from Duckov",
+            "description": "Guide complet des mécaniques de base d'Escape from Duckov couvrant la gestion de la base, la progression du personnage, les systèmes de combat, l'exploration et les stratégies de survie.",
+            "keywords": "Escape from Duckov, Mécaniques de Base, Gestion de Base, Systèmes de Combat, Progression de Personnage, Guide de Survie, Systèmes de Jeu"
+        },
+        "detailsHtml": `
+              <p>Ce guide complet couvre toutes les mécaniques de jeu essentielles dans <a href=\"/\">Escape from Duckov</a>, de la gestion de la base et du développement du personnage aux systèmes de combat et aux stratégies d'exploration. Maîtrisez ces systèmes de base pour maximiser votre potentiel de survie.</p>
+              
+              <h2>I. Gestion de la Base et Systèmes d'Artisanat</h2>
+              
+              <h3>1. Fonctions et Configuration de la Base</h3>
+              
+              <h4>Gestion de la Difficulté</h4>
+              <p><strong>Difficulté Dynamique :</strong> Les paramètres de difficulté du jeu (y compris le mode **Survie**) peuvent être modifiés à tout moment en utilisant le bureau dans votre base (appuyez sur la touche **F**). Cela vous permet d'ajuster le niveau de défi en fonction de votre équipement et de votre expérience actuels.</p>
+              
+              <h4>Système de Recherche de Plans</h4>
+              <p><strong>Processus d'Enregistrement :</strong> Après avoir localisé la station de recherche de plans dans votre base, vous devez **enregistrer** tous les plans récupérés (tels que les recettes du **Pistolet Cube**) pour débloquer des options d'artisanat et libérer un espace d'inventaire précieux.</p>
+              <p><strong>Avantages Stratégiques :</strong> Les plans enregistrés empêchent la collecte en double et offrent un accès permanent aux recettes d'artisanat sans transporter de plans physiques.</p>
+              
+              <h4>Améliorations de Bâtiments</h4>
+              <p><strong>Amélioration Progressive :</strong> Des installations comme les établis, les centres technologiques et les gymnases peuvent être améliorées pour débloquer des capacités d'artisanat avancées et des fonctions spécialisées.</p>
+              <p><strong>Traitement Avancé :</strong> L'amélioration de votre établi au **Traitement Avancé** débloque les fonctions de **réparation d'armes**, essentielles pour maintenir la durabilité de l'équipement.</p>
+              
+              <h3>2. Stockage et Gestion de l'Inventaire</h3>
+              
+              <h4>Système de Cachette (Stash)</h4>
+              <p><strong>Stockage Sécurisé :</strong> Votre cachette de base sert de zone de stockage sécurisée pour tous les objets. Utilisez \"**Tout Stocker**\" pour transférer rapidement des objets de votre inventaire vers le stockage.</p>
+              <p><strong>Expansion de l'Espace :</strong> La capacité de la cachette peut être augmentée en investissant de la monnaie et des matériaux dans des améliorations de stockage.</p>
+              
+              <h4>Protection des Objets</h4>
+              <p><strong>Verrouillage d'Emplacement :</strong> Appuyez sur la touche **L** pour **verrouiller** des emplacements d'objets spécifiques. Les objets verrouillés sont protégés contre le transfert accidentel via \"Tout Stocker\" ou les fonctions de vente.</p>
+              <p><strong>Sécurité de l'Équipement :</strong> Ce système empêche la perte d'équipement précieux lors des opérations de gestion de l'inventaire.</p>
+              
+              <h3>3. Artisanat et Suivi des Ressources</h3>
+              
+              <h4>Système de Marquage d'Objets</h4>
+              <p><strong>Suivi des Matériaux :</strong> Dans les interfaces d'artisanat et d'amélioration, appuyez sur **N** sur les matériaux requis pour ajouter des **icônes de cœur** à côté d'eux. Ce système visuel aide à suivre les objets de quête et les exigences d'artisanat.</p>
+              <p><strong>Intégration de Quête :</strong> Les objets marqués sont facilement identifiables lors du pillage, rationalisant l'achèvement des quêtes et la collecte de ressources.</p>
+              
+              <h4>Mécaniques de Démantèlement</h4>
+              <p><strong>Conversion de Ressources :</strong> De nombreux objets (y compris les **Ballons Rouillés** et les **composants en plastique**) peuvent être démantelés en matériaux de base comme la **Poudre à Canon** pour l'artisanat ou la soumission de quête.</p>
+              <p><strong>Stratégie d'Efficacité :</strong> Le démantèlement régulier maximise l'utilisation des ressources et fournit des matériaux pour les projets d'artisanat avancés.</p>
+              
+              <h2>II. Développement et Progression du Personnage</h2>
+              
+              <h3>1. Amélioration des Attributs et Avantages</h3>
+              
+              <h4>Système du Palais des Avantages (Perk Palace)</h4>
+              <p><strong>Progression de Base :</strong> Le Palais des Avantages sert de système principal d'avancement du personnage, offrant des **buffs permanents** grâce à l'investissement de **Monnaie** et de **Fragments de Noyau** (**Core Fragment**).</p>
+              <p><strong>Recommandation Prioritaire :</strong> **Expert en Sac à Dos** fournit une capacité de poids et un espace de stockage supplémentaires - l'investissement le plus précieux en début de jeu pour l'efficacité des expéditions.</p>
+              
+              <h4>Entraînement Physique</h4>
+              <p><strong>Entraînement de Mud :</strong> Rendez-vous chez **Mud** dans le gymnase pour accéder à des programmes d'entraînement physique qui augmentent de façon **permanente** des attributs comme la santé maximale.</p>
+              <p><strong>Avantages à Long Terme :</strong> L'entraînement physique fournit des améliorations de statistiques permanentes, ce qui en fait un investissement rentable pour le développement du personnage.</p>
+              
+              <h3>2. Systèmes Médicaux et de Survie</h3>
+              
+              <h4>Catégories d'Articles de Soins</h4>
+              <ul>
+                  <li>**Restauration de Santé :** Les **Bandages** et les **Trousses de Premiers Soins** restaurent les points de vie et sont essentiels pour la survie au combat.</li>
+                  <li>**Gestion de la Douleur :** L'**Aspirine** soulage la douleur mais provoque la déshydratation - surveillez votre consommation d'eau après utilisation.</li>
+                  <li>**Contrôle des Saignements :** L'**Herat** sert de médicament hémostatique, spécifiquement conçu pour traiter les effets de statut de saignement.</li>
+              </ul>
+              
+              <h3>3. Mécaniques de Mouvement et de Combat</h3>
+              
+              <h4>Optimisation de la Vitesse</h4>
+              <p><strong>Rengainement d'Arme :</strong> Appuyez sur **C** pour **rengainer** votre arme, augmentant la vitesse de déplacement - particulièrement efficace lorsque vous transportez des fusils ou des armes lourdes.</p>
+              <p><strong>Mobilité Stratégique :</strong> Le rengainement des armes est crucial pour un repositionnement rapide et les scénarios d'évasion.</p>
+              
+              <h4>Techniques d'Évasion</h4>
+              <p><strong>Roulade d'Esquive :</strong> Utilisez la **barre d'espace** pour les roulades d'esquive lorsque vous combattez des ennemis de mêlée. Ceci est essentiel pour éviter les attaques fatales des **Pilleurs Déchaînés** (**Rampaging Scavengers**).</p>
+              <p><strong>Timing Critique :</strong> Maîtrisez le timing des roulades d'esquive pour maximiser la survie contre les adversaires de mêlée infligeant de gros dégâts.</p>
+              
+              <h2>III. Systèmes de Combat et Équipement</h2>
+              
+              <h3>1. Mécaniques d'Armes à Feu et Dégâts</h3>
+              
+              <h4>Types de Munitions</h4>
+              <p><strong>Variété de Calibres :</strong> Différentes armes à feu utilisent des types de munitions spécifiques (calibres S, L, AR). Les premières armes comme le Glick utilisent des munitions S, tandis que l'AK-74U nécessite des munitions AR. Parcourez notre <a href=\"/items/ammunition\">base de données de munitions</a> et notre <a href=\"/items/weapons\">base de données d'armes</a> pour des informations complètes sur la compatibilité.</p>
+              <p><strong>Ballons Rouillés :</strong> Munitions courantes en début de partie avec une puissance de dégâts réduite - nécessite plus de tirs pour éliminer efficacement les ennemis.</p>
+              
+              <h4>Portée et Précision</h4>
+              <p><strong>Indicateur de Distance :</strong> L'interface utilisateur affiche un indicateur de portée dans le coin inférieur droit, montrant l'efficacité optimale de l'arme.</p>
+              <p><strong>Code Couleur :</strong> Le Vert/Blanc indique une portée efficace avec des dégâts maximaux, tandis que le Rouge signale des dégâts réduits en raison de problèmes de portée ou de précision.</p>
+              <p><strong>Effets des Accessoires :</strong> Les modifications d'armes comme les suppresseurs et les freins de bouche ont un impact direct sur l'efficacité de la portée et la puissance de dégâts.</p>
+              
+              <h3>2. Comportement et Tactiques Ennemies</h3>
+              
+              <h4>Pilleurs Déchaînés (Rampaging Scavengers)</h4>
+              <p><strong>Menaces de Mêlée :</strong> Ennemis de mêlée à dégâts élevés avec des schémas d'attaque clairs. Les avertissements de **flash rouge** précèdent les coups d'arme - votre signal pour effectuer une roulade d'esquive.</p>
+              <p><strong>Stratégie de Combat :</strong> Maintenez la distance et utilisez les roulades d'esquive pour éviter leurs attaques de mêlée dévastatrices.</p>
+              
+              <h4>Avantages Environnementaux</h4>
+              <p><strong>Utilisation des Couverts :</strong> Les **sacs de sable** offrent une excellente couverture. Les ennemis, en particulier les attaquants à distance, ont du mal à toucher les cibles derrière les barrières de sacs de sable.</p>
+              <p><strong>Stratégie de Positionnement :</strong> Utilisez les caractéristiques du terrain pour minimiser la précision ennemie et maximiser votre efficacité au combat.</p>
+              
+              <h3>3. Équipement et Protection</h3>
+              
+              <h4>Systèmes d'Armure</h4>
+              <p><strong>Réduction des Dégâts :</strong> L'**armure** et les **casques** offrent une mitigation directe des dégâts. L'équipement avancé comme les **Casques SWAT** améliore considérablement la survie en début de partie. Consultez notre <a href=\"/items/equipment\">base de données d'équipement</a> pour comparer les niveaux de protection et les statistiques.</p>
+              <p><strong>Gestion de la Durabilité :</strong> Tout l'équipement a des cotes de durabilité. Les objets endommagés peuvent être réparés aux **établis de réparation** en utilisant de la monnaie.</p>
+              
+              <h2>IV. Systèmes Économiques et d'Exploration</h2>
+              
+              <h3>1. Mécaniques d'Extraction</h3>
+              
+              <h4>Spécificité de Ground Zero</h4>
+              <p><strong>Extraction Unique :</strong> **Ground Zero** ne nécessite pas d'atteindre des points d'extraction désignés. Il suffit de retourner à l'**entrée de la base** pour une extraction en toute sécurité.</p>
+              <p><strong>Autres Cartes :</strong> La plupart des emplacements nécessitent de trouver des points d'extraction marqués par de la **fumée verte** ou de localiser des points de sortie spéciaux.</p>
+              
+              <h3>2. Solutions de Stockage Spécialisées</h3>
+              
+              <h4>Fonctionnalité de l'Emplacement pour Animal de Compagnie (Pet Slot)</h4>
+              <p><strong>Stockage d'Objets Lourds :</strong> Situé au-dessus de votre sac à dos, l'**Emplacement pour Animal de Compagnie** est conçu pour les objets lourds ou extrêmement précieux que vous ne pouvez pas vous permettre de perdre.</p>
+              <p><strong>Exemption de Poids :</strong> Les objets dans l'Emplacement pour Animal de Compagnie ne contribuent pas à votre poids total, ce qui le rend idéal pour les **Batteries de Voiture**, les grandes quantités d'**argent** et les objets de quête critiques.</p>
+              
+              <h3>3. Commerce et Économie</h3>
+              
+              <h4>Marchand Mystérieux</h4>
+              <p><strong>Commerce à Emplacement Fixe :</strong> Situé à une position spécifique de Ground Zero, ce marchand accepte de la **Monnaie** contre des objets de quête rares, y compris le **Miel**, les **Stylos** et les **Médicaments IV**.</p>
+              <p><strong>Exigence de Préparation :</strong> Vous devez apporter de la Monnaie sur la carte avant d'entrer pour commercer avec le Marchand Mystérieux.</p>
+              
+              <h3>4. Expansion de la Carte et Raccourcis</h3>
+              
+              <h4>Accès aux Égouts</h4>
+              <p><strong>Route Secondaire :</strong> Déverrouillé en supprimant les obstacles sur des routes spécifiques après la réparation des ponts, offrant des points d'accès alternatifs à Ground Zero.</p>
+              
+              <h4>Système de Téléportation</h4>
+              <p><strong>Méthode de Déverrouillage :</strong> Utilisez de la **Dynamite** pour faire exploser le mur fissuré à l'extérieur de l'entrée de votre base.</p>
+              <p><strong>Valeur Stratégique :</strong> Crée un **raccourci de téléportation** bidirectionnel, permettant un voyage instantané entre les points d'extrémité de la carte - le déverrouillage le plus crucial en début de partie pour une récupération efficace des cadavres et la gestion des expéditions.</p>
+              
+              <h2>V. Gestion des Risques et Systèmes de Décès</h2>
+              
+              <h3>1. Pénalités de Mort et Récupération</h3>
+              
+              <h4>Mécaniques de Perte d'Objets</h4>
+              <p><strong>Perte Complète :</strong> La mort entraîne la **perte de tous les objets transportés**, rendant l'évaluation des risques cruciale pour la planification des expéditions.</p>
+              <p><strong>Récupération du Cadavre :</strong> Vos objets restent dans un **sac de cadavre** à votre lieu de décès, nécessitant une rentrée pour les récupérer.</p>
+              
+              <h4>Risque de Seconde Mort</h4>
+              <p><strong>Perte Permanente :</strong> Mourir à nouveau avant de récupérer votre sac de cadavre entraîne la **perte permanente** de tous les objets précédents.</p>
+              <p><strong>Stratégie de Récupération :</strong> Voyagez léger et utilisez l'itinéraire le plus rapide lors de la récupération des sacs de cadavre pour minimiser les risques.</p>
+              
+              <h3>2. Stratégies d'Atténuation des Risques</h3>
+              
+              <h4>Avantage de la Téléportation</h4>
+              <p><strong>Récupération Rapide :</strong> La **Bulle de Téléportation** (raccourci à la Dynamite) est essentielle pour une récupération rapide des cadavres et la réduction des risques.</p>
+              <p><strong>Planification Stratégique :</strong> Planifiez les expéditions en tenant compte des itinéraires de récupération des cadavres, en privilégiant la sécurité à la vitesse.</p>
+              
+              <h2>Conclusion</h2>
+              <p>Maîtriser ces mécaniques de base est essentiel pour réussir dans Escape from Duckov. Concentrez-vous sur une gestion efficace de la base, un développement stratégique du personnage et une évaluation minutieuse des risques. Pour des informations détaillées sur les objets, visitez notre <a href=\"/items\">base de données complète d'objets</a>. Les systèmes fonctionnent ensemble pour créer une expérience de survie stimulante mais enrichissante où la préparation et la connaissance sont vos plus grands atouts. Explorez plus de <a href=\"/guides\">guides stratégiques</a> pour améliorer votre jeu.</p>
+              `
+    },
+
+    {
+        "id": 5,
+        "title": "Guide d'Accès à la Zone de Tempête et du Boss Barrage",
+        "description": "Guide complet pour accéder à la Zone de Tempête, incluant l'activation de l'alimentation électrique, l'acquisition de certificats, la stratégie du boss Barrage, et la préparation essentielle pour la zone la plus dangereuse de Duckov.",
+        "imageUrl": "/images/guide-05.webp",
+        "imageAlt": "Guide d'Accès à la Zone de Tempête et du Boss Barrage",
+        "publishDate": "2025-10-27",
+        "addressBar": "/storm-zone-access-roadblock-boss-guide",
+        "category": "advanced",
+        "tags": [
+            "ZONE DE TEMPÊTE",
+            "COMBAT DE BOSS",
+            "FARM DE CERTIFICATS",
+            "CONTENU ENDGAME",
+            "SURVIE"
+        ],
+        "seo": {
+            "title": "Guide d'Accès à la Zone de Tempête et du Boss Barrage - Escape from Duckov",
+            "description": "Guide complet pour accéder à la Zone de Tempête, incluant l'activation de l'alimentation électrique, l'acquisition de certificats, la stratégie du boss Barrage, et la préparation essentielle pour la zone la plus dangereuse de Duckov.",
+            "keywords": "Escape from Duckov, Zone de Tempête, Boss Barrage, Farm de Certificats, Guide Endgame, Stratégie de Combat de Boss"
+        },
+        "detailsHtml": `
+              <p>Ce guide complet couvre tout le processus d'accès à la zone la plus dangereuse de Duckov : la **Zone de Tempête**. Apprenez à activer les systèmes d'alimentation, à acquérir les certificats nécessaires, à vaincre le boss **Barrage** (Roadblock), et à vous préparer aux défis extrêmes de l'endgame. Pour les <a href="/maps">emplacements de cartes</a> et les informations détaillées sur les zones, visitez notre section cartes.</p>
+              
+              <h2>1. Activation de l'Alimentation Électrique de l'Installation</h2>
+              
+              <h3>Interrupteur du Rez-de-Chaussée</h3>
+              <p><strong>Activation Initiale :</strong> Naviguez jusqu'au rez-de-chaussée et localisez le premier disjoncteur. C'est votre point de départ pour toute la séquence d'activation de l'alimentation.</p>
+              <p><strong>Patrouilles de Renégats :</strong> Restez extrêmement vigilant – des **Renégats** (Rogues) lourdement armés patrouillent cette zone avec des armes à dégâts élevés et des munitions perforantes. Ces ennemis peuvent éliminer rapidement les joueurs non préparés.</p>
+              <p><strong>Préparation au Combat :</strong> Assurez-vous d'avoir suffisamment de munitions et de fournitures médicales avant de vous engager. Les Renégats sont significativement plus dangereux que les ennemis standard.</p>
+              
+              <h3>Interrupteur du Sous-Sol</h3>
+              <p><strong>Descente Dangereuse :</strong> Après avoir activé le premier disjoncteur, rendez-vous au sous-sol pour activer le second interrupteur. Cette zone contient des dangers environnementaux qui nécessitent une navigation prudente.</p>
+              <p><strong>Utilisation du Stimulant Jaune :</strong> Utilisez un **Stimulant Jaune** (Yellow Stim) pour améliorer votre vitesse de déplacement et traverser les sections dangereuses en toute sécurité. Ce buff temporaire est essentiel pour survivre dans la zone dangereuse du sous-sol.</p>
+              <p><strong>Stratégie de Sortie Rapide :</strong> Une fois l'alimentation activée, évitez de vous attarder au sous-sol. Les systèmes d'alimentation activés pourraient déclencher des dangers supplémentaires ou l'apparition d'ennemis.</p>
+              
+              <h2>2. Acquisition du Certificat de Niveau 2</h2>
+              
+              <h3>Emplacements d'Apparition du Certificat</h3>
+              <p><strong>Emplacement Principal :</strong> Le certificat de Niveau 2 peut apparaître à l'intérieur de la **Salle de Projection** – vérifiez minutieusement tous les conteneurs et surfaces.</p>
+              <p><strong>Emplacement Secondaire :</strong> Un point d'apparition alternatif est situé directement à l'extérieur de la porte de la Salle de Projection. Fouillez la zone immédiate si vous ne le trouvez pas à l'intérieur.</p>
+              <p><strong>Stratégie de Recherche :</strong> Vérifiez méthodiquement les deux emplacements car le certificat est essentiel pour la progression vers le contenu de niveau supérieur.</p>
+              
+              <h3>Menaces des Monstres Furtifs</h3>
+              <p><strong>Prédateurs Invisibles :</strong> Des **monstres furtifs** patrouillent la zone de la Salle de Projection et possèdent la capacité d'éliminer instantanément les joueurs portant une armure de Niveau 4.</p>
+              <p><strong>Capacité de Tué en Un Coup :</strong> Ces ennemis peuvent tuer même des joueurs lourdement blindés avec une seule attaque, ce qui les rend extrêmement dangereux.</p>
+              <p><strong>Stratégie de Dégagement :</strong> Éliminez tous les Renégats proches avant de tenter de looter le certificat. Cela garantit un accès plus sûr aux emplacements d'apparition.</p>
+              
+              <h2>3. Rencontre avec le Boss Barrage (Roadblock)</h2>
+              
+              <h3>Boss Préparation</h3>
+              <p><strong>Prérequis :</strong> Assurez-vous que les deux disjoncteurs d'alimentation ont été activés avant de tenter la rencontre avec Barrage. Le boss n'apparaîtra qu'avec l'activation complète de l'alimentation.</p>
+              <p><strong>Emplacement :</strong> Retournez au premier étage après avoir terminé l'activation de l'alimentation pour défier le boss Barrage.</p>
+              <p><strong>Vérification de l'Équipement :</strong> Vérifiez que vous avez suffisamment de munitions, de fournitures médicales et une armure appropriée avant de vous engager.</p>
+              
+              <h3>Mécaniques et Stratégie du Boss</h3>
+              <p><strong>Récompense Garantie :</strong> Barrage lâche toujours le **Certificat de Niveau 3** après sa défaite – c'est votre récompense garantie pour avoir terminé la rencontre.</p>
+              <p><strong>Approche de Combat :</strong> Utilisez la couverture efficacement et maintenez la distance. Les attaques de Barrage sont dévastatrices à courte portée.</p>
+              <p><strong>Gestion des Ressources :</strong> Conservez les munitions et les fournitures médicales tout au long du combat. La rencontre peut être longue et gourmande en ressources.</p>
+              
+              <h3>Extraction Post-Boss</h3>
+              <p><strong>Collecte de Certificat :</strong> Ramassez immédiatement le Certificat de Niveau 3 sur le corps de Barrage.</p>
+              <p><strong>Route d'Extraction :</strong> Déplacez-vous rapidement vers la zone d'extraction désignée après avoir vaincu le boss. Retarder l'extraction augmente le risque de rencontres ennemies supplémentaires.</p>
+              
+              <h2>4. Entrée dans la Zone de Tempête</h2>
+              
+              <h3>Accès à la Passerelle</h3>
+              <p><strong>Exigence de Certificat :</strong> Avec le Certificat de Niveau 3 en votre possession, retournez au **Secteur 0** pour localiser la passerelle de la Zone de Tempête.</p>
+              <p><strong>Processus d'Entrée :</strong> Présentez le certificat à la passerelle pour obtenir l'accès à la zone la plus dangereuse de Duckov.</p>
+              <p><strong>Point de Non-Retour :</strong> Une fois à l'intérieur de la Zone de Tempête, l'extraction devient significativement plus difficile.</p>
+              
+              <h2>5. Préparation et Risques de la Zone de Tempête</h2>
+              
+              <h3>Évaluation des Dangers Extrêmes</h3>
+              <p><strong>Équipement Ennemi :</strong> Attendez-vous à des ennemis équipés d'équipement de **Niveau 6** – l'équipement de plus haut niveau du jeu.</p>
+              <p><strong>Difficulté de Combat :</strong> Tous les ennemis à l'intérieur de la Zone de Tempête sont significativement plus puissants que ceux rencontrés dans d'autres zones.</p>
+              <p><strong>Défi de Survie :</strong> La Zone de Tempête représente le test ultime de compétence, d'équipement et de préparation du joueur.</p>
+              
+              <h3>Articles de Préparation Essentiels</h3>
+              <p><strong>Exigence de Stimulant de Tempête :</strong> Apportez au moins cinq **Stimulants de Tempête** (Storm Stims) avant d'entrer. Ces consommables spécialisés sont essentiels pour contrer les dangers de la Zone de Tempête.</p>
+              <p><strong>Normes d'Équipement :</strong> Assurez-vous que votre équipement comprend les meilleurs <a href="/items/weapons">armes</a>, <a href="/items/equipment">armures</a> et consommables disponibles. Parcourez notre <a href="/items">base de données d'objets</a> pour trouver l'équipement optimal pour le contenu endgame.</p>
+              <p><strong>Préparation au Combat Prolongé :</strong> Préparez-vous à des engagements prolongés avec des ennemis de haut niveau. L'équipement standard pourrait s'avérer insuffisant.</p>
+              
+              <h2>6. Terminologie et Articles Clés</h2>
+              
+              <h3>Système de Certificat</h3>
+              <p><strong>Certificat de Niveau 2 :</strong> Requis pour accéder au contenu de niveau intermédiaire et progresser vers des zones de difficulté plus élevée.</p>
+              <p><strong>Certificat de Niveau 3 :</strong> Objet clé obligatoire pour l'accès à la Zone de Tempête, largage garanti par la rencontre avec le boss Barrage.</p>
+              
+              <h3>Classifications des Ennemis</h3>
+              <p><strong>Renégats (Rogues) :</strong> Opposants IA avec des armes haut de gamme et des munitions perforantes, significativement plus dangereux que les ennemis standard.</p>
+              <p><strong>Monstres Furtifs (Stealth Monsters) :</strong> Ennemis invisibles mortels capables de tués instantanés, trouvés autour de la zone de la Salle de Projection.</p>
+              
+              <h3>Articles Consommables</h3>
+              <p><strong>Stimulant Jaune (Yellow Stim) :</strong> Buff de mouvement temporaire idéal pour naviguer dans les zones dangereuses, particulièrement utile dans les sections du sous-sol.</p>
+              <p><strong>Stimulant de Tempête (Storm Stim) :</strong> Consommable spécialisé conçu pour contrer les dangers environnementaux et les mécanismes de combat de la Zone de Tempête.</p>
+              
+              <h2>7. Recommandations Stratégiques</h2>
+              
+              <h3>Liste de Contrôle de Préparation</h3>
+              <ul>
+                  <li><strong>Équipement :</strong> Meilleures armes et armures disponibles</li>
+                  <li><strong>Consommables :</strong> Fournitures médicales, Stimulants Jaunes et Stimulants de Tempête</li>
+                  <li><strong>Munitions :</strong> Suffisamment de cartouches pour un combat prolongé</li>
+                  <li><strong>Connaissance :</strong> Compréhension des schémas ennemis et des agencements de zone</li>
+              </ul>
+              
+              <h3>Gestion des Risques</h3>
+              <p><strong>Progression Graduelle :</strong> N'essayez pas d'entrer dans la Zone de Tempête avant d'avoir maîtrisé tout le contenu précédent et acquis un équipement optimal.</p>
+              <p><strong>Plans de Secours :</strong> Ayez toujours des itinéraires d'extraction planifiés et des fournitures d'urgence prêtes.</p>
+              <p><strong>Coordination d'Équipe :</strong> Si vous jouez avec d'autres, coordonnez les rôles et les responsabilités pour une efficacité maximale.</p>
+              
+              <h2>Conclusion</h2>
+              <p>La Zone de Tempête représente le summum du défi dans Escape from Duckov. Le succès exige une préparation méticuleuse, un équipement optimal et la maîtrise des techniques de combat avancées. Consultez notre <a href="/wiki/quests">base de données de quêtes</a> pour les exigences de certificat liées aux missions. Suivez attentivement ce guide, préparez-vous minutieusement, et rappelez-vous que la survie dans la Zone de Tempête exige le respect de ses dangers extrêmes. Pour des stratégies plus avancées, explorez notre <a href="/guides">collection complète de guides</a>. Bonne chance pour votre évasion ultime de Duckov !</p>
+              `
+    },
+    {
+        "id": 6,
+        "title": "LEDX dans Escape from Duckov",
+        "description": "À la recherche du LEDX insaisissable dans Escape from Duckov ? Ce guide décompose les meilleures méthodes d'acquisition, couvrant les emplacements d'apparition, l'utilisation des clés, les butins des ennemis et la valeur marchande. Maximisez vos chances de trouver cet article médical vital et découvrez des conseils de trading intelligents !",
+        "tags": [
+            "Escape from Duckov",
+            "LEDX",
+            "Objet Rare",
+            "Guide de Butin",
+            "Clé Sanatorium"
+        ],
+        "publishDate": "2025-10-28",
+        "imageUrl": "/images/guide/guide06-01.webp",
+        "imageAlt": "Un Transilluminateur Cutané LEDX dans Escape from Duckov affiché sur un établi.",
+        "category": "advanced",
+        "seo": {
+            "title": "LEDX dans Escape from Duckov : Le Guide d'Acquisition Ultime",
+            "description": "Apprenez à trouver le rare LEDX dans Escape from Duckov. Obtenez des conseils sur les emplacements d'apparition, les exigences de clé, les stratégies de trading et les implications pour les quêtes afin de maximiser les profits !",
+            "keywords": "escape from duckov, ledx, guide de butin, sanatorium, clé, objet rare, trading, quêtes"
+        },
+        "addressBar": "/escape-from-duckov-ledx",
+        "detailsHtml": `
+              <h2 style="font-size: 1.5em; font-weight: bold;">
+                  <span>LEDX dans Escape from Duckov</span>
+              </h2>
+              <p style="margin: 1em 0px;">
+                  Le **Transilluminateur Cutané LEDX** (LEDX Skin Transilluminator) dans <a href="/">Escape from Duckov</a> est un objet très recherché et incroyablement **rare**, convoité pour sa valeur marchande élevée et son rôle essentiel dans diverses quêtes de fin de partie.
+                  Acquérir cet appareil médical peut considérablement augmenter votre richesse et votre progression. Ce guide complet fournit des informations détaillées sur où et comment trouver le LEDX, sa valeur sur le marché et des recommandations stratégiques pour son utilisation. Consultez notre <a href="/wiki/quests">base de données de quêtes</a> pour voir quelles missions nécessitent le LEDX.
+              </p>
+              <img src="/images/guide/guide06-02.webp" alt="LEDX-1">
+      
+              <h3 style="font-size: 1.17em; font-weight: bold;">
+                  <span>À propos du LEDX</span>
+              </h3>
+              <p style="margin: 1em 0px;">
+                  <span>
+                      Le Transilluminateur Cutané LEDX est classé comme un **article médical** dans Escape from Duckov. Son objectif principal est d'améliorer la visibilité des vaisseaux sanguins, facilitant ainsi des injections plus faciles et plus précises.
+                      Pesant seulement 0,2 kg, il est relativement léger, ce qui en fait un ajout gérable à votre inventaire. Sa rareté et sa valeur en font une cible prioritaire pour de nombreux joueurs, que ce soit pour un usage personnel, pour accomplir des tâches ou pour capitaliser sur sa valeur marchande.
+                      N'oubliez pas que trouver le LEDX dans Escape from Duckov exige de la patience et une approche stratégique. Pour plus de guides de butin et de stratégies, explorez notre <a href="/guides">collection complète de guides</a>.
+                  </span>
+              </p>
+      
+              <h3 style="font-size: 1.17em; font-weight: bold;">
+                  <span>Méthodes d'Acquisition du LEDX</span>
+              </h3>
+              <ol>
+                  <li><strong>Points d'Apparition de Butin Aléatoires :</strong>
+                      <span> La méthode la plus courante consiste à rechercher des points d'apparition de butin spécifiques sur différentes cartes. Le **Sanatorium**, en particulier une pièce spécifique contenant un lit, est un emplacement connu pour les apparitions de LEDX. Cependant, n'oubliez pas que les taux d'apparition sont aléatoires.</span>
+                  </li>
+                  <li><strong>Clés de Chambre :</strong>
+                      <span> L'accès à certaines pièces, telles que celles nécessitant la **"Clé de Chambre 2 du Sanatorium"**, augmente vos chances de trouver un LEDX. Ces pièces contiennent souvent du butin de niveau supérieur, ce qui en fait des investissements rentables. Parcourez notre <a href="/items/key">base de données de clés</a> pour trouver toutes les clés disponibles. Gardez un œil sur ces clés pendant que vous explorez.</span>
+                  </li>
+                  <li><strong>Butin des Ennemis :</strong>
+                      <span> Bien que moins fréquent, vaincre des ennemis comme les Scavs, les Raiders et les Boss offre une petite chance qu'ils lâchent un LEDX. Cibler des zones de grande valeur avec une présence ennemie accrue peut améliorer vos chances.</span>
+                  </li>
+                  <li><strong>Caisse Scav (Scav Case) :</strong>
+                      <span> Utiliser la Caisse Scav dans votre planque pourrait potentiellement produire un LEDX, bien que ce soit un résultat très rare. C'est une méthode passive pour tenter d'acquérir l'objet.</span>
+                  </li>
+                  <li><strong>Fabrication (Crafting) :</strong>
+                      <span> Bien que vous ne puissiez pas fabriquer directement le LEDX, avoir d'autres objets nécessaires peut mener à des opportunités de l'échanger ou de troquer pour des clés vers des emplacements où les LEDX apparaissent.</span>
+                  </li>
+                  <li><strong>Marché aux Puces (Flea Market) :</strong>
+                      <span> Bien que vous ne puissiez pas acheter directement auprès des marchands, le Marché aux Puces permet des transactions de joueur à joueur. Cela peut ne pas être fiable, mais peut donner une estimation de la valeur actuelle du LEDX.</span>
+                  </li>
+                  <li><strong>Récompenses de Quêtes :</strong>
+                      <span> Certaines quêtes rares offriront le LEDX comme récompense, alors gardez l'œil ouvert ! Consultez notre <a href="/wiki/quests">base de données complète de quêtes</a> pour toutes les récompenses de mission.</span>
+                  </li>
+              </ol>
+      
+              <h3 style="font-size: 1.17em; font-weight: bold;">
+                  <span>FAQ</span>
+              </h3>
+              <ol>
+                  <li><span>Quelle est la valeur marchande d'un LEDX dans Escape from Duckov ?</span></li>
+                  <li><span>Le LEDX peut atteindre jusqu'à **16 250 HKD** sur le marché, ce qui en fait un objet lucratif à vendre. Les prix peuvent fluctuer, alors surveillez les tendances du marché.</span></li>
+                  <li><span>Puis-je acheter le LEDX auprès des marchands ?</span></li>
+                  <li><span>Non, le LEDX ne peut pas être acheté directement auprès des marchands. Sa valeur d'achat est affichée comme \"???\" en raison de son indisponibilité par ces canaux.</span></li>
+                  <li><span>Combien de LEDX devrais-je garder pour les quêtes ?</span></li>
+                  <li><span>Il est recommandé de garder au moins **5 LEDX** pour les futures quêtes et à des fins de fabrication. Cela vous fera gagner du temps et de l'argent à long terme.</span></li>
+                  <li><span>Quelles clés sont les plus utiles pour trouver le LEDX ?</span></li>
+                  <li><span>La **"Clé de Chambre 2 du Sanatorium"** est une clé particulièrement précieuse à acquérir, car elle déverrouille des pièces connues pour le butin de niveau supérieur, y compris le potentiel d'apparitions de LEDX.</span></li>
+                  <li><span>Is it better to sell or keep a LEDX early in the game?</span></li>
+                  <li><span>Bien qu'il soit tentant de vendre pour de l'argent rapide, considérez la valeur d'en économiser quelques-uns pour les quêtes à venir. Si vous en avez plus de 5, vendre les extras est un choix raisonnable.</span></li>
+              </ol>
+      
+              <p style="margin: 1em 0px;">
+                  <span>
+                      En résumé, le LEDX dans Escape from Duckov est un objet **précieux et rare** avec une importance à la fois économique et stratégique.
+                      Obtenir un LEDX dans Escape from Duckov demande de la patience, la connaissance des emplacements d'apparition et un peu de chance.
+                      Savoir comment obtenir, évaluer et utiliser le LEDX peut avoir un impact significatif sur votre progression et votre succès financier dans le jeu. Bonne chance dans votre chasse !
+                  </span>
+              </p>
+              `
+    },
+
+    {
+        "id": 7,
+        "title": "Guide d'Acquisition des Cartes d'Accès J-Lab dans Escape from Duckov",
+        "iframeUrl": "1",
+        "description": "Naviguez dans les banlieues dangereuses de Duckov et sécurisez votre accès aux J-Labs ! Ce guide fournit les emplacements d'apparition détaillés, les procédures de quête et des conseils d'experts pour acquérir toutes les cartes d'accès J-Lab, de la J-Lab 1 de base aux variantes colorées insaisissables. Dominez les laboratoires et pillez comme un pro !",
+        "tags": [
+            "Escape from Duckov",
+            "Cartes J-Lab",
+            "Guide d'Accès"
+        ],
+        "publishDate": "2025-10-28",
+        "imageUrl": "/images/guide/guide07-01.webp",
+        "imageAlt": "Un personnage joueur pillant une carte d'accès J-Lab dans Escape from Duckov, à l'intérieur d'une pièce faiblement éclairée remplie d'équipement industriel.",
+        "category": "advanced",
+        "seo": {
+            "title": "Escape from Duckov : Guide des Cartes J-Lab - Déverrouillez Tous les Laboratoires !",
+            "description": "Déverrouillez tous les J-Labs dans Escape from Duckov ! Ce guide détaille les emplacements des Cartes J-Lab, les récompenses de quêtes et les méthodes de farming pour piller efficacement du butin de haut niveau. Dominez Duckov maintenant !",
+            "keywords": "escape from duckov cartes j-lab, guide de carte d'accès, duckov, accès au laboratoire, guide de butin, guide de quête, guide de farming, carte rouge, carte bleue, carte verte"
+        },
+        "addressBar": "/escape-from-duckov-j-lab-access-card-acquisition-guide",
+        "detailsHtml": `
+              <p style="margin: 1em 0px;">
+          Dans <a href="/">Escape from Duckov</a>, les **Cartes d'Accès J-Lab** sont cruciales pour accéder aux laboratoires de recherche restreints disséminés dans les banlieues de Duckov.
+          Bien que la première carte d'entrée de gamme (J-Lab 1) soit relativement facile à trouver, les versions plus avancées—y compris les cartes de Niveau 2 et les cartes d'accès colorées (rouge, bleue, verte, violette, jaune et noire)—sont beaucoup plus rares et généralement débloquées par une exploration plus poussée, le pillage et l'accomplissement de quêtes spécifiques. Consultez notre <a href="/items/key">base de données de clés</a> pour les informations sur les cartes d'accès.
+      </p>
+      
+      <p style="margin: 1em 0px;">
+          Ce guide détaille comment trouver chaque carte J-Lab, ses zones d'apparition confirmées et les meilleurs itinéraires de recherche pour rendre vos raids de laboratoire efficaces et reproductibles. Pour les <a href="/maps">emplacements de cartes</a> détaillés et les points d'accès au laboratoire, visitez notre section cartes.
+      </p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Que sont les Cartes J-Lab ?</strong></h2>
+      
+      <p style="margin: 1em 0px;">
+          Les Cartes J-Lab sont des laissez-passer de sécurité utilisés pour accéder aux installations de recherche souterraines situées dans toute la région de Duckov.
+          Différents niveaux de cartes donnent accès à des zones plus profondes du laboratoire ou à des zones de confinement codées par couleur associées à du butin et de l'équipement de laboratoire de haut niveau.
+      </p>
+      
+      <p style="margin: 1em 0px;">Voici une brève description de chaque type de carte :</p>
+      
+      <ol>
+          <li><strong>Carte J-Lab 1</strong> – Accès de niveau de base (accès aux zones de laboratoire standard)</li>
+          <li><strong>Carte J-Lab 2</strong> – Accès de niveau intermédiaire (accès aux zones B1 et inférieures)</li>
+          <li><strong>Cartes Colorées (Rouge, Bleue, Verte, Violette, Jaune, Noire)</strong> – Clés avancées et optionnelles utilisées pour déverrouiller des ailes scellées ou des zones de laboratoire cachées</li>
+      </ol>
+      
+      <p style="margin: 1em 0px;"><strong>Note :</strong> Contrairement aux objets clés typiques, ces cartes sont **consommables** ; une est consommée chaque fois que vous entrez dans le laboratoire.</p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Carte J-Lab 1 – Accès de Base</strong></h2>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Comment l'Obtenir</strong></h3>
+      
+      <p style="margin: 1em 0px;">
+          Dans Escape from Duckov, il existe deux moyens principaux d'obtenir votre première Carte J-Lab 1 :
+      </p>
+      
+      <ol>
+          <li><strong>Mine Cachée (Zone de Farm Town)</strong></li>
+          <li>Recherchez les points d'apparition de cartes dans les mines cachées près de Farm Town. Les cartes peuvent apparaître dans les coins, près de l'équipement minier, ou sur les murs. Les cartes réapparaissent environ tous les 4 à 5 cycles de jeu, ce qui en fait la meilleure méthode pour les trouver au début du jeu.</li>
+          <li><strong>Achat Post-Quête : "Pass Duplicata"</strong></li>
+          <li>Compléter la quête secondaire **"Pass Duplicata"** déverrouille le marchand, Xiao Ming. Après avoir terminé la mission, vous pouvez acheter des Cartes J-Lab 1 dans la boutique de Xiao Ming pour un prix fixe. C'est le moyen le plus fiable de se réapprovisionner.</li>
+      </ol>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Objectif</strong></h3>
+      
+      <ol>
+          <li>Ouvrir le portail d'entrée du J-Lab et commencer votre première infiltration officielle du laboratoire.</li>
+          <li>Requis pour compléter plusieurs objectifs précoces liés à l'intrigue principale et aux étapes de butin.</li>
+      </ol>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Cartes J-Lab 2 – Accès au Laboratoire Profond (Niveau B1)</strong></h2>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Où la Trouver</strong></h3>
+      
+      <ol>
+          <li><strong>Labo B1 – Butin de Vagabond (Wanderer Drop)</strong></li>
+          <li>Les Cartes de Niveau 2 ont une faible chance d'être lâchées par les **Vagabonds** (Wanderers) à l'étage B1 du complexe J-Lab après leur défaite. Bien que le taux de drop soit faible, le nettoyage constant du laboratoire augmente vos chances d'en obtenir une.</li>
+          <li><strong>Apparition dans le Bureau Administratif</strong></li>
+          <li>Certains joueurs ont signalé avoir trouvé des Cartes de Niveau 2 dans le bureau au premier étage du laboratoire. Inspectez soigneusement la pièce pour les bureaux, les étagères métalliques ou les terminaux informatiques. Ces points d'apparition ne sont pas garantis.</li>
+      </ol>
+      
+      <p style="margin: 1em 0px;">
+          **Conseils :** Concentrez votre recherche sur les zones patrouillées par les Vagabonds, car ils ont le taux de drop le plus élevé signalé. Redémarrer un raid ou changer de serveur peut rafraîchir la table de butin, augmentant vos chances de trouver une carte.
+      </p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Cartes d'Accès Colorées</strong></h2>
+      
+      <p style="margin: 1em 0px;">
+          Il existe plusieurs façons de collecter des cartes d'accès colorées pour le Laboratoire.
+          L'une des méthodes les plus efficaces est de fouiller la **salle de la Clé Mystérieuse (X/O)**, où presque toutes les cartes et les fournitures de haut niveau ont une chance d'apparaître.
+          Cependant, les cartes suivantes ont des moyens spécifiques de les obtenir :
+      </p>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Cartes Rouges</strong></h3>
+      
+      <ol>
+          <li>Un drop aléatoire après avoir vaincu le boss "**?**" à Farm Town.</li>
+          <li>Elles peuvent également apparaître sur la table dans le coin nord-est de la salle de la Carte Bleue dans le Laboratoire.</li>
+      </ol>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Cartes Bleues</strong></h3>
+      
+      <ol>
+          <li>Il y a une chance de les laisser tomber après avoir vaincu le boss de la Mine à Farm Town.</li>
+      </ol>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Cartes Vertes</strong></h3>
+      
+      <ol>
+          <li>Apparaissent à deux endroits dans le Laboratoire B2 :</li>
+          <li>Sur la chaise orientée à l'ouest dans la petite pièce bleue en face du couloir au-dessus de la salle de la Carte Jaune.</li>
+          <li>Près de la fontaine à eau dans le passage entre la Prison et la Chambre Rouge.</li>
+      </ol>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Cartes Noires</strong></h3>
+      
+      <ol>
+          <li>Le Marchand Mystérieux de Farm Town peut les vendre pour 200 000 crédits.</li>
+      </ol>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Cartes Jaunes</strong></h3>
+      
+      <ol>
+          <li>Peuvent apparaître à deux endroits dans le Laboratoire :</li>
+          <li>Sur la table entre la porte vitrée de la Salle des Clés et l'entrée de l'installation.</li>
+          <li>Sur la table dans la petite pièce en bas à gauche de la carte (à gauche du point d'extraction).</li>
+          <li>**PS :** Cette carte est également lâchée en battant le Marchand Mystérieux à Farm Town. Vous pouvez l'attaquer furtivement derrière le conteneur maritime à sa gauche.</li>
+      </ol>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Cartes Violettes</strong></h3>
+      
+      <ol>
+          <li>Peuvent apparaître dans la petite maison à droite de la Scierie (Lumberyard) à Farm Town.</li>
+      </ol>
+      
+      <p style="margin: 1em 0px;">
+          <img src="/images/guide/guide07-02.webp" alt="Carte d'Accès J-Lab (Violette)">
+      </p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Stratégie de Repérage et de Développement</strong></h2>
+      
+      <p style="margin: 1em 0px;">Pour une efficacité maximale, suivez cet itinéraire :</p>
+      
+      <ol>
+          <li><strong>Commencer à Farm Town → Mine Cachée</strong></li>
+          <li>Tout en collectant du butin et des fournitures, recherchez à plusieurs reprises les cartes J-Lab 1, en stockant au moins 5 à 10.</li>
+          <li><strong>Compléter la quête "Pass Duplicata".</strong></li>
+          <li>Déverrouillez la boutique de Xiao Ming pour assurer un approvisionnement durable en cartes J-Lab 1.</li>
+          <li><strong>Répéter J-Lab B1.</strong></li>
+          <li>Concentrez-vous sur l'élimination des ennemis pour obtenir des cartes J-Lab 2. Chaque nettoyage complet augmente vos chances de recevoir un drop rare.</li>
+          <li><strong>Revisiter Farm Town périodiquement.</strong></li>
+          <li>Vérifiez régulièrement la Scierie, le Marchand Mystérieux et les points d'apparition des boss pour les cartes violettes, jaunes et autres cartes colorées.</li>
+          <li><strong>Sauvegarder les Cartes Premium</strong></li>
+          <li>Utilisez les cartes colorées uniquement après avoir identifié votre pièce cible et être entièrement préparé. Ces cartes sont extrêmement précieuses, alors planifiez votre exploration avec soin.</li>
+      </ol>
+      
+      <p style="margin: 1em 0px;">
+          Collectionner toutes les cartes J-Lab dans Escape from Duckov demande de la patience et une exploration cohérente.
+          Alors que les cartes de base peuvent être facilement réapprovisionnées, les cartes premium aux couleurs vives sont réservées aux joueurs qui se plongent véritablement dans le monde du jeu—explorant chaque coin, faisant des raids dans chaque bunker et assemblant des indices dispersés.
+          Consultez notre <a href="/wiki/quests">base de données de quêtes</a> pour les missions liées à l'accès au J-Lab. Explorez plus de <a href="/guides">guides avancés</a> pour des stratégies de butin complètes. Bonne chance !
+      </p>
+              `
+    },
+    {
+        "id": 8,
+        "title": "Fouineurs Déchaînés d'Escape from Duckov : Où les Trouver",
+        "description": "Lancez-vous sur le 'Sentier du Chasseur' dans Escape from Duckov ! Ce guide fournit des emplacements précis et des stratégies pour éliminer les Fouineurs Déchaînés.",
+        "tags": [
+            "Escape from Duckov",
+            "Quête Sentier du Chasseur"
+        ],
+        "publishDate": "2025-10-30",
+        "imageUrl": "/images/guide/guide08-01.webp",
+        "imageAlt": "Fouineurs Déchaînés dans Escape from Duckov, identifiables à leurs vêtements rouges et leurs couteaux de boucher.",
+        "category": "advanced",
+        "seo": {
+            "title": "Fouineurs Déchaînés d'Escape from Duckov : Où les Trouver",
+            "description": "Terminez la quête 'Sentier du Chasseur' dans Escape from Duckov avec notre guide d'expert ! Trouvez les Fouineurs Déchaînés, tuez-les rapidement et réclamez votre récompense. Lisez maintenant !",
+            "keywords": "escape from duckov, sentier du chasseur, fouineurs déchaînés, guide de quête, survie dans le désert, stratégie de tir à la tête, conseils de jeu"
+        },
+        "addressBar": "/escape-from-duckov-rampaging-scavenger",
+        "detailsHtml": `
+              <p style="margin: 1em 0px;">
+          L'une des premières missions que vous recevrez dans <a href="/">Escape from Duckov</a> est la quête **"Sentier du Chasseur"** (Hunter's Path), qui vous charge de traquer et d'éliminer certains des habitants les plus agressifs du désert : les **Fouineurs Déchaînés** (Rampaging Scavengers). Ce guide vous montrera exactement où trouver ces ennemis agiles, comment les tuer efficacement et comment terminer la quête. Consultez notre <a href="/wiki/quests">base de données de quêtes</a> pour toutes les missions disponibles.
+      </p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">
+          <strong>Étape 1 : Où Trouver les Fouineurs Déchaînés</strong>
+      </h2>
+      
+      <p style="margin: 1em 0px;">
+          Contrairement à d'autres ennemis qui errent au hasard, les Fouineurs Déchaînés se trouvent dans un emplacement spécifique et fixe. Vous ne les rencontrerez pas au milieu du chemin principal ; vous devez rechercher leur camp.
+      </p>
+      
+      <h4 style="font-size: 1em; font-weight: bold;">
+          <strong>Emplacement :</strong>
+      </h4>
+      
+      <p style="margin: 1em 0px;">
+          Le camp des Fouineurs Déchaînés est situé dans une clairière dans le **coin sud-ouest de la carte**, juste au sud du Chemin de la Forêt principal. Pour des <a href="/maps">informations détaillées sur la carte</a>, visitez notre section cartes.
+          <img src="/images/guide/guide08-02.webp" alt="Fouineur Déchaîné 2">
+      </p>
+      
+      <h4 style="font-size: 1em; font-weight: bold;">
+          <strong>Comment s'y Rendre :</strong>
+      </h4>
+      
+      <ol>
+          <li>Commencez par l'entrée principale du bunker et dirigez-vous vers l'ouest le long du chemin de terre.</li>
+          <li>Restez sur le côté gauche du chemin. Vous verrez bientôt une **brèche dans la ligne de clôture en fil de fer** qui mène vers le sud dans une zone boisée.</li>
+          <li>Suivez ce petit chemin de détour vers le sud dans la clairière. Vous ne pouvez pas manquer le camp à partir de là.</li>
+      </ol>
+      
+      <p style="margin: 1em 0px;">
+          Une fois que vous entrez dans leur camp, vous les repérerez immédiatement. Ils sont facilement identifiables par leurs vêtements rouge vif et les couteaux de boucher menaçants qu'ils brandissent. En règle générale, vous trouverez **deux à trois fouineurs** apparus dans ce camp à tout moment.
+      </p>
+      
+      <p style="margin: 1em 0px;">
+          **Avertissement :** Soyez prudent ! Une fois qu'ils vous repèrent, les Fouineurs Déchaînés sont incroyablement rapides et vous poursuivront sans relâche, potentiellement jusqu'au bunker. Ne sous-estimez pas leur poursuite.
+      </p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">
+          <strong>Étape 2 : Comment Tuer Rapidement les Fouineurs Déchaînés</strong>
+      </h2>
+      
+      <p style="margin: 1em 0px;">
+          La clé pour gérer ces ennemis est la vitesse et la précision. Ils vont sprinter directement vers vous pour s'engager dans un combat de mêlée rapide et dommageable qui inflige un effet de saignement.
+      </p>
+      
+      <h4 style="font-size: 1em; font-weight: bold;">
+          <strong>La Meilleure Stratégie : Viser la Tête</strong>
+      </h4>
+      
+      <p style="margin: 1em 0px;">
+          <img src="/images/guide/guide08-03.webp" alt="Fouineur Déchaîné 2">
+      </p>
+      
+      <p style="margin: 1em 0px;">
+          Le moyen le plus efficace de tuer un Fouineur Déchaîné est un tir à la tête net. Cela les neutralise instantanément, les empêchant de se rapprocher et de vous causer du tort.
+      </p>
+      
+      <ul>
+          <li><strong>Armes Recommandées :</strong> Utilisez une arme de précision comme un pistolet ou un fusil. Parcourez notre <a href="/items/weapons">base de données d'armes</a> pour trouver les meilleures armes à feu pour cette rencontre. Évitez les fusils de chasse (shotguns), car leur dispersion pourrait ne pas être efficace à distance, et n'essayez pas de les combattre avec des armes de mêlée.</li>
+          <li><strong>Gardez Vos Distances :</strong> Ne les laissez pas s'approcher. Dès que vous les repérez, prenez votre position et visez attentivement.</li>
+          <li><strong>Méfiez-vous de l'Environnement :</strong> Vous remarquerez des barils explosifs rouges dans leur camp. Bien que vous puissiez tirer dessus pour provoquer une explosion, c'est une stratégie risquée. Une fois qu'ils sont alertés, ils sprinteront vers vous, se déplaçant probablement hors du rayon de l'explosion avant qu'elle ne puisse faire des dégâts significatifs. Il est plus sûr de se fier aux tirs directs.</li>
+          <li><strong>Préparez-vous aux Conséquences :</strong> Même si vous les tuez rapidement, vous pourriez prendre un coup. **Apportez des bandages** pour arrêter tout effet de saignement que vous pourriez subir pendant le combat.</li>
+      </ul>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">
+          <strong>Étape 3 : Terminer la Quête Sentier du Chasseur</strong>
+      </h2>
+      
+      <p style="margin: 1em 0px;">
+          Une fois que vous avez réglé leur compte aux fouineurs, la dernière étape consiste à remplir les objectifs de la quête.
+      </p>
+      
+      <ol>
+          <li><strong>Tuer Deux Fouineurs :</strong> Assurez-vous d'avoir tué au moins deux Fouineurs Déchaînés.</li>
+          <li><strong>Piller Leurs Couteaux de Boucher :</strong> Approchez-vous des corps des fouineurs que vous avez tués et pillez le **"Couteau de Boucher"** sur chacun d'eux. Vous avez besoin de deux couteaux pour la quête.</li>
+          <li><strong>Retourner au Bunker :</strong> Avec les couteaux dans votre inventaire, retournez en toute sécurité au bunker et remettez la quête pour la terminer.</li>
+      </ol>
+      
+      <p style="text-align: center;">
+          <em>Suivez ces étapes, et vous aurez terminé la quête Sentier du Chasseur en un rien de temps. Bonne chance à l'extérieur.</em>
+      </p>
+              `
+    },
+
+    {
+        "id": 9,
+        "title": "Guide du Sac Fourre-Tout d'Escape From Duckov",
+        "description": "Percez le mystère du Sac Fourre-Tout dans Escape From Duckov ! De nombreux joueurs négligent cet 'objet de luxe', mais il est essentiel pour acquérir des butins de boss uniques. Apprenez où le trouver, son objectif et pourquoi le garder est crucial pour progresser dans Farm Town. Ne faites pas la même erreur !",
+        "tags": [
+            "Escape From Duckov",
+            "Sac Fourre-Tout",
+            "Boss Tache Rouge",
+            "Œil Rouge",
+            "Farm Town"
+        ],
+        "publishDate": "2025-10-30",
+        "imageUrl": "/images/guide/guide09-01.webp",
+        "imageAlt": "Un personnage joueur dans Escape From Duckov tenant un Sac Fourre-Tout près d'une cache de butin.",
+        "category": "advanced",
+        "seo": {
+            "title": "Guide du Sac Fourre-Tout d'Escape From Duckov",
+            "description": "Découvrez le secret du Sac Fourre-Tout dans Escape From Duckov. Apprenez comment le trouver, l'utiliser et pourquoi il est essentiel pour obtenir l'Œil Rouge du Boss Tache Rouge. Guide complet !",
+            "keywords": "escape from duckov, sac fourre-tout, boss tache rouge, œil rouge, farm town, objet unique, butin de boss, guide, procédure, stratégie"
+        },
+        "addressBar": "/escape-from-duckov-tote-bag-guide",
+        "detailsHtml": `
+              <p style="margin: 1em 0px;">
+          Dans le monde d'<a href="/">Escape from Duckov</a>, vous rencontrerez de nombreux objets. Certains sont destinés à l'artisanat, certains à la vente, et d'autres, comme le **Sac Fourre-Tout** (Tote Bag), ont un objectif très spécifique et crucial qui n'est pas immédiatement évident. De nombreux nouveaux joueurs commettent l'erreur de vendre cet "objet de luxe" pour un profit rapide, ne réalisant pas qu'ils se débarrassent d'un outil essentiel pour obtenir l'un des butins de boss uniques du jeu. Parcourez notre <a href="/items">base de données d'objets</a> pour en savoir plus sur tous les objets spéciaux.
+      </p>
+      
+      <p style="margin: 1em 0px;">
+          Ce guide explique ce que fait le Sac Fourre-Tout, où le trouver et pourquoi vous devriez absolument le garder.
+      </p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">
+          <strong>Qu'est-ce que le Sac Fourre-Tout ?</strong>
+      </h2>
+      
+      <p style="margin: 1em 0px;">
+          Le Sac Fourre-Tout est un équipement unique avec des propriétés très spécifiques qui le distinguent des sacs à dos standard.
+      </p>
+      
+      <p style="margin: 1em 0px;">
+          <img src="/images/guide/guide09-02.webp" alt="Sac Fourre-Tout 1">
+      </p>
+      
+      <ul>
+          <li><strong>Type d'Objet :</strong> Objet de Luxe</li>
+          <li><strong>Acquisition :</strong> Trouvé comme butin environnemental aléatoire (ne peut pas être acheté).</li>
+          <li><strong>Empilable :</strong> Non</li>
+          <li><strong>Caractéristique Clé :</strong> Il contient un emplacement de stockage spécial unique étiqueté **"?"**. Cet emplacement est la seule raison d'être du sac.</li>
+      </ul>
+      
+      <p style="margin: 1em 0px;">
+          Contrairement à d'autres sacs, le Sac Fourre-Tout n'offre aucun bonus d'inventaire général, tel qu'une capacité ou une limite de poids supplémentaire. Sa valeur est entièrement fonctionnelle. Comparez-le avec d'autres <a href="/items/equipment">sacs à dos et articles de stockage</a> dans notre base de données d'équipement.
+      </p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">
+          <strong>Où Trouver le Sac Fourre-Tout</strong>
+      </h2>
+      
+      <p style="margin: 1em 0px;">
+          Il n'y a pas d'emplacement unique et garanti pour trouver un Sac Fourre-Tout. Son acquisition est entièrement basée sur la chance et une exploration approfondie.
+      </p>
+      
+      <ul>
+          <li><strong>Emplacement d'Apparition :</strong> Apparaît comme **butin environnemental** aléatoire dispersé dans le monde du jeu.</li>
+          <li><strong>Comment le Trouver :</strong> La meilleure façon d'augmenter vos chances d'en trouver un est d'être méticuleux pendant vos raids. **Fouillez minutieusement les bâtiments, les conteneurs et les caches de butin** sur n'importe quelle carte. Finalement, vous en trouverez un par hasard.</li>
+      </ul>
+      
+      <p style="margin: 1em 0px;">
+          Une fois que vous avez trouvé un Sac Fourre-Tout, **ne le vendez pas**. Stockez-le en toute sécurité dans l'entrepôt de votre cachette jusqu'à ce que vous soyez prêt à l'utiliser.
+      </p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">
+          <strong>Le Véritable Objectif : Comment Utiliser le Sac Fourre-Tout</strong>
+      </h2>
+      
+      <p style="margin: 1em 0px;">
+          Le Sac Fourre-Tout est le seul outil qui vous permet de transporter un objet spécial lâché par un boss spécifique.
+      </p>
+      
+      <ol>
+          <li><strong>Le Boss :</strong> Dans **Farm Town**, il y a un boss unique connu sous le nom de **"Boss Tache Rouge"** (Red Blob Boss).</li>
+          <li><strong>Le Butin :</strong> Lorsqu'il est vaincu, ce boss lâche un objet mystérieux appelé l'**Œil Rouge** (initialement identifié comme "??? Œil Brillant").</li>
+          <li><strong>La Mécanique :</strong> Vous **ne pouvez pas ramasser l'Œil Rouge par des moyens normaux**. Si vous essayez de le piller comme un objet standard, cela ne fonctionnera pas.</li>
+          <li><strong>La Solution :</strong> Pour transporter l'Œil Rouge, vous devez avoir le **Sac Fourre-Tout** dans votre inventaire. Vous interagissez ensuite avec l'Œil Rouge et le placez directement dans l'emplacement spécial **"?"** du Sac Fourre-Tout. Ce n'est qu'alors que vous pourrez le ramener à votre base.</li>
+      </ol>
+      
+      <p style="margin: 1em 0px;">
+          L'Œil Rouge lui-même fournit une amélioration puissante et durable lorsqu'il est utilisé, faisant du Sac Fourre-Tout un objet essentiel pour tout joueur cherchant à farmer ce boss pour sa récompense unique.
+      </p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">
+          <strong>Sac Fourre-Tout vs. Sac de Décoration : Quelle Est la Différence ?</strong>
+      </h2>
+      
+      <p style="margin: 1em 0px;">
+          Il est crucial de comprendre que le Sac Fourre-Tout est un outil, pas un sac à dos. Pour les courses de butin générales, le Sac de Décoration est le choix supérieur.
+      </p>
+      
+      <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin: 1em 0px;">
+          <thead>
+              <tr>
+                  <th>Caractéristique</th>
+                  <th>Sac Fourre-Tout</th>
+                  <th>Sac de Décoration</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><strong>Type</strong></td>
+                  <td>Objet de Luxe (Outil Spécial)</td>
+                  <td>Sac à Dos Portable</td>
+              </tr>
+              <tr>
+                  <td><strong>Objectif</strong></td>
+                  <td>Extraire l'Œil Rouge du boss de Farm Town</td>
+                  <td>Capacité de transport générale pour le butin</td>
+              </tr>
+              <tr>
+                  <td><strong>Bonus d'Inventaire</strong></td>
+                  <td>Aucun</td>
+                  <td>+8 capacité, +5 poids max</td>
+              </tr>
+              <tr>
+                  <td><strong>Fonction de l'Emplacement</strong></td>
+                  <td>Emplacement spécial unique "?" pour l'Œil Rouge</td>
+                  <td>Extension d'inventaire de sac à dos standard</td>
+              </tr>
+              <tr>
+                  <td><strong>Comment l'Obtenir</strong></td>
+                  <td>Trouvé comme butin environnemental aléatoire</td>
+                  <td>Acheté à la boutique d'Armures d'Orange</td>
+              </tr>
+              <tr>
+                  <td><strong>Prix</strong></td>
+                  <td>Non à vendre (trouvé uniquement)</td>
+                  <td>87 Argent</td>
+              </tr>
+          </tbody>
+      </table>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;">
+          <strong>Quand Utiliser Quoi :</strong>
+      </h3>
+      
+      <ul>
+          <li>Utilisez le **Sac de Décoration** pour toutes vos courses de butin normales où vous avez besoin de maximiser la capacité de transport.</li>
+          <li>
+              Utilisez le **Sac Fourre-Tout** *uniquement* lorsque vous prévoyez spécifiquement de chasser le Boss Tache Rouge à Farm Town et que vous devez extraire l'Œil Rouge.
+              <img src="/images/guide/guide09-03.webp" alt="Œil Rouge 1">
+          </li>
+      </ul>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">
+          <strong>Pourquoi Vous Ne Devriez Jamais Vendre le Sac Fourre-Tout</strong>
+      </h2>
+      
+      <p style="margin: 1em 0px;">
+          Vendre le Sac Fourre-Tout est une erreur courante pour les nouveaux joueurs qui ne comprennent pas sa fonction unique. Parce qu'il est classé comme un "objet de luxe" et n'a pas de statistiques évidentes, il peut ressembler à de la camelote à vendre.
+      </p>
+      
+      <p style="margin: 1em 0px;">
+          Cependant, le Sac Fourre-Tout est un outil essentiel, non achetable, requis pour chasser à plusieurs reprises le Boss Tache Rouge et acquérir le précieux Œil Rouge. Si vous prévoyez de vous engager dans ce contenu, vous devez garder le sac.
+      </p>
+      
+      <p style="margin: 1em 0px;">
+          Si vous avez déjà vendu le vôtre, ne paniquez pas. Assurez-vous simplement de garder le prochain que vous trouverez—vous en aurez besoin plus tard. Pour plus de guides d'objets et de stratégies de boss, explorez notre <a href="/guides">collection complète de guides</a>.
+      </p>
+              `
+    },
+    {
+        "id": 10,
+        "title": "Guides de Pêche pour Escape from Duckov",
+        "description": "Guide complet des mécanismes de pêche dans Escape from Duckov, y compris l'artisanat d'appâts, l'utilisation de la canne à pêche, le timing du QTE, les lieux de pêche, les conditions météorologiques et les exigences de poissons spéciaux. Maîtrisez le mini-jeu de pêche et optimisez votre taux de capture.",
+        "imageUrl": "/images/guide/guide10-01.webp",
+        "imageAlt": "Guide de Pêche pour Escape from Duckov",
+        "publishDate": "2025-10-31",
+        "addressBar": "/fishing-guides-for-escape-from-duckov",
+        "category": "advanced",
+        "tags": [
+            "PÊCHE",
+            "APPÂT",
+            "CANNE À PÊCHE",
+            "QTE",
+            "MINI-JEU",
+            "MÉCANIQUES AVANCÉES"
+        ],
+        "seo": {
+            "title": "Guides de Pêche pour Escape from Duckov - Guide Complet Appât, Canne & Mécaniques",
+            "description": "Maîtrisez la pêche dans Escape from Duckov avec notre guide complet couvrant l'artisanat d'appâts (vers de terre, biscuits), l'équipement de la canne à pêche, les mécanismes du mini-jeu QTE, les captures basées sur la météo, les poissons spéciaux comme le Poisson à Dos Blanc, et les emplacements des lieux de pêche. Comprend des conseils pour utiliser des mods de pêche.",
+            "keywords": "Escape from Duckov pêche, guide de pêche, artisanat d'appât, canne à pêche, mini-jeu QTE, vers de terre, lieux de pêche, pêche météo, Poisson à Dos Blanc, appât batterie R6, mod de pêche"
+        },
+        "detailsHtml": `
+              <p>La pêche est une mécanique de survie essentielle dans <a href="/">Escape from Duckov</a> qui fournit des ressources précieuses et des objets d'accomplissement de quête. Ce guide complet couvre tout ce que vous devez savoir sur les mécanismes de pêche, la préparation des appâts, l'utilisation de la canne à pêche et la maîtrise du mini-jeu QTE stimulant.</p>
+              
+              <h2>1. Préparation et Artisanat des Appâts</h2>
+              
+              <h3>Artisanat d'Appâts de Base</h3>
+              <p><strong>Recette d'Appât Standard :</strong> L'appât de pêche courant peut être fabriqué à l'établi en utilisant **3 Vers de Terre + 2 Biscuits**. C'est la principale méthode pour obtenir des appâts au début du jeu.</p>
+              <p><strong>Achat au Magasin de Pêche :</strong> Après avoir terminé un certain nombre de quêtes de pêche (en particulier la quête "Sentier du Roi Poisson 3"), vous pouvez acheter des appâts directement au magasin de pêche, ce qui rend l'acquisition d'appâts beaucoup plus pratique. Consultez notre <a href="/wiki/quests">base de données de quêtes</a> pour toutes les missions liées à la pêche.</p>
+              
+              <h3>Obtention de Vers de Terre</h3>
+              <p><strong>Exigences de Creusage :</strong> Pour collecter des vers de terre, vous devez avoir une pelle dans votre inventaire (aucun emplacement d'équipement requis). Les vers de terre sont obtenus en recherchant des points de creusage dispersés sur diverses cartes.</p>
+              <p><strong>Emplacements des Points de Creusage :</strong> Les points de creusage apparaissent à des emplacements fixes sur chaque carte. Fouillez ces endroits tout en portant une pelle pour récolter des vers de terre.</p>
+              <p><strong>Taux de Rendement :</strong> Chaque point de creusage produit **1 à 3 vers de terre**, donc plusieurs points de creusage peuvent être nécessaires pour rassembler suffisamment de matériaux pour l'artisanat d'appâts.</p>
+              <p>Pour une liste complète des <a href="/items/fish">articles et équipements de pêche</a>, visitez notre base de données complète sur la pêche.</p>
+              
+              <h3>Stratégie d'Acquisition de Biscuits</h3>
+              <p><strong>Source du Distributeur Automatique :</strong> Les biscuits peuvent être achetés auprès des distributeurs automatiques, qui se rafraîchissent toutes les **5 minutes**. Chaque achat donne **2 biscuits**.</p>
+              <p><strong>Habitude Recommandée :</strong> Développez une routine d'achat de biscuits chaque fois que vous retournez à votre base. Cela garantit que vous avez toujours des biscuits disponibles pour l'artisanat d'appâts sans avoir à attendre le rafraîchissement des machines.</p>
+              <p><strong>Planification des Ressources :</strong> Étant donné que les biscuits se rafraîchissent avec une minuterie, des achats cohérents évitent les retards lorsque vous avez besoin d'appâts urgemment pour les sessions de pêche.</p>
+              
+              <h2>2. Équipement et Configuration de la Canne à Pêche</h2>
+              
+              <h3>Exigences de la Canne à Pêche</h3>
+              <p><strong>Emplacement d'Équipement :</strong> Vous devez équiper une canne à pêche pour vous engager dans des activités de pêche. Assurez-vous d'avoir une canne à pêche appropriée dans votre inventaire d'équipement.</p>
+              <p><strong>Fixation de l'Appât :</strong> L'appât doit être équipé sur la canne à pêche en tant que fixation/accessoire. Configurez votre canne à pêche avec l'appât souhaité avant d'approcher les lieux de pêche.</p>
+              <p>Parcourez notre <a href="/items/fish">base de données complète d'équipement de pêche</a> pour voir toutes les cannes à pêche disponibles et leurs spécifications.</p>
+              
+              <h3>Activation du Lieu de Pêche</h3>
+              <p><strong>Exigences d'Emplacement :</strong> Les lieux de pêche sont situés à des positions fixes sur chaque carte. Naviguez vers ces zones désignées pour commencer la pêche.</p>
+              <p><strong>Méthode d'Activation :</strong> Appuyez sur **F** lorsque vous êtes positionné à un lieu de pêche pour entrer en mode pêche. Assurez-vous d'être au bon endroit et d'avoir votre canne à pêche équipée avant d'appuyer sur la touche d'activation.</p>
+              <p><strong>Distribution de la Carte :</strong> Pour des informations détaillées sur la distribution des lieux de pêche sur différentes cartes, consultez notre <a href="/maps">section de cartes interactives</a>.</p>
+              
+              <h2>3. Mécaniques du Mini-Jeu de Pêche</h2>
+              
+              <h3>Indicateurs de Morsure de Poisson</h3>
+              <p><strong>Signal d'Avertissement :</strong> Lorsqu'un poisson prend l'appât, un **point d'exclamation "!"** apparaît près de la canne à pêche comme une invite visuelle. Cela indique qu'un poisson a mordu et que la séquence QTE est sur le point de commencer.</p>
+              <p><strong>Fenêtre de Temps :</strong> Environ **1 seconde** après l'apparition du point d'exclamation, le QTE (Quick Time Event) s'activera. Faites très attention au timing pour réagir correctement.</p>
+              
+              <h3>Séquence QTE</h3>
+              <p><strong>Mécanique des Cercles :</strong> Le mini-jeu de pêche affiche deux cercles concentriques - un cercle extérieur qui rétrécit vers un cercle intérieur. Votre objectif est d'appuyer sur la **barre d'espace** lorsque les deux cercles se chevauchent parfaitement.</p>
+              <p><strong>Condition de Succès :</strong> Appuyer sur la barre d'espace lorsque les cercles s'alignent entraîne une capture réussie et le poisson est ajouté à votre inventaire.</p>
+              <p><strong>Conséquence de l'Échec :</strong> Manquer le timing ou appuyer sur la barre d'espace trop tôt/tard entraîne un échec de la pêche. Il est important de noter qu'**un appât est consommé** indépendamment du succès ou de l'échec, ce qui rend un timing précis crucial pour la conservation des ressources.</p>
+              
+              <h3>Difficulté et Recommandations de Mods</h3>
+              <p><strong>Évaluation du Défi :</strong> Le mini-jeu de pêche est assez difficile en raison de ses exigences de timing précis et du coût des tentatives échouées.</p>
+              <p><strong>Utilisation de Mods :</strong> Il est fortement recommandé aux joueurs d'installer un **mod de pêche** pour rendre le mini-jeu plus gérable, surtout au début du jeu lorsque les ressources d'appât sont limitées. Parcourez notre <a href="/mods">collection de mods</a> pour trouver des mods de pêche utiles.</p>
+              <p><strong>Méthode Alternative :</strong> Alternativement, l'utilisation de Cheat Engine (CE) pour ajuster la vitesse du jeu peut réduire la difficulté en offrant plus de temps pour réagir pendant la séquence QTE.</p>
+              <p><strong>Conservation des Ressources :</strong> Étant donné que l'appât ne peut pas être acheté initialement et que l'artisanat demande des efforts considérables, perdre de l'appât lors de tentatives de pêche ratées représente un coût substantiel. Les mods ou les ajustements de vitesse aident à minimiser les pertes d'appât inutiles.</p>
+              
+              <h2>4. Notes de Pêche et Système d'Information</h2>
+              
+              <h3>Découverte des Notes de Pêche</h3>
+              <p><strong>Emplacements des Notes :</strong> Des notes de pêche peuvent être trouvées près des lieux de pêche dans le monde du jeu. Ces notes contiennent des informations précieuses sur le comportement et les exigences des poissons.</p>
+              <p><strong>Contenu des Notes :</strong> Les notes de pêche fournissent des détails sur :</p>
+              <ul>
+                  <li>Les conditions météorologiques requises pour que des poissons spécifiques apparaissent</li>
+                  <li>Les types d'appâts nécessaires pour attraper des espèces de poissons particulières</li>
+                  <li>Les préférences d'heure de la journée pour différents poissons</li>
+              </ul>
+              
+              <h3>Accès aux Notes de Pêche</h3>
+              <p><strong>Collecte :</strong> Ramassez les notes de pêche lorsque vous les rencontrez près des lieux de pêche. Les notes collectées sont automatiquement ajoutées à votre base de données d'informations.</p>
+              <p><strong>Méthode de Révision :</strong> Ouvrez votre inventaire (touche TAB) et naviguez jusqu'à la section des notes pour revoir toutes les informations de pêche collectées. Cela vous aide à planifier des sessions de pêche en fonction des conditions météorologiques actuelles et des appâts disponibles.</p>
+              
+              <h2>5. Poissons Spéciaux et Exigences de Quête</h2>
+              
+              <h3>Poisson à Dos Blanc (Sentier du Roi Poisson 3)</h3>
+              <p><strong>Exigence de Quête :</strong> La quête "Sentier du Roi Poisson 3" exige spécifiquement le **Poisson à Dos Blanc** comme objet de quête. Consultez cette quête et d'autres quêtes de pêche dans notre <a href="/wiki/quests">base de données complète de quêtes</a>.</p>
+              <p><strong>Condition Météorologique :</strong> Le Poisson à Dos Blanc n'apparaît que par **temps de pluie**. Vous ne pouvez pas attraper ce poisson par temps clair ou d'autres conditions météorologiques.</p>
+              <p><strong>Stratégie de Pêche :</strong> Surveillez les conditions météorologiques et planifiez vos sessions de pêche en conséquence. Attendez la pluie avant de tenter d'attraper le Poisson à Dos Blanc pour éviter de gaspiller des appâts lors de tentatives infructueuses.</p>
+              <p>Consultez notre <a href="/items/fish">base de données complète de poissons</a> pour des informations détaillées sur toutes les espèces de poissons capturables et leurs exigences.</p>
+              
+              <h3>Options d'Appâts Alternatifs</h3>
+              <p><strong>Articles d'Appât Spéciaux :</strong> En plus des appâts artisanaux standard, certains objets peuvent être utilisés comme appâts alternatifs avec des effets spécifiques :</p>
+              <ul>
+                  <li>**Batterie R6 :** Peut être utilisée comme appât pour attraper des espèces de poissons spécifiques</li>
+                  <li>**Briquet :** Fonctionne comme appât pour certains types de poissons</li>
+                  <li>**Nettoyant pour Toilettes :** Agit comme appât spécialisé pour les espèces de poissons correspondantes</li>
+              </ul>
+              <p><strong>Expérimentation :</strong> Essayez d'utiliser différents objets comme appât pour découvrir les poissons qu'ils attirent. Les notes de pêche peuvent fournir des indices sur ces options d'appâts alternatives.</p>
+              <p>Pour des informations complètes sur les <a href="/items/fish">appâts et l'équipement de pêche</a>, consultez notre guide détaillé des articles de pêche.</p>
+              
+              <h2>6. Informations et Distribution des Lieux de Pêche</h2>
+              
+              <h3>Lieux de Pêche Spécifiques à la Carte</h3>
+              <p><strong>Variété d'Emplacements :</strong> Chaque carte dans Escape from Duckov contient des lieux de pêche spécifiques avec des taux d'apparition et une disponibilité d'espèces de poissons différents.</p>
+              <p><strong>Distribution des Lieux :</strong> Pour des informations détaillées sur les emplacements et la distribution des lieux de pêche sur chaque carte, veuillez consulter notre <a href="/maps">section de cartes interactives</a>.</p>
+              <p><strong>Planification Stratégique :</strong> Comprendre les emplacements des lieux de pêche vous aide à planifier des itinéraires efficaces qui combinent la pêche avec d'autres activités comme le pillage ou l'accomplissement de quêtes.</p>
+              
+              <h2>7. Pêche Basée sur la Météo et le Temps</h2>
+              
+              <h3>Conditions Météorologiques</h3>
+              <p><strong>Impact Météorologique :</strong> Différentes espèces de poissons apparaissent en fonction des conditions météorologiques. Certains poissons n'apparaissent que pendant des conditions météorologiques spécifiques (pluie, ciel clair, etc.).</p>
+              <p><strong>Surveillance Météorologique :</strong> Faites attention aux changements météorologiques dans le jeu. Utilisez les notes de pêche et l'expérience pour déterminer les meilleures conditions météorologiques pour votre poisson cible.</p>
+              
+              <h3>Facteurs d'Heure de la Journée</h3>
+              <p><strong>Variations Temporelles :</strong> Les types de poissons que vous pouvez attraper varient en fonction de l'heure de la journée. Différents poissons peuvent être plus actifs pendant les heures du matin, de l'après-midi ou du soir.</p>
+              <p><strong>Stratégie d'Optimisation :</strong> Combinez les informations sur la météo et l'heure de la journée pour maximiser votre taux de réussite à la pêche. Planifiez des sessions de pêche pendant les conditions optimales pour votre espèce cible.</p>
+              
+              <h2>8. Gestion et Optimisation des Ressources</h2>
+              
+              <h3>Conservation des Appâts</h3>
+              <p><strong>Rareté du Début de Jeu :</strong> L'appât ne peut pas être acheté initialement, ce qui rend chaque appât précieux. Fabriquez l'appât efficacement et évitez de le gaspiller lors de tentatives de pêche mal chronométrées.</p>
+              <p><strong>Efficacité de l'Artisanat :</strong> Maintenez un approvisionnement constant en vers de terre et en biscuits grâce à la collecte et aux achats réguliers. Ne laissez pas votre stock d'appâts baisser.</p>
+              
+              <h3>Conseils d'Efficacité de Pêche</h3>
+              <ul>
+                  <li>**Utilisation de Mods :** Envisagez d'installer des mods de pêche pour réduire le gaspillage d'appâts pendant les phases d'apprentissage</li>
+                  <li>**Planification Météorologique :** Ne pêchez que dans des conditions météorologiques appropriées pour votre espèce cible</li>
+                  <li>**Collecte de Notes :** Donnez la priorité à la collecte des notes de pêche pour optimiser vos stratégies de pêche</li>
+                  <li>**Stockage de Biscuits :** Achetez des biscuits de manière cohérente pour maintenir la capacité d'artisanat d'appâts</li>
+                  <li>**Préparation de l'Équipement :** Assurez-vous toujours que votre canne à pêche est correctement équipée d'appâts avant de vous rendre aux lieux de pêche</li>
+              </ul>
+              
+              <h2>9. Stratégies de Pêche Avancées</h2>
+              
+              <h3>Pêche Axée sur la Quête</h3>
+              <p><strong>Préparation de la Quête :</strong> Avant d'accepter des quêtes liées à la pêche, vérifiez les prévisions météorologiques et préparez l'appât approprié. Certaines quêtes nécessitent des poissons spécifiques qui n'apparaissent que dans certaines conditions.</p>
+              <p><strong>Achèvement Efficace :</strong> Terminez plusieurs objectifs de pêche en une seule session lorsque les conditions météorologiques correspondent à plusieurs exigences de quête.</p>
+              
+              <h3>Diversification des Ressources</h3>
+              <p><strong>Types d'Appâts Multiples :</strong> Expérimentez avec différents types d'appâts (appât artisanal, piles R6, briquets, nettoyant pour toilettes) pour découvrir des combinaisons optimales pour différentes espèces de poissons.</p>
+              <p><strong>Méthodes Alternatives :</strong> Ne vous limitez pas à l'appât standard. Explorez des appâts d'articles spéciaux pour des taux de capture potentiellement meilleurs sur des poissons spécifiques.</p>
+              
+              <h2>Conclusion</h2>
+              <p>Maîtriser la pêche dans Escape from Duckov nécessite de comprendre les mécanismes d'appât, la configuration de l'équipement, le timing du QTE et les facteurs environnementaux. Le système de pêche est difficile mais gratifiant, fournissant des ressources essentielles et des objets d'accomplissement de quête. Utilisez ce guide pour optimiser votre efficacité de pêche, conserver des ressources d'appât précieuses et accomplir avec succès les quêtes liées à la pêche. N'oubliez pas de vérifier les conditions météorologiques, de collecter les notes de pêche et d'envisager d'utiliser des mods ou des ajustements de vitesse de jeu pour améliorer votre expérience de pêche. Pour des informations détaillées sur tous les articles de pêche, visitez notre <a href="/items/fish">base de données complète de pêche</a>. Explorez plus de <a href="/guides">guides avancés</a> pour des stratégies de survie supplémentaires.</p>
+              `
+    },
+    {
+        "id": 11,
+        "title": "Le Guide du Thésauriseur pour Escape from Duckov : Quoi Garder et Quoi Vendre",
+        "description": "Vous avez du mal avec la gestion des stocks dans Duckov ? Ce guide vous aide à prioriser le butin, à éviter l'anxiété paralysante liée aux ressources et à transformer les déchets inutiles en actifs précieux. Apprenez les règles d'or du pillage et découvrez la liste ultime 'ne jamais vendre' pour la survie et la progression.",
+        "imageUrl": "/images/guide/guide11-01.webp",
+        "imageAlt": "Le Guide du Thésauriseur pour Escape from Duckov : Quoi Garder et Quoi Vendre",
+        "publishDate": "2025-10-31",
+        "addressBar": "/the-hoarders-guide-to-escape-from-duckov-what-to-keep-what-to-sell",
+        "category": "advanced",
+        "tags": [
+            "DUCKOV",
+            "GUIDE DE BUTIN",
+            "GESTION DES STOCKS",
+            "GUIDE DU THÉSAURISEUR",
+            "PRIORISATION DES RESSOURCES"
+        ],
+        "seo": {
+            "title": "Le Guide du Thésauriseur pour Escape from Duckov : Quoi Vendre",
+            "description": "Maîtrisez la gestion des stocks dans Duckov ! Notre guide du thésauriseur révèle les objets à conserver et à vendre pour une progression optimale. Surmontez l'anxiété du butin et maximisez le potentiel de votre bunker.",
+            "keywords": "Duckov, guide du thésauriseur, gestion des stocks, pillage, vente d'objets, objets de quête, matériaux d'amélioration, gestion des ressources, escape Duckov, optimisation de la cachette"
+        },
+        "detailsHtml": `
+              <p style="text-align: center;">
+          <em style="color: rgb(127, 140, 141);">
+              <img src="../images/guide/guide11-01.webp" alt="Escape from Duckov quoi vendre 2">
+              Quoi Garder &amp; Quoi Vendre
+          </em>
+      </p>
+      
+      <p>Nous sommes tous passés par là. Vous terminez un excellent raid, votre sac à dos déborde de butin, et vous revenez à votre bunker pour faire face au véritable boss final de ce jeu : la **Gestion des Stocks.**</p>
+      
+      <p>Votre cachette est pleine, chaque emplacement est précieux, et vous êtes paralysé par la peur de vendre cet objet aléatoire dont vous aurez désespérément besoin pour une quête dans trois semaines.</p>
+      
+      <p>Soyons réalistes : **Vous ne pouvez pas tout garder.** Apprendre quoi thésauriser et quoi transformer en argent sonnant et trébuchant est l'une des compétences les plus importantes de ce jeu. Alors, décomposons cela.</p>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">Les Règles d'Or du Pillage</h2>
+      
+      <p>Avant d'entrer dans les listes, commençons par un état d'esprit.</p>
+      
+      <ol>
+          <li>**Adoptez le Bouton de Vente :** Vendre n'est pas un échec ; c'est un progrès. Chaque objet inutile que vous vendez est de l'argent qui peut être transformé en meilleures munitions, armures, ou cette pièce de pistolet que vous convoitiez.</li>
+          <li>**Connaissez Vos Besoins :** Les objets les plus importants sont ceux dont *vous* avez besoin en ce moment. Prenez l'habitude de vérifier vos stations d'amélioration dans le bunker pour voir quels matériaux sont requis. Marquez ces objets mentalement (ou physiquement !) comme "intouchables".</li>
+          <li>**La Règle du "Un de Chaque" :** En cas de doute, gardez au moins un de chaque objet unique que vous trouvez. Si vous en trouvez un deuxième et que vous n'en avez pas d'utilisation immédiate, c'est un bon candidat à la vente.</li>
+      </ol>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">La Liste "Ne Jamais Vendre" : Thésaurisez-les Comme Si Votre Vie en Dépendait</h2>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;">Essentiels de Quête et d'Amélioration :</h3>
+      
+      <ul>
+          <li>**Plumes et Cœurs (Feathers and Cores) :** La sève de votre progression. Utilisez-les, chérissez-les, ne les vendez jamais.</li>
+          <li>**Caisses d'Amélioration d'Entrepôt :** S'explique d'elle-même. Plus d'espace est la récompense ultime.</li>
+          <li>**Plaques d'Identité (Dog Tags) :** Vous aurez besoin d'une pile absolument massive de celles-ci pour une amélioration de stockage ultérieure. Commencez votre collection maintenant.</li>
+          <li>**Butins de Boss :** Gardez au moins un de chaque objet lâché par un boss. Ils sont souvent requis pour les quêtes et les améliorations de fin de jeu.</li>
+      </ul>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;">Renseignements de Grande Valeur :</h3>
+      
+      <ul>
+          <li>**Cartes Graphiques &amp; Carnets du Marché Noir :** Ce sont des objets de grande valeur souvent nécessaires pour des quêtes ou des trocs de haut niveau. Gardez-les.</li>
+      </ul>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;">Équipement de Combat (Le Bon Matériel) :</h3>
+      
+      <ul>
+          <li>**Munitions de Fusil PA (AP Rifle Ammo) :** Ce truc est rare et déchire l'armure. Il est beaucoup plus précieux de tirer avec que de le vendre.</li>
+          <li>**Grenades Spéciales :** Les grenades ordinaires peuvent être achetées, mais les types spéciaux rares devraient être conservés pour le moment où vous en aurez vraiment besoin.</li>
+          <li>**Équipement de Haut Niveau :** Gardez quelques ensembles de rechange d'armure de Niveau 4-5, de sacs à dos et de fusils équipés, surtout si leur durabilité dépasse 75 %. Avoir un kit de secours prêt signifie que vous pouvez vous relancer dans un raid immédiatement après une perte.</li>
+      </ul>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;">Clés du Royaume :</h3>
+      
+      <ul>
+          <li>**Toutes les Clés :** Vous trouvez une clé ? Gardez-la. Enregistrez-la. Vous ne savez jamais laquelle ouvrira une porte vers un butin qui change la vie.</li>
+      </ul>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">La Liste "Sûr de Vendre" : Vos Générateurs d'Argent</h2>
+      
+      <p>Libérez cet espace précieux et remplissez vos poches. Ces objets peuvent généralement être écoulés en toute sécurité.</p>
+      
+      <ul>
+          <li>**Objets "Junk" en Double :** Ce dixième rouleau de ruban adhésif ou ce cinquième tournevis ? Vendez-les. Vous en trouverez d'autres.</li>
+          <li>**Armes et Armures de Bas Niveau :** Ce pistolet de base ou ce gilet de Niveau 2 fissuré de vos premiers raids ? Vendez-le. Il prend de l'espace que vous pourriez utiliser pour quelque chose de mieux.</li>
+          <li>**Matériaux d'Artisanat Courants (en excès) :** Bien que vous deviez conserver un stock sain de choses comme les pièces de pistolet, les tissus et les tôles métalliques, vous n'avez pas besoin de 10 piles complètes. Si vous débordez, vendez quelques piles.</li>
+          <li>**La Plupart des Aliments et de l'Eau :** À moins que vous n'ayez besoin d'un type spécifique pour une amélioration, la nourriture et les boissons sont abondantes. Ne les laissez pas encombrer votre inventaire.</li>
+      </ul>
+      
+      <h2 style="font-size: 1.5em; font-weight: bold;">La Zone Grise : Articles sur Lesquels Réfléchir à Deux Fois</h2>
+      
+      <p>Certains objets ne sont pas un simple garder ou vendre.</p>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;">Trophées, Modèles de Vélos et autres "Jouets"</h3>
+      
+      <p>C'est délicat. Bien que la plupart des babioles courantes ne soient que de la camelote à vendre, **NE VENDEZ PAS LES TROPHÉES.** Les trophées sont souvent uniques et requis pour des tâches spécifiques et importantes. Pour les autres jouets, la règle du "garder un" est votre meilleur ami jusqu'à ce que vous soyez sûr.</p>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;">Le Sac Fourre-Tout</h3>
+      
+      <p>Quel est le problème avec cette chose ? Il se vend à un bon prix, mais le buzz de la communauté est qu'il pourrait avoir une utilisation ou une interaction secrète plus tard. **Le Verdict :** Si vous pouvez vous permettre l'espace, gardez-le. Il semble trop unique pour être une simple camelote à vendre.</p>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;">Explosifs (Grenades/Dynamite)</h3>
+      
+      <p>Il est facile de devenir un thésauriseur d'explosifs. Un joueur a admis :</p>
+      
+      <blockquote>
+          "plus de 30 % de mon espace de stockage est constitué d'explosifs (l'espace actuel est de 590 emplacements, je n'ai pas besoin de l'améliorer davantage)"
+      </blockquote>
+      
+      <p>Demandez-vous honnêtement : avez-vous besoin de 50 bâtons de dynamite en ce moment ? Probablement pas. Gardez une quantité raisonnable pour vos raids (peut-être une pile ou deux) et vendez le reste.</p>
+      
+      <p>Enfin, n'oubliez pas d'**ouvrir toutes les Enveloppes Rouges** que vous trouvez. Elles contiennent des goodies que vous voulez maintenant, pas plus tard.</p>
+      
+      <p>Bonne chance à l'extérieur, et bon pillage (et bonne vente) !</p>
+              `
+    }
+
+
+
+
+
+]

@@ -41,7 +41,7 @@
 </template>
 
 <script setup>
-import { onMounted, computed } from 'vue'
+import { onMounted, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
@@ -54,6 +54,11 @@ const { data: itemsData, loadData } = useItemsData('key')
 const allKeys = computed(() => itemsData?.value || [])
 
 onMounted(() => {
+    loadData('key')
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
     loadData('key')
 })
 

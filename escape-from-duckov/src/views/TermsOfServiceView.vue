@@ -68,7 +68,7 @@
           <section>
             <h2>{{ t('TermsOfServicePage.rules.title') }}</h2>
             <ul>
-                <li v-for="item in t('TermsOfServicePage.rules.items')" :key="item">{{ item }}</li>
+                <li v-for="(item, index) in rulesItems" :key="index">{{ item }}</li>
             </ul>
           </section>
 
@@ -137,9 +137,16 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n()
+const { t, tm } = useI18n()
+
+// 使用 tm() 获取原始数组值
+const rulesItems = computed(() => {
+  const items = tm('TermsOfServicePage.rules.items')
+  return Array.isArray(items) ? items : []
+})
 </script>
 
 <style scoped>

@@ -129,7 +129,7 @@
   },
   "HomePage": {
     "hero": {
-      "title": "EscapefromDuckov FansCommunity",
+      "title": "Escape From Duckov Fans & Community",
       "subtitle": "Escape from Duckov is a PVE indie survival RPG — in a duck's world!. Scavenge for resources, build your hideout, and upgrade your gear in the world of Duckov. Start from nothing and rise to the top. Outwit hostile ducks, survive, or make it out alive.",
       "steamButton": "Play on Steam"
     },
@@ -364,27 +364,47 @@
     "weapons": {
       "title": "Weapons",
       "desc": "Firearms, melee tools, and everything you need for direct encounters.",
-      "tags": ["Combat", "Damage", "Gear"]
+      "tags": [
+        "Combat",
+        "Damage",
+        "Gear"
+      ]
     },
     "equipment": {
       "title": "Equipment",
       "desc": "Protective gear and tactical wear to survive longer runs.",
-      "tags": ["Defense", "Gear", "Survival"]
+      "tags": [
+        "Defense",
+        "Gear",
+        "Survival"
+      ]
     },
     "ammunition": {
       "title": "Ammunition",
       "desc": "Pistol rounds, rifle cartridges, shotgun shells, and all types of ammunition for your weapons.",
-      "tags": ["Ammo", "Caliber", "Compatibility"]
+      "tags": [
+        "Ammo",
+        "Caliber",
+        "Compatibility"
+      ]
     },
     "key": {
       "title": "Keys",
       "desc": "Access cards, keycards, and security keys to unlock doors, containers, and restricted areas.",
-      "tags": ["Access", "Keys", "Security"]
+      "tags": [
+        "Access",
+        "Keys",
+        "Security"
+      ]
     },
     "fish": {
       "title": "Fish",
       "desc": "Catchable fish species and fishing-related items for your survival needs.",
-      "tags": ["Fishing", "Food", "Resources"]
+      "tags": [
+        "Fishing",
+        "Food",
+        "Resources"
+      ]
     },
     "itemsCount": "items",
     "featuredGear": "Featured Gear",
@@ -464,12 +484,23 @@
       "provided": {
         "title": "Data you provide",
         "text": "We only process personal data you voluntarily provide, for example when filling forms or contacting us. This may include:",
-        "items": ["Name", "Email address", "Any other information you choose to provide"]
+        "items": [
+          "Name",
+          "Email address",
+          "Any other information you choose to provide"
+        ]
       },
       "automated": {
         "title": "Data collected automatically",
         "text": "We may collect certain data automatically during your visit, such as:",
-        "items": ["IP address (for fraud prevention, analytics, or location-based features)", "Browser type and version", "Referring page or site", "Device identifiers (including mobile device IDs)", "Cookie and tracking data", "User interaction data (e.g., whether you viewed or clicked an advertisement)"]
+        "items": [
+          "IP address (for fraud prevention, analytics, or location-based features)",
+          "Browser type and version",
+          "Referring page or site",
+          "Device identifiers (including mobile device IDs)",
+          "Cookie and tracking data",
+          "User interaction data (e.g., whether you viewed or clicked an advertisement)"
+        ]
       },
       "thirdParty": {
         "title": "Third-party data",
@@ -479,7 +510,13 @@
     "legalBasis": {
       "title": "Why We Collect Data & Legal Basis",
       "text": "We collect and process personal data for purposes including, but not limited to:",
-      "items": ["Providing, improving, and optimizing our services and content", "Performing contractual obligations", "Sending updates, newsletters, and marketing communications (where permitted)", "Statistical analysis and research", "Compliance with legal obligations (e.g., age verification)"],
+      "items": [
+        "Providing, improving, and optimizing our services and content",
+        "Performing contractual obligations",
+        "Sending updates, newsletters, and marketing communications (where permitted)",
+        "Statistical analysis and research",
+        "Compliance with legal obligations (e.g., age verification)"
+      ],
       "p2": "Legal bases for processing may include your consent, performance of a contract, legitimate interests, or compliance with legal obligations.",
       "note": "Advertisers or third-party services may collect data via their own cookies or tracking technologies. DuckovGame is not responsible for third-party data collection practices."
     },
@@ -490,7 +527,14 @@
     "gdpr": {
       "title": "GDPR & Your Rights (EEA Residents)",
       "text": "If you are a resident of the European Economic Area (EEA), you have certain rights regarding your personal data, including:",
-      "items": ["The right to access, update, or delete your personal data", "The right to rectification of inaccurate information", "The right to object to processing", "The right to restrict processing", "The right to data portability", "The right to withdraw consent where processing is based on consent"],
+      "items": [
+        "The right to access, update, or delete your personal data",
+        "The right to rectification of inaccurate information",
+        "The right to object to processing",
+        "The right to restrict processing",
+        "The right to data portability",
+        "The right to withdraw consent where processing is based on consent"
+      ],
       "p2": "We may request identity verification before fulfilling requests. For more information, you can also contact your local data protection authority."
     },
     "rights": {
@@ -558,7 +602,19 @@
     },
     "rules": {
       "title": "Rules of Conduct",
-      "items": ["You must not post or transmit material that is threatening, harassing, defamatory, obscene, unlawful, or infringes on others' rights.", "You must not use the Site for unauthorized commercial, fraudulent, or unlawful purposes.", "You may not collect information about users except as permitted by the Privacy Policy.", "You must not interfere with or disrupt the operation of the Site or its servers and networks.", "You must not restrict or inhibit others from using the Site.", "You may not reproduce, modify, sell, distribute, or exploit any portion of the Site without our prior written consent.", "You may not reverse engineer or decompile the Site except where prohibited by law.", "You must not remove copyright or trademark notices from the Site.", "You may not frame, mirror, or systematically download content without consent.", "You may not use bots, spiders, scrapers, or similar tools without consent.", "You are responsible for all hardware, internet, and service costs needed to use the Site."]
+      "items": [
+        "You must not post or transmit material that is threatening, harassing, defamatory, obscene, unlawful, or infringes on others' rights.",
+        "You must not use the Site for unauthorized commercial, fraudulent, or unlawful purposes.",
+        "You may not collect information about users except as permitted by the Privacy Policy.",
+        "You must not interfere with or disrupt the operation of the Site or its servers and networks.",
+        "You must not restrict or inhibit others from using the Site.",
+        "You may not reproduce, modify, sell, distribute, or exploit any portion of the Site without our prior written consent.",
+        "You may not reverse engineer or decompile the Site except where prohibited by law.",
+        "You must not remove copyright or trademark notices from the Site.",
+        "You may not frame, mirror, or systematically download content without consent.",
+        "You may not use bots, spiders, scrapers, or similar tools without consent.",
+        "You are responsible for all hardware, internet, and service costs needed to use the Site."
+      ]
     },
     "monitoring": {
       "title": "Monitoring",
@@ -615,15 +671,29 @@
       "title": "Fair Use Policy",
       "text": "We support fair use of our content for educational, research, and personal purposes. However, commercial use requires explicit permission.",
       "allowed": "Allowed Uses:",
-      "allowedItems": ["Personal study and research", "Educational purposes", "Non-commercial sharing", "Criticism and commentary"],
+      "allowedItems": [
+        "Personal study and research",
+        "Educational purposes",
+        "Non-commercial sharing",
+        "Criticism and commentary"
+      ],
       "restricted": "Restricted Uses:",
-      "restrictedItems": ["Commercial reproduction", "Mass distribution", "Modification without permission", "Removal of attribution"]
+      "restrictedItems": [
+        "Commercial reproduction",
+        "Mass distribution",
+        "Modification without permission",
+        "Removal of attribution"
+      ]
     },
     "dmca": {
       "title": "DMCA Compliance",
       "text": "We comply with the Digital Millennium Copyright Act (DMCA). If you believe your copyrighted work has been used without permission, please contact us immediately.",
       "subtitle": "To file a DMCA takedown notice, please include:",
-      "items": ["Specific details about the copyrighted material", "Proof that you own the rights to the content", "A formal DMCA takedown notice sent to our designated agent"]
+      "items": [
+        "Specific details about the copyrighted material",
+        "Proof that you own the rights to the content",
+        "A formal DMCA takedown notice sent to our designated agent"
+      ]
     },
     "attribution": {
       "title": "Attribution Requirements",
@@ -633,7 +703,12 @@
       "title": "License Requests",
       "text": "For commercial use, licensing, or other permissions, please contact us with your specific request.",
       "subtitle": "Your request should include:",
-      "items": ["Specific content you want to use", "Intended purpose and audience", "Duration of use", "Contact information"]
+      "items": [
+        "Specific content you want to use",
+        "Intended purpose and audience",
+        "Duration of use",
+        "Contact information"
+      ]
     },
     "contact": {
       "title": "Contact Information",
@@ -756,4 +831,3 @@
     }
   }
 }
-
