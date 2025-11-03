@@ -251,7 +251,7 @@ export const guides = [
     imageAlt: 'Advanced Ground Zero Exploration & Base Expansion',
     publishDate: '2025-10-27',
     addressBar: '/advanced-ground-zero-exploration-base-expansion',
-    category: 'walkthroughs',
+    category: 'advanced',
     tags: ['ADVANCED EXPLORATION', 'BASE EXPANSION', 'QUEST CHAINS', 'EQUIPMENT UPGRADES', 'GROUND ZERO'],
     seo: {
       title: 'Advanced Ground Zero Exploration & Base Expansion - Escape from Duckov',
@@ -1411,25 +1411,934 @@ export const guides = [
 <p>Good luck out there, and happy looting (and selling)!</p>
 
     `,
+  },
+
+  {
+    "id": 12,
+    "title": "Escape from Duckov Walkthrough Part 1: Prison Escape & Base Setup",
+    "description": "Your essential guide to starting Escape from Duckov! Covers the full prison break tutorial, base infrastructure setup, and completing the initial quests in Ground Zero.",
+    "imageUrl": "/images/guide12.webp",
+    "imageAlt": "A player character in Escape from Duckov looting a box during the prison escape sequence.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "beginner guide", "prison escape", "base building", "ground zero"],
+    "seo": {
+      "title": "Escape from Duckov Part 1 Guide: Prison, Base Setup, and Initial Quests",
+      "description": "Complete step-by-step walkthrough for the first part of Escape from Duckov. Learn how to escape the prison, set up your base, and complete Basic Construction and Startup Capital quests.",
+      "keywords": "Escape from Duckov Walkthrough Part 1, Escape from Duckov Beginner Guide, Prison Escape Guide, Ground Zero Walkthrough, Base Setup Duckov, Initial Quests"
+    },
+    "detailsHtml": `
+        <h2>Escaping the Prison: Tutorial and First Encounter</h2>
+        <p>After a brief introductory scene, your first action is to go to the mirror and **set up your character** in the character creator.</p>
+        
+        <h3>Initial Loot and Movement</h3>
+        <ul>
+            <li>Follow the arrows and markings on the floor to move and pick up loot.</li>
+            <li>From the box, you will acquire: a **TT-33** (basic pistol), **30 rounds of ammunition**, **bandages**, and **crackers**.</li>
+            <li>Enter the room to the right of your cell and take a **carrot** from the box inside. (<em>Tip: Running and rolling consume **Stamina**</em>).</li>
+            <li>Check the trash can for a **lighter**, a **lollipop**, and some **electronics**.</li>
+        </ul>
+
+        <img src="/images/guide/guide12-01.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
+
+        <h3>First Combat and Gear Upgrading</h3>
+        <ul>
+            <li>**Equip the TT-33 pistol** for the upcoming encounter.</li>
+            <li>**Dodge an incoming shot** (when you see the red flash) and take out the first guard.</li>
+            <li>Loot the guard for: a **police baton**, a **white lab coat**, and **black-rimmed sunglasses**. **Equip everything**.</li>
+            <li>Pick up more bullets and find **cables** in the trash can. (<em>Tip: Holding down the right mouse button improves accuracy.</em>)</li>
+            <li>Loot **bandages** and **aspirin** from the next box.</li>
+        </ul>
+
+        <img src="/images/guide/guide12-02.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
+
+        <h3>Second Encounter and Extraction</h3>
+        <ul>
+            <li>Loot the **PM pistol** from a box in the next room and put it in slot 2.</li>
+            <li>Take out the next guards, looting a **Glick pistol**, lab coat, and sunglasses.</li>
+            <li>If your **inventory is full**, you may need to move on. Loot **crackers** and **soda** from the next trash can.</li>
+            <li>**Eat the carrot and crackers** to replenish energy.</li>
+            <li>Take the path to the **right** and head for the **extraction point** to complete the quick escape.</li>
+        </ul>
+
+        <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
+
+        <h2>The Base: Infrastructure and Initial Enhancements</h2>
+        <p>Upon returning to base, find **Jeff** upstairs for a tour: the warehouse, construction panel, vending machine, enhancer, and extraction point.</p>
+
+        <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
+
+        <h3>Character and Storage Upgrades</h3>
+        <ul>
+            <li>Sell the Glicks and keep your equipped TT-33. Check the vending machine.</li>
+            <li>Use the **Enhancer**: **Research and activate "Backpack Expert I"** for a **+4 backpack capacity**. (<em>Note: Enhancements require money and materials.</em>)</li>
+            <li>Use the **Warehouse**: Add **"Storage Expansion Lv.1"** to gain **+35 storage capacity**.</li>
+        </ul>
+
+        <img src="/images/guide/guide12-05.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
+
+        <h3>Accepting Initial Quests</h3>
+        <p>Talk to Jeff to accept your first two quests:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Quest Name</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objective</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Reward</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;"><strong>Basic Construction</strong></td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Build a workbench by collecting **two pieces of wood**.</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">EXP +1000, Currency +500, Bandages x3</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;"><strong>Startup Capital</strong></td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**Kill one enemy**.</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">EXP +500, Currency +1296</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
+
+        <h2>Ground Zero: Resource Run and Quest Completion</h2>
+
+        <h3>Clearing the Enemy Camp and Collecting Wood</h3>
+        <ul>
+            <li>Loot the first box for bullets and another TT-33. Move right.</li>
+            <li>Find **small stones** (for luring enemies) and **nails** in a toolbox. Collect **nuts, bolts, and a car battery**.</li>
+            <li>Find an enemy camp on the left. Taking out a **Rampaging Scavenger** (red duck) here **completes "Startup Capital"**.</li>
+            <li>Loot a **butcher knife**, **wood**, and **cash** from the body.</li>
+            <li>Continue looting (tactical box, ammo box) for a **homemade shotgun**, **bullets**, and **arrows**.</li>
+        </ul>
+
+        <img src="/images/guide/guide12-07.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
+
+        <h3>Further Looting and Exploration</h3>
+        <ul>
+            <li>Engage the **Green Ducks** (use shotguns, wear body armor).</li>
+            <li>Loot bodies for a **backpack** (equip it for +39 storage), a **bow**, and **cold core fragment**.</li>
+            <li>Loot an **AK-74U** and find a **blueprint for the TOZ-66**.</li>
+            <li>Continue north, finding a **teleport node** that leads to a **lake**.</li>
+            <li>Near the forest trail, find a small camp with a **recipe for MD40**. Use a shovel to **dig up a J-Lab floppy disk**.</li>
+            <li>Clear another camp, finding the **second piece of wood** needed for **"Basic Construction"**.</li>
+            <li>Note that the **broken bridge** to the cave requires **2 metal plates** and **2 pieces of wood**.</li>
+        </ul>
+
+        <h3>Extracting and Submitting Quests</h3>
+        <ul>
+            <li>Deal with Green Ducks at the northwest camp. Find a **muzzle attachment** for SMG damage enhancement near the extraction point.</li>
+            <li>**Extract from Ground Zero**.</li>
+            <li>At the base, turn in **"Startup Capital"**.</li>
+            <li>**Accept the quest "The Hunter's Path"**: Kill 2 Rampaging Scavengers and submit 2 butcher knives.</li>
+            <li>Go to the **construction panel** and **build a workbench**. Turn in **"Basic Construction"**.</li>
+            <li>**Upgrade the workbench** by researching **Advanced Processing**.</li>
+        </ul>
+
+        <h3>New Quests and Final Preparations</h3>
+        <p>You will receive new quests like **"The Importance of Hemostasis"**, **"The Signal Tower"** (requires a **Flathead Screwdriver**), and **"A Letter from an Old Friend"**.</p>
+        <ul>
+            <li>Buy a **flathead screwdriver** from the vending machine.</li>
+            <li>Go to the **Enhancer** and upgrade **Survival Instinct 1 (Max HP +5)** and **Wide View 1 (FOV +15)**.</li>
+            <li>**Go to sleep** and fast-forward time to **7 am** to avoid the increased danger of the night.</li>
+        </ul>
+    `
+  },
+
+  {
+    "id": 13,
+    "title": "Escape from Duckov Walkthrough Part 2: Ground Zero Exploration & Base Expansion",
+    "description": "The essential guide for Part 2 of Escape from Duckov. Complete Signal Tower, unlock the cave, defeat the tough guard, and expand your base with new shops.",
+    "imageUrl": "/images/guide13.webp",
+    "imageAlt": "A player character repairing a broken bridge in the Ground Zero map of Escape from Duckov.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "base expansion", "new quests", "mid-game"],
+    "seo": {
+      "title": "Escape from Duckov Part 2 Walkthrough: Signal Tower, Cave Loot, and Armor Shop",
+      "description": "Complete guide for Escape from Duckov Part 2, detailing how to repair the signal tower, access the cave for blueprints, defeat the heavy guard, and build the Armor Shop.",
+      "keywords": "Escape from Duckov Part 2, Ground Zero Exploration, Signal Tower Quest, Cave Blueprints, Armor Shop Unlock, Black Market Notes"
+    },
+    "detailsHtml": `
+        <h2>Ground Zero: Quest Completion and Key Locations</h2>
+        <p>The second major run focuses on utilizing your upgraded gear to complete outstanding tasks, unlock new areas, and gather crucial blueprints and quest items.</p>
+
+        <h3>Northern Tower and New Contacts</h3>
+        <ul>
+            <li>Head towards the road camp and locate the **Northern Tower**.</li>
+            
+            <img src="/images/guide/guide13-01.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
+
+            <li>Loot the **toolbox** nearby, securing valuable items including **2 Metal Plates**, **1 Nail**, and a **Flathead Screwdriver**.</li>
+
+            <img src="/images/guide/guide13-02.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
+
+            <li>Interact with the **power box** at the base of the tower to complete the objective for the **"Signal Tower"** quest.</li>
+            <li>Move right of the tower to find the **blueprint for the Potato Graphics Card**.</li>
+
+            <img src="/images/guide/guide13-03.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
+
+            <li>Continue towards the road camp, eliminate the new shotgun-wielding enemy type, and loot an **MP-155 shotgun**, a **motorcycle helmet**, and medicine.</li>
+            <li>To the left, find **"Mud"** and accept the quest **"Balanced Nutrition 1"** (Objective: Submit 1 Duck Egg; Reward: EXP +800, Currency +500).</li>
+        </ul>
+
+        <h3>Bridge Repair and Cave Access</h3>
+        
+        <img src="/images/guide/guide13-04.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
+
+        <ul>
+            <li>Move left and **repair the broken bridge** leading to the road camp using **two pieces of wood**. (Check under the power pole before crossing, though loot is rare).</li>
+            <li>Head to the camp on the forest path, eliminate the **Red Scavengers** to complete **"Hunter's Path"**, and pick up **two Butcher Knives**. Also find a **Key to the Abandoned Gas Station**.</li>
+            <li>Repair the broken bridge near the cave entrance.</li>
+
+            <img src="/images/guide/guide13-05.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
+        </ul>
+
+        <h3>Cave Loot and Blueprints</h3>
+
+        <p>Inside the cave, collect significant weapon attachments and blueprints:</p>
+
+        <img src="/images/guide/guide13-06.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
+
+        <ul>
+            <li>Loot a **Pistol Muzzle**, a **UP 45**, an **AK 47**, a **Hip-Fire Attachment**, and a **Laser Attachment**.</li>
+            <li>Crucially, pick up the **blueprints for the Cube Gun** and **Small Energy Ammo**.</li>
+        </ul>
+
+        <h3>Northwest Camp and Final Extraction Prep</h3>
+
+        <img src="/images/guide/guide13-07.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
+        
+        <ul>
+            <li>Sneak into the **northwest camp** and find the **Letter from an Old Friend** in the tent, completing the quest.</li>
+            <li>Pick up the **Crowbar Recipe** from a nearby data box. Climb the watchtower and read the **"Ground Zero Observation Log"**.</li>
+            <li>**Tough Encounter:** Engage the **super tough hooded enemy with a shotgun**. Use a **bandage** during this fight to complete **"The Importance of Hemostasis"**.</li>
+            <li>After taking him out, loot the valuable **Black Market Contact Notes** and **advanced AP shotgun shells**.</li>
+            <li>On the way to extraction, clear another camp to find two keys: the **Abandoned Gas Station Key** and the **Fence Key**, along with a **Holographic Sight**.</li>
+            <li>**Extract from Ground Zero.**</li>
+        </ul>
+
+        <h2>Base Management: Quests, Shops, and Upgrades</h2>
+        <p>Back at base, turn in all completed quests immediately to unlock your next tier of construction and upgrades.</p>
+
+        <img src="/images/guide/guide13-08.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
+
+        <h3>Quest Submission & New Objectives</h3>
+        <p>Submit all completed quests. The following new construction and material quests will appear:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">New Construction</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Combat/Material Quests</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Basic Construction II: Build a **Weapon Shop**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Aim for the Head: Kill any enemy (5) with headshots</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Basic Construction III: Build an **Armor Shop** (Immediate priority)</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Tech Expert: Submit a pile of electronic components</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Basic Construction (Medical): Build a **Medical Station**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Full of Love: Submit 1888 currency (Can be submitted immediately)</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Crafting Apprenticeship: Submit a Glick</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Submit already completed quests: Expanded Pocket & Upgrade Workbench</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Construction and Final Upgrades</h3>
+        <ul>
+            <li>Submit **"Full of Love"** immediately.</li>
+            <li>Check the Construction Station: You can **build the Armor Shop** immediately. Submit **"Basic Construction III"**.</li>
+            <li>Visit the new Armor Shop: **Buy Level 2 Armor and a Steel Helmet**.</li>
+            <li>At the **Workbench**: **Research all new blueprints** (to clear inventory space), and research the **Repair Station** blueprint.</li>
+            <li>Purchase **Scissors** and a **Wrench** from the vending machine, then research the **Disassembly Station** at the Workbench.</li>
+            <li>At the **Enhancer**: Upgrade **Gun Mastery I**.</li>
+            <li>Accept the two new quests from the Armor Shop: **"Supply Route"** (Mark the supply crate) and **"Bookkeeping"** (Submit ink, pen, notebook).</li>
+            <li>The day ends as you run out of money after these major upgrades.</li>
+        </ul>
+    `
+  },
+
+  {
+    "id": 14,
+    "title": "Escape from Duckov Walkthrough Part 3: Ground Zero Keys & Pato Chapo Boss",
+    "description": "The comprehensive guide for Part 3 of Escape from Duckov. Accept new merchant quests, build the Medical Station and Weapon Shop, and locate the Pato Chapo Boss.",
+    "imageUrl": "/images/guide14.webp",
+    "imageAlt": "A player character in Escape from Duckov opening a locked door with a key in Ground Zero.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "boss fight", "pato chapo", "merchant quests", "mid-game"],
+    "seo": {
+      "title": "Escape from Duckov Part 3 Guide: Medical Station, Keys, and Pato Chapo Strategy",
+      "description": "Complete guide to Escape from Duckov Part 3: build crucial base facilities (Weapon/Medical), use the Gas Station and Fence keys, find the hotel room, and defeat the Pato Chapo Boss.",
+      "keywords": "Escape from Duckov Part 3, Pato Chapo Boss Fight, Ground Zero Keys, Medical Station, Weapon Shop, Hotel Room Key, Walkthrough"
+    },
+    "detailsHtml": `
+      <h2>Base Preparations: Merchant Quests and Facilities</h2>
+      <p>Start the day by accepting a fresh batch of quests from the newly established base facilities and turning in immediate submissions to maximize experience and currency before heading back to Ground Zero.</p>
+
+      <h3>New Quests Accepted:</h3>
+      <p>Accept new quests from Mud, the Weaponsmith, the Armorer, and the Vending Machine to guide your next run:</p>
+      <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+              <tr>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Source (Merchant)</th>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Quest Name</th>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objective</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Mud (Fitness)</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Balanced Nutrition II/III, Fitness Coach</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit **Energy Drink**, **Chocolate**, **Dumbbell**</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Weaponsmith</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Generic Pistol, Strange Feather</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit **Glick**, **Peacock Feather**</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Armorer / Medical Station</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Medical Assistance</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit **Medical Kit**</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Vending Machine</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Self-Sufficient, Professional Chef</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit **Water**, **Chef's Knife**</td>
+              </tr>
+          </tbody>
+      </table>
+
+      <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">TIP:</strong> Turn in the **"Crafting Apprenticeship"** and **"Bookkeeping"** quests before accepting the new ones to clear out inventory and gain immediate funds.</p>
+
+      <h3>Construction and Upgrades</h3>
+      <p>Use your current funds and materials to finish the base infrastructure:</p>
+      <ul>
+          <li><strong>Build the Medical Station</strong> and turn in the **"Basic Construction (Medical)"** quest. Accept the **"Medical Assistance"** quest from the new station.</li>
+          
+          <li><strong>Build the Weapon Shop</strong> and turn in the **"Basic Construction II"** quest. Accept the **"Strange Feather"** quest from the new shop.</li>
+          
+          <img src="/images/guide/guide14-01.webp" alt="Escape from Duckov walkthrough part 3" class="guide-image" />
+
+          <li>Perform any available **base upgrades** and **skill upgrades** (such as Weapon Mastery) before deploying.</li>
+
+          <img src="/images/guide/guide14-02.webp" alt="Escape from Duckov walkthrough part 3" class="guide-image" />
+      </ul>
+
+      <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero: Locked Areas and Hidden Clues</h2>
+      <p>Equipped with the keys and new gear, you can now access previously locked areas in Ground Zero.</p>
+
+      <h3>Abandoned Gas Station and Fence Access</h3>
+      <ul>
+          <li>Go to the **Abandoned Gas Station** and **open the door with the key** found in Part 2.</li>
+          <li>Inside, loot a **weapon crate** with a gun and ammo. You should find a **key to the fence** inside the station (or confirm you already have it).</li>
+          <li>Go to the perimeter **fence** and **open it** to access the next area of the map.</li>
+      </ul>
+
+      <h3>The Roadside Mystery (Hotel Key)</h3>
+      <ul>
+          <li>Head to the **roadside camp** and find a **note** containing clues to a new location.</li>
+          <li>Follow the note's directions to find a **dead body**. Loot the body to acquire a **key to a Hotel Room**.</li>
+          <li>Proceed to the **hotel** location and use the new key to **open the room**. Inside, you should find another **weapon crate** and potentially a new **clue or key**.</li>
+      </ul>
+
+      <h3>Locating the Boss: Pato Chapo</h3>
+      <p>The repeated clues and body locations likely lead you to the final encounter of this part:</p>
+      <ul>
+          <li>Following the last clue/note, proceed to the designated location where you will likely find the area secured by the boss.</li>
+          <li>Prepare for a tough fight against **Boss: Pato Chapo**. (<em>Note: Ensure you have your upgraded armor, plenty of high-tier ammo, and medical supplies before engaging.</em>)</li>
+          <li>After defeating Pato Chapo, **loot the body** for high-value items and essential keys/clues needed for the next part of the walkthrough.</li>
+      </ul>
+  `
+  },
+
+  {
+    "id": 15,
+    "title": "Escape from Duckov Walkthrough Part 4: Duckmother Boss & AS VAL",
+    "description": "The complete guide for Part 4 of Escape from Duckov. Accept new Bunker quests, defeat the formidable Duckmother Boss, and secure the powerful AS VAL weapon.",
+    "imageUrl": "/images/guide15.webp",
+    "imageAlt": "A player character fighting a large boss, the Duckmother, in the abandoned camp location of Escape from Duckov.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "boss fight", "duckmother", "as val", "upgrades"],
+    "seo": {
+      "title": "Escape from Duckov Part 4 Guide: Defeating Duckmother, Finding AS VAL, and Bunker Quests",
+      "description": "Step-by-step walkthrough for Escape from Duckov Part 4. Learn required skill upgrades, complete extermination and submission quests, and master the Duckmother boss fight.",
+      "keywords": "Escape from Duckov Part 4, Duckmother Boss Strategy, AS VAL Location, Ground Zero Abandoned Camp, Energy Reserve Upgrade, Performance Test Quest"
+    },
+    "detailsHtml": `
+      <h2>Bunker Preparation: New Quests and Skill Upgrades</h2>
+      <p>Before heading back to Ground Zero, visit the merchants and the enhancer to accept key missions and boost your character's combat readiness for the new challenges ahead, including the **Duckmother Boss**.</p>
+
+      <h3>New Quests Accepted:</h3>
+      <p>Prioritize these quests for your next run, as they align with common Ground Zero activities and necessary loot:</p>
+      <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+              <tr>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Quest Name</th>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objective</th>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Reward (EXP/Currency)</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Large Storage</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit 1 **Large Storage Box**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Mosquito Elimination</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Kill **10 Mosquitoes**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Parts Wholesale</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit **5 Screws**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Performance Test</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit 1 **Graphics Card**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Punisher</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Kill **5 Scavengers**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+              </tr>
+          </tbody>
+      </table>
+
+      <h3>Skill Upgrades: Enhancing Combat Effectiveness</h3>
+      <p>Invest in these core skills before deployment to improve sustainability and combat accuracy:</p>
+      <ul>
+          <li>**Energy Reserve:** Increases maximum energy by **+10**. (Allows for more sprinting/rolling)</li>
+
+          <img src="/images/guide/guide15-01.webp" alt="Escape from Duckov walkthrough part 4" class="guide-image" />
+
+          <li>**Nutrient Intake:** Increases the effect of food and water by **+10%**. (Improves sustain)</li>
+          <li>**Steady Shot I:** Increases hip-fire accuracy by **+10%**. (Crucial for close-quarters combat against the Boss)</li>
+      </ul>
+
+      <h2>Ground Zero: Abandoned Camp and Duckmother Boss</h2>
+      <p>Return to Ground Zero focusing on the extermination quests and locating the new boss area.</p>
+
+      <h3>Quest Progression and New Weapon Discovery</h3>
+      <ul>
+          <li>Focus your run on areas known for Scavenger activity and water bodies to **kill 10 Mosquitoes** and **5 Scavengers**.</li>
+          <li>Loot toolboxes and electronic caches to find the required **Screws** and **Graphics Card** for submission quests.</li>
+          <li>During your exploration, discover the powerful **VSS** weapon, a valuable find for silenced engagements.</li>
+          <li>Locate the **Abandoned Camp**, the new location you discovered.</li>
+      </ul>
+
+      <img src="/images/guide/guide15-03.webp" alt="Escape from Duckov walkthrough part 4" class="guide-image" />
+
+      <h3>The Duckmother Boss Fight</h3>
+      <p>The **Duckmother** is a significant threat located in the Abandoned Camp. Prepare for a fight that emphasizes movement and high damage output.</p>
+      <ul>
+          <li>**Strategy Tip:** Utilize your upgraded **Energy Reserve** for sustained sprinting and dodging. Focus fire on the Boss's weak spot (often the head or a conspicuous backpack).</li>
+          <li>After a difficult fight, **defeat the Duckmother**.</li>
+          <li>Loot the body to find a **Key to a Locked Room** within the camp.</li>
+      </ul>
+
+      <h3>Securing the AS VAL</h3>
+      <ul>
+          <li>Use the key obtained from the Duckmother to open the **Locked Room** inside the Abandoned Camp.</li>
+          <li>Inside the room, you will find the highly sought-after weapon, the **AS VAL**, a silenced, high-damage rifle.</li>
+      </ul>
+
+      <h2><span style="color: #DAA520;">&#127775;</span> Post-Run Activities</h2>
+      <ul>
+          <li>**Extract** successfully and return to the Bunker.</li>
+          <li>**Turn in all completed quests** (Mosquito Elimination, Punisher, Parts Wholesale, Performance Test, etc.) and collect your substantial rewards.</li>
+          <li>Accept the **new quest** from the merchant that unlocks upon completing the previous set.</li>
+          <li>Visit the **Armorer** to use your newfound currency to **buy a new helmet** or other necessary protective gear.</li>
+      </ul>
+  `
+  },
+
+  {
+    "id": 16,
+    "title": "Escape from Duckov Walkthrough Part 5: Repeating the Cycle - The Duckmother Encore",
+    "description": "The guide for Part 5 of Escape from Duckov. Accept high-reward repeat quests, max out core survival skills, defeat the Duckmother Boss again, and secure high-tier loot.",
+    "imageUrl": "/images/guide16.webp",
+    "imageAlt": "A player character using the AS VAL in a dark room in the Abandoned Camp of Escape from Duckov.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "boss fight", "repeat quests", "skill maxing", "farm run"],
+    "seo": {
+      "title": "Escape from Duckov Part 5 Guide: Maxing Core Skills and The Duckmother Repeat Run",
+      "description": "Step-by-step walkthrough for Escape from Duckov Part 5, focusing on completing repeatable extermination and submission quests to farm currency and max out critical skills like Energy Reserve and Steady Shot.",
+      "keywords": "Escape from Duckov Part 5, Duckmother Repeat, Max Energy Reserve, Steady Shot II, Ground Zero Farm Run, Performance Test II Quest"
+    },
+    "detailsHtml": `
+      <h2>Bunker Preparation: Repeatable Quests and Skill Maxing</h2>
+      <p>Part 5 involves repeating high-value supply and extermination quests, often marked with Roman numeral suffixes (II), which are excellent for farming experience and currency. Focus on maxing out core survival and combat skills before returning to Ground Zero.</p>
+
+      <h3>New/Repeatable Quests Accepted:</h3>
+      <p>Accept the upgraded, repeatable versions of the previous cycle's missions from the merchants:</p>
+      <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+              <tr>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Quest Name</th>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objective</th>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Reward (EXP/Currency)</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Large Storage II</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit 1 **Large Storage Box**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Mosquito Elimination II</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Kill **10 Mosquitoes**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Parts Wholesale II</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit **5 Screws**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Performance Test II</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit 1 **Graphics Card**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Punisher II</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Kill **5 Scavengers**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+              </tr>
+          </tbody>
+      </table>
+
+      <h3>Skill Upgrades: Achieving Tier II</h3>
+      <p>Utilize the Enhancer to upgrade to Tier II skills, further boosting efficiency and survivability:</p>
+      <ul>
+          <li>**Energy Reserve II:** Increases maximum energy by **+10** (Total +20, essential for kiting/sprinting).</li>
+          <li>**Nutrient Intake II:** Increases the effect of food and water by **+10%** (Total +20%, dramatically improves healing/hydration).</li>
+          <li>**Steady Shot II:** Increases hip-fire accuracy by **+10%** (Total +20%, makes close-range combat and movement-based firing highly effective).</li>
+      </ul>
+
+      <img src="/images/guide/guide16-02.webp" alt="Escape from Duckov walkthrough part 5" class="guide-image" />
+
+      <h2>Ground Zero: Farming Resources and Boss Encore</h2>
+      <p>The objectives for this run are to quickly clear the extermination quotas, gather submission items, and prepare to face the Duckmother again for lucrative loot and key drops.</p>
+
+      <h3>Resource Farming and Extermination</h3>
+      <ul>
+          <li>Focus your run on areas rich in electronic components and toolboxes to quickly find the required **Screws** and **Graphics Card**.</li>
+          
+          <img src="/images/guide/guide16-01.webp" alt="Escape from Duckov walkthrough part 5" class="guide-image" />
+
+          <li>Complete the **Mosquito Elimination II (10 kills)** and **Punisher II (5 kills)** quests efficiently.</li>
+          <li>Since you likely already found the **VSS** previously, this run confirms its continued existence or offers another chance to acquire it.</li>
+          <li>Relocate the **Abandoned Camp** where the boss spawns.</li>
+      </ul>
+
+      <h3>Defeating the Duckmother (Repeat)</h3>
+      <p>The **Duckmother** is the key objective, as defeating her grants access to the locked room. Use your new **Steady Shot II** skill and superior energy reserves to engage her aggressively.</p>
+      <ul>
+          <li>After defeating the **Duckmother**, she will once again drop the **Key to a Locked Room** in the camp.</li>
+          <li>Use the key to access the Locked Room and retrieve the powerful **AS VAL** weapon (or its high-value components/ammo if you already own it).</li>
+      </ul>
+
+      <h2>Post-Run Activities</h2>
+      <ul>
+          <li>**Extract** successfully and return to the Bunker.</li>
+          <li>**Turn in all completed quests** (Mosquito Elimination II, Punisher II, etc.) and collect your rewards.</li>
+          <li>Accept the **new quest** from the merchant that unlocks upon completing this set.</li>
+          <li>Visit the **Armorer** to use your accumulated currency to **buy a new helmet** or upgrade your armor to the highest available tier, preparing for the next unique challenge.</li>
+      </ul>
+  `
+  },
+
+  {
+    "id": 17,
+    "title": "Escape from Duckov Walkthrough Part 6: Final Skill Maxing & Boss Farm",
+    "description": "The ultimate guide for Part 6 of Escape from Duckov. Complete the final tier of repeatable quests (III), max out core survival and combat skills, and gear up for the next major zone.",
+    "imageUrl": "/images/guide17.webp",
+    "imageAlt": "A close-up shot of the AS VAL rifle in the player's hands inside the locked room of the Abandoned Camp.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "skill maxing", "boss farm", "tier iii", "final prep"],
+    "seo": {
+      "title": "Escape from Duckov Part 6 Guide: Maxing Tier III Skills and Final Duckmother Run",
+      "description": "Complete guide for Escape from Duckov Part 6. Learn how to finalize all Tier III skill upgrades (Energy, Nutrient, Steady Shot) and execute the final high-reward resource and boss farming cycle.",
+      "keywords": "Escape from Duckov Part 6, Tier III Skills, Max Energy Reserve, Steady Shot III, Duckmother Farm, Final Bunker Prep, AS VAL"
+    },
+    "detailsHtml": `
+      <h2>Bunker Preparation: Final Tier III Quests and Max Upgrades</h2>
+      <p>This is the final repeatable loop designed to push your character's base stats to their maximum potential. Focus on accepting all Tier **III** quests and fully investing in your core skills.</p>
+
+      <h3>Final Tier Quests Accepted:</h3>
+      <p>Accept the highest-reward missions to fuel your final upgrades and next zone entry:</p>
+      <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+              <tr>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Quest Name</th>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objective</th>
+                  <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Reward (EXP/Currency)</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Large Storage III</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit 1 **Large Storage Box**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Mosquito Elimination III</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Kill **10 Mosquitoes**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Parts Wholesale III</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit **5 Screws**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Performance Test III</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Submit 1 **Graphics Card**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+              </tr>
+              <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Punisher III</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">Kill **5 Scavengers**</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+              </tr>
+          </tbody>
+      </table>
+
+      <img src="/images/guide/guide17-01.webp" alt="Escape from Duckov walkthrough part 6" class="guide-image" />
+
+      <h3>Skill Maxing: Achieving Peak Performance</h3>
+      <p>This is the opportunity to **max out** these critical skills, significantly impacting your future performance:</p>
+      <ul>
+          <li>**Energy Reserve III:** Increases maximum energy by **+10**. (Provides maximum sprinting/dodging capability).</li>
+          <li>**Nutrient Intake III:** Increases the effect of food and water by **+10%**. (Maximizes passive healing and resource efficiency).</li>
+          <li>**Steady Shot III:** Increases hip-fire accuracy by **+10%**. (Makes close-quarters combat extremely reliable).</li>
+      </ul>
+
+      <h2>Ground Zero: The Final Farm Run</h2>
+      <p>Your objective remains the same: complete the extermination and resource quotas, and defeat the **Duckmother** one last time to ensure maximum resources and access the AS VAL for its components or ammo.</p>
+
+      <h3>Run Objectives</h3>
+      <ul>
+          <li>Quickly secure the required **Screws** and **Graphics Card** and complete the **Mosquito Elimination III** and **Punisher III** quotas.</li>
+          <li>Confirm the location of the **Abandoned Camp** and prepare for the boss encounter.</li>
+          <li>(Optional: If you still need the weapon, search for the **VSS** again).</li>
+      </ul>
+
+      <h3>The Final Duckmother Encounter</h3>
+      <p>With your fully maxed Tier III skills, the **Duckmother** should be easier to handle. Engage her using your maximum **Energy Reserve** for sustained kiting and utilize **Steady Shot III** for devastating close-range hip-fire.</p>
+      <ul>
+          <li>Defeat the **Duckmother** and retrieve the **Key to the Locked Room**.</li>
+          <li>Access the Locked Room to collect the **AS VAL** (or its high-value ammo/components).</li>
+      </ul>
+
+      <h2>Post-Run Activities: Preparing for the Next Map</h2>
+
+      <img src="/images/guide/guide17-02.webp" alt="Escape from Duckov walkthrough part 6" class="guide-image" />
+
+      <ul>
+          <li>**Extract** and return to the Bunker.</li>
+          <li>**Turn in all completed Tier III quests** and claim your substantial rewards.</li>
+          <li>Accept the **new quest** from the merchant—this quest will typically be the **transition objective** to the next major location or map.</li>
+          <li>Visit the **Armorer** to use your accumulated wealth to purchase the **highest-tier helmet** and body armor available, confirming your readiness for the challenges of the next zone.</li>
+      </ul>
+  `
+  },
+
+  {
+    id: 18,
+    title: "Escape From Duckov: The Ultimate Guide to Expansion Crates",
+    description: "Running out of warehouse space in Escape From Duckov? This guide unveils the secrets to Expansion Crates, the key to permanent storage upgrades! Learn the best farming routes, crucial tips, and crate locations to maximize your loot and dominate the game. Expand your vault today!",
+    tags: ["Escape From Duckov", "Expansion Crates", "Loot Management", "Storage Upgrade", "Farming Guide"],
+    publishDate: "2025-11-03",
+    imageUrl: "/images/guide18.webp",
+    imageAlt: "A player looting an expansion crate in Escape From Duckov, highlighting the importance of warehouse management.",
+    category: "advanced",
+    seo: {
+      title: "Escape From Duckov Expansion Crates - Ultimate Storage Guide",
+      description: "Maximize your storage in Escape From Duckov with our expert guide to Expansion Crates! Learn farming routes, tips, and locations for these vital resources. Don't get caught without space!",
+      keywords: "escape from duckov, expansion crates, storage, loot, warehouse, farming, guide, tips, mercenary base, toolboxes",
+    },
+    addressBar: "/escape-from-duckov-expansion-crates-guide",
+    detailsHtml: `
+    <p>Managing your loot is crucial for survival in <strong>Escape From Duckov</strong>. As you gather more gear and resources, your hideout's warehouse space will quickly become a limiting factor. <strong>Expansion Crates</strong> are the key to solving this problem, allowing you to permanently increase your storage capacity.</p>
+<p>This guide will cover everything you need to know about finding these valuable crates and how to use them to expand your vault.</p>
+
+<h2><strong>Part 1: How To Obtain Expansion Crates</strong></h2>
+<p>Expansion Crates are rare items used to upgrade the size of your Warehouse at the hideout. While all storage upgrades require different materials, Expansion Crates are among the most important components.</p>
+<p><img src="/images/guide/guide18-01.webp" alt="Expansion crate" width="100%" style="width: 100%;"></p>
+
+<h3><strong>Where to Find Expansion Crates:</strong></h3>
+<ul>
+    <li><strong>Lockers in Specific Areas:</strong>
+        <ul>
+            <li><strong>Mercenary Base:</strong> Many players report that they've found most of their expansion crates in the Mercenary Base. While this might be a coincidence, the area is definitely a **hotspot worth searching**.</li>
+            <li><strong>The First Area:</strong> Even early in the game, you have a good chance of finding <strong>Expansion Box S</strong> and <strong>M</strong> in lockers throughout the first playable area.</li>
+        </ul>
+    </li>
+    <li><strong>Toolboxes:</strong> Toolboxes found across all regions have a strong chance to spawn expansion crates. **Never pass up a toolbox** during your runs.</li>
+</ul>
+
+<h3><strong>A Fast &amp; Efficient Early Farming Route:</strong></h3>
+<ol>
+    <li>Enter the first area and head northwest through the portal, then continue upward.</li>
+    <li>Sweep all the lockers along this path.</li>
+    <li>Once you find an expansion crate, <strong>extract immediately</strong>.</li>
+</ol>
+<p>This route keeps your risk low while focusing on high-yield containers, making it perfect for early-game farming.</p>
+
+<h3><strong>Important Tips:</strong></h3>
+<ul>
+    <li><strong>Drops are RNG-Gated:</strong> Finding an expansion crate is based on luck (**RNG**), so expect a few empty runs between successful finds. **Patience is key.**</li>
+    <li><strong>Watch Your Weight:</strong> Larger crates (especially M and L) are very heavy. If you're carrying one, **prioritize extraction** to avoid losing it in a fight.</li>
+</ul>
+
+<h3><strong>Expansion Crate Types and Details</strong></h3>
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Used For</th>
+            <th>Common Locations</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Expansion Box S</strong></td>
+            <td>Early vault tiers that require items.</td>
+            <td>Lockers in the first area; toolboxes anywhere.</td>
+            <td>Lightest crate; shows up early in the game.</td>
+        </tr>
+        <tr>
+            <td><strong>Expansion Box M</strong></td>
+            <td>Mid-tier vault upgrades.</td>
+            <td>Lockers in the first area (rarer); toolboxes.</td>
+            <td>Heavier than S; plan your extract route.</td>
+        </tr>
+        <tr>
+            <td><strong>Expansion Box L</strong></td>
+            <td>Late-tier vault upgrades.</td>
+            <td>Toolboxes and high-value caches.</td>
+            <td>The heaviest crate with the lowest spawn rate.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><strong>Part 2: How to Use Expansion Box S to Expand Storage</strong></h2>
+<p><img src="/images/guide/guide18-02.webp" alt="stroage Expansion" width="100%" style="width: 100%;"></p>
+<p>Many new players are confused when they first find an Expansion Box because it can't be "opened" or "used" like a normal item. Remember this key rule: <strong>Expansion Box S is a vault upgrade material, not a consumable.</strong> It is only consumed when you apply a specific vault upgrade.</p>
+
+<h3><strong>Using Expansion Box S to Upgrade Your Warehouse (Step-by-Step):</strong></h3>
+<ol>
+    <li><strong>Bring the Box Back to Base:</strong> After finding a box, make sure it is in your **character's inventory** (your pockets or rig), not your warehouse storage.</li>
+    <li><strong>Find the Storage NPC:</strong> At your hideout, go to the first NPC, <strong>Jeff</strong>.</li>
+    <li><strong>Interact with the Locker:</strong> Interact with the main storage locker located behind him to open the storage UI.</li>
+    <li><strong>Switch to the Upgrade Tab:</strong> In the storage UI, switch to the **"Storage Expansion" / "Upgrade Vault"** tab. On PC, you can use the on-screen tab switcher or your mouse wheel.</li>
+    <li><strong>Select the Upgrade Tier:</strong> Select the next available vault upgrade tier. Early tiers may only cost credits, while later tiers will require items like Expansion Boxes.</li>
+    <li><strong>Confirm the Upgrade:</strong> Confirm the action. The Expansion Box and the required credits will be consumed, and your warehouse capacity will increase immediately.</li>
+</ol>
+
+<h3><strong>Troubleshooting: What to Do If the Upgrade Won't Work</strong></h3>
+<ul>
+    <li><strong>Is it in the right place?</strong> Make sure the box is in your **on-character inventory**, not your vault.</li>
+    <li><strong>Are you on the right screen?</strong> Double-check that you are on the **"Upgrade Vault"** tab, not the regular storage view.</li>
+    <li><strong>Does the tier require it?</strong> Confirm that the upgrade tier you are selecting actually lists **Expansion Box S** as a required material.</li>
+    <li><strong>Do you have enough credits?</strong> Ensure you have the required amount of credits in addition to the box.</li>
+</ul>
+<p><img src="/images/guide/guide18-03.webp" alt="Expansion crate 2" width="100%" style="width: 100%;"></p>
+
+<h2><strong>Warehouse vs. Backpack Capacity: A Key Distinction</strong></h2>
+<p>It is important to understand that Expansion Boxes <strong>only increase your warehouse capacity at the hideout.</strong> They do not add slots to your mission loadout or increase your backpack size for raids.</p>
+<p>If you want to carry more loot *during* a raid, you need to increase your <strong>backpack capacity</strong> through separate systems:</p>
+<p><img src="/images/guide/guide18-04.webp" alt="Warehouse vs. Backpack Capacity" width="100%" style="width: 100%;"></p>
+<ul>
+    <li><strong>The Skill Enhancement Machine:</strong> At your base, use this machine and choose the **"Backpack Expert"** upgrade line.</li>
+    <li><strong>Specific Backpacks:</strong> Find special backpacks in the field that permanently add slots when equipped.</li>
+    <li><strong>Body Armor:</strong> Certain pieces of body armor can also increase your carry capacity.</li>
+</ul>
+    `,
+  },
+
+  {
+    id: 19,
+    title: "Escape From Duckov: A Complete Guide to the Bronze Pocket Watch Quest",
+    description: "Navigate the treacherous landscape of Escape From Duckov to secure the Bronze Pocket Watch! This comprehensive guide provides step-by-step instructions, from acquiring the Mechanical Key to safely extracting with your prize. Master the game's core mechanics and claim your reward from Xavier.",
+    tags: ["Escape From Duckov","Bronze Pocket Watch","Quest Guide","Ground Zero","Xavier"],
+    publishDate: "2025-11-03",
+    imageUrl: "/images/guide19.webp",
+    imageAlt: "A player character in Escape From Duckov looting the Bronze Pocket Watch from a truck.",
+    category: "advanced",
+    seo: {
+      title: "Escape From Duckov: Bronze Pocket Watch Quest - Complete Walkthrough",
+      description: "Unlock the secrets of the Bronze Pocket Watch quest in Escape From Duckov! This guide covers key locations, item acquisition, and safe extraction strategies. Dominate Ground Zero!",
+      keywords: "Escape From Duckov, Bronze Pocket Watch, Ground Zero, Xavier, Mechanical Key, quest guide, walkthrough, extract, loot, FPS game",
+    },
+    addressBar: "/escape-from-duckov-bronze-pocket-watch-quest",
+    detailsHtml: `
+    <p>The "Bronze Pocket Watch" is one of the first critical quests you'll receive in <strong>Escape From Duckov</strong>. Given by Xavier, this mission serves as a perfect introduction to the game's core mechanics: using special keys, navigating to a specific location, retrieving a quest item, and extracting safely.</p>
+<p>This guide will walk you through every step, from acquiring the key to finding the watch and securing your reward.</p>
+
+<h2><strong>Quick Guide (TL;DR)</strong></h2>
+<ol>
+    <li><strong>Buy the Mechanical Key</strong> from the vending machine in your bunker.</li>
+    <li>Deploy to the <strong>Ground Zero</strong> map.</li>
+    <li>Head to the <strong>southeastern corner</strong> to find a white truck with an orange fuel tanker.</li>
+    <li>Use the <strong>Mechanical Key</strong> to unlock the truck's cab.</li>
+    <li>Loot the <strong>Bronze Pocket Watch</strong> from inside.</li>
+    <li>Extract immediately via the <strong>manhole cover</strong> next to the truck.</li>
+    <li>Hand the watch to <strong>Xavier</strong> to complete the quest.</li>
+</ol>
+
+<h2><strong>Quest Details</strong></h2>
+<table>
+    <thead>
+        <tr>
+            <th>Field Details</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Quest Name</strong></td>
+            <td>Bronze Pocket Watch</td>
+        </tr>
+        <tr>
+            <td><strong>Giver</strong></td>
+            <td>Xavier (Weapons NPC at the bunker)</td>
+        </tr>
+        <tr>
+            <td><strong>Map</strong></td>
+            <td>Ground Zero</td>
+        </tr>
+        <tr>
+            <td><strong>Main Objective</strong></td>
+            <td>Retrieve the Bronze Pocket Watch from a locked truck and hand it to Xavier.</td>
+        </tr>
+        <tr>
+            <td><strong>Required Items</strong></td>
+            <td>1x Mechanical Key</td>
+        </tr>
+        <tr>
+            <td><strong>Rewards</strong></td>
+            <td>~2,500 XP and ~450 Currency (values may vary slightly)</td>
+        </tr>
+        <tr>
+            <td><strong>Follow-up Quest</strong></td>
+            <td>Cargo List</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><strong>Step 1: How to Get the Mechanical Key</strong></h2>
+<p>The truck containing the watch is locked, and the <strong>Mechanical Key</strong> is the only way inside.</p>
+<p><img src="/images/guide/guide19-01.webp" alt="buy Key " width="100%" style="width: 100%;"></p>
+<ul>
+    <li><strong>Primary Method (Recommended):</strong> The most reliable way to get the key is to purchase it from the <strong>vending machine</strong> in your bunker/safehouse for <strong>660 currency</strong>.</li>
+    <li><strong>Alternative Method:</strong> It is possible to find the key as random loot in the world, but this is far less predictable. Buying it is the fastest way to proceed.</li>
+</ul>
+<p><strong>Pro-Tip:</strong> If you have built the <strong>Key Registration Device</strong> in your bunker, you can register the Mechanical Key before deploying. This prevents you from losing it if you die during the raid. If not, simply keep the key in your secure container or inventory.</p>
+<p><img src="/images/guide/guide19-02.webp" alt="Mechanical Key" width="100%" style="width: 100%;"></p>
+
+<h2><strong>Step 2: Finding the Bronze Pocket Watch Location on Ground Zero</strong></h2>
+<p>The Bronze Pocket Watch is in a fixed location: inside the cab of a <strong>white truck attached to an orange fuel tanker</strong>. You will find this truck in the <strong>southeastern corner of Ground Zero</strong>, parked in a pile-up of abandoned vehicles across the river.</p>
+<p>The easiest landmark to navigate by is the <strong>sewer exit</strong>. The truck is located just a short distance east of this exit.</p>
+<p><img src="/images/guide/guide19-03.webp" alt="Mechanical Key" width="100%" style="width: 100%;"></p>
+
+<h3><strong>Two Reliable Routes to the Truck:</strong></h3>
+<ul>
+    <li><strong>The Bridge Route:</strong>
+        <ul>
+            <li>From the bunker entrance, head east toward the broken wooden bridge.</li>
+            <li>You will need <strong>2 Wood</strong> to repair it. (Wood can be found in toolboxes or purchased).</li>
+            <li>Cross the bridge and follow the vehicle-clogged road south to find the tanker.</li>
+            <li><strong>Risk:</strong> This route is more exposed and can attract scavengers. The southern bridge is generally quieter.</li>
+        </ul>
+    </li>
+    <li><strong>The Sewer Route (Fastest &amp; Safest):</strong>
+        <ul>
+            <li>If you have previously unlocked the sewer hatch, this is by far the best route.</li>
+            <li>Surface at the Ground Zero sewer exit.</li>
+            <li>The truck and tanker will be almost immediately in front of you, just a few meters to the east.</li>
+        </ul>
+    </li>
+</ul>
+<p>Once you reach the truck, approach the <strong>driver-side door</strong> and use the Mechanical Key from your inventory to unlock it. The Bronze Pocket Watch will be inside.</p>
+
+<h2><strong>Step 3: The Easiest Extraction</strong></h2>
+<p>You don't need to run back across the map to extract. One of the best extraction points is located right next to the objective.</p>
+<ul>
+    <li>Look for a <strong>manhole cover</strong> on the ground, just to the left of the tanker truck.</li>
+    <li>There may be a cardboard box on top of it. Simply move the box to clear the hatch.</li>
+    <li>Interacting with the open hatch provides a direct and safe shortcut back to your bunker's cellar.</li>
+</ul>
+
+<h2><strong>Step 4: Turn-in and Rewards</strong></h2>
+<p>After successfully extracting with the Bronze Pocket Watch, return to the bunker. Speak to <strong>Xavier</strong> and hand over the watch to complete the quest.</p>
+<p>Completing this task will reward you with XP and currency, and it will unlock the next quest in his storyline, <strong>"Cargo List."</strong></p>
+<p><img src="/images/guide/guide19-04.webp" alt="hand over the watch" width="100%" style="width: 100%;"></p>
+
+<h2><strong>Troubleshooting &amp; FAQ</strong></h2>
+<ul>
+    <li><strong>Is the watch spawn guaranteed?</strong>
+        <p><strong>Yes.</strong> The Bronze Pocket Watch is a fixed quest item. If you unlock the door and don't see it, it's likely a rare bug. Simply leave Ground Zero and re-enter the map to reset it.</p>
+    </li>
+    <li><strong>What happens if I die?</strong>
+        <p>Dying will reset your quest progress. You will have to go back into Ground Zero to retrieve the watch again. This is why using the quick manhole extraction is highly recommended.</p>
+    </li>
+    <li><strong>Why is this quest important?</strong>
+        <p>It provides a great early-game boost of XP and currency, teaches essential skills, and unlocks further quests to progress your main storyline.</p>
+    </li>
+</ul>
+    `,
   }
 
 
 
 
-  //   {
-  //     id: 5,
-  //     title: '',
-  //     description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-  //     imageUrl: '/images/guide-05.webp',
-  //     imageAlt: 'Storm Zone Access & Roadblock Boss Guide',
-  //     publishDate: '2025-10-27',
-  //     addressBar: '/storm-zone-access-roadblock-boss-guide',
-  //     category: 'advanced',
-  //     tags: ['STORM ZONE', 'BOSS FIGHT', 'CERTIFICATE FARMING', 'ENDGAME CONTENT', 'SURVIVAL'],
-  //     seo: {
-  //         title: 'Storm Zone Access & Roadblock Boss Guide - Escape from Duckov',
-  //         description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
-  //         keywords: 'Escape from Duckov, Storm Zone, Roadblock Boss, Certificate Farming, Endgame Guide, Boss Fight Strategy',
-  //     },
-  //   }
+
+
+
+
+  // {
+  //   id: 5,
+  //   title: '',
+  //   description: '',
+  //   imageUrl: '/images/guide-051.webp',
+  //   imageAlt: '',
+  //   publishDate: '2025-10-27',
+  //   addressBar: '/storm-zone-access-roadblock-boss-guide',
+  //   category: 'advanced',
+  //   tags: [],
+  //   seo: {
+  //       title: '',
+  //       description: '',
+  //       keywords: '',
+  //   },
+  //   detailsHtml:``
+  // }
 ]

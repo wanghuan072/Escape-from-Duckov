@@ -1,26 +1,26 @@
 export const guides = [
-    {
-        "id": 1,
-        "title": "완벽한 초보자 생존 가이드",
-        "description": "기지 설정, 첫 레이드, NPC 상호작용, 필수 생존 전략을 다루는 이 종합 가이드를 통해 'Escape from Duckov'의 기초를 마스터하세요.",
-        "imageUrl": "/images/guide-01.webp",
-        "imageAlt": "완벽한 초보자 생존 가이드",
-        "publishDate": "2025-10-27",
-        "addressBar": "/complete-beginner-survival-guide",
-        "category": "getting-started",
-        "tags": [
-            "SURVIVAL",
-            "BASE SETUP",
-            "FIRST RAID",
-            "NPC GUIDE",
-            "COMBAT BASICS"
-        ],
-        "seo": {
-            "title": "완벽한 초보자 생존 가이드 - Escape from Duckov",
-            "description": "기지 설정, 첫 레이드, NPC 상호작용, 필수 생존 전략을 다루는 이 종합 가이드를 통해 'Escape from Duckov'의 기초를 마스터하세요.",
-            "keywords": "Escape from Duckov, 초보자 가이드, 생존 가이드, 기지 설정, 첫 레이드, NPC 가이드, 전투 기초, Ground Zero"
-        },
-        "detailsHtml": `
+  {
+    "id": 1,
+    "title": "완벽한 초보자 생존 가이드",
+    "description": "기지 설정, 첫 레이드, NPC 상호작용, 필수 생존 전략을 다루는 이 종합 가이드를 통해 'Escape from Duckov'의 기초를 마스터하세요.",
+    "imageUrl": "/images/guide-01.webp",
+    "imageAlt": "완벽한 초보자 생존 가이드",
+    "publishDate": "2025-10-27",
+    "addressBar": "/complete-beginner-survival-guide",
+    "category": "getting-started",
+    "tags": [
+      "SURVIVAL",
+      "BASE SETUP",
+      "FIRST RAID",
+      "NPC GUIDE",
+      "COMBAT BASICS"
+    ],
+    "seo": {
+      "title": "완벽한 초보자 생존 가이드 - Escape from Duckov",
+      "description": "기지 설정, 첫 레이드, NPC 상호작용, 필수 생존 전략을 다루는 이 종합 가이드를 통해 'Escape from Duckov'의 기초를 마스터하세요.",
+      "keywords": "Escape from Duckov, 초보자 가이드, 생존 가이드, 기지 설정, 첫 레이드, NPC 가이드, 전투 기초, Ground Zero"
+    },
+    "detailsHtml": `
               <p>위험한 <a href="/">Escape from Duckov</a>의 세계에 오신 것을 환영합니다! 이 종합 초보자 가이드는 은신처 설정부터 초기 원정 완료까지, 이 서바이벌 RPG에서 여러분의 첫 걸음을 안내할 것입니다.</p>
               
               <h2>1. 기지 설정 및 초기 임무</h2>
@@ -121,29 +121,29 @@ export const guides = [
               <h2>최종 권장 사항</h2>
               <p>기지 시설을 최대화하고, 방어구 상점 건설을 우선시하며, 백팩 전문가 특전에 투자하고, 텔레포트 지름길을 일찍 만드세요. 더 고급 전략을 위해, 저희의 <a href="/guides">종합 가이드 모음</a>을 탐색하세요. 이러한 전략들은 Duckov의 가혹한 환경에서 여러분의 생존 가능성을 크게 향상시킬 것입니다. 탈출에 행운이 있기를!</p>
               `
+  },
+  {
+    "id": 2,
+    "title": "완벽한 튜토리얼 및 초반 게임 공략",
+    "description": "튜토리얼 탈출, 기지 건설, 그리고 상세한 퀘스트 안내가 포함된 첫 Ground Zero 원정을 다루는 이 종합적인 단계별 공략을 따르세요.",
+    "imageUrl": "/images/guide-02.webp",
+    "imageAlt": "완벽한 튜토리얼 및 초반 게임 공략",
+    "publishDate": "2025-10-27",
+    "addressBar": "/complete-tutorial-early-game-walkthrough",
+    "category": "getting-started",
+    "tags": [
+      "TUTORIAL",
+      "EARLY GAME",
+      "GROUND ZERO",
+      "QUEST GUIDE",
+      "BASE BUILDING"
+    ],
+    "seo": {
+      "title": "완벽한 튜토리얼 및 초반 게임 공략 - Escape from Duckov",
+      "description": "튜토리얼 탈출, 기지 건설, 그리고 상세한 퀘스트 안내가 포함된 첫 Ground Zero 원정을 다루는 이 종합적인 단계별 공략을 따르세요.",
+      "keywords": "Escape from Duckov, 튜토리얼 공략, 초반 게임 가이드, Ground Zero, 퀘스트 가이드, 기지 건설, 감옥 탈출"
     },
-    {
-        "id": 2,
-        "title": "완벽한 튜토리얼 및 초반 게임 공략",
-        "description": "튜토리얼 탈출, 기지 건설, 그리고 상세한 퀘스트 안내가 포함된 첫 Ground Zero 원정을 다루는 이 종합적인 단계별 공략을 따르세요.",
-        "imageUrl": "/images/guide-02.webp",
-        "imageAlt": "완벽한 튜토리얼 및 초반 게임 공략",
-        "publishDate": "2025-10-27",
-        "addressBar": "/complete-tutorial-early-game-walkthrough",
-        "category": "getting-started",
-        "tags": [
-            "TUTORIAL",
-            "EARLY GAME",
-            "GROUND ZERO",
-            "QUEST GUIDE",
-            "BASE BUILDING"
-        ],
-        "seo": {
-            "title": "완벽한 튜토리얼 및 초반 게임 공략 - Escape from Duckov",
-            "description": "튜토리얼 탈출, 기지 건설, 그리고 상세한 퀘스트 안내가 포함된 첫 Ground Zero 원정을 다루는 이 종합적인 단계별 공략을 따르세요.",
-            "keywords": "Escape from Duckov, 튜토리얼 공략, 초반 게임 가이드, Ground Zero, 퀘스트 가이드, 기지 건설, 감옥 탈출"
-        },
-        "detailsHtml": `
+    "detailsHtml": `
               <p>이 종합 공략은 감옥 탈출부터 기지 건설 및 초기 Ground Zero 원정을 완료하기까지 <a href="/">Escape from Duckov</a>에서의 첫 몇 시간을 안내할 것입니다. 초반 게임에 체계적인 접근 방식을 원하는 플레이어에게 완벽합니다.</p>
               
               <h2>1. 튜토리얼: 감옥 탈출</h2>
@@ -253,30 +253,30 @@ export const guides = [
               <h2>결론</h2>
               <p>이 공략은 Escape from Duckov에서의 필수적인 첫 단계를 다룹니다. 감옥 탈출, 기지 건설, 첫 Ground Zero 원정을 성공적으로 완료하고 여러 퀘스트 라인을 잠금 해제했습니다. 이용 가능한 모든 임무는 저희 <a href="/wiki/quests">종합 퀘스트 데이터베이스</a>를 확인하십시오. 이용 가능한 퀘스트 완료, 장비 업그레이드, 그리고 더 어려운 원정을 위한 준비에 집중하세요. 더 깊은 전략을 위해 <a href="/guides">고급 가이드</a>를 탐색하세요.</p>
               `
-    },
+  },
 
-    {
-        "id": 3,
-        "title": "고급 Ground Zero 탐험 및 기지 확장",
-        "description": "이 종합적인 중반 게임 공략을 통해 고급 Ground Zero 원정을 마스터하고, 복잡한 퀘스트 체인을 완료하며, 기지 시설을 확장하세요.",
-        "imageUrl": "/images/guide-03.webp",
-        "imageAlt": "고급 Ground Zero 탐험 및 기지 확장",
-        "publishDate": "2025-10-27",
-        "addressBar": "/advanced-ground-zero-exploration-base-expansion",
-        "category": "walkthroughs",
-        "tags": [
-            "ADVANCED EXPLORATION",
-            "BASE EXPANSION",
-            "QUEST CHAINS",
-            "EQUIPMENT UPGRADES",
-            "GROUND ZERO"
-        ],
-        "seo": {
-            "title": "고급 Ground Zero 탐험 및 기지 확장 - Escape from Duckov",
-            "description": "이 종합적인 중반 게임 공략을 통해 고급 Ground Zero 원정을 마스터하고, 복잡한 퀘스트 체인을 완료하며, 기지 시설을 확장하세요.",
-            "keywords": "Escape from Duckov, 고급 공략, Ground Zero 탐험, 기지 확장, 퀘스트 체인, 장비 업그레이드, 중반 게임 가이드"
-        },
-        "detailsHtml": `
+  {
+    "id": 3,
+    "title": "고급 Ground Zero 탐험 및 기지 확장",
+    "description": "이 종합적인 중반 게임 공략을 통해 고급 Ground Zero 원정을 마스터하고, 복잡한 퀘스트 체인을 완료하며, 기지 시설을 확장하세요.",
+    "imageUrl": "/images/guide-03.webp",
+    "imageAlt": "고급 Ground Zero 탐험 및 기지 확장",
+    "publishDate": "2025-10-27",
+    "addressBar": "/advanced-ground-zero-exploration-base-expansion",
+    "category": "walkthroughs",
+    "tags": [
+      "ADVANCED EXPLORATION",
+      "BASE EXPANSION",
+      "QUEST CHAINS",
+      "EQUIPMENT UPGRADES",
+      "GROUND ZERO"
+    ],
+    "seo": {
+      "title": "고급 Ground Zero 탐험 및 기지 확장 - Escape from Duckov",
+      "description": "이 종합적인 중반 게임 공략을 통해 고급 Ground Zero 원정을 마스터하고, 복잡한 퀘스트 체인을 완료하며, 기지 시설을 확장하세요.",
+      "keywords": "Escape from Duckov, 고급 공략, Ground Zero 탐험, 기지 확장, 퀘스트 체인, 장비 업그레이드, 중반 게임 가이드"
+    },
+    "detailsHtml": `
               <p>이 고급 공략은 <a href="/">Escape from Duckov</a>의 중반 게임 진행을 다루며, 복잡한 Ground Zero 원정, 기지 시설 확장, 복잡한 퀘스트 체인 완료에 중점을 둡니다. 더 도전적인 콘텐츠에 도전할 준비가 된 플레이어에게 완벽합니다.</p>
               
               <h2>1. 고급 Ground Zero 탐험</h2>
@@ -386,29 +386,29 @@ export const guides = [
               <h2>결론</h2>
               <p>이 고급 공략은 Escape from Duckov에서의 중요한 중반 게임 진행을 다룹니다. 복잡한 Ground Zero 원정을 성공적으로 완료하고, 기지 시설을 확장하며, 고급 제작 기능을 잠금 해제했습니다. 이용 가능한 모든 임무 세부 정보는 저희 <a href="/wiki/quests">퀘스트 데이터베이스</a>를 확인하십시오. 새로운 퀘스트 체인을 완료하고, 장비를 업그레이드하며, 앞으로 더 도전적인 콘텐츠에 대비하는 데 집중하세요. Storm Zone 접근 가이드를 포함한 더 <a href="/guides">고급 가이드</a>를 탐색하세요. 여러분이 구축한 기반은 Duckov의 가장 위험한 지역에서 생존하는 데 필수적일 것입니다.</p>
               `
+  },
+  {
+    "id": 4,
+    "title": "핵심 게임 메커니즘 및 시스템 마스터하기",
+    "description": "기지 관리, 캐릭터 성장, 전투 시스템, 탐험 및 생존 전략을 다루는 Escape from Duckov의 핵심 메커니즘에 대한 종합 가이드입니다.",
+    "imageUrl": "/images/guide-04.webp",
+    "imageAlt": "핵심 게임 메커니즘 및 시스템 마스터하기",
+    "publishDate": "2025-10-27",
+    "addressBar": "/master-core-game-mechanics-systems",
+    "category": "getting-started",
+    "tags": [
+      "CORE MECHANICS",
+      "BASE MANAGEMENT",
+      "COMBAT SYSTEMS",
+      "CHARACTER PROGRESSION",
+      "SURVIVAL"
+    ],
+    "seo": {
+      "title": "핵심 게임 메커니즘 및 시스템 마스터하기 - Escape from Duckov",
+      "description": "기지 관리, 캐릭터 성장, 전투 시스템, 탐험 및 생존 전략을 다루는 Escape from Duckov의 핵심 메커니즘에 대한 종합 가이드입니다.",
+      "keywords": "Escape from Duckov, 핵심 메커니즘, 기지 관리, 전투 시스템, 캐릭터 성장, 생존 가이드, 게임 시스템"
     },
-    {
-        "id": 4,
-        "title": "핵심 게임 메커니즘 및 시스템 마스터하기",
-        "description": "기지 관리, 캐릭터 성장, 전투 시스템, 탐험 및 생존 전략을 다루는 Escape from Duckov의 핵심 메커니즘에 대한 종합 가이드입니다.",
-        "imageUrl": "/images/guide-04.webp",
-        "imageAlt": "핵심 게임 메커니즘 및 시스템 마스터하기",
-        "publishDate": "2025-10-27",
-        "addressBar": "/master-core-game-mechanics-systems",
-        "category": "getting-started",
-        "tags": [
-            "CORE MECHANICS",
-            "BASE MANAGEMENT",
-            "COMBAT SYSTEMS",
-            "CHARACTER PROGRESSION",
-            "SURVIVAL"
-        ],
-        "seo": {
-            "title": "핵심 게임 메커니즘 및 시스템 마스터하기 - Escape from Duckov",
-            "description": "기지 관리, 캐릭터 성장, 전투 시스템, 탐험 및 생존 전략을 다루는 Escape from Duckov의 핵심 메커니즘에 대한 종합 가이드입니다.",
-            "keywords": "Escape from Duckov, 핵심 메커니즘, 기지 관리, 전투 시스템, 캐릭터 성장, 생존 가이드, 게임 시스템"
-        },
-        "detailsHtml": `
+    "detailsHtml": `
               <p>이 종합 가이드는 기지 관리 및 캐릭터 개발부터 전투 시스템 및 탐험 전략에 이르기까지 <a href="/">Escape from Duckov</a>의 모든 필수 게임 메커니즘을 다룹니다. 이러한 핵심 시스템을 마스터하여 생존 잠재력을 극대화하세요.</p>
               
               <h2>I. 기지 관리 및 제작 시스템</h2>
@@ -554,30 +554,30 @@ export const guides = [
               <h2>결론</h2>
               <p>이러한 핵심 메커니즘을 마스터하는 것은 Escape from Duckov에서의 성공에 필수적입니다. 효율적인 기지 관리, 전략적인 캐릭터 개발, 신중한 위험 평가에 집중하세요. 자세한 아이템 정보는 저희 <a href="/items">완벽한 아이템 데이터베이스</a>를 방문하세요. 시스템들은 함께 작동하여 준비와 지식이 가장 큰 자산이 되는 도전적이지만 보람 있는 생존 경험을 창조합니다. 게임 플레이를 향상시키기 위해 더 <a href="/guides">전략적인 가이드</a>를 탐색하세요.</p>
               `
-    },
+  },
 
-    {
-        "id": 5,
-        "title": "Storm Zone 접근 및 Roadblock 보스 가이드",
-        "description": "전력 활성화, 증명서 획득, Roadblock 보스 전략, 그리고 Duckov의 가장 위험한 지역을 위한 필수 준비를 포함하는 Storm Zone 접근의 완벽한 가이드입니다.",
-        "imageUrl": "/images/guide-05.webp",
-        "imageAlt": "Storm Zone 접근 및 Roadblock 보스 가이드",
-        "publishDate": "2025-10-27",
-        "addressBar": "/storm-zone-access-roadblock-boss-guide",
-        "category": "advanced",
-        "tags": [
-            "STORM ZONE",
-            "BOSS FIGHT",
-            "CERTIFICATE FARMING",
-            "ENDGAME CONTENT",
-            "SURVIVAL"
-        ],
-        "seo": {
-            "title": "Storm Zone 접근 및 Roadblock 보스 가이드 - Escape from Duckov",
-            "description": "전력 활성화, 증명서 획득, Roadblock 보스 전략, 그리고 Duckov의 가장 위험한 지역을 위한 필수 준비를 포함하는 Storm Zone 접근의 완벽한 가이드입니다.",
-            "keywords": "Escape from Duckov, Storm Zone, Roadblock 보스, 증명서 파밍, 최종 게임 가이드, 보스전 전략"
-        },
-        "detailsHtml": `
+  {
+    "id": 5,
+    "title": "Storm Zone 접근 및 Roadblock 보스 가이드",
+    "description": "전력 활성화, 증명서 획득, Roadblock 보스 전략, 그리고 Duckov의 가장 위험한 지역을 위한 필수 준비를 포함하는 Storm Zone 접근의 완벽한 가이드입니다.",
+    "imageUrl": "/images/guide-05.webp",
+    "imageAlt": "Storm Zone 접근 및 Roadblock 보스 가이드",
+    "publishDate": "2025-10-27",
+    "addressBar": "/storm-zone-access-roadblock-boss-guide",
+    "category": "advanced",
+    "tags": [
+      "STORM ZONE",
+      "BOSS FIGHT",
+      "CERTIFICATE FARMING",
+      "ENDGAME CONTENT",
+      "SURVIVAL"
+    ],
+    "seo": {
+      "title": "Storm Zone 접근 및 Roadblock 보스 가이드 - Escape from Duckov",
+      "description": "전력 활성화, 증명서 획득, Roadblock 보스 전략, 그리고 Duckov의 가장 위험한 지역을 위한 필수 준비를 포함하는 Storm Zone 접근의 완벽한 가이드입니다.",
+      "keywords": "Escape from Duckov, Storm Zone, Roadblock 보스, 증명서 파밍, 최종 게임 가이드, 보스전 전략"
+    },
+    "detailsHtml": `
               <p>이 종합 가이드는 Duckov의 가장 위험한 지역인 **Storm Zone**에 접근하는 전체 과정을 다룹니다. 전력 시스템 활성화, 필요한 **증명서** 획득, **Roadblock** 보스 처치 방법, 그리고 극한의 최종 게임 도전에 대비하는 방법을 배우세요. <a href="/maps">지도 위치</a> 및 상세 지역 정보는 저희 지도 섹션을 방문하십시오.</p>
               
               <h2>1. 시설 전력 활성화</h2>
@@ -671,29 +671,29 @@ export const guides = [
               <h2>결론</h2>
               <p>Storm Zone은 Escape from Duckov 도전의 정점을 나타냅니다. 성공은 세심한 준비, 최적의 장비, 그리고 고급 전투 기술의 숙달을 요구합니다. 임무 관련 증명서 요구 사항은 저희 <a href="/wiki/quests">퀘스트 데이터베이스</a>를 확인하세요. 이 가이드를 주의 깊게 따르고, 철저히 준비하며, Storm Zone에서의 생존은 그 극도의 위험에 대한 존중을 요구한다는 것을 기억하세요. 더 고급 전략을 위해 저희 <a href="/guides">완벽한 가이드 모음</a>을 탐색하세요. Duckov에서의 궁극적인 탈출에 행운이 있기를!</p>
               `
+  },
+  {
+    "id": 6,
+    "title": "escape from duckov ledx",
+    "description": "Escape from Duckov에서 찾기 힘든 LEDX를 찾고 계신가요? 이 가이드는 스폰 위치, 키 사용법, 적 드롭, 시장 가치를 포함하여 획득을 위한 최선의 방법을 분석합니다. 이 필수 의료 아이템을 찾을 가능성을 극대화하고 현명한 거래 팁을 발견하세요!",
+    "tags": [
+      "Escape from Duckov",
+      "LEDX",
+      "Rare Item",
+      "Loot Guide",
+      "Sanatorium Key"
+    ],
+    "publishDate": "2025-10-28",
+    "imageUrl": "/images/guide/guide06-01.webp",
+    "imageAlt": "Escape from Duckov의 작업대에 표시된 LEDX 피부 투명화 장치.",
+    "category": "advanced",
+    "seo": {
+      "title": "Escape from Duckov LEDX: 궁극적인 획득 가이드",
+      "description": "Escape from Duckov에서 희귀한 LEDX를 찾는 방법을 배우세요. 이 중요한 의료 아이템을 획득하고 스마트한 거래 팁을 발견하세요!",
+      "keywords": "escape from duckov, ledx, 전리품 가이드, 요양원, 키, 희귀 아이템, 거래, 퀘스트"
     },
-    {
-        "id": 6,
-        "title": "escape from duckov ledx",
-        "description": "Escape from Duckov에서 찾기 힘든 LEDX를 찾고 계신가요? 이 가이드는 스폰 위치, 키 사용법, 적 드롭, 시장 가치를 포함하여 획득을 위한 최선의 방법을 분석합니다. 이 필수 의료 아이템을 찾을 가능성을 극대화하고 현명한 거래 팁을 발견하세요!",
-        "tags": [
-            "Escape from Duckov",
-            "LEDX",
-            "Rare Item",
-            "Loot Guide",
-            "Sanatorium Key"
-        ],
-        "publishDate": "2025-10-28",
-        "imageUrl": "/images/guide/guide06-01.webp",
-        "imageAlt": "Escape from Duckov의 작업대에 표시된 LEDX 피부 투명화 장치.",
-        "category": "advanced",
-        "seo": {
-            "title": "Escape from Duckov LEDX: 궁극적인 획득 가이드",
-            "description": "Escape from Duckov에서 희귀한 LEDX를 찾는 방법을 배우세요. 이 중요한 의료 아이템을 획득하고 스마트한 거래 팁을 발견하세요!",
-            "keywords": "escape from duckov, ledx, 전리품 가이드, 요양원, 키, 희귀 아이템, 거래, 퀘스트"
-        },
-        "addressBar": "/escape-from-duckov-ledx",
-        "detailsHtml": `
+    "addressBar": "/escape-from-duckov-ledx",
+    "detailsHtml": `
               <h2 style="font-size: 1.5em; font-weight: bold;">
         <span>escape from duckov ledx</span>
       </h2>
@@ -766,29 +766,29 @@ export const guides = [
       </p>
       
               `
-    },
+  },
 
-    {
-        "id": 7,
-        "title": "Escape from Duckov J-Lab 액세스 카드 획득 가이드",
-        "iframeUrl": "1",
-        "description": "Duckov의 위험한 교외를 탐색하고 J-Lab에 대한 액세스를 확보하세요! 이 가이드는 기본 J-Lab 1부터 찾기 힘든 유색 변형까지 모든 J-Lab 액세스 카드를 획득하기 위한 상세한 스폰 위치, 퀘스트 공략 및 전문가 팁을 제공합니다. 연구소를 지배하고 프로처럼 전리품을 챙기세요!",
-        "tags": [
-            "Escape from Duckov",
-            "J-Lab Cards",
-            "Access Guide"
-        ],
-        "publishDate": "2025-10-28",
-        "imageUrl": "/images/guide/guide07-01.webp",
-        "imageAlt": "Escape from Duckov에서 산업 장비로 가득 찬 희미하게 조명된 방 안에서 J-Lab 액세스 카드를 약탈하는 플레이어 캐릭터.",
-        "category": "advanced",
-        "seo": {
-            "title": "Escape from Duckov: J-Lab 카드 가이드 - 모든 연구소 잠금 해제!",
-            "description": "Escape from Duckov의 모든 J-Lab을 잠금 해제하세요! 이 가이드는 J-Lab 카드 위치, 퀘스트 보상 및 고급 전리품을 효율적으로 습격하기 위한 파밍 방법을 자세히 설명합니다. 지금 Duckov를 지배하세요!",
-            "keywords": "escape from duckov j-lab 카드, 액세스 카드 가이드, 덕코프, 연구소 액세스, 약탈 가이드, 퀘스트 가이드, 파밍 가이드, 레드 카드, 블루 카드, 그린 카드"
-        },
-        "addressBar": "/escape-from-duckov-j-lab-access-card-acquisition-guide",
-        "detailsHtml": `
+  {
+    "id": 7,
+    "title": "Escape from Duckov J-Lab 액세스 카드 획득 가이드",
+    "iframeUrl": "1",
+    "description": "Duckov의 위험한 교외를 탐색하고 J-Lab에 대한 액세스를 확보하세요! 이 가이드는 기본 J-Lab 1부터 찾기 힘든 유색 변형까지 모든 J-Lab 액세스 카드를 획득하기 위한 상세한 스폰 위치, 퀘스트 공략 및 전문가 팁을 제공합니다. 연구소를 지배하고 프로처럼 전리품을 챙기세요!",
+    "tags": [
+      "Escape from Duckov",
+      "J-Lab Cards",
+      "Access Guide"
+    ],
+    "publishDate": "2025-10-28",
+    "imageUrl": "/images/guide/guide07-01.webp",
+    "imageAlt": "Escape from Duckov에서 산업 장비로 가득 찬 희미하게 조명된 방 안에서 J-Lab 액세스 카드를 약탈하는 플레이어 캐릭터.",
+    "category": "advanced",
+    "seo": {
+      "title": "Escape from Duckov: J-Lab 카드 가이드 - 모든 연구소 잠금 해제!",
+      "description": "Escape from Duckov의 모든 J-Lab을 잠금 해제하세요! 이 가이드는 J-Lab 카드 위치, 퀘스트 보상 및 고급 전리품을 효율적으로 습격하기 위한 파밍 방법을 자세히 설명합니다. 지금 Duckov를 지배하세요!",
+      "keywords": "escape from duckov j-lab 카드, 액세스 카드 가이드, 덕코프, 연구소 액세스, 약탈 가이드, 퀘스트 가이드, 파밍 가이드, 레드 카드, 블루 카드, 그린 카드"
+    },
+    "addressBar": "/escape-from-duckov-j-lab-access-card-acquisition-guide",
+    "detailsHtml": `
               <p style="margin: 1em 0px;">
         <a href="/">Escape from Duckov</a>에서 **J-Lab 액세스 카드**는 Duckov 교외 전역에 흩어져 있는 제한된 연구소에 접근하는 데 중요합니다.
         첫 번째 진입 레벨 카드(J-Lab 1)는 비교적 찾기 쉽지만, 레벨 2 카드 및 **유색 액세스 카드**(빨간색, 파란색, 녹색, 보라색, 노란색, 검은색)를 포함한 더 고급 버전은 훨씬 희귀하며 일반적으로 더 깊은 탐험, 약탈 및 특정 퀘스트 완료를 통해 잠금 해제됩니다. 키 카드 정보는 저희 <a href="/items/key">열쇠 데이터베이스</a>를 확인하세요.
@@ -930,26 +930,26 @@ export const guides = [
       </p>
       
               `,
+  },
+  {
+    "id": 8,
+    "title": "Escape from Duckov Scavenger: 날뛰는 약탈자를 찾는 곳",
+    "description": "Escape from Duckov에서 '사냥꾼의 길(Hunter's Path)'에 착수하세요! 이 가이드는 날뛰는 약탈자를 제거하기 위한 정확한 위치와 전략을 제공합니다.",
+    "tags": [
+      "Escape from Duckov",
+      "Hunter's Path Quest"
+    ],
+    "publishDate": "2025-10-30",
+    "imageUrl": "/images/guide/guide08-01.webp",
+    "imageAlt": "Escape from Duckov의 날뛰는 약탈자, 빨간색 옷과 정육점 칼로 식별할 수 있습니다.",
+    "category": "advanced",
+    "seo": {
+      "title": "Escape from Duckov Scavenger: 날뛰는 약탈자를 찾는 곳",
+      "description": "저희 전문가 가이드로 Escape from Duckov의 '사냥꾼의 길' 퀘스트를 완료하세요! 날뛰는 약탈자를 찾아 빠르게 처치하고 보상을 받으세요. 지금 읽어보세요!",
+      "keywords": "escape from duckov, 사냥꾼의 길, 날뛰는 약탈자, 퀘스트 가이드, 황무지 생존, 헤드샷 전략, 게임 팁"
     },
-    {
-        "id": 8,
-        "title": "Escape from Duckov Scavenger: 날뛰는 약탈자를 찾는 곳",
-        "description": "Escape from Duckov에서 '사냥꾼의 길(Hunter's Path)'에 착수하세요! 이 가이드는 날뛰는 약탈자를 제거하기 위한 정확한 위치와 전략을 제공합니다.",
-        "tags": [
-            "Escape from Duckov",
-            "Hunter's Path Quest"
-        ],
-        "publishDate": "2025-10-30",
-        "imageUrl": "/images/guide/guide08-01.webp",
-        "imageAlt": "Escape from Duckov의 날뛰는 약탈자, 빨간색 옷과 정육점 칼로 식별할 수 있습니다.",
-        "category": "advanced",
-        "seo": {
-            "title": "Escape from Duckov Scavenger: 날뛰는 약탈자를 찾는 곳",
-            "description": "저희 전문가 가이드로 Escape from Duckov의 '사냥꾼의 길' 퀘스트를 완료하세요! 날뛰는 약탈자를 찾아 빠르게 처치하고 보상을 받으세요. 지금 읽어보세요!",
-            "keywords": "escape from duckov, 사냥꾼의 길, 날뛰는 약탈자, 퀘스트 가이드, 황무지 생존, 헤드샷 전략, 게임 팁"
-        },
-        "addressBar": "/escape-from-duckov-rampaging-scavenger",
-        "detailsHtml": `
+    "addressBar": "/escape-from-duckov-rampaging-scavenger",
+    "detailsHtml": `
             <p style="margin: 1em 0px;">
         <a href="/">Escape from Duckov</a>에서 받게 될 초기 임무 중 하나는 황무지의 더 공격적인 거주자들인 **날뛰는 약탈자(Rampaging Scavengers)**를 사냥하고 제거하는 임무를 맡는 **"사냥꾼의 길(Hunter's Path)"** 퀘스트입니다. 이 가이드는 이 날렵한 적들을 정확히 어디서 찾아야 하는지, 어떻게 효율적으로 처치해야 하는지, 그리고 퀘스트를 완료하는 방법을 보여줄 것입니다. 이용 가능한 모든 임무는 저희 <a href="/wiki/quests">퀘스트 데이터베이스</a>를 확인하세요.
       </p>
@@ -1035,30 +1035,30 @@ export const guides = [
       </p>
       
             `,
-    },
+  },
 
-    {
-        "id": 9,
-        "title": "Escape From Duckov 토트백 가이드",
-        "description": "Escape From Duckov에서 토트백의 미스터리를 풀어보세요! 많은 플레이어가 이 '고급 아이템'을 간과하지만, 이것은 고유한 보스 드롭을 획득하는 데 필수적입니다. 이 아이템을 어디서 찾고, 목적이 무엇이며, Farm Town에서 진행하는 데 왜 보관하는 것이 중요한지 알아보세요. 똑같은 실수를 하지 마세요!",
-        "tags": [
-            "Escape From Duckov",
-            "Tote Bag",
-            "Red Blob Boss",
-            "Red Eye",
-            "Farm Town"
-        ],
-        "publishDate": "2025-10-30",
-        "imageUrl": "/images/guide/guide09-01.webp",
-        "imageAlt": "Escape From Duckov에서 전리품 저장고 근처에서 토트백을 들고 있는 플레이어 캐릭터.",
-        "category": "advanced",
-        "seo": {
-            "title": "Escape From Duckov 토트백 가이드",
-            "description": "Escape From Duckov에서 토트백의 비밀을 발견하세요. 이것을 찾는 방법, 사용하는 방법, 그리고 Red Blob 보스에게서 Red Eye를 얻는 데 왜 필수적인지 알아보세요. 완벽 가이드!",
-            "keywords": "escape from duckov, 토트백, 레드 블롭 보스, 레드 아이, 팜 타운, 고유 아이템, 보스 드롭, 가이드, 공략, 전략"
-        },
-        "addressBar": "/escape-from-duckov-tote-bag-guide",
-        "detailsHtml": `
+  {
+    "id": 9,
+    "title": "Escape From Duckov 토트백 가이드",
+    "description": "Escape From Duckov에서 토트백의 미스터리를 풀어보세요! 많은 플레이어가 이 '고급 아이템'을 간과하지만, 이것은 고유한 보스 드롭을 획득하는 데 필수적입니다. 이 아이템을 어디서 찾고, 목적이 무엇이며, Farm Town에서 진행하는 데 왜 보관하는 것이 중요한지 알아보세요. 똑같은 실수를 하지 마세요!",
+    "tags": [
+      "Escape From Duckov",
+      "Tote Bag",
+      "Red Blob Boss",
+      "Red Eye",
+      "Farm Town"
+    ],
+    "publishDate": "2025-10-30",
+    "imageUrl": "/images/guide/guide09-01.webp",
+    "imageAlt": "Escape From Duckov에서 전리품 저장고 근처에서 토트백을 들고 있는 플레이어 캐릭터.",
+    "category": "advanced",
+    "seo": {
+      "title": "Escape From Duckov 토트백 가이드",
+      "description": "Escape From Duckov에서 토트백의 비밀을 발견하세요. 이것을 찾는 방법, 사용하는 방법, 그리고 Red Blob 보스에게서 Red Eye를 얻는 데 왜 필수적인지 알아보세요. 완벽 가이드!",
+      "keywords": "escape from duckov, 토트백, 레드 블롭 보스, 레드 아이, 팜 타운, 고유 아이템, 보스 드롭, 가이드, 공략, 전략"
+    },
+    "addressBar": "/escape-from-duckov-tote-bag-guide",
+    "detailsHtml": `
           <p style="margin: 1em 0px;">
         <a href="/">Escape from Duckov</a>의 세계에서 여러분은 많은 아이템을 접하게 될 것입니다. 일부는 제작용이고, 일부는 판매용이며, 그리고 **토트백(Tote Bag)**과 같은 일부는 즉시 명확하지 않은 매우 특수하고 중요한 목적을 가지고 있습니다. 많은 새로운 플레이어는 이 "고급 아이템"을 빠른 이익을 위해 판매하는 실수를 저지르는데, 이것이 게임의 고유한 보스 드롭 중 하나를 획득하는 데 필수적인 도구라는 것을 깨닫지 못합니다. 모든 특수 아이템에 대해 알아보려면 저희 <a href="/items">아이템 데이터베이스</a>를 탐색하십시오.
       </p>
@@ -1205,30 +1205,30 @@ export const guides = [
       </p>
       
           `
+  },
+  {
+    "id": 10,
+    "title": "Escape from Duckov 낚시 가이드",
+    "description": "미끼 제작, 낚싯대 사용법, QTE 타이밍, 낚시 스팟, 날씨 조건, 그리고 특별한 물고기 요구 사항을 포함하는 Escape from Duckov 낚시 메커니즘에 대한 완벽한 가이드입니다. 낚시 미니 게임을 마스터하고 포획률을 최적화하세요.",
+    "imageUrl": "/images/guide/guide10-01.webp",
+    "imageAlt": "Escape from Duckov 낚시 가이드",
+    "publishDate": "2025-10-31",
+    "addressBar": "/fishing-guides-for-escape-from-duckov",
+    "category": "advanced",
+    "tags": [
+      "FISHING",
+      "BAIT",
+      "FISHING ROD",
+      "QTE",
+      "MINI-GAME",
+      "ADVANCED MECHANICS"
+    ],
+    "seo": {
+      "title": "Escape from Duckov 낚시 가이드 - 완벽한 미끼, 낚싯대 및 메커니즘 가이드",
+      "description": "미끼 제작(지렁이, 쿠키), 낚싯대 장비, QTE 미니 게임 메커니즘, 날씨 기반 포획, Whiteback Fish와 같은 특수 물고기, 낚시 스팟 위치를 다루는 저희의 종합 가이드로 Escape from Duckov 낚시를 마스터하세요. 낚시 모드 사용 팁 포함.",
+      "keywords": "Escape from Duckov 낚시, 낚시 가이드, 미끼 제작, 낚싯대, QTE 미니 게임, 지렁이, 낚시 스팟, 날씨 낚시, Whiteback Fish, R6 배터리 미끼, 낚시 모드"
     },
-    {
-        "id": 10,
-        "title": "Escape from Duckov 낚시 가이드",
-        "description": "미끼 제작, 낚싯대 사용법, QTE 타이밍, 낚시 스팟, 날씨 조건, 그리고 특별한 물고기 요구 사항을 포함하는 Escape from Duckov 낚시 메커니즘에 대한 완벽한 가이드입니다. 낚시 미니 게임을 마스터하고 포획률을 최적화하세요.",
-        "imageUrl": "/images/guide/guide10-01.webp",
-        "imageAlt": "Escape from Duckov 낚시 가이드",
-        "publishDate": "2025-10-31",
-        "addressBar": "/fishing-guides-for-escape-from-duckov",
-        "category": "advanced",
-        "tags": [
-            "FISHING",
-            "BAIT",
-            "FISHING ROD",
-            "QTE",
-            "MINI-GAME",
-            "ADVANCED MECHANICS"
-        ],
-        "seo": {
-            "title": "Escape from Duckov 낚시 가이드 - 완벽한 미끼, 낚싯대 및 메커니즘 가이드",
-            "description": "미끼 제작(지렁이, 쿠키), 낚싯대 장비, QTE 미니 게임 메커니즘, 날씨 기반 포획, Whiteback Fish와 같은 특수 물고기, 낚시 스팟 위치를 다루는 저희의 종합 가이드로 Escape from Duckov 낚시를 마스터하세요. 낚시 모드 사용 팁 포함.",
-            "keywords": "Escape from Duckov 낚시, 낚시 가이드, 미끼 제작, 낚싯대, QTE 미니 게임, 지렁이, 낚시 스팟, 날씨 낚시, Whiteback Fish, R6 배터리 미끼, 낚시 모드"
-        },
-        "detailsHtml": `
+    "detailsHtml": `
               <p>낚시는 <a href="/">Escape from Duckov</a>에서 귀중한 자원과 퀘스트 완료 아이템을 제공하는 필수적인 생존 메커니즘입니다. 이 종합 가이드는 낚시 메커니즘, 미끼 준비, 낚싯대 사용법, 그리고 도전적인 QTE 미니 게임 마스터에 대해 알아야 할 모든 것을 다룹니다.</p>
               
               <h2>1. 미끼 준비 및 제작</h2>
@@ -1355,29 +1355,29 @@ export const guides = [
               <h2>결론</h2>
               <p>Escape from Duckov에서 낚시를 마스터하려면 미끼 메커니즘, 장비 설정, QTE 타이밍 및 환경 요인에 대한 이해가 필요합니다. 낚시 시스템은 도전적이지만 보람이 있으며, 필수적인 자원과 퀘스트 완료 아이템을 제공합니다. 이 가이드를 사용하여 낚시 효율성을 최적화하고, 귀중한 미끼 자원을 보존하며, 낚시 관련 퀘스트를 성공적으로 완료하십시오. 낚시 경험을 향상시키기 위해 날씨 조건을 확인하고, 낚시 메모를 수집하고, 모드 또는 게임 속도 조정을 사용하는 것을 고려하는 것을 잊지 마십시오. 모든 낚시 아이템에 대한 상세 정보는 저희 종합 <a href="/items/fish">낚시 데이터베이스</a>를 방문하십시오. 추가 생존 전략은 더 <a href="/guides">고급 가이드</a>를 탐색하십시오.</p>
           `
+  },
+  {
+    "id": 11,
+    "title": "Escape from Duckov 검소한 사람을 위한 가이드: 보관할 것과 판매할 것",
+    "description": "Duckov에서 인벤토리 관리에 어려움을 겪고 계십니까? 이 가이드는 전리품 우선순위를 정하고, 자원 부족에 대한 불안을 극복하며, 쓸모없는 잡동사니를 귀중한 자산으로 바꾸는 데 도움을 줍니다. 약탈의 황금 규칙을 배우고 생존 및 진행을 위한 궁극적인 '절대 팔지 마세요' 목록을 발견하세요.",
+    "imageUrl": "/images/guide/guide11-01.webp",
+    "imageAlt": "Escape from Duckov 검소한 사람을 위한 가이드: 보관할 것과 판매할 것",
+    "publishDate": "2025-10-31",
+    "addressBar": "/the-hoarders-guide-to-escape-from-duckov-what-to-keep-what-to-sell",
+    "category": "advanced",
+    "tags": [
+      "DUCKOV",
+      "LOOTING GUIDE",
+      "INVENTORY MANAGEMENT",
+      "HOARDER'S GUIDE",
+      "RESOURCE PRIORITIZATION"
+    ],
+    "seo": {
+      "title": "Escape from Duckov 검소한 사람을 위한 가이드 : 판매할 것",
+      "description": "Duckov에서 인벤토리 관리를 마스터하세요! 저희 검소한 사람을 위한 가이드는 최적의 진행을 위해 보관하고 판매할 아이템을 공개합니다. 전리품 불안을 극복하고 벙커의 잠재력을 극대화하세요.",
+      "keywords": "Duckov, 검소한 사람 가이드, 인벤토리 관리, 약탈, 아이템 판매, 퀘스트 아이템, 업그레이드 재료, 자원 관리, escape Duckov, 은신처 최적화"
     },
-    {
-        "id": 11,
-        "title": "Escape from Duckov 검소한 사람을 위한 가이드: 보관할 것과 판매할 것",
-        "description": "Duckov에서 인벤토리 관리에 어려움을 겪고 계십니까? 이 가이드는 전리품 우선순위를 정하고, 자원 부족에 대한 불안을 극복하며, 쓸모없는 잡동사니를 귀중한 자산으로 바꾸는 데 도움을 줍니다. 약탈의 황금 규칙을 배우고 생존 및 진행을 위한 궁극적인 '절대 팔지 마세요' 목록을 발견하세요.",
-        "imageUrl": "/images/guide/guide11-01.webp",
-        "imageAlt": "Escape from Duckov 검소한 사람을 위한 가이드: 보관할 것과 판매할 것",
-        "publishDate": "2025-10-31",
-        "addressBar": "/the-hoarders-guide-to-escape-from-duckov-what-to-keep-what-to-sell",
-        "category": "advanced",
-        "tags": [
-            "DUCKOV",
-            "LOOTING GUIDE",
-            "INVENTORY MANAGEMENT",
-            "HOARDER'S GUIDE",
-            "RESOURCE PRIORITIZATION"
-        ],
-        "seo": {
-            "title": "Escape from Duckov 검소한 사람을 위한 가이드 : 판매할 것",
-            "description": "Duckov에서 인벤토리 관리를 마스터하세요! 저희 검소한 사람을 위한 가이드는 최적의 진행을 위해 보관하고 판매할 아이템을 공개합니다. 전리품 불안을 극복하고 벙커의 잠재력을 극대화하세요.",
-            "keywords": "Duckov, 검소한 사람 가이드, 인벤토리 관리, 약탈, 아이템 판매, 퀘스트 아이템, 업그레이드 재료, 자원 관리, escape Duckov, 은신처 최적화"
-        },
-        "detailsHtml": `
+    "detailsHtml": `
           <p style="text-align: center;">
         <em style="color: rgb(127, 140, 141);">
           <img src="../images/guide/guide11-01.webp" alt="Escape from Duckov what to sell 2">
@@ -1470,7 +1470,914 @@ export const guides = [
       <p>밖에서 행운을 빌며, 즐거운 약탈 (그리고 판매) 되세요!</p>
       
           `
-    }
+  },
+
+  {
+    "id": 12,
+    "title": "Escape from Duckov 워크스루 파트 1: 감옥 탈출 및 기지 설정",
+    "description": "Escape from Duckov를 시작하기 위한 필수 가이드! 전체 감옥 탈출 튜토리얼, 기지 인프라 설정, Ground Zero에서의 초기 퀘스트 완료를 다룹니다.",
+    "imageUrl": "/images/guide12.webp",
+    "imageAlt": "Escape from Duckov에서 플레이어 캐릭터가 감옥 탈출 시퀀스 중 상자를 약탈하는 모습.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
+    "category": "walkthroughs",
+    "tags": ["워크스루", "초보자 가이드", "감옥 탈출", "기지 건설", "그라운드 제로"],
+    "seo": {
+      "title": "Escape from Duckov 파트 1 가이드: 감옥, 기지 설정 및 초기 퀘스트",
+      "description": "Escape from Duckov 첫 번째 부분을 위한 완전한 단계별 워크스루. 감옥을 탈출하고, 기지를 설정하고, 기본 건설 및 창업 자본 퀘스트를 완료하는 방법을 배웁니다.",
+      "keywords": "Escape from Duckov 워크스루 파트 1, Escape from Duckov 초보자 가이드, 감옥 탈출 가이드, Ground Zero 워크스루, 기지 설정 Duckov, 초기 퀘스트"
+    },
+    "detailsHtml": `
+            <h2>감옥 탈출: 튜토리얼 및 첫 만남</h2>
+            <p>짧은 소개 장면 후, 첫 번째 행동은 거울로 가서 캐릭터 생성기에서 **캐릭터를 설정**하는 것입니다.</p>
+            
+            <h3>초기 전리품 및 이동</h3>
+            <ul>
+                <li>바닥의 화살표와 표시를 따라 이동하고 전리품을 줍습니다.</li>
+                <li>상자에서 **TT-33**(기본 권총), **총알 30발**, **붕대**, **크래커**를 획득합니다.</li>
+                <li>감방 오른쪽 방으로 들어가 안쪽 상자에서 **당근**을 가져갑니다. (<em>팁: 달리기와 구르기는 **스태미나**를 소모합니다</em>).</li>
+                <li>쓰레기통에서 **라이터**, **막대사탕**, **전자 부품**을 확인합니다.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-01.webp" alt="Escape from Duckov 워크스루 파트 1" class="guide-image" />
+    
+            <h3>첫 전투 및 장비 업그레이드</h3>
+            <ul>
+                <li>다가오는 전투를 위해 **TT-33 권총을 장착**합니다.</li>
+                <li>**다가오는 총알을 피하고**(빨간색 섬광을 볼 때) 첫 번째 경비원을 처치합니다.</li>
+                <li>경비원에게서 **경찰봉**, **흰색 실험복**, **검은테 선글라스**를 약탈합니다. **모두 장착**합니다.</li>
+                <li>더 많은 총알을 줍고 쓰레기통에서 **케이블**을 찾습니다. (<em>팁: 오른쪽 마우스 버튼을 누르고 있으면 정확도가 향상됩니다.</em>)</li>
+                <li>다음 상자에서 **붕대**와 **아스피린**을 약탈합니다.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-02.webp" alt="Escape from Duckov 워크스루 파트 1" class="guide-image" />
+    
+            <h3>두 번째 전투 및 탈출</h3>
+            <ul>
+                <li>다음 방의 상자에서 **PM 권총**을 약탈하고 슬롯 2에 넣습니다.</li>
+                <li>다음 경비원들을 처치하고, **Glick 권총**, 실험복, 선글라스를 약탈합니다.</li>
+                <li>**인벤토리가 가득 찼다면**, 계속 진행해야 할 수도 있습니다. 다음 쓰레기통에서 **크래커**와 **소다**를 약탈합니다.</li>
+                <li>에너지를 보충하기 위해 **당근과 크래커를 먹습니다**.</li>
+                <li>**오른쪽** 길을 택하고 **탈출 지점**으로 향하여 빠른 탈출을 완료합니다.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov 워크스루 파트 1" class="guide-image" />
+    
+            <h2>기지: 인프라 및 초기 강화</h2>
+            <p>기지로 돌아온 후, 위층에서 **Jeff**를 찾아 창고, 건설 패널, 자동판매기, 강화기, 탈출 지점에 대한 안내를 받습니다.</p>
+    
+            <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov 워크스루 파트 1" class="guide-image" />
+    
+            <h3>캐릭터 및 보관 업그레이드</h3>
+            <ul>
+                <li>Glick을 팔고 장착된 TT-33을 보관합니다. 자동판매기를 확인합니다.</li>
+                <li>**강화기**를 사용합니다. **"+4 백팩 용량"**을 위한 **"백팩 전문가 I"을 연구하고 활성화**합니다. (<em>참고: 강화에는 돈과 재료가 필요합니다.</em>)</li>
+                <li>**창고**를 사용합니다. **"+35 보관 용량"**을 얻기 위해 **"보관 확장 Lv.1"**을 추가합니다.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-05.webp" alt="Escape from Duckov 워크스루 파트 1" class="guide-image" />
+    
+            <h3>초기 퀘스트 수락</h3>
+            <p>Jeff와 대화하여 첫 두 퀘스트를 수락합니다:</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">퀘스트 이름</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">목표</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">보상</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>기본 건설</strong></td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**나무 두 조각**을 모아 작업대를 건설합니다.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">경험치 +1000, 통화 +500, 붕대 x3</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>창업 자본</strong></td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**적 한 명을 처치**합니다.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">경험치 +500, 통화 +1296</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov 워크스루 파트 1" class="guide-image" />
+    
+            <h2>Ground Zero: 자원 수집 및 퀘스트 완료</h2>
+    
+            <h3>적 캠프 정리 및 나무 수집</h3>
+            <ul>
+                <li>첫 번째 상자에서 총알과 다른 TT-33을 약탈합니다. 오른쪽으로 이동합니다.</li>
+                <li>**작은 돌**(적 유인용)과 **못**을 도구 상자에서 찾습니다. **너트, 볼트, 자동차 배터리**를 수집합니다.</li>
+                <li>왼쪽에 있는 적 캠프를 찾습니다. 여기에 있는 **날뛰는 스캐빈저**(빨간 오리)를 처치하면 **"창업 자본"이 완료**됩니다.</li>
+                <li>시체에서 **푸줏칼**, **나무**, **현금**을 약탈합니다.</li>
+                <li>계속해서 약탈하여(전술 상자, 탄약 상자) **수제 샷건**, **총알**, **화살**을 찾습니다.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-07.webp" alt="Escape from Duckov 워크스루 파트 1" class="guide-image" />
+    
+            <h3>추가 약탈 및 탐험</h3>
+            <ul>
+                <li>**녹색 오리**와 교전합니다. (샷건 사용, 방어구 착용).</li>
+                <li>시체에서 **백팩**(장착 시 +39 보관 용량), **활**, **차가운 코어 조각**을 약탈합니다.</li>
+                <li>**AK-74U**를 약탈하고 **TOZ-66 청사진**을 찾습니다.</li>
+                <li>북쪽으로 계속 진행하여 **호수**로 이어지는 **텔레포트 노드**를 찾습니다.</li>
+                <li>숲길 근처에서 **MD40 레시피**가 있는 작은 캠프를 찾습니다. 삽을 사용하여 **J-Lab 플로피 디스크를 파냅니다**.</li>
+                <li>다른 캠프를 정리하고 **"기본 건설"**에 필요한 **두 번째 나무 조각**을 찾습니다.</li>
+                <li>**부서진 다리**는 동굴로 이어지며 **금속판 2개**와 **나무 2조각**이 필요하다는 점에 유의합니다.</li>
+            </ul>
+    
+            <h3>탈출 및 퀘스트 제출</h3>
+            <ul>
+                <li>북서쪽 캠프에서 녹색 오리들을 처리합니다. 탈출 지점 근처에서 SMG 피해 강화를 위한 **총구 부착물**을 찾습니다.</li>
+                <li>**Ground Zero에서 탈출**합니다.</li>
+                <li>기지에서 **"창업 자본"**을 제출합니다.</li>
+                <li>**"사냥꾼의 길" 퀘스트를 수락**합니다. 날뛰는 스캐빈저 2마리를 처치하고 푸줏칼 2개를 제출합니다.</li>
+                <li>**건설 패널**로 이동하여 **작업대를 건설**합니다. **"기본 건설"**을 제출합니다.</li>
+                <li>**고급 처리**를 연구하여 **작업대를 업그레이드**합니다.</li>
+            </ul>
+    
+            <h3>새로운 퀘스트 및 최종 준비</h3>
+            <p>**"지혈의 중요성"**, **"신호탑"**(**일자 드라이버** 필요), **"옛 친구의 편지"**와 같은 새로운 퀘스트를 받게 됩니다.</p>
+            <ul>
+                <li>자동판매기에서 **일자 드라이버**를 구입합니다.</li>
+                <li>**강화기**로 이동하여 **생존 본능 1 (최대 HP +5)** 및 **와이드 뷰 1 (FOV +15)**를 업그레이드합니다.</li>
+                <li>밤의 증가된 위험을 피하기 위해 **잠을 자고** 시간을 **오전 7시**로 빠르게 이동합니다.</li>
+            </ul>
+        `
+  },
+  {
+    "id": 13,
+    "title": "Escape from Duckov 워크스루 파트 2: Ground Zero 탐험 및 기지 확장",
+    "description": "Escape from Duckov 파트 2의 필수 가이드. 신호탑 완료, 동굴 잠금 해제, 강한 경비원 처치 및 새 상점과의 기지 확장을 다룹니다.",
+    "imageUrl": "/images/guide13.webp",
+    "imageAlt": "Escape from Duckov의 Ground Zero 맵에서 플레이어 캐릭터가 부서진 다리를 수리하는 모습.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
+    "category": "walkthroughs",
+    "tags": ["워크스루", "그라운드 제로", "기지 확장", "새 퀘스트", "미드 게임"],
+    "seo": {
+      "title": "Escape from Duckov 파트 2 워크스루: 신호탑, 동굴 전리품 및 방어구 상점",
+      "description": "Escape from Duckov 파트 2의 완벽한 가이드. 신호탑 수리, 청사진을 위한 동굴 접근, 강력한 경비원 처치 및 방어구 상점 건설 방법을 자세히 설명합니다.",
+      "keywords": "Escape from Duckov 파트 2, Ground Zero 탐험, 신호탑 퀘스트, 동굴 청사진, 방어구 상점 잠금 해제, 암시장 메모"
+    },
+    "detailsHtml": `
+            <h2>Ground Zero: 퀘스트 완료 및 주요 위치</h2>
+            <p>두 번째 주요 실행은 업그레이드된 장비를 활용하여 미결 과제를 완료하고, 새로운 지역을 잠금 해제하며, 중요한 청사진과 퀘스트 아이템을 수집하는 데 중점을 둡니다.</p>
+    
+            <h3>북부 타워 및 새로운 접촉</h3>
+            <ul>
+                <li>도로 캠프 쪽으로 향하여 **북부 타워**를 찾습니다.</li>
+                
+                <img src="/images/guide/guide13-01.webp" alt="Escape from Duckov 워크스루 파트 2" class="guide-image" />
+    
+                <li>근처의 **도구 상자**를 약탈하여 **금속판 2개**, **못 1개**, **일자 드라이버**를 포함한 귀중한 아이템을 확보합니다.</li>
+    
+                <img src="/images/guide/guide13-02.webp" alt="Escape from Duckov 워크스루 파트 2" class="guide-image" />
+    
+                <li>타워 기슭에 있는 **전원 상자**와 상호 작용하여 **"신호탑"** 퀘스트의 목표를 완료합니다.</li>
+                <li>타워 오른쪽으로 이동하여 **감자 그래픽 카드 청사진**을 찾습니다.</li>
+    
+                <img src="/images/guide/guide13-03.webp" alt="Escape from Duckov 워크스루 파트 2" class="guide-image" />
+    
+                <li>도로 캠프 쪽으로 계속 진행하여 새로운 샷건을 휘두르는 적 유형을 제거하고 **MP-155 샷건**, **오토바이 헬멧**, 의약품을 약탈합니다.</li>
+                <li>왼쪽에서 **"머드(Mud)"**를 찾아 **"균형 잡힌 영양 1"** 퀘스트를 수락합니다. (목표: 오리 알 1개 제출, 보상: 경험치 +800, 통화 +500).</li>
+            </ul>
+    
+            <h3>다리 수리 및 동굴 접근</h3>
+            
+            <img src="/images/guide/guide13-04.webp" alt="Escape from Duckov 워크스루 파트 2" class="guide-image" />
+    
+            <ul>
+                <li>왼쪽으로 이동하여 **나무 두 조각**을 사용하여 도로 캠프로 이어지는 **부서진 다리를 수리**합니다. (건너기 전에 전봇대 아래를 확인하세요. 전리품은 드물지만).</li>
+                <li>숲길의 캠프로 향하여 **빨간 스캐빈저**를 제거하여 **"사냥꾼의 길"**을 완료하고 **푸줏칼 2개**를 줍습니다. 또한 **버려진 주유소 열쇠**를 찾습니다.</li>
+                <li>동굴 입구 근처의 부서진 다리를 수리합니다.</li>
+    
+                <img src="/images/guide/guide13-05.webp" alt="Escape from Duckov 워크스루 파트 2" class="guide-image" />
+            </ul>
+    
+            <h3>동굴 전리품 및 청사진</h3>
+    
+            <p>동굴 내부에서 중요한 무기 부착물과 청사진을 수집합니다:</p>
+    
+            <img src="/images/guide/guide13-06.webp" alt="Escape from Duckov 워크스루 파트 2" class="guide-image" />
+    
+            <ul>
+                <li>**권총 총구**, **UP 45**, **AK 47**, **힙파이어 부착물**, **레이저 부착물**을 약탈합니다.</li>
+                <li>결정적으로 **큐브 건** 및 **작은 에너지 탄약 청사진**을 줍습니다.</li>
+            </ul>
+    
+            <h3>북서쪽 캠프 및 최종 탈출 준비</h3>
+    
+            <img src="/images/guide/guide13-07.webp" alt="Escape from Duckov 워크스루 파트 2" class="guide-image" />
+            
+            <ul>
+                <li>**북서쪽 캠프**로 몰래 들어가 텐트에서 **옛 친구의 편지**를 찾아 퀘스트를 완료합니다.</li>
+                <li>근처 데이터 상자에서 **쇠지렛대 레시피**를 줍습니다. 감시탑을 올라 **"Ground Zero 관찰 기록"**을 읽습니다.</li>
+                <li>**강력한 적과의 만남:** **샷건을 든 초강력 후드 적**과 교전합니다. 이 전투 중에 **붕대**를 사용하여 **"지혈의 중요성"**을 완료합니다.</li>
+                <li>그를 쓰러뜨린 후, 귀중한 **암시장 연락처 메모**와 **고급 AP 샷건 셸**을 약탈합니다.</li>
+                <li>탈출로 가는 길에 다른 캠프를 정리하여 **버려진 주유소 열쇠**와 **울타리 열쇠** 두 개의 열쇠와 **홀로그램 조준경**을 찾습니다.</li>
+                <li>**Ground Zero에서 탈출**합니다.</li>
+            </ul>
+    
+            <h2>기지 관리: 퀘스트, 상점 및 업그레이드</h2>
+            <p>기지로 돌아와 완료된 모든 퀘스트를 즉시 제출하여 다음 단계의 건설 및 업그레이드를 잠금 해제합니다.</p>
+    
+            <img src="/images/guide/guide13-08.webp" alt="Escape from Duckov 워크스루 파트 2" class="guide-image" />
+    
+            <h3>퀘스트 제출 및 새로운 목표</h3>
+            <p>완료된 모든 퀘스트를 제출합니다. 다음 새로운 건설 및 재료 퀘스트가 나타납니다:</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">새 건설</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">전투/재료 퀘스트</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">기본 건설 II: **무기 상점** 건설</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">헤드를 노려라: 헤드샷으로 적 5명 처치</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">기본 건설 III: **방어구 상점** 건설 (즉시 우선 순위)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">기술 전문가: 전자 부품 더미 제출</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">기본 건설 (의료): **의료 스테이션** 건설</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">사랑 가득: 통화 1888 제출 (즉시 제출 가능)</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">제작 수습: Glick 제출</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">이미 완료된 퀘스트 제출: 확장된 주머니 및 작업대 업그레이드</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <h3>건설 및 최종 업그레이드</h3>
+            <ul>
+                <li>**"사랑 가득"**을 즉시 제출합니다.</li>
+                <li>건설 스테이션을 확인합니다: **방어구 상점**을 즉시 **건설**할 수 있습니다. **"기본 건설 III"**을 제출합니다.</li>
+                <li>새로운 방어구 상점을 방문합니다: **레벨 2 방어구와 강철 헬멧을 구입**합니다.</li>
+                <li>**작업대**에서: **모든 새 청사진을 연구**(인벤토리 공간 확보), **수리 스테이션** 청사진을 연구합니다.</li>
+                <li>자동판매기에서 **가위**와 **렌치**를 구입한 다음, 작업대에서 **분해 스테이션**을 연구합니다.</li>
+                <li>**강화기**에서: **총기 숙련 I**을 업그레이드합니다.</li>
+                <li>방어구 상점에서 두 가지 새로운 퀘스트를 수락합니다: **"보급 경로"**(보급품 상자 표시) 및 **"장부 정리"**(잉크, 펜, 노트 제출).</li>
+                <li>이러한 주요 업그레이드 후 돈이 부족해지면서 하루가 끝납니다.</li>
+            </ul>
+        `
+  },
+
+  {
+    "id": 14,
+    "title": "Escape from Duckov 워크스루 파트 3: Ground Zero 열쇠 및 Pato Chapo 보스",
+    "description": "Escape from Duckov 파트 3에 대한 종합 가이드. 새로운 상인 퀘스트를 수락하고, 의료 스테이션과 무기 상점을 건설하며, Pato Chapo 보스의 위치를 찾습니다.",
+    "imageUrl": "/images/guide14.webp",
+    "imageAlt": "Escape from Duckov에서 플레이어 캐릭터가 Ground Zero에서 열쇠로 잠긴 문을 여는 모습.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
+    "category": "walkthroughs",
+    "tags": ["워크스루", "그라운드 제로", "보스전", "파토 차포", "상인 퀘스트", "미드 게임"],
+    "seo": {
+      "title": "Escape from Duckov 파트 3 가이드: 의료 스테이션, 열쇠 및 Pato Chapo 전략",
+      "description": "Escape from Duckov 파트 3의 완전한 가이드: 필수 기지 시설(무기/의료) 건설, 주유소 및 울타리 열쇠 사용, 호텔 방 찾기, Pato Chapo 보스 처치.",
+      "keywords": "Escape from Duckov 파트 3, Pato Chapo 보스전, Ground Zero 열쇠, 의료 스테이션, 무기 상점, 호텔 방 열쇠, 워크스루"
+    },
+    "detailsHtml": `
+        <h2>기지 준비: 상인 퀘스트 및 시설</h2>
+        <p>새로 설립된 기지 시설에서 새로운 퀘스트 묶음을 수락하고, 즉시 제출 가능한 항목을 제출하여 Ground Zero로 돌아가기 전에 경험치와 통화를 최대화하면서 하루를 시작합니다.</p>
+  
+        <h3>수락된 새로운 퀘스트:</h3>
+        <p>Mud, 무기 상인, 방어구 상인, 자동판매기에서 다음 실행을 안내할 새로운 퀘스트를 수락합니다:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">출처 (상인)</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">퀘스트 이름</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">목표</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Mud (피트니스)</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">균형 잡힌 영양 II/III, 피트니스 코치</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**에너지 드링크**, **초콜릿**, **덤벨** 제출</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">무기 상인</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">일반 권총, 이상한 깃털</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**Glick**, **공작 깃털** 제출</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">방어구 상인 / 의료 스테이션</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">의료 지원</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**의료 키트** 제출</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">자동판매기</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">자급자족, 전문 셰프</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**물**, **셰프 나이프** 제출</td>
+                </tr>
+            </tbody>
+        </table>
+  
+        <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">팁:</strong> 새로운 퀘스트를 수락하기 전에 **"제작 수습"** 및 **"장부 정리"** 퀘스트를 제출하여 인벤토리를 비우고 즉시 자금을 확보하세요.</p>
+  
+        <h3>건설 및 업그레이드</h3>
+        <p>현재 자금과 재료를 사용하여 기지 인프라를 완성합니다:</p>
+        <ul>
+            <li>**의료 스테이션을 건설**하고 **"기본 건설 (의료)"** 퀘스트를 제출합니다. 새로운 스테이션에서 **"의료 지원"** 퀘스트를 수락합니다.</li>
+            
+            <li>**무기 상점을 건설**하고 **"기본 건설 II"** 퀘스트를 제출합니다. 새로운 상점에서 **"이상한 깃털"** 퀘스트를 수락합니다.</li>
+            
+            <img src="/images/guide/guide14-01.webp" alt="Escape from Duckov 워크스루 파트 3" class="guide-image" />
+  
+            <li>출격 전에 사용 가능한 **기지 업그레이드** 및 **스킬 업그레이드**(예: 무기 숙련)를 수행합니다.</li>
+  
+            <img src="/images/guide/guide14-02.webp" alt="Escape from Duckov 워크스루 파트 3" class="guide-image" />
+        </ul>
+  
+        <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero: 잠긴 구역 및 숨겨진 단서</h2>
+        <p>열쇠와 새로운 장비를 갖추었으므로 이제 Ground Zero에서 이전에 잠겨 있던 구역에 접근할 수 있습니다.</p>
+  
+        <h3>버려진 주유소 및 울타리 접근</h3>
+        <ul>
+            <li>**버려진 주유소**로 가서 파트 2에서 찾은 **열쇠로 문을 엽니다**.</li>
+            <li>안에서 총과 탄약이 있는 **무기 상자**를 약탈합니다. 주유소 안에서 **울타리 열쇠**를 찾거나 이미 가지고 있는지 확인해야 합니다.</li>
+            <li>경계 **울타리**로 가서 **엽니다**하여 맵의 다음 구역에 접근합니다.</li>
+        </ul>
+  
+        <h3>길가의 미스터리 (호텔 열쇠)</h3>
+        <ul>
+            <li>**길가 캠프**로 가서 새로운 위치에 대한 단서가 담긴 **쪽지**를 찾습니다.</li>
+            <li>쪽지의 지시를 따라 **시체**를 찾습니다. 시체를 약탈하여 **호텔 방 열쇠**를 획득합니다.</li>
+            <li>**호텔** 위치로 이동하여 새 열쇠를 사용하여 **방을 엽니다**. 안에서 또 다른 **무기 상자**와 잠재적으로 새로운 **단서 또는 열쇠**를 찾아야 합니다.</li>
+        </ul>
+  
+        <h3>보스 위치 찾기: Pato Chapo</h3>
+        <p>반복되는 단서와 시체 위치는 이 부분의 최종 조우로 안내할 가능성이 높습니다:</p>
+        <ul>
+            <li>마지막 단서/쪽지를 따라 지정된 위치로 이동하면 보스가 확보한 구역을 발견할 가능성이 높습니다.</li>
+            <li>**보스: Pato Chapo**와의 힘든 싸움을 준비합니다. (<em>참고: 교전하기 전에 업그레이드된 방어구, 충분한 고급 탄약, 의료 용품을 확보하세요.</em>)</li>
+            <li>Pato Chapo를 물리친 후, **시체를 약탈**하여 다음 부분의 워크스루에 필요한 고가치 아이템과 필수 열쇠/단서를 찾습니다.</li>
+        </ul>
+    `
+  },
+
+  {
+    "id": 15,
+    "title": "Escape from Duckov 워크스루 파트 4: Duckmother 보스 및 AS VAL",
+    "description": "Escape from Duckov 파트 4의 완전한 가이드. 새로운 벙커 퀘스트를 수락하고, 강력한 Duckmother 보스를 물리치고, 강력한 AS VAL 무기를 확보합니다.",
+    "imageUrl": "/images/guide15.webp",
+    "imageAlt": "Escape from Duckov의 버려진 캠프 위치에서 플레이어 캐릭터가 큰 보스인 Duckmother와 싸우는 모습.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
+    "category": "walkthroughs",
+    "tags": ["워크스루", "그라운드 제로", "보스전", "덕마더", "AS VAL", "업그레이드"],
+    "seo": {
+      "title": "Escape from Duckov 파트 4 가이드: Duckmother 처치, AS VAL 찾기 및 벙커 퀘스트",
+      "description": "Escape from Duckov 파트 4의 단계별 워크스루. 필요한 스킬 업그레이드, 섬멸 및 제출 퀘스트 완료, Duckmother 보스전 마스터 방법을 배웁니다.",
+      "keywords": "Escape from Duckov 파트 4, Duckmother 보스 전략, AS VAL 위치, Ground Zero 버려진 캠프, 에너지 예비 업그레이드, 성능 테스트 퀘스트"
+    },
+    "detailsHtml": `
+        <h2>벙커 준비: 새로운 퀘스트 및 스킬 업그레이드</h2>
+        <p>Ground Zero로 돌아가기 전에, 상인과 강화기를 방문하여 주요 임무를 수락하고, **Duckmother 보스**를 포함한 다가오는 새로운 도전에 대비하여 캐릭터의 전투 준비 태세를 강화합니다.</p>
+  
+        <h3>수락된 새로운 퀘스트:</h3>
+        <p>다음 실행을 위해 이 퀘스트들을 우선순위로 지정하세요. 이는 일반적인 Ground Zero 활동 및 필요한 전리품과 일치합니다:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">퀘스트 이름</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">목표</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">보상 (EXP/통화)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">대형 보관함</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**대형 보관 상자** 1개 제출</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">모기 섬멸</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**모기 10마리** 처치</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">부품 도매</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**나사 5개** 제출</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">성능 테스트</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**그래픽 카드** 1개 제출</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">징벌자</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**스캐빈저 5마리** 처치</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+              </tbody>
+          </table>
+  
+        <h3>스킬 업그레이드: 전투 효율성 향상</h3>
+        <p>배치 전에 이러한 핵심 스킬에 투자하여 지속 가능성과 전투 정확도를 개선합니다:</p>
+        <ul>
+            <li>**에너지 예비:** 최대 에너지를 **+10** 증가시킵니다. (더 많은 전력 질주/구르기 가능)</li>
+  
+            <img src="/images/guide/guide15-01.webp" alt="Escape from Duckov 워크스루 파트 4" class="guide-image" />
+  
+            <li>**영양 섭취:** 음식과 물의 효과를 **+10%** 증가시킵니다. (지속력 향상)</li>
+            <li>**견고한 사격 I:** 조준 없이 사격 정확도를 **+10%** 증가시킵니다. (보스와의 근접 전투에 중요)</li>
+        </ul>
+  
+        <h2>Ground Zero: 버려진 캠프와 Duckmother 보스</h2>
+        <p>섬멸 퀘스트와 새로운 보스 구역 찾기에 중점을 두고 Ground Zero로 돌아갑니다.</p>
+  
+        <h3>퀘스트 진행 및 새 무기 발견</h3>
+        <ul>
+            <li>**모기 10마리**와 **스캐빈저 5마리**를 처치하기 위해 스캐빈저 활동 및 물가로 알려진 지역에 집중하세요.</li>
+            <li>도구 상자와 전자 캐시를 약탈하여 제출 퀘스트에 필요한 **나사**와 **그래픽 카드**를 찾습니다.</li>
+            <li>탐험 중에 강력한 **VSS** 무기를 발견하세요. 소음 교전을 위한 귀중한 발견입니다.</li>
+            <li>발견한 새로운 위치인 **버려진 캠프**를 찾습니다.</li>
+        </ul>
+  
+        <img src="/images/guide/guide15-03.webp" alt="Escape from Duckov 워크스루 파트 4" class="guide-image" />
+  
+        <h3>Duckmother 보스전</h3>
+        <p>**Duckmother**는 버려진 캠프에 위치한 중대한 위협입니다. 움직임과 높은 피해량 출력을 강조하는 전투를 준비하세요.</p>
+        <ul>
+            <li>**전략 팁:** 업그레이드된 **에너지 예비**를 사용하여 지속적인 전력 질주와 회피를 활용하세요. 보스의 약점(종종 머리 또는 눈에 띄는 백팩)에 집중 사격합니다.</li>
+            <li>힘든 싸움 끝에 **Duckmother를 물리칩니다**.</li>
+            <li>시체를 약탈하여 캠프 내 **잠긴 방 열쇠**를 찾습니다.</li>
+        </ul>
+  
+        <h3>AS VAL 확보</h3>
+        <ul>
+            <li>Duckmother에게서 얻은 열쇠를 사용하여 버려진 캠프 내 **잠긴 방**을 엽니다.</li>
+            <li>방 안에서 매우 인기 있는 무기인 **AS VAL**을 찾을 수 있습니다. 소음 처리된 고화력 소총입니다.</li>
+        </ul>
+  
+        <h2><span style="color: #DAA520;">&#127775;</span> 실행 후 활동</h2>
+        <ul>
+            <li>성공적으로 **탈출**하여 벙커로 돌아갑니다.</li>
+            <li>**완료된 모든 퀘스트**(모기 섬멸, 징벌자, 부품 도매, 성능 테스트 등)를 제출하고 상당한 보상을 수집합니다.</li>
+            <li>이전 세트를 완료하면 잠금 해제되는 상인의 **새로운 퀘스트**를 수락합니다.</li>
+            <li>**방어구 상인**을 방문하여 새로 얻은 통화를 사용하여 **새 헬멧** 또는 기타 필요한 보호 장비를 **구입**합니다.</li>
+        </ul>
+    `
+  },
+
+
+  {
+    "id": 16,
+    "title": "Escape from Duckov 워크스루 파트 5: 반복되는 순환 - Duckmother 앙코르",
+    "description": "Escape from Duckov 파트 5의 가이드. 고보상 반복 퀘스트를 수락하고, 핵심 생존 스킬을 최대로 올리고, Duckmother 보스를 다시 물리치며, 하이 티어 전리품을 확보합니다.",
+    "imageUrl": "/images/guide16.webp",
+    "imageAlt": "Escape from Duckov의 버려진 캠프에 있는 어두운 방에서 AS VAL을 사용하는 플레이어 캐릭터.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
+    "category": "walkthroughs",
+    "tags": ["워크스루", "그라운드 제로", "보스전", "반복 퀘스트", "스킬 최대화", "파밍 런"],
+    "seo": {
+      "title": "Escape from Duckov 파트 5 가이드: 핵심 스킬 최대화 및 Duckmother 반복 실행",
+      "description": "Escape from Duckov 파트 5의 단계별 워크스루로, 반복 가능한 섬멸 및 제출 퀘스트를 완료하여 통화를 파밍하고 에너지 예비 및 견고한 사격과 같은 중요한 스킬을 최대화하는 데 중점을 둡니다.",
+      "keywords": "Escape from Duckov 파트 5, Duckmother 반복, 최대 에너지 예비, 견고한 사격 II, Ground Zero 파밍 런, 성능 테스트 II 퀘스트"
+    },
+    "detailsHtml": `
+        <h2>벙커 준비: 반복 가능한 퀘스트 및 스킬 최대화</h2>
+        <p>파트 5는 이전 주기 미션의 업그레이드된 반복 버전(로마 숫자 접미사(II)로 표시됨)을 포함하며, 이는 경험치와 통화를 파밍하는 데 탁월합니다. Ground Zero로 돌아가기 전에 **핵심 생존 및 전투 스킬을 최대화**하는 데 집중하세요.</p>
+  
+        <h3>수락된 새로운/반복 가능한 퀘스트:</h3>
+        <p>상인으로부터 이전 주기의 미션 중 업그레이드되고 반복 가능한 버전을 수락합니다:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">퀘스트 이름</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">목표</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">보상 (EXP/통화)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">대형 보관함 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**대형 보관 상자** 1개 제출</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">모기 섬멸 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**모기 10마리** 처치</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">부품 도매 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**나사 5개** 제출</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">성능 테스트 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**그래픽 카드** 1개 제출</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">징벌자 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**스캐빈저 5마리** 처치</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+              </tbody>
+        </table>
+  
+        <h3>스킬 업그레이드: Tier II 달성</h3>
+        <p>강화기를 활용하여 **Tier II 스킬로 업그레이드**하고, 효율성과 생존력을 더욱 높입니다:</p>
+        <ul>
+            <li>**에너지 예비 II:** 최대 에너지를 **+10** 증가시킵니다 (총 +20, 카이팅/전력 질주에 필수적).</li>
+            <li>**영양 섭취 II:** 음식과 물의 효과를 **+10%** 증가시킵니다 (총 +20%, 치유/수분 공급이 크게 향상됨).</li>
+            <li>**견고한 사격 II:** 조준 없이 사격 정확도를 **+10%** 증가시킵니다 (총 +20%, 근접 전투 및 움직이면서 사격이 매우 효과적임).</li>
+        </ul>
+  
+        <img src="/images/guide/guide16-02.webp" alt="Escape from Duckov 워크스루 파트 5" class="guide-image" />
+  
+        <h2>Ground Zero: 자원 파밍 및 보스 앙코르</h2>
+        <p>이번 실행의 목표는 섬멸 할당량을 신속하게 완료하고, 제출 항목을 수집하며, 수익성이 좋은 전리품과 열쇠 드롭을 위해 **Duckmother**와 다시 맞설 준비를 하는 것입니다.</p>
+  
+        <h3>자원 파밍 및 섬멸</h3>
+        <ul>
+            <li>필요한 **나사**와 **그래픽 카드**를 빠르게 찾기 위해 전자 부품과 도구 상자가 풍부한 지역에 집중하세요.</li>
+            
+            <img src="/images/guide/guide16-01.webp" alt="Escape from Duckov 워크스루 파트 5" class="guide-image" />
+  
+            <li>**모기 섬멸 II (10마리 처치)**와 **징벌자 II (5마리 처치)** 퀘스트를 효율적으로 완료하세요.</li>
+            <li>이전에 이미 **VSS**를 발견했을 가능성이 높으므로, 이번 실행은 VSS의 지속적인 존재를 확인하거나 다시 획득할 기회를 제공합니다.</li>
+            <li>보스가 생성되는 **버려진 캠프**를 다시 찾습니다.</li>
+        </ul>
+  
+        <h3>Duckmother 처치 (반복)</h3>
+        <p>**Duckmother**는 잠긴 방에 접근할 수 있게 해주는 핵심 목표입니다. 새로운 **견고한 사격 II** 스킬과 우수한 에너지 예비를 사용하여 그녀와 적극적으로 교전하세요.</p>
+        <ul>
+            <li>**Duckmother**를 물리치면 그녀는 캠프 내 **잠긴 방 열쇠**를 다시 드롭합니다.</li>
+            <li>열쇠를 사용하여 잠긴 방에 접근하고 강력한 **AS VAL** 무기(또는 이미 소유하고 있다면 고가치 부품/탄약)를 회수합니다.</li>
+        </ul>
+  
+        <h2>실행 후 활동</h2>
+        <ul>
+            <li>성공적으로 **탈출**하여 벙커로 돌아갑니다.</li>
+            <li>**완료된 모든 퀘스트**(모기 섬멸 II, 징벌자 II 등)를 제출하고 보상을 수집합니다.</li>
+            <li>이 세트를 완료하면 잠금 해제되는 상인의 **새로운 퀘스트**를 수락합니다.</li>
+            <li>**방어구 상인**을 방문하여 축적된 통화를 사용하여 **새 헬멧**을 구입하거나 방어구를 사용 가능한 가장 높은 티어로 **업그레이드**하여 다음 고유한 도전에 대비합니다.</li>
+        </ul>
+    `
+  },
+
+  {
+    "id": 17,
+    "title": "Escape from Duckov 워크스루 파트 6: 최종 스킬 최대화 및 보스 파밍",
+    "description": "Escape from Duckov 파트 6의 궁극적인 가이드. 반복 가능한 퀘스트의 최종 티어(III)를 완료하고, 핵심 생존 및 전투 스킬을 최대화하며, 다음 주요 구역을 위한 장비를 갖춥니다.",
+    "imageUrl": "/images/guide17.webp",
+    "imageAlt": "버려진 캠프의 잠긴 방 안에서 플레이어의 손에 들린 AS VAL 소총의 클로즈업 샷.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
+    "category": "walkthroughs",
+    "tags": ["워크스루", "그라운드 제로", "스킬 최대화", "보스 파밍", "티어 III", "최종 준비"],
+    "seo": {
+      "title": "Escape from Duckov 파트 6 가이드: Tier III 스킬 최대화 및 최종 Duckmother 실행",
+      "description": "Escape from Duckov 파트 6의 완전한 가이드. 모든 Tier III 스킬 업그레이드(에너지, 영양, 견고한 사격)를 완료하고 최종 고보상 자원 및 보스 파밍 순환을 실행하는 방법을 배웁니다.",
+      "keywords": "Escape from Duckov 파트 6, Tier III 스킬, 최대 에너지 예비, 견고한 사격 III, Duckmother 파밍, 최종 벙커 준비, AS VAL"
+    },
+    "detailsHtml": `
+        <h2>벙커 준비: 최종 Tier III 퀘스트 및 최대 업그레이드</h2>
+        <p>이것은 캐릭터의 기본 스탯을 잠재력의 최대치로 끌어올리도록 설계된 **최종 반복 루프**입니다. 모든 Tier **III** 퀘스트를 수락하고 핵심 스킬에 전적으로 투자하는 데 집중하세요.</p>
+  
+        <h3>최종 티어 퀘스트 수락:</h3>
+        <p>최종 업그레이드와 다음 구역 진입을 위한 자금을 확보하기 위해 최고 보상 미션을 수락합니다:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">퀘스트 이름</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">목표</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">보상 (EXP/통화)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">대형 보관함 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**대형 보관 상자** 1개 제출</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">모기 섬멸 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**모기 10마리** 처치</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">부품 도매 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**나사 5개** 제출</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">성능 테스트 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**그래픽 카드** 1개 제출</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">징벌자 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">**스캐빈저 5마리** 처치</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+              </tbody>
+        </table>
+  
+        <img src="/images/guide/guide17-01.webp" alt="Escape from Duckov 워크스루 파트 6" class="guide-image" />
+  
+        <h3>스킬 최대화: 최고 성능 달성</h3>
+        <p>이것은 이러한 중요한 스킬을 **최대치로 올릴 수 있는 기회**이며, 향후 성능에 크게 영향을 미칩니다:</p>
+        <ul>
+            <li>**에너지 예비 III:** 최대 에너지를 **+10** 증가시킵니다 (최대 전력 질주/회피 능력을 제공합니다).</li>
+            <li>**영양 섭취 III:** 음식과 물의 효과를 **+10%** 증가시킵니다 (수동 치유 및 자원 효율성을 최대화합니다).</li>
+            <li>**견고한 사격 III:** 조준 없이 사격 정확도를 **+10%** 증가시킵니다 (근접 전투를 매우 신뢰할 수 있게 만듭니다).</li>
+        </ul>
+  
+        <h2>Ground Zero: 최종 파밍 실행</h2>
+        <p>당신의 목표는 동일하게 유지됩니다: 섬멸 및 자원 할당량을 완료하고, **Duckmother**를 마지막으로 한 번 더 물리쳐 최대 자원을 확보하고 AS VAL의 부품이나 탄약을 확보하는 것입니다.</p>
+  
+        <h3>실행 목표</h3>
+        <ul>
+            <li>필요한 **나사**와 **그래픽 카드**를 빠르게 확보하고 **모기 섬멸 III** 및 **징벌자 III** 할당량을 완료합니다.</li>
+            <li>**버려진 캠프**의 위치를 확인하고 보스 조우를 준비합니다.</li>
+            <li>(선택 사항: 여전히 무기가 필요하다면, **VSS**를 다시 찾습니다).</li>
+        </ul>
+  
+        <h3>최종 Duckmother 조우</h3>
+        <p>완전히 **최대화된 Tier III 스킬**을 사용하면 **Duckmother**를 더 쉽게 처리할 수 있습니다. 최대 **에너지 예비**를 사용하여 지속적인 카이팅을 하고, **견고한 사격 III**를 활용하여 근거리 조준 없이 파괴적인 사격을 가합니다.</p>
+        <ul>
+            <li>**Duckmother**를 물리치고 **잠긴 방 열쇠**를 회수합니다.</li>
+            <li>잠긴 방에 접근하여 **AS VAL**(또는 고가치 탄약/부품)을 수집합니다.</li>
+        </ul>
+  
+        <h2>실행 후 활동: 다음 맵 준비</h2>
+  
+        <img src="/images/guide/guide17-02.webp" alt="Escape from Duckov 워크스루 파트 6" class="guide-image" />
+  
+        <ul>
+            <li>**탈출**하여 벙커로 돌아갑니다.</li>
+            <li>**완료된 모든 Tier III 퀘스트**를 제출하고 상당한 보상을 청구합니다.</li>
+            <li>상인의 **새로운 퀘스트**를 수락합니다—이 퀘스트는 일반적으로 다음 주요 위치 또는 맵으로 가는 **전환 목표**가 될 것입니다.</li>
+            <li>**방어구 상인**을 방문하여 축적된 부를 사용하여 **최고 티어 헬멧**과 방탄복을 구입하고, 다음 구역의 도전에 대한 준비를 확인합니다.</li>
+        </ul>
+    `
+  },
+
+  {
+    "id": 18,
+    "title": "Escape From Duckov: 확장 상자에 대한 궁극의 가이드",
+    "description": "Escape From Duckov에서 창고 공간이 부족하신가요? 이 가이드는 영구적인 보관함 업그레이드의 핵심인 확장 상자의 비밀을 공개합니다! 최고의 파밍 경로, 중요한 팁, 상자 위치를 알아보고 전리품을 극대화하여 게임을 지배하세요. 지금 금고를 확장하세요!",
+    "tags": ["Escape From Duckov", "확장 상자", "전리품 관리", "보관함 업그레이드", "파밍 가이드"],
+    "publishDate": "2025-11-03",
+    "imageUrl": "/images/guide18.webp",
+    "imageAlt": "플레이어가 Escape From Duckov에서 확장 상자를 약탈하는 모습으로, 창고 관리의 중요성을 강조합니다.",
+    "category": "advanced",
+    "seo": {
+      "title": "Escape From Duckov 확장 상자 - 궁극의 보관 가이드",
+      "description": "확장 상자에 대한 전문가 가이드로 Escape From Duckov에서 보관함을 최대화하세요! 이 필수 자원에 대한 파밍 경로, 팁 및 위치를 배웁니다. 공간 부족으로 어려움을 겪지 마세요!",
+      "keywords": "escape from duckov, 확장 상자, 보관, 전리품, 창고, 파밍, 가이드, 팁, 용병 기지, 도구 상자"
+    },
+    "addressBar": "/escape-from-duckov-expansion-crates-guide",
+    "detailsHtml": `
+      <p><strong>Escape From Duckov</strong>에서 전리품을 관리하는 것은 생존에 매우 중요합니다. 더 많은 장비와 자원을 모을수록 은신처의 창고 공간은 빠르게 제한 요소가 될 것입니다. **확장 상자**는 이 문제를 해결하고 영구적으로 보관 용량을 늘릴 수 있는 핵심입니다.</p>
+  <p>이 가이드는 이 귀중한 상자를 찾는 방법과 이를 사용하여 금고를 확장하는 방법에 대해 알아야 할 모든 것을 다룹니다.</p>
+  
+  <h2><strong>파트 1: 확장 상자 획득 방법</strong></h2>
+  <p>확장 상자는 은신처의 창고 크기를 업그레이드하는 데 사용되는 희귀 아이템입니다. 모든 보관함 업그레이드에는 다른 재료가 필요하지만, 확장 상자는 가장 중요한 구성 요소 중 하나입니다.</p>
+  <p><img src="/images/guide/guide18-01.webp" alt="확장 상자" width="100%" style="width: 100%;"></p>
+  
+  <h3><strong>확장 상자를 찾을 수 있는 곳:</strong></h3>
+  <ul>
+      <li><strong>특정 지역의 사물함:</strong>
+          <ul>
+              <li>**용병 기지:** 많은 플레이어가 용병 기지에서 대부분의 확장 상자를 찾았다고 보고합니다. 이것이 우연일 수도 있지만, 이 지역은 확실히 **탐색할 가치가 있는 핫스팟**입니다.</li>
+              <li>**첫 번째 지역:** 게임 초반에도 첫 번째 플레이 가능 지역 전체의 사물함에서 **확장 상자 S**와 **M**을 찾을 좋은 기회가 있습니다.</li>
+          </ul>
+      </li>
+      <li>**도구 상자:** 모든 지역에서 발견되는 도구 상자는 확장 상자를 생성할 가능성이 높습니다. 실행 중에 **도구 상자를 절대 지나치지 마세요**.</li>
+  </ul>
+  
+  <h3><strong>빠르고 효율적인 초반 파밍 경로:</strong></h3>
+  <ol>
+      <li>첫 번째 지역에 진입하여 포털을 통해 북서쪽으로 이동한 다음 계속 위로 이동합니다.</li>
+      <li>이 경로를 따라 모든 사물함을 샅샅이 뒤집니다.</li>
+      <li>확장 상자를 찾으면 **즉시 탈출**합니다.</li>
+  </ol>
+  <p>이 경로는 위험을 낮추면서 고수익 컨테이너에 집중하므로 초반 파밍에 적합합니다.</p>
+  
+  <h3><strong>중요 팁:</strong></h3>
+  <ul>
+      <li>**드롭은 RNG로 제어됩니다:** 확장 상자를 찾는 것은 운(RNG)에 기반하므로, 성공적인 발견 사이에 몇 번의 빈 실행을 예상해야 합니다. **인내가 핵심**입니다.</li>
+              <li>**무게를 주시하세요:** 더 큰 상자(특히 M과 L)는 매우 무겁습니다. 하나를 가지고 있다면, 전투에서 잃지 않도록 **탈출을 우선시**하세요.</li>
+  </ul>
+  
+  <h3><strong>확장 상자 유형 및 세부 정보</strong></h3>
+  <table>
+      <thead>
+          <tr>
+              <th>아이템</th>
+              <th>사용처</th>
+              <th>일반적인 위치</th>
+              <th>참고</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>**확장 상자 S**</td>
+              <td>아이템이 필요한 초반 금고 티어.</td>
+              <td>첫 번째 지역의 사물함; 어디든 도구 상자.</td>
+              <td>가장 가벼운 상자; 게임 초반에 등장.</td>
+          </tr>
+          <tr>
+              <td>**확장 상자 M**</td>
+              <td>중간 티어 금고 업그레이드.</td>
+              <td>첫 번째 지역의 사물함 (더 희귀함); 도구 상자.</td>
+              <td>S보다 무거움; 탈출 경로를 계획하세요.</td>
+          </tr>
+          <tr>
+              <td>**확장 상자 L**</td>
+              <td>후반 티어 금고 업그레이드.</td>
+              <td>도구 상자 및 고가치 캐시.</td>
+              <td>가장 무거운 상자이며 스폰율이 가장 낮습니다.</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <h2><strong>파트 2: 확장 상자 S를 사용하여 보관함을 확장하는 방법</strong></h2>
+  <p><img src="/images/guide/guide18-02.webp" alt="보관함 확장" width="100%" style="width: 100%;"></p>
+  <p>많은 신규 플레이어는 확장 상자를 처음 찾았을 때 일반 아이템처럼 "열거나" "사용할" 수 없기 때문에 혼란스러워합니다. 이 핵심 규칙을 기억하세요: **확장 상자 S는 금고 업그레이드 재료이며 소모품이 아닙니다.** 특정 금고 업그레이드를 적용할 때만 소모됩니다.</p>
+  
+  <h3><strong>확장 상자 S를 사용하여 창고를 업그레이드하는 방법 (단계별):</strong></h3>
+  <ol>
+      <li>**상자를 기지로 가져오기:** 상자를 찾은 후 창고 보관함이 아닌 **캐릭터의 인벤토리**(주머니 또는 장비)에 있는지 확인하세요.</li>
+          <li>**보관함 NPC 찾기:** 은신처에서 첫 번째 NPC인 **Jeff**에게 갑니다.</li>
+      <li>**사물함과 상호 작용:** 그의 뒤에 있는 메인 보관함 사물함과 상호 작용하여 보관함 UI를 엽니다.</li>
+      <li>**업그레이드 탭으로 전환:** 보관함 UI에서 **"보관 확장" / "금고 업그레이드"** 탭으로 전환합니다. PC에서는 화면의 탭 전환기 또는 마우스 휠을 사용할 수 있습니다.</li>
+      <li>**업그레이드 티어 선택:** 다음에 사용 가능한 금고 업그레이드 티어를 선택합니다. 초기 티어는 크레딧만 들 수 있지만, 후기 티어는 확장 상자와 같은 아이템이 필요합니다.</li>
+      <li>**업그레이드 확인:** 작업을 확인합니다. 확장 상자와 필요한 크레딧이 소모되며 창고 용량이 즉시 증가합니다.</li>
+  </ol>
+  
+  <h3><strong>문제 해결: 업그레이드가 작동하지 않는 경우 수행할 작업</strong></h3>
+  <ul>
+      <li>**올바른 위치에 있습니까?** 상자가 금고가 아닌 **캐릭터 인벤토리**에 있는지 확인하세요.</li>
+      <li>**올바른 화면에 있습니까?** 일반 보관함 보기가 아닌 **"금고 업그레이드"** 탭에 있는지 다시 확인하세요.</li>
+      <li>**해당 티어에 필요합니까?** 선택 중인 업그레이드 티어에 실제로 **확장 상자 S**가 필수 재료로 나열되어 있는지 확인하세요.</li>
+      <li>**충분한 크레딧이 있습니까?** 상자 외에 필요한 크레딧이 있는지 확인하세요.</li>
+  </ul>
+  <p><img src="/images/guide/guide18-03.webp" alt="확장 상자 2" width="100%" style="width: 100%;"></p>
+  
+  <h2><strong>창고 대 배낭 용량: 핵심적인 차이</strong></h2>
+  <p>확장 상자는 **은신처의 창고 용량만 증가시킨다**는 것을 이해하는 것이 중요합니다. 임무 로드아웃에 슬롯을 추가하거나 습격 시 배낭 크기를 늘리지는 않습니다.</p>
+  <p>*습격 중* 더 많은 전리품을 운반하려면 별도의 시스템을 통해 **배낭 용량**을 늘려야 합니다:</p>
+  <p><img src="/images/guide/guide18-04.webp" alt="창고 대 배낭 용량" width="100%" style="width: 100%;"></p>
+  <ul>
+      <li>**스킬 강화 장치:** 기지에서 이 장치를 사용하고 **"배낭 전문가"** 업그레이드 라인을 선택하세요.</li>
+      <li>**특정 배낭:** 장착 시 영구적으로 슬롯을 추가하는 특수 배낭을 현장에서 찾습니다.</li>
+      <li>**방탄복:** 특정 방탄복도 운반 용량을 증가시킬 수 있습니다.</li>
+  </ul>
+      `,
+  },
+  {
+    "id": 19,
+    "title": "Escape From Duckov: 브론즈 회중시계 퀘스트에 대한 완벽 가이드",
+    "description": "Escape From Duckov의 위험한 지형을 탐색하여 브론즈 회중시계를 확보하세요! 이 종합 가이드는 기계식 열쇠 획득부터 전리품을 가지고 안전하게 탈출하는 것까지 단계별 지침을 제공합니다. 게임의 핵심 메커니즘을 숙달하고 Xavier로부터 보상을 받으세요.",
+    "tags": ["Escape From Duckov", "브론즈 회중시계", "퀘스트 가이드", "그라운드 제로", "Xavier"],
+    "publishDate": "2025-11-03",
+    "imageUrl": "/images/guide19.webp",
+    "imageAlt": "Escape From Duckov에서 플레이어 캐릭터가 트럭에서 브론즈 회중시계를 약탈하는 모습.",
+    "category": "advanced",
+    "seo": {
+      "title": "Escape From Duckov: 브론즈 회중시계 퀘스트 - 완벽 워크스루",
+      "description": "Escape From Duckov에서 브론즈 회중시계 퀘스트의 비밀을 해제하세요! 이 가이드는 주요 위치, 아이템 획득 및 안전한 탈출 전략을 다룹니다. Ground Zero를 지배하세요!",
+      "keywords": "Escape From Duckov, 브론즈 회중시계, 그라운드 제로, Xavier, 기계식 열쇠, 퀘스트 가이드, 워크스루, 탈출, 전리품, FPS 게임"
+    },
+    "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
+    "detailsHtml": `
+      <p>"브론즈 회중시계"는 **Escape From Duckov**에서 받게 될 첫 번째 중요한 퀘스트 중 하나입니다. Xavier가 제공하는 이 임무는 특수 열쇠 사용, 특정 위치 탐색, 퀘스트 아이템 회수, 안전한 탈출이라는 게임의 핵심 메커니즘을 완벽하게 소개합니다.</p>
+  <p>이 가이드는 열쇠 획득부터 시계 찾기 및 보상 확보에 이르기까지 모든 단계를 안내합니다.</p>
+  
+  <h2><strong>요약 가이드 (TL;DR)</strong></h2>
+  <ol>
+      <li>벙커의 자동판매기에서 **기계식 열쇠**를 구매합니다.</li>
+      <li>**Ground Zero** 맵으로 출격합니다.</li>
+      <li>**남동쪽 구석**으로 가서 주황색 연료 유조선이 달린 흰색 트럭을 찾습니다.</li>
+      <li>**기계식 열쇠**를 사용하여 트럭 운전실의 잠금을 해제합니다.</li>
+      <li>안에서 **브론즈 회중시계**를 약탈합니다.</li>
+      <li>트럭 옆의 **맨홀 뚜껑**을 통해 즉시 탈출합니다.</li>
+      <li>**Xavier**에게 시계를 전달하여 퀘스트를 완료합니다.</li>
+  </ol>
+  
+  <h2><strong>퀘스트 세부 정보</strong></h2>
+  <table>
+      <thead>
+          <tr>
+              <th>필드 세부 정보</th>
+              <th></th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>**퀘스트 이름**</td>
+              <td>브론즈 회중시계</td>
+          </tr>
+          <tr>
+              <td>**제공자**</td>
+              <td>Xavier (벙커의 무기 NPC)</td>
+          </tr>
+          <tr>
+              <td>**맵**</td>
+              <td>Ground Zero</td>
+          </tr>
+          <tr>
+              <td>**주요 목표**</td>
+              <td>잠긴 트럭에서 브론즈 회중시계를 회수하여 Xavier에게 전달합니다.</td>
+          </tr>
+          <tr>
+              <td>**필요한 아이템**</td>
+              <td>기계식 열쇠 1개</td>
+          </tr>
+          <tr>
+              <td>**보상**</td>
+              <td>~2,500 XP 및 ~450 통화 (값은 약간 다를 수 있음)</td>
+          </tr>
+          <tr>
+              <td>**후속 퀘스트**</td>
+              <td>화물 목록</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <h2><strong>1단계: 기계식 열쇠를 얻는 방법</strong></h2>
+  <p>시계가 들어 있는 트럭은 잠겨 있으며, **기계식 열쇠**만이 내부로 들어갈 수 있는 유일한 방법입니다.</p>
+  <p><img src="/images/guide/guide19-01.webp" alt="열쇠 구매" width="100%" style="width: 100%;"></p>
+  <ul>
+      <li>**주요 방법 (권장):** 열쇠를 얻는 가장 신뢰할 수 있는 방법은 벙커/안전 가옥의 **자동판매기**에서 **660 통화**로 구매하는 것입니다.</li>
+      <li>**대체 방법:** 월드에서 무작위 전리품으로 열쇠를 찾을 수도 있지만, 이는 훨씬 덜 예측 가능합니다. 구매하는 것이 가장 빠른 진행 방법입니다.</li>
+  </ul>
+  <p><strong>프로 팁:</strong> 벙커에 **열쇠 등록 장치**를 건설했다면 출격 전에 기계식 열쇠를 등록할 수 있습니다. 이렇게 하면 습격 중 사망하더라도 열쇠를 잃어버리는 것을 방지할 수 있습니다. 그렇지 않다면 열쇠를 안전 컨테이너나 인벤토리에 보관하세요.</p>
+  <p><img src="/images/guide/guide19-02.webp" alt="기계식 열쇠" width="100%" style="width: 100%;"></p>
+  
+  <h2><strong>2단계: Ground Zero에서 브론즈 회중시계 위치 찾기</strong></h2>
+  <p>브론즈 회중시계는 고정된 위치에 있습니다: **주황색 연료 유조선이 달린 흰색 트럭**의 운전실 내부입니다. 이 트럭은 강 건너 버려진 차량 더미에 주차된 **Ground Zero의 남동쪽 구석**에서 찾을 수 있습니다.</p>
+  <p>탐색하기 가장 쉬운 랜드마크는 **하수구 출구**입니다. 트럭은 이 출구에서 동쪽으로 아주 가까운 거리에 있습니다.</p>
+  <p><img src="/images/guide/guide19-03.webp" alt="기계식 열쇠" width="100%" style="width: 100%;"></p>
+  
+  <h3><strong>트럭으로 가는 두 가지 신뢰할 수 있는 경로:</strong></h3>
+  <ul>
+      <li>**다리 경로:**
+          <ul>
+              <li>벙커 입구에서 부서진 나무 다리를 향해 동쪽으로 향합니다.</li>
+              <li>수리하려면 **나무 2개**가 필요합니다. (나무는 도구 상자에서 찾거나 구매할 수 있습니다.)</li>
+              <li>다리를 건너고 차량이 막힌 도로를 남쪽으로 따라가서 유조선을 찾습니다.</li>
+              <li>**위험:** 이 경로는 더 노출되어 있으며 스캐빈저를 끌어들일 수 있습니다. 남쪽 다리가 일반적으로 더 조용합니다.</li>
+          </ul>
+      </li>
+      <li>**하수구 경로 (가장 빠르고 안전함):**
+          <ul>
+              <li>이전에 하수구 해치를 잠금 해제했다면 이것이 단연코 최고의 경로입니다.</li>
+              <li>Ground Zero 하수구 출구로 나옵니다.</li>
+              <li>트럭과 유조선은 동쪽으로 불과 몇 미터 떨어진 곳에 거의 즉시 눈앞에 있을 것입니다.</li>
+          </ul>
+      </li>
+  </ul>
+  <p>트럭에 도착하면 **운전석 쪽 문**에 접근하여 인벤토리에서 기계식 열쇠를 사용하여 잠금을 해제합니다. 브론즈 회중시계는 내부에 있을 것입니다.</p>
+  
+  <h2><strong>3단계: 가장 쉬운 탈출</strong></h2>
+  <p>탈출하기 위해 맵을 가로질러 다시 달릴 필요가 없습니다. 최고의 탈출 지점 중 하나가 목표물 바로 옆에 있습니다.</p>
+  <ul>
+      <li>유조선 트럭 바로 왼쪽에 있는 땅의 **맨홀 뚜껑**을 찾습니다.</li>
+      <li>그 위에 판지 상자가 있을 수 있습니다. 단순히 상자를 치워 해치를 비웁니다.</li>
+      <li>열린 해치와 상호 작용하면 벙커 지하실로 바로 안전하게 돌아갈 수 있는 지름길이 제공됩니다.</li>
+  </ul>
+  
+  <h2><strong>4단계: 제출 및 보상</strong></h2>
+  <p>브론즈 회중시계를 가지고 성공적으로 탈출한 후 벙커로 돌아갑니다. **Xavier**에게 말을 걸고 시계를 건네주어 퀘스트를 완료합니다.</p>
+  <p>이 작업을 완료하면 XP와 통화를 보상으로 받고, 그의 스토리라인의 다음 퀘스트인 **"화물 목록"**이 잠금 해제됩니다.</p>
+  <p><img src="/images/guide/guide19-04.webp" alt="시계 전달" width="100%" style="width: 100%;"></p>
+  
+  <h2><strong>문제 해결 및 FAQ</strong></h2>
+  <ul>
+      <li>**시계 스폰은 보장됩니까?**
+          <p>**예.** 브론즈 회중시계는 고정된 퀘스트 아이템입니다. 문을 열었는데 보이지 않으면 드문 버그일 수 있습니다. Ground Zero를 나갔다가 다시 맵에 진입하여 초기화하기만 하면 됩니다.</p>
+      </li>
+      <li>**사망하면 어떻게 됩니까?**
+          <p>사망하면 퀘스트 진행 상황이 재설정됩니다. Ground Zero로 돌아가 시계를 다시 회수해야 합니다. 이것이 빠른 맨홀 탈출이 강력히 권장되는 이유입니다.</p>
+      </li>
+      <li>**이 퀘스트가 중요한 이유는 무엇입니까?**
+          <p>훌륭한 초반 XP 및 통화 부스트를 제공하고, 필수 스킬을 가르치며, 메인 스토리라인을 진행할 추가 퀘스트를 잠금 해제합니다.</p>
+      </li>
+  </ul>
+      `
+  }
+
+
+
+
 
 
 

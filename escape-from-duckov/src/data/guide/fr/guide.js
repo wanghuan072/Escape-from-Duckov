@@ -1481,9 +1481,911 @@ export const guides = [
       
       <p>Bonne chance à l'extérieur, et bon pillage (et bonne vente) !</p>
               `
+    },
+
+    {
+        "id": 12,
+        "title": "Solution Complète Escape from Duckov Partie 1 : Évasion de Prison et Installation de la Base",
+        "description": "Votre guide essentiel pour commencer Escape from Duckov ! Couvre le tutoriel complet de l'évasion de prison, la mise en place de l'infrastructure de base et l'achèvement des quêtes initiales dans Ground Zero.",
+        "imageUrl": "/images/guide12.webp",
+        "imageAlt": "Un personnage joueur dans Escape from Duckov pillant une caisse pendant la séquence d'évasion de prison.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
+        "category": "walkthroughs",
+        "tags": ["solution complète", "guide débutant", "évasion de prison", "construction de base", "ground zero"],
+        "seo": {
+            "title": "Guide Escape from Duckov Partie 1 : Prison, Configuration de la Base et Quêtes Initiales",
+            "description": "Solution complète étape par étape pour la première partie de Escape from Duckov. Apprenez à vous échapper de prison, à configurer votre base et à accomplir les quêtes Construction de Base et Capital de Démarrage.",
+            "keywords": "Solution Complète Escape from Duckov Partie 1, Guide Débutant Escape from Duckov, Guide Évasion de Prison, Solution Complète Ground Zero, Configuration de Base Duckov, Quêtes Initiales"
+        },
+        "detailsHtml": `
+              <h2>Évasion de Prison : Tutoriel et Première Rencontre</h2>
+              <p>Après une brève scène d'introduction, votre première action est d'aller au miroir et de **configurer votre personnage** dans le créateur de personnage.</p>
+              
+              <h3>Butin Initial et Mouvement</h3>
+              <ul>
+                  <li>Suivez les flèches et les marques sur le sol pour vous déplacer et ramasser le butin.</li>
+                  <li>Dans la boîte, vous acquerrez : un **TT-33** (pistolet de base), **30 cartouches de munitions**, des **bandages** et des **biscuits salés**.</li>
+                  <li>Entrez dans la pièce à droite de votre cellule et prenez une **carotte** dans la boîte à l'intérieur. (<em>Conseil : Courir et rouler consomment de l'**Endurance**</em>).</li>
+                  <li>Vérifiez la poubelle pour un **briquet**, une **sucette** et des **composants électroniques**.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-01.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
+      
+              <h3>Premier Combat et Amélioration de l'Équipement</h3>
+              <ul>
+                  <li>**Équipez le pistolet TT-33** pour la rencontre à venir.</li>
+                  <li>**Esquivez un tir entrant** (lorsque vous voyez le flash rouge) et éliminez le premier garde.</li>
+                  <li>Pillez le garde pour : une **matraque de police**, une **blouse de laboratoire blanche** et des **lunettes de soleil à monture noire**. **Équipez tout**.</li>
+                  <li>Ramassez plus de balles et trouvez des **câbles** dans la poubelle. (<em>Conseil : Maintenir le bouton droit de la souris enfoncé améliore la précision.</em>)</li>
+                  <li>Pillez des **bandages** et de l'**aspirine** dans la boîte suivante.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-02.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
+      
+              <h3>Deuxième Rencontre et Extraction</h3>
+              <ul>
+                  <li>Pillez le **pistolet PM** dans une boîte dans la pièce suivante et placez-le dans l'emplacement 2.</li>
+                  <li>Éliminez les prochains gardes, pillant un **pistolet Glick**, une blouse de laboratoire et des lunettes de soleil.</li>
+                  <li>Si votre **inventaire est plein**, vous devrez peut-être continuer. Pillez des **biscuits salés** et du **soda** dans la poubelle suivante.</li>
+                  <li>**Mangez la carotte et les biscuits salés** pour reconstituer l'énergie.</li>
+                  <li>Prenez le chemin à **droite** et dirigez-vous vers le **point d'extraction** pour terminer l'évasion rapide.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-03.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
+      
+              <h2>La Base : Infrastructure et Améliorations Initiales</h2>
+              <p>En revenant à la base, trouvez **Jeff** à l'étage pour une visite : l'entrepôt, le panneau de construction, le distributeur automatique, l'améliorateur et le point d'extraction.</p>
+      
+              <img src="/images/guide/guide12-04.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
+      
+              <h3>Améliorations de Personnage et de Stockage</h3>
+              <ul>
+                  <li>Vendez les Glicks et gardez votre TT-33 équipé. Vérifiez le distributeur automatique.</li>
+                  <li>Utilisez l'**Améliorateur** : **Recherchez et activez "Expert en Sac à Dos I"** pour une **capacité de sac à dos de +4**. (<em>Remarque : Les améliorations nécessitent de l'argent et des matériaux.</em>)</li>
+                  <li>Utilisez l'**Entrepôt** : Ajoutez **"Extension de Stockage Niv.1"** pour gagner **+35 capacité de stockage**.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-05.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
+      
+              <h3>Acceptation des Quêtes Initiales</h3>
+              <p>Parlez à Jeff pour accepter vos deux premières quêtes :</p>
+              <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                      <tr>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nom de la Quête</th>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objectif</th>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Récompense</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;"><strong>Construction de Base</strong></td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Construire un établi en collectant **deux morceaux de bois**.</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">EXP +1000, Monnaie +500, Bandages x3</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;"><strong>Capital de Démarrage</strong></td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">**Tuer un ennemi**.</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">EXP +500, Monnaie +1296</td>
+                      </tr>
+                  </tbody>
+              </table>
+      
+              <img src="/images/guide/guide12-06.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
+      
+              <h2>Ground Zero : Course aux Ressources et Achèvement des Quêtes</h2>
+      
+              <h3>Nettoyage du Camp Ennemi et Collecte de Bois</h3>
+              <ul>
+                  <li>Pillez la première boîte pour des balles et un autre TT-33. Déplacez-vous à droite.</li>
+                  <li>Trouvez des **petites pierres** (pour attirer les ennemis) et des **clous** dans une boîte à outils. Ramassez des **écrous, des boulons et une batterie de voiture**.</li>
+                  <li>Trouvez un camp ennemi sur la gauche. Éliminer un **Charognard Déchaîné** (canard rouge) ici **achève "Capital de Démarrage"**.</li>
+                  <li>Pillez sur le corps : un **couteau de boucher**, du **bois** et de l'**argent liquide**.</li>
+                  <li>Continuez à piller (caisse tactique, caisse de munitions) pour un **fusil de chasse fait maison**, des **balles** et des **flèches**.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-07.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
+      
+              <h3>Pillage et Exploration Supplémentaires</h3>
+              <ul>
+                  <li>Engagez les **Canards Verts** (utilisez des fusils de chasse, portez une armure corporelle).</li>
+                  <li>Pillez des corps pour un **sac à dos** (équipez-le pour +39 de stockage), un **arc** et un **fragment de noyau froid**.</li>
+                  <li>Pillez un **AK-74U** et trouvez un **plan pour le TOZ-66**.</li>
+                  <li>Continuez vers le nord, trouvant un **nœud de téléportation** qui mène à un **lac**.</li>
+                  <li>Près du sentier forestier, trouvez un petit camp avec une **recette pour le MD40**. Utilisez une pelle pour **déterrer une disquette J-Lab**.</li>
+                  <li>Nettoyez un autre camp, trouvant le **deuxième morceau de bois** nécessaire pour **"Construction de Base"**.</li>
+                  <li>Notez que le **pont cassé** vers la grotte nécessite **2 plaques métalliques** et **2 morceaux de bois**.</li>
+              </ul>
+      
+              <h3>Extraction et Soumission des Quêtes</h3>
+              <ul>
+                  <li>Affrontez les Canards Verts au camp nord-ouest. Trouvez un **accessoire de canon** pour améliorer les dégâts des pistolets-mitrailleurs près du point d'extraction.</li>
+                  <li>**Extrayez de Ground Zero**.</li>
+                  <li>À la base, soumettez **"Capital de Démarrage"**.</li>
+                  <li>**Acceptez la quête "Le Sentier du Chasseur"** : Tuer 2 Charognards Déchaînés et soumettre 2 couteaux de boucher.</li>
+                  <li>Allez au **panneau de construction** et **construisez un établi**. Soumettez **"Construction de Base"**.</li>
+                  <li>**Améliorez l'établi** en recherchant le **Traitement Avancé**.</li>
+              </ul>
+      
+              <h3>Nouvelles Quêtes et Préparatifs Finaux</h3>
+              <p>Vous recevrez de nouvelles quêtes comme **"L'Importance de l'Hémostase"**, **"La Tour de Signalisation"** (nécessite un **Tournevis Plat**), et **"Une Lettre d'un Vieil Ami"**.</p>
+              <ul>
+                  <li>Achetez un **tournevis plat** au distributeur automatique.</li>
+                  <li>Allez à l'**Améliorateur** et améliorez **Instinct de Survie 1 (PV Max +5)** et **Vue Large 1 (Champ de Vision +15)**.</li>
+                  <li>**Allez vous coucher** et avancez rapidement l'heure à **7h du matin** pour éviter le danger accru de la nuit.</li>
+              </ul>
+          `
+    },
+
+    {
+        "id": 13,
+        "title": "Solution Complète Escape from Duckov Partie 2 : Exploration de Ground Zero et Expansion de la Base",
+        "description": "Le guide essentiel pour la Partie 2 de Escape from Duckov. Terminez la Tour de Signalisation, déverrouillez la grotte, battez le garde coriace et étendez votre base avec de nouvelles boutiques.",
+        "imageUrl": "/images/guide13.webp",
+        "imageAlt": "Un personnage joueur réparant un pont cassé dans la carte Ground Zero de Escape from Duckov.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
+        "category": "walkthroughs",
+        "tags": ["solution complète", "ground zero", "expansion de base", "nouvelles quêtes", "milieu de partie"],
+        "seo": {
+            "title": "Solution Complète Escape from Duckov Partie 2 : Tour de Signalisation, Butin de Grotte et Boutique d'Armures",
+            "description": "Guide complet pour Escape from Duckov Partie 2, détaillant comment réparer la tour de signalisation, accéder à la grotte pour des plans, vaincre le garde lourd et construire la Boutique d'Armures.",
+            "keywords": "Escape from Duckov Partie 2, Exploration Ground Zero, Quête Tour de Signalisation, Plans de Grotte, Déverrouillage Boutique d'Armures, Notes du Marché Noir"
+        },
+        "detailsHtml": `
+              <h2>Ground Zero : Achèvement des Quêtes et Emplacements Clés</h2>
+              <p>La deuxième course majeure se concentre sur l'utilisation de votre équipement amélioré pour accomplir les tâches en suspens, déverrouiller de nouvelles zones et collecter des plans et des objets de quête cruciaux.</p>
+      
+              <h3>Tour du Nord et Nouveaux Contacts</h3>
+              <ul>
+                  <li>Dirigez-vous vers le camp routier et localisez la **Tour du Nord**.</li>
+                  
+                  <img src="/images/guide/guide13-01.webp" alt="Solution complète Escape from Duckov partie 2" class="guide-image" />
+      
+                  <li>Pillez la **boîte à outils** à proximité, sécurisant des objets de valeur, notamment **2 Plaques Métalliques**, **1 Clou** et un **Tournevis Plat**.</li>
+      
+                  <img src="/images/guide/guide13-02.webp" alt="Solution complète Escape from Duckov partie 2" class="guide-image" />
+      
+                  <li>Interagissez avec le **boîtier électrique** à la base de la tour pour terminer l'objectif de la quête **"La Tour de Signalisation"**.</li>
+                  <li>Déplacez-vous à droite de la tour pour trouver le **plan de la Carte Graphique Patate**.</li>
+      
+                  <img src="/images/guide/guide13-03.webp" alt="Solution complète Escape from Duckov partie 2" class="guide-image" />
+      
+                  <li>Continuez vers le camp routier, éliminez le nouveau type d'ennemi armé d'un fusil de chasse, et pillez un **fusil de chasse MP-155**, un **casque de moto** et des médicaments.</li>
+                  <li>À gauche, trouvez **"Mud"** et acceptez la quête **"Nutrition Équilibrée 1"** (Objectif : Soumettre 1 Œuf de Canard ; Récompense : EXP +800, Monnaie +500).</li>
+              </ul>
+      
+              <h3>Réparation du Pont et Accès à la Grotte</h3>
+              
+              <img src="/images/guide/guide13-04.webp" alt="Solution complète Escape from Duckov partie 2" class="guide-image" />
+      
+              <ul>
+                  <li>Déplacez-vous à gauche et **réparez le pont cassé** menant au camp routier en utilisant **deux morceaux de bois**. (Vérifiez sous le poteau électrique avant de traverser, bien que le butin soit rare).</li>
+                  <li>Dirigez-vous vers le camp sur le sentier forestier, éliminez les **Charognards Rouges** pour terminer **"Le Sentier du Chasseur"**, et ramassez **deux Couteaux de Boucher**. Trouvez également une **Clé de la Station-Service Abandonnée**.</li>
+                  <li>Réparez le pont cassé près de l'entrée de la grotte.</li>
+      
+                  <img src="/images/guide/guide13-05.webp" alt="Solution complète Escape from Duckov partie 2" class="guide-image" />
+              </ul>
+      
+              <h3>Butin et Plans de Grotte</h3>
+      
+              <p>À l'intérieur de la grotte, collectez d'importants accessoires d'armes et des plans :</p>
+      
+              <img src="/images/guide/guide13-06.webp" alt="Solution complète Escape from Duckov partie 2" class="guide-image" />
+      
+              <ul>
+                  <li>Pillez un **Cache-Flamme de Pistolet**, un **UP 45**, un **AK 47**, un **Accessoire de Tir à la Hanche** et un **Accessoire Laser**.</li>
+                  <li>Crucialement, ramassez les **plans pour le Pistolet Cube** et les **Petites Munitions Énergétiques**.</li>
+              </ul>
+      
+              <h3>Camp Nord-Ouest et Préparation Finale à l'Extraction</h3>
+      
+              <img src="/images/guide/guide13-07.webp" alt="Solution complète Escape from Duckov partie 2" class="guide-image" />
+              
+              <ul>
+                  <li>Faufilez-vous dans le **camp nord-ouest** et trouvez la **Lettre d'un Vieil Ami** dans la tente, terminant la quête.</li>
+                  <li>Ramassez la **Recette de Pied-de-Biche** dans une boîte de données à proximité. Montez sur la tour de guet et lisez le **"Journal d'Observation de Ground Zero"**.</li>
+                  <li>**Rencontre Difficile :** Engagez l'**ennemi à capuche super coriace avec un fusil de chasse**. Utilisez un **bandage** pendant ce combat pour terminer **"L'Importance de l'Hémostase"**.</li>
+                  <li>Après l'avoir éliminé, pillez les précieuses **Notes de Contact du Marché Noir** et les **cartouches de fusil de chasse PA avancées**.</li>
+                  <li>Sur le chemin de l'extraction, nettoyez un autre camp pour trouver deux clés : la **Clé de la Station-Service Abandonnée** et la **Clé de la Clôture**, ainsi qu'un **Viseur Holographique**.</li>
+                  <li>**Extrayez de Ground Zero.**</li>
+              </ul>
+      
+              <h2>Gestion de la Base : Quêtes, Boutiques et Améliorations</h2>
+              <p>De retour à la base, soumettez immédiatement toutes les quêtes terminées pour déverrouiller votre prochain niveau de construction et d'améliorations.</p>
+      
+              <img src="/images/guide/guide13-08.webp" alt="Solution complète Escape from Duckov partie 2" class="guide-image" />
+      
+              <h3>Soumission des Quêtes et Nouveaux Objectifs</h3>
+              <p>Soumettez toutes les quêtes terminées. Les nouvelles quêtes de construction et de matériaux suivantes apparaîtront :</p>
+              <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                      <tr>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nouvelle Construction</th>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Quêtes de Combat/Matériaux</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Construction de Base II : Construire une **Boutique d'Armes**</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Visez la Tête : Tuer n'importe quel ennemi (5) avec des tirs à la tête</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Construction de Base III : Construire une **Boutique d'Armures** (Priorité immédiate)</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Expert Technique : Soumettre une pile de composants électroniques</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Construction de Base (Médicale) : Construire un **Poste Médical**</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Plein d'Amour : Soumettre 1888 monnaie (Peut être soumis immédiatement)</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Apprentissage de l'Artisanat : Soumettre un Glick</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Soumettre les quêtes déjà terminées : Poche Agrandie et Améliorer l'Établi</td>
+                      </tr>
+                  </tbody>
+              </table>
+      
+              <h3>Construction et Améliorations Finales</h3>
+              <ul>
+                  <li>Soumettez **"Plein d'Amour"** immédiatement.</li>
+                  <li>Vérifiez la Station de Construction : Vous pouvez **construire la Boutique d'Armures** immédiatement. Soumettez **"Construction de Base III"**.</li>
+                  <li>Visitez la nouvelle Boutique d'Armures : **Achetez l'Armure Niveau 2 et un Casque en Acier**.</li>
+                  <li>À l'**Établi** : **Recherchez tous les nouveaux plans** (pour libérer de l'espace d'inventaire), et recherchez le plan de la **Station de Réparation**.</li>
+                  <li>Achetez des **Ciseaux** et une **Clé à Molette** au distributeur automatique, puis recherchez la **Station de Démantèlement** à l'Établi.</li>
+                  <li>À l'**Améliorateur** : Améliorez **Maîtrise des Armes I**.</li>
+                  <li>Acceptez les deux nouvelles quêtes de la Boutique d'Armures : **"Route de Ravitaillement"** (Marquer la caisse de ravitaillement) et **"Tenue de Livres"** (Soumettre encre, stylo, carnet).</li>
+                  <li>La journée se termine alors que vous êtes à court d'argent après ces améliorations majeures.</li>
+              </ul>
+          `
+    },
+
+    {
+        "id": 14,
+        "title": "Solution Complète Escape from Duckov Partie 3 : Clés de Ground Zero et Boss Pato Chapo",
+        "description": "Le guide complet pour la Partie 3 d'Escape from Duckov. Acceptez de nouvelles quêtes de marchands, construisez le Poste Médical et la Boutique d'Armes, et localisez le Boss Pato Chapo.",
+        "imageUrl": "/images/guide14.webp",
+        "imageAlt": "Un personnage joueur dans Escape from Duckov ouvrant une porte verrouillée avec une clé à Ground Zero.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
+        "category": "walkthroughs",
+        "tags": ["solution complète", "ground zero", "combat de boss", "pato chapo", "quêtes de marchands", "milieu de partie"],
+        "seo": {
+            "title": "Guide Escape from Duckov Partie 3 : Poste Médical, Clés et Stratégie Pato Chapo",
+            "description": "Guide complet pour Escape from Duckov Partie 3 : construisez des installations de base cruciales (Armes/Médical), utilisez les clés de la Station-Service et de la Clôture, trouvez la chambre d'hôtel et battez le Boss Pato Chapo.",
+            "keywords": "Escape from Duckov Partie 3, Combat de Boss Pato Chapo, Clés Ground Zero, Poste Médical, Boutique d'Armes, Clé de Chambre d'Hôtel, Solution Complète"
+        },
+        "detailsHtml": `
+            <h2>Préparatifs de la Base : Quêtes de Marchands et Installations</h2>
+            <p>Commencez la journée en acceptant une nouvelle série de quêtes des installations de base nouvellement établies et en soumettant immédiatement celles qui peuvent l'être pour maximiser l'expérience et la monnaie avant de retourner à Ground Zero.</p>
+      
+            <h3>Nouvelles Quêtes Acceptées :</h3>
+            <p>Acceptez de nouvelles quêtes auprès de Mud, du Marchand d'Armes, de l'Armurier et du Distributeur Automatique pour guider votre prochaine course :</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Source (Marchand)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nom de la Quête</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objectif</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Mud (Forme Physique)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Nutrition Équilibrée II/III, Coach de Fitness</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre **Boisson Énergétique**, **Chocolat**, **Haltère**</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Marchand d'Armes</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Pistolet Générique, Étrange Plume</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre **Glick**, **Plume de Paon**</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Armurier / Poste Médical</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Assistance Médicale</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre **Trousse Médicale**</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Distributeur Automatique</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Autosuffisant, Chef Professionnel</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre **Eau**, **Couteau de Chef**</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">CONSEIL :</strong> Soumettez les quêtes **"Apprentissage de l'Artisanat"** et **"Tenue de Livres"** avant d'accepter les nouvelles pour vider l'inventaire et gagner des fonds immédiats.</p>
+      
+            <h3>Construction et Améliorations</h3>
+            <p>Utilisez vos fonds et matériaux actuels pour terminer l'infrastructure de la base :</p>
+            <ul>
+                <li>**Construisez le Poste Médical** et soumettez la quête **"Construction de Base (Médicale)"**. Acceptez la quête **"Assistance Médicale"** auprès de la nouvelle station.</li>
+                
+                <li>**Construisez la Boutique d'Armes** et soumettez la quête **"Construction de Base II"**. Acceptez la quête **"Étrange Plume"** auprès de la nouvelle boutique.</li>
+                
+                <img src="/images/guide/guide14-01.webp" alt="Solution complète Escape from Duckov partie 3" class="guide-image" />
+      
+                <li>Effectuez toutes les **améliorations de base** et les **améliorations de compétences** disponibles (comme Maîtrise des Armes) avant le déploiement.</li>
+      
+                <img src="/images/guide/guide14-02.webp" alt="Solution complète Escape from Duckov partie 3" class="guide-image" />
+            </ul>
+      
+            <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero : Zones Verrouillées et Indices Cachés</h2>
+            <p>Équipé des clés et de votre nouvel équipement, vous pouvez désormais accéder à des zones auparavant verrouillées de Ground Zero.</p>
+      
+            <h3>Accès à la Station-Service Abandonnée et à la Clôture</h3>
+            <ul>
+                <li>Allez à la **Station-Service Abandonnée** et **ouvrez la porte avec la clé** trouvée dans la Partie 2.</li>
+                <li>À l'intérieur, pillez une **caisse d'armes** contenant une arme et des munitions. Vous devriez trouver une **clé de la clôture** à l'intérieur de la station (ou confirmer que vous l'avez déjà).</li>
+                <li>Allez à la **clôture** périmétrique et **ouvrez-la** pour accéder à la zone suivante de la carte.</li>
+            </ul>
+      
+            <h3>Le Mystère du Bord de Route (Clé d'Hôtel)</h3>
+            <ul>
+                <li>Dirigez-vous vers le **camp en bord de route** et trouvez une **note** contenant des indices sur un nouvel emplacement.</li>
+                <li>Suivez les indications de la note pour trouver un **cadavre**. Pillez le corps pour acquérir une **clé d'une Chambre d'Hôtel**.</li>
+                <li>Rendez-vous à l'emplacement de l'**hôtel** et utilisez la nouvelle clé pour **ouvrir la chambre**. À l'intérieur, vous devriez trouver une autre **caisse d'armes** et potentiellement un nouvel **indice ou une clé**.</li>
+            </ul>
+      
+            <h3>Localisation du Boss : Pato Chapo</h3>
+            <p>Les indices et les emplacements de corps répétés vous mènent probablement à la rencontre finale de cette partie :</p>
+            <ul>
+                <li>En suivant le dernier indice/la dernière note, dirigez-vous vers l'emplacement désigné où vous trouverez probablement la zone sécurisée par le boss.</li>
+                <li>Préparez-vous pour un combat difficile contre le **Boss : Pato Chapo**. (<em>Remarque : Assurez-vous d'avoir votre armure améliorée, beaucoup de munitions de haut niveau et des fournitures médicales avant de vous engager.</em>)</li>
+                <li>Après avoir vaincu Pato Chapo, **pillez le corps** pour des objets de grande valeur et des clés/indices essentiels nécessaires pour la prochaine partie de la solution complète.</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 15,
+        "title": "Solution Complète Escape from Duckov Partie 4 : Boss Duckmother et AS VAL",
+        "description": "Le guide complet pour la Partie 4 d'Escape from Duckov. Acceptez de nouvelles quêtes de Bunker, battez le redoutable Boss Duckmother et sécurisez la puissante arme AS VAL.",
+        "imageUrl": "/images/guide15.webp",
+        "imageAlt": "Un personnage joueur combattant un grand boss, la Duckmother, dans l'emplacement du camp abandonné d'Escape from Duckov.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
+        "category": "walkthroughs",
+        "tags": ["solution complète", "ground zero", "combat de boss", "duckmother", "as val", "améliorations"],
+        "seo": {
+            "title": "Guide Escape from Duckov Partie 4 : Vaincre la Duckmother, Trouver l'AS VAL et Quêtes de Bunker",
+            "description": "Solution complète étape par étape pour Escape from Duckov Partie 4. Apprenez les améliorations de compétences requises, complétez les quêtes d'extermination et de soumission, et maîtrisez le combat de boss contre la Duckmother.",
+            "keywords": "Escape from Duckov Partie 4, Stratégie Boss Duckmother, Emplacement AS VAL, Camp Abandonné Ground Zero, Amélioration Réserve d'Énergie, Quête Test de Performance"
+        },
+        "detailsHtml": `
+            <h2>Préparation du Bunker : Nouvelles Quêtes et Améliorations de Compétences</h2>
+            <p>Avant de retourner à Ground Zero, rendez visite aux marchands et à l'améliorateur pour accepter des missions clés et renforcer la préparation au combat de votre personnage pour les nouveaux défis à venir, y compris le **Boss Duckmother**.</p>
+      
+            <h3>Nouvelles Quêtes Acceptées :</h3>
+            <p>Priorisez ces quêtes pour votre prochaine course, car elles correspondent aux activités courantes de Ground Zero et au butin nécessaire :</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nom de la Quête</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objectif</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Récompense (EXP/Monnaie)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Grand Stockage</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre 1 **Grande Boîte de Stockage**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Élimination de Moustiques</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Tuer **10 Moustiques**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Vente en Gros de Pièces</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre **5 Vis**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Test de Performance</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre 1 **Carte Graphique**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Punisseur</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Tuer **5 Charognards**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <h3>Améliorations de Compétences : Renforcer l'Efficacité au Combat</h3>
+            <p>Investissez dans ces compétences de base avant le déploiement pour améliorer la durabilité et la précision au combat :</p>
+            <ul>
+                <li>**Réserve d'Énergie :** Augmente l'énergie maximale de **+10**. (Permet plus de sprint/d'esquives)</li>
+      
+                <img src="/images/guide/guide15-01.webp" alt="Solution complète Escape from Duckov partie 4" class="guide-image" />
+      
+                <li>**Apport Nutritionnel :** Augmente l'effet de la nourriture et de l'eau de **+10 %**. (Améliore la durabilité)</li>
+                <li>**Tir Stable I :** Augmente la précision du tir à la hanche de **+10 %**. (Crucial pour le combat rapproché contre le Boss)</li>
+            </ul>
+      
+            <h2>Ground Zero : Camp Abandonné et Boss Duckmother</h2>
+            <p>Retournez à Ground Zero en vous concentrant sur les quêtes d'extermination et la localisation de la nouvelle zone du boss.</p>
+      
+            <h3>Progression des Quêtes et Découverte de Nouvelle Arme</h3>
+            <ul>
+                <li>Concentrez votre course sur les zones connues pour l'activité des Charognards et les plans d'eau pour **tuer 10 Moustiques** et **5 Charognards**.</li>
+                <li>Pillez les boîtes à outils et les caches électroniques pour trouver les **Vis** et la **Carte Graphique** requises pour les quêtes de soumission.</li>
+                <li>Pendant votre exploration, découvrez l'arme puissante **VSS**, une trouvaille précieuse pour les engagements silencieux.</li>
+                <li>Localisez le **Camp Abandonné**, le nouvel emplacement que vous avez découvert.</li>
+            </ul>
+      
+            <img src="/images/guide/guide15-03.webp" alt="Solution complète Escape from Duckov partie 4" class="guide-image" />
+      
+            <h3>Le Combat de Boss contre la Duckmother</h3>
+            <p>La **Duckmother** est une menace importante située dans le Camp Abandonné. Préparez-vous à un combat qui met l'accent sur le mouvement et une production de dégâts élevée.</p>
+            <ul>
+                <li>**Conseil Stratégique :** Utilisez votre **Réserve d'Énergie** améliorée pour le sprint et l'esquive soutenus. Concentrez le feu sur le point faible du Boss (souvent la tête ou un sac à dos visible).</li>
+                <li>Après un combat difficile, **battez la Duckmother**.</li>
+                <li>Pillez le corps pour trouver une **Clé d'une Pièce Verrouillée** à l'intérieur du camp.</li>
+            </ul>
+      
+            <h3>Sécuriser l'AS VAL</h3>
+            <ul>
+                <li>Utilisez la clé obtenue de la Duckmother pour ouvrir la **Pièce Verrouillée** à l'intérieur du Camp Abandonné.</li>
+                <li>À l'intérieur de la pièce, vous trouverez l'arme très recherchée, l'**AS VAL**, un fusil silencieux à dégâts élevés.</li>
+            </ul>
+      
+            <h2><span style="color: #DAA520;">&#127775;</span> Activités Post-Course</h2>
+            <ul>
+                <li>**Extrayez** avec succès et retournez au Bunker.</li>
+                <li>**Soumettez toutes les quêtes terminées** (Élimination de Moustiques, Punisseur, Vente en Gros de Pièces, Test de Performance, etc.) et récupérez vos récompenses substantielles.</li>
+                <li>Acceptez la **nouvelle quête** du marchand qui se déverrouille après avoir terminé la série précédente.</li>
+                <li>Visitez l'**Armurier** pour utiliser votre nouvelle monnaie afin d'**acheter un nouveau casque** ou tout autre équipement de protection nécessaire.</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 16,
+        "title": "Solution Complète Escape from Duckov Partie 5 : Répétition du Cycle - Le Rappel de la Duckmother",
+        "description": "Le guide pour la Partie 5 d'Escape from Duckov. Acceptez des quêtes répétables à haute récompense, maximisez les compétences de survie de base, battez à nouveau le Boss Duckmother et sécurisez du butin de haut niveau.",
+        "imageUrl": "/images/guide16.webp",
+        "imageAlt": "Un personnage joueur utilisant l'AS VAL dans une pièce sombre du Camp Abandonné d'Escape from Duckov.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
+        "category": "walkthroughs",
+        "tags": ["solution complète", "ground zero", "combat de boss", "quêtes répétables", "maximisation de compétences", "course de farm"],
+        "seo": {
+            "title": "Guide Escape from Duckov Partie 5 : Maximisation des Compétences de Base et Course Répétée de la Duckmother",
+            "description": "Solution complète étape par étape pour Escape from Duckov Partie 5, se concentrant sur l'achèvement des quêtes d'extermination et de soumission répétables pour farm la monnaie et maximiser les compétences critiques comme Réserve d'Énergie et Tir Stable.",
+            "keywords": "Escape from Duckov Partie 5, Répétition Duckmother, Max Réserve d'Énergie, Tir Stable II, Course de Farm Ground Zero, Quête Test de Performance II"
+        },
+        "detailsHtml": `
+            <h2>Préparation du Bunker : Quêtes Répétables et Maximisation des Compétences</h2>
+            <p>La Partie 5 consiste à répéter des quêtes de ravitaillement et d'extermination de grande valeur, souvent marquées de suffixes en chiffres romains (II), qui sont excellentes pour farm l'expérience et la monnaie. Concentrez-vous sur la maximisation des compétences de survie et de combat de base avant de retourner à Ground Zero.</p>
+      
+            <h3>Nouvelles Quêtes/Quêtes Répétables Acceptées :</h3>
+            <p>Acceptez les versions améliorées et répétables des missions du cycle précédent auprès des marchands :</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nom de la Quête</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objectif</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Récompense (EXP/Monnaie)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Grand Stockage II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre 1 **Grande Boîte de Stockage**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Élimination de Moustiques II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Tuer **10 Moustiques**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Vente en Gros de Pièces II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre **5 Vis**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Test de Performance II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre 1 **Carte Graphique**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Punisseur II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Tuer **5 Charognards**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <h3>Améliorations de Compétences : Atteindre le Niveau II</h3>
+            <p>Utilisez l'Améliorateur pour passer aux compétences de Niveau II, augmentant davantage l'efficacité et la survie :</p>
+            <ul>
+                <li>**Réserve d'Énergie II :** Augmente l'énergie maximale de **+10** (Total +20, essentiel pour le kiting/sprint).</li>
+                <li>**Apport Nutritionnel II :** Augmente l'effet de la nourriture et de l'eau de **+10 %** (Total +20 %, améliore considérablement le soin/l'hydratation).</li>
+                <li>**Tir Stable II :** Augmente la précision du tir à la hanche de **+10 %** (Total +20 %, rend le combat rapproché et le tir en mouvement très efficaces).</li>
+            </ul>
+      
+            <img src="/images/guide/guide16-02.webp" alt="Solution complète Escape from Duckov partie 5" class="guide-image" />
+      
+            <h2>Ground Zero : Farming de Ressources et Rappel du Boss</h2>
+            <p>Les objectifs de cette course sont d'atteindre rapidement les quotas d'extermination, de collecter les objets de soumission et de se préparer à affronter à nouveau la Duckmother pour un butin lucratif et des clés.</p>
+      
+            <h3>Farming de Ressources et Extermination</h3>
+            <ul>
+                <li>Concentrez votre course sur les zones riches en composants électroniques et en boîtes à outils pour trouver rapidement les **Vis** et la **Carte Graphique** requises.</li>
+                
+                <img src="/images/guide/guide16-01.webp" alt="Solution complète Escape from Duckov partie 5" class="guide-image" />
+      
+                <li>Terminez efficacement les quêtes **Élimination de Moustiques II (10 éliminations)** et **Punisseur II (5 éliminations)**.</li>
+                <li>Puisque vous avez probablement déjà trouvé le **VSS** précédemment, cette course confirme son existence continue ou offre une autre chance de l'acquérir.</li>
+                <li>Relocalisez le **Camp Abandonné** où le boss apparaît.</li>
+            </ul>
+      
+            <h3>Vaincre la Duckmother (Répétition)</h3>
+            <p>La **Duckmother** est l'objectif clé, car la vaincre donne accès à la pièce verrouillée. Utilisez votre nouvelle compétence **Tir Stable II** et vos réserves d'énergie supérieures pour l'engager agressivement.</p>
+            <ul>
+                <li>Après avoir vaincu la **Duckmother**, elle lâchera à nouveau la **Clé d'une Pièce Verrouillée** dans le camp.</li>
+                <li>Utilisez la clé pour accéder à la Pièce Verrouillée et récupérer l'arme puissante **AS VAL** (ou ses composants/munitions de haute valeur si vous la possédez déjà).</li>
+            </ul>
+      
+            <h2>Activités Post-Course</h2>
+            <ul>
+                <li>**Extrayez** avec succès et retournez au Bunker.</li>
+                <li>**Soumettez toutes les quêtes terminées** (Élimination de Moustiques II, Punisseur II, etc.) et collectez vos récompenses.</li>
+                <li>Acceptez la **nouvelle quête** du marchand qui se déverrouille après avoir terminé cette série.</li>
+                <li>Visitez l'**Armurier** pour utiliser votre monnaie accumulée afin d'**acheter un nouveau casque** ou d'améliorer votre armure au niveau le plus élevé disponible, en vous préparant pour le prochain défi unique.</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 17,
+        "title": "Solution Complète Escape from Duckov Partie 6 : Maximisation Finale des Compétences et Farm du Boss",
+        "description": "Le guide ultime pour la Partie 6 d'Escape from Duckov. Terminez le niveau final des quêtes répétables (III), maximisez les compétences de survie et de combat de base et équipez-vous pour la prochaine zone majeure.",
+        "imageUrl": "/images/guide17.webp",
+        "imageAlt": "Un gros plan du fusil AS VAL dans les mains du joueur à l'intérieur de la pièce verrouillée du Camp Abandonné.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
+        "category": "walkthroughs",
+        "tags": ["solution complète", "ground zero", "maximisation de compétences", "farm de boss", "niveau iii", "préparation finale"],
+        "seo": {
+            "title": "Guide Escape from Duckov Partie 6 : Maximisation des Compétences de Niveau III et Dernière Course Duckmother",
+            "description": "Guide complet pour Escape from Duckov Partie 6. Apprenez à finaliser toutes les améliorations de compétences de Niveau III (Énergie, Nutrition, Tir Stable) et exécutez le cycle final de farming de ressources et de boss à haute récompense.",
+            "keywords": "Escape from Duckov Partie 6, Compétences de Niveau III, Max Réserve d'Énergie, Tir Stable III, Farm Duckmother, Préparation Finale du Bunker, AS VAL"
+        },
+        "detailsHtml": `
+            <h2>Préparation du Bunker : Quêtes Finales de Niveau III et Améliorations Max</h2>
+            <p>Ceci est la boucle répétable finale conçue pour pousser les statistiques de base de votre personnage à leur potentiel maximum. Concentrez-vous sur l'acceptation de toutes les quêtes de Niveau **III** et investissez pleinement dans vos compétences de base.</p>
+      
+            <h3>Quêtes de Niveau Final Acceptées :</h3>
+            <p>Acceptez les missions à la récompense la plus élevée pour alimenter vos améliorations finales et l'entrée dans la prochaine zone :</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nom de la Quête</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objectif</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Récompense (EXP/Monnaie)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Grand Stockage III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre 1 **Grande Boîte de Stockage**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Élimination de Moustiques III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Tuer **10 Moustiques**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Vente en Gros de Pièces III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre **5 Vis**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Test de Performance III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Soumettre 1 **Carte Graphique**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Punisseur III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Tuer **5 Charognards**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <img src="/images/guide/guide17-01.webp" alt="Solution complète Escape from Duckov partie 6" class="guide-image" />
+      
+            <h3>Maximisation des Compétences : Atteindre la Performance Maximale</h3>
+            <p>C'est l'occasion de **maximiser** ces compétences critiques, impactant significativement votre performance future :</p>
+            <ul>
+                <li>**Réserve d'Énergie III :** Augmente l'énergie maximale de **+10**. (Fournit une capacité maximale de sprint/d'esquive).</li>
+                <li>**Apport Nutritionnel III :** Augmente l'effet de la nourriture et de l'eau de **+10 %**. (Maximise le soin passif et l'efficacité des ressources).</li>
+                <li>**Tir Stable III :** Augmente la précision du tir à la hanche de **+10 %**. (Rend le combat rapproché extrêmement fiable).</li>
+            </ul>
+      
+            <h2>Ground Zero : La Dernière Course de Farm</h2>
+            <p>Votre objectif reste le même : terminer les quotas d'extermination et de ressources, et vaincre la **Duckmother** une dernière fois pour assurer un maximum de ressources et accéder à l'AS VAL pour ses composants ou ses munitions.</p>
+      
+            <h3>Objectifs de la Course</h3>
+            <ul>
+                <li>Sécurisez rapidement les **Vis** et la **Carte Graphique** requises et terminez les quotas **Élimination de Moustiques III** et **Punisseur III**.</li>
+                <li>Confirmez l'emplacement du **Camp Abandonné** et préparez-vous pour la rencontre avec le boss.</li>
+                <li>(Optionnel : Si vous avez toujours besoin de l'arme, recherchez à nouveau le **VSS**).</li>
+            </ul>
+      
+            <h3>La Rencontre Finale avec la Duckmother</h3>
+            <p>Avec vos compétences de Niveau III entièrement maximisées, la **Duckmother** devrait être plus facile à gérer. Engagez-la en utilisant votre **Réserve d'Énergie** maximale pour le kiting soutenu et utilisez **Tir Stable III** pour un tir à la hanche dévastateur à courte portée.</p>
+            <ul>
+                <li>Vainquez la **Duckmother** et récupérez la **Clé de la Pièce Verrouillée**.</li>
+                <li>Accédez à la Pièce Verrouillée pour collecter l'**AS VAL** (ou ses munitions/composants de haute valeur).</li>
+            </ul>
+      
+            <h2>Activités Post-Course : Préparation pour la Prochaine Carte</h2>
+      
+            <img src="/images/guide/guide17-02.webp" alt="Solution complète Escape from Duckov partie 6" class="guide-image" />
+      
+            <ul>
+                <li>**Extrayez** et retournez au Bunker.</li>
+                <li>**Soumettez toutes les quêtes de Niveau III terminées** et réclamez vos récompenses substantielles.</li>
+                <li>Acceptez la **nouvelle quête** du marchand – cette quête sera typiquement l'**objectif de transition** vers le prochain emplacement ou la prochaine carte majeure.</li>
+                <li>Visitez l'**Armurier** pour utiliser votre richesse accumulée afin d'acheter le **casque et l'armure corporelle de niveau le plus élevé** disponibles, confirmant votre préparation pour les défis de la prochaine zone.</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 18,
+        "title": "Escape From Duckov : Le Guide Ultime des Caisses d'Extension",
+        "description": "Vous manquez d'espace d'entrepôt dans Escape From Duckov ? Ce guide vous révèle les secrets des Caisses d'Extension, la clé des améliorations de stockage permanentes ! Apprenez les meilleurs itinéraires de farming, les conseils cruciaux et les emplacements des caisses pour maximiser votre butin et dominer le jeu. Développez votre chambre forte dès aujourd'hui !",
+        "tags": ["Escape From Duckov", "Caisses d'Extension", "Gestion du Butin", "Amélioration de Stockage", "Guide de Farming"],
+        "publishDate": "2025-11-03",
+        "imageUrl": "/images/guide18.webp",
+        "imageAlt": "Un joueur pillant une caisse d'extension dans Escape From Duckov, soulignant l'importance de la gestion de l'entrepôt.",
+        "category": "advanced",
+        "seo": {
+            "title": "Caisses d'Extension Escape From Duckov - Guide de Stockage Ultime",
+            "description": "Maximisez votre espace de stockage dans Escape From Duckov avec notre guide expert des Caisses d'Extension ! Apprenez les itinéraires de farming, les conseils et les emplacements de ces ressources vitales. Ne soyez jamais à court d'espace !",
+            "keywords": "escape from duckov, caisses d'extension, stockage, butin, entrepôt, farming, guide, astuces, base mercenaire, boîtes à outils"
+        },
+        "addressBar": "/escape-from-duckov-expansion-crates-guide",
+        "detailsHtml": `
+          <p>Gérer votre butin est crucial pour la survie dans <strong>Escape From Duckov</strong>. Au fur et à mesure que vous accumulez de l'équipement et des ressources, l'espace d'entrepôt de votre cachette deviendra rapidement un facteur limitant. Les <strong>Caisses d'Extension</strong> sont la clé pour résoudre ce problème, vous permettant d'augmenter de manière permanente votre capacité de stockage.</p>
+      <p>Ce guide couvrira tout ce que vous devez savoir sur la façon de trouver ces précieuses caisses et comment les utiliser pour étendre votre chambre forte.</p>
+      
+      <h2><strong>Partie 1 : Comment Obtenir des Caisses d'Extension</strong></h2>
+      <p>Les Caisses d'Extension sont des objets rares utilisés pour améliorer la taille de votre Entrepôt à la cachette. Bien que toutes les améliorations de stockage nécessitent différents matériaux, les Caisses d'Extension sont parmi les composants les plus importants.</p>
+      <p><img src="/images/guide/guide18-01.webp" alt="Caisse d'extension" width="100%" style="width: 100%;"></p>
+      
+      <h3><strong>Où Trouver des Caisses d'Extension :</strong></h3>
+      <ul>
+          <li><strong>Casiers dans des Zones Spécifiques :</strong>
+              <ul>
+                  <li><strong>Base Mercenaire :</strong> De nombreux joueurs signalent avoir trouvé la plupart de leurs caisses d'extension dans la Base Mercenaire. Bien que cela puisse être une coïncidence, la zone est définitivement un **point chaud à fouiller**.</li>
+                  <li><strong>La Première Zone :</strong> Même au début du jeu, vous avez de bonnes chances de trouver des <strong>Boîtes d'Extension P</strong> (Petite) et <strong>M</strong> (Moyenne) dans les casiers de la première zone jouable.</li>
+              </ul>
+          </li>
+          <li><strong>Boîtes à Outils :</strong> Les boîtes à outils trouvées dans toutes les régions ont une forte chance de faire apparaître des caisses d'extension. **Ne négligez jamais une boîte à outils** pendant vos courses.</li>
+      </ul>
+      
+      <h3><strong>Un Itinéraire de Farming Rapide et Efficace en Début de Partie :</strong></h3>
+      <ol>
+          <li>Entrez dans la première zone et dirigez-vous vers le nord-ouest par le portail, puis continuez vers le haut.</li>
+          <li>Fouillez tous les casiers le long de ce chemin.</li>
+          <li>Une fois que vous trouvez une caisse d'extension, **extrayez immédiatement**.</li>
+      </ol>
+      <p>Cet itinéraire maintient votre risque faible tout en se concentrant sur des conteneurs à haut rendement, ce qui le rend parfait pour le farming en début de partie.</p>
+      
+      <h3><strong>Conseils Importants :</strong></h3>
+      <ul>
+          <li><strong>Les Drops sont basés sur l'Aléatoire (RNG) :</strong> Trouver une caisse d'extension est basé sur la chance (**RNG**), alors attendez-vous à quelques courses à vide entre les trouvailles réussies. **La patience est la clé.**</li>
+          <li><strong>Surveillez Votre Poids :</strong> Les caisses plus grandes (surtout M et G) sont très lourdes. Si vous en transportez une, **priorisez l'extraction** pour éviter de la perdre dans un combat.</li>
+      </ul>
+      
+      <h3><strong>Types et Détails des Caisses d'Extension</strong></h3>
+      <table>
+          <thead>
+              <tr>
+                  <th>Objet</th>
+                  <th>Utilisé Pour</th>
+                  <th>Emplacements Communs</th>
+                  <th>Notes</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><strong>Boîte d'Extension P</strong></td>
+                  <td>Niveaux de chambre forte précoces nécessitant des objets.</td>
+                  <td>Casiers de la première zone ; boîtes à outils partout.</td>
+                  <td>Caisse la plus légère ; apparaît tôt dans le jeu.</td>
+              </tr>
+              <tr>
+                  <td><strong>Boîte d'Extension M</strong></td>
+                  <td>Améliorations de chambre forte de niveau intermédiaire.</td>
+                  <td>Casiers de la première zone (plus rare) ; boîtes à outils.</td>
+                  <td>Plus lourde que P ; planifiez votre itinéraire d'extraction.</td>
+              </tr>
+              <tr>
+                  <td><strong>Boîte d'Extension G</strong></td>
+                  <td>Améliorations de chambre forte de niveau avancé.</td>
+                  <td>Boîtes à outils et caches de grande valeur.</td>
+                  <td>La caisse la plus lourde avec le taux d'apparition le plus bas.</td>
+              </tr>
+          </tbody>
+      </table>
+      
+      <h2><strong>Partie 2 : Comment Utiliser la Boîte d'Extension P pour Étendre le Stockage</strong></h2>
+      <p><img src="/images/guide/guide18-02.webp" alt="Extension de Stockage" width="100%" style="width: 100%;"></p>
+      <p>De nombreux nouveaux joueurs sont confus lorsqu'ils trouvent pour la première fois une Boîte d'Extension car elle ne peut pas être « ouverte » ou « utilisée » comme un objet normal. Retenez cette règle clé : **La Boîte d'Extension P est un matériau d'amélioration de chambre forte, pas un consommable.** Elle n'est consommée que lorsque vous appliquez une amélioration de chambre forte spécifique.</p>
+      
+      <h3><strong>Utilisation de la Boîte d'Extension P pour Améliorer Votre Entrepôt (Étape par Étape) :</strong></h3>
+      <ol>
+          <li><strong>Ramenez la Boîte à la Base :</strong> Après avoir trouvé une boîte, assurez-vous qu'elle se trouve dans l'**inventaire de votre personnage** (vos poches ou votre équipement), et non dans votre entrepôt.</li>
+          <li><strong>Trouvez le PNJ du Stockage :</strong> À votre cachette, allez voir le premier PNJ, **Jeff**.</li>
+          <li><strong>Interagissez avec le Casier :</strong> Interagissez avec le casier de stockage principal situé derrière lui pour ouvrir l'interface utilisateur de stockage.</li>
+          <li><strong>Passez à l'Onglet d'Amélioration :</strong> Dans l'interface utilisateur de stockage, passez à l'onglet **"Extension de Stockage" / "Améliorer la Chambre Forte"**. Sur PC, vous pouvez utiliser le sélecteur d'onglet à l'écran ou la molette de votre souris.</li>
+          <li><strong>Sélectionnez le Niveau d'Amélioration :</strong> Sélectionnez le prochain niveau d'amélioration de chambre forte disponible. Les premiers niveaux peuvent ne coûter que des crédits, tandis que les niveaux ultérieurs nécessiteront des objets comme les Boîtes d'Extension.</li>
+          <li><strong>Confirmez l'Amélioration :</strong> Confirmez l'action. La Boîte d'Extension et les crédits requis seront consommés, et la capacité de votre entrepôt augmentera immédiatement.</li>
+      </ol>
+      
+      <h3><strong>Dépannage : Que Faire Si l'Amélioration ne Fonctionne Pas</strong></h3>
+      <ul>
+          <li>**Est-elle au bon endroit ?** Assurez-vous que la boîte est dans votre **inventaire sur le personnage**, et non dans votre chambre forte.</li>
+          <li>**Êtes-vous sur le bon écran ?** Vérifiez à nouveau que vous êtes sur l'onglet **"Améliorer la Chambre Forte"**, et non sur la vue de stockage ordinaire.</li>
+          <li>**Le niveau l'exige-t-il ?** Confirmez que le niveau d'amélioration que vous sélectionnez répertorie bien la **Boîte d'Extension P** comme matériau requis.</li>
+          <li>**Avez-vous suffisamment de crédits ?** Assurez-vous d'avoir le montant de crédits requis en plus de la boîte.</li>
+      </ul>
+      <p><img src="/images/guide/guide18-03.webp" alt="Caisse d'extension 2" width="100%" style="width: 100%;"></p>
+      
+      <h2><strong>Capacité de l'Entrepôt vs. Capacité du Sac à Dos : Une Distinction Clé</strong></h2>
+      <p>Il est important de comprendre que les Boîtes d'Extension **augmentent uniquement la capacité de votre entrepôt à la cachette.** Elles n'ajoutent pas d'emplacements à votre équipement de mission ou n'augmentent pas la taille de votre sac à dos pour les raids.</p>
+      <p>Si vous souhaitez transporter plus de butin *pendant* un raid, vous devez augmenter votre **capacité de sac à dos** via des systèmes distincts :</p>
+      <p><img src="/images/guide/guide18-04.webp" alt="Capacité de l'Entrepôt vs. Capacité du Sac à Dos" width="100%" style="width: 100%;"></p>
+      <ul>
+          <li>**La Machine d'Amélioration de Compétences :** À votre base, utilisez cette machine et choisissez la ligne d'amélioration **"Expert en Sac à Dos"**.</li>
+          <li>**Sacs à Dos Spécifiques :** Trouvez des sacs à dos spéciaux sur le terrain qui ajoutent des emplacements de façon permanente lorsqu'ils sont équipés.</li>
+          <li>**Armure Corporelle :** Certaines pièces d'armure corporelle peuvent également augmenter votre capacité de transport.</li>
+      </ul>
+          `
+    },
+
+    {
+        "id": 19,
+        "title": "Escape From Duckov : Un Guide Complet de la Quête de la Montre de Poche en Bronze",
+        "description": "Naviguez dans le paysage dangereux d'Escape From Duckov pour sécuriser la Montre de Poche en Bronze ! Ce guide complet fournit des instructions étape par étape, de l'acquisition de la Clé Mécanique à l'extraction en toute sécurité avec votre prix. Maîtrisez les mécanismes de base du jeu et réclamez votre récompense auprès de Xavier.",
+        "tags": ["Escape From Duckov", "Montre de Poche en Bronze", "Guide de Quête", "Ground Zero", "Xavier"],
+        "publishDate": "2025-11-03",
+        "imageUrl": "/images/guide19.webp",
+        "imageAlt": "Un personnage joueur dans Escape From Duckov pillant la Montre de Poche en Bronze dans un camion.",
+        "category": "advanced",
+        "seo": {
+            "title": "Escape From Duckov : Quête de la Montre de Poche en Bronze - Solution Complète",
+            "description": "Déverrouillez les secrets de la quête de la Montre de Poche en Bronze dans Escape From Duckov ! Ce guide couvre les emplacements clés, l'acquisition d'objets et les stratégies d'extraction sécurisée. Dominez Ground Zero !",
+            "keywords": "Escape From Duckov, Montre de Poche en Bronze, Ground Zero, Xavier, Clé Mécanique, guide de quête, solution complète, extraction, butin, jeu FPS"
+        },
+        "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
+        "detailsHtml": `
+          <p>La "Montre de Poche en Bronze" est l'une des premières quêtes critiques que vous recevrez dans <strong>Escape From Duckov</strong>. Donnée par Xavier, cette mission sert d'introduction parfaite aux mécanismes de base du jeu : utiliser des clés spéciales, naviguer vers un emplacement spécifique, récupérer un objet de quête et extraire en toute sécurité.</p>
+      <p>Ce guide vous guidera à travers chaque étape, de l'acquisition de la clé à la recherche de la montre et à la sécurisation de votre récompense.</p>
+      
+      <h2><strong>Guide Rapide (TL;DR)</strong></h2>
+      <ol>
+          <li>**Achetez la Clé Mécanique** auprès du distributeur automatique de votre bunker.</li>
+          <li>Déployez-vous sur la carte **Ground Zero**.</li>
+          <li>Dirigez-vous vers le **coin sud-est** pour trouver un camion blanc avec un camion-citerne orange.</li>
+          <li>Utilisez la **Clé Mécanique** pour déverrouiller la cabine du camion.</li>
+          <li>Pillez la **Montre de Poche en Bronze** à l'intérieur.</li>
+          <li>Extrayez immédiatement via le **regard d'égout** à côté du camion.</li>
+          <li>Remettez la montre à **Xavier** pour terminer la quête.</li>
+      </ol>
+      
+      <h2><strong>Détails de la Quête</strong></h2>
+      <table>
+          <thead>
+              <tr>
+                  <th>Détails de la Quête</th>
+                  <th></th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>**Nom de la Quête**</td>
+                  <td>Montre de Poche en Bronze</td>
+              </tr>
+              <tr>
+                  <td>**Donneur**</td>
+                  <td>Xavier (PNJ Armes au bunker)</td>
+              </tr>
+              <tr>
+                  <td>**Carte**</td>
+                  <td>Ground Zero</td>
+              </tr>
+              <tr>
+                  <td>**Objectif Principal**</td>
+                  <td>Récupérer la Montre de Poche en Bronze dans un camion verrouillé et la remettre à Xavier.</td>
+              </tr>
+              <tr>
+                  <td>**Objets Requis**</td>
+                  <td>1x Clé Mécanique</td>
+              </tr>
+              <tr>
+                  <td>**Récompenses**</td>
+                  <td>~2 500 XP et ~450 Monnaie (les valeurs peuvent varier légèrement)</td>
+              </tr>
+              <tr>
+                  <td>**Quête de Suivi**</td>
+                  <td>Liste de Cargaison</td>
+              </tr>
+          </tbody>
+      </table>
+      
+      <h2>**Étape 1 : Comment Obtenir la Clé Mécanique**</h2>
+      <p>Le camion contenant la montre est verrouillé, et la **Clé Mécanique** est le seul moyen d'entrer.</p>
+      <p><img src="/images/guide/guide19-01.webp" alt="Acheter la Clé" width="100%" style="width: 100%;"></p>
+      <ul>
+          <li>**Méthode Principale (Recommandée) :** Le moyen le plus fiable d'obtenir la clé est de l'acheter auprès du **distributeur automatique** dans votre bunker/cachette pour **660 monnaie**.</li>
+          <li>**Méthode Alternative :** Il est possible de trouver la clé comme butin aléatoire dans le monde, mais c'est beaucoup moins prévisible. L'acheter est le moyen le plus rapide de procéder.</li>
+      </ul>
+      <p><strong>Conseil de Pro :</strong> Si vous avez construit le **Dispositif d'Enregistrement de Clé** dans votre bunker, vous pouvez enregistrer la Clé Mécanique avant de vous déployer. Cela vous empêche de la perdre si vous mourez pendant le raid. Sinon, gardez simplement la clé dans votre conteneur sécurisé ou votre inventaire.</p>
+      <p><img src="/images/guide/guide19-02.webp" alt="Clé Mécanique" width="100%" style="width: 100%;"></p>
+      
+      <h2>**Étape 2 : Trouver l'Emplacement de la Montre de Poche en Bronze sur Ground Zero**</h2>
+      <p>La Montre de Poche en Bronze se trouve à un emplacement fixe : à l'intérieur de la cabine d'un **camion blanc attaché à un camion-citerne orange**. Vous trouverez ce camion dans le **coin sud-est de Ground Zero**, garé dans un amas de véhicules abandonnés de l'autre côté de la rivière.</p>
+      <p>Le point de repère le plus facile pour naviguer est la **sortie d'égout**. Le camion est situé juste à une courte distance à l'est de cette sortie.</p>
+      <p><img src="/images/guide/guide19-03.webp" alt="Clé Mécanique" width="100%" style="width: 100%;"></p>
+      
+      <h3>**Deux Itinéraires Fiables vers le Camion :**</h3>
+      <ul>
+          <li>**L'Itinéraire du Pont :**
+              <ul>
+                  <li>Depuis l'entrée du bunker, dirigez-vous vers l'est en direction du pont en bois cassé.</li>
+                  <li>Vous aurez besoin de **2 Bois** pour le réparer. (Le bois peut être trouvé dans des boîtes à outils ou acheté).</li>
+                  <li>Traversez le pont et suivez la route encombrée de véhicules vers le sud pour trouver le camion-citerne.</li>
+                  <li>**Risque :** Cet itinéraire est plus exposé et peut attirer des charognards. Le pont sud est généralement plus calme.</li>
+              </ul>
+          </li>
+          <li>**L'Itinéraire de l'Égout (Le Plus Rapide et le Plus Sûr) :**
+              <ul>
+                  <li>Si vous avez précédemment déverrouillé la trappe d'égout, c'est de loin le meilleur itinéraire.</li>
+                  <li>Faites surface à la sortie d'égout de Ground Zero.</li>
+                  <li>Le camion et le citerne seront presque immédiatement devant vous, à quelques mètres à l'est.</li>
+              </ul>
+          </li>
+      </ul>
+      <p>Une fois que vous atteignez le camion, approchez-vous de la **porte côté conducteur** et utilisez la Clé Mécanique de votre inventaire pour la déverrouiller. La Montre de Poche en Bronze sera à l'intérieur.</p>
+      
+      <h2>**Étape 3 : L'Extraction la Plus Facile**</h2>
+      <p>Vous n'avez pas besoin de courir à travers la carte pour extraire. L'un des meilleurs points d'extraction est situé juste à côté de l'objectif.</p>
+      <ul>
+          <li>Cherchez un **regard d'égout** au sol, juste à gauche du camion-citerne.</li>
+          <li>Il peut y avoir une boîte en carton dessus. Déplacez simplement la boîte pour dégager la trappe.</li>
+          <li>Interagir avec la trappe ouverte offre un raccourci direct et sûr vers la cave de votre bunker.</li>
+      </ul>
+      
+      <h2>**Étape 4 : Remise et Récompenses**</h2>
+      <p>Après avoir réussi à extraire avec la Montre de Poche en Bronze, retournez au bunker. Parlez à **Xavier** et remettez la montre pour terminer la quête.</p>
+      <p>L'accomplissement de cette tâche vous récompensera en XP et en monnaie, et déverrouillera la quête suivante de son scénario, **"Liste de Cargaison."**</p>
+      <p><img src="/images/guide/guide19-04.webp" alt="remettre la montre" width="100%" style="width: 100%;"></p>
+      
+      <h2>**Dépannage et FAQ**</h2>
+      <ul>
+          <li>**L'apparition de la montre est-elle garantie ?**
+              <p>**Oui.** La Montre de Poche en Bronze est un objet de quête fixe. Si vous déverrouillez la porte et ne la voyez pas, c'est probablement un bug rare. Quittez simplement Ground Zero et rentrez dans la carte pour la réinitialiser.</p>
+          </li>
+          <li>**Que se passe-t-il si je meurs ?**
+              <p>Mourir réinitialisera votre progression de quête. Vous devrez retourner à Ground Zero pour récupérer la montre à nouveau. C'est pourquoi il est fortement recommandé d'utiliser l'extraction rapide par regard d'égout.</p>
+          </li>
+          <li>**Pourquoi cette quête est-elle importante ?**
+              <p>Elle fournit un excellent coup de pouce en XP et en monnaie en début de partie, enseigne des compétences essentielles et déverrouille d'autres quêtes pour faire progresser votre scénario principal.</p>
+          </li>
+      </ul>
+          `
     }
-
-
 
 
 
