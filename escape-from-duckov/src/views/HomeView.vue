@@ -165,26 +165,17 @@
             <div class="container">
                 <h2 class="section-title">{{ t('HomePage.guides.title') }}</h2>
                 <div class="guides-grid">
-                    <div class="guide-card card">
+                    <div 
+                        v-for="guide in homeGuides" 
+                        :key="guide.id" 
+                        class="guide-card card"
+                        @click="goToGuide(guide.addressBar)"
+                    >
                         <div class="guide-header">
-                            <span class="guide-badge">{{ t('HomePage.guides.guide1.badge') }}</span>
+                            <span class="guide-badge">{{ getCategoryBadge(guide.category) }}</span>
                         </div>
-                        <h3>{{ t('HomePage.guides.guide1.title') }}</h3>
-                        <p v-html="tWithLocalizedLinks('HomePage.guides.guide1.desc', {}, { raw: true })"></p>
-                    </div>
-                    <div class="guide-card card">
-                        <div class="guide-header">
-                            <span class="guide-badge">{{ t('HomePage.guides.guide2.badge') }}</span>
-                        </div>
-                        <h3>{{ t('HomePage.guides.guide2.title') }}</h3>
-                        <p v-html="tWithLocalizedLinks('HomePage.guides.guide2.desc', {}, { raw: true })"></p>
-                    </div>
-                    <div class="guide-card card">
-                        <div class="guide-header">
-                            <span class="guide-badge">{{ t('HomePage.guides.guide3.badge') }}</span>
-                        </div>
-                        <h3>{{ t('HomePage.guides.guide3.title') }}</h3>
-                        <p v-html="tWithLocalizedLinks('HomePage.guides.guide3.desc', {}, { raw: true })"></p>
+                        <h3>{{ guide.title }}</h3>
+                        <p>{{ guide.description }}</p>
                     </div>
                 </div>
                 <div class="text-center">
@@ -458,13 +449,15 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { getLocalizedPath } from '../utils/routeUtils'
+import { useGuideData } from '../composables/useGuideData'
 
 const route = useRoute()
 const { t, locale } = useI18n()
+const { guides, loadData } = useGuideData()
 
 // 从路径检测语言
 const detectLanguageFromPath = (path) => {
@@ -536,6 +529,37 @@ const playVideo = () => {
 
 const closeVideo = () => {
     isVideoPlaying.value = false
+}
+
+// 加载指南数据
+onMounted(() => {
+    loadData()
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
+    loadData()
+})
+
+// 过滤出 isHome: true 的指南
+const homeGuides = computed(() => {
+    return (guides.value || []).filter(guide => guide.isHome === true)
+})
+
+// 根据 category 返回对应的 badge 文本
+const getCategoryBadge = (category) => {
+    const categoryMap = {
+        'getting-started': t('HomePage.guides.guide1.badge'),
+        'walkthroughs': t('HomePage.guides.guide2.badge'),
+        'advanced': t('HomePage.guides.guide3.badge')
+    }
+    return categoryMap[category] || t('HomePage.guides.guide3.badge')
+}
+
+// 跳转到指南详情页
+const goToGuide = (addressBar) => {
+    const path = getLocalizedPath(`/guides${addressBar}`, locale.value)
+    window.location.href = path
 }
 </script>
 
@@ -1164,6 +1188,15 @@ section {
 
 .guide-card {
     padding: 32px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.guide-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px rgba(250, 147, 23, 0.2);
+    border-color: #FA9317;
+    background-color: rgba(21, 21, 21, 0.8);
 }
 
 .guide-header {

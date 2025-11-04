@@ -20,6 +20,7 @@ export const guides = [
       "description": "通过这份综合指南掌握《逃离达科夫》的基础知识，内容涵盖基地设置、首次突袭、NPC 互动和必要的生存策略。",
       "keywords": "Escape from Duckov, Beginner Guide, Survival Guide, Base Setup, First Raid, NPC Guide, Combat Basics, Ground Zero"
     },
+    "isHome": false,
     "detailsHtml": `
           <p>欢迎来到危险的<a href="/">逃离达科夫</a>世界！这份全面的初学者指南将引导您迈出在这个生存 RPG 中的第一步，从设置您的基地到完成您的首次探险。</p>
           
@@ -144,6 +145,7 @@ export const guides = [
       "description": "按照这个全面的分步演练，涵盖教程逃生、基地建立以及您第一次的零号地带远征，并提供详细的任务指导。",
       "keywords": "Escape from Duckov, Tutorial Walkthrough, Early Game Guide, Ground Zero, Quest Guide, Base Building, Prison Escape"
     },
+    "isHome": false,
     "detailsHtml": `
           <p>这份全面的演练将指导您度过在<a href="/">逃离达科夫</a>中的最初几个小时，从逃离监狱到建立基地并完成您的首次零号地带远征。非常适合想要结构化方法进行早期游戏的玩家。</p>
           
@@ -276,6 +278,7 @@ export const guides = [
       "EQUIPMENT UPGRADES",
       "GROUND ZERO"
     ],
+    "isHome": false,
     "seo": {
       "title": "零号地带高级探索与基地扩张 - 逃离达科夫",
       "description": "通过这份全面的中期游戏演练，掌握高级零号地带探险，完成复杂的任务链，并扩展您的基地设施。",
@@ -420,6 +423,7 @@ export const guides = [
       "description": "《逃离达科夫》核心机制的综合指南，涵盖基地管理、角色培养、战斗系统、探索和生存策略。",
       "keywords": "Escape from Duckov, Core Mechanics, Base Management, Combat Systems, Character Progression, Survival Guide, Game Systems"
     },
+    "isHome": false,
     "detailsHtml": `
           <p>这份综合指南涵盖了《<a href="/">逃离达科夫</a>》中所有必要的游戏机制，从基地管理和角色培养到战斗系统和探索策略。掌握这些核心系统，最大限度地提高您的生存潜力。</p>
           
@@ -586,6 +590,7 @@ export const guides = [
       "ENDGAME CONTENT",
       "SURVIVAL"
     ],
+    "isHome": false,
     "seo": {
       "title": "风暴区进入与路障首领指南 - 逃离达科夫",
       "description": "完整的风暴区进入指南，包括电力激活、证书获取、路障首领策略，以及为达科夫最危险区域进行的基本准备。",
@@ -715,6 +720,7 @@ export const guides = [
       "description": "了解如何在《逃离达科夫》中找到稀有的 LEDX。获取有关生成位置、钥匙要求、交易策略和任务影响的提示，以最大限度地提高利润！",
       "keywords": "escape from duckov, ledx, loot guide, sanatorium, key, rare item, trading, quests"
     },
+    "isHome": false,
     "addressBar": "/escape-from-duckov-ledx",
     "detailsHtml": `
           <h2 style="font-size: 1.5em; font-weight: bold;">
@@ -801,6 +807,7 @@ export const guides = [
       "J-Lab Cards",
       "Access Guide"
     ],
+    "isHome": false,
     "publishDate": "2025-10-28",
     "imageUrl": "/images/guide/guide07-01.webp",
     "imageAlt": "一名玩家角色在充满工业设备的昏暗房间内搜刮《逃离达科夫》中的 J 实验室门禁卡。",
@@ -963,6 +970,7 @@ export const guides = [
       "Escape from Duckov",
       "Hunter's Path Quest"
     ],
+    "isHome": false,
     "publishDate": "2025-10-30",
     "imageUrl": "/images/guide/guide08-01.webp",
     "imageAlt": "《逃离达科夫》中的横冲直撞的拾荒者，可通过他们的红色衣服和屠刀识别。",
@@ -1081,6 +1089,7 @@ export const guides = [
       "description": "发现《逃离达科夫》中大手提袋的秘密。了解如何找到它、使用它，以及为什么它对于从红色团块首领那里获得红眼至关重要。完整指南！",
       "keywords": "escape from duckov, tote bag, red blob boss, red eye, farm town, unique item, boss drop, guide, walkthrough, strategy"
     },
+    "isHome": false,
     "addressBar": "/escape-from-duckov-tote-bag-guide",
     "detailsHtml": `
       <p style="margin: 1em 0px;">
@@ -1253,6 +1262,7 @@ export const guides = [
       "description": "通过我们的综合指南掌握《逃离达科夫》中的钓鱼，涵盖鱼饵制作（蚯蚓、饼干）、鱼竿装备、QTE 小游戏机制、基于天气的捕获、白背鱼等特殊鱼类，以及钓鱼点位置。包括使用钓鱼模组的提示。",
       "keywords": "Escape from Duckov fishing, fishing guide, bait crafting, fishing rod, QTE mini-game, earthworms, fishing spots, weather fishing, Whiteback Fish, R6 battery bait, fishing mod"
     },
+    "isHome": false,
     "addressBar": "/fishing-guides-for-escape-from-duckov",
     "detailsHtml": `
           <p>钓鱼是《<a href="/">逃离达科夫</a>》中一项重要的生存机制，它提供宝贵的资源和任务完成物品。这份综合指南涵盖了您需要了解的有关钓鱼机制、鱼饵准备、鱼竿使用以及掌握具有挑战性的 **QTE 小游戏**的所有信息。</p>
@@ -1404,6 +1414,7 @@ export const guides = [
       "description": "掌握达科夫的库存管理！我们的囤积者指南揭示了哪些物品该留哪些该卖，以实现最佳进度。克服战利品焦虑，最大限度地发挥您地堡的潜力。",
       "keywords": "Duckov, hoarder guide, inventory management, looting, selling items, quest items, upgrade materials, resource management, escape Duckov, stash optimization"
     },
+    "isHome": true,
     "addressBar": "/the-hoarders-guide-to-escape-from-duckov-what-to-keep-what-to-sell",
     "detailsHtml": `
       <p style="text-align: center;">
@@ -1521,6 +1532,7 @@ export const guides = [
       "description": "《逃离达科夫》第一部分的完整循序渐进攻略。学习如何越狱、设置基地，以及完成“基本建设”和“启动资金”任务。",
       "keywords": "Escape from Duckov Walkthrough Part 1, Escape from Duckov Beginner Guide, Prison Escape Guide, Ground Zero Walkthrough, Base Setup Duckov, Initial Quests"
     },
+    "isHome": false,
     "detailsHtml": `
           <h2>逃离监狱：教程与首次遭遇</h2>
           <p>在简短的开场动画后，您的第一个行动是走向镜子，在角色创建器中<strong>设置您的角色</strong>。</p>
@@ -1657,6 +1669,7 @@ export const guides = [
       "new quests",
       "mid-game"
     ],
+    "isHome": false,
     "seo": {
       "title": "《逃离达科夫》第二部分攻略：信号塔、洞穴搜刮与防具商店",
       "description": "《逃离达科夫》第二部分的完整指南，详细说明如何修理信号塔、进入洞穴获取蓝图、击败重型守卫以及建造防具商店。",
@@ -1785,6 +1798,7 @@ export const guides = [
       "merchant quests",
       "mid-game"
     ],
+    "isHome": false,
     "seo": {
       "title": "《逃离达科夫》第三部分指南：医疗站、钥匙和 Pato Chapo 策略",
       "description": "《逃离达科夫》第三部分的完整指南：建造关键基地设施（武器/医疗），使用加油站和围栏钥匙，找到旅馆房间，并击败 Pato Chapo Boss。",
@@ -1888,6 +1902,7 @@ export const guides = [
       "as val",
       "upgrades"
     ],
+    "isHome": false,
     "seo": {
       "title": "《逃离达科夫》第四部分指南：击败鸭母、寻找 AS VAL 和地堡任务",
       "description": "《逃离达科夫》第四部分的循序渐进攻略。了解所需的技能升级，完成清除和提交任务，并掌握鸭母 Boss 战。",
@@ -2006,6 +2021,7 @@ export const guides = [
       "description": "《逃离达科夫》第五部分的循序渐进攻略，重点是完成可重复的清除和提交任务，以刷取货币并最大化关键技能，如能量储备和稳定射击。",
       "keywords": "Escape from Duckov Part 5, Duckmother Repeat, Max Energy Reserve, Steady Shot II, Ground Zero Farm Run, Performance Test II Quest"
     },
+    "isHome": false,
     "detailsHtml": `
         <h2>地堡准备：可重复任务与技能最大化</h2>
         <p>第五部分涉及重复进行高价值的补给和清除任务，这些任务通常标有罗马数字后缀（II），是刷取经验和货币的绝佳途径。在返回 Ground Zero 之前，专注于最大化核心生存和战斗技能。</p>
@@ -2110,6 +2126,7 @@ export const guides = [
       "description": "通过我们的专家指南，了解扩张板条箱，最大化您在《逃离达科夫》中的存储空间！学习这些重要资源的刷取路线、提示和位置。不要因为没有空间而被困住！",
       "keywords": "escape from duckov, expansion crates, storage, loot, warehouse, farming, guide, tips, mercenary base, toolboxes"
     },
+    "isHome": true,
     "addressBar": "/escape-from-duckov-expansion-crates-guide",
     "detailsHtml": `
       <p>在<strong>《逃离达科夫》</strong>中，管理您的战利品对于生存至关重要。随着您收集越来越多的装备和资源，您的藏身处仓库空间很快就会成为一个限制因素。<strong>扩张板条箱（Expansion Crates）</strong>是解决这个问题的关键，可让您永久增加存储容量。</p>
@@ -2231,6 +2248,7 @@ export const guides = [
       "description": "解锁《逃离达科夫》青铜怀表任务的秘密！本指南涵盖了关键位置、物品获取和安全撤离策略。称霸 Ground Zero！",
       "keywords": "Escape From Duckov, Bronze Pocket Watch, Ground Zero, Xavier, Mechanical Key, quest guide, walkthrough, extract, loot, FPS game"
     },
+    "isHome": true,
     "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
     "detailsHtml": `
       <p>“青铜怀表”是您在<strong>《逃离达科夫》</strong>中接到的第一批关键任务之一。该任务由泽维尔（Xavier）提供，是介绍游戏核心机制的完美入门：使用特殊钥匙、导航到特定位置、检索任务物品并安全撤离。</p>

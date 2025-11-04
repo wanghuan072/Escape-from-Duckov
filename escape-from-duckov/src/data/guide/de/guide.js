@@ -8,6 +8,7 @@ export const guides = [
         "publishDate": "2025-10-27",
         "addressBar": "/complete-beginner-survival-guide",
         "category": "getting-started",
+        "isHome": false,
         "tags": [
             "ÜBERLEBEN",
             "BASISAUFBAU",
@@ -131,6 +132,7 @@ export const guides = [
         "publishDate": "2025-10-27",
         "addressBar": "/complete-tutorial-early-game-walkthrough",
         "category": "getting-started",
+        "isHome": false,
         "tags": [
             "TUTORIAL",
             "FRÜHES SPIEL",
@@ -264,6 +266,7 @@ export const guides = [
         "publishDate": "2025-10-27",
         "addressBar": "/advanced-ground-zero-exploration-base-expansion",
         "category": "walkthroughs",
+        "isHome": false,
         "tags": [
             "ERWEITERTE ERKUNDUNG",
             "BASISERWEITERUNG",
@@ -397,6 +400,7 @@ export const guides = [
         "publishDate": "2025-10-27",
         "addressBar": "/master-core-game-mechanics-systems",
         "category": "getting-started",
+        "isHome": false,
         "tags": [
             "KERNMECHANIKEN",
             "BASIS-MANAGEMENT",
@@ -565,6 +569,7 @@ export const guides = [
         "publishDate": "2025-10-27",
         "addressBar": "/storm-zone-access-roadblock-boss-guide",
         "category": "advanced",
+        "isHome": false,
         "tags": [
             "STURMZONE",
             "BOSS-KAMPF",
@@ -688,6 +693,7 @@ export const guides = [
         "imageUrl": "/images/guide/guide06-01.webp",
         "imageAlt": "Ein LEDX-Hauttransilluminator in Escape from Duckov, der auf einer Werkbank angezeigt wird.",
         "category": "advanced",
+        "isHome": false,
         "seo": {
             "title": "Escape from Duckov LEDX: Der Ultimative Beschaffungs-Leitfaden",
             "description": "Erfahren Sie, wie Sie das seltene LEDX in Escape from Duckov finden. Holen Sie sich Tipps zu Spawn-Orten, Schlüsselanforderungen, Handelsstrategien und Quest-Implikationen, um den Gewinn zu maximieren!",
@@ -781,6 +787,7 @@ export const guides = [
         "imageUrl": "/images/guide/guide07-01.webp",
         "imageAlt": "Ein Spielercharakter plündert eine J-Lab Zutrittskarte in Escape from Duckov, in einem schwach beleuchteten Raum voller Industrieanlagen.",
         "category": "advanced",
+        "isHome": false,
         "seo": {
             "title": "Escape from Duckov: J-Lab Karten-Leitfaden - Schalten Sie Alle Labore Frei!",
             "description": "Schalten Sie alle J-Labs in Escape from Duckov frei! Dieser Leitfaden beschreibt J-Lab Karten-Standorte, Quest-Belohnungen und Farming-Methoden, um Beute hoher Stufe effizient zu plündern. Dominieren Sie Duckov jetzt!",
@@ -948,6 +955,7 @@ export const guides = [
             "keywords": "escape from duckov, pfad des jägers, wütende plünderer, quest-leitfaden, ödland-überleben, kopfschuss-strategie, gaming-tipps"
         },
         "addressBar": "/escape-from-duckov-rampaging-scavenger",
+        "isHome": false,
         "detailsHtml": `
             <p style="margin: 1em 0px;">
                   Eine der frühen Missionen, die Sie in <a href="/">Escape from Duckov</a> erhalten, ist die Quest <strong>"Pfad des Jägers"</strong>, bei der Sie einige der aggressiveren Bewohner des Ödlands jagen und eliminieren müssen: **Wütende Plünderer**. Dieser Leitfaden zeigt Ihnen genau, wo Sie diese flinken Feinde finden, wie Sie sie effizient töten und wie Sie die Quest abschließen. Überprüfen Sie unsere <a href="/wiki/quests">Quest-Datenbank</a> für alle verfügbaren Missionen.
@@ -1049,6 +1057,7 @@ export const guides = [
         "imageUrl": "/images/guide/guide09-01.webp",
         "imageAlt": "Ein Spielercharakter in Escape From Duckov, der eine Tragetasche in der Nähe eines Beute-Verstecks hält.",
         "category": "advanced",
+        "isHome": false,
         "seo": {
             "title": "Escape From Duckov Tragetaschen-Leitfaden",
             "description": "Entdecken Sie das Geheimnis der Tragetasche in Escape From Duckov. Erfahren Sie, wie Sie sie finden, verwenden und warum sie unerlässlich ist, um das Rote Auge vom Roten Blob Boss zu erhalten. Vollständiger Leitfaden!",
@@ -1212,6 +1221,7 @@ export const guides = [
         "publishDate": "2025-10-31",
         "addressBar": "/fishing-guides-for-escape-from-duckov",
         "category": "advanced",
+        "isHome": false,
         "tags": [
             "FISHING",
             "BAIT",
@@ -1362,6 +1372,7 @@ export const guides = [
         "publishDate": "2025-10-31",
         "addressBar": "/the-hoarders-guide-to-escape-from-duckov-what-to-keep-what-to-sell",
         "category": "advanced",
+        "isHome": true,
         "tags": [
             "DUCKOV",
             "LOOTING GUIDE",
@@ -1483,6 +1494,7 @@ export const guides = [
             "description": "Vollständige Schritt-für-Schritt-Komplettlösung für den ersten Teil von Escape from Duckov. Erfahren Sie, wie Sie aus dem Gefängnis entkommen, Ihre Basis einrichten und die Startquests 'Basis-Konstruktion' und 'Startkapital' abschließen.",
             "keywords": "Escape from Duckov Komplettlösung Teil 1, Escape from Duckov Anfängerleitfaden, Gefängnisausbruch Leitfaden, Ground Zero Komplettlösung, Basis-Setup Duckov, Erste Quests"
         },
+        "isHome": false,
         "detailsHtml": `
               <h2>Dem Gefängnis entkommen: Tutorial und Erste Begegnung</h2>
               <p>Nach einer kurzen Einführungsszene müssen Sie zuerst zum Spiegel gehen und **Ihren Charakter im Charakter-Editor einrichten**.</p>
@@ -1624,6 +1636,7 @@ export const guides = [
             "description": "Vollständiger Leitfaden für Escape from Duckov Teil 2, detailliert, wie man den Signalturm repariert, die Höhle für Baupläne betritt, den schweren Wächter besiegt und den Rüstungsladen baut.",
             "keywords": "Escape from Duckov Teil 2, Ground Zero Erkundung, Signalturm Quest, Höhlen-Baupläne, Rüstungsladen Freischalten, Schwarzmarkt-Notizen"
         },
+        "isHome": false,
         "detailsHtml": `
               <h2>Ground Zero: Quest-Abschluss und Schlüsselorte</h2>
               <p>Der zweite größere Lauf konzentriert sich darauf, Ihre aufgerüstete Ausrüstung zu nutzen, um ausstehende Aufgaben abzuschließen, neue Bereiche freizuschalten und wichtige Baupläne sowie Quest-Gegenstände zu sammeln.</p>
@@ -1746,6 +1759,7 @@ export const guides = [
             "description": "Vollständiger Leitfaden für Escape from Duckov Teil 3: Bauen Sie wichtige Basiseinrichtungen (Waffen/Medizin), verwenden Sie die Schlüssel für Tankstelle und Zaun, finden Sie das Hotelzimmer und besiegen Sie den Pato Chapo Boss.",
             "keywords": "Escape from Duckov Teil 3, Pato Chapo Bosskampf, Ground Zero Schlüssel, Sanitätsstation, Waffenladen, Hotelzimmerschlüssel, Komplettlösung"
         },
+        "isHome": false,
         "detailsHtml": `
             <h2>Basis-Vorbereitungen: Händlerquests und Einrichtungen</h2>
             <p>Beginnen Sie den Tag, indem Sie eine neue Reihe von Quests aus den neu eingerichteten Basiseinrichtungen annehmen und sofortige Abgaben erledigen, um Erfahrung und Währung zu maximieren, bevor Sie nach Ground Zero zurückkehren.</p>
@@ -1842,6 +1856,7 @@ export const guides = [
             "description": "Schritt-für-Schritt-Komplettlösung für Escape from Duckov Teil 4. Lernen Sie die erforderlichen Fähigkeits-Upgrades, schließen Sie Eliminierungs- und Abgabe-Quests ab und meistern Sie den Duckmother Bosskampf.",
             "keywords": "Escape from Duckov Teil 4, Duckmother Boss Strategie, AS VAL Standort, Ground Zero Verlassenes Camp, Energiereserve Upgrade, Leistungstest Quest"
         },
+        "isHome": false,
         "detailsHtml": `
             <h2>Bunker-Vorbereitung: Neue Quests und Fähigkeits-Upgrades</h2>
             <p>Bevor Sie nach Ground Zero zurückkehren, besuchen Sie die Händler und den Verbesserer, um Schlüsselmissionen anzunehmen und die Kampfbereitschaft Ihres Charakters für die bevorstehenden Herausforderungen, einschließlich des **Duckmother Bosses**, zu steigern.</p>
@@ -1953,6 +1968,7 @@ export const guides = [
             "description": "Schritt-für-Schritt-Komplettlösung für Escape from Duckov Teil 5, konzentriert sich auf den Abschluss wiederholbarer Eliminierungs- und Abgabe-Quests, um Währung zu farmen und kritische Fähigkeiten wie Energiereserve und Stetiger Schuss zu maximieren.",
             "keywords": "Escape from Duckov Teil 5, Duckmother Wiederholung, Max Energiereserve, Stetiger Schuss II, Ground Zero Farm-Lauf, Leistungstest II Quest"
         },
+        "isHome": false,
         "detailsHtml": `
             <h2>Bunker-Vorbereitung: Wiederholbare Quests und Fähigkeiten-Maximierung</h2>
             <p>Teil 5 beinhaltet die Wiederholung von hochdotierten Versorgungs- und Eliminierungs-Quests, oft mit römischen Ziffern (II) gekennzeichnet, die sich hervorragend zum Farmen von Erfahrung und Währung eignen. Konzentrieren Sie sich darauf, zentrale Überlebens- und Kampffähigkeiten zu maximieren, bevor Sie nach Ground Zero zurückkehren.</p>
@@ -2052,6 +2068,7 @@ export const guides = [
             "description": "Vollständiger Leitfaden für Escape from Duckov Teil 6. Erfahren Sie, wie Sie alle Stufe III Fähigkeiten-Upgrades (Energie, Nährstoff, Stetiger Schuss) abschließen und den letzten ertragreichen Ressourcen- und Boss-Farm-Zyklus ausführen.",
             "keywords": "Escape from Duckov Teil 6, Stufe III Fähigkeiten, Max Energiereserve, Stetiger Schuss III, Duckmother Farm, Finale Bunker-Vorbereitung, AS VAL"
         },
+        "isHome": false,
         "detailsHtml": `
             <h2>Bunker-Vorbereitung: Finale Stufe III Quests und Max Upgrades</h2>
             <p>Dies ist der letzte wiederholbare Zyklus, der darauf abzielt, die Basiswerte Ihres Charakters auf ihr maximales Potenzial zu bringen. Konzentrieren Sie sich darauf, alle Stufe **III** Quests anzunehmen und vollständig in Ihre Kernfähigkeiten zu investieren.</p>
@@ -2149,12 +2166,11 @@ export const guides = [
             "description": "Maximieren Sie Ihren Lagerplatz in Escape From Duckov mit unserem Experten-Leitfaden für Erweiterungskisten! Lernen Sie Farm-Routen, Tipps und Standorte für diese lebenswichtigen Ressourcen. Lassen Sie sich nicht ohne Platz erwischen!",
             "keywords": "escape from duckov, erweiterungskisten, lager, beute, depot, farming, leitfaden, tipps, söldnerbasis, werkzeugkisten"
         },
+        "isHome": true,
         "addressBar": "/escape-from-duckov-expansion-crates-guide",
         "detailsHtml": `
           <p>Die Verwaltung Ihrer Beute ist entscheidend für das Überleben in <strong>Escape From Duckov</strong>. Während Sie mehr Ausrüstung und Ressourcen sammeln, wird der Lagerplatz Ihres Verstecks schnell zu einem limitierenden Faktor. <strong>Erweiterungskisten (Expansion Crates)</strong> sind der Schlüssel zur Lösung dieses Problems, da sie es Ihnen ermöglichen, Ihre Lagerkapazität permanent zu erhöhen.</p>
       <p>Dieser Leitfaden behandelt alles, was Sie über das Finden dieser wertvollen Kisten und deren Verwendung zur Erweiterung Ihres Depots wissen müssen.</p>
-      
-      
       
       <h2><strong>Teil 1: So erhalten Sie Erweiterungskisten</strong></h2>
       <p>Erweiterungskisten sind seltene Gegenstände, die verwendet werden, um die Größe Ihres Depots im Versteck zu verbessern. Obwohl alle Lager-Upgrades verschiedene Materialien erfordern, gehören Erweiterungskisten zu den wichtigsten Komponenten.</p>
@@ -2217,8 +2233,6 @@ export const guides = [
           </tbody>
       </table>
       
-      
-      
       <h2><strong>Teil 2: So verwenden Sie die Erweiterungskiste S zur Lagererweiterung</strong></h2>
       <p><img src="/images/guide/guide18-02.webp" alt="Lagererweiterung" width="100%" style="width: 100%;"></p>
       <p>Viele neue Spieler sind verwirrt, wenn sie zum ersten Mal eine Erweiterungskiste finden, weil sie nicht wie ein normaler Gegenstand \"geöffnet\" oder \"benutzt\" werden kann. Merken Sie sich diese Schlüsselregel: <strong>Erweiterungskiste S ist ein Material für Depot-Upgrades, kein Verbrauchsmaterial.</strong> Sie wird nur verbraucht, wenn Sie ein spezifisches Depot-Upgrade anwenden.</p>
@@ -2270,6 +2284,7 @@ export const guides = [
             "description": "Entdecken Sie die Geheimnisse der Bronze-Taschenuhr-Quest in Escape From Duckov! Dieser Leitfaden behandelt Schlüsselstandorte, Gegenstandsbeschaffung und sichere Extraktionsstrategien. Dominieren Sie Ground Zero!",
             "keywords": "Escape From Duckov, Bronze Taschenuhr, Ground Zero, Xavier, Mechanischer Schlüssel, Quest-Leitfaden, Komplettlösung, Extraktion, Beute, FPS-Spiel"
         },
+        "isHome": true,
         "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
         "detailsHtml": `
           <p>Die \"Bronze-Taschenuhr\" ist eine der ersten kritischen Quests, die Sie in <strong>Escape From Duckov</strong> erhalten. Von Xavier gegeben, dient diese Mission als perfekte Einführung in die Kernmechaniken des Spiels: Verwenden spezieller Schlüssel, Navigieren zu einem spezifischen Ort, Abrufen eines Quest-Gegenstands und sichere Extraktion.</p>

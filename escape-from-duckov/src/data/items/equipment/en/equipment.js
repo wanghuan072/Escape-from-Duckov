@@ -1522,6 +1522,5 @@ export default [
             keywords: '',
         },
         detailsHtml: ``
-    },
-    
+    }, 
 ]

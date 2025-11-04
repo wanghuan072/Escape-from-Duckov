@@ -21,6 +21,7 @@ export const guides = [
       "description": "Domine os fundamentos do Escape from Duckov com este guia abrangente que cobre configuração de base, primeiros assaltos, interações com NPCs e estratégias essenciais de sobrevivência.",
       "keywords": "Escape from Duckov, Guia para Iniciantes, Guia de Sobrevivência, Configuração de Base, Primeiro Assalto, Guia de NPC, Combate Básico, Ground Zero"
     },
+    "isHome": false,
     "detailsHtml": `
               <p>Bem-vindo ao perigoso mundo de <a href="/">Escape from Duckov</a>! Este guia abrangente para iniciantes o guiará pelos seus primeiros passos neste RPG de sobrevivência, desde a configuração da sua base até a conclusão das suas expedições iniciais.</p>
               
@@ -144,6 +145,7 @@ export const guides = [
       "description": "Siga este passo a passo abrangente, cobrindo a fuga do tutorial, o estabelecimento da base e suas primeiras expedições em Ground Zero com orientação detalhada da missão.",
       "keywords": "Escape from Duckov, Passo a Passo do Tutorial, Guia de Início do Jogo, Ground Zero, Guia de Missão, Construção de Base, Fuga da Prisão"
     },
+    "isHome": false,
     "detailsHtml": `
               <p>Este passo a passo abrangente o guiará pelas suas primeiras horas em <a href="/">Escape from Duckov</a>, desde a fuga da prisão até o estabelecimento da sua base e a conclusão das suas expedições iniciais em Ground Zero. Perfeito para jogadores que desejam uma abordagem estruturada para o início do jogo.</p>
               
@@ -278,6 +280,7 @@ export const guides = [
       "description": "Domine expedições avançadas em Ground Zero, complete cadeias de missões complexas e expanda suas instalações de base com este passo a passo abrangente de meio de jogo.",
       "keywords": "Escape from Duckov, Passo a Passo Avançado, Exploração Ground Zero, Expansão de Base, Cadeias de Missões, Atualizações de Equipamento, Guia de Meio de Jogo"
     },
+    "isHome": false,
     "detailsHtml": `
               <p>Este passo a passo avançado cobre a progressão de meio de jogo em <a href="/">Escape from Duckov</a>, focando em expedições complexas em Ground Zero, expansão de instalações de base e conclusão de cadeias de missões intrincadas. Perfeito para jogadores prontos para enfrentar conteúdo mais desafiador.</p>
               
@@ -410,6 +413,7 @@ export const guides = [
       "description": "Guia abrangente das mecânicas centrais de Escape from Duckov, cobrindo gerenciamento de base, progressão de personagem, sistemas de combate, exploração e estratégias de sobrevivência.",
       "keywords": "Escape from Duckov, Mecânicas Centrais, Gerenciamento de Base, Sistemas de Combate, Progressão de Personagem, Guia de Sobrevivência, Sistemas de Jogo"
     },
+    "isHome": false,
     "detailsHtml": `
               <p>Este guia abrangente cobre todas as mecânicas essenciais do jogo em <a href="/">Escape from Duckov</a>, desde o gerenciamento de base e desenvolvimento de personagem até sistemas de combate e estratégias de exploração. Domine esses sistemas centrais para maximizar seu potencial de sobrevivência.</p>
               
@@ -579,6 +583,7 @@ export const guides = [
       "description": "Guia completo para acessar a Zona de Tempestade, incluindo ativação de energia, aquisição de certificado, estratégia para o chefe Roadblock e preparação essencial para a área mais perigosa de Duckov.",
       "keywords": "Escape from Duckov, Zona de Tempestade, Chefe Roadblock, Farm de Certificados, Guia Endgame, Estratégia de Luta contra Chefe"
     },
+    "isHome": false,
     "detailsHtml": `
               <p>Este guia abrangente cobre o processo completo de acesso à área mais perigosa de Duckov - a <strong>Zona de Tempestade</strong>. Aprenda como ativar sistemas de energia, adquirir os certificados necessários, derrotar o chefe Roadblock e se preparar para desafios extremos de endgame. Para <a href="/maps">localizações de mapas</a> e informações detalhadas da área, visite nossa seção de mapas.</p>
               
@@ -694,6 +699,7 @@ export const guides = [
       "description": "Aprenda a encontrar o raro LEDX em Escape from Duckov. Obtenha dicas sobre locais de surgimento, requisitos de chave, estratégias de negociação e implicações de missões para maximizar o lucro!",
       "keywords": "escape from duckov, ledx, guia de saque, sanatório, chave, item raro, negociação, missões"
     },
+    "isHome": false,
     "addressBar": "/escape-from-duckov-ledx",
     "detailsHtml": `
               <h2 style="font-size: 1.5em; font-weight: bold;">
@@ -789,6 +795,7 @@ export const guides = [
       "description": "Desbloqueie todos os J-Labs em Escape from Duckov! Este guia detalha localizações de Cartões J-Lab, recompensas de missões e métodos de farm para saquear eficientemente o saque de alto nível. Domine Duckov agora!",
       "keywords": "escape from duckov j-lab cards, guia de cartão de acesso, duckov, acesso ao laboratório, guia de saque, guia de missões, guia de farm, cartão vermelho, cartão azul, cartão verde"
     },
+    "isHome": false,
     "addressBar": "/escape-from-duckov-j-lab-access-card-acquisition-guide",
     "detailsHtml": `
               <p style="margin: 1em 0px;">
@@ -950,6 +957,7 @@ export const guides = [
       "description": "Complete a missão 'Caminho do Caçador' em Escape from Duckov com nosso guia especializado! Encontre Saqueadores Furiosos, mate-os rapidamente e reivindique sua recompensa. Leia agora!",
       "keywords": "escape from duckov, caminho do caçador, saqueadores furiosos, guia de missões, sobrevivência no ermo, estratégia de tiro na cabeça, dicas de jogo"
     },
+    "isHome": false,
     "addressBar": "/escape-from-duckov-rampaging-scavenger",
     "detailsHtml": `
             <p style="margin: 1em 0px;">
@@ -1059,6 +1067,7 @@ export const guides = [
       "description": "Descubra o segredo da Sacola em Escape From Duckov. Aprenda a encontrá-la, usá-la e por que é essencial para obter o Olho Vermelho do Chefe Red Blob. Guia completo!",
       "keywords": "escape from duckov, sacola, chefe red blob, olho vermelho, farm town, item único, drop de chefe, guia, passo a passo, estratégia"
     },
+    "isHome": false,
     "addressBar": "/escape-from-duckov-tote-bag-guide",
     "detailsHtml": `
           <p style="margin: 1em 0px;">
@@ -1230,6 +1239,7 @@ export const guides = [
       "description": "Domine a pesca em Escape from Duckov com nosso guia abrangente cobrindo criação de iscas (minhocas, biscoitos), equipamento de vara de pesca, mecânica do mini-jogo QTE, capturas baseadas no clima, peixes especiais como Peixe de Dorso Branco e locais de pesca. Inclui dicas para usar mods de pesca.",
       "keywords": "Escape from Duckov pesca, guia de pesca, criação de iscas, vara de pesca, mini-jogo QTE, minhocas, locais de pesca, pesca no clima, Peixe de Dorso Branco, isca de bateria R6, mod de pesca"
     },
+    "isHome": false,
     "detailsHtml": `
               <p>A pesca é uma mecânica de sobrevivência essencial em <a href="/">Escape from Duckov</a> que fornece recursos valiosos e itens de conclusão de missão. Este guia abrangente cobre tudo o que você precisa saber sobre mecânica de pesca, preparação de iscas, uso de varas de pesca e domínio do desafiador mini-jogo QTE.</p>
               
@@ -1379,6 +1389,7 @@ export const guides = [
       "description": "Domine o gerenciamento de inventário em Duckov! Nosso guia do acumulador revela quais itens guardar e vender para uma progressão ideal. Supere a ansiedade do saque e maximize o potencial do seu bunker.",
       "keywords": "Duckov, guia do acumulador, gerenciamento de inventário, saque, venda de itens, itens de missão, materiais de atualização, gerenciamento de recursos, escape Duckov, otimização de esconderijo"
     },
+    "isHome": true,
     "detailsHtml": `
           <p style="text-align: center;">
         <em style="color: rgb(127, 140, 141);">
@@ -1489,6 +1500,7 @@ export const guides = [
       "description": "Passo a passo completo para a primeira parte de Escape from Duckov. Aprenda a escapar da prisão, configurar sua base e completar as missões Construção Básica e Capital Inicial.",
       "keywords": "Escape from Duckov Passo a Passo Parte 1, Escape from Duckov Guia para Iniciantes, Guia de Fuga da Prisão, Ground Zero Passo a Passo, Configuração da Base Duckov, Missões Iniciais"
     },
+    "isHome": false,
     "detailsHtml": `
             <h2>Fugindo da Prisão: Tutorial e Primeiro Encontro</h2>
             <p>Após uma breve cena introdutória, sua primeira ação é ir ao espelho e **configurar seu personagem** no criador de personagens.</p>
@@ -1624,6 +1636,7 @@ export const guides = [
       "description": "Guia completo para Escape from Duckov Parte 2, detalhando como consertar a torre de sinal, acessar a caverna para projetos, derrotar o guarda pesado e construir a Loja de Armaduras.",
       "keywords": "Escape from Duckov Parte 2, Exploração de Ground Zero, Missão da Torre de Sinal, Projetos da Caverna, Desbloqueio da Loja de Armaduras, Notas do Mercado Negro"
     },
+    "isHome": false,
     "detailsHtml": `
             <h2>Ground Zero: Conclusão de Missões e Locais Chave</h2>
             <p>A segunda corrida principal se concentra em utilizar seu equipamento atualizado para concluir tarefas pendentes, desbloquear novas áreas e coletar projetos e itens de missão cruciais.</p>
@@ -1746,6 +1759,7 @@ export const guides = [
       "description": "Guia completo para Escape from Duckov Parte 3: construa instalações de base cruciais (Armas/Médica), use as chaves do Posto de Gasolina e da Cerca, encontre o quarto de hotel e derrote o Chefe Pato Chapo.",
       "keywords": "Escape from Duckov Parte 3, Luta contra Chefe Pato Chapo, Chaves Ground Zero, Estação Médica, Loja de Armas, Chave do Quarto de Hotel, Passo a Passo"
     },
+    "isHome": false,
     "detailsHtml": `
         <h2>Preparações da Base: Missões de Comerciantes e Instalações</h2>
         <p>Comece o dia aceitando um novo lote de missões das instalações da base recém-estabelecidas e entregando submissões imediatas para maximizar a experiência e a moeda antes de voltar para Ground Zero.</p>
@@ -1842,6 +1856,7 @@ export const guides = [
       "description": "Passo a passo detalhado para Escape from Duckov Parte 4. Aprenda as atualizações de habilidade necessárias, complete missões de extermínio e submissão e domine a luta contra o chefe Duckmother.",
       "keywords": "Escape from Duckov Parte 4, Estratégia do Chefe Duckmother, Localização da AS VAL, Acampamento Abandonado Ground Zero, Atualização de Reserva de Energia, Missão Teste de Desempenho"
     },
+    "isHome": false,
     "detailsHtml": `
         <h2>Preparação do Bunker: Novas Missões e Atualizações de Habilidade</h2>
         <p>Antes de voltar para Ground Zero, visite os comerciantes e o aprimorador para aceitar missões chave e aumentar a prontidão de combate do seu personagem para os novos desafios que se avizinham, incluindo a **Chefe Duckmother**.</p>
@@ -1948,6 +1963,7 @@ export const guides = [
       "description": "Passo a passo detalhado para Escape from Duckov Parte 5, focando na conclusão de missões repetíveis de extermínio e submissão para farmar moeda e maximizar habilidades críticas como Reserva de Energia e Tiro Firme.",
       "keywords": "Escape from Duckov Parte 5, Repetição da Duckmother, Max Reserva de Energia, Tiro Firme II, Corrida de Farm Ground Zero, Missão Teste de Desempenho II"
     },
+    "isHome": false,
     "detailsHtml": `
         <h2>Preparação do Bunker: Missões Repetíveis e Maximização de Habilidade</h2>
         <p>A Parte 5 envolve a repetição de missões de suprimento e extermínio de alto valor, muitas vezes marcadas com sufixos de numeração romana (II), que são excelentes para farmar experiência e moeda. Concentre-se em **maximizar as habilidades** essenciais de sobrevivência e combate antes de retornar a Ground Zero.</p>
@@ -2047,6 +2063,7 @@ export const guides = [
       "description": "Guia completo para Escape from Duckov Parte 6. Aprenda a finalizar todas as atualizações de habilidade de Nível III (Energia, Nutriente, Tiro Firme) e execute o ciclo final de farm de recursos e chefes de alta recompensa.",
       "keywords": "Escape from Duckov Parte 6, Habilidades Nível III, Max Reserva de Energia, Tiro Firme III, Farm da Duckmother, Preparação Final do Bunker, AS VAL"
     },
+    "isHome": false,
     "detailsHtml": `
         <h2>Preparação do Bunker: Missões Finais de Nível III e Atualizações Máximas</h2>
         <p>Este é o loop repetível final projetado para levar as estatísticas base do seu personagem ao seu potencial máximo. Concentre-se em aceitar todas as missões de **Nível III** e investir totalmente em suas habilidades essenciais.</p>
@@ -2144,6 +2161,7 @@ export const guides = [
       "description": "Maximize seu armazenamento em Escape From Duckov com nosso guia especializado para Caixas de Expansão! Aprenda rotas de farm, dicas e locais para esses recursos vitais. Não fique sem espaço!",
       "keywords": "escape from duckov, caixas de expansão, armazenamento, loot, armazém, farm, guia, dicas, base mercenária, caixas de ferramentas"
     },
+    "isHome": true,
     "addressBar": "/escape-from-duckov-expansion-crates-guide",
     "detailsHtml": `
       <p>Gerenciar seu loot é crucial para a sobrevivência em <strong>Escape From Duckov</strong>. À medida que você acumula mais equipamentos e recursos, o espaço do armazém do seu esconderijo se tornará rapidamente um fator limitante. As <strong>Caixas de Expansão</strong> são a chave para resolver este problema, permitindo que você aumente permanentemente sua capacidade de armazenamento.</p>
@@ -2259,6 +2277,7 @@ export const guides = [
       "description": "Desvende os segredos da missão Relógio de Bolso de Bronze em Escape From Duckov! Este guia cobre locais-chave, aquisição de itens e estratégias de extração segura. Domine Ground Zero!",
       "keywords": "Escape From Duckov, Relógio de Bolso de Bronze, Ground Zero, Xavier, Chave Mecânica, guia de missão, passo a passo, extração, loot, jogo FPS"
     },
+    "isHome": true,
     "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
     "detailsHtml": `
       <p>O "Relógio de Bolso de Bronze" é uma das primeiras missões críticas que você receberá em <strong>Escape From Duckov</strong>. Dada por Xavier, esta missão serve como uma introdução perfeita às mecânicas centrais do jogo: usar chaves especiais, navegar até um local específico, recuperar um item de missão e extrair com segurança.</p>

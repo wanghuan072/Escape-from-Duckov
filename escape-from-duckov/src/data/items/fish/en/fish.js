@@ -762,7 +762,7 @@ export default [
         detailsHtml: ``
     },
     {
-        id: 4,
+        id: 41,
         title: 'Yellow bucket',
         description: 'A large empty bucket.',
         imageUrl: '/images/items/fish/fish-41.webp',

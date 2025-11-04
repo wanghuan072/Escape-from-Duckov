@@ -428,6 +428,8 @@
         "headgearTitle": "Couvre-chef",
         "otherTitle": "Autres Équipements",
         "bodyTitle": "Corps",
+        "backpackTitle": "Sac à dos",
+        "earphoneTitle": "Écouteurs",
         "table": {
             "image": "Image",
             "name": "Nom",
@@ -438,6 +440,7 @@
     "ItemsAmmunitionPage": {
         "title": "Munitions Escape from Duckov",
         "subtitle": "Base de données complète des munitions d'Escape from Duckov avec tous les types de balles, calibres et cartouches. Parcourez les munitions de pistolet, les cartouches de fusil, les cartouches de fusil de chasse et les cartouches spéciales avec des statistiques de dégâts détaillées et des informations de compatibilité d'armes.",
+        "ammoTitle": "Munitions",
         "table": {
             "image": "Image",
             "name": "Nom",
@@ -448,6 +451,8 @@
     "ItemsKeyPage": {
         "title": "Clés Escape from Duckov",
         "subtitle": "Base de données complète des clés d'Escape from Duckov, présentant les certificats J-Lab, les cartes d'accès, les clés d'usine, les clés de dortoir et les clés spécifiques à la localisation. Parcourez les certificats J-Lab de Niveau 1 à 3, les cartes d'accès colorées et les tickets spéciaux avec des informations de localisation.",
+        "accessCardTitle": "Cartes d'Accès",
+        "keyTitle": "Clés",
         "table": {
             "image": "Image",
             "name": "Nom",

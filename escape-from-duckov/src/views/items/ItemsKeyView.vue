@@ -6,6 +6,7 @@
                 <p class="page-subtitle">{{ t('ItemsKeyPage.subtitle') }}</p>
             </div>
 
+            <h2 class="group-title">{{ t('ItemsKeyPage.accessCardTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
@@ -17,13 +18,45 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="item in allKeys" :key="item.id" @click="onRowClick(item)"
+                        <tr v-for="item in accessCardItems" :key="item.id" @click="onRowClick(item)"
                             :class="['item-row', { 'disabled': item.showDetail === false }]">
                             <td class="image-cell">
                                 <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image"></div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
+                            </td>
+                            <td class="desc-cell">
+                                <span class="desc-text">{{ item.description || '-' }}</span>
+                            </td>
+                            <td class="type-cell">
+                                <span class="type-tag" v-if="item.type">{{ item.type }}</span>
+                                <span v-else>-</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 class="group-title">{{ t('ItemsKeyPage.keyTitle') }}</h2>
+            <div class="table-container">
+                <table class="items-table">
+                    <thead>
+                        <tr>
+                            <th class="image-col">{{ t('ItemsKeyPage.table.image') }}</th>
+                            <th class="name-col">{{ t('ItemsKeyPage.table.name') }}</th>
+                            <th class="desc-col">{{ t('ItemsKeyPage.table.desc') }}</th>
+                            <th class="type-col">{{ t('ItemsKeyPage.table.type') }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="item in keyItems" :key="item.id" @click="onRowClick(item)"
+                            :class="['item-row', { 'disabled': item.showDetail === false }]">
+                            <td class="image-cell">
+                                <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image"></div>
+                            </td>
+                            <td class="name-cell">
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -51,7 +84,13 @@ const route = useRoute()
 const { t, locale } = useI18n()
 const { data: itemsData, loadData } = useItemsData('key')
 
-const allKeys = computed(() => itemsData?.value || [])
+// 参考 ItemsEquipmentView.vue 的方式
+const norm = (t) => String(t || '').toLowerCase()
+const isAccessCard = (t) => norm(t).includes('access-card')
+const isKey = (t) => norm(t).includes('key')
+
+const accessCardItems = computed(() => (itemsData?.value || []).filter(i => isAccessCard(i.type)))
+const keyItems = computed(() => (itemsData?.value || []).filter(i => isKey(i.type) && !isAccessCard(i.type)))
 
 onMounted(() => {
     loadData('key')
@@ -97,6 +136,14 @@ const onRowClick = (item) => {
 .page-subtitle {
     font-size: 1rem;
     color: var(--text-primary);
+}
+
+.group-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-heading);
+    margin: 24px 0 12px;
+    line-height: 1.2;
 }
 
 .table-container {
@@ -158,6 +205,7 @@ const onRowClick = (item) => {
 }
 
 .name-main {
+    font-size: 16px;
     font-weight: 800;
     color: var(--text-heading);
     letter-spacing: .2px;
@@ -231,6 +279,9 @@ const onRowClick = (item) => {
     .image {
         width: 40px;
         height: 40px;
+    }
+    .name-main{
+        font-size: 14px;
     }
 }
 </style>

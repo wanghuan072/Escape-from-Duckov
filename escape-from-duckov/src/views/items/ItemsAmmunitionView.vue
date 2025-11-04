@@ -6,6 +6,7 @@
                 <p class="page-subtitle">{{ t('ItemsAmmunitionPage.subtitle') }}</p>
             </div>
 
+            <h2 class="group-title">{{ t('ItemsAmmunitionPage.ammoTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
@@ -23,7 +24,7 @@
                                 <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image"></div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -99,6 +100,14 @@ const onRowClick = (item) => {
     color: var(--text-primary);
 }
 
+.group-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-heading);
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
 .table-container {
     overflow-x: auto;
     border-radius: 8px;
@@ -161,6 +170,7 @@ const onRowClick = (item) => {
     font-weight: 800;
     color: var(--text-heading);
     letter-spacing: .2px;
+    font-size: 16px;
 }
 
 .desc-cell {
@@ -231,6 +241,9 @@ const onRowClick = (item) => {
     .image {
         width: 40px;
         height: 40px;
+    }
+    .name-main{
+        font-size: 14px;
     }
 }
 </style>

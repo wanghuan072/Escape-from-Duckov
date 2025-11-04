@@ -25,7 +25,7 @@
                                 </div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -58,7 +58,7 @@
                                 </div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -91,7 +91,7 @@
                                 </div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -106,7 +106,7 @@
             </div>
 
             <!--  -->
-            <h2 class="group-title">Backpack</h2>
+            <h2 class="group-title">{{ t('ItemsEquipmentPage.backpackTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
@@ -125,7 +125,7 @@
                                 </div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -140,7 +140,7 @@
             </div>
 
             <!--  -->
-            <h2 class="group-title">Backpack</h2>
+            <h2 class="group-title">{{ t('ItemsEquipmentPage.earphoneTitle') }}</h2>
             <div class="table-container">
                 <table class="items-table">
                     <thead>
@@ -159,7 +159,7 @@
                                 </div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -316,6 +316,7 @@ const onRowClick = (item) => {
     font-weight: 800;
     color: var(--text-heading);
     letter-spacing: .2px;
+    font-size: 16px;
 }
 
 .desc-cell {
@@ -386,6 +387,9 @@ const onRowClick = (item) => {
     .image {
         width: 40px;
         height: 40px;
+    }
+    .name-main{
+        font-size: 14px;
     }
 }
 </style>

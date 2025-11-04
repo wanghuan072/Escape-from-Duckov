@@ -24,7 +24,7 @@
                                 <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image"></div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -56,7 +56,7 @@
                                 <div class="avatar"><img :src="item.imageUrl" :alt="item.imageAlt" class="image"></div>
                             </td>
                             <td class="name-cell">
-                                <div class="name-main">{{ item.title }}</div>
+                                <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
                                 <span class="desc-text">{{ item.description || '-' }}</span>
@@ -206,6 +206,7 @@ const onRowClick = (item) => {
 }
 
 .name-main {
+    font-size: 16px;
     font-weight: 800;
     color: var(--text-heading);
     letter-spacing: .2px;
@@ -266,6 +267,10 @@ const onRowClick = (item) => {
         margin-bottom: 10px;
     }
 
+    .name-main{
+        font-size: 14px;
+    }
+    
     .page-subtitle {
         font-size: 12px;
     }

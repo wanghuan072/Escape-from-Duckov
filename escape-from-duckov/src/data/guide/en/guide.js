@@ -9,6 +9,7 @@ export const guides = [
     addressBar: '/complete-beginner-survival-guide',
     category: 'getting-started',
     tags: ['SURVIVAL', 'BASE SETUP', 'FIRST RAID', 'NPC GUIDE', 'COMBAT BASICS'],
+    isHome: false,
     seo: {
       title: 'Complete Beginner\'s Survival Guide - Escape from Duckov',
       description: 'Master the fundamentals of Escape from Duckov with this comprehensive guide covering base setup, first raids, NPC interactions, and essential survival strategies.',
@@ -127,6 +128,7 @@ export const guides = [
     category: 'getting-started',
     // category: 'walkthroughs',
     tags: ['TUTORIAL', 'EARLY GAME', 'GROUND ZERO', 'QUEST GUIDE', 'BASE BUILDING'],
+    isHome: false,
     seo: {
       title: 'Complete Tutorial & Early Game Walkthrough - Escape from Duckov',
       description: 'Follow this comprehensive step-by-step walkthrough covering the tutorial escape, base establishment, and your first Ground Zero expeditions with detailed quest guidance.',
@@ -253,6 +255,7 @@ export const guides = [
     addressBar: '/advanced-ground-zero-exploration-base-expansion',
     category: 'advanced',
     tags: ['ADVANCED EXPLORATION', 'BASE EXPANSION', 'QUEST CHAINS', 'EQUIPMENT UPGRADES', 'GROUND ZERO'],
+    isHome: false,
     seo: {
       title: 'Advanced Ground Zero Exploration & Base Expansion - Escape from Duckov',
       description: 'Master advanced Ground Zero expeditions, complete complex quest chains, and expand your base facilities with this comprehensive mid-game walkthrough.',
@@ -379,6 +382,7 @@ export const guides = [
     addressBar: '/master-core-game-mechanics-systems',
     category: 'getting-started',
     tags: ['CORE MECHANICS', 'BASE MANAGEMENT', 'COMBAT SYSTEMS', 'CHARACTER PROGRESSION', 'SURVIVAL'],
+    isHome: false,
     seo: {
       title: 'Master Core Game Mechanics & Systems - Escape from Duckov',
       description: 'Comprehensive guide to Escape from Duckov\'s core mechanics covering base management, character progression, combat systems, exploration, and survival strategies.',
@@ -541,6 +545,7 @@ export const guides = [
     addressBar: '/storm-zone-access-roadblock-boss-guide',
     category: 'advanced',
     tags: ['STORM ZONE', 'BOSS FIGHT', 'CERTIFICATE FARMING', 'ENDGAME CONTENT', 'SURVIVAL'],
+    isHome: false,
     seo: {
       title: 'Storm Zone Access & Roadblock Boss Guide - Escape from Duckov',
       description: 'Complete guide to accessing the Storm Zone including power activation, certificate acquisition, Roadblock boss strategy, and essential preparation for Duckov\'s most dangerous area.',
@@ -651,6 +656,7 @@ export const guides = [
     imageUrl: "/images/guide/guide06-01.webp",
     imageAlt: "A LEDX Skin Transilluminator in Escape from Duckov displayed on a workbench.",
     category: 'advanced',
+    isHome: false,
     seo: {
       title: "Escape from Duckov LEDX: The Ultimate Acquisition Guide",
       description: "Learn how to find the rare LEDX in Escape from Duckov. Get tips on spawn locations, key requirements, trading strategies, and quest implications for maximizing profit!",
@@ -742,6 +748,7 @@ export const guides = [
     imageUrl: "/images/guide/guide07-01.webp",
     imageAlt: "A player character looting a J-Lab Access Card in Escape from Duckov, inside a dimly lit room filled with industrial equipment.",
     category: 'advanced',
+    isHome: false,
     seo: {
       title: "Escape from Duckov: J-Lab Card Guide - Unlock All Labs!",
       description: "Unlock all J-Labs in Escape from Duckov! This guide details J-Lab Card locations, quest rewards, and farming methods to efficiently raid high-tier loot. Dominate Duckov now!",
@@ -901,6 +908,7 @@ export const guides = [
     imageUrl: "/images/guide/guide08-01.webp",
     imageAlt: "Rampaging Scavengers in Escape from Duckov, identifiable by their red clothing and butcher knives.",
     category: 'advanced',
+    isHome: false,
     seo: {
       title: "Escape from Duckov Scavenger: Where To Finding Rampaging Scavengers",
       description: "Complete the 'Hunter's Path' quest in Escape from Duckov with our expert guide! Find Rampaging Scavengers, kill them quickly, and claim your reward. Read now!",
@@ -1004,6 +1012,7 @@ export const guides = [
     imageUrl: "/images/guide/guide09-01.webp",
     imageAlt: "A player character in Escape From Duckov holding a Tote Bag near a loot cache.",
     category: 'advanced',
+    isHome: false,
     seo: {
       title: "Escape From Duckov Tote Bag Guide",
       description: "Discover the secret of the Tote Bag in Escape From Duckov. Learn how to find it, use it, and why it's essential for obtaining the Red Eye from the Red Blob Boss. Complete guide!",
@@ -1169,6 +1178,7 @@ export const guides = [
     addressBar: '/fishing-guides-for-escape-from-duckov',
     category: 'advanced',
     tags: ['FISHING', 'BAIT', 'FISHING ROD', 'QTE', 'MINI-GAME', 'ADVANCED MECHANICS'],
+    isHome: false,
     seo: {
       title: 'Fishing Guides for Escape from Duckov - Complete Bait, Rod & Mechanics Guide',
       description: 'Master fishing in Escape from Duckov with our comprehensive guide covering bait crafting (earthworms, cookies), fishing rod equipment, QTE mini-game mechanics, weather-based catches, special fish like Whiteback Fish, and fishing spot locations. Includes tips for using fishing mods.',
@@ -1313,6 +1323,7 @@ export const guides = [
     addressBar: '/the-hoarders-guide-to-escape-from-duckov-what-to-keep-what-to-sell',
     category: 'advanced',
     tags: ['DUCKOV', 'LOOTING GUIDE', 'INVENTORY MANAGEMENT', 'HOARDER\'S GUIDE', 'RESOURCE PRIORITIZATION'],
+    isHome: true,
     seo: {
       title: 'The Hoarder\'s Guide to Escape Duckov : What to Sell',
       description: 'Master inventory management in Duckov! Our hoarder\'s guide reveals which items to keep and sell for optimal progression. Overcome loot anxiety and maximize your bunker\'s potential.',
@@ -1423,6 +1434,7 @@ export const guides = [
     "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
     "category": "walkthroughs",
     "tags": ["walkthrough", "beginner guide", "prison escape", "base building", "ground zero"],
+    isHome: false,
     "seo": {
       "title": "Escape from Duckov Part 1 Guide: Prison, Base Setup, and Initial Quests",
       "description": "Complete step-by-step walkthrough for the first part of Escape from Duckov. Learn how to escape the prison, set up your base, and complete Basic Construction and Startup Capital quests.",
@@ -1558,6 +1570,7 @@ export const guides = [
     "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
     "category": "walkthroughs",
     "tags": ["walkthrough", "ground zero", "base expansion", "new quests", "mid-game"],
+    isHome: false,
     "seo": {
       "title": "Escape from Duckov Part 2 Walkthrough: Signal Tower, Cave Loot, and Armor Shop",
       "description": "Complete guide for Escape from Duckov Part 2, detailing how to repair the signal tower, access the cave for blueprints, defeat the heavy guard, and build the Armor Shop.",
@@ -1680,6 +1693,7 @@ export const guides = [
     "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
     "category": "walkthroughs",
     "tags": ["walkthrough", "ground zero", "boss fight", "pato chapo", "merchant quests", "mid-game"],
+    isHome: false,
     "seo": {
       "title": "Escape from Duckov Part 3 Guide: Medical Station, Keys, and Pato Chapo Strategy",
       "description": "Complete guide to Escape from Duckov Part 3: build crucial base facilities (Weapon/Medical), use the Gas Station and Fence keys, find the hotel room, and defeat the Pato Chapo Boss.",
@@ -1776,6 +1790,7 @@ export const guides = [
     "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
     "category": "walkthroughs",
     "tags": ["walkthrough", "ground zero", "boss fight", "duckmother", "as val", "upgrades"],
+    isHome: false,
     "seo": {
       "title": "Escape from Duckov Part 4 Guide: Defeating Duckmother, Finding AS VAL, and Bunker Quests",
       "description": "Step-by-step walkthrough for Escape from Duckov Part 4. Learn required skill upgrades, complete extermination and submission quests, and master the Duckmother boss fight.",
@@ -1882,6 +1897,7 @@ export const guides = [
     "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
     "category": "walkthroughs",
     "tags": ["walkthrough", "ground zero", "boss fight", "repeat quests", "skill maxing", "farm run"],
+    isHome: false,
     "seo": {
       "title": "Escape from Duckov Part 5 Guide: Maxing Core Skills and The Duckmother Repeat Run",
       "description": "Step-by-step walkthrough for Escape from Duckov Part 5, focusing on completing repeatable extermination and submission quests to farm currency and max out critical skills like Energy Reserve and Steady Shot.",
@@ -1981,6 +1997,7 @@ export const guides = [
     "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
     "category": "walkthroughs",
     "tags": ["walkthrough", "ground zero", "skill maxing", "boss farm", "tier iii", "final prep"],
+    isHome: false,
     "seo": {
       "title": "Escape from Duckov Part 6 Guide: Maxing Tier III Skills and Final Duckmother Run",
       "description": "Complete guide for Escape from Duckov Part 6. Learn how to finalize all Tier III skill upgrades (Energy, Nutrient, Steady Shot) and execute the final high-reward resource and boss farming cycle.",
@@ -2083,6 +2100,7 @@ export const guides = [
       description: "Maximize your storage in Escape From Duckov with our expert guide to Expansion Crates! Learn farming routes, tips, and locations for these vital resources. Don't get caught without space!",
       keywords: "escape from duckov, expansion crates, storage, loot, warehouse, farming, guide, tips, mercenary base, toolboxes",
     },
+    isHome: true,
     addressBar: "/escape-from-duckov-expansion-crates-guide",
     detailsHtml: `
     <p>Managing your loot is crucial for survival in <strong>Escape From Duckov</strong>. As you gather more gear and resources, your hideout's warehouse space will quickly become a limiting factor. <strong>Expansion Crates</strong> are the key to solving this problem, allowing you to permanently increase your storage capacity.</p>
@@ -2198,6 +2216,7 @@ export const guides = [
       description: "Unlock the secrets of the Bronze Pocket Watch quest in Escape From Duckov! This guide covers key locations, item acquisition, and safe extraction strategies. Dominate Ground Zero!",
       keywords: "Escape From Duckov, Bronze Pocket Watch, Ground Zero, Xavier, Mechanical Key, quest guide, walkthrough, extract, loot, FPS game",
     },
+    isHome: true,
     addressBar: "/escape-from-duckov-bronze-pocket-watch-quest",
     detailsHtml: `
     <p>The "Bronze Pocket Watch" is one of the first critical quests you'll receive in <strong>Escape From Duckov</strong>. Given by Xavier, this mission serves as a perfect introduction to the game's core mechanics: using special keys, navigating to a specific location, retrieving a quest item, and extracting safely.</p>

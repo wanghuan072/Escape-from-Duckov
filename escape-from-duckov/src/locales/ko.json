@@ -428,6 +428,8 @@
         "headgearTitle": "머리 장비",
         "otherTitle": "기타 장비",
         "bodyTitle": "신체",
+        "backpackTitle": "배낭",
+        "earphoneTitle": "이어폰",
         "table": {
             "image": "이미지",
             "name": "이름",
@@ -438,6 +440,7 @@
     "ItemsAmmunitionPage": {
         "title": "Escape from Duckov 탄약",
         "subtitle": "모든 탄환 유형, 구경, 탄약을 포함한 완전한 Escape from Duckov 탄약 데이터베이스. 상세한 피해 통계 및 무기 호환성 정보가 포함된 권총 탄약, 소총 카트리지, 산탄총 쉘 및 특수 탄을 탐색하세요.",
+        "ammoTitle": "탄약",
         "table": {
             "image": "이미지",
             "name": "이름",
@@ -448,6 +451,8 @@
     "ItemsKeyPage": {
         "title": "Escape from Duckov 열쇠",
         "subtitle": "J-Lab 인증서, 액세스 카드, 공장 열쇠, 기숙사 열쇠, 장소별 열쇠를 포함한 완전한 Escape from Duckov 열쇠 데이터베이스. 위치 정보가 포함된 레벨 1-3 J-Lab 인증서, 유색 액세스 카드 및 특수 티켓을 탐색하세요.",
+        "accessCardTitle": "액세스 카드",
+        "keyTitle": "열쇠",
         "table": {
             "image": "이미지",
             "name": "이름",

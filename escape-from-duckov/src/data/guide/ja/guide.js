@@ -21,6 +21,7 @@ export const guides = [
             "description": "基地のセットアップ、初回のレイド、NPCとの交流、そして必須のサバイバル戦略を網羅したこの包括的なガイドで、『Escape from Duckov』の基本をマスターしましょう。",
             "keywords": "Escape from Duckov, 初心者ガイド, サバイバルガイド, 基地セットアップ, 初回レイド, NPCガイド, 戦闘の基本, グランドゼロ"
         },
+        "isHome": false,
         "detailsHtml": `
               <p>危険な世界へようこそ、<a href="/">Escape from Duckov</a>へ！ この包括的な初心者ガイドは、このサバイバルRPGでの最初のステップ、基地のセットアップから最初の遠征完了までを案内します。</p>
               
@@ -144,6 +145,7 @@ export const guides = [
             "description": "チュートリアルでの脱出、基地の確立、そして詳細なクエストガイダンスを含む最初のグランドゼロ遠征を網羅した、この包括的なステップバイステップの攻略に従ってください。",
             "keywords": "Escape from Duckov, チュートリアル攻略, 序盤ゲームガイド, グランドゼロ, クエストガイド, 基地建設, 刑務所脱出"
         },
+        "isHome": false,
         "detailsHtml": `
               <p>この包括的なウォークスルーは、刑務所からの脱出から基地の確立、そして最初のグランドゼロ遠征の完了まで、<a href="/">Escape from Duckov</a>での最初の数時間を案内します。序盤ゲームに構造化されたアプローチを望むプレイヤーに最適です。</p>
               
@@ -277,6 +279,7 @@ export const guides = [
             "description": "複雑なクエストチェーンを完了し、基地施設を拡張するための、上級者向けグランドゼロ遠征と中盤の攻略法を網羅した包括的なウォークスルーです。",
             "keywords": "Escape from Duckov, 上級者向けウォークスルー, グランドゼロ探索, 基地拡張, クエストチェーン, 装備アップグレード, 中盤ガイド"
         },
+        "isHome": false,
         "detailsHtml": `
               <p>この上級者向けウォークスルーは、<a href="/">Escape from Duckov</a>の**中盤の進行**をカバーしており、複雑なグランドゼロ遠征、基地施設の拡張、および入り組んだクエストチェーンの完了に焦点を当てています。より困難なコンテンツに取り組む準備ができているプレイヤーに最適です。</p>
               
@@ -409,6 +412,7 @@ export const guides = [
             "description": "基地管理、キャラクターの成長、戦闘システム、探索、サバイバル戦略を網羅した、『Escape from Duckov』のコアメカニクスに関する包括的なガイドです。",
             "keywords": "Escape from Duckov, コアメカニクス, 基地管理, 戦闘システム, キャラクターの成長, サバイバルガイド, ゲームシステム"
         },
+        "isHome": false,
         "detailsHtml": `
               <p>この包括的なガイドは、基地管理、キャラクター開発から戦闘システム、探索戦略に至るまで、<a href="/">Escape from Duckov</a>におけるすべての必須ゲームメカニクスをカバーしています。これらのコアシステムをマスターして、あなたのサバイバル可能性を最大限に高めましょう。</p>
               
@@ -578,6 +582,7 @@ export const guides = [
             "description": "電源の作動、認証書の取得、ロードブロックボスの戦略、そしてDuckovで最も危険なエリアへの必須の準備を網羅した、ストームゾーンにアクセスするための完全ガイド。",
             "keywords": "Escape from Duckov, ストームゾーン, ロードブロックボス, 認証書ファーミング, エンドゲームガイド, ボス戦戦略"
         },
+        "isHome": false,
         "detailsHtml": `
               <p>この包括的なガイドは、Duckovで最も危険なエリアである**ストームゾーン**にアクセスするための完全なプロセスをカバーしています。電源システムの作動方法、必要な**認証書**の取得方法、**ロードブロックボス**の倒し方、そして究極のエンドゲームの挑戦に備える方法を学びましょう。<a href="/maps">マップの場所</a>と詳細なエリア情報については、マップセクションをご覧ください。</p>
               
@@ -693,6 +698,7 @@ export const guides = [
             "description": "Escape from DuckovでレアなLEDXを見つける方法を学びましょう。出現場所、鍵の要件、取引戦略、および利益を最大化するためのクエストへの影響に関するヒントを入手してください！",
             "keywords": "escape from duckov, ledx, ルートガイド, サナトリウム, 鍵, レアアイテム, 取引, クエスト"
         },
+        "isHome": false,
         "addressBar": "/escape-from-duckov-ledx",
         "detailsHtml": `
               <h2 style="font-size: 1.5em; font-weight: bold;">
@@ -787,6 +793,7 @@ export const guides = [
             "description": "Escape from DuckovのすべてのJ-Labをアンロックしましょう！このガイドでは、J-Labカードの場所、クエスト報酬、および高ティアのルートを効率的に襲撃するためのファーミング方法を詳述しています。今すぐDuckovを制覇しましょう！",
             "keywords": "escape from duckov j-lab cards, アクセスカードガイド, duckov, ラボアクセス, ルーティングガイド, クエストガイド, ファーミングガイド, レッドカード, ブルーカード, グリーンカード"
         },
+        "isHome": false,
         "addressBar": "/escape-from-duckov-j-lab-access-card-acquisition-guide",
         "detailsHtml": `
               <p style="margin: 1em 0px;">
@@ -947,6 +954,7 @@ export const guides = [
             "description": "エキスパートガイドでEscape from Duckovの「ハンターの道」クエストを完了しましょう！暴走スカベンジャーを見つけ、迅速に倒し、報酬を獲得しましょう。今すぐ読んでください！",
             "keywords": "escape from duckov, ハンターの道, 暴走スカベンジャー, クエストガイド, 荒野サバイバル, ヘッドショット戦略, ゲームのヒント"
         },
+        "isHome": false,
         "addressBar": "/escape-from-duckov-rampaging-scavenger",
         "detailsHtml": `
               <p style="margin: 1em 0px;">
@@ -1046,6 +1054,7 @@ export const guides = [
             "Red Eye",
             "Farm Town"
         ],
+        "isHome": false,
         "publishDate": "2025-10-30",
         "imageUrl": "/images/guide/guide09-01.webp",
         "imageAlt": "Escape From Duckovで、ルートの隠し場所の近くでトートバッグを持っているプレイヤーキャラクター。",
@@ -1225,6 +1234,7 @@ export const guides = [
             "description": "餌のクラフト（ミミズ、クッキー）、釣り竿の装備、QTEミニゲームのメカニクス、天候に基づく釣獲、ホワイトバックフィッシュなどの特殊な魚、および釣りスポットの場所をカバーする包括的なガイドで、Escape from Duckovの釣りをマスターしましょう。釣りMODの使用に関するヒントも含まれています。",
             "keywords": "Escape from Duckov 釣り, 釣りガイド, 餌のクラフト, 釣り竿, QTEミニゲーム, ミミズ, 釣りスポット, 天候釣り, ホワイトバックフィッシュ, R6バッテリー餌, 釣りmod"
         },
+        "isHome": false,
         "detailsHtml": `
               <p>釣りは、貴重な資源とクエスト完了アイテムを提供する <a href="/">Escape from Duckov</a>の不可欠なサバイバルメカニクスです。この包括的なガイドは、釣りメカニクス、餌の準備、釣り竿の使用法、そして挑戦的なQTEミニゲームをマスターするために知っておくべきすべてをカバーしています。</p>
               
@@ -1374,6 +1384,7 @@ export const guides = [
             "description": "Duckovでのインベントリ管理をマスターしましょう！私たちの溜め込み屋のガイドは、最適な進行のために保管すべきアイテムと売却すべきアイテムを明らかにします。ルート不安を克服し、バンカーの可能性を最大化しましょう。",
             "keywords": "Duckov, 溜め込み屋ガイド, インベントリ管理, ルート, アイテム売却, クエストアイテム, アップグレード材料, 資源管理, escape Duckov, スタッシュの最適化"
         },
+        "isHome": true,
         "detailsHtml": `
               <p style="text-align: center;">
                   <em style="color: rgb(127, 140, 141);">
@@ -1483,6 +1494,7 @@ export const guides = [
             "description": "Escape from Duckovの最初のパートの完全なステップバイステップウォークスルー。刑務所から脱出する方法、基地をセットアップする方法、および「基本的な建設」と「運転資金」のクエストを完了する方法を学びます。",
             "keywords": "Escape from Duckov ウォークスルー パート1, Escape from Duckov 初心者ガイド, 脱獄ガイド, グランドゼロ ウォークスルー, 基地セットアップ Duckov, 初期クエスト"
         },
+        "isHome": false,
         "detailsHtml": `
               <h2>刑務所からの脱出：チュートリアルと最初の遭遇</h2>
               <p>簡単な紹介シーンの後、最初のアクションは鏡に行き、キャラクタークリエーターで**自分のキャラクターを設定する**ことです。</p>
@@ -1618,6 +1630,7 @@ export const guides = [
             "description": "Escape from Duckov パート2の完全ガイド。信号塔の修理、設計図のための洞窟へのアクセス、重装甲の警備員の撃破、およびアーマーショップの建設方法を詳述します。",
             "keywords": "Escape from Duckov パート2, Ground Zero 探索, 信号塔クエスト, 洞窟の設計図, アーマーショップのロック解除, ブラックマーケットのメモ"
         },
+        "isHome": false,
         "detailsHtml": `
               <h2>Ground Zero：クエスト完了と主要な場所</h2>
               <p>2回目の主要なランは、アップグレードされた装備を利用して未解決のタスクを完了し、新しいエリアのロックを解除し、重要な設計図とクエストアイテムを収集することに焦点を当てています。</p>
@@ -1740,6 +1753,7 @@ export const guides = [
             "description": "Escape from Duckov パート3の完全ガイド：重要な基地施設（武器/医療）の建設、ガソリンスタンドとフェンスの鍵の使用、ホテルの部屋の特定、Pato Chapoボスの撃破。",
             "keywords": "Escape from Duckov パート3, Pato Chapo ボス戦, Ground Zero 鍵, 医療ステーション, 武器ショップ, ホテルの部屋の鍵, ウォークスルー"
         },
+        "isHome": false,
         "detailsHtml": `
             <h2>基地の準備：商人のクエストと施設</h2>
             <p>Ground Zeroに戻る前に、新設された基地施設から新しいクエストの束を受諾し、すぐに提出可能なものは提出して、経験値と通貨を最大化して一日を始めましょう。</p>
@@ -1836,6 +1850,7 @@ export const guides = [
             "description": "Escape from Duckov パート4のステップバイステップウォークスルー。必要なスキルアップグレード、駆除および提出クエストの完了、そしてDuckmotherボス戦の攻略法を学びます。",
             "keywords": "Escape from Duckov パート4, Duckmother ボス戦略, AS VAL 場所, Ground Zero 放棄されたキャンプ, エネルギーリザーブ アップグレード, パフォーマンス テスト クエスト"
         },
+        "isHome": false,
         "detailsHtml": `
             <h2>バンカーの準備：新しいクエストとスキルアップグレード</h2>
             <p>Ground Zeroに戻る前に、商人やエンハンサーを訪れ、**Duckmotherボス**を含む今後の新しい課題に備えて、重要なミッションを受諾し、キャラクターの戦闘準備を整えましょう。</p>
@@ -1942,6 +1957,7 @@ export const guides = [
             "description": "Escape from Duckov パート5のステップバイステップウォークスルー。通貨を稼ぎ、エネルギーリザーブや安定した射撃などの重要なスキルを最大化するための、反復可能な駆除および提出クエストの完了に焦点を当てます。",
             "keywords": "Escape from Duckov パート5, Duckmother 反復, エネルギーリザーブ最大化, 安定した射撃 II, Ground Zero ファームラン, パフォーマンス テスト II クエスト"
         },
+        "isHome": false,
         "detailsHtml": `
             <h2>バンカーの準備：反復可能なクエストとスキル最大化</h2>
             <p>パート5では、高価値の物資調達および駆除クエスト（多くの場合、ローマ数字の接尾辞 (II) が付いています）を繰り返し行い、経験値と通貨を稼ぐのに最適です。Ground Zeroに戻る前に、コアとなるサバイバルスキルと戦闘スキルを最大化することに焦点を当てましょう。</p>
@@ -2041,6 +2057,7 @@ export const guides = [
             "description": "Escape from Duckov パート6の完全ガイド。すべてのティア IIIスキルアップグレード（エネルギー、栄養、安定した射撃）を完了し、最後の高報酬リソースおよびボスファーミングサイクルを実行する方法を学びます。",
             "keywords": "Escape from Duckov パート6, ティア III スキル, エネルギーリザーブ最大化, 安定した射撃 III, Duckmother ファーム, 最終バンカー準備, AS VAL"
         },
+        "isHome": false,
         "detailsHtml": `
             <h2>バンカーの準備：最終ティア IIIクエストと最大アップグレード</h2>
             <p>これは、キャラクターの基本ステータスを最大限に高めるために設計された最後の反復ループです。すべてのティア **III**クエストを受諾し、コアスキルに完全に投資することに焦点を当てましょう。</p>
@@ -2138,6 +2155,7 @@ export const guides = [
             "description": "エキスパートガイドでEscape From Duckovのストレージを最大化しましょう！これらの重要なリソースのファーミングルート、ヒント、場所を学びます。スペース不足に陥らないように！",
             "keywords": "escape from duckov, 拡張クレート, ストレージ, 戦利品, 倉庫, ファーミング, ガイド, ヒント, 傭兵基地, ツールボックス"
         },
+        "isHome": true,
         "addressBar": "/escape-from-duckov-expansion-crates-guide",
         "detailsHtml": `
           <p><strong>Escape From Duckov</strong>で戦利品を管理することは、サバイバルにとって非常に重要です。ギアやリソースを集めるにつれて、隠れ家の倉庫スペースはすぐに制限要因となります。<strong>拡張クレート</strong>は、この問題を解決するための鍵であり、ストレージ容量を恒久的に増やすことができます。</p>
@@ -2253,6 +2271,7 @@ export const guides = [
             "description": "Escape From Duckovのブロンズ懐中時計クエストの秘密を解き明かしましょう！このガイドでは、主要な場所、アイテムの入手、安全な脱出戦略をカバーしています。Ground Zeroを支配しましょう！",
             "keywords": "Escape From Duckov, ブロンズ懐中時計, Ground Zero, Xavier, メカニカルキー, クエストガイド, ウォークスルー, 脱出, 戦利品, FPSゲーム"
         },
+        "isHome": true,
         "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
         "detailsHtml": `
           <p>「ブロンズ懐中時計」は、<strong>Escape From Duckov</strong>で最初に受け取る重要なクエストの1つです。Xavierから与えられるこのミッションは、特殊な鍵の使用、特定の場所へのナビゲート、クエストアイテムの回収、安全な脱出という、ゲームのコアメカニクスへの完璧な入門として機能します。</p>

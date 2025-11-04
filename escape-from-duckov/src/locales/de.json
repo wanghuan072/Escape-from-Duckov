@@ -428,6 +428,8 @@
         "headgearTitle": "Kopfbedeckung",
         "otherTitle": "Sonstige Ausrüstung",
         "bodyTitle": "Körper",
+        "backpackTitle": "Rucksack",
+        "earphoneTitle": "Kopfhörer",
         "table": {
             "image": "Bild",
             "name": "Name",
@@ -438,6 +440,7 @@
     "ItemsAmmunitionPage": {
         "title": "Escape from Duckov Munition",
         "subtitle": "Vollständige Escape from Duckov Munitionsdatenbank mit allen Geschosstypen, Kalibern und Patronen. Durchsuchen Sie Pistolenmunition, Gewehrpatronen, Schrotflintenschalen und Spezialpatronen mit detaillierten Schadensstatistiken und Informationen zur Waffenkompatibilität.",
+        "ammoTitle": "Munition",
         "table": {
             "image": "Bild",
             "name": "Name",
@@ -448,6 +451,8 @@
     "ItemsKeyPage": {
         "title": "Escape from Duckov Schlüssel",
         "subtitle": "Vollständige Escape from Duckov Schlüssel-Datenbank mit J-Lab-Zertifikaten, Zugangskarten, Fabrikschlüsseln, Schlafsaalschlüsseln und standortspezifischen Schlüsseln. Durchsuchen Sie Level 1-3 J-Lab-Zertifikate, farbige Zugangskarten und spezielle Tickets mit Standortinformationen.",
+        "accessCardTitle": "Zugangskarten",
+        "keyTitle": "Schlüssel",
         "table": {
             "image": "Bild",
             "name": "Name",

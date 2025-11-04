@@ -428,6 +428,8 @@
         "headgearTitle": "头戴装备",
         "otherTitle": "其他装备",
         "bodyTitle": "身体护甲",
+        "backpackTitle": "背包",
+        "earphoneTitle": "耳机",
         "table": {
             "image": "图片",
             "name": "名称",
@@ -438,6 +440,7 @@
     "ItemsAmmunitionPage": {
         "title": "逃离达科夫弹药",
         "subtitle": "完整的逃离达科夫弹药数据库，包含所有子弹类型、口径和弹药。浏览手枪弹药、步枪弹药筒、霰弹枪弹壳和特殊弹药，并附有详细的伤害统计和武器兼容性信息。",
+        "ammoTitle": "弹药",
         "table": {
             "image": "图片",
             "name": "名称",
@@ -448,6 +451,8 @@
     "ItemsKeyPage": {
         "title": "逃离达科夫钥匙",
         "subtitle": "完整的逃离达科夫钥匙数据库，包含 J-实验室证书、门禁卡、工厂钥匙、宿舍钥匙和特定地点钥匙。浏览 1-3 级 J-实验室证书、彩色门禁卡和附带位置信息的特殊票据。",
+        "accessCardTitle": "访问卡",
+        "keyTitle": "钥匙",
         "table": {
             "image": "图片",
             "name": "名称",

@@ -20,7 +20,36 @@
                         </div>
                         <h3 class="card-title">{{ t('WikiPage.quests.title') }}</h3>
                     </a>
-                    
+                    <a :href="getLocalizedPathForCurrentLang('/items/weapons')" class="article-card">
+                        <div class="card-image-container">
+                            <img src="/images/wiki-01.webp" alt="Weapons" class="card-image">
+                        </div>
+                        <h3 class="card-title">{{ t('ItemsPage.weapons.title') }}</h3>
+                    </a>
+                    <a :href="getLocalizedPathForCurrentLang('/items/equipment')" class="article-card">
+                        <div class="card-image-container">
+                            <img src="/images/wiki-02.webp" alt="Equipment" class="card-image">
+                        </div>
+                        <h3 class="card-title">{{ t('ItemsPage.equipment.title') }}</h3>
+                    </a>
+                    <a :href="getLocalizedPathForCurrentLang('/items/ammunition')" class="article-card">
+                        <div class="card-image-container">
+                            <img src="/images/wiki-01.webp" alt="Ammunition" class="card-image">
+                        </div>
+                        <h3 class="card-title">{{ t('ItemsPage.ammunition.title') }}</h3>
+                    </a>
+                    <a :href="getLocalizedPathForCurrentLang('/items/key')" class="article-card">
+                        <div class="card-image-container">
+                            <img src="/images/wiki-02.webp" alt="Keys" class="card-image">
+                        </div>
+                        <h3 class="card-title">{{ t('ItemsPage.key.title') }}</h3>
+                    </a>
+                    <a :href="getLocalizedPathForCurrentLang('/items/fish')" class="article-card">
+                        <div class="card-image-container">
+                            <img src="/images/wiki-01.webp" alt="Fish" class="card-image">
+                        </div>
+                        <h3 class="card-title">{{ t('ItemsPage.fish.title') }}</h3>
+                    </a>
                 </div>
             </section>
         </div>

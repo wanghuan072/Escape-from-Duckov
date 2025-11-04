@@ -428,6 +428,8 @@
         "headgearTitle": "ヘッドギア",
         "otherTitle": "その他の装備",
         "bodyTitle": "ボディ",
+        "backpackTitle": "バックパック",
+        "earphoneTitle": "イヤホン",
         "table": {
             "image": "画像",
             "name": "名前",
@@ -438,6 +440,7 @@
     "ItemsAmmunitionPage": {
         "title": "Escape from Duckov 弾薬",
         "subtitle": "すべての弾丸タイプ、口径、弾薬を含む完全な『Escape from Duckov』弾薬データベース。詳細なダメージステータスと武器互換性情報を持つピストル弾薬、ライフルカートリッジ、ショットガンシェル、特殊弾を閲覧。",
+        "ammoTitle": "弾薬",
         "table": {
             "image": "画像",
             "name": "名前",
@@ -448,6 +451,8 @@
     "ItemsKeyPage": {
         "title": "Escape from Duckov 鍵",
         "subtitle": "J-Lab証明書、アクセスカード、工場鍵、寮の鍵、およびロケーション固有の鍵を特徴とする完全な『Escape from Duckov』鍵データベース。ロケーション情報を持つレベル1-3 J-Lab証明書、色付きアクセスカード、特別なチケットを閲覧。",
+        "accessCardTitle": "アクセスカード",
+        "keyTitle": "鍵",
         "table": {
             "image": "画像",
             "name": "名前",

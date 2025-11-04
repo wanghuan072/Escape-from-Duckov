@@ -428,6 +428,8 @@
     "headgearTitle": "Headgear",
     "otherTitle": "Other Equipment",
     "bodyTitle": "Body",
+    "backpackTitle": "Backpack",
+    "earphoneTitle": "Earphone",
     "table": {
       "image": "Image",
       "name": "Name",
@@ -438,6 +440,7 @@
   "ItemsAmmunitionPage": {
     "title": "Escape from Duckov Ammunition",
     "subtitle": "Complete Escape from Duckov ammunition database with all bullet types, calibers, and rounds. Browse pistol ammunition, rifle cartridges, shotgun shells, and special rounds with detailed damage stats and weapon compatibility information.",
+    "ammoTitle": "Ammunition",
     "table": {
       "image": "Image",
       "name": "Name",
@@ -448,6 +451,8 @@
   "ItemsKeyPage": {
     "title": "Escape from Duckov Keys",
     "subtitle": "Complete Escape from Duckov keys database featuring J-Lab certificates, access cards, factory keys, dormitory keys, and location-specific keys. Browse Level 1-3 J-Lab certificates, colored access cards, and special tickets with location information.",
+    "accessCardTitle": "Access Cards",
+    "keyTitle": "Keys",
     "table": {
       "image": "Image",
       "name": "Name",
