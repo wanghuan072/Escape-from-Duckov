@@ -551,7 +551,7 @@ export default [
         },
         detailsHtml: ``
     },
-    
+
     {
         id: 30,
         title: 'Powerful fishing rod',
@@ -780,6 +780,6 @@ export default [
         },
         detailsHtml: ``
     }
-    
+
 ]
 

@@ -1,9 +1,8 @@
 export default [
-    // Example structure - replace with actual data
     {
         id: 1,
-        title: 'Big-headed goldfish',
-        description: 'Plump and white, with exceptionally delicious meat.',
+        title: 'Großkopf-Goldfisch (Big-headed goldfish)',
+        description: 'Prall und weiß, mit außergewöhnlich leckerem Fleisch.',
         imageUrl: '/images/items/fish/fish-01.webp',
         imageAlt: 'Big-headed goldfish',
         publishDate: '2025-10-31',
@@ -21,8 +20,8 @@ export default [
     },
     {
         id: 2,
-        title: 'Big-eyed Red Fish',
-        description: 'The meat tastes exceptionally fresh and delicious, with a fantastic flavor.',
+        title: 'Großaugen-Rotfisch (Big-eyed Red Fish)',
+        description: 'Das Fleisch schmeckt außergewöhnlich frisch und köstlich, mit einem fantastischen Geschmack.',
         imageUrl: '/images/items/fish/fish-02.webp',
         imageAlt: 'Big-eyed Red Fish',
         publishDate: '2025-10-31',
@@ -40,8 +39,8 @@ export default [
     },
     {
         id: 3,
-        title: 'Brown barracuda',
-        description: "It's not big, but it swims very fast.",
+        title: 'Brauner Barrakuda (Brown barracuda)',
+        description: "Er ist nicht groß, aber er schwimmt sehr schnell.",
         imageUrl: '/images/items/fish/fish-03.webp',
         imageAlt: 'Brown barracuda',
         publishDate: '2025-10-31',
@@ -59,8 +58,8 @@ export default [
     },
     {
         id: 4,
-        title: 'Brown sardines',
-        description: 'They like to gather in dense clusters in the water, and when they are on the surface, they look like a whole big fish.',
+        title: 'Braune Sardinen (Brown sardines)',
+        description: 'Sie versammeln sich gerne in dichten Schwärmen im Wasser, und wenn sie an der Oberfläche sind, sehen sie aus wie ein einziger großer Fisch.',
         imageUrl: '/images/items/fish/fish-04.webp',
         imageAlt: 'Brown sardines',
         publishDate: '2025-10-31',
@@ -78,8 +77,8 @@ export default [
     },
     {
         id: 5,
-        title: 'Brown and white rock bass',
-        description: 'Their bodies are covered in brown and white markings, and they often live in groups.',
+        title: 'Braun-weißer Felsenfisch (Brown and white rock bass)',
+        description: 'Ihre Körper sind mit braunen und weißen Markierungen bedeckt und sie leben oft in Gruppen.',
         imageUrl: '/images/items/fish/fish-05.webp',
         imageAlt: 'Brown and white rock bass',
         publishDate: '2025-10-31',
@@ -97,8 +96,8 @@ export default [
     },
     {
         id: 6,
-        title: 'Orange-gold fish',
-        description: 'It has shiny scales that are very eye-catching.',
+        title: 'Orange-Gold-Fisch (Orange-gold fish)',
+        description: 'Er hat glänzende Schuppen, die sehr auffällig sind.',
         imageUrl: '/images/items/fish/fish-06.webp',
         imageAlt: 'Orange-gold fish',
         publishDate: '2025-10-31',
@@ -116,8 +115,8 @@ export default [
     },
     {
         id: 7,
-        title: 'Orange-finned fish',
-        description: 'The fins have a bluish-green tint, which contrasts sharply with the orange body.',
+        title: 'Orangeflossen-Fisch (Orange-finned fish)',
+        description: 'Die Flossen haben einen bläulich-grünen Schimmer, der stark mit dem orangefarbenen Körper kontrastiert.',
         imageUrl: '/images/items/fish/fish-07.webp',
         imageAlt: 'Orange-finned fish',
         publishDate: '2025-10-31',
@@ -135,8 +134,8 @@ export default [
     },
     {
         id: 8,
-        title: 'White flatfish',
-        description: 'A fairly well-known edible fish.',
+        title: 'Weißer Plattfisch (White flatfish)',
+        description: 'Ein ziemlich bekannter Speisefisch.',
         imageUrl: '/images/items/fish/fish-08.webp',
         imageAlt: 'White flatfish',
         publishDate: '2025-10-31',
@@ -154,8 +153,8 @@ export default [
     },
     {
         id: 9,
-        title: 'White Swallow Fish',
-        description: 'The fins are wide, like the wings of a swallow.',
+        title: 'Weißer Schwalbenfisch (White Swallow Fish)',
+        description: 'Die Flossen sind breit, wie die Flügel einer Schwalbe.',
         imageUrl: '/images/items/fish/fish-09.webp',
         imageAlt: 'White Swallow Fish',
         publishDate: '2025-10-31',
@@ -173,8 +172,8 @@ export default [
     },
     {
         id: 10,
-        title: 'Pink Goldfish',
-        description: "They look so cute that you can't help but look at them a few more times.",
+        title: 'Rosa Goldfisch (Pink Goldfish)',
+        description: "Sie sehen so süß aus, dass man nicht anders kann, als sie ein paar Mal mehr anzusehen.",
         imageUrl: '/images/items/fish/fish-10.webp',
         imageAlt: 'Pink Goldfish',
         publishDate: '2025-10-31',
@@ -192,8 +191,8 @@ export default [
     },
     {
         id: 11,
-        title: 'Pinkfin Flame Fish',
-        description: 'Its fins resemble flames, making it highly ornamental.',
+        title: 'Rosaflossen-Flammenfisch (Pinkfin Flame Fish)',
+        description: 'Seine Flossen ähneln Flammen, was ihn sehr dekorativ macht.',
         imageUrl: '/images/items/fish/fish-11.webp',
         imageAlt: 'Pinkfin Flame Fish',
         publishDate: '2025-10-31',
@@ -211,8 +210,8 @@ export default [
     },
     {
         id: 12,
-        title: 'Purple bream',
-        description: 'It is very small in size, entirely purple, and has a very active temperament.',
+        title: 'Lila Brasse (Purple bream)',
+        description: 'Er ist sehr klein, ganz lila und hat ein sehr aktives Temperament.',
         imageUrl: '/images/items/fish/fish-12.webp',
         imageAlt: 'Purple bream',
         publishDate: '2025-10-31',
@@ -230,8 +229,8 @@ export default [
     },
     {
         id: 13,
-        title: 'Red Nine-banded Fish',
-        description: 'They have several dark stripes on their bodies and like to travel in groups.',
+        title: 'Roter Neunband-Fisch (Red Nine-banded Fish)',
+        description: 'Sie haben mehrere dunkle Streifen auf ihrem Körper und reisen gerne in Gruppen.',
         imageUrl: '/images/items/fish/fish-13.webp',
         imageAlt: 'Red Nine-banded Fish',
         publishDate: '2025-10-31',
@@ -249,8 +248,8 @@ export default [
     },
     {
         id: 14,
-        title: 'Red-spotted fish',
-        description: "It has some small spots, so it's quite a valuable fish.",
+        title: 'Rotgetüpfelter Fisch (Red-spotted fish)',
+        description: "Er hat einige kleine Flecken, daher ist er ein recht wertvoller Fisch.",
         imageUrl: '/images/items/fish/fish-14.webp',
         imageAlt: 'Red-spotted fish',
         publishDate: '2025-10-31',
@@ -268,8 +267,8 @@ export default [
     },
     {
         id: 15,
-        title: 'Red goldfish',
-        description: 'Common ornamental fish, quite popular.',
+        title: 'Roter Goldfisch (Red goldfish)',
+        description: 'Ein gewöhnlicher, sehr beliebter Zierfisch.',
         imageUrl: '/images/items/fish/fish-15.webp',
         imageAlt: 'Red goldfish',
         publishDate: '2025-10-31',
@@ -287,8 +286,8 @@ export default [
     },
     {
         id: 16,
-        title: 'Redfin sea bream',
-        description: 'The red fins are quite eye-catching.',
+        title: 'Rotflossen-Meerbrasse (Redfin sea bream)',
+        description: 'Die roten Flossen sind ziemlich auffällig.',
         imageUrl: '/images/items/fish/fish-16.webp',
         imageAlt: 'Redfin sea bream',
         publishDate: '2025-10-31',
@@ -306,8 +305,8 @@ export default [
     },
     {
         id: 17,
-        title: 'Green sashimi pork',
-        description: "It has thorns on its body, and when it's startled, it puffs up into a spiky ball.",
+        title: 'Grüner Sashimi-Schweinefisch (Green sashimi pork)',
+        description: "Er hat Stacheln auf seinem Körper, und wenn er erschrickt, bläht er sich zu einer stacheligen Kugel auf.",
         imageUrl: '/images/items/fish/fish-17.webp',
         imageAlt: 'Green sashimi pork',
         publishDate: '2025-10-31',
@@ -325,8 +324,8 @@ export default [
     },
     {
         id: 18,
-        title: 'Green-backed bighead carp',
-        description: 'Its scales are hard, its mouth is square, and it looks a bit silly and cute.',
+        title: 'Grünrücken-Dickkopfkarpfen (Green-backed bighead carp)',
+        description: 'Seine Schuppen sind hart, sein Maul ist quadratisch, und er sieht etwas albern und süß aus.',
         imageUrl: '/images/items/fish/fish-18.webp',
         imageAlt: 'Green-backed bighead carp',
         publishDate: '2025-10-31',
@@ -344,8 +343,8 @@ export default [
     },
     {
         id: 19,
-        title: 'Green Snapper',
-        description: 'The size is quite ordinary, but the dark green color is rather rare.',
+        title: 'Grüner Schnapper (Green Snapper)',
+        description: 'Die Größe ist ziemlich gewöhnlich, aber die dunkelgrüne Farbe ist eher selten.',
         imageUrl: '/images/items/fish/fish-19.webp',
         imageAlt: 'Green Snapper',
         publishDate: '2025-10-31',
@@ -363,8 +362,8 @@ export default [
     },
     {
         id: 20,
-        title: 'Green pufferfish',
-        description: 'Its body is covered in patches of green and yellow.',
+        title: 'Grüner Kugelfisch (Green pufferfish)',
+        description: 'Sein Körper ist mit grünen und gelben Flecken bedeckt.',
         imageUrl: '/images/items/fish/fish-20.webp',
         imageAlt: 'Green pufferfish',
         publishDate: '2025-10-31',
@@ -382,8 +381,8 @@ export default [
     },
     {
         id: 21,
-        title: 'Blue tang',
-        description: 'It is bright blue all over, with a flat body and a very lively appearance.',
+        title: 'Blauer Doktorfisch (Blue tang)',
+        description: 'Er ist leuchtend blau, hat einen flachen Körper und ein sehr lebhaftes Aussehen.',
         imageUrl: '/images/items/fish/fish-21.webp',
         imageAlt: 'Blue tang',
         publishDate: '2025-10-31',
@@ -401,8 +400,8 @@ export default [
     },
     {
         id: 22,
-        title: 'Blue marlin',
-        description: 'It has a pointed mouth and a dorsal fin that looks like a flag.',
+        title: 'Blauer Marlin (Blue marlin)',
+        description: 'Er hat ein spitzes Maul und eine Rückenflosse, die wie eine Flagge aussieht.',
         imageUrl: '/images/items/fish/fish-22.webp',
         imageAlt: 'Blue marlin',
         publishDate: '2025-10-31',
@@ -420,8 +419,8 @@ export default [
     },
     {
         id: 23,
-        title: 'Blue Marlin',
-        description: "The fish's mouth is long and thick, making it look very imposing.",
+        title: 'Blauer Marlin (Blue Marlin)',
+        description: "Das Maul des Fisches ist lang und dick, was ihn sehr imposant erscheinen lässt.",
         imageUrl: '/images/items/fish/fish-23.webp',
         imageAlt: 'Blue Marlin',
         publishDate: '2025-10-31',
@@ -439,8 +438,8 @@ export default [
     },
     {
         id: 24,
-        title: 'Blue Cat Shark',
-        description: "It's not big, has a gentle nature, and doesn't look fierce.",
+        title: 'Blauer Katzenhai (Blue Cat Shark)',
+        description: "Er ist nicht groß, hat ein sanftes Wesen und sieht nicht wild aus.",
         imageUrl: '/images/items/fish/fish-24.webp',
         imageAlt: 'Blue Cat Shark',
         publishDate: '2025-10-31',
@@ -458,8 +457,8 @@ export default [
     },
     {
         id: 25,
-        title: 'Blue peacock',
-        description: 'Very lively, loves to wander around.',
+        title: 'Blauer Pfau (Blue peacock)',
+        description: 'Sehr lebhaft, liebt es herumzuwandern.',
         imageUrl: '/images/items/fish/fish-25.webp',
         imageAlt: 'Blue peacock',
         publishDate: '2025-10-31',
@@ -477,8 +476,8 @@ export default [
     },
     {
         id: 26,
-        title: 'Blue mackerel',
-        description: 'Its body is streamlined, and it swims very fast.',
+        title: 'Blauer Makrele (Blue mackerel)',
+        description: 'Sein Körper ist stromlinienförmig und er schwimmt sehr schnell.',
         imageUrl: '/images/items/fish/fish-26.webp',
         imageAlt: 'Blue mackerel',
         publishDate: '2025-10-31',
@@ -496,8 +495,8 @@ export default [
     },
     {
         id: 27,
-        title: 'Qingnan milkfish',
-        description: 'They are long and thin, and usually move in groups.',
+        title: 'Qingnan Milchfisch (Qingnan milkfish)',
+        description: 'Sie sind lang und dünn und bewegen sich normalerweise in Gruppen.',
         imageUrl: '/images/items/fish/fish-27.webp',
         imageAlt: 'Qingnan milkfish',
         publishDate: '2025-10-31',
@@ -515,8 +514,8 @@ export default [
     },
     {
         id: 28,
-        title: 'Yellow-green sea bream',
-        description: 'Its yellow and green hues are quite unique.',
+        title: 'Gelb-grüne Meerbrasse (Yellow-green sea bream)',
+        description: 'Ihre gelben und grünen Farbtöne sind ziemlich einzigartig.',
         imageUrl: '/images/items/fish/fish-28.webp',
         imageAlt: 'Yellow-green sea bream',
         publishDate: '2025-10-31',
@@ -534,8 +533,8 @@ export default [
     },
     {
         id: 29,
-        title: 'Golden Fish',
-        description: "Although it's just a yellow goldfish, its name is very endearing.",
+        title: 'Goldfisch (Golden Fish)',
+        description: "Obwohl es nur ein gelber Goldfisch ist, ist sein Name sehr liebenswert.",
         imageUrl: '/images/items/fish/fish-29.webp',
         imageAlt: 'Golden Fish',
         publishDate: '2025-10-31',
@@ -551,11 +550,10 @@ export default [
         },
         detailsHtml: ``
     },
-    
     {
         id: 30,
-        title: 'Powerful fishing rod',
-        description: 'An excellent fishing rod.',
+        title: 'Leistungsstarke Angelrute (Powerful fishing rod)',
+        description: 'Eine ausgezeichnete Angelrute.',
         imageUrl: '/images/items/fish/fish-30.webp',
         imageAlt: 'Powerful fishing rod',
         publishDate: '2025-10-31',
@@ -573,8 +571,8 @@ export default [
     },
     {
         id: 31,
-        title: 'Good fishing rod',
-        description: "It's a pretty good fishing rod.",
+        title: 'Gute Angelrute (Good fishing rod)',
+        description: "Es ist eine ziemlich gute Angelrute.",
         imageUrl: '/images/items/fish/fish-31.webp',
         imageAlt: 'Good fishing rod',
         publishDate: '2025-10-31',
@@ -592,8 +590,8 @@ export default [
     },
     {
         id: 32,
-        title: 'Old fishing rod',
-        description: 'A broken and old fishing rod.',
+        title: 'Alte Angelrute (Old fishing rod)',
+        description: 'Eine kaputte und alte Angelrute.',
         imageUrl: '/images/items/fish/fish-32.webp',
         imageAlt: 'Old fishing rod',
         publishDate: '2025-10-31',
@@ -612,7 +610,7 @@ export default [
     {
         id: 33,
         title: 'Cippo',
-        description: 'Cippo lighter.',
+        description: 'Cippo Feuerzeug.',
         imageUrl: '/images/items/fish/fish-33.webp',
         imageAlt: 'Cippo',
         publishDate: '2025-10-31',
@@ -630,8 +628,8 @@ export default [
     },
     {
         id: 34,
-        title: 'R6 battery',
-        description: 'Batteries are widely used in various electrical appliances.',
+        title: 'R6 Batterie (R6 battery)',
+        description: 'Batterien werden häufig in verschiedenen Elektrogeräten verwendet.',
         imageUrl: '/images/items/fish/fish-34.webp',
         imageAlt: 'R6 battery',
         publishDate: '2025-10-31',
@@ -649,8 +647,8 @@ export default [
     },
     {
         id: 35,
-        title: 'Toilet cleaner',
-        description: 'A bottle of toilet cleaner.',
+        title: 'Toilettenreiniger (Toilet cleaner)',
+        description: 'Eine Flasche Toilettenreiniger.',
         imageUrl: '/images/items/fish/fish-35.webp',
         imageAlt: 'Toilet cleaner',
         publishDate: '2025-10-31',
@@ -668,8 +666,8 @@ export default [
     },
     {
         id: 36,
-        title: 'earthworm',
-        description: 'Basic Information',
+        title: 'Regenwurm (earthworm)',
+        description: 'Grundinformationen.',
         imageUrl: '/images/items/fish/fish-36.webp',
         imageAlt: 'earthworm',
         publishDate: '2025-10-31',
@@ -687,8 +685,8 @@ export default [
     },
     {
         id: 37,
-        title: 'Fish bait',
-        description: 'The blend is so good that all kinds of fish love it.',
+        title: 'Fischköder (Fish bait)',
+        description: 'Die Mischung ist so gut, dass alle Arten von Fischen sie lieben.',
         imageUrl: '/images/items/fish/fish-37.webp',
         imageAlt: 'Fish bait',
         publishDate: '2025-10-31',
@@ -706,8 +704,8 @@ export default [
     },
     {
         id: 38,
-        title: 'Red bucket',
-        description: 'A large red bucket and a large empty bucket.',
+        title: 'Roter Eimer (Red bucket)',
+        description: 'Ein großer roter Eimer und ein großer leerer Eimer.',
         imageUrl: '/images/items/fish/fish-38.webp',
         imageAlt: 'Red bucket',
         publishDate: '2025-10-31',
@@ -725,8 +723,8 @@ export default [
     },
     {
         id: 39,
-        title: 'Blue bucket',
-        description: 'A large empty bucket.',
+        title: 'Blauer Eimer (Blue bucket)',
+        description: 'Ein großer leerer Eimer.',
         imageUrl: '/images/items/fish/fish-39.webp',
         imageAlt: 'Blue bucket',
         publishDate: '2025-10-31',
@@ -744,8 +742,8 @@ export default [
     },
     {
         id: 40,
-        title: 'baseball cap',
-        description: "A fisherman's favorite.",
+        title: 'Baseballkappe (baseball cap)',
+        description: "Der Favorit eines jeden Fischers.",
         imageUrl: '/images/items/fish/fish-40.webp',
         imageAlt: 'baseball cap',
         publishDate: '2025-10-31',
@@ -762,9 +760,9 @@ export default [
         detailsHtml: ``
     },
     {
-        id: 4,
-        title: 'Yellow bucket',
-        description: 'A large empty bucket.',
+        id: 41,
+        title: 'Gelber Eimer (Yellow bucket)',
+        description: 'Ein großer leerer Eimer.',
         imageUrl: '/images/items/fish/fish-41.webp',
         imageAlt: 'Yellow bucket',
         publishDate: '2025-10-31',
@@ -780,6 +778,8 @@ export default [
         },
         detailsHtml: ``
     }
-    
+
+
+
 ]
 
