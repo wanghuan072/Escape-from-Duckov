@@ -153,6 +153,51 @@
                             <p>{{ t('HomePage.wiki.quests.desc') }}</p>
                         </div>
                     </a>
+                    <a :href="getLocalizedPathForCurrentLang('/items/weapons')" class="guide-card-link card">
+                        <div class="guide-image">
+                            <img src="/images/hideout-02.webp" :alt="t('ItemsPage.weapons.title')" class="guide-img">
+                        </div>
+                        <div class="guide-content">
+                            <h3>{{ t('ItemsPage.weapons.title') }}</h3>
+                            <p>{{ t('ItemsPage.weapons.desc') }}</p>
+                        </div>
+                    </a>
+                    <a :href="getLocalizedPathForCurrentLang('/items/equipment')" class="guide-card-link card">
+                        <div class="guide-image">
+                            <img src="/images/hideout-03.webp" :alt="t('ItemsPage.equipment.title')" class="guide-img">
+                        </div>
+                        <div class="guide-content">
+                            <h3>{{ t('ItemsPage.equipment.title') }}</h3>
+                            <p>{{ t('ItemsPage.equipment.desc') }}</p>
+                        </div>
+                    </a>
+                    <a :href="getLocalizedPathForCurrentLang('/items/ammunition')" class="guide-card-link card">
+                        <div class="guide-image">
+                            <img src="/images/hideout-04.webp" :alt="t('ItemsPage.ammunition.title')" class="guide-img">
+                        </div>
+                        <div class="guide-content">
+                            <h3>{{ t('ItemsPage.ammunition.title') }}</h3>
+                            <p>{{ t('ItemsPage.ammunition.desc') }}</p>
+                        </div>
+                    </a>
+                    <a :href="getLocalizedPathForCurrentLang('/items/key')" class="guide-card-link card">
+                        <div class="guide-image">
+                            <img src="/images/hideout-05.webp" :alt="t('ItemsPage.key.title')" class="guide-img">
+                        </div>
+                        <div class="guide-content">
+                            <h3>{{ t('ItemsPage.key.title') }}</h3>
+                            <p>{{ t('ItemsPage.key.desc') }}</p>
+                        </div>
+                    </a>
+                    <a :href="getLocalizedPathForCurrentLang('/items/fish')" class="guide-card-link card">
+                        <div class="guide-image">
+                            <img src="/images/hideout-06.webp" :alt="t('ItemsPage.fish.title')" class="guide-img">
+                        </div>
+                        <div class="guide-content">
+                            <h3>{{ t('ItemsPage.fish.title') }}</h3>
+                            <p>{{ t('ItemsPage.fish.desc') }}</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="text-center">
                     <a :href="getLocalizedPathForCurrentLang('/wiki')" class="btn btn-primary">{{ t('HomePage.wiki.exploreAll') }}</a>
