@@ -15,70 +15,39 @@
         <!-- Maps Content -->
         <section class="maps-content">
             <div class="container">
-                <div class="maps-list">
-                    <!-- Bunker Map -->
-                    <div class="map-item">
-                        <div class="map-header">
-                            <h2 class="map-title">{{ t('MapsPage.bunker.title') }}</h2>
-                            <p class="map-description">{{ t('MapsPage.bunker.desc') }}</p>
-                        </div>
-                        <div class="map-iframe-container">
-                            <iframe src="https://mapgenie.io/escape-from-duckov/maps/bunker?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
-                        </div>
-                    </div>
+                <!-- Loading State -->
+                <div v-if="loading" class="loading-state">
+                    <p>Loading maps...</p>
+                </div>
+                
+                <!-- Error State -->
+                <div v-if="error" class="error-state">
+                    <p>Error loading maps: {{ error }}</p>
+                </div>
 
-                    <!-- Ground Zero Map -->
-                    <div class="map-item">
-                        <div class="map-header">
-                            <h2 class="map-title">{{ t('MapsPage.groundZero.title') }}</h2>
-                            <p class="map-description">{{ t('MapsPage.groundZero.desc') }}</p>
+                <!-- Maps Grid -->
+                <div v-if="!loading && !error" class="maps-grid">
+                    <div 
+                        v-for="map in maps" 
+                        :key="map.id" 
+                        class="map-card"
+                        @click="goToMap(map.addressBar)"
+                    >
+                        <div class="map-card-header">
+                            <div class="map-image">
+                                <img :src="map.imageUrl" :alt="map.imageAlt" class="map-screenshot">
+                            </div>
                         </div>
-                        <div class="map-iframe-container">
-                            <iframe src="https://mapgenie.io/escape-from-duckov/maps/ground-zero?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
-                        </div>
-                    </div>
-
-                    <!-- Farm Map -->
-                    <div class="map-item">
-                        <div class="map-header">
-                            <h2 class="map-title">{{ t('MapsPage.farm.title') }}</h2>
-                            <p class="map-description">{{ t('MapsPage.farm.desc') }}</p>
-                        </div>
-                        <div class="map-iframe-container">
-                            <iframe src="https://mapgenie.io/escape-from-duckov/maps/farm?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
-                        </div>
-                    </div>
-
-                    <!-- Warehouse Map -->
-                    <div class="map-item">
-                        <div class="map-header">
-                            <h2 class="map-title">{{ t('MapsPage.warehouse.title') }}</h2>
-                            <p class="map-description">{{ t('MapsPage.warehouse.desc') }}</p>
-                        </div>
-                        <div class="map-iframe-container">
-                            <iframe src="https://mapgenie.io/escape-from-duckov/maps/warehouse?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
-                        </div>
-                    </div>
-
-                    <!-- J-Lab Map -->
-                    <div class="map-item">
-                        <div class="map-header">
-                            <h2 class="map-title">{{ t('MapsPage.jLab.title') }}</h2>
-                            <p class="map-description">{{ t('MapsPage.jLab.desc') }}</p>
-                        </div>
-                        <div class="map-iframe-container">
-                            <iframe src="https://mapgenie.io/escape-from-duckov/maps/j-lab?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
-                        </div>
-                    </div>
-
-                    <!-- Storm Area Map -->
-                    <div class="map-item">
-                        <div class="map-header">
-                            <h2 class="map-title">{{ t('MapsPage.stormArea.title') }}</h2>
-                            <p class="map-description">{{ t('MapsPage.stormArea.desc') }}</p>
-                        </div>
-                        <div class="map-iframe-container">
-                            <iframe src="https://mapgenie.io/escape-from-duckov/maps/storm-area?embed=light" height="500" style="position: relative; width: 100%;"></iframe>
+                        <div class="map-card-content">
+                            <h3 class="map-title">{{ map.title }}</h3>
+                            <p class="map-description">{{ map.description }}</p>
+                            <div v-if="map.tags && map.tags.length > 0" class="map-tags">
+                                <span v-for="tag in map.tags" :key="tag" class="tag">{{ tag }}</span>
+                            </div>
+                            <div class="map-footer">
+                                <span class="update-date">{{ formatDate(map.publishDate) }}</span>
+                                <span class="view-link">{{ t('MapsPage.viewMap') || 'View Map' }}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -88,9 +57,38 @@
 </template>
 
 <script setup>
+import { computed, onMounted, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useMapsData } from '../composables/useMapsData'
+import { getLocalizedPath } from '../utils/routeUtils'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
+const { maps, loading, error, loadData } = useMapsData()
+
+// 初始化加载数据
+onMounted(() => {
+    loadData()
+})
+
+// 监听语言变化，重新加载数据
+watch(locale, () => {
+    loadData()
+})
+
+const goToMap = (addressBar) => {
+    const path = getLocalizedPath(`/maps${addressBar}`, locale.value)
+    window.location.href = path
+}
+
+const formatDate = (dateString) => {
+    if (!dateString) return ''
+    const date = new Date(dateString)
+    return `${t('MapsPage.updated') || 'Updated'} ${date.toLocaleDateString('en-US', { 
+        month: 'short', 
+        day: 'numeric', 
+        year: 'numeric' 
+    })}`
+}
 </script>
 
 <style scoped>
@@ -98,131 +96,226 @@ const { t } = useI18n()
     min-height: 100vh;
 }
 
-.maps-list {
+.maps-content {
+    position: relative;
+    z-index: 1;
+}
+
+.maps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.map-item {
-    background: var(--card-bg);
-    border-radius: 16px;
-    border: 1px solid var(--border-color);
-    margin-bottom: 40px;
-    overflow: hidden;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+.map-card {
+    background: rgba(30, 30, 30, 0.8);
+    border-radius: 8px;
+    border: 1px solid rgba(250, 147, 23, 0.2);
+    padding: 0;
     transition: all 0.3s ease;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
-.map-item:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-    border-color: rgba(250, 147, 23, 0.3);
-}
-
-.map-item:last-child {
-    margin-bottom: 0;
-}
-
-.map-header {
-    padding: 32px 40px;
+.map-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
     background: linear-gradient(135deg, rgba(250, 147, 23, 0.05) 0%, transparent 50%);
-    border-bottom: 1px solid rgba(250, 147, 23, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.map-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(250, 147, 23, 0.4);
+    box-shadow: 0 8px 32px rgba(250, 147, 23, 0.2);
+}
+
+.map-card:hover::before {
+    opacity: 1;
+}
+
+.map-card-header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.map-image {
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+}
+
+.map-screenshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.map-card:hover .map-screenshot {
+    transform: scale(1.05);
+}
+
+.map-card-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .map-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-heading);
     margin-bottom: 12px;
-    background: linear-gradient(135deg, var(--text-heading) 0%, #FA9317 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    line-height: 1.3;
 }
 
 .map-description {
-    font-size: 1.1rem;
     color: var(--text-secondary);
     line-height: 1.6;
-    margin: 0;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    flex: 1;
 }
 
-.map-iframe-container {
-    position: relative;
-    width: 100%;
-    background: #f8f9fa;
-    border-radius: 0 0 16px 16px;
-    overflow: hidden;
+.map-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
 }
 
-.map-iframe-container iframe {
-    display: block;
-    border: none;
-    border-radius: 0 0 16px 16px;
+.tag {
+    background: transparent;
+    border: 1px solid rgba(250, 147, 23, 0.3);
+    color: var(--text-secondary);
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.map-card:hover .tag {
+    border-color: rgba(250, 147, 23, 0.6);
+    color: #FA9317;
+}
+
+.map-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    border-top: 1px solid rgba(250, 147, 23, 0.1);
+}
+
+.update-date {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.view-link {
+    color: #FA9317;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.map-card:hover .view-link {
+    color: #fff;
+    text-shadow: 0 0 8px rgba(250, 147, 23, 0.6);
+}
+
+.loading-state,
+.error-state {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-secondary);
 }
 
 /* Medium screens (≤1024px) */
 @media (max-width: 1024px) {
-    .map-item {
-        margin-bottom: 24px;
-        border-radius: 12px;
+    .maps-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
-
-    .map-header {
-        padding: 24px 24px;
+    
+    .map-card-content {
+        padding: 20px;
     }
-
+    
     .map-title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
-
+    
     .map-description {
-        font-size: 1rem;
-    }
-
-    .map-iframe-container iframe {
-        height: 400px;
+        font-size: 0.9rem;
     }
 }
 
 /* Mobile screens (≤768px) */
 @media (max-width: 768px) {
-    /* Typography - Mobile Font Sizes */
     .page-title {
         font-size: 24px;
         margin-bottom: 10px;
     }
-
+    
     .page-subtitle {
         font-size: 12px;
     }
-
-    .map-title {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-
-    .map-description {
-        font-size: 12px;
-    }
-
-    /* Section Spacing */
+    
     .maps-content {
         padding: 20px 0;
     }
-
-    .map-item {
-        margin-bottom: 20px;
-        border-radius: 10px;
+    
+    .maps-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
-
-    .map-header {
-        padding: 12px 12px;
+    
+    .map-card-content {
+        padding: 10px;
     }
-
-    .map-iframe-container iframe {
-        height: 320px;
+    
+    .map-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .map-description {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .tag {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+    
+    .update-date {
+        font-size: 12px;
+    }
+    
+    .view-link {
+        font-size: 12px;
+    }
+    
+    .map-footer {
+        padding-top: 10px;
+        gap: 8px;
     }
 }
 </style>
-

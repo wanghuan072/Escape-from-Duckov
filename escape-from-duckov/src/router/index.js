@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import GuideView from '../views/GuideView.vue'
 import GuideDetailView from '../views/GuideDetailView.vue'
 import MapsView from '../views/MapsView.vue'
+import MapsDetailView from '../views/MapsDetailView.vue'
 import ModsView from '../views/ModsView.vue'
 import ModDetailView from '../views/ModDetailView.vue'
 import WikiView from '../views/wiki/WikiView.vue'
@@ -49,6 +50,11 @@ const baseRoutes = [
       path: '/maps',
       name: 'maps',
       component: MapsView
+    },
+    {
+      path: '/maps/:id',
+      name: 'maps-detail',
+      component: MapsDetailView
     },
     {
       path: '/mods',

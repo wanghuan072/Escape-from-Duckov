@@ -383,7 +383,12 @@
         "stormArea": {
             "title": "Storm Area",
             "desc": "Duckov에서 가장 위험한 구역. 극심한 기상 조건, 정예 적, 전설적인 전리품이 가장 용감한 생존자를 기다립니다."
-        }
+        },
+        "viewMap": "지도 보기 >",
+        "updated": "업데이트됨"
+    },
+    "MapsDetailPage": {
+        "otherMaps": "다른 지도"
     },
     "ModsPage": {
         "title": "Escape from Duckov 모드",

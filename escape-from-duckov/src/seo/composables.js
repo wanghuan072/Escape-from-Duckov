@@ -39,12 +39,23 @@ const dataLoaders = {
         ru: () => import('../data/wiki/quests/ru/quests.js'),
         pt: () => import('../data/wiki/quests/pt/quests.js'),
         zh: () => import('../data/wiki/quests/zh/quests.js')
+    },
+    maps: {
+        en: () => import('../data/maps/en/maps.js'),
+        de: () => import('../data/maps/de/maps.js'),
+        fr: () => import('../data/maps/fr/maps.js'),
+        es: () => import('../data/maps/es/maps.js'),
+        ja: () => import('../data/maps/ja/maps.js'),
+        ko: () => import('../data/maps/ko/maps.js'),
+        ru: () => import('../data/maps/ru/maps.js'),
+        pt: () => import('../data/maps/pt/maps.js'),
+        zh: () => import('../data/maps/zh/maps.js')
     }
 }
 
 /**
  * 加载数据模块（用于 SEO）
- * @param {string} dataType - 数据类型 ('guide', 'mods', 'wikiQuests')
+ * @param {string} dataType - 数据类型 ('guide', 'mods', 'wikiQuests', 'maps')
  * @param {string} locale - 语言代码
  * @returns {Promise<Object>} 数据模块
  */
@@ -237,6 +248,7 @@ const routeToSeoKey = {
     'wiki-quests': 'wikiQuests',
     'wiki-detail': 'wikiDetail',
     'maps': 'maps',
+    'maps-detail': 'mapsDetail',
     'mods': 'mods',
     'mod-detail': 'modDetail',
     'items': 'items',
@@ -276,7 +288,7 @@ export function useAutoSEO() {
         }
         
         // 如果是动态路由，需要从数据中获取实际内容
-        if (routeName === 'guide-detail' || routeName === 'mod-detail' || routeName === 'wiki-detail') {
+        if (routeName === 'guide-detail' || routeName === 'mod-detail' || routeName === 'wiki-detail' || routeName === 'maps-detail') {
             try {
                 let item = null
                 
@@ -336,6 +348,27 @@ export function useAutoSEO() {
                         }
                     } catch (error) {
                         console.warn('Failed to load wiki data for SEO:', error)
+                    }
+                } else if (routeName === 'maps-detail') {
+                    // 根据当前语言动态加载 maps 数据
+                    const locale = getCurrentLocale()
+                    const supportedLocales = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
+                    const targetLocale = supportedLocales.includes(locale) ? locale : 'en'
+                    const searchId = route.params.id || ''
+                    
+                    try {
+                        const module = await loadDataForSEO('maps', targetLocale)
+                        if (module?.maps || module?.default) {
+                            const mapsData = module.maps || module.default || []
+                            const cleanSearchId = searchId.replace(/^\//, '').replace(/\/$/, '')
+                            item = mapsData.find(m => {
+                                if (!m.addressBar) return false
+                                const cleanAddressBar = m.addressBar.replace(/^\//, '').replace(/\/$/, '')
+                                return cleanAddressBar === cleanSearchId
+                            })
+                        }
+                    } catch (error) {
+                        console.warn('Failed to load maps data for SEO:', error)
                     }
                 }
                 

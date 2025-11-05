@@ -383,7 +383,12 @@
         "stormArea": {
             "title": "Área de la Tormenta (Storm Area)",
             "desc": "La zona más peligrosa de Duckov. Condiciones climáticas extremas, enemigos de élite y botín legendario esperan a los supervivientes más valientes."
-        }
+        },
+        "viewMap": "VER MAPA >",
+        "updated": "Actualizado"
+    },
+    "MapsDetailPage": {
+        "otherMaps": "Otros mapas"
     },
     "ModsPage": {
         "title": "Mods de Escape from Duckov",

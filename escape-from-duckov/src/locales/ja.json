@@ -383,7 +383,12 @@
         "stormArea": {
             "title": "ストームエリア",
             "desc": "Duckov で最も危険なゾーン。極端な気象条件、エリートの敵、そして伝説的なルートが最も勇敢な生存者を待っています。"
-        }
+        },
+        "viewMap": "地図を見る >",
+        "updated": "更新日"
+    },
+    "MapsDetailPage": {
+        "otherMaps": "他の地図"
     },
     "ModsPage": {
         "title": "Escape from Duckov Mod",

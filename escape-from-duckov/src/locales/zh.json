@@ -383,7 +383,12 @@
         "stormArea": {
             "title": "风暴区 (Storm Area)",
             "desc": "达科夫中最危险的区域。极端天气条件、精英敌人和传奇战利品等待着最勇敢的幸存者。"
-        }
+        },
+        "viewMap": "查看地图 >",
+        "updated": "更新于"
+    },
+    "MapsDetailPage": {
+        "otherMaps": "其他地图"
     },
     "ModsPage": {
         "title": "逃离达科夫模组",

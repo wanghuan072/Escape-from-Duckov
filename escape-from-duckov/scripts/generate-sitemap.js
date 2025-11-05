@@ -14,6 +14,7 @@ async function loadDataForAllLanguages() {
         guides: {},
         mods: {},
         quests: {},
+        maps: {},
         items: {
             weapons: {},
             equipment: {},
@@ -42,6 +43,17 @@ async function loadDataForAllLanguages() {
         } catch (error) {
             console.warn(`Failed to load mods for ${lang}:`, error.message)
             data.mods[lang] = []
+        }
+    }
+
+    // 加载所有语言的 maps 数据
+    for (const lang of supportedLanguages) {
+        try {
+            const mapsModule = await import(`../src/data/maps/${lang}/maps.js`)
+            data.maps[lang] = mapsModule.maps || mapsModule.default || []
+        } catch (error) {
+            console.warn(`Failed to load maps for ${lang}:`, error.message)
+            data.maps[lang] = []
         }
     }
 
@@ -211,6 +223,19 @@ async function generateSitemap(data) {
             if (!mod || !mod.addressBar) return
             const modPath = `${langPrefix}/mods${mod.addressBar}`
             sitemapXml += `\n${generateUrlXml(modPath, mod.publishDate || lastmod, priority, 'monthly')}`
+        })
+    }
+
+    // 为每种语言的 maps 生成URL
+    for (const lang of supportedLanguages) {
+        const maps = data.maps[lang] || []
+        const langPrefix = lang === 'en' ? '' : `/${lang}`
+        const priority = lang === 'en' ? 0.7 : 0.6 // 英语0.7，其他0.6
+        
+        maps.forEach(map => {
+            if (!map || !map.addressBar) return
+            const mapPath = `${langPrefix}/maps${map.addressBar}`
+            sitemapXml += `\n${generateUrlXml(mapPath, map.publishDate || lastmod, priority, 'monthly')}`
         })
     }
 

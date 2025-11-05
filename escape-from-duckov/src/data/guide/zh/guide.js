@@ -2105,6 +2105,110 @@ export const guides = [
         </ul>
     `
   },
+  {
+    "id": 17,
+    "title": "逃离鸭科夫通关攻略 第 6 部分：最终技能点满与首领刷取",
+    "description": "《逃离鸭科夫》第 6 部分的终极指南。完成最终等级（Tier III）的可重复任务，将核心生存和战斗技能点满，并为下一个主要区域做好准备。",
+    "imageUrl": "/images/guide17.webp",
+    "imageAlt": "玩家在废弃营地的上锁房间内手持 AS VAL 突击步枪的特写镜头。",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
+    "category": "walkthroughs",
+    "tags": [
+      "通关攻略",
+      "归零地",
+      "技能点满",
+      "首领刷取",
+      "三级",
+      "最终准备"
+    ],
+    "seo": {
+      "title": "逃离鸭科夫第 6 部分指南：点满三级技能和最终鸭妈妈刷取",
+      "description": "《逃离鸭科夫》第 6 部分的完整指南。了解如何完成所有三级技能升级（能量、营养、稳定射击）并执行最终高回报资源和首领刷取循环。",
+      "keywords": "逃离鸭科夫第 6 部分, 三级技能, 最大能量储备, 稳定射击 III, 鸭妈妈刷取, 最终避难所准备, AS VAL"
+    },
+    "detailsHtml": `
+        <h2>避难所准备：最终三级任务与满级升级</h2>
+        <p>这是旨在将您的角色的基础属性推向最大潜力的最终重复循环。专注于接受所有 **三级 (Tier III)** 任务并充分投资于您的核心技能。</p>
+  
+        <h3>已接受的最终等级任务：</h3>
+        <p>接受奖励最高的任务，为您的最终升级和进入下一个区域提供动力：</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">任务名称</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目标</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">奖励（经验值/货币）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">大型储存 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">提交 1 个 **大型储物箱**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">蚊子清除 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">击杀 **10 只蚊子**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">零件批发 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">提交 **5 个螺丝**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">性能测试 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">提交 1 张 **显卡**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">惩罚者 III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">击杀 **5 个清道夫**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+            </tbody>
+        </table>
+  
+        <img src="/images/guide/guide17-01.webp" alt="逃离鸭科夫通关攻略 第 6 部分" class="guide-image" />
+  
+        <h3>技能点满：实现巅峰性能</h3>
+        <p>这是将这些关键技能**点满**的机会，将显著影响您未来的表现：</p>
+        <ul>
+            <li>**能量储备 III：** 最大能量增加 **+10**。（提供最大的冲刺/躲避能力）。</li>
+            <li>**营养摄取 III：** 食物和水的效用增加 **+10%**。（最大限度地提高被动治疗和资源效率）。</li>
+            <li>**稳定射击 III：** 盲射准确度增加 **+10%**。（使近距离战斗变得极其可靠）。</li>
+        </ul>
+  
+        <h2>归零地：最终刷取</h2>
+        <p>您的目标保持不变：完成清除和资源定额，并最后一次击败**鸭妈妈 (Duckmother)** 以确保最大资源，并获取 AS VAL 及其组件或弹药。</p>
+  
+        <h3>刷取目标</h3>
+        <ul>
+            <li>快速获取所需的**螺丝**和**显卡**，并完成**蚊子清除 III** 和 **惩罚者 III** 定额。</li>
+            <li>确认**废弃营地**的位置，并为首领遭遇做准备。</li>
+            <li>（可选：如果仍需要该武器，再次搜索 **VSS**）。</li>
+        </ul>
+  
+        <h3>最终鸭妈妈遭遇战</h3>
+        <p>拥有满级三级技能的您，**鸭妈妈**应该更容易对付。利用您的最大**能量储备**进行持续风筝，并利用**稳定射击 III** 进行毁灭性的近距离盲射。</p>
+        <ul>
+            <li>击败**鸭妈妈**并取回**上锁房间的钥匙**。</li>
+            <li>进入上锁房间，收集 **AS VAL**（或其高价值弹药/组件）。</li>
+        </ul>
+  
+        <h2>跑后活动：为下一张地图做准备</h2>
+  
+        <img src="/images/guide/guide17-02.webp" alt="逃离鸭科夫通关攻略 第 6 部分" class="guide-image" />
+  
+        <ul>
+            <li>**撤离**并返回避难所。</li>
+            <li>**上交所有已完成的三级任务**并领取您的丰厚奖励。</li>
+            <li>接受商人的**新任务**——这个任务通常是通往下一个主要地点或地图的**过渡目标**。</li>
+            <li>拜访**军械师**，使用您积累的财富购买**最高等级的头盔**和身体护甲，确认您已准备好迎接下一区域的挑战。</li>
+        </ul>
+      `
+  },
 
   {
     "id": 18,

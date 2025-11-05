@@ -383,7 +383,12 @@
         "stormArea": {
             "title": "Sturmgebiet",
             "desc": "Die gefährlichste Zone in Duckov. Extreme Wetterbedingungen, Elite-Gegner und legendäre Beute erwarten die mutigsten Überlebenden."
-        }
+        },
+        "viewMap": "KARTE ANZEIGEN >",
+        "updated": "Aktualisiert"
+    },
+    "MapsDetailPage": {
+        "otherMaps": "Andere Karten"
     },
     "ModsPage": {
         "title": "Escape from Duckov Mods",

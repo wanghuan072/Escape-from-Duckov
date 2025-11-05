@@ -383,7 +383,12 @@
         "stormArea": {
             "title": "Зона Шторма (Storm Area)",
             "desc": "Самая опасная зона в Duckov. Экстремальные погодные условия, элитные враги и легендарный лут ждут самых смелых выживших."
-        }
+        },
+        "viewMap": "ПОСМОТРЕТЬ КАРТУ >",
+        "updated": "Обновлено"
+    },
+    "MapsDetailPage": {
+        "otherMaps": "Другие карты"
     },
     "ModsPage": {
         "title": "Моды Escape from Duckov",

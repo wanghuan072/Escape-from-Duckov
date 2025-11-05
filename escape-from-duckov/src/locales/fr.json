@@ -383,7 +383,12 @@
         "stormArea": {
             "title": "Zone de Tempête",
             "desc": "La zone la plus dangereuse de Duckov. Des conditions météorologiques extrêmes, des ennemis d'élite et du butin légendaire attendent les survivants les plus courageux."
-        }
+        },
+        "viewMap": "VOIR LA CARTE >",
+        "updated": "Mis à jour"
+    },
+    "MapsDetailPage": {
+        "otherMaps": "Autres cartes"
     },
     "ModsPage": {
         "title": "Mods Escape from Duckov",

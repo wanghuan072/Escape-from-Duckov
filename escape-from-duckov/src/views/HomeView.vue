@@ -113,22 +113,13 @@
                 <h2 class="section-title">{{ t('HomePage.maps.title') }}</h2>
                 <p class="section-subtitle">{{ t('HomePage.maps.subtitle') }}</p>
                 <div class="maps-grid">
-                    <div class="map-card card">
+                    <div v-for="map in homeMaps" :key="map.id" class="map-card card" @click="goToMap(map.addressBar)">
                         <div class="map-image">
-                            <img src="/images/map-01.webp" alt="Ground Zero" class="map-screenshot">
+                            <img :src="map.imageUrl" :alt="map.imageAlt || map.title" class="map-screenshot">
                         </div>
                         <div class="map-content">
-                            <h3>{{ t('HomePage.maps.map1.name') }}</h3>
-                            <p>{{ t('HomePage.maps.map1.desc') }}</p>
-                        </div>
-                    </div>
-                    <div class="map-card card">
-                        <div class="map-image">
-                            <img src="/images/map-02.webp" alt="Warehouse District" class="map-screenshot">
-                        </div>
-                        <div class="map-content">
-                            <h3>{{ t('HomePage.maps.map2.name') }}</h3>
-                            <p>{{ t('HomePage.maps.map2.desc') }}</p>
+                            <h3>{{ map.title }}</h3>
+                            <p>{{ map.description }}</p>
                         </div>
                     </div>
                 </div>
@@ -506,11 +497,13 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { getLocalizedPath } from '../utils/routeUtils'
 import { useGuideData } from '../composables/useGuideData'
+import { useMapsData } from '../composables/useMapsData'
 import { detectLanguageFromPath } from '../i18n'
 
 const route = useRoute()
 const { t, locale } = useI18n()
 const { guides, loadHomeGuidesOnly } = useGuideData()
+const { maps, loadData: loadMapsData } = useMapsData()
 
 // 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
 const getLocalizedPathForCurrentLang = (path) => {
@@ -581,17 +574,31 @@ const closeVideo = () => {
 // 仅加载首页需要的指南数据（性能优化）
 onMounted(() => {
     loadHomeGuidesOnly()
+    loadMapsData()
 })
 
 // 监听语言变化，重新加载数据
 watch(locale, () => {
     loadHomeGuidesOnly()
+    loadMapsData()
 })
 
 // 首页指南数据（已经过滤，直接使用）
 const homeGuides = computed(() => {
     return guides.value || []
 })
+
+// 首页地图数据（过滤isHomePage为true的地图）
+const homeMaps = computed(() => {
+    if (!maps.value || !Array.isArray(maps.value)) return []
+    return maps.value.filter(map => map.isHomePage === true)
+})
+
+// 跳转到地图详情页
+const goToMap = (addressBar) => {
+    const path = getLocalizedPath(`/maps${addressBar}`, locale.value)
+    window.location.href = path
+}
 
 // 根据 category 返回对应的 badge 文本
 const getCategoryBadge = (category) => {
@@ -908,6 +915,7 @@ section {
     text-align: center;
     background: linear-gradient(135deg, rgba(21, 21, 21, 0.6) 0%, rgba(21, 21, 21, 0.4) 100%);
     overflow: hidden;
+    cursor: pointer;
 }
 
 .map-card:hover {

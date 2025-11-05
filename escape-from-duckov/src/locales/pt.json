@@ -383,7 +383,12 @@
         "stormArea": {
             "title": "Área de Tempestade (Storm Area)",
             "desc": "A zona mais perigosa em Duckov. Condições climáticas extremas, inimigos de elite e saque lendário aguardam os sobreviventes mais corajosos."
-        }
+        },
+        "viewMap": "VER MAPA >",
+        "updated": "Atualizado"
+    },
+    "MapsDetailPage": {
+        "otherMaps": "Outros mapas"
     },
     "ModsPage": {
         "title": "Mods de Escape from Duckov",
