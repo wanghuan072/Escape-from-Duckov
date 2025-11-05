@@ -4,6 +4,68 @@ import { useI18n } from 'vue-i18n'
 import { seoConfig } from './config.js'
 import { getCurrentLocale } from '../i18n'
 
+// 数据加载映射表 - 用于 SEO 中的数据加载
+// 使用映射表减少重复代码，同时保持 Vite 能正确解析路径
+const dataLoaders = {
+    guide: {
+        en: () => import('../data/guide/en/guide.js'),
+        de: () => import('../data/guide/de/guide.js'),
+        fr: () => import('../data/guide/fr/guide.js'),
+        es: () => import('../data/guide/es/guide.js'),
+        ja: () => import('../data/guide/ja/guide.js'),
+        ko: () => import('../data/guide/ko/guide.js'),
+        ru: () => import('../data/guide/ru/guide.js'),
+        pt: () => import('../data/guide/pt/guide.js'),
+        zh: () => import('../data/guide/zh/guide.js')
+    },
+    mods: {
+        en: () => import('../data/mods/en/mods.js'),
+        de: () => import('../data/mods/de/mods.js'),
+        fr: () => import('../data/mods/fr/mods.js'),
+        es: () => import('../data/mods/es/mods.js'),
+        ja: () => import('../data/mods/ja/mods.js'),
+        ko: () => import('../data/mods/ko/mods.js'),
+        ru: () => import('../data/mods/ru/mods.js'),
+        pt: () => import('../data/mods/pt/mods.js'),
+        zh: () => import('../data/mods/zh/mods.js')
+    },
+    wikiQuests: {
+        en: () => import('../data/wiki/quests/en/quests.js'),
+        de: () => import('../data/wiki/quests/de/quests.js'),
+        fr: () => import('../data/wiki/quests/fr/quests.js'),
+        es: () => import('../data/wiki/quests/es/quests.js'),
+        ja: () => import('../data/wiki/quests/ja/quests.js'),
+        ko: () => import('../data/wiki/quests/ko/quests.js'),
+        ru: () => import('../data/wiki/quests/ru/quests.js'),
+        pt: () => import('../data/wiki/quests/pt/quests.js'),
+        zh: () => import('../data/wiki/quests/zh/quests.js')
+    }
+}
+
+/**
+ * 加载数据模块（用于 SEO）
+ * @param {string} dataType - 数据类型 ('guide', 'mods', 'wikiQuests')
+ * @param {string} locale - 语言代码
+ * @returns {Promise<Object>} 数据模块
+ */
+const loadDataForSEO = async (dataType, locale) => {
+    const loader = dataLoaders[dataType]
+    if (!loader) {
+        throw new Error(`Unknown data type: ${dataType}`)
+    }
+    
+    const localeLoader = loader[locale] || loader.en
+    try {
+        return await localeLoader()
+    } catch (error) {
+        // 如果加载失败且不是英文，回退到英文
+        if (locale !== 'en' && loader.en) {
+            return await loader.en()
+        }
+        throw error
+    }
+}
+
 // SEO composable
 export function useSEO() {
     const route = useRoute()
@@ -223,51 +285,12 @@ export function useAutoSEO() {
                     const locale = getCurrentLocale()
                     const supportedLocales = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
                     const targetLocale = supportedLocales.includes(locale) ? locale : 'en'
+                    
                     try {
-                        let module = null
-                        // 使用 switch case 确保 Vite 可以正确解析路径
-                        switch (targetLocale) {
-                            case 'en':
-                                module = await import('../data/guide/en/guide.js')
-                                break
-                            case 'de':
-                                module = await import('../data/guide/de/guide.js')
-                                break
-                            case 'fr':
-                                module = await import('../data/guide/fr/guide.js')
-                                break
-                            case 'es':
-                                module = await import('../data/guide/es/guide.js')
-                                break
-                            case 'ja':
-                                module = await import('../data/guide/ja/guide.js')
-                                break
-                            case 'ko':
-                                module = await import('../data/guide/ko/guide.js')
-                                break
-                            case 'ru':
-                                module = await import('../data/guide/ru/guide.js')
-                                break
-                            case 'pt':
-                                module = await import('../data/guide/pt/guide.js')
-                                break
-                            case 'zh':
-                                module = await import('../data/guide/zh/guide.js')
-                                break
-                            default:
-                                module = await import('../data/guide/en/guide.js')
-                        }
-                        item = module.guides.find(g => g.addressBar === `/${route.params.id}`)
+                        const module = await loadDataForSEO('guide', targetLocale)
+                        item = module.guides?.find(g => g.addressBar === `/${route.params.id}`)
                     } catch (error) {
-                        // 如果加载失败，回退到英文
-                        if (targetLocale !== 'en') {
-                            try {
-                                const enModule = await import('../data/guide/en/guide.js')
-                                item = enModule.guides.find(g => g.addressBar === `/${route.params.id}`)
-                            } catch (e) {
-                                console.error('Failed to load fallback guide data:', e)
-                            }
-                        }
+                        console.warn('Failed to load guide data for SEO:', error)
                     }
                 } else if (routeName === 'mod-detail') {
                     // 根据当前语言动态加载 mods 数据
@@ -276,41 +299,8 @@ export function useAutoSEO() {
                     const targetLocale = supportedLocales.includes(locale) ? locale : 'en'
                     
                     try {
-                        let module = null
-                        // 使用 switch case 确保 Vite 可以正确解析路径
-                        switch (targetLocale) {
-                            case 'en':
-                                module = await import('../data/mods/en/mods.js')
-                                break
-                            case 'de':
-                                module = await import('../data/mods/de/mods.js')
-                                break
-                            case 'fr':
-                                module = await import('../data/mods/fr/mods.js')
-                                break
-                            case 'es':
-                                module = await import('../data/mods/es/mods.js')
-                                break
-                            case 'ja':
-                                module = await import('../data/mods/ja/mods.js')
-                                break
-                            case 'ko':
-                                module = await import('../data/mods/ko/mods.js')
-                                break
-                            case 'ru':
-                                module = await import('../data/mods/ru/mods.js')
-                                break
-                            case 'pt':
-                                module = await import('../data/mods/pt/mods.js')
-                                break
-                            case 'zh':
-                                module = await import('../data/mods/zh/mods.js')
-                                break
-                            default:
-                                module = await import('../data/mods/en/mods.js')
-                        }
-                        
-                        if (module && module.default) {
+                        const module = await loadDataForSEO('mods', targetLocale)
+                        if (module?.default) {
                             const searchId = route.params.id || ''
                             const cleanSearchId = searchId.replace(/^\//, '').replace(/\/$/, '')
                             
@@ -321,23 +311,7 @@ export function useAutoSEO() {
                             })
                         }
                     } catch (error) {
-                        // 如果加载失败，回退到英文
-                        if (targetLocale !== 'en') {
-                            try {
-                                const enModule = await import('../data/mods/en/mods.js')
-                                if (enModule && enModule.default) {
-                                    const searchId = route.params.id || ''
-                                    const cleanSearchId = searchId.replace(/^\//, '').replace(/\/$/, '')
-                                    item = enModule.default.find(m => {
-                                        if (!m.addressBar) return false
-                                        const cleanAddressBar = m.addressBar.replace(/^\//, '').replace(/\/$/, '')
-                                        return cleanAddressBar === cleanSearchId
-                                    })
-                                }
-                            } catch (e) {
-                                console.warn('Failed to load fallback mods data:', e)
-                            }
-                        }
+                        console.warn('Failed to load mods data for SEO:', error)
                     }
                 } else if (routeName === 'wiki-detail') {
                     // 根据当前语言动态加载 wiki 数据
@@ -348,72 +322,20 @@ export function useAutoSEO() {
                     const searchId = route.params.id || ''
                     
                     try {
-                        let module = null
-                        // 根据 category 加载对应的数据
+                        // 目前只支持 quests 类别
                         if (category === 'quests') {
-                            // 使用 switch case 确保 Vite 可以正确解析路径
-                            switch (targetLocale) {
-                                case 'en':
-                                    module = await import('../data/wiki/quests/en/quests.js')
-                                    break
-                                case 'de':
-                                    module = await import('../data/wiki/quests/de/quests.js')
-                                    break
-                                case 'fr':
-                                    module = await import('../data/wiki/quests/fr/quests.js')
-                                    break
-                                case 'es':
-                                    module = await import('../data/wiki/quests/es/quests.js')
-                                    break
-                                case 'ja':
-                                    module = await import('../data/wiki/quests/ja/quests.js')
-                                    break
-                                case 'ko':
-                                    module = await import('../data/wiki/quests/ko/quests.js')
-                                    break
-                                case 'ru':
-                                    module = await import('../data/wiki/quests/ru/quests.js')
-                                    break
-                                case 'pt':
-                                    module = await import('../data/wiki/quests/pt/quests.js')
-                                    break
-                                case 'zh':
-                                    module = await import('../data/wiki/quests/zh/quests.js')
-                                    break
-                                default:
-                                    module = await import('../data/wiki/quests/en/quests.js')
+                            const module = await loadDataForSEO('wikiQuests', targetLocale)
+                            if (module?.default) {
+                                const cleanSearchId = searchId.replace(/^\//, '').replace(/\/$/, '')
+                                item = module.default.find(w => {
+                                    if (!w.addressBar) return false
+                                    const cleanAddressBar = w.addressBar.replace(/^\//, '').replace(/\/$/, '')
+                                    return cleanAddressBar === cleanSearchId
+                                })
                             }
-                        }
-                        
-                        if (module && module.default) {
-                            // 清理搜索ID（去除前后斜杠）
-                            const cleanSearchId = searchId.replace(/^\//, '').replace(/\/$/, '')
-                            
-                            item = module.default.find(w => {
-                                if (!w.addressBar) return false
-                                // addressBar格式是 /infrastructure
-                                const cleanAddressBar = w.addressBar.replace(/^\//, '').replace(/\/$/, '')
-                                return cleanAddressBar === cleanSearchId
-                            })
                         }
                     } catch (error) {
                         console.warn('Failed to load wiki data for SEO:', error)
-                        // 如果加载失败，回退到英文
-                        if (targetLocale !== 'en' && category === 'quests') {
-                            try {
-                                const enModule = await import('../data/wiki/quests/en/quests.js')
-                                if (enModule && enModule.default) {
-                                    const cleanSearchId = searchId.replace(/^\//, '').replace(/\/$/, '')
-                                    item = enModule.default.find(w => {
-                                        if (!w.addressBar) return false
-                                        const cleanAddressBar = w.addressBar.replace(/^\//, '').replace(/\/$/, '')
-                                        return cleanAddressBar === cleanSearchId
-                                    })
-                                }
-                            } catch (e) {
-                                console.error('Failed to load fallback wiki data:', e)
-                            }
-                        }
                     }
                 }
                 

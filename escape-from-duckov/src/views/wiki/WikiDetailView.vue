@@ -16,15 +16,16 @@
                         stroke-width="2">
                         <polyline points="9,18 15,12 9,6" />
                     </svg>
-                    <a :href="getLocalizedPathForCurrentLang(getCategoryLink(category))" class="breadcrumb-link">{{ getCategoryDisplayName(category)
-                    }}</a>
+                    <a :href="getLocalizedPathForCurrentLang(getCategoryLink(category))" class="breadcrumb-link">{{
+                        getCategoryDisplayName(category)
+                        }}</a>
                     <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                         stroke-width="2">
                         <polyline points="9,18 15,12 9,6" />
                     </svg>
                     <span class="breadcrumb-current">{{ item?.title }}</span>
                 </div>
-                
+
                 <div class="wiki-detail-content" v-if="item">
                     <div class="wiki-detail-text">
                         <h1 class="wiki-title">{{ item?.title }}</h1>
@@ -73,7 +74,8 @@
                                 'Weapons' : 'Items' }}</h4>
                             <div class="nav-links">
                                 <a v-for="quest in otherQuests" :key="quest.id"
-                                    :href="getLocalizedPathForCurrentLang(`/wiki/${category}/${quest.addressBar.replace('/', '')}`)" class="nav-link">{{
+                                    :href="getLocalizedPathForCurrentLang(`/wiki/${category}/${quest.addressBar.replace('/', '')}`)"
+                                    class="nav-link">{{
                                         quest.title }}</a>
                             </div>
                         </div>
@@ -90,6 +92,7 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useWikiData } from '../../composables/useWikiData.js'
 import { getLocalizedPath } from '../../utils/routeUtils'
+import { detectLanguageFromPath } from '../../i18n'
 import { useSEO } from '../../seo/composables.js'
 import { seoConfig } from '../../seo/config.js'
 
@@ -114,7 +117,7 @@ const loadItemData = async () => {
 // 手动更新SEO
 const updateSEO = () => {
     if (!item.value) return
-    
+
     if (item.value.seo) {
         setSEO({
             title: item.value.seo.title || item.value.title || seoConfig.defaults.title,
@@ -186,18 +189,6 @@ const getCategoryLink = (category) => {
     if (category === 'quests') return '/wiki/quests'
     if (category) return `/wiki/${category}`
     return '/wiki'
-}
-
-// 从路径检测语言
-const detectLanguageFromPath = (path) => {
-    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
-    for (const lang of supportedLanguages) {
-        if (lang === 'en') continue
-        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
-            return lang
-        }
-    }
-    return 'en'
 }
 
 // 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
@@ -404,7 +395,7 @@ const getLocalizedPathForCurrentLang = (path) => {
     .wiki-title {
         font-size: 2.5rem;
     }
-    
+
     .content-layout {
         grid-template-columns: 1fr;
         gap: 24px;
@@ -421,11 +412,11 @@ const getLocalizedPathForCurrentLang = (path) => {
         font-size: 1.75rem;
         line-height: 1.3;
     }
-    
+
     .wiki-detail-content {
         padding-top: 16px;
     }
-    
+
     .info-box-title {
         font-size: 16px;
     }

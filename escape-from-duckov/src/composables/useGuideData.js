@@ -1,5 +1,6 @@
 import { ref } from 'vue'
 import { getCurrentLocale } from '../i18n'
+import { createDataLoader, dataExtractors } from './useDataLoader'
 
 // 语言映射表
 const localeMap = {
@@ -14,36 +15,8 @@ const localeMap = {
     zh: () => import('../data/guide/zh/guide.js')
 }
 
-/**
- * 加载 guide 数据
- */
-const loadGuideData = async (locale) => {
-    const targetLocale = localeMap[locale] ? locale : 'en'
-    
-    try {
-        const module = await localeMap[targetLocale]()
-        const guides = module.guides || []
-        
-        // 如果数据为空且不是英文，回退到英文
-        if (guides.length === 0 && targetLocale !== 'en') {
-            const enModule = await localeMap.en()
-            return enModule.guides || []
-        }
-        
-        return guides
-    } catch (error) {
-        // 加载失败，回退到英文
-        if (targetLocale !== 'en') {
-            try {
-                const enModule = await localeMap.en()
-                return enModule.guides || []
-            } catch {
-                return []
-            }
-        }
-        return []
-    }
-}
+// 使用通用数据加载器
+const loadGuideData = createDataLoader(localeMap, dataExtractors.guides)
 
 /**
  * Guide 数据 composable
@@ -68,6 +41,28 @@ export function useGuideData() {
         }
     }
 
+    /**
+     * 仅加载首页需要的指南数据（isHome: true）
+     * 用于性能优化，减少首页加载的数据量
+     */
+    const loadHomeGuidesOnly = async (locale = null) => {
+        loading.value = true
+        error.value = null
+        try {
+            const targetLocale = locale || getCurrentLocale()
+            const allData = await loadGuideData(targetLocale)
+            // 只保留 isHome 为 true 的指南
+            guides.value = Array.isArray(allData) 
+                ? allData.filter(guide => guide.isHome === true) 
+                : []
+        } catch (err) {
+            error.value = err.message || 'Failed to load home guides'
+            guides.value = []
+        } finally {
+            loading.value = false
+        }
+    }
+
     const findGuideByAddressBar = (addressBar) => {
         const path = addressBar.startsWith('/') ? addressBar : `/${addressBar}`
         return guides.value.find(g => g.addressBar === path) || null
@@ -82,6 +77,7 @@ export function useGuideData() {
         loading,
         error,
         loadData,
+        loadHomeGuidesOnly,
         findGuideByAddressBar,
         findGuideById
     }

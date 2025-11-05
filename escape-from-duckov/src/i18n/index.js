@@ -104,3 +104,6 @@ export { supportedLanguages }
 // 导出loadLocale函数
 export { loadLocale }
 
+// 导出detectLanguageFromPath函数
+export { detectLanguageFromPath }
+

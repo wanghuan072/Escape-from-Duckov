@@ -128,21 +128,10 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useItemsData } from '../../composables/useItemsData.js'
 import { getLocalizedPath } from '../../utils/routeUtils'
+import { detectLanguageFromPath } from '../../i18n'
 
 const route = useRoute()
 const { t, locale } = useI18n()
-
-// 从路径检测语言
-const detectLanguageFromPath = (path) => {
-    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
-    for (const lang of supportedLanguages) {
-        if (lang === 'en') continue
-        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
-            return lang
-        }
-    }
-    return 'en'
-}
 
 // 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
 const getLocalizedPathForCurrentLang = (path) => {

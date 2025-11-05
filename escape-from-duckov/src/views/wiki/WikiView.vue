@@ -60,21 +60,10 @@
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { getLocalizedPath } from '../../utils/routeUtils'
+import { detectLanguageFromPath } from '../../i18n'
 
 const route = useRoute()
 const { t, locale } = useI18n()
-
-// 从路径检测语言
-const detectLanguageFromPath = (path) => {
-    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
-    for (const lang of supportedLanguages) {
-        if (lang === 'en') continue
-        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
-            return lang
-        }
-    }
-    return 'en'
-}
 
 // 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
 const getLocalizedPathForCurrentLang = (path) => {
@@ -86,7 +75,6 @@ const getLocalizedPathForCurrentLang = (path) => {
 </script>
 
 <style scoped>
-
 /* Header styles now use global .page-header classes */
 
 /* Articles Section */
@@ -179,34 +167,35 @@ const getLocalizedPathForCurrentLang = (path) => {
 
 /* Mobile screens (≤768px) */
 @media (max-width: 768px) {
+
     /* Typography - Mobile Font Sizes */
     .page-title {
         font-size: 24px;
         margin-bottom: 10px;
     }
-    
+
     .page-subtitle {
         font-size: 12px;
     }
-    
+
     .card-title {
         font-size: 16px;
         padding: 8px;
     }
-    
+
     /* Layout Adjustments */
     .articles-grid {
         gap: 10px;
     }
-    
+
     .article-card {
         border-radius: 6px;
     }
-    
+
     .card-image-container {
         font-size: 0;
     }
-    
+
     .card-image {
         aspect-ratio: 16/9;
     }

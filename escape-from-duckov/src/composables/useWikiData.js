@@ -16,78 +16,75 @@ const WIKI_DATA_CONFIG = {
 }
 
 // 语言映射表 - 支持多语言数据加载
+// 使用映射表替代 switch case，保持 Vite 能正确解析路径
+const categoryPathMap = {
+    quests: 'quests'
+    // 添加新的类别时，只需在此添加映射即可
+}
+
 const localeMap = {
     en: (category) => {
-        switch (category) {
-            case 'quests':
-                return import('../data/wiki/quests/en/quests.js')
-            default:
-                throw new Error(`Unknown wiki category: ${category}`)
+        const path = categoryPathMap[category]
+        if (!path) {
+            throw new Error(`Unknown wiki category: ${category}`)
         }
+        return import(`../data/wiki/${path}/en/${path}.js`)
     },
     de: (category) => {
-        switch (category) {
-            case 'quests':
-                return import('../data/wiki/quests/de/quests.js')
-            default:
-                throw new Error(`Unknown wiki category: ${category}`)
+        const path = categoryPathMap[category]
+        if (!path) {
+            throw new Error(`Unknown wiki category: ${category}`)
         }
+        return import(`../data/wiki/${path}/de/${path}.js`)
     },
     fr: (category) => {
-        switch (category) {
-            case 'quests':
-                return import('../data/wiki/quests/fr/quests.js')
-            default:
-                throw new Error(`Unknown wiki category: ${category}`)
+        const path = categoryPathMap[category]
+        if (!path) {
+            throw new Error(`Unknown wiki category: ${category}`)
         }
+        return import(`../data/wiki/${path}/fr/${path}.js`)
     },
     es: (category) => {
-        switch (category) {
-            case 'quests':
-                return import('../data/wiki/quests/es/quests.js')
-            default:
-                throw new Error(`Unknown wiki category: ${category}`)
+        const path = categoryPathMap[category]
+        if (!path) {
+            throw new Error(`Unknown wiki category: ${category}`)
         }
+        return import(`../data/wiki/${path}/es/${path}.js`)
     },
     ja: (category) => {
-        switch (category) {
-            case 'quests':
-                return import('../data/wiki/quests/ja/quests.js')
-            default:
-                throw new Error(`Unknown wiki category: ${category}`)
+        const path = categoryPathMap[category]
+        if (!path) {
+            throw new Error(`Unknown wiki category: ${category}`)
         }
+        return import(`../data/wiki/${path}/ja/${path}.js`)
     },
     ko: (category) => {
-        switch (category) {
-            case 'quests':
-                return import('../data/wiki/quests/ko/quests.js')
-            default:
-                throw new Error(`Unknown wiki category: ${category}`)
+        const path = categoryPathMap[category]
+        if (!path) {
+            throw new Error(`Unknown wiki category: ${category}`)
         }
+        return import(`../data/wiki/${path}/ko/${path}.js`)
     },
     ru: (category) => {
-        switch (category) {
-            case 'quests':
-                return import('../data/wiki/quests/ru/quests.js')
-            default:
-                throw new Error(`Unknown wiki category: ${category}`)
+        const path = categoryPathMap[category]
+        if (!path) {
+            throw new Error(`Unknown wiki category: ${category}`)
         }
+        return import(`../data/wiki/${path}/ru/${path}.js`)
     },
     pt: (category) => {
-        switch (category) {
-            case 'quests':
-                return import('../data/wiki/quests/pt/quests.js')
-            default:
-                throw new Error(`Unknown wiki category: ${category}`)
+        const path = categoryPathMap[category]
+        if (!path) {
+            throw new Error(`Unknown wiki category: ${category}`)
         }
+        return import(`../data/wiki/${path}/pt/${path}.js`)
     },
     zh: (category) => {
-        switch (category) {
-            case 'quests':
-                return import('../data/wiki/quests/zh/quests.js')
-            default:
-                throw new Error(`Unknown wiki category: ${category}`)
+        const path = categoryPathMap[category]
+        if (!path) {
+            throw new Error(`Unknown wiki category: ${category}`)
         }
+        return import(`../data/wiki/${path}/zh/${path}.js`)
     }
 }
 
@@ -136,25 +133,6 @@ export function useWikiData(category) {
     const data = ref([])
     const loading = ref(false)
     const error = ref(null)
-
-    /**
-     * 从模块中提取数据数组
-     */
-    const extractDataFromModule = (module, category) => {
-        if (module && module.default) {
-            return module.default
-        } else if (module && module[category]) {
-            return module[category]
-        } else if (module && Array.isArray(module)) {
-            return module
-        } else if (module) {
-            const keys = Object.keys(module)
-            if (keys.length > 0) {
-                return module[keys[0]]
-            }
-        }
-        return null
-    }
 
     /**
      * 加载指定类别的 wiki 数据（支持多语言）

@@ -1,4 +1,31 @@
 {
+    "Navigation": {
+        "home": "Startseite",
+        "guides": "Anleitungen",
+        "wiki": "Wiki",
+        "items": "Gegenstände",
+        "maps": "Karten",
+        "mods": "Mods"
+    },
+    "Footer": {
+        "description": "Von Spielern erstellte Anleitungen, Wikis und Community-Tools.",
+        "quickLinks": "Schnelllinks",
+        "legal": "Rechtliches",
+        "copyright": "© 2025 duckovgame.com. Alle Rechte vorbehalten.",
+        "disclaimer": "duckovgame.com ist nicht mit dem Original oder dessen Verlegern verbunden, unterstützt oder verbunden. Dies ist eine unabhängige Fan-Website, die nur zu Informationszwecken erstellt wurde. Alle Marken und Urheberrechte gehören ihren jeweiligen Eigentümern.",
+        "links": {
+            "guides": "Anleitungen",
+            "wiki": "Wiki",
+            "items": "Gegenstände",
+            "maps": "Karten",
+            "mods": "Mods",
+            "privacyPolicy": "Datenschutzrichtlinie",
+            "termsOfService": "Nutzungsbedingungen",
+            "copyright": "Urheberrecht",
+            "aboutUs": "Über uns",
+            "contactUs": "Kontakt"
+        }
+    },
     "seo": {
         "home": {
             "title": "Escape from Duckov | Wiki, Guides, Karten, Mods, Quests, Waffen",

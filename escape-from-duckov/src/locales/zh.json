@@ -1,4 +1,31 @@
 {
+    "Navigation": {
+        "home": "首页",
+        "guides": "攻略",
+        "wiki": "维基",
+        "items": "物品",
+        "maps": "地图",
+        "mods": "模组"
+    },
+    "Footer": {
+        "description": "由玩家制作的攻略、维基和社区工具。",
+        "quickLinks": "快速链接",
+        "legal": "法律信息",
+        "copyright": "© 2025 duckovgame.com. 保留所有权利。",
+        "disclaimer": "duckovgame.com 与原版或其发行商无关、未获认可或未建立连接。这是一个仅用于信息目的的独立粉丝网站。所有商标和版权均归各自所有者所有。",
+        "links": {
+            "guides": "攻略",
+            "wiki": "维基",
+            "items": "物品",
+            "maps": "地图",
+            "mods": "模组",
+            "privacyPolicy": "隐私政策",
+            "termsOfService": "服务条款",
+            "copyright": "版权",
+            "aboutUs": "关于我们",
+            "contactUs": "联系我们"
+        }
+    },
     "seo": {
         "home": {
             "title": "逃离达科夫 (Escape from Duckov) | Wiki、攻略、地图、模组、任务、武器",

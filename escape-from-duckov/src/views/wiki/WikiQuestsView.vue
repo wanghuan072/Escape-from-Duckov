@@ -44,6 +44,7 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useWikiData } from '../../composables/useWikiData.js'
 import { getLocalizedPath } from '../../utils/routeUtils'
+import { detectLanguageFromPath } from '../../i18n'
 
 const route = useRoute()
 const { t, locale } = useI18n()
@@ -57,18 +58,6 @@ onMounted(() => {
 watch(locale, () => {
     loadData()
 })
-
-// 从路径检测语言
-const detectLanguageFromPath = (path) => {
-    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
-    for (const lang of supportedLanguages) {
-        if (lang === 'en') continue
-        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
-            return lang
-        }
-    }
-    return 'en'
-}
 
 const onRowClick = (quest) => {
     if (quest && quest.showDetail === false) return

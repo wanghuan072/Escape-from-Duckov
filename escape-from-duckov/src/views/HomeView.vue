@@ -133,7 +133,8 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a :href="getLocalizedPathForCurrentLang('/maps')" class="btn btn-primary">{{ t('HomePage.maps.viewAll') }}</a>
+                    <a :href="getLocalizedPathForCurrentLang('/maps')" class="btn btn-primary">{{
+                        t('HomePage.maps.viewAll') }}</a>
                 </div>
             </div>
         </section>
@@ -200,7 +201,8 @@
                     </a>
                 </div>
                 <div class="text-center">
-                    <a :href="getLocalizedPathForCurrentLang('/wiki')" class="btn btn-primary">{{ t('HomePage.wiki.exploreAll') }}</a>
+                    <a :href="getLocalizedPathForCurrentLang('/wiki')" class="btn btn-primary">{{
+                        t('HomePage.wiki.exploreAll') }}</a>
                 </div>
             </div>
         </section>
@@ -210,12 +212,8 @@
             <div class="container">
                 <h2 class="section-title">{{ t('HomePage.guides.title') }}</h2>
                 <div class="guides-grid">
-                    <div 
-                        v-for="guide in homeGuides" 
-                        :key="guide.id" 
-                        class="guide-card card"
-                        @click="goToGuide(guide.addressBar)"
-                    >
+                    <div v-for="guide in homeGuides" :key="guide.id" class="guide-card card"
+                        @click="goToGuide(guide.addressBar)">
                         <div class="guide-header">
                             <span class="guide-badge">{{ getCategoryBadge(guide.category) }}</span>
                         </div>
@@ -224,7 +222,8 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a :href="getLocalizedPathForCurrentLang('/guides')" class="btn btn-primary">{{ t('HomePage.guides.viewAll') }}</a>
+                    <a :href="getLocalizedPathForCurrentLang('/guides')" class="btn btn-primary">{{
+                        t('HomePage.guides.viewAll') }}</a>
                 </div>
             </div>
         </section>
@@ -274,9 +273,11 @@
                                     <thead>
                                         <tr>
                                             <th class="col-language">{{ t('HomePage.gameInfo.languages.lang') }}</th>
-                                            <th class="col-interface">{{ t('HomePage.gameInfo.languages.interface') }}</th>
+                                            <th class="col-interface">{{ t('HomePage.gameInfo.languages.interface') }}
+                                            </th>
                                             <th class="col-audio">{{ t('HomePage.gameInfo.languages.audio') }}</th>
-                                            <th class="col-subtitles">{{ t('HomePage.gameInfo.languages.subtitles') }}</th>
+                                            <th class="col-subtitles">{{ t('HomePage.gameInfo.languages.subtitles') }}
+                                            </th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -359,7 +360,8 @@
                         <div class="review-header">
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">
-                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review1.name')" class="reviewer-avatar-img">
+                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review1.name')"
+                                        class="reviewer-avatar-img">
                                 </div>
                                 <div class="reviewer-details">
                                     <h4>{{ t('HomePage.reviews.review1.name') }}</h4>
@@ -378,7 +380,8 @@
                         <div class="review-header">
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">
-                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review2.name')" class="reviewer-avatar-img">
+                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review2.name')"
+                                        class="reviewer-avatar-img">
                                 </div>
                                 <div class="reviewer-details">
                                     <h4>{{ t('HomePage.reviews.review2.name') }}</h4>
@@ -397,7 +400,8 @@
                         <div class="review-header">
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">
-                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review3.name')" class="reviewer-avatar-img">
+                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review3.name')"
+                                        class="reviewer-avatar-img">
                                 </div>
                                 <div class="reviewer-details">
                                     <h4>{{ t('HomePage.reviews.review3.name') }}</h4>
@@ -499,22 +503,11 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { getLocalizedPath } from '../utils/routeUtils'
 import { useGuideData } from '../composables/useGuideData'
+import { detectLanguageFromPath } from '../i18n'
 
 const route = useRoute()
 const { t, locale } = useI18n()
-const { guides, loadData } = useGuideData()
-
-// 从路径检测语言
-const detectLanguageFromPath = (path) => {
-    const supportedLanguages = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
-    for (const lang of supportedLanguages) {
-        if (lang === 'en') continue
-        if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
-            return lang
-        }
-    }
-    return 'en'
-}
+const { guides, loadHomeGuidesOnly } = useGuideData()
 
 // 获取当前语言的路径（从 URL 路径检测，确保与 URL 一致）
 const getLocalizedPathForCurrentLang = (path) => {
@@ -527,29 +520,29 @@ const getLocalizedPathForCurrentLang = (path) => {
 // 处理 HTML 内容中的链接，将其转换为多语言路径
 const processHtmlLinks = (htmlContent) => {
     if (!htmlContent || typeof htmlContent !== 'string') return htmlContent
-    
+
     // 获取当前语言
     const pathLang = detectLanguageFromPath(route.path)
     const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
-    
+
     // 匹配 href="/xxx" 或 href='/xxx' 格式的链接
     return htmlContent.replace(/href=["'](\/[^"']+)["']/g, (match, path) => {
         // 如果是外部链接（http/https）或已经是多语言路径，不处理
         if (path.startsWith('http://') || path.startsWith('https://')) {
             return match
         }
-        
+
         // 检查是否已经是多语言路径
         const supportedLanguagesForCheck = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
         const isAlreadyLocalized = supportedLanguagesForCheck.some(lang => {
             if (lang === 'en') return false
             return path.startsWith(`/${lang}/`) || path === `/${lang}`
         })
-        
+
         if (isAlreadyLocalized) {
             return match // 已经是多语言路径，不处理
         }
-        
+
         // 转换为多语言路径
         const localizedPath = getLocalizedPath(path, targetLang)
         return `href="${localizedPath}"`
@@ -576,19 +569,19 @@ const closeVideo = () => {
     isVideoPlaying.value = false
 }
 
-// 加载指南数据
+// 仅加载首页需要的指南数据（性能优化）
 onMounted(() => {
-    loadData()
+    loadHomeGuidesOnly()
 })
 
 // 监听语言变化，重新加载数据
 watch(locale, () => {
-    loadData()
+    loadHomeGuidesOnly()
 })
 
-// 过滤出 isHome: true 的指南
+// 首页指南数据（已经过滤，直接使用）
 const homeGuides = computed(() => {
-    return (guides.value || []).filter(guide => guide.isHome === true)
+    return guides.value || []
 })
 
 // 根据 category 返回对应的 badge 文本

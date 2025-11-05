@@ -7,14 +7,14 @@
           <span class="logo-text">Escape from Duckov</span>
         </a>
         <ul class="nav-links">
-          <li><a :href="getLocalizedPathForCurrentLang('/')">Home</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/guides')">Guides</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/wiki')">Wiki</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/items')">Items</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/maps')">Maps</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/mods')">Mods</a></li>
+          <li><a :href="getLocalizedPathForCurrentLang('/')">{{ t('Navigation.home') }}</a></li>
+          <li><a :href="getLocalizedPathForCurrentLang('/guides')">{{ t('Navigation.guides') }}</a></li>
+          <li><a :href="getLocalizedPathForCurrentLang('/wiki')">{{ t('Navigation.wiki') }}</a></li>
+          <li><a :href="getLocalizedPathForCurrentLang('/items')">{{ t('Navigation.items') }}</a></li>
+          <li><a :href="getLocalizedPathForCurrentLang('/maps')">{{ t('Navigation.maps') }}</a></li>
+          <li><a :href="getLocalizedPathForCurrentLang('/mods')">{{ t('Navigation.mods') }}</a></li>
         </ul>
-        
+
         <!-- 语言选择器 -->
         <div class="language-switcher">
           <div class="language-dropdown" @click="toggleLanguageDropdown">
@@ -29,7 +29,7 @@
             </li>
           </ul>
         </div>
-        
+
         <button class="hamburger-btn" @click="toggleMenu" :class="{ 'active': isMenuOpen }">
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
@@ -37,10 +37,10 @@
         </button>
       </nav>
     </div>
-    
+
     <!-- Mobile Menu Overlay -->
     <div class="mobile-menu-overlay" :class="{ 'active': isMenuOpen }" @click="closeMenu"></div>
-    
+
     <!-- Mobile Menu Drawer -->
     <div class="mobile-menu-drawer" :class="{ 'active': isMenuOpen }">
       <div class="mobile-menu-header">
@@ -52,13 +52,15 @@
       </div>
       <nav class="mobile-nav">
         <ul class="mobile-nav-links">
-          <li><a :href="getLocalizedPathForCurrentLang('/')" @click="closeMenu">Home</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/guides')" @click="closeMenu">Guides</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/wiki')" @click="closeMenu">Wiki</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/items')" @click="closeMenu">Items</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/maps')" @click="closeMenu">Maps</a></li>
-          <li><a :href="getLocalizedPathForCurrentLang('/mods')" @click="closeMenu">Mods</a></li>
-          
+          <li><a :href="getLocalizedPathForCurrentLang('/')" @click="closeMenu">{{ t('Navigation.home') }}</a></li>
+          <li><a :href="getLocalizedPathForCurrentLang('/guides')" @click="closeMenu">{{ t('Navigation.guides') }}</a>
+          </li>
+          <li><a :href="getLocalizedPathForCurrentLang('/wiki')" @click="closeMenu">{{ t('Navigation.wiki') }}</a></li>
+          <li><a :href="getLocalizedPathForCurrentLang('/items')" @click="closeMenu">{{ t('Navigation.items') }}</a>
+          </li>
+          <li><a :href="getLocalizedPathForCurrentLang('/maps')" @click="closeMenu">{{ t('Navigation.maps') }}</a></li>
+          <li><a :href="getLocalizedPathForCurrentLang('/mods')" @click="closeMenu">{{ t('Navigation.mods') }}</a></li>
+
           <!-- 移动端语言选择器 -->
           <li class="mobile-language-item">
             <div class="mobile-language-dropdown" @click="toggleMobileLanguageDropdown">
@@ -88,7 +90,7 @@ import { switchLanguagePath, getLocalizedPath } from '../utils/routeUtils'
 
 const route = useRoute()
 const router = useRouter()
-const { locale } = useI18n()
+const { locale, t } = useI18n()
 
 const isScrolled = ref(false)
 const isMenuOpen = ref(false)
@@ -145,7 +147,7 @@ const switchLanguage = (lang) => {
   isLanguageDropdownOpen.value = false
   isMobileLanguageDropdownOpen.value = false
   isMenuOpen.value = false
-  
+
   const targetPath = switchLanguagePath(route.path, lang)
   window.location.href = targetPath
 }
@@ -236,7 +238,7 @@ onUnmounted(() => {
   padding: 16px 0;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -544,37 +546,36 @@ onUnmounted(() => {
   .nav-links {
     display: none;
   }
-  
+
   .language-switcher {
     margin-left: 16px;
   }
-  
+
   .hamburger-btn {
     display: flex;
   }
 }
 
 @media (max-width: 768px) {
-  .logo{
+  .logo {
     gap: 10px;
   }
-  
+
   .navbar {
     padding: 12px 0;
   }
-  
+
   .logo-text {
     font-size: 1rem;
   }
-  
+
   .logo-image {
     width: 40px;
     height: 40px;
   }
-  
+
   .mobile-menu-drawer {
     width: 280px;
   }
 }
-
 </style>

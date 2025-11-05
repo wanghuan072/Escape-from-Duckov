@@ -1,4 +1,31 @@
 {
+    "Navigation": {
+        "home": "홈",
+        "guides": "가이드",
+        "wiki": "위키",
+        "items": "아이템",
+        "maps": "지도",
+        "mods": "모드"
+    },
+    "Footer": {
+        "description": "플레이어가 만든 가이드, 위키 및 커뮤니티 도구.",
+        "quickLinks": "빠른 링크",
+        "legal": "법적 정보",
+        "copyright": "© 2025 duckovgame.com. 판권 소유.",
+        "disclaimer": "duckovgame.com은 원본 또는 그 출판사와 제휴, 승인 또는 연결되지 않았습니다. 이것은 정보 제공 목적으로만 만들어진 독립적인 팬 사이트입니다. 모든 상표 및 저작권은 각 소유자에게 속합니다.",
+        "links": {
+            "guides": "가이드",
+            "wiki": "위키",
+            "items": "아이템",
+            "maps": "지도",
+            "mods": "모드",
+            "privacyPolicy": "개인정보처리방침",
+            "termsOfService": "서비스 약관",
+            "copyright": "저작권",
+            "aboutUs": "회사 소개",
+            "contactUs": "문의하기"
+        }
+    },
     "seo": {
         "home": {
             "title": "Escape from Duckov | 위키, 가이드, 지도, 모드, 퀘스트, 무기",

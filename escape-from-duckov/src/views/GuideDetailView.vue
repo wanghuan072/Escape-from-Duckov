@@ -5,36 +5,39 @@
             <div class="container">
                 <div class="breadcrumb">
                     <a :href="getLocalizedPathForCurrentLang('/guides')" class="breadcrumb-link">
-                        <svg class="breadcrumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                            <polyline points="9,22 9,12 15,12 15,22"/>
+                        <svg class="breadcrumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                            <polyline points="9,22 9,12 15,12 15,22" />
                         </svg>
                         Guides
                     </a>
-                    <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="9,18 15,12 9,6"/>
+                    <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <polyline points="9,18 15,12 9,6" />
                     </svg>
                     <span class="breadcrumb-current">{{ guide?.title }}</span>
                 </div>
-                
+
                 <div class="guide-detail-content">
                     <div class="guide-detail-text">
                         <h1 class="guide-title">{{ guide?.title }}</h1>
-                        
+
                         <div class="guide-category">
                             <span class="category-badge">{{ getCategoryName(guide?.category) }}</span>
                         </div>
-                        
+
                         <div class="guide-detail-meta">
                             <div class="meta-item">
-                                <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/>
-                                    <polyline points="12,6 12,12 16,14"/>
+                                <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12,6 12,12 16,14" />
                                 </svg>
                                 <span class="meta-text">{{ formatDate(guide?.publishDate) }}</span>
                             </div>
                         </div>
-                        
+
                         <div class="guide-tags">
                             <span v-for="tag in guide?.tags" :key="tag" class="tag">{{ tag }}</span>
                         </div>
@@ -59,7 +62,7 @@
                             <div class="info-box-header">
                                 <h3 class="info-box-title">{{ guide?.title }}</h3>
                             </div>
-                            
+
                             <!-- Guide Category -->
                             <div class="guide-category-info">
                                 <div class="category-badge">{{ getCategoryName(guide?.category) }}</div>
@@ -68,9 +71,10 @@
                             <!-- Guide Meta Info -->
                             <div class="guide-meta">
                                 <div class="meta-item">
-                                    <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <circle cx="12" cy="12" r="10"/>
-                                        <polyline points="12,6 12,12 16,14"/>
+                                    <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <polyline points="12,6 12,12 16,14" />
                                     </svg>
                                     <span class="meta-text">{{ formatDate(guide?.publishDate) }}</span>
                                 </div>
@@ -86,9 +90,9 @@
                         <div class="guide-navigation">
                             <h4 class="nav-title">Other Guides</h4>
                             <div class="nav-links">
-                                <a v-for="otherGuide in otherGuides" :key="otherGuide.id" 
-                                   :href="getLocalizedPathForCurrentLang(`/guides${otherGuide.addressBar}`)" 
-                                   class="nav-link">{{ otherGuide.title }}</a>
+                                <a v-for="otherGuide in otherGuides" :key="otherGuide.id"
+                                    :href="getLocalizedPathForCurrentLang(`/guides${otherGuide.addressBar}`)"
+                                    class="nav-link">{{ otherGuide.title }}</a>
                             </div>
                         </div>
                     </div>
@@ -128,7 +132,7 @@ const initGuide = async () => {
 // 手动更新SEO
 const updateSEO = () => {
     if (!guide.value) return
-    
+
     if (guide.value.seo) {
         setSEO({
             title: guide.value.seo.title || guide.value.title || seoConfig.defaults.title,
@@ -190,10 +194,10 @@ const otherGuides = computed(() => {
 const formatDate = (dateString) => {
     if (!dateString) return ''
     const date = new Date(dateString)
-    return date.toLocaleDateString('en-US', { 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
+    return date.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
     })
 }
 
@@ -430,16 +434,16 @@ const getCategoryName = (category) => {
         font-size: 2.5rem;
         margin-bottom: 20px;
     }
-    
+
     .content-layout {
         grid-template-columns: 1fr;
         gap: 24px;
     }
-    
+
     .right-sidebar {
         order: -1;
     }
-    
+
     .guide-info-box {
         max-width: 400px;
         margin: 0 auto;
@@ -453,88 +457,89 @@ const getCategoryName = (category) => {
         margin-bottom: 16px;
         line-height: 1.3;
     }
-    
+
     .category-badge {
         font-size: 12px;
         padding: 4px 12px;
     }
-    
+
     .meta-text {
         font-size: 12px;
     }
-    
+
     .tag {
         font-size: 12px;
         padding: 4px 10px;
     }
-    
+
     .breadcrumb {
         font-size: 12px;
         gap: 8px;
     }
-    
+
     .breadcrumb-link {
         font-size: 12px;
     }
-    
+
     .breadcrumb-icon,
     .breadcrumb-arrow {
         width: 14px;
         height: 14px;
     }
-    
+
     .nav-title {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     .nav-link {
         font-size: 12px;
         padding: 5px 10px;
     }
-    
+
     /* Section Spacing */
     .guide-detail-header {
         padding: 20px 0;
     }
-    
+
     .guide-content {
         padding: 20px 0;
     }
-    
+
     .left-content {
         padding: 10px;
     }
-    .content-layout{
+
+    .content-layout {
         gap: 10px;
     }
-    
+
     .right-sidebar {
         gap: 10px;
     }
-    
+
     .guide-info-box {
         max-width: 100%;
     }
-    
+
     .info-box-header {
         padding: 10px;
     }
-    
+
     .info-box-title {
         font-size: 16px;
     }
-    
+
     .guide-category-info,
     .guide-meta,
     .guide-tags {
         padding: 10px;
     }
-    
+
     .guide-navigation {
         padding: 10px;
     }
-    
+
     .nav-links {
         gap: 6px;
     }

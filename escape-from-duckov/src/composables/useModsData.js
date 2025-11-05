@@ -1,5 +1,6 @@
 import { ref } from 'vue'
 import { getCurrentLocale } from '../i18n'
+import { createDataLoader, dataExtractors } from './useDataLoader'
 
 // 语言映射表 - 支持多语言数据加载
 const localeMap = {
@@ -14,36 +15,8 @@ const localeMap = {
     zh: () => import('../data/mods/zh/mods.js')
 }
 
-/**
- * 加载指定语言的 mods 数据
- */
-const loadModsData = async (locale) => {
-    const targetLocale = localeMap[locale] ? locale : 'en'
-    
-    try {
-        const module = await localeMap[targetLocale]()
-        const mods = module.default || []
-        
-        // 如果数据为空且不是英文，回退到英文
-        if (mods.length === 0 && targetLocale !== 'en') {
-            const enModule = await localeMap.en()
-            return enModule.default || []
-        }
-        
-        return mods
-    } catch (error) {
-        // 加载失败，回退到英文
-        if (targetLocale !== 'en') {
-            try {
-                const enModule = await localeMap.en()
-                return enModule.default || []
-            } catch {
-                return []
-            }
-        }
-        return []
-    }
-}
+// 使用通用数据加载器
+const loadModsData = createDataLoader(localeMap, dataExtractors.default)
 
 /**
  * 通用的 Mods 数据加载 composable

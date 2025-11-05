@@ -7,48 +7,75 @@
             <img src="/images/logo.png" alt="Escape from Duckov" class="logo-image">
             <span class="logo-text">Escape from Duckov</span>
           </div>
-          <p>Guides, wiki, and community tools crafted by players.</p>
+          <p>{{ t('Footer.description') }}</p>
           <div class="social-links">
             <a href="https://www.facebook.com/profile.php?id=61583231274732" target="_blank" class="social-link">
-              <svg t="1762158353754" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2664" width="200" height="200"><path d="M725.333333 149.333333a21.333333 21.333333 0 0 0-21.333333-21.333333H597.333333a203.52 203.52 0 0 0-213.333333 192v115.2H277.333333a21.333333 21.333333 0 0 0-21.333333 21.333333v110.933334a21.333333 21.333333 0 0 0 21.333333 21.333333H384v285.866667a21.333333 21.333333 0 0 0 21.333333 21.333333h128a21.333333 21.333333 0 0 0 21.333334-21.333333v-285.866667h111.786666a21.333333 21.333333 0 0 0 20.906667-15.786667l30.72-110.933333a21.333333 21.333333 0 0 0-20.48-26.88H554.666667V320a42.666667 42.666667 0 0 1 42.666666-38.4h106.666667a21.333333 21.333333 0 0 0 21.333333-21.333333z" fill="#ffffff" p-id="2665"></path></svg>
+              <svg t="1762158353754" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" p-id="2664" width="200" height="200">
+                <path
+                  d="M725.333333 149.333333a21.333333 21.333333 0 0 0-21.333333-21.333333H597.333333a203.52 203.52 0 0 0-213.333333 192v115.2H277.333333a21.333333 21.333333 0 0 0-21.333333 21.333333v110.933334a21.333333 21.333333 0 0 0 21.333333 21.333333H384v285.866667a21.333333 21.333333 0 0 0 21.333333 21.333333h128a21.333333 21.333333 0 0 0 21.333334-21.333333v-285.866667h111.786666a21.333333 21.333333 0 0 0 20.906667-15.786667l30.72-110.933333a21.333333 21.333333 0 0 0-20.48-26.88H554.666667V320a42.666667 42.666667 0 0 1 42.666666-38.4h106.666667a21.333333 21.333333 0 0 0 21.333333-21.333333z"
+                  fill="#ffffff" p-id="2665"></path>
+              </svg>
             </a>
             <a href="https://x.com/M1FC7w9QW048571/status/1984148632967479731" target="_blank" class="social-link">
-              <svg t="1762158384601" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4626" width="200" height="200"><path d="M778.41 96h141.142L611.2 448.427 973.952 928H689.92L467.456 637.141 212.906 928H71.68l329.813-376.96L53.504 96h291.243l201.088 265.856z m-49.535 747.52h78.208L302.25 176.043h-83.926z" fill="#ffffff" p-id="4627"></path></svg>
+              <svg t="1762158384601" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" p-id="4626" width="200" height="200">
+                <path
+                  d="M778.41 96h141.142L611.2 448.427 973.952 928H689.92L467.456 637.141 212.906 928H71.68l329.813-376.96L53.504 96h291.243l201.088 265.856z m-49.535 747.52h78.208L302.25 176.043h-83.926z"
+                  fill="#ffffff" p-id="4627"></path>
+              </svg>
             </a>
           </div>
         </div>
         <div class="footer-links">
           <div class="link-column">
-            <h4>Quick Links</h4>
+            <h4>{{ t('Footer.quickLinks') }}</h4>
             <ul>
-              <li><a href="#guides">Guides</a></li>
-              <li><a href="#wiki">Wiki</a></li>
-              <li><a href="/items">Items</a></li>
-              <li><a href="#maps">Maps</a></li>
-              <li><a href="#mods">Mods</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/guides')">{{ t('Footer.links.guides') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/wiki')">{{ t('Footer.links.wiki') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/items')">{{ t('Footer.links.items') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/maps')">{{ t('Footer.links.maps') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/mods')">{{ t('Footer.links.mods') }}</a></li>
             </ul>
           </div>
           <div class="link-column">
-            <h4>Legal</h4>
+            <h4>{{ t('Footer.legal') }}</h4>
             <ul>
-              <li><a href="/privacy-policy">Privacy Policy</a></li>
-              <li><a href="/terms-of-service">Terms of Service</a></li>
-              <li><a href="/copyright">Copyright</a></li>
-              <li><a href="/about-us">About Us</a></li>
-              <li><a href="/contact-us">Contact Us</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/privacy-policy')">{{ t('Footer.links.privacyPolicy') }}</a>
+              </li>
+              <li><a :href="getLocalizedPathForCurrentLang('/terms-of-service')">{{ t('Footer.links.termsOfService')
+              }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/copyright')">{{ t('Footer.links.copyright') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/about-us')">{{ t('Footer.links.aboutUs') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/contact-us')">{{ t('Footer.links.contactUs') }}</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p class="copyright">© 2025 duckovgame.com. All rights reserved.</p>
-        <p>duckovgame.com is not affiliated with, endorsed by, or connected to the original or its publishers. This is an independent fan site created for informational purposes only. All trademarks and copyrights belong to their respective owners.</p>
+        <p class="copyright">{{ t('Footer.copyright') }}</p>
+        <p>{{ t('Footer.disclaimer') }}</p>
       </div>
     </div>
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+import { useI18n } from 'vue-i18n'
+import { useRoute } from 'vue-router'
+import { getLocalizedPath } from '../utils/routeUtils'
+import { detectLanguageFromPath } from '../i18n'
+
+const { t, locale } = useI18n()
+const route = useRoute()
+
+// 获取当前语言的路径
+const getLocalizedPathForCurrentLang = (path) => {
+  const pathLang = detectLanguageFromPath(route.path)
+  const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
+  return getLocalizedPath(path, targetLang)
+}
+</script>
 
 <style scoped>
 .app-footer {
@@ -64,7 +91,7 @@
   margin-bottom: 32px;
 }
 
-.footer-logo{
+.footer-logo {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -159,30 +186,35 @@
 }
 
 @media (max-width: 768px) {
-  .app-footer{
+  .app-footer {
     padding: 20px 0 10px;
   }
-  .footer-content{
+
+  .footer-content {
     grid-template-columns: 1fr;
     gap: 10px;
   }
-  .link-column h4{
+
+  .link-column h4 {
     font-size: 14px;
     margin-bottom: 10px;
   }
-  .link-column ul li{
+
+  .link-column ul li {
     margin-bottom: 5px;
     line-height: 20px;
   }
-  .link-column ul li a{
+
+  .link-column ul li a {
     font-size: 12px;
   }
-  .footer-bottom p{
+
+  .footer-bottom p {
     font-size: 12px;
   }
-  .copyright{
+
+  .copyright {
     font-size: 12px;
   }
 }
-
 </style>

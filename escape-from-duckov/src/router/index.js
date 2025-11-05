@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { supportedLanguages } from '../i18n'
-import i18n from '../i18n'
+import { supportedLanguages, detectLanguageFromPath } from '../i18n'
 import HomeView from '../views/HomeView.vue'
 import GuideView from '../views/GuideView.vue'
 import GuideDetailView from '../views/GuideDetailView.vue'
@@ -157,17 +156,6 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: generateLocalizedRoutes()
 })
-
-// 从路径检测语言
-function detectLanguageFromPath(path) {
-  for (const lang of supportedLanguages) {
-    if (lang === 'en') continue
-    if (path.startsWith(`/${lang}/`) || path === `/${lang}`) {
-      return lang
-    }
-  }
-  return 'en'
-}
 
 // 路由守卫：根据URL设置语言（强制同步）
 router.beforeEach(async (to, from, next) => {
