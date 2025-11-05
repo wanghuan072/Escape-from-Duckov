@@ -30,7 +30,7 @@
           </ul>
         </div>
 
-        <button class="hamburger-btn" @click="toggleMenu" :class="{ 'active': isMenuOpen }">
+        <button class="hamburger-btn" @click="toggleMenu" :class="{ 'active': isMenuOpen }" :aria-label="t('Navigation.toggleMenu')" :aria-expanded="isMenuOpen">
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>

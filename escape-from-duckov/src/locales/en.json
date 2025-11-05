@@ -5,7 +5,8 @@
     "wiki": "Wiki",
     "items": "Items",
     "maps": "Maps",
-    "mods": "Mods"
+    "mods": "Mods",
+    "toggleMenu": "Toggle menu"
   },
   "Footer": {
     "description": "Guides, wiki, and community tools crafted by players.",
@@ -13,6 +14,10 @@
     "legal": "Legal",
     "copyright": "© 2025 duckovgame.com. All rights reserved.",
     "disclaimer": "duckovgame.com is not affiliated with, endorsed by, or connected to the original or its publishers. This is an independent fan site created for informational purposes only. All trademarks and copyrights belong to their respective owners.",
+    "social": {
+      "facebook": "Visit our Facebook page",
+      "twitter": "Visit our X (Twitter) page"
+    },
     "links": {
       "guides": "Guides",
       "wiki": "Wiki",

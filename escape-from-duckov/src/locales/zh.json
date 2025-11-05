@@ -5,7 +5,8 @@
         "wiki": "维基",
         "items": "物品",
         "maps": "地图",
-        "mods": "模组"
+        "mods": "模组",
+        "toggleMenu": "切换菜单"
     },
     "Footer": {
         "description": "由玩家制作的攻略、维基和社区工具。",
@@ -13,6 +14,10 @@
         "legal": "法律信息",
         "copyright": "© 2025 duckovgame.com. 保留所有权利。",
         "disclaimer": "duckovgame.com 与原版或其发行商无关、未获认可或未建立连接。这是一个仅用于信息目的的独立粉丝网站。所有商标和版权均归各自所有者所有。",
+        "social": {
+            "facebook": "访问我们的 Facebook 页面",
+            "twitter": "访问我们的 X (Twitter) 页面"
+        },
         "links": {
             "guides": "攻略",
             "wiki": "维基",

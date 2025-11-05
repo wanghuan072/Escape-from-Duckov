@@ -9,21 +9,23 @@
           </div>
           <p>{{ t('Footer.description') }}</p>
           <div class="social-links">
-            <a href="https://www.facebook.com/profile.php?id=61583231274732" target="_blank" class="social-link">
+            <a href="https://www.facebook.com/profile.php?id=61583231274732" target="_blank" rel="noopener noreferrer" :aria-label="t('Footer.social.facebook')" class="social-link">
               <svg t="1762158353754" class="icon" viewBox="0 0 1024 1024" version="1.1"
                 xmlns="http://www.w3.org/2000/svg" p-id="2664" width="200" height="200">
                 <path
                   d="M725.333333 149.333333a21.333333 21.333333 0 0 0-21.333333-21.333333H597.333333a203.52 203.52 0 0 0-213.333333 192v115.2H277.333333a21.333333 21.333333 0 0 0-21.333333 21.333333v110.933334a21.333333 21.333333 0 0 0 21.333333 21.333333H384v285.866667a21.333333 21.333333 0 0 0 21.333333 21.333333h128a21.333333 21.333333 0 0 0 21.333334-21.333333v-285.866667h111.786666a21.333333 21.333333 0 0 0 20.906667-15.786667l30.72-110.933333a21.333333 21.333333 0 0 0-20.48-26.88H554.666667V320a42.666667 42.666667 0 0 1 42.666666-38.4h106.666667a21.333333 21.333333 0 0 0 21.333333-21.333333z"
                   fill="#ffffff" p-id="2665"></path>
               </svg>
+              <span class="sr-only">{{ t('Footer.social.facebook') }}</span>
             </a>
-            <a href="https://x.com/M1FC7w9QW048571/status/1984148632967479731" target="_blank" class="social-link">
+            <a href="https://x.com/M1FC7w9QW048571/status/1984148632967479731" target="_blank" rel="noopener noreferrer" :aria-label="t('Footer.social.twitter')" class="social-link">
               <svg t="1762158384601" class="icon" viewBox="0 0 1024 1024" version="1.1"
                 xmlns="http://www.w3.org/2000/svg" p-id="4626" width="200" height="200">
                 <path
                   d="M778.41 96h141.142L611.2 448.427 973.952 928H689.92L467.456 637.141 212.906 928H71.68l329.813-376.96L53.504 96h291.243l201.088 265.856z m-49.535 747.52h78.208L302.25 176.043h-83.926z"
                   fill="#ffffff" p-id="4627"></path>
               </svg>
+              <span class="sr-only">{{ t('Footer.social.twitter') }}</span>
             </a>
           </div>
         </div>

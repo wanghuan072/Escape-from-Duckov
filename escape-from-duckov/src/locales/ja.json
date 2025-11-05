@@ -5,7 +5,8 @@
         "wiki": "ウィキ",
         "items": "アイテム",
         "maps": "マップ",
-        "mods": "MOD"
+        "mods": "MOD",
+        "toggleMenu": "メニューを切り替え"
     },
     "Footer": {
         "description": "プレイヤーが作成したガイド、ウィキ、コミュニティツール。",
@@ -13,6 +14,10 @@
         "legal": "法的情報",
         "copyright": "© 2025 duckovgame.com. 全著作権所有。",
         "disclaimer": "duckovgame.comは、オリジナルまたはその発行者と提携、承認、または接続されていません。これは情報提供のみを目的とした独立したファンサイトです。すべての商標と著作権はそれぞれの所有者に帰属します。",
+        "social": {
+            "facebook": "Facebookページを訪問",
+            "twitter": "X (Twitter) ページを訪問"
+        },
         "links": {
             "guides": "ガイド",
             "wiki": "ウィキ",
