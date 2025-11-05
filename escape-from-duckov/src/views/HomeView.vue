@@ -360,8 +360,7 @@
                         <div class="review-header">
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">
-                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review1.name')"
-                                        class="reviewer-avatar-img">
+                                    <span class="avatar-initial">{{ getInitial(t('HomePage.reviews.review1.name')) }}</span>
                                 </div>
                                 <div class="reviewer-details">
                                     <h4>{{ t('HomePage.reviews.review1.name') }}</h4>
@@ -380,8 +379,7 @@
                         <div class="review-header">
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">
-                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review2.name')"
-                                        class="reviewer-avatar-img">
+                                    <span class="avatar-initial">{{ getInitial(t('HomePage.reviews.review2.name')) }}</span>
                                 </div>
                                 <div class="reviewer-details">
                                     <h4>{{ t('HomePage.reviews.review2.name') }}</h4>
@@ -400,8 +398,7 @@
                         <div class="review-header">
                             <div class="reviewer-info">
                                 <div class="reviewer-avatar">
-                                    <img src="/images/review-01.webp" :alt="t('HomePage.reviews.review3.name')"
-                                        class="reviewer-avatar-img">
+                                    <span class="avatar-initial">{{ getInitial(t('HomePage.reviews.review3.name')) }}</span>
                                 </div>
                                 <div class="reviewer-details">
                                     <h4>{{ t('HomePage.reviews.review3.name') }}</h4>
@@ -419,7 +416,9 @@
                     <div class="review-card card">
                         <div class="review-header">
                             <div class="reviewer-info">
-                                <div class="reviewer-avatar">🏗️</div>
+                                <div class="reviewer-avatar">
+                                    <span class="avatar-initial">{{ getInitial(t('HomePage.reviews.review4.name')) }}</span>
+                                </div>
                                 <div class="reviewer-details">
                                     <h4>{{ t('HomePage.reviews.review4.name') }}</h4>
                                     <div class="review-rating">
@@ -436,7 +435,9 @@
                     <div class="review-card card">
                         <div class="review-header">
                             <div class="reviewer-info">
-                                <div class="reviewer-avatar">🗺️</div>
+                                <div class="reviewer-avatar">
+                                    <span class="avatar-initial">{{ getInitial(t('HomePage.reviews.review5.name')) }}</span>
+                                </div>
                                 <div class="reviewer-details">
                                     <h4>{{ t('HomePage.reviews.review5.name') }}</h4>
                                     <div class="review-rating">
@@ -453,7 +454,9 @@
                     <div class="review-card card">
                         <div class="review-header">
                             <div class="reviewer-info">
-                                <div class="reviewer-avatar">🎯</div>
+                                <div class="reviewer-avatar">
+                                    <span class="avatar-initial">{{ getInitial(t('HomePage.reviews.review6.name')) }}</span>
+                                </div>
                                 <div class="reviewer-details">
                                     <h4>{{ t('HomePage.reviews.review6.name') }}</h4>
                                     <div class="review-rating">
@@ -515,6 +518,12 @@ const getLocalizedPathForCurrentLang = (path) => {
     const pathLang = detectLanguageFromPath(route.path)
     const targetLang = pathLang !== 'en' ? pathLang : (locale.value || 'en')
     return getLocalizedPath(path, targetLang)
+}
+
+// 获取用户名的首字母（大写）
+const getInitial = (name) => {
+    if (!name || name.length === 0) return '?'
+    return name.charAt(0).toUpperCase()
 }
 
 // 处理 HTML 内容中的链接，将其转换为多语言路径
@@ -1365,6 +1374,15 @@ section {
     font-size: 1.2rem;
     border: 2px solid var(--border-color);
     overflow: hidden;
+    flex-shrink: 0;
+}
+
+.avatar-initial {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1;
+    user-select: none;
 }
 
 .reviewer-avatar-img {
