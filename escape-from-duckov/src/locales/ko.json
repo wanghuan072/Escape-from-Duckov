@@ -81,10 +81,16 @@
             "type": "website"
         },
         "modDetail": {
-            "title": "Escape from Duckov 모드 | 최고의 사용자 지정 무기, 지도 및 게임플레이 조정",
-            "description": "최고의 Escape from Duckov 모드를 발견하세요 — 새로운 무기, 사용자 지정 지도, 향상된 비주얼, 게임플레이 조정. 커뮤니티 창작물로 생존 경험을 업그레이드하세요.",
-            "keywords": "Escape from Duckov 모드, 사용자 지정 무기, 지도 모드, 게임플레이 조정, 비주얼 모드, 커뮤니티 콘텐츠",
+            "title": "Escape from Duckov 모드 | 최고의 커스텀 무기, 맵 및 게임플레이 조정",
+            "description": "최고의 Escape from Duckov 모드를 찾아보세요 — 새로운 무기, 커스텀 맵, 향상된 비주얼 및 게임플레이 조정. 커뮤니티 창작물로 서바이벌 경험을 업그레이드하세요.",
+            "keywords": "Escape from Duckov 모드, 커스텀 무기, 맵 모드, 게임플레이 조정, 비주얼 모드, 커뮤니티 콘텐츠",
             "type": "article"
+        },
+        "steamCharts": {
+            "title": "Escape from Duckov Steam 차트 | 실시간 플레이어 수 및 트렌드",
+            "description": "Escape from Duckov Steam 차트를 확인하여 **실시간 플레이어 수**, **24시간 피크**, **리뷰 모멘텀**, 그리고 **커뮤니티 성장**을 한 곳에서 모니터링하세요.",
+            "keywords": "Escape from Duckov Steam 차트, Escape from Duckov 플레이어 수, SteamDB, 생존 통계, 레이드 트렌드",
+            "type": "website"
         },
         "items": {
             "title": "Escape from Duckov 아이템 | 완전 무기 및 장비 데이터베이스",
@@ -161,9 +167,10 @@
     },
     "HomePage": {
         "hero": {
-            "title": "Escape from Duckov 팬 커뮤니티",
-            "subtitle": "Escape from Duckov는 오리들의 세계에서 펼쳐지는 PVE 인디 생존 RPG입니다. Duckov 세계에서 자원을 수집하고, 은신처를 건설하고, 장비를 업그레이드하세요. 무일푼에서 시작하여 정상에 오르세요. 적대적인 오리들을 속이고, 살아남거나, 탈출에 성공하세요.",
-            "steamButton": "Steam에서 플레이"
+            "title": "Escape from Duckov 팬 & 커뮤니티",
+            "subtitle": "Escape from Duckov는 오리 세계에서 펼쳐지는 PVE 인디 생존 RPG입니다! 자원을 모으고 은신처를 세우고 장비를 업그레이드하여 Duckov 세계에서 정점에 오르세요. 아무것도 없는 상태에서 시작해 정상에 도달하고, 적대적인 오리를 따돌려 살아남으세요.",
+            "steamButton": "Play on Steam",
+            "steamChartsButton": "View Steam Charts"
         },
         "video": {
             "playIcon": "▶",
@@ -392,9 +399,15 @@
     },
     "ModsPage": {
         "title": "Escape from Duckov 모드",
-        "subtitle": "커뮤니티가 만든 최고의 Escape from Duckov 모드를 발견하고 다운로드하세요. 삶의 질 개선, 새로운 기능, 시각적 향상, 게임플레이 조정을 포함한 사용자 지정 수정으로 게임플레이를 향상하세요. 카테고리별로 모드를 탐색하고 Duckov 경험에 완벽한 추가 기능을 찾으세요."
+        "subtitle": "커뮤니티가 만든 최고의 Escape from Duckov 모드를 발견하고 다운로드하세요. 삶의 질 개선, 새로운 기능, 시각적 향상, 게임플레이 조정을 포함한 사용자 지정 수정으로 게임플레이를 향상하세요. 카테고리별로 모드를 탐색하고 Duckov 경험에 완벽한 추가 기능을 찾으세요.",
+        "stats": {
+            "releaseDate": "출시일",
+            "subscribers": "구독자 수"
+        }
     },
-    "ModDetailPage": {},
+    "ModDetailPage": {
+        "linkLabel": "모드 링크"
+    },
     "ItemsPage": {
         "title": "Escape from Duckov 아이템",
         "subtitle": "무기, 장비, 탄약, 열쇠, 물고기에 대한 종합적인 Escape from Duckov 데이터베이스. 총기, 근접 무기, 갑옷, 헬멧, 탄약, 열쇠, 물고기 및 보호 장비를 탐색하세요. Duckov의 무기고에 있는 모든 아이템에 대한 통계, 설명 및 세부 정보를 찾으세요.",
@@ -870,6 +883,50 @@
         "thankYou": {
             "title": "감사합니다",
             "text": "DuckovGame 커뮤니티의 일원이 되어주셔서 감사합니다! 귀하의 피드백과 지원은 전 세계 사용자들에게 최고의 경험을 지속적으로 제공하는 데 도움이 됩니다."
+        }
+    },
+    "SteamChartsPage": {
+        "title": "Steam 차트 스냅샷",
+        "hero": {
+            "description": "Escape from Duckov Steam 차트는 레이드 흐름, 피크 시간대 급증, 그리고 매 시즌 오리 민병대가 어떻게 성장하고 있는지에 대한 실시간 창을 제공합니다.",
+            "points": {
+                "live": "Escape from Duckov **실시간 플레이어 수**는 SteamDB에서 직접 업데이트됩니다.",
+                "peak": "**24시간 및 역대 최고 피크**를 추적하여 커뮤니티와 함께 레이드 시간을 맞추세요.",
+                "reviews": "리뷰 변화, 팔로워 급증, **찜 목록 스파이크**를 한눈에 모니터링하세요."
+            }
+        },
+        "note": "통계는 SteamDB 스냅샷을 반영하며 빠른 참고용입니다.",
+        "cards": {
+            "playersNow": {
+                "label": "현재 온라인 플레이어",
+                "value": "130k+",
+                "desc": "수만 명의 분대가 장비를 갖추면서 Duckov 레이드는 **24시간** 내내 바쁘게 돌아갑니다."
+            },
+            "peak24h": {
+                "label": "24시간 피크",
+                "value": "170k+",
+                "desc": "피크 시간대는 출시 주간보다 **지속적으로 훨씬 높게** 나타나며, 수요가 여전히 상승하고 있음을 보여줍니다."
+            },
+            "positiveReviews": {
+                "label": "긍정적인 리뷰",
+                "value": "94%+",
+                "desc": "진행 깊이, 협동 코디네이션, 은신처 업그레이드에 대한 **압도적인 찬사**입니다."
+            },
+            "followers": {
+                "label": "Steam 팔로워",
+                "value": "95k+",
+                "desc": "**와이프**, 밸런스 패스, 새로운 장비 드롭을 즐겨찾기하는 **거대한 커뮤니티**입니다."
+            }
+        },
+        "summary": {
+            "title": "Escape from Duckov 플레이어 수가 중요한 이유",
+            "description": "이 '맥박 지점(Pulse points)'들은 Steam 차트를 실제 레이드 결정으로 변환해 줍니다 — 언제 뛰어들지, 언제 비축할지, 그리고 Duckov에서 다음 붐을 언제 예상할지. 최대 효율을 위해 보관함 계획 및 은신처 업그레이드와 함께 사용하세요.",
+            "items": {
+                "ranking": "최고의 서바이벌 랭킹: 일일 활성 슈팅 게임에서 **정기적으로 상위 10위권**에 머무릅니다.",
+                "twitch": "Twitch 노출: 매일 수천 명이 레이드 탈출, 은신처 투어, 토너먼트를 시청합니다.",
+                "owners": "전 세계적으로 **추정 100만 명 이상**의 소유자가 있으며, 매 와이프 주기마다 새로운 분대가 합류합니다.",
+                "community": "커뮤니티 모멘텀: 찜 목록 스파이크와 리뷰 급증은 **다가오는 콘텐츠 드롭**과 직접적으로 연결됩니다."
+            }
         }
     }
 }

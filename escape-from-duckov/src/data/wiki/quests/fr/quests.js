@@ -347,184 +347,530 @@ export default [
         "detailsHtml": "<h2>Visez la Tête</h2>\n<p>Visez la Tête est une quête dans Escape From Duckov.</p>\n<h3>Dialogue</h3>\n<p>???</p>\n<h3>Tâches</h3>\n<ul>\n  <li>Tirer dans la tête de 5 Ennemis sur Ground Zero</li>\n</ul>\n<h3>Récompenses</h3>\n<ul>\n  <li>2000 Expérience</li>\n  <li>500 Argent</li>\n</ul>\n<h3>Guide de Quête</h3>\n<p>Dans cette quête, vous devez tirer une balle dans la tête de 5 ennemis.</p>"
     },
     {
-        id: 11,
-        title: 'Infrastructure - Partie 3',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Infrastructure - Partie 3',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1500 Expérience", "1000 Monnaie"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 11,
+        "title": "Infrastructure - Partie 3",
+        "description": "Infrastructure - Partie 3 est une Quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Infrastructure - Partie 3",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-3",
+        "showDetail": true,
+        "rewards": ["1500 Expérience", "1000 Argent"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédent",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "Suivant",
+                "value": "Fishing Hobbyist"
+            }
+        ],
+        "seo": {
+            "title": "Quête Infrastructure - Partie 3 - Escape from Duckov",
+            "description": "Infrastructure - Partie 3 est une Quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Partie 3, Quête de Jeff, Infrastructure - Partie 3, Infrastructure - Partie 3"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Infrastructure - Partie 3</h2>
+            <p>Infrastructure - Partie 3 est une Quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>J'ai repris contact avec un autre vieil ami. C'est un marchand d'équipement avec beaucoup de relations. Après que vous aurez installé le magasin, il viendra.</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Construire la Boutique d'Armures</li>
+            </ul>
+            <h3>Récompenses</h3>
+            <ul>
+                <li>1000 Expérience</li>
+                <li>1500 Argent</li>
+            </ul>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette Quête, vous devez construire la Boutique d'Armures.</p>
+            `
     },
     {
-        id: 12,
-        title: 'Infrastructure - Médicale',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Infrastructure - Médicale',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1000 Expérience", "1000 Monnaie"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 12,
+        "title": "Infrastructure - Médical",
+        "description": "Infrastructure - Médical est une Quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Infrastructure - Médical",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-medical",
+        "showDetail": true,
+        "rewards": ["1000 Expérience", "1000 Argent"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédent",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "Suivant",
+                "value": "Fishing Hobbyist"
+            }
+        ],
+        "seo": {
+            "title": "Quête Infrastructure - Médical - Escape from Duckov",
+            "description": "Infrastructure - Médical est une Quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Médical, Quête de Jeff, Infrastructure - Médical, Infrastructure - Médical"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Infrastructure - Médical</h2>
+            <p>Infrastructure - Médical est une Quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>Si nous pouvons fabriquer nous-mêmes diverses fournitures médicales, ce serait beaucoup plus pratique.</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Construire la Station Médicale</li>
+            </ul>
+            <h3>Récompenses</h3>
+            <ul>
+                <li>1000 Expérience</li>
+                <li>1000 Argent</li>
+            </ul>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette Quête, vous devez construire la Station Médicale.</p>
+            `
     },
     {
-        id: 13,
-        title: 'Pistolet Réplique',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Pistolet Réplique',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1500 Expérience", "1000 Monnaie", "Débloque Marchandise PM"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 13,
+        "title": "Pistolet Réplique",
+        "description": "Pistolet Réplique est une Quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Pistolet Réplique",
+        "publishDate": "2025-11-06",
+        "addressBar": "/replica-pistol",
+        "showDetail": true,
+        "rewards": ["1500 Expérience", "1000 Argent", "Débloque Marchandise PM"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédent",
+                "value": "Aim for the Head"
+            },
+            {
+                "label": "Suivant",
+                "value": "Large Capacity<br/>Strange Feather"
+            }
+        ],
+        "seo": {
+            "title": "Quête Pistolet Réplique - Escape from Duckov",
+            "description": "Pistolet Réplique est une Quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Pistolet Réplique, Quête de Jeff, Pistolet Réplique, Pistolet Réplique"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Pistolet Réplique</h2>
+            <p>Pistolet Réplique est une Quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>Apportez-moi des pistolets, laissez-moi les étudier un peu. Si tout se passe bien, vous pourrez acheter des pistolets au Distributeur Automatique.</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Soumettre Objet(s) : 2 PM</li>
+            </ul>
+            <h3>Récompenses</h3>
+            <ul>
+                <li>1500 Expérience</li>
+                <li>1000 Argent</li>
+                <li>Débloque Marchandise PM</li>
+            </ul>
+            <h3>Objets Requis</h3>
+            <table>
+                <tr>
+                    <th>Icône</th>
+                    <th>Nom de l'objet</th>
+                    <th>Quantité</th>
+                    <th>Utilisation</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Fournitures Médicales" /></td>
+                <td>PM</td>
+                <td>2</td>
+                <td>Doit être soumis.</td>
+            </tr>
+            </table>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette Quête, vous devez trouver et remettre 2 Pistolets PM.</p>
+            `
     },
     {
-        id: 14,
-        title: 'Grande Capacité',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Grande Capacité',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1000 Expérience", "2000 Monnaie"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 14,
+        "title": "Grande Capacité",
+        "description": "Grande Capacité est une Quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Grande Capacité",
+        "publishDate": "2025-11-06",
+        "addressBar": "/large-capacity",
+        "showDetail": true,
+        "rewards": ["1000 Expérience", "2000 Argent"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédent",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "Suivant",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "Quête Grande Capacité - Escape from Duckov",
+            "description": "Grande Capacité est une Quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Grande Capacité, Quête de Jeff, Grande Capacité, Grande Capacité"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Grande Capacité</h2>
+            <p>Grande Capacité est une Quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>???</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Débloquer Stockage Niveau 1</li>
+            </ul>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette Quête, vous devez débloquer l'amélioration Stockage Niveau 1. (Allez dans votre stockage et faites défiler jusqu'à \"Extension de Stockage\")</p>
+            `
     },
     {
-        id: 15,
-        title: 'Étrange Plume',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Étrange Plume',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1000 Expérience", "1000 Monnaie", "Totem: Ninja"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 15,
+        "title": "Plume Étrange",
+        "description": "Plume Étrange est une Quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Plume Étrange",
+        "publishDate": "2025-11-06",
+        "addressBar": "/strange-feather",
+        "showDetail": true,
+        "rewards": ["1000 Expérience", "1000 Argent", "Totem: Ninja"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédent",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "Suivant",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "Quête Plume Étrange - Escape from Duckov",
+            "description": "Plume Étrange est une Quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Plume Étrange, Quête de Jeff, Plume Étrange, Plume Étrange"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Plume Étrange</h2>
+            <p>Plume Étrange est une Quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>???</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Soumettre Objet(s) : 4 Plumes Pâles</li>
+            </ul>
+            <h3>Récompenses</h3>
+            <ul>
+                <li>1000 Expérience</li>
+                <li>1000 Argent</li>
+                <li>Totem: Ninja I</li>
+            </ul>
+            <h3>Objets Requis</h3>
+            <table>
+                <tr>
+                    <th>Icône</th>
+                    <th>Nom de l'objet</th>
+                    <th>Quantité</th>
+                    <th>Utilisation</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Plume Pâle</td>
+                    <td>4</td>
+                    <td>Doit être soumis.</td>
+                </tr>
+            </table>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette Quête, vous devez trouver et remettre 4 Plumes Pâles.</p>
+            `
     },
     {
-        id: 16,
-        title: 'Gentil Garçon',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Gentil Garçon',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1000 Expérience", "998 Monnaie", "Trophée", "Pouvoir de la Liste de Souhaits", "Enveloppe Rouge"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 16,
+        "title": "Chic Type",
+        "description": "Chic Type est une quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Chic Type",
+        "publishDate": "2025-11-06",
+        "addressBar": "/nice-guy",
+        "showDetail": true,
+        "rewards": ["1000 Expérience", "998 Argent", "Trophée", "Pouvoir de la Liste de Souhaits", "Enveloppe Rouge"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédente",
+                "value": "Infrastructure - Part 2"
+            },
+            {
+                "label": "Suivante",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "Quête Chic Type - Escape from Duckov",
+            "description": "Chic Type est une quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Chic Type, quête Jeff, Chic Type, Chic Type"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Chic Type</h2>
+            <p>Chic Type est une quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>Je connais un développeur (pas moi) qui agit bizarrement ces derniers temps et répète sans cesse : 'Ajoutez à la liste de souhaits, s'il vous plaît !'. C'est une personne plutôt gentille, mais je ne sais pas pourquoi il est devenu fou. Voulez-vous l'aider ?</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Allez vérifier le Motif Bleu sur le Mur de votre Base !</li>
+            </ul>
+            <img src="/images/wiki/quests16-01.webp" alt="Motif Bleu" />
+            <h3>Récompenses</h3>
+            <ul>
+                <li>1000 Expérience</li>
+                <li>998 Argent</li>
+                <li>Trophée</li>
+                <li>Pouvoir de la Liste de Souhaits</li>
+                <li>Enveloppe Rouge</li>
+            </ul>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette quête, vous devez vous rendre au Marquage Bleu sur le mur indiquant "Wishlist" et interagir avec lui.</p>
+            `
     },
     {
-        id: 17,
-        title: 'Extermination de Moustiques',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Extermination de Moustiques',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1000 Expérience", "500 Monnaie", "Canon"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 17,
+        "title": "Extermination de Moustiques",
+        "description": "Extermination de Moustiques est une quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Extermination de Moustiques",
+        "publishDate": "2025-11-06",
+        "addressBar": "/mosquito-extermination",
+        "showDetail": true,
+        "rewards": ["1000 Expérience", "500 Argent", "Canon"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédente",
+                "value": "???"
+            },
+            {
+                "label": "Suivante",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "Quête Extermination de Moustiques - Escape from Duckov",
+            "description": "Extermination de Moustiques est une quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Extermination de Moustiques, quête Jeff, Extermination de Moustiques, Extermination de Moustiques"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Extermination de Moustiques</h2>
+            <p>Extermination de Moustiques est une quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>Ces jours-ci, je n'arrivais pas à dormir à cause des moustiques dans ma chambre. J'ai le canon prêt, il me faut juste de la poudre à canon. Vous pouvez en obtenir en démontant des balles normales à l'établi.</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Soumettre Objet(s) : 30 Poudre à Canon</li>
+            </ul>
+            <h3>Récompenses</h3>
+            <ul>
+                <li>1000 Expérience</li>
+                <li>500 Argent</li>
+                <li>Canon</li>
+            </ul>
+            <h3>Objets Requis</h3>
+            <table>
+                <tr>
+                    <th>Icône</th>
+                    <th>Nom de l'objet</th>
+                    <th>Quantité</th>
+                    <th>Utilisation</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Fournitures Médicales" /></td>
+                <td>Poudre à Canon</td>
+                <td>30</td>
+                <td>Doit être soumise.</td>
+            </tr>
+            </table>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette quête, vous devez remettre 30 Poudre à Canon à Jeff.</p>
+            `
     },
     {
-        id: 18,
-        title: 'Infrastructure - Partie 4',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Infrastructure - Partie 4',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1000 Expérience", "500 Monnaie"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 18,
+        "title": "Infrastructure - Partie 4",
+        "description": "Infrastructure - Partie 4 est une quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Infrastructure - Partie 4",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-4",
+        "showDetail": true,
+        "rewards": ["1000 Expérience", "500 Argent"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédente",
+                "value": "Infrastructure - Part 2<br/>Infrastructure - Part 3"
+            },
+            {
+                "label": "Suivante",
+                "value": "Unlocking Beacons - Part 1"
+            }
+        ],
+        "seo": {
+            "title": "Quête Infrastructure - Partie 4 - Escape from Duckov",
+            "description": "Infrastructure - Partie 4 est une quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Partie 4, quête Jeff, Infrastructure - Partie 4, Infrastructure - Partie 4"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Infrastructure - Partie 4</h2>
+            <p>Infrastructure - Partie 4 est une quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>Notre cachette prend forme. Il est temps de nous aventurer plus loin dans les étoiles ! Construire notre téléporteur est la première étape.</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Construire le Téléporteur</li>
+            </ul>
+            <h3>Récompenses</h3>
+            <ul>
+                <li>1000 Expérience</li>
+                <li>500 Argent</li>
+            </ul>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette quête, vous devez construire le Téléporteur.</p>
+            `
     },
     {
-        id: 19,
-        title: 'Déverrouillage des Balises - Partie 1',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Déverrouillage des Balises - Partie 1',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1000 Expérience", "500 Monnaie"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 19,
+        "title": "Déverrouillage des Balises - Partie 1",
+        "description": "Déverrouiller la Balise I est une quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Déverrouillage des Balises - Partie 1",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-1",
+        "showDetail": true,
+        "rewards": ["1000 Expérience", "500 Argent"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédente",
+                "value": "Infrastructure - Part 4"
+            },
+            {
+                "label": "Suivante",
+                "value": "Explore The Warehouses"
+            }
+        ],
+        "seo": {
+            "title": "Quête Déverrouillage des Balises - Partie 1 - Escape from Duckov",
+            "description": "Déverrouiller la Balise I est une quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Médicale, quête Jeff, Infrastructure - Médicale, Infrastructure - Médicale"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Déverrouillage des Balises - Partie 1</h2>
+            <p>Déverrouiller la Balise I est une quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>Maintenant que nous avons construit notre propre téléporteur, déverrouillons la balise de Point Zéro (Ground Zero). Ces balises permettent la téléportation gratuite — bien que les coordonnées soient... moins que stables. Les renseignements disent que la balise se trouve au camp de la route. C'est risqué, alors soyez vigilants.</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Déverrouiller la Balise Point Zéro</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests19-01.webp" alt="Déverrouiller la Balise Point Zéro" />
+                    <img src="/images/wiki/quests19-02.webp" alt="Déverrouiller la Balise Point Zéro" />
+                </li>
+            </ul>
+    
+            <h3>Récompenses</h3>
+            <ul>
+                <li>1000 Expérience</li>
+            </ul>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette quête, vous devez atteindre le camp de la route et déverrouiller la Balise Point Zéro pour activer la téléportation.</p>
+            `
     },
     {
-        id: 20,
-        title: 'Déverrouillage des Balises - Partie 2',
-        description: '',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'Déverrouillage des Balises - Partie 2',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
-        rewards: ["1000 Expérience", "500 Monnaie"],
-        rightContent: [],
-        seo: {
-            title: '',
-            description: '',
-            keywords: '',
+        "id": 20,
+        "title": "Déverrouillage des Balises - Partie 2",
+        "description": "Déverrouiller la Balise II est une quête dans Escape From Duckov.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "Déverrouillage des Balises - Partie 2",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-2",
+        "showDetail": true,
+        "rewards": ["1000 Expérience", "500 Argent"],
+        "rightContent": [
+            {
+                "label": "Donné par",
+                "value": "Jeff"
+            },
+            {
+                "label": "Précédente",
+                "value": "Unlocking Beacons - Part 1"
+            },
+            {
+                "label": "Suivante",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "Quête Déverrouillage des Balises - Partie 2 - Escape from Duckov",
+            "description": "Déverrouillage des Balises - Partie 2 est une quête dans Escape From Duckov.",
+            "keywords": "Escape from Duckov, Déverrouillage des Balises - Partie 2, quête Jeff, Déverrouillage des Balises - Partie 2, Déverrouillage des Balises - Partie 2"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>Déverrouillage des Balises - Partie 2</h2>
+            <p>Déverrouiller la Balise II est une quête dans Escape From Duckov.</p>
+            <h3>Dialogue</h3>
+            <p>Nous nous dirigeons enfin plus loin. Pour accélérer les trajets vers la Zone des Entrepôts, vous devez activer la balise de téléportation à côté de la Station-Service dans la Zone des Entrepôts.</p>
+            <h3>Tâches</h3>
+            <ul>
+                <li>Déverrouiller la Balise de la Zone des Entrepôts</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests20-01.webp" alt="Déverrouiller la Balise de la Zone des Entrepôts" />
+                    <img src="/images/wiki/quests20-02.webp" alt="Déverrouiller la Balise de la Zone des Entrepôts" />
+                </li>
+            </ul>
+            <h3>Récompenses</h3>
+            <ul>
+                <li>2000 Expérience</li>
+            </ul>
+            <h3>Guide de Quête</h3>
+            <p>Dans cette quête, vous devez trouver et activer la balise de téléportation à côté de la Station-Service dans la Zone des Entrepôts pour déverrouiller le voyage rapide.</p>
+            `
     },
     {
         id: 21,

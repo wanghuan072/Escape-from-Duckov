@@ -81,10 +81,16 @@
             "type": "website"
         },
         "modDetail": {
-            "title": "Escape from Duckov Mods | Beste benutzerdefinierte Waffen, Karten & Gameplay-Anpassungen",
-            "description": "Entdecken Sie die besten Escape from Duckov Mods — neue Waffen, benutzerdefinierte Karten, verbesserte Grafiken und Gameplay-Anpassungen. Verbessern Sie Ihr Überlebenserlebnis mit Community-Kreationen.",
-            "keywords": "Escape from Duckov Mods, benutzerdefinierte Waffen, Karten-Mods, Gameplay-Anpassungen, visuelle Mods, Community-Inhalte",
+            "title": "Escape from Duckov Mods | Best Custom Weapons, Maps & Gameplay Tweaks",
+            "description": "Discover the best Escape from Duckov mods — new weapons, custom maps, enhanced visuals, and gameplay tweaks. Upgrade your survival experience with community creations.",
+            "keywords": "Escape from Duckov mods, custom weapons, map mods, gameplay tweaks, visual mods, community content",
             "type": "article"
+        },
+        "steamCharts": {
+            "title": "Escape from Duckov Steam-Charts | Live-Spielerzahlen & Trends",
+            "description": "Prüfen Sie die Steam-Charts von Escape from Duckov, um die aktuellen Live-Spielerzahlen, 24-Stunden-Höchststände, die Dynamik der Rezensionen und das Community-Wachstum an einem Ort zu überwachen.",
+            "keywords": "Escape from Duckov Steam Charts, Escape from Duckov Spielerzahlen, SteamDB, Überlebens-Statistiken, Raid-Trends",
+            "type": "website"
         },
         "items": {
             "title": "Escape from Duckov Gegenstände | Komplette Waffen- & Ausrüstungsdatenbank",
@@ -161,9 +167,10 @@
     },
     "HomePage": {
         "hero": {
-            "title": "EscapefromDuckov Fans-Community",
-            "subtitle": "Escape from Duckov ist ein PVE Indie Survival-Rollenspiel – in einer Entenwelt! Sammeln Sie Ressourcen, bauen Sie Ihr Versteck und verbessern Sie Ihre Ausrüstung in der Welt von Duckov. Beginnen Sie bei Null und steigen Sie an die Spitze auf. Überlisten Sie feindliche Enten, überleben Sie oder entkommen Sie lebend.",
-            "steamButton": "Auf Steam spielen"
+            "title": "Escape From Duckov Fans & Community",
+            "subtitle": "Escape from Duckov ist ein PVE-Indie-Survival-RPG – in einer Entenwelt! Sammle Ressourcen, baue dein Versteck und verbessere deine Ausrüstung in der Welt von Duckov. Starte bei Null und steige an die Spitze auf. Überliste feindliche Enten, überlebe oder schaffe es lebend hinaus.",
+            "steamButton": "Auf Steam spielen",
+            "steamChartsButton": "Steam-Charts ansehen"
         },
         "video": {
             "playIcon": "▶",
@@ -392,9 +399,15 @@
     },
     "ModsPage": {
         "title": "Escape from Duckov Mods",
-        "subtitle": "Entdecken und laden Sie die besten, von der Community erstellten Escape from Duckov Mods herunter. Verbessern Sie Ihr Gameplay mit benutzerdefinierten Modifikationen, einschließlich Quality-of-Life-Verbesserungen, neuen Funktionen, visuellen Verbesserungen und Gameplay-Anpassungen. Durchsuchen Sie Mods nach Kategorie und finden Sie die perfekten Ergänzungen für Ihr Duckov-Erlebnis."
+        "subtitle": "Entdecken und laden Sie die besten, von der Community erstellten Escape from Duckov Mods herunter. Verbessern Sie Ihr Gameplay mit benutzerdefinierten Modifikationen, einschließlich Quality-of-Life-Verbesserungen, neuen Funktionen, visuellen Verbesserungen und Gameplay-Anpassungen. Durchsuchen Sie Mods nach Kategorie und finden Sie die perfekten Ergänzungen für Ihr Duckov-Erlebnis.",
+        "stats": {
+            "releaseDate": "Veröffentlichungsdatum",
+            "subscribers": "Abonnenten"
+        }
     },
-    "ModDetailPage": {},
+    "ModDetailPage": {
+        "linkLabel": "Mod-Link"
+    },
     "ItemsPage": {
         "title": "Escape from Duckov Gegenstände",
         "subtitle": "Umfassende Escape from Duckov Datenbank für Waffen, Ausrüstung, Munition, Schlüssel und Fische. Durchsuchen Sie Feuerwaffen, Nahkampfwaffen, Rüstungen, Helme, Munition, Schlüssel, Fische und Schutzausrüstung. Finden Sie Statistiken, Beschreibungen und Details für jeden Gegenstand in Duckovs Arsenal.",
@@ -870,6 +883,50 @@
         "thankYou": {
             "title": "Vielen Dank",
             "text": "Vielen Dank, dass Sie Teil der DuckovGame Community sind! Ihr Feedback und Ihre Unterstützung helfen uns, unseren Nutzern weltweit weiterhin die beste Erfahrung zu bieten."
+        }
+    },
+    "SteamChartsPage": {
+        "title": "Steam-Charts-Momentaufnahme",
+        "hero": {
+            "description": "Die Steam-Charts von Escape from Duckov bieten Ihnen ein Live-Fenster in die Dynamik der Raids, Spitzenzeiten und das Wachstum der Enten-Miliz in jeder Saison.",
+            "points": {
+                "live": "Aktuelle Live-Spielerzahl von Escape from Duckov, direkt von SteamDB aktualisiert.",
+                "peak": "Verfolgen Sie die 24-Stunden- und Allzeit-Höchststände, um Ihre Raids zeitlich mit der Community abzustimmen.",
+                "reviews": "Überwachen Sie im Überblick die Schwankungen bei Rezensionen, Follower-Zuwächse und Wunschlisten-Spitzen."
+            }
+        },
+        "note": "Die Statistiken spiegeln SteamDB-Momentaufnahmen wider und dienen nur als schnelle Referenz.",
+        "cards": {
+            "playersNow": {
+                "label": "Spieler aktuell online",
+                "value": "130k+",
+                "desc": "Duckov-Raids sind rund um die Uhr gut besucht, mit Zehntausenden von Trupps, die sich ausrüsten."
+            },
+            "peak24h": {
+                "label": "24h-Spitze",
+                "value": "170k+",
+                "desc": "Die Spitzenzeiten liegen konstant deutlich über der Startwoche, was zeigt, dass die Nachfrage immer noch steigt."
+            },
+            "positiveReviews": {
+                "label": "Positive Rezensionen",
+                "value": "94%+",
+                "desc": "Überwältigendes Lob für die Tiefe des Fortschritts, die Koop-Koordination und die Verbesserungen des Verstecks."
+            },
+            "followers": {
+                "label": "Steam-Follower",
+                "value": "95k+",
+                "desc": "Eine massive Community merkt sich Wipes, Balance-Updates und neue Ausrüstungs-Drops vor."
+            }
+        },
+        "summary": {
+            "title": "Warum die Spielerzahlen von Escape from Duckov wichtig sind",
+            "description": "Diese Pulspunkte übersetzen die Steam-Charts in reale Raid-Entscheidungen – wann Sie eintauchen, wann Sie Vorräte anhäufen und wann Sie den nächsten Boom in Duckov erwarten sollten. Nutzen Sie sie zusammen mit Ihrer Stash-Planung und den Versteck-Upgrades für maximale Effizienz.",
+            "items": {
+                "ranking": "Top-Survival-Ranking: Befindet sich regelmäßig unter den Top 10 der täglich aktiven Shooter.",
+                "twitch": "Twitch-Präsenz: Tausende schalten täglich für Raid-Extraktionen, Versteck-Touren und Turniere ein.",
+                "owners": "Schätzungsweise 1 Million+ Besitzer weltweit, wobei in jedem Wipe-Zyklus neue Trupps hinzukommen.",
+                "community": "Community-Dynamik: Wunschlisten-Spitzen und Rezensionsfluten korrelieren direkt mit bevorstehenden Inhalts-Drops."
+            }
         }
     }
 }

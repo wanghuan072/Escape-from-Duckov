@@ -73,6 +73,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://duckovgame.com/escape-from-duckov-steam-charts</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://duckovgame.com/privacy-policy</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>yearly</changefreq>
@@ -170,6 +176,12 @@
   </url>
   <url>
     <loc>https://duckovgame.com/de/mods</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://duckovgame.com/de/escape-from-duckov-steam-charts</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -277,6 +289,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://duckovgame.com/fr/escape-from-duckov-steam-charts</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://duckovgame.com/fr/privacy-policy</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>yearly</changefreq>
@@ -374,6 +392,12 @@
   </url>
   <url>
     <loc>https://duckovgame.com/es/mods</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://duckovgame.com/es/escape-from-duckov-steam-charts</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -481,6 +505,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://duckovgame.com/ja/escape-from-duckov-steam-charts</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://duckovgame.com/ja/privacy-policy</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>yearly</changefreq>
@@ -578,6 +608,12 @@
   </url>
   <url>
     <loc>https://duckovgame.com/ko/mods</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://duckovgame.com/ko/escape-from-duckov-steam-charts</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -685,6 +721,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://duckovgame.com/ru/escape-from-duckov-steam-charts</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://duckovgame.com/ru/privacy-policy</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>yearly</changefreq>
@@ -787,6 +829,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://duckovgame.com/pt/escape-from-duckov-steam-charts</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://duckovgame.com/pt/privacy-policy</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>yearly</changefreq>
@@ -884,6 +932,12 @@
   </url>
   <url>
     <loc>https://duckovgame.com/zh/mods</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://duckovgame.com/zh/escape-from-duckov-steam-charts</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

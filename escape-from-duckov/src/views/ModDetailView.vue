@@ -1,7 +1,7 @@
 <template>
     <div class="mod-detail-view">
         <!-- Mod Detail Header -->
-        <section class="mod-detail-header">
+        <section class="page-header">
             <div class="container">
                 <div class="breadcrumb">
                     <a href="/mods" class="breadcrumb-link">
@@ -19,20 +19,10 @@
                 
                 <div class="mod-detail-content">
                     <div class="mod-detail-text">
-                        <div class="mod-category">
-                            <span class="category-badge">{{ mod?.category?.toUpperCase() }}</span>
-                        </div>
                         <h1 class="mod-detail-title">{{ mod?.title }}</h1>
                         <p class="mod-detail-description">{{ mod?.description }}</p>
                         
                         <div class="mod-detail-meta">
-                            <div class="meta-item">
-                                <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                                    <circle cx="12" cy="7" r="4"/>
-                                </svg>
-                                <span class="meta-text">by {{ mod?.author }}</span>
-                            </div>
                             <div class="meta-item">
                                 <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <circle cx="12" cy="12" r="10"/>
@@ -71,25 +61,65 @@
                             </div>
 
                             <div class="mod-meta">
-                                <div class="meta-item">
-                                    <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                                        <circle cx="12" cy="7" r="4"/>
-                                    </svg>
-                                    <span class="meta-text">by {{ mod?.author }}</span>
+                                <div 
+                                    v-if="mod?.author" 
+                                    class="meta-item"
+                                >
+                                    <span class="meta-label">{{ authorLabel }}</span>
+                                    <span class="meta-value">{{ mod.author }}</span>
                                 </div>
-                                <div class="meta-item">
-                                    <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <circle cx="12" cy="12" r="10"/>
-                                        <polyline points="12,6 12,12 16,14"/>
-                                    </svg>
-                                    <span class="meta-text">{{ formatDate(mod?.publishDate) }}</span>
+                                <div 
+                                    v-if="mod?.releaseDate" 
+                                    class="meta-item"
+                                >
+                                    <span class="meta-label">{{ releaseDateLabel }}</span>
+                                    <span class="meta-value">{{ formatDate(mod.releaseDate) }}</span>
+                                </div>
+                                <div 
+                                    v-if="mod?.fileSize" 
+                                    class="meta-item"
+                                >
+                                    <span class="meta-label">{{ sizeLabel }}</span>
+                                    <span class="meta-value">{{ mod.fileSize }}</span>
+                                </div>
+                                <div 
+                                    v-if="mod?.visits !== undefined && mod?.visits !== null" 
+                                    class="meta-item"
+                                >
+                                    <span class="meta-label">{{ visitsLabel }}</span>
+                                    <span class="meta-value">{{ formatNumber(mod.visits) }}</span>
+                                </div>
+                                <div 
+                                    v-if="mod?.subscribers !== undefined && mod?.subscribers !== null" 
+                                    class="meta-item"
+                                >
+                                    <span class="meta-label">{{ subscribersLabel }}</span>
+                                    <span class="meta-value">{{ formatNumber(mod.subscribers) }}</span>
+                                </div>
+                                <div 
+                                    v-if="mod?.favorites !== undefined && mod?.favorites !== null" 
+                                    class="meta-item"
+                                >
+                                    <span class="meta-label">{{ favoritesLabel }}</span>
+                                    <span class="meta-value">{{ formatNumber(mod.favorites) }}</span>
+                                </div>
+                                <div 
+                                    v-if="mod?.externalLink" 
+                                    class="meta-item"
+                                >
+                                    <span class="meta-label">{{ linkLabel }}</span>
+                                    <a 
+                                        :href="mod.externalLink" 
+                                        class="meta-link-button"
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        @click.stop
+                                    >
+                                        {{ t('ModDetailPage.linkLabel') }}
+                                    </a>
                                 </div>
                             </div>
 
-                            <div class="mod-tags">
-                                <span v-for="tag in mod?.tags" :key="tag" class="tag">{{ tag }}</span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -99,7 +129,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, nextTick } from 'vue'
+import { ref, onMounted, watch, nextTick, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useModsData } from '../composables/useModsData'
@@ -107,10 +137,30 @@ import { useSEO } from '../seo/composables.js'
 import { seoConfig } from '../seo/config.js'
 
 const route = useRoute()
-const { locale } = useI18n()
+const { t, locale } = useI18n()
 const mod = ref(null)
 const { mods: modsList, loadData, findModByAddressBar, getOtherMods } = useModsData()
 const { setSEO } = useSEO()
+
+const createLabel = (key, fallback) => computed(() => {
+    const translated = t(key)
+    return translated !== key ? translated : fallback
+})
+
+const authorLabel = createLabel('ModDetailPage.authorLabel', 'Author')
+const releaseDateLabel = createLabel('ModDetailPage.releaseDateLabel', 'Release Date')
+const sizeLabel = createLabel('ModDetailPage.sizeLabel', 'File Size')
+const visitsLabel = createLabel('ModDetailPage.visitsLabel', 'Visitors')
+const subscribersLabel = createLabel('ModDetailPage.subscribersLabel', 'Subscribers')
+const favoritesLabel = createLabel('ModDetailPage.favoritesLabel', 'Favorites')
+const linkLabel = createLabel('ModDetailPage.linkLabel', 'Mod Link')
+
+const formatNumber = (value) => {
+    if (typeof value === 'number') {
+        return value.toLocaleString()
+    }
+    return value ?? ''
+}
 
 const loadModData = async () => {
     await loadData()
@@ -190,17 +240,12 @@ const formatDate = (dateString) => {
     min-height: 100vh;
 }
 
-/* Mod Detail Header */
-.mod-detail-header {
-    padding: 80px 0 40px;
-}
-
 .breadcrumb {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 40px;
-    font-size: 0.9rem;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
 }
 
 .breadcrumb-link {
@@ -253,28 +298,11 @@ const formatDate = (dateString) => {
     border: 1px solid var(--border-color);
 }
 
-.mod-category {
-    margin-bottom: 16px;
-}
-
-.category-badge {
-    display: inline-block;
-    background: linear-gradient(135deg, #FA9317 0%, #e67e22 100%);
-    color: white;
-    padding: 6px 16px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    box-shadow: 0 2px 8px rgba(250, 147, 23, 0.3);
-}
-
 .mod-detail-title {
     font-size: 2rem;
     font-weight: 700;
     color: var(--text-heading);
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     line-height: 1.2;
 }
 
@@ -282,13 +310,13 @@ const formatDate = (dateString) => {
     font-size: 1rem;
     color: var(--text-secondary);
     line-height: 1.6;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 
 .mod-detail-meta {
     display: flex;
-    gap: 32px;
-    margin-bottom: 24px;
+    gap: 20px;
+    margin-bottom: 15px;
 }
 
 .meta-item {
@@ -310,7 +338,6 @@ const formatDate = (dateString) => {
 }
 
 .mod-tags {
-    padding: 16px;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -376,11 +403,51 @@ const formatDate = (dateString) => {
 }
 
 .mod-meta .meta-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 12px;
 }
 
 .mod-meta .meta-item:last-child {
     margin-bottom: 0;
+}
+
+.mod-meta .meta-label {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.mod-meta .meta-value {
+    color: var(--text-heading);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.mod-meta .meta-link-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #FA9317, #ffae3a);
+    color: var(--bg-primary);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(250, 147, 23, 0.35);
+    transition: all 0.3s ease;
+}
+
+.mod-meta .meta-link-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(250, 147, 23, 0.45);
+}
+
+.mod-meta .meta-link-button:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 18px rgba(250, 147, 23, 0.35);
 }
 
 /* Medium screens (≤1024px) */
@@ -411,14 +478,25 @@ const formatDate = (dateString) => {
         margin-bottom: 10px;
     }
 
+    .mod-meta .meta-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .mod-meta .meta-label,
+    .mod-meta .meta-value {
+        font-size: 12px;
+    }
+
+    .mod-meta .meta-link-button {
+        width: 100%;
+        justify-content: center;
+    }
+
     .mod-detail-meta{
         gap: 10px;
         margin-bottom: 10px;
-    }
-    
-    .category-badge {
-        font-size: 12px;
-        padding: 4px 12px;
     }
     
     .meta-text {
@@ -443,10 +521,6 @@ const formatDate = (dateString) => {
     .breadcrumb-arrow {
         width: 14px;
         height: 14px;
-    }
-    
-    .mod-detail-header {
-        padding: 20px 0;
     }
     
     .mod-content {

@@ -563,197 +563,528 @@ export default [
     {
         "id": 11,
         "title": "인프라 - 파트 3",
-        "description": "",
+        "description": "인프라 - 파트 3는 Escape From Duckov의 퀘스트입니다.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "인프라 - 파트 3",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 경험치",
-            "1000 머니"
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-3",
+        "showDetail": true,
+        "rewards": ["1500 경험치", "1000 머니"],
+        "rightContent": [
+            {
+                "label": "의뢰인",
+                "value": "Jeff"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "인프라 - 파트 3 퀘스트 - Escape from Duckov",
+            "description": "인프라 - 파트 3는 Escape From Duckov의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 인프라 - 파트 3, Jeff 퀘스트, 인프라 - 파트 3, 인프라 - 파트 3"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>인프라 - 파트 3</h2>
+            <p>인프라 - 파트 3는 Escape From Duckov의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>다른 오랜 친구와 연락이 닿았습니다. 그는 많은 인맥을 가진 장비 상인입니다. 당신이 상점을 설치한 후, 그가 올 것입니다.</p>
+            <h3>임무</h3>
+            <ul>
+                <li>방어구 상점 건설</li>
+            </ul>
+            <h3>보상</h3>
+            <ul>
+                <li>1000 경험치</li>
+                <li>1500 머니</li>
+            </ul>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 방어구 상점을 건설해야 합니다.</p>
+            `
     },
     {
         "id": 12,
         "title": "인프라 - 의료",
-        "description": "",
+        "description": "인프라 - 의료는 Escape From Duckov의 퀘스트입니다.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "인프라 - 의료",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 경험치",
-            "1000 머니"
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-medical",
+        "showDetail": true,
+        "rewards": ["1000 경험치", "1000 머니"],
+        "rightContent": [
+            {
+                "label": "의뢰인",
+                "value": "Jeff"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "인프라 - 의료 퀘스트 - Escape from Duckov",
+            "description": "인프라 - 의료는 Escape From Duckov의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 인프라 - 의료, Jeff 퀘스트, 인프라 - 의료, 인프라 - 의료"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>인프라 - 의료</h2>
+            <p>인프라 - 의료는 Escape From Duckov의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>다양한 의료 용품을 우리가 직접 만들 수 있다면 훨씬 더 편리할 것입니다.</p>
+            <h3>임무</h3>
+            <ul>
+                <li>의료 스테이션 건설</li>
+            </ul>
+            <h3>보상</h3>
+            <ul>
+                <li>1000 경험치</li>
+                <li>1000 머니</li>
+            </ul>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 의료 스테이션을 건설해야 합니다.</p>
+            `
     },
     {
         "id": 13,
-        "title": "복제품 권총",
-        "description": "",
+        "title": "복제 권총",
+        "description": "복제 권총은 Escape From Duckov의 퀘스트입니다.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "복제품 권총",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 경험치",
-            "1000 머니",
-            "상품 PM 잠금 해제"
+        "imageAlt": "복제 권총",
+        "publishDate": "2025-11-06",
+        "addressBar": "/replica-pistol",
+        "showDetail": true,
+        "rewards": ["1500 경험치", "1000 머니", "PM 상품 잠금 해제"],
+        "rightContent": [
+            {
+                "label": "의뢰인",
+                "value": "Jeff"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "Aim for the Head"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "Large Capacity<br/>Strange Feather"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "복제 권총 퀘스트 - Escape from Duckov",
+            "description": "복제 권총은 Escape From Duckov의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 복제 권총, Jeff 퀘스트, 복제 권총, 복제 권총"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>복제 권총</h2>
+            <p>복제 권총은 Escape From Duckov의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>권총 몇 자루를 가져와서 제가 연구할 수 있게 해주세요. 일이 잘 풀리면, 자동판매기에서 권총을 구매할 수 있게 될 것입니다.</p>
+            <h3>임무</h3>
+            <ul>
+                <li>아이템 제출: PM 2개</li>
+            </ul>
+            <h3>보상</h3>
+            <ul>
+                <li>1500 경험치</li>
+                <li>1000 머니</li>
+                <li>PM 상품 잠금 해제</li>
+            </ul>
+            <h3>필요 아이템</h3>
+            <table>
+                <tr>
+                    <th>아이콘</th>
+                    <th>아이템 이름</th>
+                    <th>수량</th>
+                    <th>용도</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="의료 용품" /></td>
+                <td>PM</td>
+                <td>2</td>
+                <td>제출해야 합니다.</td>
+            </tr>
+            </table>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 PM 권총 2자루를 찾아서 건네주어야 합니다.</p>
+            `
     },
     {
         "id": 14,
         "title": "대용량",
-        "description": "",
+        "description": "대용량은 Escape From Duckov의 퀘스트입니다.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "대용량",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 경험치",
-            "2000 머니"
+        "publishDate": "2025-11-06",
+        "addressBar": "/large-capacity",
+        "showDetail": true,
+        "rewards": ["1000 경험치", "2000 머니"],
+        "rightContent": [
+            {
+                "label": "의뢰인",
+                "value": "Jeff"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "대용량 퀘스트 - Escape from Duckov",
+            "description": "대용량은 Escape From Duckov의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 대용량, Jeff 퀘스트, 대용량, 대용량"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>대용량</h2>
+            <p>대용량은 Escape From Duckov의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>???</p>
+            <h3>임무</h3>
+            <ul>
+                <li>저장고 레벨 1 잠금 해제</li>
+            </ul>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 저장고 레벨 1 업그레이드를 잠금 해제해야 합니다. (저장고로 이동하여 "저장고 확장"까지 스크롤하세요)</p>
+            `
     },
     {
         "id": 15,
         "title": "이상한 깃털",
-        "description": "",
+        "description": "이상한 깃털은 Escape From Duckov의 퀘스트입니다.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "이상한 깃털",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 경험치",
-            "1000 머니",
-            "토템: 닌자"
+        "publishDate": "2025-11-06",
+        "addressBar": "/strange-feather",
+        "showDetail": true,
+        "rewards": ["1000 경험치", "1000 머니", "토템: 닌자"],
+        "rightContent": [
+            {
+                "label": "의뢰인",
+                "value": "Jeff"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "이상한 깃털 퀘스트 - Escape from Duckov",
+            "description": "이상한 깃털은 Escape From Duckov의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 이상한 깃털, Jeff 퀘스트, 이상한 깃털, 이상한 깃털"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>이상한 깃털</h2>
+            <p>이상한 깃털은 Escape From Duckov의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>???</p>
+            <h3>임무</h3>
+            <ul>
+                <li>아이템 제출: Fading Feather 4개</li>
+            </ul>
+            <h3>보상</h3>
+            <ul>
+                <li>1000 경험치</li>
+                <li>1000 머니</li>
+                <li>토템: 닌자 I</li>
+            </ul>
+            <h3>필요 아이템</h3>
+            <table>
+                <tr>
+                    <th>아이콘</th>
+                    <th>아이템 이름</th>
+                    <th>수량</th>
+                    <th>용도</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Fading Feather (바래진 깃털)</td>
+                    <td>4</td>
+                    <td>제출해야 합니다.</td>
+                </tr>
+            </table>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 Fading Feather(바래진 깃털) 4개를 찾아서 건네주어야 합니다.</p>
+            `
     },
     {
         "id": 16,
-        "title": "착한 사람",
-        "description": "",
+        "title": "좋은 사람 (Nice Guy)",
+        "description": "좋은 사람은 'Escape From Duckov'의 퀘스트입니다.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "착한 사람",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 경험치",
-            "998 머니",
-            "트로피",
-            "위시리스트의 힘",
-            "빨간 봉투"
+        "imageAlt": "좋은 사람",
+        "publishDate": "2025-11-06",
+        "addressBar": "/nice-guy",
+        "showDetail": true,
+        "rewards": ["경험치 1000", "998 머니", "트로피", "위시리스트의 힘", "빨간 봉투"],
+        "rightContent": [
+            {
+                "label": "제공자",
+                "value": "제프 (Jeff)"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "Infrastructure - Part 2"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "좋은 사람 퀘스트 - Escape from Duckov",
+            "description": "좋은 사람은 'Escape From Duckov'의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 좋은 사람, 제프 퀘스트, 좋은 사람, 좋은 사람"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>좋은 사람 (Nice Guy)</h2>
+            <p>좋은 사람은 'Escape From Duckov'의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>최근 '위시리스트에 추가해주세요!'라고 반복해서 말하는 이상한 행동을 하는 개발자(저는 아닙니다)를 알고 있습니다. 그는 꽤 좋은 사람이지만, 왜 미쳐버렸는지 모르겠습니다. 그를 돕고 싶으신가요?</p>
+            <h3>임무</h3>
+            <ul>
+                <li>기지 벽에 있는 **파란색 패턴**을 확인하십시오!</li>
+            </ul>
+            <img src="/images/wiki/quests16-01.webp" alt="파란색 패턴" />
+            <h3>보상</h3>
+            <ul>
+                <li>경험치 1000</li>
+                <li>998 머니</li>
+                <li>트로피</li>
+                <li>위시리스트의 힘</li>
+                <li>빨간 봉투</li>
+            </ul>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 "Wishlist"라고 적힌 벽의 **파란색 표시**로 가서 상호작용해야 합니다.</p>
+            `
     },
     {
         "id": 17,
-        "title": "모기 박멸",
-        "description": "",
+        "title": "모기 박멸 (Mosquito Extermination)",
+        "description": "모기 박멸은 'Escape From Duckov'의 퀘스트입니다.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "모기 박멸",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 경험치",
-            "500 머니",
-            "대포"
+        "publishDate": "2025-11-06",
+        "addressBar": "/mosquito-extermination",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money", "Cannon"],
+        "rightContent": [
+            {
+                "label": "제공자",
+                "value": "제프 (Jeff)"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "???"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "모기 박멸 퀘스트 - Escape from Duckov",
+            "description": "모기 박멸은 'Escape From Duckov'의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 모기 박멸, 제프 퀘스트, 모기 박멸, 모기 박멸"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>모기 박멸 (Mosquito Extermination)</h2>
+            <p>모기 박멸은 'Escape From Duckov'의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>요즘 방의 모기 때문에 잠을 잘 수가 없습니다. 대포는 준비되었지만, 화약이 필요합니다. 작업대에서 일반 탄약을 분해하여 화약을 얻을 수 있습니다.</p>
+            <h3>임무</h3>
+            <ul>
+                <li>아이템 제출: **화약 30개**</li>
+            </ul>
+            <h3>보상</h3>
+            <ul>
+                <li>경험치 1000</li>
+                <li>500 머니</li>
+                <li>대포</li>
+            </ul>
+            <h3>필요 아이템</h3>
+            <table>
+                <tr>
+                    <th>아이콘</th>
+                    <th>아이템 이름</th>
+                    <th>수량</th>
+                    <th>사용처</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="의료품" /></td>
+                <td>화약 (Gunpowder)</td>
+                <td>30</td>
+                <td>제출해야 합니다.</td>
+            </tr>
+            </table>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 **화약 30개**를 제프에게 **전달**해야 합니다.</p>
+            `
     },
     {
         "id": 18,
-        "title": "인프라 - 파트 4",
-        "description": "",
+        "title": "인프라 구축 - 파트 4 (Infrastructure - Part 4)",
+        "description": "인프라 구축 - 파트 4는 'Escape From Duckov'의 퀘스트입니다.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "인프라 - 파트 4",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 경험치",
-            "500 머니"
+        "imageAlt": "인프라 구축 - 파트 4",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-4",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money"],
+        "rightContent": [
+            {
+                "label": "제공자",
+                "value": "제프 (Jeff)"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "Infrastructure - Part 2<br/>Infrastructure - Part 3"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "Unlocking Beacons - Part 1"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "인프라 구축 - 파트 4 퀘스트 - Escape from Duckov",
+            "description": "인프라 구축 - 파트 4는 'Escape From Duckov'의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 인프라 구축 - 파트 4, 제프 퀘스트, 인프라 구축 - 파트 4, 인프라 구축 - 파트 4"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>인프라 구축 - 파트 4 (Infrastructure - Part 4)</h2>
+            <p>인프라 구축 - 파트 4는 'Escape From Duckov'의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>우리 은신처가 모양을 갖추고 있습니다. 이제 더 멀리 별들 속으로 나아갈 시간입니다! 우리만의 **텔레포터**를 만드는 것이 첫 번째 단계입니다.</p>
+            <h3>임무</h3>
+            <ul>
+                <li>**텔레포터** 건설</li>
+            </ul>
+            <h3>보상</h3>
+            <ul>
+                <li>경험치 1000</li>
+                <li>500 머니</li>
+            </ul>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 **텔레포터**를 **건설**해야 합니다.</p>
+            `
     },
     {
         "id": 19,
-        "title": "비콘 잠금 해제 - 파트 1",
-        "description": "",
+        "title": "비콘 해제 - 파트 1 (Unlocking Beacons - Part 1)",
+        "description": "비콘 I을 해제하는 것은 'Escape From Duckov'의 퀘스트입니다.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "비콘 잠금 해제 - 파트 1",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 경험치",
-            "500 머니"
+        "imageAlt": "비콘 해제 - 파트 1",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-1",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money"],
+        "rightContent": [
+            {
+                "label": "제공자",
+                "value": "제프 (Jeff)"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "Infrastructure - Part 4"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "Explore The Warehouses"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "비콘 해제 - 파트 1 퀘스트 - Escape from Duckov",
+            "description": "비콘 I을 해제하는 것은 'Escape From Duckov'의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 인프라 구축 - 의료, 제프 퀘스트, 인프라 구축 - 의료, 인프라 구축 - 의료"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>비콘 해제 - 파트 1 (Unlocking Beacons - Part 1)</h2>
+            <p>비콘 I을 해제하는 것은 'Escape From Duckov'의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>이제 우리만의 텔레포터를 만들었으니, **그라운드 제로(Ground Zero) 비콘**을 해제합시다. 이 비콘들은 무료 텔레포트를 허용하지만, 좌표가... 안정적이지 않습니다. 정보에 따르면 비콘은 로드 캠프에 있다고 합니다. 위험하니 정신을 바짝 차리세요.</p>
+            <h3>임무</h3>
+            <ul>
+                <li>**그라운드 제로 비콘** 해제</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests19-01.webp" alt="그라운드 제로 비콘 해제" />
+                    <img src="/images/wiki/quests19-02.webp" alt="그라운드 제로 비콘 해제" />
+                </li>
+            </ul>
+    
+            <h3>보상</h3>
+            <ul>
+                <li>경험치 1000</li>
+            </ul>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 로드 캠프에 도달하여 **그라운드 제로 비콘**을 **해제**하여 텔레포트를 활성화해야 합니다.</p>
+            `
+    },
+    {
+        "id": 20,
+        "title": "비콘 해제 - 파트 2 (Unlocking Beacons - Part 2)",
+        "description": "비콘 II를 해제하는 것은 'Escape From Duckov'의 퀘스트입니다.",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "비콘 해제 - 파트 2",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-2",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money"],
+        "rightContent": [
+            {
+                "label": "제공자",
+                "value": "제프 (Jeff)"
+            },
+            {
+                "label": "이전 퀘스트",
+                "value": "Unlocking Beacons - Part 1"
+            },
+            {
+                "label": "다음 퀘스트",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "비콘 해제 - 파트 2 퀘스트 - Escape from Duckov",
+            "description": "비콘 해제 - 파트 2는 'Escape From Duckov'의 퀘스트입니다.",
+            "keywords": "Escape from Duckov, 비콘 해제 - 파트 2, 제프 퀘스트, 비콘 해제 - 파트 2, 비콘 해제 - 파트 2"
+        },
+        "detailsHtml": `
+            <h2>비콘 해제 - 파트 2 (Unlocking Beacons - Part 2)</h2>
+            <p>비콘 II를 해제하는 것은 'Escape From Duckov'의 퀘스트입니다.</p>
+            <h3>대화</h3>
+            <p>드디어 더 멀리 나아갑니다. **창고 지역**으로의 이동을 더 빠르게 하려면, 창고 지역의 **주유소 옆에 있는 텔레포트 비콘**을 활성화해야 합니다.</p>
+            <h3>임무</h3>
+            <ul>
+                <li>**창고 지역 비콘** 해제</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests20-01.webp" alt="창고 지역 비콘 해제" />
+                    <img src="/images/wiki/quests20-02.webp" alt="창고 지역 비콘 해제" />
+                </li>
+            </ul>
+            <h3>보상</h3>
+            <ul>
+                <li>경험치 2000</li>
+            </ul>
+            <h3>퀘스트 가이드</h3>
+            <p>이 퀘스트에서는 **창고 지역**의 **주유소 옆**에 있는 텔레포트 비콘을 찾아 활성화하여 빠른 이동을 해제해야 합니다.</p>
+            `
     },
     {
         "id": 20,

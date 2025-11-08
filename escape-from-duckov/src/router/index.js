@@ -23,6 +23,7 @@ import TermsOfServiceView from '../views/TermsOfServiceView.vue'
 import CopyrightView from '../views/CopyrightView.vue'
 import AboutUsView from '../views/AboutUsView.vue'
 import ContactUsView from '../views/ContactUsView.vue'
+import SteamChartsView from '../views/SteamChartsView.vue'
 
 // 基础路由配置（英文，不带语言前缀）
 const baseRoutes = [
@@ -136,6 +137,11 @@ const baseRoutes = [
       path: '/items/:category/:id',
       name: 'items-detail',
       component: ItemsDetailView
+    },
+    {
+      path: '/escape-from-duckov-steam-charts',
+      name: 'steam-charts',
+      component: SteamChartsView
     }
 ]
 

@@ -348,220 +348,529 @@ export default [
     },
     {
         "id": 11,
-        "title": "Infraestructura - Parte 3",
-        "description": "",
+        "title": "Infrastructure - Parte 3",
+        "description": "Infrastructure - Parte 3 es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Infraestructura - Parte 3",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 Experiencia",
-            "1000 Dinero"
+        "imageAlt": "Infrastructure - Parte 3",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-3",
+        "showDetail": true,
+        "rewards": ["1500 Experiencia", "1000 Dinero"],
+        "rightContent": [
+            {
+                "label": "Dada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "Siguiente",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Infrastructure - Parte 3 - Escape from Duckov",
+            "description": "Infrastructure - Parte 3 es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Parte 3, Misión de Jeff, Infrastructure - Parte 3, Infrastructure - Parte 3"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Infrastructure - Parte 3</h2>
+            <p>Infrastructure - Parte 3 es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>He contactado con otro viejo amigo. Es un mercader de equipo con muchas conexiones. Después de que montes la tienda, él vendrá.</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>Construir Tienda de Armaduras</li>
+            </ul>
+            <h3>Recompensas</h3>
+            <ul>
+                <li>1000 Experiencia</li>
+                <li>1500 Dinero</li>
+            </ul>
+            <h3>Guía de Misión</h3>
+            <p>En esta Misión tienes que construir la Tienda de Armaduras.</p>
+            `
     },
     {
         "id": 12,
-        "title": "Infraestructura - Médico",
-        "description": "",
+        "title": "Infrastructure - Médico",
+        "description": "Infrastructure - Médico es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Infraestructura - Médico",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Experiencia",
-            "1000 Dinero"
+        "imageAlt": "Infrastructure - Médico",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-medical",
+        "showDetail": true,
+        "rewards": ["1000 Experiencia", "1000 Dinero"],
+        "rightContent": [
+            {
+                "label": "Dada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "Siguiente",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Infrastructure - Médico - Escape from Duckov",
+            "description": "Infrastructure - Médico es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Médico, Misión de Jeff, Infrastructure - Médico, Infrastructure - Médico"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Infrastructure - Médico</h2>
+            <p>Infrastructure - Médico es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>Si podemos hacer varios suministros médicos nosotros mismos, eso sería mucho más conveniente.</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>Construir Estación Médica</li>
+            </ul>
+            <h3>Recompensas</h3>
+            <ul>
+                <li>1000 Experiencia</li>
+                <li>1000 Dinero</li>
+            </ul>
+            <h3>Guía de Misión</h3>
+            <p>En esta Misión tienes que construir la Estación Médica.</p>
+            `
     },
     {
         "id": 13,
         "title": "Pistola Réplica",
-        "description": "",
+        "description": "Pistola Réplica es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Pistola Réplica",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 Experiencia",
-            "1000 Dinero",
-            "Desbloquea Mercancía PM"
+        "publishDate": "2025-11-06",
+        "addressBar": "/replica-pistol",
+        "showDetail": true,
+        "rewards": ["1500 Experiencia", "1000 Dinero", "Desbloquea Mercancía PM"],
+        "rightContent": [
+            {
+                "label": "Dada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "Aim for the Head"
+            },
+            {
+                "label": "Siguiente",
+                "value": "Large Capacity<br/>Strange Feather"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Pistola Réplica - Escape from Duckov",
+            "description": "Pistola Réplica es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Pistola Réplica, Misión de Jeff, Pistola Réplica, Pistola Réplica"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Pistola Réplica</h2>
+            <p>Pistola Réplica es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>Tráeme algunas pistolas, déjame estudiarlas un poco. Si las cosas van bien, podrás comprar pistolas en la Máquina Expendedora.</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>Entregar Objeto(s): 2 PM</li>
+            </ul>
+            <h3>Recompensas</h3>
+            <ul>
+                <li>1500 Experiencia</li>
+                <li>1000 Dinero</li>
+                <li>Desbloquea Mercancía PM</li>
+            </ul>
+            <h3>Objetos Requeridos</h3>
+            <table>
+                <tr>
+                    <th>Icono</th>
+                    <th>Nombre del objeto</th>
+                    <th>Cantidad</th>
+                    <th>Uso</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Suministros Médicos" /></td>
+                <td>PM</td>
+                <td>2</td>
+                <td>Necesita ser entregado.</td>
+            </tr>
+            </table>
+            <h3>Guía de Misión</h3>
+            <p>En esta Misión tienes que encontrar y entregar 2 Pistolas PM.</p>
+            `
     },
     {
         "id": 14,
         "title": "Gran Capacidad",
-        "description": "",
+        "description": "Gran Capacidad es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Gran Capacidad",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Experiencia",
-            "2000 Dinero"
+        "publishDate": "2025-11-06",
+        "addressBar": "/large-capacity",
+        "showDetail": true,
+        "rewards": ["1000 Experiencia", "2000 Dinero"],
+        "rightContent": [
+            {
+                "label": "Dada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "Siguiente",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Gran Capacidad - Escape from Duckov",
+            "description": "Gran Capacidad es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Gran Capacidad, Misión de Jeff, Gran Capacidad, Gran Capacidad"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Gran Capacidad</h2>
+            <p>Gran Capacidad es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>???</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>Desbloquear Almacenamiento Nivel 1</li>
+            </ul>
+            <h3>Guía de Misión</h3>
+            <p>En esta Misión tienes que desbloquear la mejora de Almacenamiento Nivel 1. (Ve a tu almacenamiento y desplázate hasta "Expansión de Almacenamiento")</p>
+            `
     },
     {
         "id": 15,
         "title": "Pluma Extraña",
-        "description": "",
+        "description": "Pluma Extraña es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Pluma Extraña",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Experiencia",
-            "1000 Dinero",
-            "Tótem: Ninja"
+        "publishDate": "2025-11-06",
+        "addressBar": "/strange-feather",
+        "showDetail": true,
+        "rewards": ["1000 Experiencia", "1000 Dinero", "Tótem: Ninja"],
+        "rightContent": [
+            {
+                "label": "Dada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "Siguiente",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Pluma Extraña - Escape from Duckov",
+            "description": "Pluma Extraña es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Pluma Extraña, Misión de Jeff, Pluma Extraña, Pluma Extraña"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Pluma Extraña</h2>
+            <p>Pluma Extraña es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>???</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>Entregar Objeto(s): 4 Pluma Desvanecida</li>
+            </ul>
+            <h3>Recompensas</h3>
+            <ul>
+                <li>1000 Experiencia</li>
+                <li>1000 Dinero</li>
+                <li>Tótem: Ninja I</li>
+            </ul>
+            <h3>Objetos Requeridos</h3>
+            <table>
+                <tr>
+                    <th>Icono</th>
+                    <th>Nombre del objeto</th>
+                    <th>Cantidad</th>
+                    <th>Uso</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Pluma Desvanecida</td>
+                    <td>4</td>
+                    <td>Necesita ser entregado.</td>
+                </tr>
+            </table>
+            <h3>Guía de Misión</h3>
+            <p>En esta Misión tienes que encontrar y entregar 4 Plumas Desvanecidas.</p>
+            `
     },
     {
         "id": 16,
-        "title": "Buen Chico",
-        "description": "",
+        "title": "Chico Simpático",
+        "description": "Chico Simpático (Nice Guy) es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Buen Chico",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Experiencia",
-            "998 Dinero",
-            "Trofeo",
-            "Poder de la Lista de Deseos",
-            "Sobre Rojo"
+        "imageAlt": "Chico Simpático",
+        "publishDate": "2025-11-06",
+        "addressBar": "/nice-guy",
+        "showDetail": true,
+        "rewards": ["1000 Experiencia", "998 Dinero", "Trofeo", "Poder de la Lista de Deseos", "Sobre Rojo"],
+        "rightContent": [
+            {
+                "label": "Entregada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "Infrastructure - Part 2"
+            },
+            {
+                "label": "Siguiente",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Chico Simpático - Escape from Duckov",
+            "description": "Chico Simpático (Nice Guy) es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Chico Simpático, misión de Jeff, Chico Simpático, Chico Simpático"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Chico Simpático</h2>
+            <p>Chico Simpático (Nice Guy) es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>Conozco a un desarrollador (no soy yo) que ha estado actuando de forma extraña últimamente y repitiendo: '¡Añade a la lista de deseos, por favor!'. Es una buena persona, pero no sé por qué se volvió loco. ¿Quieres ayudarle?</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>¡Ve a revisar el Patrón Azul en la pared de tu Base!</li>
+            </ul>
+            <img src="/images/wiki/quests16-01.webp" alt="Patrón Azul" />
+            <h3>Recompensas</h3>
+            <ul>
+                <li>1000 Experiencia</li>
+                <li>998 Dinero</li>
+                <li>Trofeo</li>
+                <li>Poder de la Lista de Deseos</li>
+                <li>Sobre Rojo</li>
+            </ul>
+            <h3>Guía de la Misión</h3>
+            <p>En esta Misión tienes que ir a la Marca Azul en la pared que dice "Wishlist" (Lista de Deseos) e interactuar con ella.</p>
+            `
     },
-
     {
         "id": 17,
         "title": "Exterminio de Mosquitos",
-        "description": "",
+        "description": "Exterminio de Mosquitos es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Exterminio de Mosquitos",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Experiencia",
-            "500 Dinero",
-            "Cañón"
+        "publishDate": "2025-11-06",
+        "addressBar": "/mosquito-extermination",
+        "showDetail": true,
+        "rewards": ["1000 Experiencia", "500 Dinero", "Cañón"],
+        "rightContent": [
+            {
+                "label": "Entregada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "???"
+            },
+            {
+                "label": "Siguiente",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Exterminio de Mosquitos - Escape from Duckov",
+            "description": "Exterminio de Mosquitos es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Exterminio de Mosquitos, misión de Jeff, Exterminio de Mosquitos, Exterminio de Mosquitos"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Exterminio de Mosquitos</h2>
+            <p>Exterminio de Mosquitos es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>Últimamente no he podido dormir por culpa de los mosquitos en mi habitación. Tengo el cañón listo, solo necesito algo de pólvora. Puedes conseguirla desmontando balas normales en la mesa de trabajo.</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>Entregar Objeto(s): 30 Pólvora</li>
+            </ul>
+            <h3>Recompensas</h3>
+            <ul>
+                <li>1000 Experiencia</li>
+                <li>500 Dinero</li>
+                <li>Cañón</li>
+            </ul>
+            <h3>Objetos Requeridos</h3>
+            <table>
+                <tr>
+                    <th>Icono</th>
+                    <th>Nombre del Objeto</th>
+                    <th>Cantidad</th>
+                    <th>Uso</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Suministros Médicos" /></td>
+                <td>Pólvora (Gunpowder)</td>
+                <td>30</td>
+                <td>Necesita ser entregada.</td>
+            </tr>
+            </table>
+            <h3>Guía de la Misión</h3>
+            <p>En esta Misión tienes que entregar 30 Pólvora a Jeff.</p>
+            `
     },
     {
         "id": 18,
         "title": "Infraestructura - Parte 4",
-        "description": "",
+        "description": "Infraestructura - Parte 4 es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Infraestructura - Parte 4",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Experiencia",
-            "500 Dinero"
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-4",
+        "showDetail": true,
+        "rewards": ["1000 Experiencia", "500 Dinero"],
+        "rightContent": [
+            {
+                "label": "Entregada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "Infrastructure - Part 2<br/>Infrastructure - Part 3"
+            },
+            {
+                "label": "Siguiente",
+                "value": "Unlocking Beacons - Part 1"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Infraestructura - Parte 4 - Escape from Duckov",
+            "description": "Infraestructura - Parte 4 es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infraestructura - Parte 4, misión de Jeff, Infraestructura - Parte 4, Infraestructura - Parte 4"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Infraestructura - Parte 4</h2>
+            <p>Infraestructura - Parte 4 es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>Nuestro escondite está tomando forma. ¡Es hora de aventurarnos más allá de las estrellas! Construir nuestro teletransportador es el primer paso.</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>Construir Teletransportador</li>
+            </ul>
+            <h3>Recompensas</h3>
+            <ul>
+                <li>1000 Experiencia</li>
+                <li>500 Dinero</li>
+            </ul>
+            <h3>Guía de la Misión</h3>
+            <p>En esta Misión tienes que construir el Teletransportador.</p>
+            `
     },
     {
         "id": 19,
-        "title": "Desbloqueando Balizas - Parte 1",
-        "description": "",
+        "title": "Desbloquear Balizas - Parte 1",
+        "description": "Desbloquear Baliza I es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Desbloqueando Balizas - Parte 1",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Experiencia",
-            "500 Dinero"
+        "imageAlt": "Desbloquear Balizas - Parte 1",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-1",
+        "showDetail": true,
+        "rewards": ["1000 Experiencia", "500 Dinero"],
+        "rightContent": [
+            {
+                "label": "Entregada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "Infrastructure - Part 4"
+            },
+            {
+                "label": "Siguiente",
+                "value": "Explore The Warehouses"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Desbloquear Balizas - Parte 1 - Escape from Duckov",
+            "description": "Desbloquear Baliza I es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infraestructura - Médico, misión de Jeff, Infraestructura - Médico, Infraestructura - Médico"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Desbloquear Balizas - Parte 1</h2>
+            <p>Desbloquear Baliza I es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>Ahora que hemos construido nuestro propio teletransportador, desbloqueemos la baliza Punto Cero (Ground Zero). Estas balizas permiten la teletransportación gratuita, aunque las coordenadas son... menos que estables. La información dice que la baliza está en el campamento de carretera. Es arriesgado, así que mantente alerta.</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>Desbloquear Baliza Punto Cero</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests19-01.webp" alt="Desbloquear Baliza Punto Cero" />
+                    <img src="/images/wiki/quests19-02.webp" alt="Desbloquear Baliza Punto Cero" />
+                </li>
+            </ul>
+    
+            <h3>Recompensas</h3>
+            <ul>
+                <li>1000 Experiencia</li>
+            </ul>
+            <h3>Guía de la Misión</h3>
+            <p>En esta Misión, tienes que llegar al campamento de carretera y desbloquear la Baliza Punto Cero para habilitar la teletransportación.</p>
+            `
     },
     {
         "id": 20,
-        "title": "Desbloqueando Balizas - Parte 2",
-        "description": "",
+        "title": "Desbloquear Balizas - Parte 2",
+        "description": "Desbloquear Baliza II es una Misión en Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Desbloqueando Balizas - Parte 2",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Experiencia",
-            "500 Dinero"
+        "imageAlt": "Desbloquear Balizas - Parte 2",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-2",
+        "showDetail": true,
+        "rewards": ["1000 Experiencia", "500 Dinero"],
+        "rightContent": [
+            {
+                "label": "Entregada por",
+                "value": "Jeff"
+            },
+            {
+                "label": "Anterior",
+                "value": "Unlocking Beacons - Part 1"
+            },
+            {
+                "label": "Siguiente",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Misión Desbloquear Balizas - Parte 2 - Escape from Duckov",
+            "description": "Desbloquear Balizas - Parte 2 es una Misión en Escape From Duckov.",
+            "keywords": "Escape from Duckov, Desbloquear Balizas - Parte 2, misión de Jeff, Desbloquear Balizas - Parte 2, Desbloquear Balizas - Parte 2"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Desbloquear Balizas - Parte 2</h2>
+            <p>Desbloquear Baliza II es una Misión en Escape From Duckov.</p>
+            <h3>Diálogo</h3>
+            <p>Finalmente nos dirigimos más lejos. Para hacer que los viajes al Área del Almacén sean más rápidos, tienes que activar la baliza de teletransporte junto a la Gasolinera en el Área del Almacén.</p>
+            <h3>Tareas</h3>
+            <ul>
+                <li>Desbloquear Baliza del Área del Almacén</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests20-01.webp" alt="Desbloquear Baliza del Área del Almacén" />
+                    <img src="/images/wiki/quests20-02.webp" alt="Desbloquear Baliza del Área del Almacén" />
+                </li>
+            </ul>
+            <h3>Recompensas</h3>
+            <ul>
+                <li>2000 Experiencia</li>
+            </ul>
+            <h3>Guía de la Misión</h3>
+            <p>En esta misión, tienes que encontrar y activar la baliza de teletransporte al lado de la Gasolinera en el Área del Almacén para desbloquear el viaje rápido.</p>
+            `
     },
     {
         "id": 21,

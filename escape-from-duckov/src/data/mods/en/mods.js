@@ -2,50 +2,62 @@ export default [
     {
         id: 1,
         title: 'ShowQuestsAreaOnMap',
-        description: 'Display item locations and quest locations on the map. The beacon quest isn\'t marked, because that would dampen your urge to explore. I prefer it unmarked—discovery is the heart of this game.',
-        imageUrl: '/images/mod-01.webp',
+        description: 'Display item locations and quest locations on the map. The MOD supports multiple languages.',
+        imageUrl: '/images/mods/mod-01.webp',
         imageAlt: 'ShowQuestsAreaOnMap Mod',
-        publishDate: '2025-10-27',
+        publishDate: '2025-11-08',
+        author: 'yexiao2', // mod 作者
+        releaseDate: '2025-10-22', // mod 发布日期
+        fileSize: '2.5MB', // mod 文件大小
+        visits: '100,000,000+', // mod 访客数量
+        subscribers: '980,000+', // mod 订阅数量
+        favorites: '10,000+', // mod 收藏数量
+        externalLink: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3591556337&searchtext=', // mod 外部链接
         addressBar: '/showquestsareaonmap',
-        category: 'utility',
-        tags: ['UTILITY', 'MAP', 'QUEST', 'LOCATION', 'DISPLAY'],
+        tags: ['Mod'],
         seo: {
             title: 'ShowQuestsAreaOnMap - Escape from Duckov Mod',
             description: 'Display item locations and quest locations on the map. The beacon quest isn\'t marked, because that would dampen your urge to explore.',
             keywords: 'Escape from Duckov, Quest Map, Item Locations, Map Display, Utility Mod',
         },
         detailsHtml: `
-        <p>This mod displays item locations and quest locations directly on the map, making exploration more efficient while preserving the discovery aspect of the game.</p>
-        
-        <h2>Features</h2>
-        <p><strong>Quest Location Display:</strong> Shows quest objectives and interactive locations on the map.</p>
-        <p><strong>Item Location Markers:</strong> Displays item spawn locations for easier looting.</p>
-        <p><strong>Preserved Exploration:</strong> Beacon quest remains unmarked to maintain the spirit of discovery.</p>
-        
-        <h2>Bug Fixes</h2>
-        <p><strong>10.26:</strong> Fixed an issue where some sub-map tasks were incorrectly marked</p>
-        <p><strong>10.26:</strong> Fixed the issue where container interaction tasks were not displayed</p>
-        <p><strong>10.25:</strong> Deliver mission display fix</p>
-        <p><strong>10.25:</strong> Fixed display of some interactive task locations</p>
-        
-        <h2>Installation</h2>
-        <p>Download from the mod repository and follow the standard mod installation process for Escape from Duckov.</p>
-        
-        <h2>Recommendation</h2>
-        <p>Recommend a mod that displays item decomposition information for enhanced crafting knowledge.</p>
+        <h2>Why Aren't Some Quests Showing Up?</h2>
+<p>Some quests are intentionally <strong>unmarked</strong> to encourage **exploration** and **discovery**, which is a core part of the game experience. For example, the "beacon quest" is left unmarked to prevent dampening your urge to explore.</p>
+
+<h3>Quests That Won't Display Locations</h3>
+<p>Quests focused on general tasks often don't show locations because the targets are **dynamic** or **random**:</p>
+<ul>
+    <li><strong>Kill monsters:</strong> Monsters can appear anywhere on the map.</li>
+    <li><strong>Turn in items that require luck to find:</strong> Items spawn randomly in containers, not fixed spots.</li>
+</ul>
+
+<h3>Quests That *Are* Displayed</h3>
+<p>The quests that *will* display locations are those with **fixed, predictable, or unique elements**:</p>
+<ul>
+    <li>Reaching a designated spot.</li>
+    <li>Retrieving a guaranteed special item from a fixed location.</li>
+    <li>Interacting with unique containers (e.g., repairing, operating, or downloading something at a specific spot).</li>
+</ul>
+<p>These quests involve <strong>fixed locations, guaranteed special items, or unique interactive containers</strong>.</p>
         `
     },
-    
+
     {
         id: 2,
         title: 'Show inventory Count',
         description: 'Show inventory count in backpack and in storage',
-        imageUrl: '/images/mod-02.webp',
+        imageUrl: '/images/mods/mod-02.webp',
         imageAlt: 'Show inventory Count Mod',
-        publishDate: '2025-10-27',
         addressBar: '/show-inventory-count',
-        category: 'utility',
-        tags: ['UTILITY', 'INVENTORY', 'COUNT', 'STORAGE', 'BACKPACK'],
+        publishDate: '2025-11-08',
+        author: '柒音繞弦', // mod 作者
+        releaseDate: '2025-10-19', // mod 发布日期
+        fileSize: '2.7MB', // mod 文件大小
+        visits: '110,000,000+', // mod 访客数量
+        subscribers: '900,000+', // mod 订阅数量
+        favorites: '10,000+', // mod 收藏数量
+        externalLink: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3589651647&searchtext=', // mod 外部链接
+        tags: ['MOD'],
         seo: {
             title: 'Show inventory Count - Escape from Duckov Mod',
             description: 'Show inventory count in backpack and in storage for better inventory management.',
@@ -63,17 +75,23 @@ export default [
         <p>Download from the mod repository and follow the standard mod installation process for Escape from Duckov.</p>
         `
     },
-    
+
     {
         id: 3,
         title: 'Better Hydration & Energy HUD',
-        description: 'At the water/food "rings," show two lines: Top: Amount needed to fill (difference) Bottom: Current value / Max value (integers, spaced). Per-item controls for X/Y offsets and font size.',
-        imageUrl: '/images/mod-03.webp',
+        description: 'This mod adds two customizable lines (difference and current/max) to the hydration/energy rings.',
+        imageUrl: '/images/mods/mod-03.webp',
         imageAlt: 'Better Hydration & Energy HUD Mod',
-        publishDate: '2025-10-27',
-        addressBar: '/better-hydration-energy-hud',
-        category: 'enhancement',
-        tags: ['ENHANCEMENT', 'HUD', 'HYDRATION', 'ENERGY', 'UI'],
+        publishDate: '2025-11-08',
+        author: 'Dorei Hime', // mod 作者
+        releaseDate: '2025-10-23', // mod 发布日期
+        fileSize: '427KB', // mod 文件大小
+        visits: '700,000+', // mod 访客数量
+        subscribers: '560,000+', // mod 订阅数量
+        favorites: '6000+', // mod 收藏数量
+        externalLink: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3591875771&searchtext=', // mod 外部链接
+        addressBar: '/showquestsareaonmap',
+        tags: ['Mod'],
         seo: {
             title: 'Better Hydration & Energy HUD - Escape from Duckov Mod',
             description: 'Enhanced hydration and energy HUD display with customizable settings and multilingual support.',
@@ -115,29 +133,30 @@ export default [
         <p><strong>Black screen display:</strong> Known issue when entering/exiting scenes, will be fixed</p>
         `
     },
-    
+
     {
         id: 4,
         title: 'Show The Cost',
-        description: 'Shows the cost! github: https://github.com/xvrsl/duckov_modding (Name suggested by @Sola [RU]) by xvrsl',
-        imageUrl: '/images/mod-04.webp',
+        description: 'Shows the cost！',
+        imageUrl: '/images/mods/mod-04.webp',
         imageAlt: 'Show The Cost Mod',
-        publishDate: '2025-10-27',
+        publishDate: '2025-11-08',
+        author: 'Dorei Hime', // mod 作者
+        releaseDate: '2025-10-23', // mod 发布日期
+        fileSize: '427KB', // mod 文件大小
+        visits: '700,000+', // mod 访客数量
+        subscribers: '560,000+', // mod 订阅数量
+        favorites: '6000+', // mod 收藏数量
+        externalLink: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3532400883&searchtext=', // mod 外部链接
         addressBar: '/show-the-cost',
-        category: 'utility',
-        tags: ['UTILITY', 'COST', 'DISPLAY', 'ITEMS', 'UI'],
         seo: {
             title: 'Show The Cost - Escape from Duckov Mod',
             description: 'Shows the cost of items in-game! github: https://github.com/xvrsl/duckov_modding (Name suggested by @Sola [RU]) by xvrsl',
             keywords: 'Escape from Duckov, Show Cost Mod, Item Cost, UI Mod, Utility Mod',
         },
         detailsHtml: `
-        <p>This mod displays the cost of items directly in-game, making it easier to evaluate loot value without external tools.</p>
-        
         <h2>Features</h2>
-        <p><strong>Item Cost Display:</strong> Shows the monetary value of items in your inventory and containers.</p>
-        <p><strong>Real-time Updates:</strong> Cost information updates dynamically as you move items around.</p>
-        <p><strong>Compatibility:</strong> Works with all item types and containers.</p>
+        <p>Shows the cost！</p>
         
         <h2>Installation</h2>
         <p><strong>GitHub:</strong> <a href="https://github.com/xvrsl/duckov_modding" target="_blank">https://github.com/xvrsl/duckov_modding</a></p>

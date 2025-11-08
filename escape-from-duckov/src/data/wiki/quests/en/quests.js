@@ -570,182 +570,528 @@ export default [
     {
         id: 11,
         title: 'Infrastructure - Part 3',
-        description: '',
+        description: 'Infrastructure - Part 3 is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Infrastructure - Part 3',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/infrastructure-part-3',
+        showDetail: true,
         rewards: ["1500 Experience", "1000 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Infrastructure'
+            },
+            {
+                label: 'Following',
+                value: 'Fishing Hobbyist'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Part 3 Quest - Escape from Duckov',
+            description: 'Infrastructure - Part 3 is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Part 3, Jeff quest, Infrastructure - Part 3, Infrastructure - Part 3',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Part 3</h2>
+        <p>Infrastructure - Part 3 is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>I made contact with another old friend. He is an equipment merchant with a lot of connections. After you set up the store, he will come in.</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Build Armor Shop</li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1500 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p>In this Quest you have to build the Armor Shop.</p>
+        `
     },
     {
         id: 12,
         title: 'Infrastructure - Medical',
-        description: '',
+        description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Infrastructure - Medical',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/infrastructure-medical',
+        showDetail: true,
         rewards: ["1000 Experience", "1000 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Infrastructure'
+            },
+            {
+                label: 'Following',
+                value: 'Fishing Hobbyist'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p>Infrastructure - Medical is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>If we can make various medical supplies ourselves, that would be much more convenient.</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Build Medic Station</li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p>In this Quest you have to build the Medic Station.</p>
+        `
     },
     {
         id: 13,
         title: 'Replica Pistol',
-        description: '',
+        description: 'Replica Pistol is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Replica Pistol',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/replica-pistol',
+        showDetail: true,
         rewards: ["1500 Experience", "1000 Money", "Unlocks Merchandise PM"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Aim for the Head'
+            },
+            {
+                label: 'Following',
+                value: 'Large Capacity<br/>Strange Feather'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Replica Pistol Quest - Escape from Duckov',
+            description: 'Replica Pistol is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Replica Pistol, Jeff quest, Replica Pistol, Replica Pistol',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Replica Pistol</h2>
+        <p>Replica Pistol is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>Bring me some pistols, let me have some studies on them. If things go well, you will be able to buy pistols from the Vending Machine.</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Submit Item(s): 2 PM</li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1500 Experience</li>
+            <li>1000 Money</li>
+            <li>Unlocks Merchandise PM</li>
+        </ul>
+        <h3>Required Items</h3>
+        <table>
+            <tr>
+                <th>Icon</th>
+                <th>Item name</th>
+                <th>Amount</th>
+                <th>Use</th>
+            </tr>
+        </table>
+        <tr>
+            <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Medical Supplies" /></td>
+            <td>PM</td>
+            <td>2</td>
+            <td>Needs to be submitted.</td>
+        </tr>
+        </table>
+        <h3>Quest Guide</h3>
+        <p>In this Quest you have to find and handover 2 PM Pistols.</p>
+        `
     },
     {
         id: 14,
         title: 'Large Capacity',
-        description: '',
+        description: 'Large Capacity is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Large Capacity',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/large-capacity',
+        showDetail: true,
         rewards: ["1000 Experience", "2000 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Replica Pistol'
+            },
+            {
+                label: 'Following',
+                value: '-'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Large Capacity Quest - Escape from Duckov',
+            description: 'Large Capacity is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Large Capacity, Jeff quest, Large Capacity, Large Capacity',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Large Capacity</h2>
+        <p>Large Capacity is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>???</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Unlock Storage Level 1</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p>In this Quest you have to unlock the storage level 1 upgrade. (Go to your storage and scroll to "Storage Expanision")</p>
+        `
     },
     {
         id: 15,
         title: 'Strange Feather',
-        description: '',
+        description: 'Strange Feather is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Strange Feather',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/strange-feather',
+        showDetail: true,
         rewards: ["1000 Experience", "1000 Money", "Totem: Ninja"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Replica Pistol'
+            },
+            {
+                label: 'Following',
+                value: '-'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Strange Feather Quest - Escape from Duckov',
+            description: 'Strange Feather is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Strange Feather, Jeff quest, Strange Feather, Strange Feather',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Strange Feather</h2>
+        <p>Strange Feather is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>???</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Submit Item(s): 4 Fading Feather</li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+            <li>Totem: Ninja I</li>
+        </ul>
+        <h3>Required Items</h3>
+        <table>
+            <tr>
+                <th>Icon</th>
+                <th>Item name</th>
+                <th>Amount</th>
+                <th>Use</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Fading Feather</td>
+                <td>4</td>
+                <td>Needs to be submitted.</td>
+            </tr>
+        </table>
+        <h3>Quest Guide</h3>
+        <p>In this Quest you have to find and handover 4 Fading Feathers.</p>
+        `
     },
     {
         id: 16,
         title: 'Nice Guy',
-        description: '',
+        description: 'Nice Guy is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Nice Guy',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/nice-guy',
+        showDetail: true,
         rewards: ["1000 Experience", "998 Money", "Trohpy", "Power of Wishlist", "Red Envelope"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Infrastructure - Part 2'
+            },
+            {
+                label: 'Following',
+                value: '-'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Nice Guy Quest - Escape from Duckov',
+            description: 'Nice Guy is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Nice Guy, Jeff quest, Nice Guy, Nice Guy',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Nice Guy</h2>
+        <p>Nice Guy is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>I know a developer (not me) who has been acting weird lately and repeatedly saying, 'Add to wishlist, please!'. He's a pretty good person, but I don't know why he went crazy. Do you want to help him?</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Go check the Blue Pattern on your Base Wall!</li>
+        </ul>
+        <img src="/images/wiki/quests16-01.webp" alt="Blue Pattern" />
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>998 Money</li>
+            <li>Tropy</li>
+            <li>Power of Wishlist</li>
+            <li>Red Envelope</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p>In this Quest you have to go to the Blue Marking on the wall reading "Wishlist" and interact with it.</p>
+        `
     },
     {
         id: 17,
         title: 'Mosquito Extermination',
-        description: '',
+        description: 'Mosquito Extermination is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Mosquito Extermination',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/mosquito-extermination',
+        showDetail: true,
         rewards: ["1000 Experience", "500 Money", "Cannon"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: '???'
+            },
+            {
+                label: 'Following',
+                value: '-'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Mosquito Extermination Quest - Escape from Duckov',
+            description: 'Mosquito Extermination is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Mosquito Extermination, Jeff quest, Mosquito Extermination, Mosquito Extermination',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Mosquito Extermination</h2>
+        <p>Mosquito Extermination is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>These days I couldn't sleep because of the mosquitoes in my room. I have the cannon ready, just need some gunpowder. You can get that by disassembling regular bullets at the workbench.</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Submit Item(s): 30 Gunpowder</li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>500 Money</li>
+            <li>Cannon</li>
+        </ul>
+        <h3>Required Items</h3>
+        <table>
+            <tr>
+                <th>Icon</th>
+                <th>Item name</th>
+                <th>Amount</th>
+                <th>Use</th>
+            </tr>
+        </table>
+        <tr>
+            <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Medical Supplies" /></td>
+            <td>Gunpowder</td>
+            <td>30</td>
+            <td>Needs to be submitted.</td>
+        </tr>
+        </table>
+        <h3>Quest Guide</h3>
+        <p>In this Quest you have to handover 30 Gunpowder to Jeff.</p>
+        `
     },
     {
         id: 18,
         title: 'Infrastructure - Part 4',
-        description: '',
+        description: 'Infrastructure - Part 4 is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Infrastructure - Part 4',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/infrastructure-part-4',
+        showDetail: true,
         rewards: ["1000 Experience", "500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Infrastructure - Part 2<br/>Infrastructure - Part 3'
+            },
+            {
+                label: 'Following',
+                value: 'Unlocking Beacons - Part 1'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Part 4 Quest - Escape from Duckov',
+            description: 'Infrastructure - Part 4 is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Part 4, Jeff quest, Infrastructure - Part 4, Infrastructure - Part 4',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Part 4</h2>
+        <p>Infrastructure - Part 4 is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>Our hideout is taking shape. It's time to venture further into the stars! Building our teleporter is the first step.</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Build Teleporter</li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>500 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p>In this Quest you have to build the Teleporter.</p>
+        `
     },
     {
         id: 19,
         title: 'Unlocking Beacons - Part 1',
-        description: '',
+        description: 'Unlock Beacon I is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Unlocking Beacons - Part 1',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/unlocking-beacons-part-1',
+        showDetail: true,
         rewards: ["1000 Experience", "500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Infrastructure - Part 4'
+            },
+            {
+                label: 'Following',
+                value: 'Explore The Warehouses'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Unlocking Beacons - Part 1</h2>
+        <p>Unlock Beacon I is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>Now that we've built our own teleporter, let's unlock the Ground Zero beacon. These beacons allow free teleportation—though the coordinates are... less than stable. Intel says the beacon's at the road camp. It's risky, so stay sharp.</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Unlock Ground Zero Beacon</li>
+             <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <img src="/images/wiki/quests19-01.webp" alt="Unlock Ground Zero Beacon" />
+                <img src="/images/wiki/quests19-02.webp" alt="Unlock Ground Zero Beacon" />
+            </li>
+        </ul>
+
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p>In this Quest, you need to reach the road camp and unlock the Ground Zero Beacon to enable teleportation.</p>
+        `
     },
     {
         id: 20,
         title: 'Unlocking Beacons - Part 2',
-        description: '',
+        description: 'Unlock Beacon II is a Quest in Escape From Duckov.',
         imageUrl: '/images/wiki/quests-01.webp',
         imageAlt: 'Unlocking Beacons - Part 2',
-        publishDate: '2025-10-30',
-        addressBar: '',
-        showDetail: false,
+        publishDate: '2025-11-06',
+        addressBar: '/unlocking-beacons-part-2',
+        showDetail: true,
         rewards: ["1000 Experience", "500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: 'Jeff'
+            },
+            {
+                label: 'Previous',
+                value: 'Unlocking Beacons - Part 1'
+            },
+            {
+                label: 'Following',
+                value: '-'
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Unlocking Beacons - Part 2 Quest - Escape from Duckov',
+            description: 'Unlocking Beacons - Part 2 is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Unlocking Beacons - Part 2, Jeff quest, Unlocking Beacons - Part 2, Unlocking Beacons - Part 2',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Unlocking Beacons - Part 2</h2>
+        <p>Unlock Beacon II is a Quest in Escape From Duckov.</p>
+        <h3>Dialogue</h3>
+        <p>We're finally heading farther out. To make trips to the Warehouse Area faster, you need to activate the teleport beacon beside the Gas Station in the Warehouse Area.</p>
+        <h3>Tasks</h3>
+        <ul>
+            <li>Unlock Warehouse Area Beacon</li>
+             <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <img src="/images/wiki/quests20-01.webp" alt="Unlock Warehouse Area Beacon" />
+                <img src="/images/wiki/quests20-02.webp" alt="Unlock Warehouse Area Beacon" />
+            </li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>2000 Experience</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p>In this quest, you need to find and activate the teleport beacon next to the Gas Station in the Warehouse Area to unlock fast travel.</p>
+        `
     },
     {
         id: 21,
@@ -757,13 +1103,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1500 Experience", "1500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 22,
@@ -775,13 +1150,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["2000 Experience", "1000 Money", "1 Flash Light", "Unlocks Merchandise Flash Light"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 23,
@@ -793,13 +1197,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1000 Experience", "2000 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 24,
@@ -811,13 +1244,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["2500 Experience", "450 Money", "Armor Lv3", "Unlocks Merchandise Armor Lv3 at Orange's Armor Shop", "Unlocks Merchandise SWAT Helmet at Orange's Armor Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 25,
@@ -829,13 +1291,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1000 Experience", "500 Money", "2 Gas Mask", "Unlocks Merchandise Travelling Bag at Orange's Armor Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 26,
@@ -847,13 +1338,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["2000 Experience", "500 Money", "Unlocks Merchandise GPNVG-18 Night Vision Goggles at Orange's Armor Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 27,
@@ -865,13 +1385,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["2500 Experience", "450 Money", "Unlocks Merchandise Armor Lv4 at Orange's Armor Shop", "Unlocks Merchandise Sight PRO at Orange's Armor Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 28,
@@ -883,13 +1432,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1500 Experience", "1500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 29,
@@ -901,13 +1479,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["500 Experience", "1500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 30,
@@ -919,13 +1526,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1500 Experience", "2000 Money", "2 Anodyne"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 31,
@@ -937,13 +1573,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1000 Experience", "2500 Money", "2 Yellow Injection", "2 Weight Bearing Injection"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 32,
@@ -955,13 +1620,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["3000 Experience", "500 Money", "2 Space Storm Protection Shot", "Unlocks Merchandise Space Storm Protection Shot"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 33,
@@ -973,13 +1667,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["3000 Experience", "500 Money", "2 Space Storm Protection Shot", "2 Super Glue of the Type 'A'"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 34,
@@ -991,13 +1714,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["2000 Experience", "2000 Money", "Unlock Merchandise AK-74U at Xavier's Weapon Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 35,
@@ -1009,13 +1761,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["2000 Experience", "1500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 36,
@@ -1027,13 +1808,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["2000 Experience", "1500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 37,
@@ -1045,13 +1855,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["3000 Experience", "2000 Money", "Unlocks Merchandise SKS-455 at Xavier's Weapon Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 38,
@@ -1063,13 +1902,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1000 Experience", "500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 39,
@@ -1081,13 +1949,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["15000 Experience", "500 Money", "Unlocks Merchandise PPSh at Xavier's Weapon Shop", "Unlocks Merchandise L-Normal Bullet at Xavier's Weapon Shop", "Unlocks Merchandise Normal Sniper Bullet at Xavier's Weapon Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 40,
@@ -1099,13 +1996,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1000 Experience", "500 Money", "Unlocks Merchandise AK-47 at Xavier's Weapon Shop", "Unlocks Merchandise Mag-Normal Bullet at Xavier's Weapon Shop", "Unlocks Merchandise Control Stock I at Xavier's Weapon Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 41,
@@ -1117,13 +2043,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["3000 Experience", "5500 Money", "2 Super Glue B"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 42,
@@ -1135,13 +2090,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["2200 Experience", "1500 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 43,
@@ -1153,13 +2137,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["4000 Experience", "3500 Money", "Unlocks Merchandise SV98 at Xavier's Weapon Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 44,
@@ -1171,13 +2184,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1000 Experience", "2000 Money", "Unlocks Merchandise Balance Stock II at Xavier's Weapon Shop", "Unlocks Merchandise 2x Scope at Xavier's Weapon Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 45,
@@ -1189,13 +2231,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["3500 Experience", "3000 Money", "Unlocks Merchandise S-Low-Level-Armor-Piercing Bullet at Xavier's Weapon Shop", "Unlocks Merchandise AR-Low-Level-Armor-Piercing Bullet at Xavier's Weapon Shop", "Unlocks Merchandise Low-Grade-Armor-Piercing Shotgun Cartridge at Xavier's Weapon Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 46,
@@ -1207,13 +2278,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["5000 Experience", "4500 Money", "Unlocks Merchandise M107 at Xavier's Weapon Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 47,
@@ -1225,13 +2325,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1000 Experience", "4000 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 48,
@@ -1243,13 +2372,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["4000 Experience", "5000 Money", "1 VPO-101"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 49,
@@ -1261,13 +2419,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["5000 Experience", "6000 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 50,
@@ -1279,13 +2466,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["6000 Experience", "648 Money", "1 Golden Star", "3 Challenge Ferry Ticket"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 51,
@@ -1297,13 +2513,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1000 Experience", "500 Money", "1 Endurance Shot", "3 DEMO Ultimate Challenge Ticket", "Unlocks Merchandise Endurance Shot at Vending Machine Shop", "Unlocks Merchandise DEMO Ultimate Challenge Ticket at Vending Machine Shop"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 52,
@@ -1315,13 +2560,42 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["1000 Experience", "998 Money"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
     },
     {
         id: 53,
@@ -1333,13 +2607,92 @@ export default [
         addressBar: '',
         showDetail: false,
         rewards: ["2800 Experience", "648 Money", "1 Golden Star", "3 DEMO Ultimate Challenge Ticket"],
-        rightContent: [],
+        rightContent: [
+            {
+                label: 'Given by',
+                value: ''
+            },
+            {
+                label: 'Previous',
+                value: ''
+            },
+            {
+                label: 'Following',
+                value: ''
+            }
+        ],
         seo: {
-            title: '',
-            description: '',
-            keywords: '',
+            title: 'Infrastructure - Medical Quest - Escape from Duckov',
+            description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+            keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
         },
-        detailsHtml: ``
-    }
+        detailsHtml: `
+        <h2>Infrastructure - Medical</h2>
+        <p></p>
+        <h3>Dialogue</h3>
+        <p></p>
+        <h3>Tasks</h3>
+        <ul>
+            <li></li>
+        </ul>
+        <h3>Rewards</h3>
+        <ul>
+            <li>1000 Experience</li>
+            <li>1000 Money</li>
+        </ul>
+        <h3>Quest Guide</h3>
+        <p></p>
+        `
+    },
+
+
+
+    // {
+    //     id: 1,
+    //     title: '',
+    //     description: '',
+    //     imageUrl: '/images/wiki/quests-01.webp',
+    //     imageAlt: '',
+    //     publishDate: '2025-11-06',
+    //     addressBar: '/',
+    //     showDetail: false,
+    //     rewards: ["1000 Experience", "1000 Money"],
+    //     rightContent: [
+    //         {
+    //             label: 'Given by',
+    //             value: ''
+    //         },
+    //         {
+    //             label: 'Previous',
+    //             value: ''
+    //         },
+    //         {
+    //             label: 'Following',
+    //             value: ''
+    //         }
+    //     ],
+    //     seo: {
+    //         title: 'Infrastructure - Medical Quest - Escape from Duckov',
+    //         description: 'Infrastructure - Medical is a Quest in Escape From Duckov.',
+    //         keywords: 'Escape from Duckov, Infrastructure - Medical, Jeff quest, Infrastructure - Medical, Infrastructure - Medical',
+    //     },
+    //     detailsHtml: `
+    //     <h2>Infrastructure - Medical</h2>
+    //     <p></p>
+    //     <h3>Dialogue</h3>
+    //     <p></p>
+    //     <h3>Tasks</h3>
+    //     <ul>
+    //         <li></li>
+    //     </ul>
+    //     <h3>Rewards</h3>
+    //     <ul>
+    //         <li>1000 Experience</li>
+    //         <li>1000 Money</li>
+    //     </ul>
+    //     <h3>Quest Guide</h3>
+    //     <p></p>
+    //     `
+    // },
 ]
 

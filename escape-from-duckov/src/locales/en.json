@@ -86,6 +86,12 @@
       "keywords": "Escape from Duckov mods, custom weapons, map mods, gameplay tweaks, visual mods, community content",
       "type": "article"
     },
+    "steamCharts": {
+      "title": "Escape from Duckov Steam Charts | Live Player Count & Trends",
+      "description": "Check the escape from duckov steam charts to monitor the live escape from duckov player count, 24-hour peaks, review momentum, and community growth in one place.",
+      "keywords": "Escape from Duckov steam charts, escape from Duckov player count, SteamDB, survival stats, raid trends",
+      "type": "website"
+    },
     "items": {
       "title": "Escape from Duckov Items | Complete Weapon & Equipment Database",
       "description": "Browse the complete Escape from Duckov items database featuring weapons, equipment, ammunition, keys, and fishing gear. Find detailed stats, descriptions, and information for every item in Duckov.",
@@ -163,7 +169,8 @@
     "hero": {
       "title": "Escape From Duckov Fans & Community",
       "subtitle": "Escape from Duckov is a PVE indie survival RPG — in a duck's world!. Scavenge for resources, build your hideout, and upgrade your gear in the world of Duckov. Start from nothing and rise to the top. Outwit hostile ducks, survive, or make it out alive.",
-      "steamButton": "Play on Steam"
+      "steamButton": "Play on Steam",
+      "steamChartsButton": "View Steam Charts"
     },
     "video": {
       "playIcon": "▶",
@@ -392,9 +399,15 @@
   },
   "ModsPage": {
     "title": "Escape from Duckov Mods",
-    "subtitle": "Discover and download the best Escape from Duckov mods created by the community. Enhance your gameplay with custom modifications including quality of life improvements, new features, visual enhancements, and gameplay tweaks. Browse mods by category and find the perfect additions to your Duckov experience."
+    "subtitle": "Discover and download the best Escape from Duckov mods created by the community. Enhance your gameplay with custom modifications including quality of life improvements, new features, visual enhancements, and gameplay tweaks. Browse mods by category and find the perfect additions to your Duckov experience.",
+    "stats": {
+      "releaseDate": "Release Date",
+      "subscribers": "Subscribers"
+    }
   },
-  "ModDetailPage": {},
+  "ModDetailPage": {
+    "linkLabel": "Mod Link"
+  },
   "ItemsPage": {
     "title": "Escape from Duckov Items",
     "subtitle": "Comprehensive Escape from Duckov database of weapons, equipment, ammunition, keys, and fish. Browse firearms, melee weapons, armor, helmets, ammunition, keys, fish, and protective gear. Find stats, descriptions, and details for every item in Duckov's arsenal.",
@@ -870,6 +883,50 @@
     "thankYou": {
       "title": "Thank You",
       "text": "Thank you for being part of the DuckovGame community! Your feedback and support help us continue to provide the best experience for our users worldwide."
+    }
+  },
+  "SteamChartsPage": {
+    "title": "Steam Charts Snapshot",
+    "hero": {
+      "description": "Escape from Duckov steam charts give you a live window into raid momentum, peak-hour surges, and how the duck militia is growing every season.",
+      "points": {
+        "live": "Live escape from Duckov player count updated straight from SteamDB.",
+        "peak": "Track 24h and all-time peaks to time your raids with the community.",
+        "reviews": "Monitor review swings, follower bursts, and wishlist spikes in one glance."
+      }
+    },
+    "note": "Stats mirror SteamDB snapshots and are for quick reference only.",
+    "cards": {
+      "playersNow": {
+        "label": "Players Online",
+        "value": "130k+",
+        "desc": "Duckov raids stay busy around the clock with tens of thousands of squads gearing up."
+      },
+      "peak24h": {
+        "label": "24h Peak",
+        "value": "170k+",
+        "desc": "Peak hours consistently sit well above launch week, showing demand is still climbing."
+      },
+      "positiveReviews": {
+        "label": "Positive Reviews",
+        "value": "94%+",
+        "desc": "Overwhelming praise for progression depth, co-op coordination, and hideout upgrades."
+      },
+      "followers": {
+        "label": "Steam Followers",
+        "value": "95k+",
+        "desc": "A massive community bookmarking wipes, balance passes, and new gear drops."
+      }
+    },
+    "summary": {
+      "title": "Why Escape from Duckov Player Count Matters",
+      "description": "These Pulse points translate the steam charts into real raid decisions—when to dive in, when to stockpile, and when to expect the next boom in Duckov. Use them alongside your stash planning and hideout upgrades for maximum efficiency.",
+      "items": {
+        "ranking": "Top survival ranking: regularly sits in the top 10 for daily active shooters.",
+        "twitch": "Twitch exposure: thousands tune in for raid extractions, hideout tours, and tournaments every day.",
+        "owners": "Estimated 1M+ owners worldwide, with fresh squads onboarding every wipe cycle.",
+        "community": "Community momentum: wishlist spikes and review floods map directly to upcoming content drops."
+      }
     }
   }
 }

@@ -16,20 +16,33 @@
         <section class="mods-content">
             <div class="container">
                 <div class="mods-grid">
-                    <div 
-                        v-for="mod in mods" 
-                        :key="mod.id" 
-                        class="mod-card"
-                        @click="goToMod(mod.addressBar)"
-                    >
-                        <div class="mod-card-header">
-                            <span class="category-tag">{{ mod.category.toUpperCase() }}</span>
+                    <div v-for="mod in mods" :key="mod.id" class="mod-card" @click="goToMod(mod.addressBar)">
+                        <div class="mod-card-media">
+                            <img v-if="mod.imageUrl" :src="mod.imageUrl" :alt="mod.imageAlt || mod.title"
+                                class="mod-card-image" />
+                            <div v-else class="mod-card-image placeholder"></div>
                         </div>
-                        <h3 class="mod-title">{{ mod.title }}</h3>
-                        <p class="mod-description">{{ mod.description }}</p>
-                        <div class="mod-tags">
-                            <span v-for="tag in mod.tags" :key="tag" class="tag">{{ tag }}</span>
+                        <div class="mod-card-content">
+                                <h3 class="mod-title">{{ mod.title }}</h3>
+                                <p class="mod-description">{{ mod.description }}</p>
+                                <div class="mod-stats">
+                                    <div v-if="mod.releaseDate" class="mod-stat-item">
+                                        <span class="mod-stat-label">{{ t('ModsPage.stats.releaseDate') }}</span>
+                                        <span class="mod-stat-value">{{ formatReleaseDate(mod.releaseDate) }}</span>
+                                    </div>
+                                    <div v-if="mod.subscribers !== undefined && mod.subscribers !== null"
+                                        class="mod-stat-item">
+                                        <span class="mod-stat-label">{{ t('ModsPage.stats.subscribers') }}</span>
+                                        <span class="mod-stat-value">{{ formatNumber(mod.subscribers) }}</span>
+                                    </div>
+                                </div>
+                            <div class="mod-footer">
+                                <div class="mod-tags">
+                                    <span v-for="tag in mod.tags" :key="tag" class="tag">{{ tag }}</span>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -38,7 +51,7 @@
 </template>
 
 <script setup>
-import { onMounted, watch } from 'vue'
+import { computed, onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useModsData } from '../composables/useModsData'
@@ -47,6 +60,30 @@ import { getLocalizedPath } from '../utils/routeUtils'
 const router = useRouter()
 const { t, locale } = useI18n()
 const { mods, loadData } = useModsData()
+
+const isEnglishLocale = computed(() => locale.value?.startsWith('en'))
+
+const formatNumber = (value) => {
+    if (typeof value === 'number') {
+        return value.toLocaleString()
+    }
+    return value ?? ''
+}
+
+const formatReleaseDate = (value) => {
+    if (!value) return ''
+    if (isEnglishLocale.value) {
+        const date = new Date(value)
+        if (!Number.isNaN(date.getTime())) {
+            return new Intl.DateTimeFormat('en-US', {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric',
+            }).format(date)
+        }
+    }
+    return value
+}
 
 onMounted(() => {
     loadData()
@@ -71,29 +108,79 @@ const goToMod = (addressBar) => {
 .mods-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 20px;
 }
 
 .mod-card {
-    background: rgba(30, 30, 30, 0.8);
-    border-radius: 8px;
-    border: 1px solid rgba(250, 147, 23, 0.2);
-    padding: 24px;
+    background: rgba(24, 24, 24, 0.88);
+    border-radius: 16px;
+    border: 1px solid rgba(250, 147, 23, 0.18);
     transition: all 0.3s ease;
     cursor: pointer;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
     position: relative;
     overflow: hidden;
 }
 
-.mod-card:hover {
-    transform: translateY(-4px);
-    border-color: rgba(250, 147, 23, 0.4);
-    box-shadow: 0 8px 32px rgba(250, 147, 23, 0.2);
+.mod-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top left, rgba(250, 147, 23, 0.2), transparent 60%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
 }
 
-.mod-card-header {
-    margin-bottom: 16px;
+.mod-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(250, 147, 23, 0.32);
+    box-shadow: 0 18px 40px rgba(250, 147, 23, 0.22);
+}
+
+.mod-card:hover::before {
+    opacity: 1;
+}
+
+.mod-card-media {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, rgba(250, 147, 23, 0.35), rgba(24, 24, 24, 0.6));
+}
+
+.mod-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: saturate(1.05);
+    transition: transform 0.4s ease;
+}
+
+.mod-card:hover .mod-card-image {
+    transform: scale(1.04);
+}
+
+.mod-card-image.placeholder {
+    background: repeating-linear-gradient(135deg,
+            rgba(250, 147, 23, 0.18),
+            rgba(250, 147, 23, 0.18) 16px,
+            rgba(24, 24, 24, 0.4) 16px,
+            rgba(24, 24, 24, 0.4) 32px);
+}
+
+.mod-card-content {
+    padding: 1rem;
+}
+
+.mod-footer {
+    position: relative;
+    z-index: 1;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(250, 147, 23, 0.12);
 }
 
 .category-tag {
@@ -105,21 +192,52 @@ const goToMod = (addressBar) => {
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.5px;
+    font-size: 0.6rem;
 }
 
 .mod-title {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: var(--text-heading);
-    margin-bottom: 12px;
-    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
 }
 
 .mod-description {
+    position: relative;
+    z-index: 1;
     color: var(--text-secondary);
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1px;
+}
+
+.mod-stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 18px;
+}
+
+.mod-stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: rgba(255, 231, 198, 0.9);
+}
+
+.mod-stat-label {
+    font-weight: 600;
+    font-size: 0.68rem;
+    letter-spacing: 0.6px;
+    color: rgba(250, 147, 23, 0.78);
+}
+
+.mod-stat-value {
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.2px;
 }
 
 .mod-tags {
@@ -130,19 +248,21 @@ const goToMod = (addressBar) => {
 }
 
 .tag {
-    background: transparent;
-    border: 1px solid rgba(250, 147, 23, 0.3);
-    color: var(--text-secondary);
-    padding: 4px 10px;
-    border-radius: 16px;
-    font-size: 0.75rem;
-    font-weight: 500;
+    background: rgba(250, 147, 23, 0.12);
+    border: 1px solid rgba(250, 147, 23, 0.22);
+    color: rgba(255, 213, 154, 0.94);
+    padding: 2px 12px;
+    border-radius: 999px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
     transition: all 0.3s ease;
 }
 
 .mod-card:hover .tag {
-    border-color: rgba(250, 147, 23, 0.6);
+    border-color: rgba(250, 147, 23, 0.56);
     color: #FA9317;
+    background: rgba(250, 147, 23, 0.2);
 }
 
 /* Medium screens (≤1024px) */
@@ -152,10 +272,6 @@ const goToMod = (addressBar) => {
         gap: 16px;
     }
 
-    .mod-card {
-        padding: 20px;
-    }
-
     .mod-title {
         font-size: 1.3rem;
     }
@@ -163,10 +279,28 @@ const goToMod = (addressBar) => {
     .mod-description {
         font-size: 0.9rem;
     }
+
+    .mod-card-media {
+        height: 160px;
+        margin-bottom: 1.1rem;
+    }
+
+    .mod-stats {
+        gap: 10px 16px;
+    }
+
+    .mod-stat-label {
+        font-size: 0.7rem;
+    }
+
+    .mod-stat-value {
+        font-size: 0.8rem;
+    }
 }
 
 /* Mobile screens (≤768px) */
 @media (max-width: 768px) {
+
     /* Typography - Mobile Font Sizes */
     .page-title {
         font-size: 24px;
@@ -182,15 +316,14 @@ const goToMod = (addressBar) => {
         margin-bottom: 10px;
     }
 
-    .mod-description {
-        font-size: 12px;
-        margin-bottom: 10px;
+    .mod-card-media {
+        height: 140px;
+        margin-bottom: 1rem;
     }
 
-    .category-tag,
-    .tag {
-        font-size: 12px;
-        padding: 4px 8px;
+    .mod-stats {
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
 
     /* Layout Adjustments */
@@ -203,17 +336,19 @@ const goToMod = (addressBar) => {
         gap: 10px;
     }
 
-    .mod-card {
-        padding: 16px;
-    }
-
-    .mod-card-header {
-        margin-bottom: 10px;
-    }
-
     .mod-tags {
         gap: 6px;
         margin-bottom: 0;
+    }
+
+    .mod-footer {
+        margin-top: 12px;
+        padding-top: 12px;
+    }
+
+    .tag {
+        font-size: 12px;
+        padding: 4px 10px;
     }
 }
 </style>

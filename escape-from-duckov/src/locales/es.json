@@ -86,6 +86,12 @@
             "keywords": "Mods de Escape from Duckov, armas personalizadas, mods de mapas, ajustes de jugabilidad, mods visuales, contenido de la comunidad",
             "type": "article"
         },
+        "steamCharts": {
+            "title": "Gráficos de Steam de Escape from Duckov | Recuento de jugadores en vivo y tendencias",
+            "description": "Consulta los gráficos de Steam de Escape from Duckov para monitorizar el recuento de jugadores en vivo, los picos de 24 horas, el impulso de las reseñas y el crecimiento de la comunidad en un solo lugar.",
+            "keywords": "Escape from Duckov gráficos de Steam, Escape from Duckov recuento de jugadores, SteamDB, estadísticas de supervivencia, tendencias de incursiones",
+            "type": "website"
+        },
         "items": {
             "title": "Artículos de Escape from Duckov | Base de Datos Completa de Armas y Equipamiento",
             "description": "Explora la base de datos completa de artículos de Escape from Duckov que incluye armas, equipamiento, munición, llaves y equipo de pesca. Encuentra estadísticas detalladas, descripciones e información de cada artículo en Duckov.",
@@ -161,9 +167,10 @@
     },
     "HomePage": {
         "hero": {
-            "title": "Escape from Duckov Comunidad de Fans",
-            "subtitle": "**Escape from Duckov** es un RPG indie de supervivencia PVE — ¡ambientado en un mundo de patos! Busca recursos, construye tu escondite y mejora tu equipo en el mundo de Duckov. Empieza de cero y llega a la cima. Sé más astuto que los patos hostiles, sobrevive, o sal con vida.",
-            "steamButton": "Jugar en Steam"
+            "title": "Fans y Comunidad de Escape From Duckov",
+            "subtitle": "Escape from Duckov es un RPG de supervivencia independiente PVE, ¡ambientado en un mundo de patos! Busca recursos, construye tu escondite y mejora tu equipo en el mundo de Duckov. Empieza sin nada y asciende hasta la cima. Sé más astuto que los patos hostiles, sobrevive o sal de ahí con vida.",
+            "steamButton": "Jugar en Steam",
+            "steamChartsButton": "Ver Gráficos de Steam"
         },
         "video": {
             "playIcon": "▶",
@@ -392,9 +399,15 @@
     },
     "ModsPage": {
         "title": "Mods de Escape from Duckov",
-        "subtitle": "Descubre y descarga los mejores mods de Escape from Duckov creados por la comunidad. Mejora tu jugabilidad con modificaciones personalizadas que incluyen mejoras en la calidad de vida, nuevas características, mejoras visuales y ajustes de juego. Explora mods por categoría y encuentra las adiciones perfectas para tu experiencia en Duckov."
+        "subtitle": "Descubre y descarga los mejores mods de Escape from Duckov creados por la comunidad. Mejora tu jugabilidad con modificaciones personalizadas que incluyen mejoras en la calidad de vida, nuevas características, mejoras visuales y ajustes de juego. Explora mods por categoría y encuentra las adiciones perfectas para tu experiencia en Duckov.",
+        "stats": {
+            "releaseDate": "Fecha de lanzamiento",
+            "subscribers": "Suscriptores"
+        }
     },
-    "ModDetailPage": {},
+    "ModDetailPage": {
+        "linkLabel": "Enlace del Mod"
+    },
     "ItemsPage": {
         "title": "Artículos de Escape from Duckov",
         "subtitle": "Base de datos completa de Escape from Duckov de armas, equipamiento, munición, llaves y peces. Explora armas de fuego, armas cuerpo a cuerpo, armaduras, cascos, munición, llaves, peces y equipo de protección. Encuentra estadísticas, descripciones y detalles de cada artículo en el arsenal de Duckov.",
@@ -870,6 +883,50 @@
         "thankYou": {
             "title": "Gracias",
             "text": "¡Gracias por ser parte de la comunidad DuckovGame! Sus comentarios y apoyo nos ayudan a seguir brindando la mejor experiencia a nuestros usuarios en todo el mundo."
+        }
+    },
+    "SteamChartsPage": {
+        "title": "Instantánea de Gráficos de Steam",
+        "hero": {
+            "description": "Los gráficos de Steam de Escape from Duckov te ofrecen una ventana en vivo sobre el impulso de las incursiones, los picos de las horas punta y cómo crece la milicia de patos cada temporada.",
+            "points": {
+                "live": "Recuento de jugadores de Escape from Duckov en vivo, actualizado directamente desde SteamDB.",
+                "peak": "Rastrea los picos de 24 horas y de todos los tiempos para sincronizar tus incursiones con la comunidad.",
+                "reviews": "Monitoriza los cambios en las reseñas, los aumentos repentinos de seguidores y los picos en la lista de deseos de un vistazo."
+            }
+        },
+        "note": "Las estadísticas reflejan instantáneas de SteamDB y son solo para referencia rápida.",
+        "cards": {
+            "playersNow": {
+                "label": "Jugadores en línea",
+                "value": "130k+",
+                "desc": "Las incursiones en Duckov se mantienen ocupadas las 24 horas del día con decenas de miles de escuadrones preparándose."
+            },
+            "peak24h": {
+                "label": "Pico de 24h",
+                "value": "170k+",
+                "desc": "Las horas pico se sitúan consistentemente por encima de la semana de lanzamiento, lo que demuestra que la demanda sigue creciendo."
+            },
+            "positiveReviews": {
+                "label": "Reseñas Positivas",
+                "value": "94%+",
+                "desc": "Elogios abrumadores por la profundidad de la progresión, la coordinación cooperativa y las mejoras del escondite."
+            },
+            "followers": {
+                "label": "Seguidores en Steam",
+                "value": "95k+",
+                "desc": "Una comunidad masiva que marca los 'wipes', los ajustes de equilibrio y los nuevos lanzamientos de equipo."
+            }
+        },
+        "summary": {
+            "title": "¿Por qué es importante el recuento de jugadores de Escape from Duckov?",
+            "description": "Estos Puntos Clave ('Pulse points') traducen los gráficos de Steam en decisiones reales de incursión: cuándo sumergirse, cuándo acumular y cuándo esperar el próximo boom en Duckov. Úsalos junto con tu planificación de alijo y mejoras de escondite para una máxima eficiencia.",
+            "items": {
+                "ranking": "Máximo ranking de supervivencia: se sitúa regularmente entre los 10 primeros en cuanto a jugadores de disparos activos diariamente.",
+                "twitch": "Exposición en Twitch: miles sintonizan diariamente las extracciones de incursiones, los tours por los escondites y los torneos.",
+                "owners": "Se estima más de 1 millón de propietarios en todo el mundo, con nuevos escuadrones uniéndose en cada ciclo de 'wipe'.",
+                "community": "Impulso de la comunidad: los picos en la lista de deseos y las inundaciones de reseñas se correlacionan directamente con los próximos lanzamientos de contenido."
+            }
         }
     }
 }

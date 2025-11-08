@@ -81,10 +81,16 @@
             "type": "website"
         },
         "modDetail": {
-            "title": "Escape from Duckov Mod | 最高のカスタム武器、マップ、ゲームプレイ調整",
-            "description": "最高の『Escape from Duckov』Modを発見 — 新しい武器、カスタムマップ、強化されたビジュアル、ゲームプレイの調整。コミュニティの作品でサバイバル体験をアップグレード。",
-            "keywords": "Escape from Duckov Mod, カスタム武器, マップMod, ゲームプレイ調整, ビジュアルMod, コミュニティコンテンツ",
+            "title": "Escape from Duckov Mods | Best Custom Weapons, Maps & Gameplay Tweaks",
+            "description": "Discover the best Escape from Duckov mods — new weapons, custom maps, enhanced visuals, and gameplay tweaks. Upgrade your survival experience with community creations.",
+            "keywords": "Escape from Duckov mods, custom weapons, map mods, gameplay tweaks, visual mods, community content",
             "type": "article"
+        },
+        "steamCharts": {
+            "title": "Escape from Duckov Steam チャート | リアルタイムプレイヤー数とトレンド",
+            "description": "Escape from Duckov の Steam チャートをチェックして、リアルタイムのプレイヤー数、24時間ピーク、レビューの勢い、コミュニティの成長をまとめて確認できます。",
+            "keywords": "Escape from Duckov Steam チャート, Escape from Duckov プレイヤー数, SteamDB, サバイバル統計, レイドトレンド",
+            "type": "website"
         },
         "items": {
             "title": "Escape from Duckov アイテム | 完全な武器＆装備データベース",
@@ -162,8 +168,9 @@
     "HomePage": {
         "hero": {
             "title": "Escape from Duckov ファンコミュニティ",
-            "subtitle": "『Escape from Duckov』は、アヒルの世界を舞台にした PVE のインディーサバイバル RPG です。Duckov の世界で資源を漁り、隠れ家を建設し、装備をアップグレードしましょう。何もないところから始まり、頂点を目指します。敵対的なアヒルを出し抜き、生き残るか、生きて脱出するか。",
-            "steamButton": "Steamでプレイ"
+            "subtitle": "Escape from Duckov は PVE インディーサバイバル RPG — ダックの世界で繰り広げられる冒険です！資源を集め、隠れ家を構築し、装備をアップグレードして Duckov の世界で成り上がりましょう。無一文から始めて頂点に到達し、敵対するダックを出し抜いて生還を目指してください。",
+            "steamButton": "Play on Steam",
+            "steamChartsButton": "View Steam Charts"
         },
         "video": {
             "playIcon": "▶",
@@ -388,13 +395,19 @@
         "updated": "更新日"
     },
     "MapsDetailPage": {
-        "otherMaps": "他の地図"
+        "otherMaps": "その他のマップ"
     },
     "ModsPage": {
         "title": "Escape from Duckov Mod",
-        "subtitle": "コミュニティによって作成された最高の『Escape from Duckov』Modを発見し、ダウンロードします。QoL の改善、新機能、ビジュアル強化、ゲームプレイの調整などのカスタム変更でゲームプレイを強化。カテゴリー別に Mod を閲覧し、あなたの Duckov 体験に完璧な追加を見つけてください。"
+        "subtitle": "コミュニティによって作成された最高の『Escape from Duckov』Modを発見し、ダウンロードします。QoL の改善、新機能、ビジュアル強化、ゲームプレイの調整などのカスタム変更でゲームプレイを強化。カテゴリー別に Mod を閲覧し、あなたの Duckov 体験に完璧な追加を見つけてください。",
+        "stats": {
+            "releaseDate": "リリース日",
+            "subscribers": "購読者数"
+        }
     },
-    "ModDetailPage": {},
+    "ModDetailPage": {
+        "linkLabel": "Mod リンク"
+    },
     "ItemsPage": {
         "title": "Escape from Duckov アイテム",
         "subtitle": "武器、装備、弾薬、鍵、魚の総合的な『Escape from Duckov』データベース。銃器、近接武器、アーマー、ヘルメット、弾薬、鍵、魚、および防護具を閲覧。Duckov の武器庫にあるすべてのアイテムのステータス、説明、詳細を見つけます。",
@@ -870,6 +883,50 @@
         "thankYou": {
             "title": "ありがとうございます",
             "text": "DuckovGame コミュニティの一員となっていただきありがとうございます！お客様のフィードバックとサポートは、世界中のユーザーに最高の体験を提供し続けるのに役立っています。"
+        }
+    },
+    "SteamChartsPage": {
+        "title": "Steam チャート スナップショット",
+        "hero": {
+            "description": "Escape from Duckov の Steam チャートは、レイドの勢い、ピーク時の急増、そしてシーズンごとのアヒル民兵の成長をリアルタイムで把握できる窓を提供します。",
+            "points": {
+                "live": "Escape from Duckov の**リアルタイムプレイヤー数**は SteamDB から直接更新されます。",
+                "peak": "**24時間および過去最高のピーク**を追跡し、コミュニティと連携してレイドの時間を決められます。",
+                "reviews": "レビューの変動、フォロワーの急増、ウィッシュリストのスパイクを**一目で**監視できます。"
+            }
+        },
+        "note": "統計情報は SteamDB のスナップショットを反映しており、クイックリファレンス用です。",
+        "cards": {
+            "playersNow": {
+                "label": "現在オンラインのプレイヤー",
+                "value": "130k+",
+                "desc": "Duckov のレイドは、何万もの部隊が装備を整え、**終日**賑わっています。"
+            },
+            "peak24h": {
+                "label": "24時間ピーク",
+                "value": "170k+",
+                "desc": "ピーク時間は発売週を**一貫して上回って**おり、需要が依然として伸びていることを示しています。"
+            },
+            "positiveReviews": {
+                "label": "肯定的レビュー",
+                "value": "94%+",
+                "desc": "進行の奥深さ、協力プレイの連携、隠れ家のアップグレードに対し、**圧倒的な賞賛**が寄せられています。"
+            },
+            "followers": {
+                "label": "Steam フォロワー",
+                "value": "95k+",
+                "desc": "**ワイプ**、バランス調整、新しい装備のドロップをブックマークしている大規模なコミュニティです。"
+            }
+        },
+        "summary": {
+            "title": "Escape from Duckov のプレイヤー数が重要な理由",
+            "description": "これらのパルスポイントは、Steam チャートを実際のレイドの決定（いつ飛び込むか、いつ備蓄するか、いつ次のブームが来るか）に変換します。最大限の効率を得るために、スタッシュ計画や隠れ家のアップグレードと並行してこれらを活用してください。",
+            "items": {
+                "ranking": "トップサバイバルランキング：デイリーアクティブシューターで**常にトップ10**に入っています。",
+                "twitch": "Twitch の露出：毎日、何千もの人々がレイドの脱出、隠れ家ツアー、トーナメントを視聴しています。",
+                "owners": "世界中で推定**100万以上の所有者**がおり、ワイプサイクルごとに新しい部隊が参加しています。",
+                "community": "コミュニティの勢い：ウィッシュリストの急増とレビューの殺到は、**今後のコンテンツドロップ**に直接関連しています。"
+            }
         }
     }
 }

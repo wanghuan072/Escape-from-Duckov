@@ -138,6 +138,7 @@ const baseRoutes = [
     { path: '/items/fish', name: 'items-fish', priority: 0.7, changefreq: 'weekly' },
     { path: '/maps', name: 'maps', priority: 0.8, changefreq: 'monthly' },
     { path: '/mods', name: 'mods', priority: 0.7, changefreq: 'weekly' },
+    { path: '/escape-from-duckov-steam-charts', name: 'steam-charts', priority: 0.7, changefreq: 'weekly' },
     { path: '/privacy-policy', name: 'privacy-policy', priority: 0.5, changefreq: 'yearly' },
     { path: '/terms-of-service', name: 'terms-of-service', priority: 0.5, changefreq: 'yearly' },
     { path: '/copyright', name: 'copyright', priority: 0.5, changefreq: 'yearly' },

@@ -4,19 +4,25 @@ import { supportedLanguages } from '../i18n'
  * 从路径中提取基础路径（移除语言前缀）
  */
 export function getBasePath(path) {
-  let basePath = path
+  let basePath = path || '/'
+  if (!basePath.startsWith('/')) {
+    basePath = `/${basePath}`
+  }
   
   // 移除所有支持的语言前缀（除了英文）
   supportedLanguages.forEach(lang => {
     if (lang !== 'en') {
       const langPrefix = `/${lang}`
       if (basePath.startsWith(langPrefix)) {
-        basePath = basePath.substring(langPrefix.length)
+        basePath = basePath.substring(langPrefix.length) || '/'
       }
     }
   })
   
-  // 确保基础路径不为空
+  if (!basePath.startsWith('/')) {
+    basePath = `/${basePath}`
+  }
+  
   return basePath || '/'
 }
 
@@ -27,13 +33,11 @@ export function getBasePath(path) {
  * @returns {string} 完整路径
  */
 export function getLocalizedPath(basePath, locale = 'en') {
-  // 英文不带前缀
+  const normalizedPath = basePath ? (basePath.startsWith('/') ? basePath : `/${basePath}`) : '/'
   if (locale === 'en') {
-    return basePath
+    return normalizedPath
   }
-  
-  // 其他语言带前缀
-  const cleanPath = basePath === '/' ? '' : basePath
+  const cleanPath = normalizedPath === '/' ? '' : normalizedPath
   return `/${locale}${cleanPath}`
 }
 

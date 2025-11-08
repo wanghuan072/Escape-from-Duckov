@@ -9,17 +9,30 @@
                             {{ t('HomePage.hero.title') }}
                         </h1>
                         <p class="hero-subtitle">{{ t('HomePage.hero.subtitle') }}</p>
-                        <a href="https://store.steampowered.com" class="btn btn-steam" target="_blank">
-                            <div class="icon">
-                                <svg t="1761617030408" class="icon" viewBox="0 0 1024 1024" version="1.1"
-                                    xmlns="http://www.w3.org/2000/svg" p-id="4538" width="30" height="30">
-                                    <path
-                                        d="M511.104 0C242.261333 0 21.802667 207.36 0.938667 470.912l274.432 113.408a144.512 144.512 0 0 1 81.578666-25.173333c2.688 0 5.333333 0.170667 8.021334 0.256l122.069333-176.725334V380.16a193.194667 193.194667 0 0 1 193.024-193.024c106.410667 0 193.024 86.656 193.024 193.152s-86.613333 193.066667-193.024 193.066667h-4.48l-173.909333 124.202666c0 2.218667 0.170667 4.48 0.170666 6.784a144.725333 144.725333 0 0 1-144.64 144.896 145.578667 145.578667 0 0 1-142.122666-116.352L18.602667 651.52C79.445333 866.432 276.736 1024 511.104 1024c282.752 0 511.957333-229.248 511.957333-512S793.813333 0 511.104 0zM321.706667 776.96l-62.848-26.026667c11.178667 23.168 30.464 42.624 56.064 53.333334a108.842667 108.842667 0 0 0 142.378666-141.824 108.672 108.672 0 0 0-138.88-60.288l64.981334 26.88a80.128 80.128 0 0 1-61.653334 147.925333H321.706667z m487.04-396.928a128.810667 128.810667 0 0 0-128.64-128.64 128.64 128.64 0 1 0 128.64 128.64z m-224.981334-0.213333a96.597333 96.597333 0 1 1 193.322667 0 96.725333 96.725333 0 0 1-96.682667 96.64 96.597333 96.597333 0 0 1-96.64-96.64z"
-                                        fill="#ffffff" p-id="4539"></path>
-                                </svg>
-                            </div>
-                            {{ t('HomePage.hero.steamButton') }}
-                        </a>
+                        <div class="hero-actions">
+                            <a href="https://store.steampowered.com" class="btn-hero btn-steam" target="_blank" rel="noopener noreferrer">
+                                <div class="icon">
+                                    <svg t="1761617030408" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" p-id="4538" width="30" height="30">
+                                        <path
+                                            d="M511.104 0C242.261333 0 21.802667 207.36 0.938667 470.912l274.432 113.408a144.512 144.512 0 0 1 81.578666-25.173333c2.688 0 5.333333 0.170667 8.021334 0.256l122.069333-176.725334V380.16a193.194667 193.194667 0 0 1 193.024-193.024c106.410667 0 193.024 86.656 193.024 193.152s-86.613333 193.066667-193.024 193.066667h-4.48l-173.909333 124.202666c0 2.218667 0.170667 4.48 0.170666 6.784a144.725333 144.725333 0 0 1-144.64 144.896 145.578667 145.578667 0 0 1-142.122666-116.352L18.602667 651.52C79.445333 866.432 276.736 1024 511.104 1024c282.752 0 511.957333-229.248 511.957333-512S793.813333 0 511.104 0zM321.706667 776.96l-62.848-26.026667c11.178667 23.168 30.464 42.624 56.064 53.333334a108.842667 108.842667 0 0 0 142.378666-141.824 108.672 108.672 0 0 0-138.88-60.288l64.981334 26.88a80.128 80.128 0 0 1-61.653334 147.925333H321.706667z m487.04-396.928a128.810667 128.810667 0 0 0-128.64-128.64 128.64 128.64 0 1 0 128.64 128.64z m-224.981334-0.213333a96.597333 96.597333 0 1 1 193.322667 0 96.725333 96.725333 0 0 1-96.682667 96.64 96.597333 96.597333 0 0 1-96.64-96.64z"
+                                            fill="#ffffff" p-id="4539"></path>
+                                    </svg>
+                                </div>
+                                {{ t('HomePage.hero.steamButton') }}
+                            </a>
+                            <a :href="getLocalizedPathForCurrentLang('/escape-from-duckov-steam-charts')" class="btn-hero btn-charts">
+                                <div class="icon">
+                                    <svg viewBox="0 0 24 24" width="28" height="28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path d="M4 19h16M7 16l3-5 3 3 4-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="9" cy="11" r="1.2" fill="currentColor"/>
+                                        <circle cx="13" cy="14" r="1.2" fill="currentColor"/>
+                                        <circle cx="17" cy="8" r="1.2" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                                {{ t('HomePage.hero.steamChartsButton') }}
+                            </a>
+                        </div>
                     </div>
                     <div class="hero-video">
                         <div class="video-player">
@@ -657,11 +670,36 @@ section {
     text-align: left;
 }
 
-.steam-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
-    fill: white;
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.btn-hero {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.85rem 1.75rem;
+    border-radius: 999px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-hero .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-hero .icon svg {
+    width: 30px;
+    height: 30px;
 }
 
 .btn-steam {
@@ -671,18 +709,25 @@ section {
     box-shadow: 0 4px 12px rgba(27, 40, 56, 0.3);
 }
 
-.btn-steam .icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 8px;
-    fill: white;
-}
-
 .btn-steam:hover {
     background: linear-gradient(135deg, #2a475e 0%, #3c5a78 100%);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(27, 40, 56, 0.4);
     border-color: #4a6b8a;
+}
+
+.btn-charts {
+    background: linear-gradient(135deg, #FA9317 0%, #ffbb4d 100%);
+    color: #1b2838;
+    border: 1px solid rgba(250, 147, 23, 0.6);
+    box-shadow: 0 4px 14px rgba(250, 147, 23, 0.25);
+}
+
+.btn-charts:hover {
+    background: linear-gradient(135deg, #ffae3a 0%, #ffd070 100%);
+    color: #1b2838;
+    box-shadow: 0 8px 24px rgba(250, 147, 23, 0.35);
+    transform: translateY(-2px);
 }
 
 .hero-video {
@@ -1558,6 +1603,17 @@ section {
         grid-template-columns: 1fr;
         gap: 20px;
         text-align: center;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .hero-actions .btn-hero {
+        width: 100%;
+        justify-content: center;
     }
 
     /* What is Section Layout */

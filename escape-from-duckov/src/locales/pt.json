@@ -81,10 +81,16 @@
             "type": "website"
         },
         "modDetail": {
-            "title": "Mods de Escape from Duckov | Melhores Armas Personalizadas, Mapas e Ajustes de Jogabilidade",
-            "description": "Descubra os melhores mods de Escape from Duckov — novas armas, mapas personalizados, visuais aprimorados e ajustes de jogabilidade. Atualize sua experiência de sobrevivência com criações da comunidade.",
-            "keywords": "mods Escape from Duckov, armas personalizadas, mods de mapa, ajustes de jogabilidade, mods visuais, conteúdo da comunidade",
+            "title": "Escape from Duckov Mods | Best Custom Weapons, Maps & Gameplay Tweaks",
+            "description": "Discover the best Escape from Duckov mods — new weapons, custom maps, enhanced visuals, and gameplay tweaks. Upgrade your survival experience with community creations.",
+            "keywords": "Escape from Duckov mods, custom weapons, map mods, gameplay tweaks, visual mods, community content",
             "type": "article"
+        },
+        "steamCharts": {
+            "title": "Gráficos Steam de Escape from Duckov | Contagem de Jogadores em Tempo Real e Tendências",
+            "description": "Consulte os gráficos Steam de Escape from Duckov para monitorizar a contagem de jogadores em tempo real, picos de 24 horas, o momento das análises e o crescimento da comunidade num só lugar.",
+            "keywords": "Escape from Duckov gráficos steam, Escape from Duckov contagem de jogadores, SteamDB, estatísticas de sobrevivência, tendências de ataque",
+            "type": "website"
         },
         "items": {
             "title": "Itens de Escape from Duckov | Banco de Dados Completo de Armas e Equipamentos",
@@ -161,9 +167,10 @@
     },
     "HomePage": {
         "hero": {
-            "title": "EscapefromDuckov Comunidade de Fãs",
-            "subtitle": "Escape from Duckov é um RPG de sobrevivência indie PVE — em um mundo de patos! Procure por recursos, construa seu esconderijo e aprimore seu equipamento no mundo de Duckov. Comece do nada e chegue ao topo. Supere patos hostis, sobreviva ou saia vivo.",
-            "steamButton": "Jogar no Steam"
+            "title": "Escape from Duckov Fans & Community",
+            "subtitle": "Escape from Duckov é um RPG de sobrevivência PVE indie — no mundo dos patos! Vasculhe recursos, construa seu esconderijo e aprimore seu equipamento no mundo de Duckov. Comece do zero e alcance o topo. Engane os patos hostis, sobreviva ou saia vivo.",
+            "steamButton": "Play on Steam",
+            "steamChartsButton": "View Steam Charts"
         },
         "video": {
             "playIcon": "▶",
@@ -392,9 +399,15 @@
     },
     "ModsPage": {
         "title": "Mods de Escape from Duckov",
-        "subtitle": "Descubra e baixe os melhores mods de Escape from Duckov criados pela comunidade. Aprimore sua jogabilidade com modificações personalizadas, incluindo melhorias de qualidade de vida, novos recursos, aprimoramentos visuais e ajustes de jogabilidade. Navegue pelos mods por categoria e encontre as adições perfeitas para sua experiência em Duckov."
+        "subtitle": "Descubra e baixe os melhores mods de Escape from Duckov criados pela comunidade. Aprimore sua jogabilidade com modificações personalizadas, incluindo melhorias de qualidade de vida, novos recursos, aprimoramentos visuais e ajustes de jogabilidade. Navegue pelos mods por categoria e encontre as adições perfeitas para sua experiência em Duckov.",
+        "stats": {
+            "releaseDate": "Data de lançamento",
+            "subscribers": "Assinantes"
+        }
     },
-    "ModDetailPage": {},
+    "ModDetailPage": {
+        "linkLabel": "Link do Mod"
+    },
     "ItemsPage": {
         "title": "Itens de Escape from Duckov",
         "subtitle": "Banco de dados completo de Escape from Duckov de armas, equipamentos, munição, chaves e peixes. Navegue por armas de fogo, armas corpo a corpo, armaduras, capacetes, munição, chaves, peixes e equipamento de proteção. Encontre estatísticas, descrições e detalhes para cada item no arsenal de Duckov.",
@@ -870,6 +883,50 @@
         "thankYou": {
             "title": "Obrigado",
             "text": "Obrigado por fazer parte da comunidade DuckovGame! Seu feedback e suporte nos ajudam a continuar a fornecer a melhor experiência para nossos usuários em todo o mundo."
+        }
+    },
+    "SteamChartsPage": {
+        "title": "Instantâneo dos Gráficos Steam",
+        "hero": {
+            "description": "Os gráficos Steam de Escape from Duckov oferecem-lhe uma janela em tempo real sobre o momento dos ataques (raids), os picos de horas de ponta e como a milícia de patos está a crescer a cada temporada.",
+            "points": {
+                "live": "Contagem de jogadores de Escape from Duckov em tempo real, atualizada diretamente do SteamDB.",
+                "peak": "Acompanhe os picos de 24 horas e de todos os tempos para sincronizar os seus ataques com a comunidade.",
+                "reviews": "Monitorize as flutuações de análises, explosões de seguidores e picos na lista de desejos num relance."
+            }
+        },
+        "note": "As estatísticas espelham os instantâneos do SteamDB e destinam-se apenas a consulta rápida.",
+        "cards": {
+            "playersNow": {
+                "label": "Jogadores Online",
+                "value": "130k+",
+                "desc": "Os ataques em Duckov mantêm-se ativos 24 horas por dia, com dezenas de milhares de esquadrões a prepararem-se."
+            },
+            "peak24h": {
+                "label": "Pico de 24h",
+                "value": "170k+",
+                "desc": "As horas de pico situam-se consistentemente bem acima da semana de lançamento, mostrando que a procura ainda está a subir."
+            },
+            "positiveReviews": {
+                "label": "Análises Positivas",
+                "value": "94%+",
+                "desc": "Elogios esmagadores pela profundidade da progressão, coordenação cooperativa e melhorias no esconderijo."
+            },
+            "followers": {
+                "label": "Seguidores Steam",
+                "value": "95k+",
+                "desc": "Uma comunidade massiva a marcar 'wipes' (reinicializações), ajustes de equilíbrio e novos lançamentos de equipamento."
+            }
+        },
+        "summary": {
+            "title": "Porque é que a Contagem de Jogadores de Escape from Duckov é Importante",
+            "description": "Estes Pontos de Pulso traduzem os gráficos Steam em decisões reais de ataque – quando entrar, quando acumular e quando esperar o próximo boom em Duckov. Use-os juntamente com o seu planeamento de esconderijo e atualizações de abrigo para máxima eficiência.",
+            "items": {
+                "ranking": "Top ranking de sobrevivência: senta-se regularmente no top 10 de atiradores ativos diários.",
+                "twitch": "Exposição no Twitch: milhares sintonizam diariamente as extrações de ataques, tours de esconderijos e torneios.",
+                "owners": "Estimativa de mais de 1M de proprietários em todo o mundo, com novos esquadrões a entrar a cada ciclo de reinicialização.",
+                "community": "Impulso da comunidade: picos na lista de desejos e inundações de análises mapeiam diretamente para os próximos lançamentos de conteúdo."
+            }
         }
     }
 }

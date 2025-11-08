@@ -348,219 +348,421 @@ export default [
     },
     {
         "id": 11,
-        "title": "基础设施 - 第3部分",
-        "description": "",
+        "title": "基础设施 - 第 3 部分",
+        "description": "基础设施 - 第 3 部分是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "基础设施 - 第3部分",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 经验值",
-            "1000 金钱"
+        "imageAlt": "基础设施 - 第 3 部分",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-3",
+        "showDetail": true,
+        "rewards": ["1500 经验值", "1000 金钱"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前置任务",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "后续任务",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "基础设施 - 第 3 部分任务 - Escape from Duckov",
+            "description": "基础设施 - 第 3 部分是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
+            "keywords": "Escape from Duckov, 基础设施 - 第 3 部分, Jeff 任务, 基础设施 - 第 3 部分, 基础设施 - 第 3 部分"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>基础设施 - 第 3 部分</h2>
+            <p>基础设施 - 第 3 部分是《逃离鸭科夫》（Escape From Duckov）中的一个任务。</p>
+            <h3>对话</h3>
+            <p>我联系了另一个老朋友。他是一个人脉广泛的装备商人。你把商店建好后，他就会过来。</p>
+            <h3>任务目标</h3>
+            <ul>
+                <li>建造护甲商店</li>
+            </ul>
+            <h3>奖励</h3>
+            <ul>
+                <li>1000 经验值</li>
+                <li>1500 金钱</li>
+            </ul>
+            <h3>任务指南</h3>
+            <p>在这个任务中，你需要建造护甲商店。</p>
+            `
     },
     {
         "id": 12,
         "title": "基础设施 - 医疗",
-        "description": "",
+        "description": "基础设施 - 医疗是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "基础设施 - 医疗",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 经验值",
-            "1000 金钱"
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-medical",
+        "showDetail": true,
+        "rewards": ["1000 经验值", "1000 金钱"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前置任务",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "后续任务",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "基础设施 - 医疗任务 - Escape from Duckov",
+            "description": "基础设施 - 医疗是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
+            "keywords": "Escape from Duckov, 基础设施 - 医疗, Jeff 任务, 基础设施 - 医疗, 基础设施 - 医疗"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>基础设施 - 医疗</h2>
+            <p>基础设施 - 医疗是《逃离鸭科夫》（Escape From Duckov）中的一个任务。</p>
+            <h3>对话</h3>
+            <p>如果我们能自己制造各种医疗用品，那会方便得多。</p>
+            <h3>任务目标</h3>
+            <ul>
+                <li>建造医疗站</li>
+            </ul>
+            <h3>奖励</h3>
+            <ul>
+                <li>1000 经验值</li>
+                <li>1000 金钱</li>
+            </ul>
+            <h3>任务指南</h3>
+            <p>在这个任务中，你需要建造医疗站。</p>
+            `
     },
     {
         "id": 13,
         "title": "仿制手枪",
-        "description": "",
+        "description": "仿制手枪是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "仿制手枪",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 经验值",
-            "1000 金钱",
-            "解锁商品 PM"
+        "publishDate": "2025-11-06",
+        "addressBar": "/replica-pistol",
+        "showDetail": true,
+        "rewards": ["1500 经验值", "1000 金钱", "解锁 PM 商品"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前置任务",
+                "value": "Aim for the Head"
+            },
+            {
+                "label": "后续任务",
+                "value": "Large Capacity<br/>Strange Feather"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "仿制手枪任务 - Escape from Duckov",
+            "description": "仿制手枪是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
+            "keywords": "Escape from Duckov, 仿制手枪, Jeff 任务, 仿制手枪, 仿制手枪"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>仿制手枪</h2>
+            <p>仿制手枪是《逃离鸭科夫》（Escape From Duckov）中的一个任务。</p>
+            <h3>对话</h3>
+            <p>给我带一些手枪来，让我研究研究。如果进展顺利，你就能从自动售货机那里买到手枪了。</p>
+            <h3>任务目标</h3>
+            <ul>
+                <li>提交物品：PM 2把</li>
+            </ul>
+            <h3>奖励</h3>
+            <ul>
+                <li>1500 经验值</li>
+                <li>1000 金钱</li>
+                <li>解锁 PM 商品</li>
+            </ul>
+            <h3>所需物品</h3>
+            <table>
+                <tr>
+                    <th>图标</th>
+                    <th>物品名称</th>
+                    <th>数量</th>
+                    <th>用途</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="医疗用品" /></td>
+                <td>PM</td>
+                <td>2</td>
+                <td>需要提交。</td>
+            </tr>
+            </table>
+            <h3>任务指南</h3>
+            <p>在这个任务中，你需要找到并上交 2 把 PM 手枪。</p>
+            `
     },
     {
         "id": 14,
         "title": "大容量",
-        "description": "",
+        "description": "大容量是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "大容量",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 经验值",
-            "2000 金钱"
+        "publishDate": "2025-11-06",
+        "addressBar": "/large-capacity",
+        "showDetail": true,
+        "rewards": ["1000 经验值", "2000 金钱"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前置任务",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "后续任务",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "大容量任务 - Escape from Duckov",
+            "description": "大容量是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
+            "keywords": "Escape from Duckov, 大容量, Jeff 任务, 大容量, 大容量"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>大容量</h2>
+            <p>大容量是《逃离鸭科夫》（Escape From Duckov）中的一个任务。</p>
+            <h3>对话</h3>
+            <p>???</p>
+            <h3>任务目标</h3>
+            <ul>
+                <li>解锁储藏室等级 1</li>
+            </ul>
+            <h3>任务指南</h3>
+            <p>在这个任务中，你需要解锁储藏室等级 1 升级。（前往你的储藏室并滚动到“储藏室扩展”）</p>
+            `
     },
     {
         "id": 15,
         "title": "奇怪的羽毛",
-        "description": "",
+        "description": "奇怪的羽毛是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "奇怪的羽毛",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 经验值",
-            "1000 金钱",
-            "图腾: 忍者"
+        "publishDate": "2025-11-06",
+        "addressBar": "/strange-feather",
+        "showDetail": true,
+        "rewards": ["1000 经验值", "1000 金钱", "图腾：忍者"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前置任务",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "后续任务",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "奇怪的羽毛任务 - Escape from Duckov",
+            "description": "奇怪的羽毛是《逃离鸭科夫》（Escape From Duckov）中的一个任务。",
+            "keywords": "Escape from Duckov, 奇怪的羽毛, Jeff 任务, 奇怪的羽毛, 奇怪的羽毛"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>奇怪的羽毛</h2>
+            <p>奇怪的羽毛是《逃离鸭科夫》（Escape From Duckov）中的一个任务。</p>
+            <h3>对话</h3>
+            <p>???</p>
+            <h3>任务目标</h3>
+            <ul>
+                <li>提交物品：4个褪色羽毛</li>
+            </ul>
+            <h3>奖励</h3>
+            <ul>
+                <li>1000 经验值</li>
+                <li>1000 金钱</li>
+                <li>图腾：忍者 I</li>
+            </ul>
+            <h3>所需物品</h3>
+            <table>
+                <tr>
+                    <th>图标</th>
+                    <th>物品名称</th>
+                    <th>数量</th>
+                    <th>用途</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Fading Feather (褪色羽毛)</td>
+                    <td>4</td>
+                    <td>需要提交。</td>
+                </tr>
+            </table>
+            <h3>任务指南</h3>
+            <p>在这个任务中，你需要找到并上交 4 个褪色羽毛。</p>
+            `
     },
     {
         "id": 16,
-        "title": "好人",
-        "description": "",
+        "title": "好人 (Nice Guy)",
+        "description": "“好人”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "好人",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 经验值",
-            "998 金钱",
-            "奖杯",
-            "心愿单的力量",
-            "红包"
+        "publishDate": "2025-11-06",
+        "addressBar": "/nice-guy",
+        "showDetail": true,
+        "rewards": ["1000 经验", "998 金钱", "奖杯", "心愿单之力", "红包"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff (杰夫)"
+            },
+            {
+                "label": "前置任务",
+                "value": "Infrastructure - Part 2 (基础设施 - 第 2 部分)"
+            },
+            {
+                "label": "后续任务",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "好人任务 - 逃离鸭子城",
+            "description": "“好人”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
+            "keywords": "逃离鸭子城, 好人, 杰夫任务, Nice Guy, Nice Guy"
         },
-        "detailsHtml": ""
+        "detailsHtml": "<h2>好人 (Nice Guy)</h2><p>“好人”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。</p><h3>对话</h3><p>我认识一个开发人员（不是我），他最近行为怪异，不停地重复说：“请添加到心愿单！” 他是一个很好的人，但我不知道他为什么发疯了。你想帮助他吗？</p><h3>任务目标</h3><ul><li>去检查你基地墙上的**蓝色图案**！</li></ul><img src=\"/images/wiki/quests16-01.webp\" alt=\"蓝色图案\" /><h3>奖励</h3><ul><li>1000 经验</li><li>998 金钱</li><li>奖杯 (Trohpy)</li><li>心愿单之力 (Power of Wishlist)</li><li>红包 (Red Envelope)</li></ul><h3>任务指南</h3><p>在此任务中，您必须前往墙上写着 **\"Wishlist\"** 的**蓝色标记**并与其**互动**。</p>"
     },
     {
         "id": 17,
-        "title": "蚊子清除",
-        "description": "",
+        "title": "灭蚊 (Mosquito Extermination)",
+        "description": "“灭蚊”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "蚊子清除",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 经验值",
-            "500 金钱",
-            "加农炮"
+        "imageAlt": "灭蚊",
+        "publishDate": "2025-11-06",
+        "addressBar": "/mosquito-extermination",
+        "showDetail": true,
+        "rewards": ["1000 经验", "500 金钱", "大炮"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff (杰夫)"
+            },
+            {
+                "label": "前置任务",
+                "value": "???"
+            },
+            {
+                "label": "后续任务",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "灭蚊任务 - 逃离鸭子城",
+            "description": "“灭蚊”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
+            "keywords": "逃离鸭子城, 灭蚊, 杰夫任务, Mosquito Extermination, Mosquito Extermination"
         },
-        "detailsHtml": ""
+        "detailsHtml": "<h2>灭蚊 (Mosquito Extermination)</h2><p>“灭蚊”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。</p><h3>对话</h3><p>这些天我因为房间里的蚊子睡不着觉。我准备好了大炮，只缺一些火药。你可以在工作台上拆解普通子弹来获得火药。</p><h3>任务目标</h3><ul><li>上交物品：**30 火药** (Gunpowder)</li></ul><h3>奖励</h3><ul><li>1000 经验</li><li>500 金钱</li><li>大炮 (Cannon)</li></ul><h3>所需物品</h3><table><tr><th>图标</th><th>物品名称</th><th>数量</th><th>用途</th></tr><tr><td><img width=\"60\" height=\"60\" style=\"margin-bottom: 0;\" src=\"/images/wiki/quests09-01.webp\" alt=\"Medical Supplies\" /></td><td>火药 (Gunpowder)</td><td>30</td><td>需要上交。</td></tr></table><h3>任务指南</h3><p>在此任务中，您必须向 Jeff **上交 30 火药**。</p>"
     },
     {
         "id": 18,
-        "title": "基础设施 - 第4部分",
-        "description": "",
+        "title": "Infrastructure - Part 4 (基础设施 - 第 4 部分)",
+        "description": "“基础设施 - 第 4 部分”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "基础设施 - 第4部分",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 经验值",
-            "500 金钱"
+        "imageAlt": "Infrastructure - Part 4",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-4",
+        "showDetail": true,
+        "rewards": ["1000 经验", "500 金钱"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff (杰夫)"
+            },
+            {
+                "label": "前置任务",
+                "value": "Infrastructure - Part 2 (基础设施 - 第 2 部分)<br/>Infrastructure - Part 3 (基础设施 - 第 3 部分)"
+            },
+            {
+                "label": "后续任务",
+                "value": "Unlocking Beacons - Part 1 (解锁信标 - 第 1 部分)"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "基础设施 - 第 4 部分任务 - 逃离鸭子城",
+            "description": "“基础设施 - 第 4 部分”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
+            "keywords": "逃离鸭子城, 基础设施 - 第 4 部分, 杰夫任务, Infrastructure - Part 4, Infrastructure - Part 4"
         },
-        "detailsHtml": ""
+        "detailsHtml": "<h2>Infrastructure - Part 4 (基础设施 - 第 4 部分)</h2><p>“基础设施 - 第 4 部分”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。</p><h3>对话</h3><p>我们的藏身处正在成形。是时候进一步探索星辰了！建造我们的**传送器**是第一步。</p><h3>任务目标</h3><ul><li>**建造传送器** (Build Teleporter)</li></ul><h3>奖励</h3><ul><li>1000 经验</li><li>500 金钱</li></ul><h3>任务指南</h3><p>在此任务中，您必须**建造传送器**。</p>"
     },
     {
         "id": 19,
-        "title": "解锁信标 - 第1部分",
-        "description": "",
+        "title": "Unlocking Beacons - Part 1 (解锁信标 - 第 1 部分)",
+        "description": "“解锁信标 I”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "解锁信标 - 第1部分",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 经验值",
-            "500 金钱"
+        "imageAlt": "Unlocking Beacons - Part 1",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-1",
+        "showDetail": true,
+        "rewards": ["1000 经验", "500 金钱"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff (杰夫)"
+            },
+            {
+                "label": "前置任务",
+                "value": "Infrastructure - Part 4 (基础设施 - 第 4 部分)"
+            },
+            {
+                "label": "后续任务",
+                "value": "Explore The Warehouses (探索仓库)"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "解锁信标 - 第 1 部分任务 - 逃离鸭子城",
+            "description": "“解锁信标 I”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
+            "keywords": "逃离鸭子城, 基础设施 - 医疗, 杰夫任务, Infrastructure - Medical, Infrastructure - Medical"
         },
-        "detailsHtml": ""
+        "detailsHtml": "<h2>Unlocking Beacons - Part 1 (解锁信标 - 第 1 部分)</h2><p>“解锁信标 I”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。</p><h3>对话</h3><p>既然我们已经建造了自己的传送器，那就来解锁**零点信标**吧。这些信标允许免费传送——尽管坐标...不太稳定。情报说信标在路边营地。这有风险，所以要保持警惕。</p><h3>任务目标</h3><ul><li>**解锁零点信标** (Ground Zero Beacon)</li><li style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 10px;\"><img src=\"/images/wiki/quests19-01.webp\" alt=\"解锁零点信标\" /> <img src=\"/images/wiki/quests19-02.webp\" alt=\"解锁零点信标\" /></li></ul><h3>奖励</h3><ul><li>1000 经验</li></ul><h3>任务指南</h3><p>在此任务中，您需要到达路边营地并**解锁零点信标**以启用传送。</p>"
     },
     {
         "id": 20,
-        "title": "解锁信标 - 第2部分",
-        "description": "",
+        "title": "Unlocking Beacons - Part 2 (解锁信标 - 第 2 部分)",
+        "description": "“解锁信标 II”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "解锁信标 - 第2部分",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 经验值",
-            "500 金钱"
+        "imageAlt": "Unlocking Beacons - Part 2",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-2",
+        "showDetail": true,
+        "rewards": ["1000 经验", "500 金钱"],
+        "rightContent": [
+            {
+                "label": "发布者",
+                "value": "Jeff (杰夫)"
+            },
+            {
+                "label": "前置任务",
+                "value": "Unlocking Beacons - Part 1 (解锁信标 - 第 1 部分)"
+            },
+            {
+                "label": "后续任务",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "解锁信标 - 第 2 部分任务 - 逃离鸭子城",
+            "description": "“解锁信标 II”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。",
+            "keywords": "逃离鸭子城, 解锁信标 - 第 2 部分, 杰夫任务, Unlocking Beacons - Part 2, Unlocking Beacons - Part 2"
         },
-        "detailsHtml": ""
+        "detailsHtml": "<h2>Unlocking Beacons - Part 2 (解锁信标 - 第 2 部分)</h2><p>“解锁信标 II”是《逃离鸭子城》(Escape From Duckov) 中的一个任务。</p><h3>对话</h3><p>我们终于要走得更远了。为了加快前往**仓库区**的行程，您需要激活仓库区加油站旁边的传送信标。</p><h3>任务目标</h3><ul><li>**解锁仓库区信标** (Warehouse Area Beacon)</li><li style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 10px;\"><img src=\"/images/wiki/quests20-01.webp\" alt=\"解锁仓库区信标\" /> <img src=\"/images/wiki/quests20-02.webp\" alt=\"解锁仓库区信标\" /></li></ul><h3>奖励</h3><ul><li>2000 经验</li></ul><h3>任务指南</h3><p>在此任务中，您需要找到并**激活**位于**仓库区加油站旁边**的传送信标，以解锁快速旅行。</p>"
     },
     {
         "id": 21,

@@ -326,6 +326,8 @@ a:hover {
   font-weight: 600;
   color: #fff;
   margin-bottom: 20px;
+  position: relative;
+  padding-left: 20px;
 }
 
 .detail-article h4::before {
@@ -335,6 +337,7 @@ a:hover {
   top: 50%;
   transform: translateY(-50%);
   color: #FA9317;
+  font-size: 12px;
 }
 
 .detail-article p {

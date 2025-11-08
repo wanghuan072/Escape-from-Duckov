@@ -349,219 +349,524 @@ export default [
     },
     {
         "id": 11,
-        "title": "Infrastruktur - Teil 3",
-        "description": "",
+        "title": "Infrastructure - Teil 3",
+        "description": "Infrastructure - Teil 3 ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Infrastruktur - Teil 3",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 Erfahrung",
-            "1000 Geld"
+        "imageAlt": "Infrastructure - Teil 3",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-3",
+        "showDetail": true,
+        "rewards": ["1500 Erfahrung", "1000 Geld"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "Folgende",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Infrastructure - Teil 3 Quest - Escape from Duckov",
+            "description": "Infrastructure - Teil 3 ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Teil 3, Jeff Quest, Infrastructure - Teil 3, Infrastructure - Teil 3"
         },
-        "detailsHtml": ""
+        "detailsHtml": `<h2>Infrastructure - Teil 3</h2>
+            <p>Infrastructure - Teil 3 ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>Ich habe Kontakt zu einem anderen alten Freund aufgenommen. Er ist ein Ausrüstungshändler mit vielen Verbindungen. Nachdem du den Laden eingerichtet hast, wird er kommen.</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Rüstungsladen bauen</li>
+            </ul>
+            <h3>Belohnungen</h3>
+            <ul>
+                <li>1000 Erfahrung</li>
+                <li>1500 Geld</li>
+            </ul>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du den Rüstungsladen bauen.</p>
+            `
     },
     {
         "id": 12,
-        "title": "Infrastruktur - Medizinisch",
-        "description": "",
+        "title": "Infrastructure - Medizinisch",
+        "description": "Infrastructure - Medizinisch ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Infrastruktur - Medizinisch",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Erfahrung",
-            "1000 Geld"
+        "imageAlt": "Infrastructure - Medizinisch",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-medical",
+        "showDetail": true,
+        "rewards": ["1000 Erfahrung", "1000 Geld"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "Folgende",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Infrastructure - Medizinisch Quest - Escape from Duckov",
+            "description": "Infrastructure - Medizinisch ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Medizinisch, Jeff Quest, Infrastructure - Medizinisch, Infrastructure - Medizinisch"
         },
-        "detailsHtml": ""
+        "detailsHtml": `<h2>Infrastructure - Medizinisch</h2>
+            <p>Infrastructure - Medizinisch ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>Wenn wir verschiedene medizinische Vorräte selbst herstellen könnten, wäre das viel bequemer.</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Sanitätsstation bauen</li>
+            </ul>
+            <h3>Belohnungen</h3>
+            <ul>
+                <li>1000 Erfahrung</li>
+                <li>1000 Geld</li>
+            </ul>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du die Sanitätsstation bauen.</p>
+            `
     },
     {
         "id": 13,
         "title": "Nachbau-Pistole",
-        "description": "",
+        "description": "Nachbau-Pistole ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Nachbau-Pistole",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 Erfahrung",
-            "1000 Geld",
-            "Schaltet Handelsware PM frei"
+        "publishDate": "2025-11-06",
+        "addressBar": "/replica-pistol",
+        "showDetail": true,
+        "rewards": ["1500 Erfahrung", "1000 Geld", "Schaltet Handelsware PM frei"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "Aim for the Head"
+            },
+            {
+                "label": "Folgende",
+                "value": "Large Capacity<br/>Strange Feather"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Nachbau-Pistole Quest - Escape from Duckov",
+            "description": "Nachbau-Pistole ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Nachbau-Pistole, Jeff Quest, Nachbau-Pistole, Nachbau-Pistole"
         },
-        "detailsHtml": ""
+        "detailsHtml": `<h2>Nachbau-Pistole</h2>
+            <p>Nachbau-Pistole ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>Bring mir ein paar Pistolen, damit ich sie studieren kann. Wenn alles gut geht, kannst du Pistolen am Verkaufsautomaten kaufen.</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Gegenstand(e) abgeben: 2 PM</li>
+            </ul>
+            <h3>Belohnungen</h3>
+            <ul>
+                <li>1500 Erfahrung</li>
+                <li>1000 Geld</li>
+                <li>Schaltet Handelsware PM frei</li>
+            </ul>
+            <h3>Benötigte Gegenstände</h3>
+            <table>
+                <tr>
+                    <th>Icon</th>
+                    <th>Gegenstandsname</th>
+                    <th>Menge</th>
+                    <th>Verwendung</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Medizinische Vorräte" /></td>
+                <td>PM</td>
+                <td>2</td>
+                <td>Muss abgegeben werden.</td>
+            </tr>
+            </table>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du 2 PM Pistolen finden und abgeben.</p>
+            `
     },
     {
         "id": 14,
         "title": "Große Kapazität",
-        "description": "",
+        "description": "Große Kapazität ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Große Kapazität",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Erfahrung",
-            "2000 Geld"
+        "publishDate": "2025-11-06",
+        "addressBar": "/large-capacity",
+        "showDetail": true,
+        "rewards": ["1000 Erfahrung", "2000 Geld"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "Folgende",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Große Kapazität Quest - Escape from Duckov",
+            "description": "Große Kapazität ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Große Kapazität, Jeff Quest, Große Kapazität, Große Kapazität"
         },
-        "detailsHtml": ""
+        "detailsHtml": `<h2>Große Kapazität</h2>
+            <p>Große Kapazität ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>???</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Lagerstufe 1 freischalten</li>
+            </ul>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du das Upgrade für Lagerstufe 1 freischalten. (Gehe zu deinem Lager und scrolle zu \"Lagererweiterung\")</p>
+            `
     },
     {
         "id": 15,
         "title": "Seltsame Feder",
-        "description": "",
+        "description": "Seltsame Feder ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Seltsame Feder",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Erfahrung",
-            "1000 Geld",
-            "Totem: Ninja"
+        "publishDate": "2025-11-06",
+        "addressBar": "/strange-feather",
+        "showDetail": true,
+        "rewards": ["1000 Erfahrung", "1000 Geld", "Totem: Ninja"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "Folgende",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Seltsame Feder Quest - Escape from Duckov",
+            "description": "Seltsame Feder ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Seltsame Feder, Jeff Quest, Seltsame Feder, Seltsame Feder"
         },
-        "detailsHtml": ""
+        "detailsHtml": `<h2>Seltsame Feder</h2>
+            <p>Seltsame Feder ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>???</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Gegenstand(e) abgeben: 4 Verblassende Feder</li>
+            </ul>
+            <h3>Belohnungen</h3>
+            <ul>
+                <li>1000 Erfahrung</li>
+                <li>1000 Geld</li>
+                <li>Totem: Ninja I</li>
+            </ul>
+            <h3>Benötigte Gegenstände</h3>
+            <table>
+                <tr>
+                    <th>Icon</th>
+                    <th>Gegenstandsname</th>
+                    <th>Menge</th>
+                    <th>Verwendung</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Verblassende Feder</td>
+                    <td>4</td>
+                    <td>Muss abgegeben werden.</td>
+                </tr>
+            </table>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du 4 Verblassende Federn finden und abgeben.</p>
+            `
     },
     {
         "id": 16,
         "title": "Netter Kerl",
-        "description": "",
+        "description": "Netter Kerl ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Netter Kerl",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Erfahrung",
-            "998 Geld",
-            "Trophäe",
-            "Kraft der Wunschliste",
-            "Roter Umschlag"
+        "publishDate": "2025-11-06",
+        "addressBar": "/nice-guy",
+        "showDetail": true,
+        "rewards": ["1000 Erfahrung", "998 Geld", "Trophäe", "Kraft der Wunschliste", "Roter Umschlag"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "Infrastructure - Part 2"
+            },
+            {
+                "label": "Folgende",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Netter Kerl Quest - Escape from Duckov",
+            "description": "Netter Kerl ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Netter Kerl, Jeff Quest, Netter Kerl, Netter Kerl"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Netter Kerl</h2>
+            <p>Netter Kerl ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>Ich kenne einen Entwickler (nicht mich), der sich in letzter Zeit seltsam verhält und wiederholt sagt: 'Zur Wunschliste hinzufügen, bitte!'. Er ist eine ziemlich gute Person, aber ich weiß nicht, warum er verrückt geworden ist. Willst du ihm helfen?</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Überprüfe das Blaue Muster an deiner Basiswand!</li>
+            </ul>
+            <img src="/images/wiki/quests16-01.webp" alt="Blaues Muster" />
+            <h3>Belohnungen</h3>
+            <ul>
+                <li>1000 Erfahrung</li>
+                <li>998 Geld</li>
+                <li>Trophäe</li>
+                <li>Kraft der Wunschliste</li>
+                <li>Roter Umschlag</li>
+            </ul>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du zum Blauen Muster an der Wand gehen, auf dem "Wishlist" steht, und damit interagieren.</p>
+            `
     },
     {
         "id": 17,
-        "title": "Mückenvernichtung",
-        "description": "",
+        "title": "Mückenvertilgung",
+        "description": "Mückenvertilgung ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Mückenvernichtung",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Erfahrung",
-            "500 Geld",
-            "Kanone"
+        "imageAlt": "Mückenvertilgung",
+        "publishDate": "2025-11-06",
+        "addressBar": "/mosquito-extermination",
+        "showDetail": true,
+        "rewards": ["1000 Erfahrung", "500 Geld", "Kanone"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "???"
+            },
+            {
+                "label": "Folgende",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Mückenvertilgung Quest - Escape from Duckov",
+            "description": "Mückenvertilgung ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Mückenvertilgung, Jeff Quest, Mückenvertilgung, Mückenvertilgung"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Mückenvertilgung</h2>
+            <p>Mückenvertilgung ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>In letzter Zeit konnte ich wegen der Mücken in meinem Zimmer nicht schlafen. Ich habe die Kanone bereit, brauche nur noch etwas Schießpulver. Das kannst du bekommen, indem du normale Kugeln an der Werkbank zerlegst.</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Gegenstand(e) abgeben: 30 Schießpulver</li>
+            </ul>
+            <h3>Belohnungen</h3>
+            <ul>
+                <li>1000 Erfahrung</li>
+                <li>500 Geld</li>
+                <li>Kanone</li>
+            </ul>
+            <h3>Benötigte Gegenstände</h3>
+            <table>
+                <tr>
+                    <th>Icon</th>
+                    <th>Gegenstandsname</th>
+                    <th>Menge</th>
+                    <th>Verwendung</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Medizinische Vorräte" /></td>
+                <td>Schießpulver</td>
+                <td>30</td>
+                <td>Muss abgegeben werden.</td>
+            </tr>
+            </table>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du 30 Schießpulver an Jeff übergeben.</p>
+            `
     },
     {
         "id": 18,
         "title": "Infrastruktur - Teil 4",
-        "description": "",
+        "description": "Infrastruktur - Teil 4 ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Infrastruktur - Teil 4",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Erfahrung",
-            "500 Geld"
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-4",
+        "showDetail": true,
+        "rewards": ["1000 Erfahrung", "500 Geld"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "Infrastructure - Part 2<br/>Infrastructure - Part 3"
+            },
+            {
+                "label": "Folgende",
+                "value": "Unlocking Beacons - Part 1"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Infrastruktur - Teil 4 Quest - Escape from Duckov",
+            "description": "Infrastruktur - Teil 4 ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastruktur - Teil 4, Jeff Quest, Infrastruktur - Teil 4, Infrastruktur - Teil 4"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Infrastruktur - Teil 4</h2>
+            <p>Infrastruktur - Teil 4 ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>Unser Versteck nimmt Gestalt an. Es ist Zeit, weiter in die Sterne vorzudringen! Der Bau unseres Teleporters ist der erste Schritt.</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Teleporter bauen</li>
+            </ul>
+            <h3>Belohnungen</h3>
+            <ul>
+                <li>1000 Erfahrung</li>
+                <li>500 Geld</li>
+            </ul>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du den Teleporter bauen.</p>
+            `
     },
     {
         "id": 19,
         "title": "Leuchtfeuer freischalten - Teil 1",
-        "description": "",
+        "description": "Leuchtfeuer freischalten I ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Leuchtfeuer freischalten - Teil 1",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Erfahrung",
-            "500 Geld"
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-1",
+        "showDetail": true,
+        "rewards": ["1000 Erfahrung", "500 Geld"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "Infrastructure - Part 4"
+            },
+            {
+                "label": "Folgende",
+                "value": "Explore The Warehouses"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Leuchtfeuer freischalten - Teil 1 Quest - Escape from Duckov",
+            "description": "Leuchtfeuer freischalten I ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastruktur - Medizinisch, Jeff Quest, Infrastruktur - Medizinisch, Infrastruktur - Medizinisch"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Leuchtfeuer freischalten - Teil 1</h2>
+            <p>Leuchtfeuer freischalten I ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>Nachdem wir unseren eigenen Teleporter gebaut haben, lass uns das Ground Zero Leuchtfeuer freischalten. Diese Leuchtfeuer erlauben kostenlose Teleportation – obwohl die Koordinaten... weniger als stabil sind. Die Informationen besagen, dass sich das Leuchtfeuer im Straßenlager befindet. Es ist riskant, also bleib wachsam.</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Ground Zero Leuchtfeuer freischalten</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests19-01.webp" alt="Ground Zero Leuchtfeuer freischalten" />
+                    <img src="/images/wiki/quests19-02.webp" alt="Ground Zero Leuchtfeuer freischalten" />
+                </li>
+            </ul>
+    
+            <h3>Belohnungen</h3>
+            <ul>
+                <li>1000 Erfahrung</li>
+            </ul>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du das Straßenlager erreichen und das Ground Zero Leuchtfeuer freischalten, um die Teleportation zu ermöglichen.</p>
+            `
     },
     {
         "id": 20,
         "title": "Leuchtfeuer freischalten - Teil 2",
-        "description": "",
+        "description": "Leuchtfeuer freischalten II ist eine Quest in Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Leuchtfeuer freischalten - Teil 2",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Erfahrung",
-            "500 Geld"
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-2",
+        "showDetail": true,
+        "rewards": ["1000 Erfahrung", "500 Geld"],
+        "rightContent": [
+            {
+                "label": "Gegeben von",
+                "value": "Jeff"
+            },
+            {
+                "label": "Vorherige",
+                "value": "Unlocking Beacons - Part 1"
+            },
+            {
+                "label": "Folgende",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Leuchtfeuer freischalten - Teil 2 Quest - Escape from Duckov",
+            "description": "Leuchtfeuer freischalten II ist eine Quest in Escape From Duckov.",
+            "keywords": "Escape from Duckov, Leuchtfeuer freischalten - Teil 2, Jeff Quest, Leuchtfeuer freischalten - Teil 2, Leuchtfeuer freischalten - Teil 2"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Leuchtfeuer freischalten - Teil 2</h2>
+            <p>Leuchtfeuer freischalten II ist eine Quest in Escape From Duckov.</p>
+            <h3>Dialog</h3>
+            <p>Wir sind endlich weiter draußen unterwegs. Um Reisen zum Lagerbereich zu beschleunigen, musst du das Teleport-Leuchtfeuer neben der Tankstelle im Lagerbereich aktivieren.</p>
+            <h3>Aufgaben</h3>
+            <ul>
+                <li>Lagerbereichs-Leuchtfeuer freischalten</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests20-01.webp" alt="Lagerbereichs-Leuchtfeuer freischalten" />
+                    <img src="/images/wiki/quests20-02.webp" alt="Lagerbereichs-Leuchtfeuer freischalten" />
+                </li>
+            </ul>
+            <h3>Belohnungen</h3>
+            <ul>
+                <li>2000 Erfahrung</li>
+            </ul>
+            <h3>Quest-Anleitung</h3>
+            <p>In dieser Quest musst du das Teleport-Leuchtfeuer neben der Tankstelle im Lagerbereich finden und aktivieren, um die Schnellreise freizuschalten.</p>
+            `
     },
     {
         "id": 21,

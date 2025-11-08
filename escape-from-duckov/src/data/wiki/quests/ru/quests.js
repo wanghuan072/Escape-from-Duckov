@@ -349,218 +349,528 @@ export default [
     {
         "id": 11,
         "title": "Инфраструктура - Часть 3",
-        "description": "",
+        "description": "Инфраструктура - Часть 3 — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Инфраструктура - Часть 3",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 Опыта",
-            "1000 Денег"
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-3",
+        "showDetail": true,
+        "rewards": ["1500 Опыта", "1000 Денег"],
+        "rightContent": [
+            {
+                "label": "Выдан",
+                "value": "Jeff"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "Следующий",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Инфраструктура - Часть 3 - Escape from Duckov",
+            "description": "Инфраструктура - Часть 3 — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Инфраструктура - Часть 3, квест Jeff, Инфраструктура - Часть 3, Инфраструктура - Часть 3"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Инфраструктура - Часть 3</h2>
+            <p>Инфраструктура - Часть 3 — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>Я связался с другим старым другом. Он торговец снаряжением с множеством связей. После того, как вы откроете магазин, он приедет.</p>
+            <h3>Задачи</h3>
+            <ul>
+                <li>Построить Магазин брони</li>
+            </ul>
+            <h3>Награды</h3>
+            <ul>
+                <li>1000 Опыта</li>
+                <li>1500 Денег</li>
+            </ul>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вы должны построить Магазин брони.</p>
+            `
     },
     {
         "id": 12,
-        "title": "Инфраструктура - Медицинская",
-        "description": "",
+        "title": "Инфраструктура - Медицина",
+        "description": "Инфраструктура - Медицина — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Инфраструктура - Медицинская",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Опыта",
-            "1000 Денег"
+        "imageAlt": "Инфраструктура - Медицина",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-medical",
+        "showDetail": true,
+        "rewards": ["1000 Опыта", "1000 Денег"],
+        "rightContent": [
+            {
+                "label": "Выдан",
+                "value": "Jeff"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "Следующий",
+                "value": "Fishing Hobbyist"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Инфраструктура - Медицина - Escape from Duckov",
+            "description": "Инфраструктура - Медицина — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Инфраструктура - Медицина, квест Jeff, Инфраструктура - Медицина, Инфраструктура - Медицина"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Инфраструктура - Медицина</h2>
+            <p>Инфраструктура - Медицина — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>Если мы сможем сами производить различные медицинские принадлежности, это будет гораздо удобнее.</p>
+            <h3>Задачи</h3>
+            <ul>
+                <li>Построить Медицинский пункт</li>
+            </ul>
+            <h3>Награды</h3>
+            <ul>
+                <li>1000 Опыта</li>
+                <li>1000 Денег</li>
+            </ul>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вы должны построить Медицинский пункт.</p>
+            `
     },
     {
         "id": 13,
         "title": "Пистолет-реплика",
-        "description": "",
+        "description": "Пистолет-реплика — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Пистолет-реплика",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1500 Опыта",
-            "1000 Денег",
-            "Разблокировать товар ПМ"
+        "publishDate": "2025-11-06",
+        "addressBar": "/replica-pistol",
+        "showDetail": true,
+        "rewards": ["1500 Опыта", "1000 Денег", "Разблокирует Товар ПМ"],
+        "rightContent": [
+            {
+                "label": "Выдан",
+                "value": "Jeff"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "Aim for the Head"
+            },
+            {
+                "label": "Следующий",
+                "value": "Large Capacity<br/>Strange Feather"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Пистолет-реплика - Escape from Duckov",
+            "description": "Пистолет-реплика — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Пистолет-реплика, квест Jeff, Пистолет-реплика, Пистолет-реплика"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Пистолет-реплика</h2>
+            <p>Пистолет-реплика — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>Принесите мне несколько пистолетов, позвольте мне изучить их. Если все пойдет хорошо, вы сможете покупать пистолеты в Торговом автомате.</p>
+            <h3>Задачи</h3>
+            <ul>
+                <li>Сдать предмет(ы): 2 ПМ</li>
+            </ul>
+            <h3>Награды</h3>
+            <ul>
+                <li>1500 Опыта</li>
+                <li>1000 Денег</li>
+                <li>Разблокирует Товар ПМ</li>
+            </ul>
+            <h3>Требуемые предметы</h3>
+            <table>
+                <tr>
+                    <th>Иконка</th>
+                    <th>Название предмета</th>
+                    <th>Количество</th>
+                    <th>Использование</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Медицинские принадлежности" /></td>
+                <td>ПМ</td>
+                <td>2</td>
+                <td>Требуется для сдачи.</td>
+            </tr>
+            </table>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вы должны найти и передать 2 Пистолета ПМ.</p>
+            `
     },
     {
         "id": 14,
         "title": "Большая вместимость",
-        "description": "",
+        "description": "Большая вместимость — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Большая вместимость",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Опыта",
-            "2000 Денег"
+        "publishDate": "2025-11-06",
+        "addressBar": "/large-capacity",
+        "showDetail": true,
+        "rewards": ["1000 Опыта", "2000 Денег"],
+        "rightContent": [
+            {
+                "label": "Выдан",
+                "value": "Jeff"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "Следующий",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Большая вместимость - Escape from Duckov",
+            "description": "Большая вместимость — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Большая вместимость, квест Jeff, Большая вместимость, Большая вместимость"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Большая вместимость</h2>
+            <p>Большая вместимость — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>???</p>
+            <h3>Задачи</h3>
+            <ul>
+                <li>Разблокировать Хранилище Уровень 1</li>
+            </ul>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вы должны разблокировать улучшение хранилища Уровень 1. (Перейдите в свое хранилище и прокрутите до "Расширение хранилища")</p>
+            `
     },
     {
         "id": 15,
         "title": "Странное перо",
-        "description": "",
+        "description": "Странное перо — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
         "imageAlt": "Странное перо",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Опыта",
-            "1000 Денег",
-            "Тотем: Ниндзя"
+        "publishDate": "2025-11-06",
+        "addressBar": "/strange-feather",
+        "showDetail": true,
+        "rewards": ["1000 Опыта", "1000 Денег", "Тотем: Ниндзя"],
+        "rightContent": [
+            {
+                "label": "Выдан",
+                "value": "Jeff"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "Следующий",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Странное перо - Escape from Duckov",
+            "description": "Странное перо — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Странное перо, квест Jeff, Странное перо, Странное перо"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Странное перо</h2>
+            <p>Странное перо — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>???</p>
+            <h3>Задачи</h3>
+            <ul>
+                <li>Сдать предмет(ы): 4 Выцветших пера</li>
+            </ul>
+            <h3>Награды</h3>
+            <ul>
+                <li>1000 Опыта</li>
+                <li>1000 Денег</li>
+                <li>Тотем: Ниндзя I</li>
+            </ul>
+            <h3>Требуемые предметы</h3>
+            <table>
+                <tr>
+                    <th>Иконка</th>
+                    <th>Название предмета</th>
+                    <th>Количество</th>
+                    <th>Использование</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Выцветшее перо</td>
+                    <td>4</td>
+                    <td>Требуется для сдачи.</td>
+                </tr>
+            </table>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вы должны найти и передать 4 Выцветших пера.</p>
+            `
     },
     {
         "id": 16,
-        "title": "Славный парень",
-        "description": "",
+        "title": "Nice Guy (Хороший парень)",
+        "description": "Nice Guy — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Славный парень",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Опыта",
-            "998 Денег",
-            "Трофей",
-            "Сила списка желаний",
-            "Красный конверт"
+        "imageAlt": "Nice Guy",
+        "publishDate": "2025-11-06",
+        "addressBar": "/nice-guy",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "998 Money", "Trohpy", "Power of Wishlist", "Red Envelope"],
+        "rightContent": [
+            {
+                "label": "Выдано",
+                "value": "Jeff (Джефф)"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "Infrastructure - Part 2"
+            },
+            {
+                "label": "Следующий",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Nice Guy - Escape from Duckov",
+            "description": "Nice Guy — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Nice Guy, квест Джеффа, Nice Guy, Nice Guy"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Nice Guy (Хороший парень)</h2>
+            <p>Nice Guy — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>Я знаю одного разработчика (не меня), который в последнее время странно себя ведет и постоянно повторяет: «Пожалуйста, добавьте в список желаний!». Он довольно хороший человек, но я не знаю, почему он сошел с ума. Хочешь ему помочь?</p>
+            <h3>Задания</h3>
+            <ul>
+                <li>Пойдите и проверьте **Синий узор** на стене вашей Базы!</li>
+            </ul>
+            <img src="/images/wiki/quests16-01.webp" alt="Синий узор" />
+            <h3>Награды</h3>
+            <ul>
+                <li>1000 опыта</li>
+                <li>998 денег</li>
+                <li>Трофей</li>
+                <li>Сила Списка Желаний (Power of Wishlist)</li>
+                <li>Красный конверт</li>
+            </ul>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вам нужно подойти к **Синей отметке** на стене с надписью "**Wishlist**" и **взаимодействовать** с ней.</p>
+            `
     },
     {
         "id": 17,
-        "title": "Истребление комаров",
-        "description": "",
+        "title": "Mosquito Extermination (Истребление комаров)",
+        "description": "Mosquito Extermination — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Истребление комаров",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Опыта",
-            "500 Денег",
-            "Пушка"
+        "imageAlt": "Mosquito Extermination",
+        "publishDate": "2025-11-06",
+        "addressBar": "/mosquito-extermination",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money", "Cannon"],
+        "rightContent": [
+            {
+                "label": "Выдано",
+                "value": "Jeff (Джефф)"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "???"
+            },
+            {
+                "label": "Следующий",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Mosquito Extermination - Escape from Duckov",
+            "description": "Mosquito Extermination — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Mosquito Extermination, квест Джеффа, Mosquito Extermination, Mosquito Extermination"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Mosquito Extermination (Истребление комаров)</h2>
+            <p>Mosquito Extermination — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>В эти дни я не мог спать из-за комаров в моей комнате. Пушка у меня готова, просто нужна порох. Вы можете получить его, разобрав обычные пули на верстаке.</p>
+            <h3>Задания</h3>
+            <ul>
+                <li>Передать предмет(ы): **30 Порох** (Gunpowder)</li>
+            </ul>
+            <h3>Награды</h3>
+            <ul>
+                <li>1000 опыта</li>
+                <li>500 денег</li>
+                <li>Пушка (Cannon)</li>
+            </ul>
+            <h3>Требуемые предметы</h3>
+            <table>
+                <tr>
+                    <th>Иконка</th>
+                    <th>Название предмета</th>
+                    <th>Количество</th>
+                    <th>Использование</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="Медицинские принадлежности" /></td>
+                <td>Порох (Gunpowder)</td>
+                <td>30</td>
+                <td>Требуется для передачи.</td>
+            </tr>
+            </table>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вам нужно **передать 30 Пороха** Джеффу.</p>
+            `
     },
     {
         "id": 18,
-        "title": "Инфраструктура - Часть 4",
-        "description": "",
+        "title": "Infrastructure - Part 4 (Инфраструктура - Часть 4)",
+        "description": "Infrastructure - Part 4 — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Инфраструктура - Часть 4",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Опыта",
-            "500 Денег"
+        "imageAlt": "Infrastructure - Part 4",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-4",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money"],
+        "rightContent": [
+            {
+                "label": "Выдано",
+                "value": "Jeff (Джефф)"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "Infrastructure - Part 2<br/>Infrastructure - Part 3"
+            },
+            {
+                "label": "Следующий",
+                "value": "Unlocking Beacons - Part 1"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Infrastructure - Part 4 - Escape from Duckov",
+            "description": "Infrastructure - Part 4 — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Part 4, квест Джеффа, Infrastructure - Part 4, Infrastructure - Part 4"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Infrastructure - Part 4 (Инфраструктура - Часть 4)</h2>
+            <p>Infrastructure - Part 4 — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>Наше убежище обретает форму. Пришло время отправиться дальше к звёздам! Создание нашего **телепорта** — первый шаг.</p>
+            <h3>Задания</h3>
+            <ul>
+                <li>Построить **Телепорт** (Teleporter)</li>
+            </ul>
+            <h3>Награды</h3>
+            <ul>
+                <li>1000 опыта</li>
+                <li>500 денег</li>
+            </ul>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вам нужно **построить Телепорт**.</p>
+            `
     },
     {
         "id": 19,
-        "title": "Разблокировка маяков - Часть 1",
-        "description": "",
+        "title": "Unlocking Beacons - Part 1 (Разблокировка Маяков - Часть 1)",
+        "description": "Unlock Beacon I — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Разблокировка маяков - Часть 1",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Опыта",
-            "500 Денег"
+        "imageAlt": "Unlocking Beacons - Part 1",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-1",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money"],
+        "rightContent": [
+            {
+                "label": "Выдано",
+                "value": "Jeff (Джефф)"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "Infrastructure - Part 4"
+            },
+            {
+                "label": "Следующий",
+                "value": "Explore The Warehouses"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Unlocking Beacons - Part 1 - Escape from Duckov",
+            "description": "Unlock Beacon I — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Infrastructure - Medical, квест Джеффа, Infrastructure - Medical, Infrastructure - Medical"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Unlocking Beacons - Part 1 (Разблокировка Маяков - Часть 1)</h2>
+            <p>Unlock Beacon I — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>Теперь, когда мы построили наш собственный телепорт, давайте разблокируем маяк **Ground Zero** (Эпицентр). Эти маяки позволяют бесплатно телепортироваться, хотя координаты... не очень стабильны. Разведка сообщает, что маяк находится в дорожном лагере. Это рискованно, так что будьте начеку.</p>
+            <h3>Задания</h3>
+            <ul>
+                <li>Разблокировать **Маяк Ground Zero** (Ground Zero Beacon)</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests19-01.webp" alt="Разблокировать Маяк Ground Zero" />
+                    <img src="/images/wiki/quests19-02.webp" alt="Разблокировать Маяк Ground Zero" />
+                </li>
+            </ul>
+    
+            <h3>Награды</h3>
+            <ul>
+                <li>1000 опыта</li>
+            </ul>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вам нужно добраться до дорожного лагеря и **разблокировать Маяк Ground Zero** для включения телепортации.</p>
+            `
     },
     {
         "id": 20,
-        "title": "Разблокировка маяков - Часть 2",
-        "description": "",
+        "title": "Unlocking Beacons - Part 2 (Разблокировка Маяков - Часть 2)",
+        "description": "Unlock Beacon II — это квест в Escape From Duckov.",
         "imageUrl": "/images/wiki/quests-01.webp",
-        "imageAlt": "Разблокировка маяков - Часть 2",
-        "publishDate": "2025-10-30",
-        "addressBar": "",
-        "showDetail": false,
-        "rewards": [
-            "1000 Опыта",
-            "500 Денег"
+        "imageAlt": "Unlocking Beacons - Part 2",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-2",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money"],
+        "rightContent": [
+            {
+                "label": "Выдано",
+                "value": "Jeff (Джефф)"
+            },
+            {
+                "label": "Предыдущий",
+                "value": "Unlocking Beacons - Part 1"
+            },
+            {
+                "label": "Следующий",
+                "value": "-"
+            }
         ],
-        "rightContent": [],
         "seo": {
-            "title": "",
-            "description": "",
-            "keywords": ""
+            "title": "Квест Unlocking Beacons - Part 2 - Escape from Duckov",
+            "description": "Unlocking Beacons - Part 2 — это квест в Escape From Duckov.",
+            "keywords": "Escape from Duckov, Unlocking Beacons - Part 2, квест Джеффа, Unlocking Beacons - Part 2, Unlocking Beacons - Part 2"
         },
-        "detailsHtml": ""
+        "detailsHtml": `
+            <h2>Unlocking Beacons - Part 2 (Разблокировка Маяков - Часть 2)</h2>
+            <p>Unlock Beacon II — это квест в Escape From Duckov.</p>
+            <h3>Диалог</h3>
+            <p>Мы наконец-то продвигаемся дальше. Чтобы ускорить поездки в **Зону Складов** (Warehouse Area), вам нужно активировать маяк телепортации рядом с Заправочной станцией в Зоне Складов.</p>
+            <h3>Задания</h3>
+            <ul>
+                <li>Разблокировать **Маяк Зоны Складов** (Warehouse Area Beacon)</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests20-01.webp" alt="Разблокировать Маяк Зоны Складов" />
+                    <img src="/images/wiki/quests20-02.webp" alt="Разблокировать Маяк Зоны Складов" />
+                </li>
+            </ul>
+            <h3>Награды</h3>
+            <ul>
+                <li>2000 опыта</li>
+            </ul>
+            <h3>Руководство по квесту</h3>
+            <p>В этом квесте вам нужно найти и **активировать маяк телепортации** рядом с **Заправочной станцией в Зоне Складов**, чтобы разблокировать быстрое перемещение.</p>
+            `
     },
     {
         "id": 21,

@@ -561,184 +561,530 @@ export default [
             `
     },
     {
-        id: 11,
-        title: 'インフラストラクチャー - パート3',
-        description: 'インフラストラクチャー - パート3はEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'インフラストラクチャー - パート3',
-        publishDate: '2025-10-30',
-        addressBar: '/infrastructure-part-3',
-        showDetail: false,
-        rewards: ["1500 経験値", "1000 お金"],
-        rightContent: [],
-        seo: {
-            title: 'インフラストラクチャー - パート3 クエスト - Escape from Duckov',
-            description: 'インフラストラクチャー - パート3はEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, インフラストラクチャー - パート3, クエスト',
+        "id": 11,
+        "title": "インフラストラクチャ - パート 3",
+        "description": "インフラストラクチャ - パート 3は、Escape From Duckovのクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "インフラストラクチャ - パート 3",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-3",
+        "showDetail": true,
+        "rewards": ["1500 経験値", "1000 マネー"],
+        "rightContent": [
+            {
+                "label": "依頼者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前クエスト",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "次クエスト",
+                "value": "Fishing Hobbyist"
+            }
+        ],
+        "seo": {
+            "title": "クエスト インフラストラクチャ - パート 3 - Escape from Duckov",
+            "description": "インフラストラクチャ - パート 3は、Escape From Duckovのクエストです。",
+            "keywords": "Escape from Duckov, インフラストラクチャ - パート 3, Jeff クエスト, インフラストラクチャ - パート 3, インフラストラクチャ - パート 3"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>インフラストラクチャ - パート 3</h2>
+            <p>インフラストラクチャ - パート 3は、Escape From Duckovのクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>別の旧友と連絡を取りました。彼は多くのコネクションを持つ装備商人です。あなたが店を設置した後、彼はやってくるでしょう。</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>アーマーショップを建設する</li>
+            </ul>
+            <h3>報酬</h3>
+            <ul>
+                <li>1000 経験値</li>
+                <li>1500 マネー</li>
+            </ul>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、アーマーショップを建設する必要があります。</p>
+            `
     },
     {
-        id: 12,
-        title: 'インフラストラクチャー - 医療',
-        description: 'インフラストラクチャー - 医療はEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'インフラストラクチャー - 医療',
-        publishDate: '2025-10-30',
-        addressBar: '/infrastructure-medical',
-        showDetail: false,
-        rewards: ["1000 経験値", "1000 お金"],
-        rightContent: [],
-        seo: {
-            title: 'インフラストラクチャー - 医療 クエスト - Escape from Duckov',
-            description: 'インフラストラクチャー - 医療はEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, インフラストラクチャー - 医療, クエスト',
+        "id": 12,
+        "title": "インフラストラクチャ - 医療",
+        "description": "インフラストラクチャ - 医療は、Escape From Duckovのクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "インフラストラクチャ - 医療",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-medical",
+        "showDetail": true,
+        "rewards": ["1000 経験値", "1000 マネー"],
+        "rightContent": [
+            {
+                "label": "依頼者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前クエスト",
+                "value": "Infrastructure"
+            },
+            {
+                "label": "次クエスト",
+                "value": "Fishing Hobbyist"
+            }
+        ],
+        "seo": {
+            "title": "クエスト インフラストラクチャ - 医療 - Escape from Duckov",
+            "description": "インフラストラクチャ - 医療は、Escape From Duckovのクエストです。",
+            "keywords": "Escape from Duckov, インフラストラクチャ - 医療, Jeff クエスト, インフラストラクチャ - 医療, インフラストラクチャ - 医療"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>インフラストラクチャ - 医療</h2>
+            <p>インフラストラクチャ - 医療は、Escape From Duckovのクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>様々な医療品を自作できれば、もっと便利になるでしょう。</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>メディックステーションを建設する</li>
+            </ul>
+            <h3>報酬</h3>
+            <ul>
+                <li>1000 経験値</li>
+                <li>1000 マネー</li>
+            </ul>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、メディックステーションを建設する必要があります。</p>
+            `
     },
     {
-        id: 13,
-        title: 'レプリカピストル',
-        description: 'レプリカピストルはEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'レプリカピストル',
-        publishDate: '2025-10-30',
-        addressBar: '/replica-pistol',
-        showDetail: false,
-        rewards: ["1500 経験値", "1000 お金", "マーチャンダイズ PMをアンロック"],
-        rightContent: [],
-        seo: {
-            title: 'レプリカピストル クエスト - Escape from Duckov',
-            description: 'レプリカピストルはEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, レプリカピストル, クエスト, PM',
+        "id": 13,
+        "title": "レプリカピストル",
+        "description": "レプリカピストルは、Escape From Duckovのクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "レプリカピストル",
+        "publishDate": "2025-11-06",
+        "addressBar": "/replica-pistol",
+        "showDetail": true,
+        "rewards": ["1500 経験値", "1000 マネー", "商品PMをアンロック"],
+        "rightContent": [
+            {
+                "label": "依頼者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前クエスト",
+                "value": "Aim for the Head"
+            },
+            {
+                "label": "次クエスト",
+                "value": "Large Capacity<br/>Strange Feather"
+            }
+        ],
+        "seo": {
+            "title": "クエスト レプリカピストル - Escape from Duckov",
+            "description": "レプリカピストルは、Escape From Duckovのクエストです。",
+            "keywords": "Escape from Duckov, レプリカピストル, Jeff クエスト, レプリカピストル, レプリカピストル"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>レプリカピストル</h2>
+            <p>レプリカピストルは、Escape From Duckovのクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>ピストルをいくつか持ってきて、私に研究させてください。うまくいけば、自動販売機からピストルを買えるようになるでしょう。</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>アイテムを提出: PM 2個</li>
+            </ul>
+            <h3>報酬</h3>
+            <ul>
+                <li>1500 経験値</li>
+                <li>1000 マネー</li>
+                <li>商品PMをアンロック</li>
+            </ul>
+            <h3>必須アイテム</h3>
+            <table>
+                <tr>
+                    <th>アイコン</th>
+                    <th>アイテム名</th>
+                    <th>数量</th>
+                    <th>用途</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="医療品" /></td>
+                <td>PM</td>
+                <td>2</td>
+                <td>提出が必要です。</td>
+            </tr>
+            </table>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、PMピストルを2丁見つけて引き渡す必要があります。</p>
+            `
     },
     {
-        id: 14,
-        title: '大容量',
-        description: '大容量はEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: '大容量',
-        publishDate: '2025-10-30',
-        addressBar: '/large-capacity',
-        showDetail: false,
-        rewards: ["1000 経験値", "2000 お金"],
-        rightContent: [],
-        seo: {
-            title: '大容量 クエスト - Escape from Duckov',
-            description: '大容量はEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, 大容量, クエスト',
+        "id": 14,
+        "title": "大容量",
+        "description": "大容量は、Escape From Duckovのクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "大容量",
+        "publishDate": "2025-11-06",
+        "addressBar": "/large-capacity",
+        "showDetail": true,
+        "rewards": ["1000 経験値", "2000 マネー"],
+        "rightContent": [
+            {
+                "label": "依頼者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前クエスト",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "次クエスト",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "クエスト 大容量 - Escape from Duckov",
+            "description": "大容量は、Escape From Duckovのクエストです。",
+            "keywords": "Escape from Duckov, 大容量, Jeff クエスト, 大容量, 大容量"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>大容量</h2>
+            <p>大容量は、Escape From Duckovのクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>???</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>ストレージレベル1をアンロックする</li>
+            </ul>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、ストレージレベル1のアップグレードをアンロックする必要があります。（ストレージに行き、「ストレージ拡張」までスクロールしてください）</p>
+            `
     },
     {
-        id: 15,
-        title: '奇妙な羽',
-        description: '奇妙な羽はEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: '奇妙な羽',
-        publishDate: '2025-10-30',
-        addressBar: '/strange-feather',
-        showDetail: false,
-        rewards: ["1000 経験値", "1000 お金", "トーテム: ニンジャ"],
-        rightContent: [],
-        seo: {
-            title: '奇妙な羽 クエスト - Escape from Duckov',
-            description: '奇妙な羽はEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, 奇妙な羽, クエスト, トーテム: ニンジャ',
+        "id": 15,
+        "title": "奇妙な羽",
+        "description": "奇妙な羽は、Escape From Duckovのクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "奇妙な羽",
+        "publishDate": "2025-11-06",
+        "addressBar": "/strange-feather",
+        "showDetail": true,
+        "rewards": ["1000 経験値", "1000 マネー", "トーテム: ニンジャ"],
+        "rightContent": [
+            {
+                "label": "依頼者",
+                "value": "Jeff"
+            },
+            {
+                "label": "前クエスト",
+                "value": "Replica Pistol"
+            },
+            {
+                "label": "次クエスト",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "クエスト 奇妙な羽 - Escape from Duckov",
+            "description": "奇妙な羽は、Escape From Duckovのクエストです。",
+            "keywords": "Escape from Duckov, 奇妙な羽, Jeff クエスト, 奇妙な羽, 奇妙な羽"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>奇妙な羽</h2>
+            <p>奇妙な羽は、Escape From Duckovのクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>???</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>アイテムを提出: Fading Feather 4個</li>
+            </ul>
+            <h3>報酬</h3>
+            <ul>
+                <li>1000 経験値</li>
+                <li>1000 マネー</li>
+                <li>トーテム: ニンジャ I</li>
+            </ul>
+            <h3>必須アイテム</h3>
+            <table>
+                <tr>
+                    <th>アイコン</th>
+                    <th>アイテム名</th>
+                    <th>数量</th>
+                    <th>用途</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Fading Feather (色あせた羽)</td>
+                    <td>4</td>
+                    <td>提出が必要です。</td>
+                </tr>
+            </table>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、Fading Feather（色あせた羽）を4枚見つけて引き渡す必要があります。</p>
+            `
     },
     {
-        id: 16,
-        title: 'いい人',
-        description: 'いい人はEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'いい人',
-        publishDate: '2025-10-30',
-        addressBar: '/nice-guy',
-        showDetail: false,
-        rewards: ["1000 経験値", "998 お金", "トロフィー", "ウィッシュリストの力", "赤い封筒"],
-        rightContent: [],
-        seo: {
-            title: 'いい人 クエスト - Escape from Duckov',
-            description: 'いい人はEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, いい人, クエスト',
+        "id": 16,
+        "title": "ナイスガイ (Nice Guy)",
+        "description": "ナイスガイは『Escape From Duckov』のクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "ナイスガイ",
+        "publishDate": "2025-11-06",
+        "addressBar": "/nice-guy",
+        "showDetail": true,
+        "rewards": ["経験値1000", "998 マネー", "トロフィー", "ウィッシュリストの力", "赤い封筒"],
+        "rightContent": [
+            {
+                "label": "提供者",
+                "value": "ジェフ (Jeff)"
+            },
+            {
+                "label": "前クエスト",
+                "value": "Infrastructure - Part 2"
+            },
+            {
+                "label": "次クエスト",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "ナイスガイ クエスト - Escape from Duckov",
+            "description": "ナイスガイは『Escape From Duckov』のクエストです。",
+            "keywords": "Escape from Duckov, ナイスガイ, ジェフのクエスト, ナイスガイ, ナイスガイ"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>ナイスガイ (Nice Guy)</h2>
+            <p>ナイスガイは『Escape From Duckov』のクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>最近、奇妙な行動を取り、「ウィッシュリストに追加してください！」と繰り返し言っている開発者（私ではない）を知っています。彼はかなり良い人なのですが、なぜ気が狂ってしまったのかわかりません。彼を助けてくれませんか？</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>自分の基地の壁にある**青い模様**を確認する！</li>
+            </ul>
+            <img src="/images/wiki/quests16-01.webp" alt="青い模様" />
+            <h3>報酬</h3>
+            <ul>
+                <li>経験値 1000</li>
+                <li>998 マネー</li>
+                <li>トロフィー</li>
+                <li>ウィッシュリストの力</li>
+                <li>赤い封筒</li>
+            </ul>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、「Wishlist」と書かれた壁の**青いマーク**のところへ行き、それと**相互作用**する必要があります。</p>
+            `
     },
     {
-        id: 17,
-        title: '蚊の駆除',
-        description: '蚊の駆除はEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: '蚊の駆除',
-        publishDate: '2025-10-30',
-        addressBar: '/mosquito-extermination',
-        showDetail: false,
-        rewards: ["1000 経験値", "500 お金", "キャノン"],
-        rightContent: [],
-        seo: {
-            title: '蚊の駆除 クエスト - Escape from Duckov',
-            description: '蚊の駆除はEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, 蚊の駆除, クエスト, キャノン',
+        "id": 17,
+        "title": "蚊の駆除 (Mosquito Extermination)",
+        "description": "蚊の駆除は『Escape From Duckov』のクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "蚊の駆除",
+        "publishDate": "2025-11-06",
+        "addressBar": "/mosquito-extermination",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money", "Cannon"],
+        "rightContent": [
+            {
+                "label": "提供者",
+                "value": "ジェフ (Jeff)"
+            },
+            {
+                "label": "前クエスト",
+                "value": "???"
+            },
+            {
+                "label": "次クエスト",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "蚊の駆除 クエスト - Escape from Duckov",
+            "description": "蚊の駆除は『Escape From Duckov』のクエストです。",
+            "keywords": "Escape from Duckov, 蚊の駆除, ジェフのクエスト, 蚊の駆除, 蚊の駆除"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>蚊の駆除 (Mosquito Extermination)</h2>
+            <p>蚊の駆除は『Escape From Duckov』のクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>最近、部屋の蚊のせいで眠れません。大砲は準備できているのですが、火薬が必要です。火薬は、作業台で普通の弾薬を分解することで入手できます。</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>アイテムを提出：**火薬 30個**</li>
+            </ul>
+            <h3>報酬</h3>
+            <ul>
+                <li>経験値 1000</li>
+                <li>500 マネー</li>
+                <li>大砲</li>
+            </ul>
+            <h3>必須アイテム</h3>
+            <table>
+                <tr>
+                    <th>アイコン</th>
+                    <th>アイテム名</th>
+                    <th>数量</th>
+                    <th>用途</th>
+                </tr>
+            </table>
+            <tr>
+                <td><img width="60" height="60" style="margin-bottom: 0;" src="/images/wiki/quests09-01.webp" alt="医療品" /></td>
+                <td>火薬 (Gunpowder)</td>
+                <td>30</td>
+                <td>提出する必要があります。</td>
+            </tr>
+            </table>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、**火薬 30個**をジェフに**引き渡す**必要があります。</p>
+            `
     },
     {
-        id: 18,
-        title: 'インフラストラクチャー - パート4',
-        description: 'インフラストラクチャー - パート4はEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'インフラストラクチャー - パート4',
-        publishDate: '2025-10-30',
-        addressBar: '/infrastructure-part-4',
-        showDetail: false,
-        rewards: ["1000 経験値", "500 お金"],
-        rightContent: [],
-        seo: {
-            title: 'インフラストラクチャー - パート4 クエスト - Escape from Duckov',
-            description: 'インフラストラクチャー - パート4はEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, インフラストラクチャー - パート4, クエスト',
+        "id": 18,
+        "title": "インフラ整備 - パート4 (Infrastructure - Part 4)",
+        "description": "インフラ整備 - パート4は『Escape From Duckov』のクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "インフラ整備 - パート4",
+        "publishDate": "2025-11-06",
+        "addressBar": "/infrastructure-part-4",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money"],
+        "rightContent": [
+            {
+                "label": "提供者",
+                "value": "ジェフ (Jeff)"
+            },
+            {
+                "label": "前クエスト",
+                "value": "Infrastructure - Part 2<br/>Infrastructure - Part 3"
+            },
+            {
+                "label": "次クエスト",
+                "value": "Unlocking Beacons - Part 1"
+            }
+        ],
+        "seo": {
+            "title": "インフラ整備 - パート4 クエスト - Escape from Duckov",
+            "description": "インフラ整備 - パート4は『Escape From Duckov』のクエストです。",
+            "keywords": "Escape from Duckov, インフラ整備 - パート4, ジェフのクエスト, インフラ整備 - パート4, インフラ整備 - パート4"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>インフラ整備 - パート4 (Infrastructure - Part 4)</h2>
+            <p>インフラ整備 - パート4は『Escape From Duckov』のクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>私たちの隠れ家は形になってきました。いよいよ星のさらに奥地へ進出する時です！テレポート装置の建設が最初のステップとなります。</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>**テレポート装置**を建設する</li>
+            </ul>
+            <h3>報酬</h3>
+            <ul>
+                <li>経験値 1000</li>
+                <li>500 マネー</li>
+            </ul>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、**テレポート装置**を**建設**する必要があります。</p>
+            `
     },
     {
-        id: 19,
-        title: 'ビーコンのアンロック - パート1',
-        description: 'ビーコンのアンロック - パート1はEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'ビーコンのアンロック - パート1',
-        publishDate: '2025-10-30',
-        addressBar: '/unlocking-beacons-part-1',
-        showDetail: false,
-        rewards: ["1000 経験値", "500 お金"],
-        rightContent: [],
-        seo: {
-            title: 'ビーコンのアンロック - パート1 クエスト - Escape from Duckov',
-            description: 'ビーコンのアンロック - パート1はEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, ビーコンのアンロック - パート1, クエスト',
+        "id": 19,
+        "title": "ビーコンの解除 - パート1 (Unlocking Beacons - Part 1)",
+        "description": "ビーコンIを解除するは『Escape From Duckov』のクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "ビーコンの解除 - パート1",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-1",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money"],
+        "rightContent": [
+            {
+                "label": "提供者",
+                "value": "ジェフ (Jeff)"
+            },
+            {
+                "label": "前クエスト",
+                "value": "Infrastructure - Part 4"
+            },
+            {
+                "label": "次クエスト",
+                "value": "Explore The Warehouses"
+            }
+        ],
+        "seo": {
+            "title": "ビーコンの解除 - パート1 クエスト - Escape from Duckov",
+            "description": "インフラ整備 - 医療は『Escape From Duckov』のクエストです。",
+            "keywords": "Escape from Duckov, インフラ整備 - 医療, ジェフのクエスト, インフラ整備 - 医療, インフラ整備 - 医療"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>ビーコンの解除 - パート1 (Unlocking Beacons - Part 1)</h2>
+            <p>ビーコンIを解除するは『Escape From Duckov』のクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>これで私たちのテレポート装置が完成したので、**グラウンド・ゼロ**のビーコンを解除しましょう。これらのビーコンは無料のテレポートを可能にしますが、座標が...不安定です。情報によると、ビーコンは道路キャンプにあるとのことです。危険なので、気を抜かないように。</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>**グラウンド・ゼロ ビーコン**を解除する</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests19-01.webp" alt="グラウンド・ゼロ ビーコンを解除する" />
+                    <img src="/images/wiki/quests19-02.webp" alt="グラウンド・ゼロ ビーコンを解除する" />
+                </li>
+            </ul>
+    
+            <h3>報酬</h3>
+            <ul>
+                <li>経験値 1000</li>
+            </ul>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、道路キャンプに到達し、テレポートを可能にするために**グラウンド・ゼロ ビーコン**を**解除**する必要があります。</p>
+            `
     },
     {
-        id: 20,
-        title: 'ビーコンのアンロック - パート2',
-        description: 'ビーコンのアンロック - パート2はEscape From Duckovのクエストです。',
-        imageUrl: '/images/wiki/quests-01.webp',
-        imageAlt: 'ビーコンのアンロック - パート2',
-        publishDate: '2025-10-30',
-        addressBar: '/unlocking-beacons-part-2',
-        showDetail: false,
-        rewards: ["1000 経験値", "500 お金"],
-        rightContent: [],
-        seo: {
-            title: 'ビーコンのアンロック - パート2 クエスト - Escape from Duckov',
-            description: 'ビーコンのアンロック - パート2はEscape From Duckovのクエストです。',
-            keywords: 'Escape from Duckov, ビーコンのアンロック - パート2, クエスト',
+        "id": 20,
+        "title": "ビーコンの解除 - パート2 (Unlocking Beacons - Part 2)",
+        "description": "ビーコンIIを解除するは『Escape From Duckov』のクエストです。",
+        "imageUrl": "/images/wiki/quests-01.webp",
+        "imageAlt": "ビーコンの解除 - パート2",
+        "publishDate": "2025-11-06",
+        "addressBar": "/unlocking-beacons-part-2",
+        "showDetail": true,
+        "rewards": ["1000 Experience", "500 Money"],
+        "rightContent": [
+            {
+                "label": "提供者",
+                "value": "ジェフ (Jeff)"
+            },
+            {
+                "label": "前クエスト",
+                "value": "Unlocking Beacons - Part 1"
+            },
+            {
+                "label": "次クエスト",
+                "value": "-"
+            }
+        ],
+        "seo": {
+            "title": "ビーコンの解除 - パート2 クエスト - Escape from Duckov",
+            "description": "ビーコンの解除 - パート2は『Escape From Duckov』のクエストです。",
+            "keywords": "Escape from Duckov, ビーコンの解除 - パート2, ジェフのクエスト, ビーコンの解除 - パート2, ビーコンの解除 - パート2"
         },
-        detailsHtml: ``
+        "detailsHtml": `
+            <h2>ビーコンの解除 - パート2 (Unlocking Beacons - Part 2)</h2>
+            <p>ビーコンIIを解除するは『Escape From Duckov』のクエストです。</p>
+            <h3>ダイアログ</h3>
+            <p>ついにさらに遠くへ向かいます。**倉庫エリア**への移動を速くするために、倉庫エリアのガソリンスタンドの隣にあるテレポートビーコンを起動する必要があります。</p>
+            <h3>タスク</h3>
+            <ul>
+                <li>**倉庫エリア ビーコン**を解除する</li>
+                 <li style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <img src="/images/wiki/quests20-01.webp" alt="倉庫エリア ビーコンを解除する" />
+                    <img src="/images/wiki/quests20-02.webp" alt="倉庫エリア ビーコンを解除する" />
+                </li>
+            </ul>
+            <h3>報酬</h3>
+            <ul>
+                <li>経験値 2000</li>
+            </ul>
+            <h3>クエストガイド</h3>
+            <p>このクエストでは、**倉庫エリア**の**ガソリンスタンド**の隣にあるテレポートビーコンを見つけて**起動**し、高速移動を解除する必要があります。</p>
+            `
     },
     {
         id: 21,
