@@ -88,8 +88,14 @@
         },
         "steamCharts": {
             "title": "Escape from Duckov Steam 차트 | 실시간 플레이어 수 및 트렌드",
-            "description": "Escape from Duckov Steam 차트를 확인하여 **실시간 플레이어 수**, **24시간 피크**, **리뷰 모멘텀**, 그리고 **커뮤니티 성장**을 한 곳에서 모니터링하세요.",
-            "keywords": "Escape from Duckov Steam 차트, Escape from Duckov 플레이어 수, SteamDB, 생존 통계, 레이드 트렌드",
+            "description": "Escape from Duckov Steam 차트에서 실시간 플레이어 수, 24시간 피크, 리뷰 동향 및 커뮤니티 성장을 한눈에 확인하세요.",
+            "keywords": "Escape from Duckov steam charts, 플레이어 수, SteamDB, 생존 통계, 레이드 트렌드",
+            "type": "website"
+        },
+        "search": {
+            "title": "Escape from Duckov 검색 | 가이드, 지도, 아이템, 모드, 퀘스트",
+            "description": "Escape from Duckov 데이터베이스에서 가이드, 지도, 아이템, 모드, 퀘스트 정보를 원하는 언어로 검색할 수 있습니다.",
+            "keywords": "Escape from Duckov 검색, 가이드, 지도, 아이템, 모드, 퀘스트",
             "type": "website"
         },
         "items": {
@@ -347,6 +353,36 @@
         "updated": "업데이트됨"
     },
     "GuideDetailPage": {},
+    "SearchPage": {
+        "title": "Escape from Duckov 검색",
+        "subtitle": "입력한 키워드와 일치하는 모든 가이드, 지도, 모드, 위키 항목, 아이템을 확인하세요.",
+        "input": {
+            "label": "검색어",
+            "placeholder": "Escape from Duckov 검색...",
+            "button": "검색"
+        },
+        "resultSummary": "\"{query}\" 검색 결과 {count}건",
+        "resultHint": "키워드를 입력하여 Escape from Duckov 지식 베이스를 탐색해 보세요.",
+        "loading": "데이터를 불러오는 중...",
+        "viewDetail": "자세히 보기",
+        "sections": {
+            "guides": "가이드",
+            "mods": "모드",
+            "maps": "지도",
+            "wiki": "위키",
+            "items": "아이템"
+        },
+        "itemsTable": {
+            "image": "이미지",
+            "name": "이름",
+            "type": "유형",
+            "category": "카테고리"
+        },
+        "empty": {
+            "title": "\"{query}\"와 일치하는 결과가 없습니다",
+            "description": "다른 키워드를 입력하거나 더 일반적인 단어로 다시 검색해 보세요."
+        }
+    },
     "WikiPage": {
         "title": "Escape from Duckov 위키",
         "subtitle": "상세한 목표, 보상, NPC 정보가 포함된 완전한 Escape from Duckov 퀘스트 데이터베이스. Duckov의 모든 미션, 요구 사항 및 퀘스트 체인에 대한 종합적인 참고 자료입니다.",

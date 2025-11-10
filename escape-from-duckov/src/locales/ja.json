@@ -87,9 +87,15 @@
             "type": "article"
         },
         "steamCharts": {
-            "title": "Escape from Duckov Steam チャート | リアルタイムプレイヤー数とトレンド",
-            "description": "Escape from Duckov の Steam チャートをチェックして、リアルタイムのプレイヤー数、24時間ピーク、レビューの勢い、コミュニティの成長をまとめて確認できます。",
-            "keywords": "Escape from Duckov Steam チャート, Escape from Duckov プレイヤー数, SteamDB, サバイバル統計, レイドトレンド",
+            "title": "Escape from Duckov Steamチャート | リアルタイムプレイヤー数とトレンド",
+            "description": "Escape from Duckov Steamチャートでリアルタイムのプレイヤー数、24時間ピーク、レビュー動向、コミュニティの成長を確認できます。",
+            "keywords": "Escape from Duckov Steamチャート, プレイヤー数, SteamDB, サバイバル統計, レイドトレンド",
+            "type": "website"
+        },
+        "search": {
+            "title": "Escape from Duckov 検索 | ガイド・マップ・アイテム・MOD・クエスト",
+            "description": "Escape from Duckov データベース内のガイド、マップ、アイテム、MOD、クエスト情報をお好みの言語で検索できます。",
+            "keywords": "Escape from Duckov 検索, ガイド, マップ, アイテム, MOD, クエスト",
             "type": "website"
         },
         "items": {
@@ -347,6 +353,36 @@
         "updated": "更新日"
     },
     "GuideDetailPage": {},
+    "SearchPage": {
+        "title": "Escape from Duckov を検索",
+        "subtitle": "キーワードに一致するガイド、マップ、MOD、Wiki項目、アイテムをまとめて確認できます。",
+        "input": {
+            "label": "検索キーワード",
+            "placeholder": "Escape from Duckov を検索...",
+            "button": "検索"
+        },
+        "resultSummary": "\"{query}\" の検索結果 {count} 件",
+        "resultHint": "キーワードを入力して Escape from Duckov ナレッジベースを検索してください。",
+        "loading": "データを読み込み中...",
+        "viewDetail": "詳細を見る",
+        "sections": {
+            "guides": "ガイド",
+            "mods": "MOD",
+            "maps": "マップ",
+            "wiki": "Wiki",
+            "items": "アイテム"
+        },
+        "itemsTable": {
+            "image": "画像",
+            "name": "名称",
+            "type": "タイプ",
+            "category": "カテゴリ"
+        },
+        "empty": {
+            "title": "\"{query}\" に一致する結果は見つかりませんでした",
+            "description": "別のキーワードを試すか、より広い語句で検索してください。"
+        }
+    },
     "WikiPage": {
         "title": "Escape from Duckov Wiki",
         "subtitle": "詳細な目的、報酬、NPC 情報を含む完全な『Escape from Duckov』クエストデータベース。Duckov のすべてのミッション、要件、クエストチェーンの総合リファレンス。",

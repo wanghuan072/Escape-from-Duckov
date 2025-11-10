@@ -92,6 +92,12 @@
             "keywords": "Escape from Duckov steam 图表, Escape from Duckov 玩家数量, SteamDB, 生存统计, 突袭趋势",
             "type": "website"
         },
+        "search": {
+            "title": "Escape from Duckov 搜索 | 指南、地图、物品、模组与任务",
+            "description": "在 Escape from Duckov 数据库中快速查找指南、地图、物品、模组及任务信息，支持多语言内容展示。",
+            "keywords": "Escape from Duckov 搜索, 指南, 地图, 物品, 模组, 任务, Duckov",
+            "type": "website"
+        },
         "items": {
             "title": "逃离达科夫物品 | 完整的武器和装备数据库",
             "description": "浏览完整的逃离达科夫物品数据库，包括武器、装备、弹药、钥匙和渔具。查找达科夫中每件物品的详细统计数据、描述和信息。",
@@ -347,6 +353,36 @@
         "updated": "已更新"
     },
     "GuideDetailPage": {},
+    "SearchPage": {
+        "title": "搜索 Escape from Duckov",
+        "subtitle": "根据关键词快速浏览所有匹配的指南、地图、模组、百科条目与物品数据。",
+        "input": {
+            "label": "搜索关键词",
+            "placeholder": "搜索 Escape from Duckov...",
+            "button": "搜索"
+        },
+        "resultSummary": "找到 {count} 个结果，关键词「{query}」",
+        "resultHint": "输入关键词，探索 Escape from Duckov 的完整知识库。",
+        "loading": "正在加载内容...",
+        "viewDetail": "查看详情",
+        "sections": {
+            "guides": "指南",
+            "mods": "模组",
+            "maps": "地图",
+            "wiki": "百科",
+            "items": "物品"
+        },
+        "itemsTable": {
+            "image": "图片",
+            "name": "名称",
+            "type": "类型",
+            "category": "类别"
+        },
+        "empty": {
+            "title": "未找到与「{query}」相关的内容",
+            "description": "请尝试更换关键词或缩短搜索词，再次试试。"
+        }
+    },
     "WikiPage": {
         "title": "逃离达科夫维基",
         "subtitle": "完整的逃离达科夫任务数据库，包含详细的目标、奖励和 NPC 信息。您关于达科夫所有任务、要求和任务链的综合参考。",

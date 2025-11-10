@@ -87,9 +87,15 @@
             "type": "article"
         },
         "steamCharts": {
-            "title": "Classements Steam d'Escape from Duckov | Nombre de joueurs en direct et tendances",
-            "description": "Consultez les classements Steam d'Escape from Duckov pour surveiller le nombre de joueurs en direct, les pics sur 24 heures, la dynamique des critiques et la croissance de la communauté en un seul endroit.",
-            "keywords": "Escape from Duckov classements Steam, Escape from Duckov nombre de joueurs, SteamDB, statistiques de survie, tendances des raids",
+            "title": "Escape from Duckov Steam Charts | Nombre de joueurs en direct et tendances",
+            "description": "Consultez les Steam Charts d'Escape from Duckov pour suivre le nombre de joueurs en direct, les pics sur 24 h, la dynamique des avis et la croissance de la communauté.",
+            "keywords": "Escape from Duckov steam charts, nombre de joueurs, SteamDB, statistiques de survie, tendances des raids",
+            "type": "website"
+        },
+        "search": {
+            "title": "Recherche Escape from Duckov | Guides, cartes, objets, mods et quêtes",
+            "description": "Recherchez dans la base Escape from Duckov des guides, cartes, objets, mods et informations de quêtes dans votre langue.",
+            "keywords": "Escape from Duckov recherche, guides, cartes, objets, mods, quêtes",
             "type": "website"
         },
         "items": {
@@ -347,6 +353,36 @@
         "updated": "Mis à jour"
     },
     "GuideDetailPage": {},
+    "SearchPage": {
+        "title": "Rechercher Escape from Duckov",
+        "subtitle": "Retrouvez tous les guides, cartes, mods, entrées wiki et objets correspondant à votre recherche.",
+        "input": {
+            "label": "Requête de recherche",
+            "placeholder": "Rechercher Escape from Duckov...",
+            "button": "Rechercher"
+        },
+        "resultSummary": "{count} résultats pour \"{query}\"",
+        "resultHint": "Saisissez un mot-clé pour explorer toute la base de connaissances Escape from Duckov.",
+        "loading": "Chargement des données...",
+        "viewDetail": "Voir les détails",
+        "sections": {
+            "guides": "Guides",
+            "mods": "Mods",
+            "maps": "Cartes",
+            "wiki": "Wiki",
+            "items": "Objets"
+        },
+        "itemsTable": {
+            "image": "Image",
+            "name": "Nom",
+            "type": "Type",
+            "category": "Catégorie"
+        },
+        "empty": {
+            "title": "Aucun résultat pour \"{query}\"",
+            "description": "Essayez un autre mot-clé ou élargissez votre recherche."
+        }
+    },
     "WikiPage": {
         "title": "Wiki Escape from Duckov",
         "subtitle": "Base de données complète des quêtes d'Escape from Duckov avec objectifs détaillés, récompenses et informations sur les PNJ. Votre référence complète pour toutes les missions, exigences et chaînes de quêtes à Duckov.",

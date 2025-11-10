@@ -15,6 +15,21 @@
           <li><a :href="getLocalizedPathForCurrentLang('/mods')">{{ t('Navigation.mods') }}</a></li>
         </ul>
 
+        <form class="nav-search" @submit.prevent="submitSearch">
+          <label class="sr-only" for="nav-search-input">{{ t('SearchPage.input.label') }}</label>
+          <input
+            id="nav-search-input"
+            v-model="searchTerm"
+            class="nav-search-input"
+            type="search"
+            :placeholder="t('SearchPage.input.placeholder')"
+            autocomplete="off"
+          >
+          <button class="nav-search-button" type="submit" aria-label="Search">
+            🔍
+          </button>
+        </form>
+
         <!-- 语言选择器 -->
         <div class="language-switcher">
           <div class="language-dropdown" @click="toggleLanguageDropdown">
@@ -52,6 +67,22 @@
       </div>
       <nav class="mobile-nav">
         <ul class="mobile-nav-links">
+          <li class="mobile-search-item">
+            <form class="mobile-search-form" @submit.prevent="submitSearch">
+              <label class="sr-only" for="mobile-search-input">{{ t('SearchPage.input.label') }}</label>
+              <input
+                id="mobile-search-input"
+                v-model="searchTerm"
+                type="search"
+                class="mobile-search-input"
+                :placeholder="t('SearchPage.input.placeholder')"
+                autocomplete="off"
+              >
+              <button class="mobile-search-button" type="submit">
+                🔍
+              </button>
+            </form>
+          </li>
           <li><a :href="getLocalizedPathForCurrentLang('/')" @click="closeMenu">{{ t('Navigation.home') }}</a></li>
           <li><a :href="getLocalizedPathForCurrentLang('/guides')" @click="closeMenu">{{ t('Navigation.guides') }}</a>
           </li>
@@ -96,6 +127,7 @@ const isScrolled = ref(false)
 const isMenuOpen = ref(false)
 const isLanguageDropdownOpen = ref(false)
 const isMobileLanguageDropdownOpen = ref(false)
+const searchTerm = ref('')
 
 const currentLocale = computed(() => locale.value)
 
@@ -150,6 +182,27 @@ const switchLanguage = (lang) => {
 
   const targetPath = switchLanguagePath(route.path, lang)
   window.location.href = targetPath
+}
+
+const submitSearch = async () => {
+  const query = searchTerm.value.trim()
+  if (!query) return
+
+  const pathLang = detectLanguageFromRoutePath(route.path)
+  const targetLang = pathLang !== 'en' ? pathLang : currentLocale.value
+  const searchPath = getLocalizedPath('/search', targetLang)
+
+  try {
+    await router.push({ path: searchPath, query: { q: query } })
+  } catch (error) {
+    console.warn('Search navigation failed:', error)
+  }
+
+  if (isMenuOpen.value) {
+    closeMenu()
+  }
+
+  searchTerm.value = ''
 }
 
 const handleScroll = () => {
@@ -271,6 +324,60 @@ onUnmounted(() => {
 .nav-links a:hover,
 .nav-links a.active {
   color: var(--text-primary);
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: border 0.2s ease, background 0.2s ease;
+}
+
+.nav-search:focus-within {
+  border-color: rgba(250, 147, 23, 0.6);
+  background: rgba(250, 147, 23, 0.1);
+}
+
+.nav-search-input {
+  border: none;
+  background: transparent;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  outline: none;
+  width: 200px;
+}
+
+.nav-search-input::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.nav-search-button {
+  border: none;
+  background: none;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-search-button:hover {
+  color: var(--text-primary);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* Hamburger Button */
@@ -417,6 +524,42 @@ onUnmounted(() => {
   padding-left: 30px;
 }
 
+.mobile-search-item {
+  border-bottom: none !important;
+  padding: 20px 20px 12px;
+}
+
+.mobile-search-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+.mobile-search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text-primary);
+  font-size: 1rem;
+  outline: none;
+}
+
+.mobile-search-input::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.mobile-search-button {
+  border: none;
+  background: none;
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
 /* Language Switcher */
 .language-switcher {
   position: relative;
@@ -544,6 +687,10 @@ onUnmounted(() => {
 /* Responsive Design */
 @media (max-width: 1024px) {
   .nav-links {
+    display: none;
+  }
+
+  .nav-search {
     display: none;
   }
 

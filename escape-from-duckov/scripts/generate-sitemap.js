@@ -139,6 +139,7 @@ const baseRoutes = [
     { path: '/maps', name: 'maps', priority: 0.8, changefreq: 'monthly' },
     { path: '/mods', name: 'mods', priority: 0.7, changefreq: 'weekly' },
     { path: '/escape-from-duckov-steam-charts', name: 'steam-charts', priority: 0.7, changefreq: 'weekly' },
+    { path: '/search', name: 'search', priority: 0.6, changefreq: 'weekly' },
     { path: '/privacy-policy', name: 'privacy-policy', priority: 0.5, changefreq: 'yearly' },
     { path: '/terms-of-service', name: 'terms-of-service', priority: 0.5, changefreq: 'yearly' },
     { path: '/copyright', name: 'copyright', priority: 0.5, changefreq: 'yearly' },
@@ -363,7 +364,9 @@ async function main() {
         const langStats = {}
         for (const lang of supportedLanguages) {
             const langPrefix = lang === 'en' ? '' : `/${lang}`
-            const pattern = lang === 'en' ? /<loc>https:\/\/duckovgame\.com\/(?!de|fr|es|ja|ko|ru|pt|zh)/g : new RegExp(`<loc>https://duckovgame\.com/${lang}/`, 'g')
+            const pattern = lang === 'en'
+                ? /<loc>https:\/\/duckovgame\.com\/(?!de\/|fr\/|es\/|ja\/|ko\/|ru\/|pt\/|zh\/)/g
+                : new RegExp(`<loc>https://duckovgame\\.com/${lang}/`, 'g')
             const matches = sitemapContent.match(pattern) || []
             langStats[lang] = matches.length
         }

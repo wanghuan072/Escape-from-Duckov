@@ -11,6 +11,7 @@ import WikiView from '../views/wiki/WikiView.vue'
 // Generic wiki category listing
 import WikiQuestsView from '../views/wiki/WikiQuestsView.vue'
 import WikiDetailView from '../views/wiki/WikiDetailView.vue'
+import SearchResultsView from '../views/SearchResultsView.vue'
 import ItemsView from '../views/items/ItemsView.vue'
 import ItemsWeaponsView from '../views/items/ItemsWeaponsView.vue'
 import ItemsEquipmentView from '../views/items/ItemsEquipmentView.vue'
@@ -142,6 +143,11 @@ const baseRoutes = [
       path: '/escape-from-duckov-steam-charts',
       name: 'steam-charts',
       component: SteamChartsView
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: SearchResultsView
     }
 ]
 

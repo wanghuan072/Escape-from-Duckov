@@ -87,9 +87,15 @@
             "type": "article"
         },
         "steamCharts": {
-            "title": "Steam-чарты Escape from Duckov | Количество игроков в реальном времени и тренды",
-            "description": "Проверяйте Steam-чарты Escape from Duckov, чтобы отслеживать **актуальное количество игроков**, **пики за 24 часа**, **динамику обзоров** и **рост сообщества** в одном месте.",
-            "keywords": "Escape from Duckov Steam-чарты, Escape from Duckov количество игроков, SteamDB, статистика выживания, тренды рейдов",
+            "title": "Escape from Duckov Steam Charts | Онлайн игроков и тенденции",
+            "description": "Следите за Steam Charts Escape from Duckov, чтобы видеть онлайн игроков, суточные пики, динамику отзывов и рост сообщества.",
+            "keywords": "Escape from Duckov Steam Charts, онлайн игроков, SteamDB, статистика выживания, тенденции рейдов",
+            "type": "website"
+        },
+        "search": {
+            "title": "Поиск Escape from Duckov | Гайды, карты, предметы, моды и задания",
+            "description": "Ищите в базе Escape from Duckov гайды, карты, предметы, моды и информацию по заданиям на нужном языке.",
+            "keywords": "Escape from Duckov поиск, гайды, карты, предметы, моды, задания",
             "type": "website"
         },
         "items": {
@@ -347,6 +353,36 @@
         "updated": "Обновлено"
     },
     "GuideDetailPage": {},
+    "SearchPage": {
+        "title": "Поиск по Escape from Duckov",
+        "subtitle": "Найдите все гайды, карты, моды, статьи wiki и предметы, соответствующие вашему запросу.",
+        "input": {
+            "label": "Поисковый запрос",
+            "placeholder": "Искать Escape from Duckov...",
+            "button": "Найти"
+        },
+        "resultSummary": "Найдено {count} результатов по запросу \"{query}\"",
+        "resultHint": "Введите ключевое слово, чтобы просмотреть всю базу знаний Escape from Duckov.",
+        "loading": "Загрузка данных...",
+        "viewDetail": "Подробнее",
+        "sections": {
+            "guides": "Гайды",
+            "mods": "Моды",
+            "maps": "Карты",
+            "wiki": "Wiki",
+            "items": "Предметы"
+        },
+        "itemsTable": {
+            "image": "Изображение",
+            "name": "Название",
+            "type": "Тип",
+            "category": "Категория"
+        },
+        "empty": {
+            "title": "Ничего не найдено по запросу \"{query}\"",
+            "description": "Попробуйте другой запрос или используйте более общее слово."
+        }
+    },
     "WikiPage": {
         "title": "Вики Escape from Duckov",
         "subtitle": "Полная база данных квестов Escape from Duckov с подробными целями, наградами и информацией о NPC. Ваша всеобъемлющая справка по всем миссиям, требованиям и цепочкам квестов в Duckov.",

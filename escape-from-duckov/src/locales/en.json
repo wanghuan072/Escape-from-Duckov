@@ -92,6 +92,12 @@
       "keywords": "Escape from Duckov steam charts, escape from Duckov player count, SteamDB, survival stats, raid trends",
       "type": "website"
     },
+    "search": {
+      "title": "Escape from Duckov Search | Guides, Maps, Items, Mods & Quests",
+      "description": "Search the entire Escape from Duckov database for guides, maps, items, mods, and quest information in your language.",
+      "keywords": "Escape from Duckov search, guides, maps, items, mods, quests, database",
+      "type": "website"
+    },
     "items": {
       "title": "Escape from Duckov Items | Complete Weapon & Equipment Database",
       "description": "Browse the complete Escape from Duckov items database featuring weapons, equipment, ammunition, keys, and fishing gear. Find detailed stats, descriptions, and information for every item in Duckov.",
@@ -347,6 +353,36 @@
     "updated": "Updated"
   },
   "GuideDetailPage": {},
+  "SearchPage": {
+    "title": "Search Escape from Duckov",
+    "subtitle": "Browse every guide, map, mod, wiki entry, and item that matches your keywords.",
+    "input": {
+      "label": "Search query",
+      "placeholder": "Search Escape from Duckov...",
+      "button": "Search"
+    },
+    "resultSummary": "{count} results for \"{query}\"",
+    "resultHint": "Enter a keyword to explore the Escape from Duckov knowledge base.",
+    "loading": "Gathering data...",
+    "viewDetail": "View details",
+    "sections": {
+      "guides": "Guides",
+      "mods": "Mods",
+      "maps": "Maps",
+      "wiki": "Wiki",
+      "items": "Items"
+    },
+    "itemsTable": {
+      "image": "Image",
+      "name": "Name",
+      "type": "Type",
+      "category": "Category"
+    },
+    "empty": {
+      "title": "No results for \"{query}\"",
+      "description": "Try different keywords or broaden your search to discover more Duckov content."
+    }
+  },
   "WikiPage": {
     "title": "Escape from Duckov Wiki",
     "subtitle": "Complete Escape from Duckov quest database with detailed objectives, rewards, and NPC information. Your comprehensive reference for all missions, requirements, and quest chains in Duckov.",
