@@ -258,6 +258,7 @@ const routeToSeoKey = {
     'items-key': 'itemsKey',
     'items-fish': 'itemsFish',
     'items-detail': 'itemsDetail',
+    'steam-charts': 'steamCharts',
     'privacy-policy': 'privacyPolicy',
     'terms-of-service': 'termsOfService',
     'copyright': 'copyright',

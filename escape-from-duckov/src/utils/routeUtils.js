@@ -9,15 +9,14 @@ export function getBasePath(path) {
     basePath = `/${basePath}`
   }
   
-  // 移除所有支持的语言前缀（除了英文）
-  supportedLanguages.forEach(lang => {
-    if (lang !== 'en') {
-      const langPrefix = `/${lang}`
-      if (basePath.startsWith(langPrefix)) {
-        basePath = basePath.substring(langPrefix.length) || '/'
-      }
+  // 匹配 /xx/ 或 /xx 等语言前缀（exclude en）
+  const langMatch = basePath.match(/^\/([a-z]{2})(?=\/|$|[?#])/)
+  if (langMatch) {
+    const lang = langMatch[1]
+    if (lang !== 'en' && supportedLanguages.includes(lang)) {
+      basePath = basePath.substring(langMatch[0].length) || '/'
     }
-  })
+  }
   
   if (!basePath.startsWith('/')) {
     basePath = `/${basePath}`

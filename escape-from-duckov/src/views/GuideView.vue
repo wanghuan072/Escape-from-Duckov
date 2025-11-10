@@ -198,7 +198,7 @@ const formatDate = (dateString) => {
 }
 
 .category-section {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .category-section:last-child {
@@ -206,10 +206,10 @@ const formatDate = (dateString) => {
 }
 
 .category-title {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 700;
     color: #FA9317;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: left;
     text-shadow: 0 0 20px rgba(250, 147, 23, 0.3);
 }
@@ -226,25 +226,12 @@ const formatDate = (dateString) => {
     background: rgba(30, 30, 30, 0.8);
     border-radius: 8px;
     border: 1px solid rgba(250, 147, 23, 0.2);
-    padding: 24px;
+    padding: 20px;
     transition: all 0.3s ease;
     cursor: pointer;
     backdrop-filter: blur(10px);
     position: relative;
     overflow: hidden;
-}
-
-.guide-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background: linear-gradient(135deg, rgba(250, 147, 23, 0.05) 0%, transparent 50%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
 }
 
 .guide-card:hover {
@@ -267,14 +254,14 @@ const formatDate = (dateString) => {
     color: #FA9317;
     padding: 4px 12px;
     border-radius: 20px;
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     font-weight: 600;
     letter-spacing: 0.5px;
 }
 
 
 .guide-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--text-heading);
     margin-bottom: 12px;
@@ -284,24 +271,24 @@ const formatDate = (dateString) => {
 .guide-description {
     color: var(--text-secondary);
     line-height: 1.6;
-    margin-bottom: 20px;
-    font-size: 0.95rem;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
 }
 
 .guide-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .tag {
     background: transparent;
     border: 1px solid rgba(250, 147, 23, 0.3);
     color: var(--text-secondary);
-    padding: 4px 10px;
+    padding: 2px 8px;
     border-radius: 16px;
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -315,18 +302,18 @@ const formatDate = (dateString) => {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 16px;
+    padding-top: 10px;
     border-top: 1px solid rgba(250, 147, 23, 0.1);
 }
 
 .update-date {
     color: var(--text-secondary);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .view-link {
     color: #FA9317;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 600;
     transition: all 0.3s ease;
 }

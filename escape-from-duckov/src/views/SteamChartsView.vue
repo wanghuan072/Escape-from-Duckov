@@ -70,38 +70,9 @@
 </template>
 
 <script setup>
-import { onMounted, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { useSEO } from '../seo/composables.js'
-import { seoConfig } from '../seo/config.js'
-import { loadLocale } from '../i18n'
 
-const { t, locale } = useI18n()
-const { setSEO } = useSEO()
-
-const updateSEO = () => {
-  setSEO({
-    title: t('seo.steamCharts.title') || seoConfig.defaults.title,
-    description: t('seo.steamCharts.description') || seoConfig.defaults.description,
-    keywords: t('seo.steamCharts.keywords') || seoConfig.defaults.keywords,
-    author: seoConfig.defaults.author,
-    image: seoConfig.defaults.image,
-    type: t('seo.steamCharts.type') || seoConfig.defaults.type
-  })
-}
-
-onMounted(() => {
-  updateSEO()
-})
-
-watch(locale, async (newLocale) => {
-  try {
-    await loadLocale(newLocale)
-  } catch (error) {
-    console.warn('Failed to load locale for SteamChartsView:', error)
-  }
-  updateSEO()
-})
+const { t } = useI18n()
 </script>
 
 <style scoped>
