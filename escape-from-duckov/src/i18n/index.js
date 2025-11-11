@@ -65,9 +65,14 @@ const i18n = createI18n({
     fallbackWarn: false
 })
 
+i18n.global.setLocaleMessage('en', en)
+
 // 动态加载语言文件
 const loadLocale = async (locale) => {
-    if (locale === 'en') return en
+    if (locale === 'en') {
+        i18n.global.setLocaleMessage('en', en)
+        return en
+    }
     
     try {
         const messages = await import(`../locales/${locale}.json`)
@@ -75,6 +80,7 @@ const loadLocale = async (locale) => {
         return messages.default
     } catch (error) {
         console.warn(`Failed to load locale ${locale}:`, error)
+        i18n.global.setLocaleMessage('en', en)
         return en
     }
 }

@@ -2,7 +2,8 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { seoConfig } from './config.js'
-import { getCurrentLocale } from '../i18n'
+import i18n, { getCurrentLocale, supportedLanguages, loadLocale } from '../i18n'
+import enMessages from '../locales/en.json'
 
 // 数据加载映射表 - 用于 SEO 中的数据加载
 // 使用映射表减少重复代码，同时保持 Vite 能正确解析路径
@@ -268,50 +269,104 @@ const routeToSeoKey = {
 }
 
 // 自动SEO composable - 监听路由变化自动设置SEO
+const normalizeRouteName = (name) => {
+    if (typeof name !== 'string') return name
+    
+    for (const lang of supportedLanguages) {
+        if (lang === 'en') continue
+        const suffix = `-${lang}`
+        if (name.endsWith(suffix)) {
+            return name.slice(0, -suffix.length)
+        }
+    }
+    
+    return name
+}
+
+const dynamicRouteNames = new Set([
+    'guide-detail',
+    'mod-detail',
+    'wiki-detail',
+    'maps-detail'
+])
+
+const getSeoMessage = (locale, key) => {
+    if (!locale || !key) return null
+
+    const messages = i18n.global.getLocaleMessage(locale)
+    const seoData = messages?.seo?.[key]
+    if (seoData) return seoData
+
+    if (locale !== 'en') {
+        const fallback =
+            i18n.global.getLocaleMessage('en')?.seo?.[key] || enMessages?.seo?.[key] || null
+        if (fallback) return fallback
+    } else if (enMessages?.seo?.[key]) {
+        return enMessages.seo[key]
+    }
+
+    return null
+}
+
+const mergeSeoData = (base, message, defaultType = base.type || 'website') => {
+    if (!message) return base
+    
+    return {
+        ...base,
+        title: message.title || base.title,
+        description: message.description || base.description,
+        keywords: message.keywords || base.keywords,
+        type: message.type || defaultType
+    }
+}
+
 export function useAutoSEO() {
     const { setSEO, generateStructuredData, addStructuredData } = useSEO()
     const route = useRoute()
-    const { t } = useI18n()
+    const { locale } = useI18n()
     
     // 处理SEO的函数
     const handleSEO = async () => {
-        // 从路由名称获取SEO key
-        const routeName = route.name
-        const seoKey = routeToSeoKey[routeName]
-        
-        // 处理动态内容（指南详情页和模组详情页）
-        let finalSEOData = {
-            title: seoConfig.defaults.title,
-            description: seoConfig.defaults.description,
-            keywords: seoConfig.defaults.keywords,
-            author: seoConfig.defaults.author,
-            image: seoConfig.defaults.image,
-            type: seoConfig.defaults.type
+        const currentLocale = locale.value || getCurrentLocale()
+        await loadLocale(currentLocale)
+
+        const targetLocale = supportedLanguages.includes(currentLocale) ? currentLocale : 'en'
+        if (targetLocale !== 'en') {
+            await loadLocale('en')
         }
-        
-        // 如果是动态路由，需要从数据中获取实际内容
-        if (routeName === 'guide-detail' || routeName === 'mod-detail' || routeName === 'wiki-detail' || routeName === 'maps-detail') {
+        const fallbackLocale = 'en'
+
+        const routeName = route.name
+        const baseRouteName = normalizeRouteName(routeName)
+        const seoKey = routeToSeoKey[baseRouteName]
+
+        let finalSEOData = {
+            ...seoConfig.defaults
+        }
+        let hasSeoData = false
+
+        const applySeoFromMessage = (key, defaultType = finalSEOData.type || 'website') => {
+            if (!key) return false
+            const message = getSeoMessage(targetLocale, key) || getSeoMessage(fallbackLocale, key)
+            if (!message) return false
+            finalSEOData = mergeSeoData(finalSEOData, message, defaultType)
+            return true
+        }
+
+        if (dynamicRouteNames.has(baseRouteName)) {
             try {
                 let item = null
                 
-                if (routeName === 'guide-detail') {
+                if (baseRouteName === 'guide-detail') {
                     // 根据当前语言动态加载 guide 数据
-                    const locale = getCurrentLocale()
-                    const supportedLocales = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
-                    const targetLocale = supportedLocales.includes(locale) ? locale : 'en'
-                    
                     try {
                         const module = await loadDataForSEO('guide', targetLocale)
                         item = module.guides?.find(g => g.addressBar === `/${route.params.id}`)
                     } catch (error) {
                         console.warn('Failed to load guide data for SEO:', error)
                     }
-                } else if (routeName === 'mod-detail') {
+                } else if (baseRouteName === 'mod-detail') {
                     // 根据当前语言动态加载 mods 数据
-                    const locale = getCurrentLocale()
-                    const supportedLocales = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
-                    const targetLocale = supportedLocales.includes(locale) ? locale : 'en'
-                    
                     try {
                         const module = await loadDataForSEO('mods', targetLocale)
                         if (module?.default) {
@@ -327,11 +382,8 @@ export function useAutoSEO() {
                     } catch (error) {
                         console.warn('Failed to load mods data for SEO:', error)
                     }
-                } else if (routeName === 'wiki-detail') {
+                } else if (baseRouteName === 'wiki-detail') {
                     // 根据当前语言动态加载 wiki 数据
-                    const locale = getCurrentLocale()
-                    const supportedLocales = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
-                    const targetLocale = supportedLocales.includes(locale) ? locale : 'en'
                     const category = route.params.category || 'quests'
                     const searchId = route.params.id || ''
                     
@@ -351,11 +403,8 @@ export function useAutoSEO() {
                     } catch (error) {
                         console.warn('Failed to load wiki data for SEO:', error)
                     }
-                } else if (routeName === 'maps-detail') {
+                } else if (baseRouteName === 'maps-detail') {
                     // 根据当前语言动态加载 maps 数据
-                    const locale = getCurrentLocale()
-                    const supportedLocales = ['en', 'de', 'fr', 'es', 'ja', 'ko', 'ru', 'pt', 'zh']
-                    const targetLocale = supportedLocales.includes(locale) ? locale : 'en'
                     const searchId = route.params.id || ''
                     
                     try {
@@ -376,53 +425,40 @@ export function useAutoSEO() {
                 
                 if (item) {
                     if (item.seo) {
-                    // 使用数据中的SEO信息
-                    finalSEOData = {
+                        finalSEOData = {
+                            ...finalSEOData,
                             title: item.seo.title || item.title || finalSEOData.title,
                             description: item.seo.description || item.description || finalSEOData.description,
-                        keywords: item.seo.keywords || finalSEOData.keywords,
-                        author: seoConfig.defaults.author,
-                            image: item.imageUrl || seoConfig.defaults.image,
+                            keywords: item.seo.keywords || finalSEOData.keywords,
+                            image: item.imageUrl || finalSEOData.image,
                             type: 'article'
                         }
+                        hasSeoData = true
                     } else {
-                        // 如果数据中没有SEO字段，使用item的基本信息
                         finalSEOData = {
+                            ...finalSEOData,
                             title: item.title ? `${item.title} - Escape from Duckov` : finalSEOData.title,
                             description: item.description || finalSEOData.description,
-                            keywords: finalSEOData.keywords,
-                            author: seoConfig.defaults.author,
-                            image: item.imageUrl || seoConfig.defaults.image,
-                        type: 'article'
+                            image: item.imageUrl || finalSEOData.image,
+                            type: 'article'
                         }
+                        const merged = applySeoFromMessage(seoKey, 'article')
+                        hasSeoData = merged || !!item.description || !!item.title
                     }
                 } else if (seoKey) {
-                    // 如果数据中没有找到item，从i18n读取
-                    finalSEOData = {
-                        title: t(`seo.${seoKey}.title`, finalSEOData.title),
-                        description: t(`seo.${seoKey}.description`, finalSEOData.description),
-                        keywords: t(`seo.${seoKey}.keywords`, finalSEOData.keywords),
-                        author: seoConfig.defaults.author,
-                        image: seoConfig.defaults.image,
-                        type: t(`seo.${seoKey}.type`, 'article')
-                    }
+                    hasSeoData = applySeoFromMessage(seoKey, 'article')
                 }
             } catch (error) {
                 console.warn('Failed to load dynamic SEO data:', error)
             }
         } else if (seoKey) {
-            // 从i18n读取SEO信息
-            finalSEOData = {
-                title: t(`seo.${seoKey}.title`, finalSEOData.title),
-                description: t(`seo.${seoKey}.description`, finalSEOData.description),
-                keywords: t(`seo.${seoKey}.keywords`, finalSEOData.keywords),
-                author: seoConfig.defaults.author,
-                image: seoConfig.defaults.image,
-                type: t(`seo.${seoKey}.type`, 'website')
-            }
+            hasSeoData = applySeoFromMessage(seoKey, 'website')
+        }
+
+        if (!hasSeoData) {
+            return
         }
         
-        // 设置SEO信息
         setSEO(finalSEOData)
         
         // 添加结构化数据
@@ -432,10 +468,10 @@ export function useAutoSEO() {
     
     // 监听路由变化
     watch(
-        () => route,
-        () => {
-            handleSEO()
+        [() => route.fullPath, () => route.name, () => locale.value],
+        async () => {
+            await handleSEO()
         },
-        { immediate: true, deep: true } // 立即执行一次，深度监听
+        { immediate: true }
     )
 }
