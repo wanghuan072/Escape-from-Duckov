@@ -2,7 +2,7 @@ export default [
     {
         "id": 1,
         "title": "ShowQuestsAreaOnMap",
-        "description": "在地图上显示物品位置和任务位置。此 MOD 支持多国语言。",
+        "description": "必备的 QoL（生活质量）模组，可将当前任务目标边界直接高亮显示在游戏内地图上，从而简化任务导航和完成。",
         "imageUrl": "/images/mods/mod-01.webp",
         "imageAlt": "ShowQuestsAreaOnMap Mod",
         "publishDate": "2025-11-08",
@@ -46,7 +46,7 @@ export default [
     {
         "id": 2,
         "title": "Show inventory Count",
-        "description": "显示背包和仓库中的物品数量。",
+        "description": "直接在库存图标上显示堆叠物品的数字计数，以便简化管理和加快整理速度。",
         "imageUrl": "/images/mods/mod-02.webp",
         "imageAlt": "Show inventory Count Mod",
         "addressBar": "/show-inventory-count",
@@ -81,7 +81,7 @@ export default [
     {
         "id": 3,
         "title": "Better Hydration & Energy HUD",
-        "description": "此 Mod 为水合/能量环添加了两行可自定义的数值（差值和当前/最大值）。",
+        "description": "此模组为水合/能量环添加了两条可自定义的线条（差值和当前/最大值）。",
         "imageUrl": "/images/mods/mod-03.webp",
         "imageAlt": "Better Hydration & Energy HUD Mod",
         "publishDate": "2025-11-08",
@@ -140,7 +140,7 @@ export default [
     {
         "id": 4,
         "title": "Show The Cost",
-        "description": "显示成本！",
+        "description": "直接在用户界面中显示物品的商人价格（出售价值），以便即时做出搜刮决策并优化利润。",
         "imageUrl": "/images/mods/mod-04.webp",
         "imageAlt": "Show The Cost Mod",
         "publishDate": "2025-11-08",
@@ -168,6 +168,189 @@ export default [
   <h2>作者</h2>
   <p>由 xvrsl 创建，名称由 @Sola [RU] 建议</p>
           `
+    },
+    {
+        "id": 5,
+        "title": "物品价值稀有度显示与搜索音效",
+        "description": "添加了物品稀有度显示（基于其价值）、重新校准的搜索持续时间以及自定义搜索音效。成就安全。",
+        "imageUrl": "/images/mods/mod-05.webp",
+        "imageAlt": "物品稀有度显示与搜索音效模组预览图",
+        "publishDate": "2025-11-11",
+        "addressBar": "/item-value-rarity-display-mod",
+        "author": "土豆宝",
+        "releaseDate": "2025-10-17",
+        "fileSize": "2.54MB",
+        "visits": "1,800,000+",
+        "subscribers": "1,600,000+",
+        "favorites": "1,9000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3588386576&searchtext=",
+        "seo": {
+            "title": "物品价值稀有度显示与搜索音效模组",
+            "description": "增强您的搜刮体验！此模组添加了基于物品价值的稀有度显示，重新校准了搜索时间，并包含了可自定义的搜索音效。不禁用成就。",
+            "keywords": "游戏模组, 物品稀有度显示, 搜索音效, 搜刮增强, 搜索时间重新校准, 自定义音效, 成就安全"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>物品价值稀有度显示与搜索音效</h2>
+            <p>让搜刮体验更加刺激！</p>
+            <p>此模组为游戏内物品添加了 **稀有度显示**（基于其价值），**重新校准了搜索持续时间**，并添加了 **搜索音效**。</p>
+            <p>此模组**不会禁用成就**。</p>
+          
+            <h3>自定义音效配置</h3>
+            <p>如果您不想使用模组附带的音效，而更喜欢使用您自己的自定义音效文件，您可以按如下方式进行配置：</p>
+            <ol>
+              <li>在游戏的安装目录中创建一个名为 <code>ItemLevelAndSearchSoundMod</code> 的文件夹。</li>
+              <li>将您的音效文件放入其中 — 例如：<code>0.mp3</code> 替换**白色稀有度**物品的搜索音效（<code>1</code> = 绿色，<code>2</code> = 蓝色，<code>3</code> = 紫色，<code>4</code> = 金色，<code>5</code> = 浅红色，<code>6</code> = 深红色）。</li>
+              <li>重启游戏（如果它正在运行）。</li>
+            </ol>
+            <p>如果加载自定义音效时出现问题，屏幕左上角将显示红色文本的错误消息。</p>
+          
+            <h3>禁用自定义搜索时间</h3>
+            <p>要禁用模组的自定义物品检查时间，只需在 <code>&lt;游戏安装目录&gt;/ItemLevelAndSearchSoundMod/</code> 中创建一个名为 <code>DisableModSearchTime.txt</code> 的文件即可。</p>
+          </article>
+          `
+    },
+    {
+        "id": 6,
+        "title": "实时 Boss 地图标记",
+        "description": "一个生活质量改进模组，为活动中的 Boss 和主要敌人位置添加了实时地图标记，使追踪和交战更加容易。",
+        "imageUrl": "/images/mods/mod-06.webp",
+        "imageAlt": "实时 Boss 地图标记模组预览图，显示地图上的敌人图标。",
+        "publishDate": "2025-11-11",
+        "addressBar": "/live-boss-map-markers-mod",
+        "author": "Pos 4/5",
+        "releaseDate": "2025-10-18",
+        "fileSize": "896KB",
+        "visits": "1,400,000+",
+        "subscribers": "1,200,000+",
+        "favorites": "14,000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3589079671&searchtext=",
+        "seo": {
+            "title": "实时 Boss 地图标记 - Escape from Duckov 模组",
+            "description": "厌倦了搜索？此模组显示游戏世界中所有活动 Boss 和强大敌人位置的实时地图标记，提高目标锁定和态势感知能力。",
+            "keywords": "游戏模组, Boss 地图标记, 实时追踪, 敌人位置, 生活质量模组, Boss 指示器, 实时地图"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>实时 Boss 地图标记</h2>
+            <p>为游戏中的所有活动 Boss 和主要敌人添加了 **实时地图标记**。</p>
+            <ul>
+              <li>提高目标追踪和态势感知能力。</li>
+              <li>标记会随着 Boss 的移动而动态更新。</li>
+              <li>不禁用成就。</li>
+            </ul>
+          </article>
+          `
+    },
+    {
+        "id": 7,
+        "title": "更好的钥匙指示器",
+        "description": "为已注册的钥匙和门禁卡添加了清晰的视觉指示器（绿色 '✓'），帮助玩家快速识别不必要的重复物品。",
+        "imageUrl": "/images/mods/mod-07.webp",
+        "imageAlt": "更好的钥匙指示器模组预览图，显示带有绿色对勾标记的钥匙。",
+        "publishDate": "2025-11-11",
+        "addressBar": "/better-key-indicator-mod",
+        "author": "Cyerol",
+        "releaseDate": "2025-10-20",
+        "fileSize": "2.48MB",
+        "visits": "1,100,000+",
+        "subscribers": "1,000,000+",
+        "favorites": "10,000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3590154134&searchtext=",
+        "seo": {
+            "title": "更好的钥匙指示器 - Escape from Duckov 模组",
+            "description": "使用更好的钥匙指示器模组简化库存管理。为已注册的钥匙和卡片添加了绿色 '✓' 标记，避免重复拾取。",
+            "keywords": "游戏模组, 钥匙指示器, 钥匙视觉识别, 生活质量, 已注册钥匙, 库存管理, 门禁卡"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>更好的钥匙指示器</h2>
+            <p>为已注册的钥匙和卡片添加了视觉识别，以帮助快速识别已注册的物品。</p>
+            <ul>
+              <li>当您拾取钥匙或卡片时，如果它已被注册，将显示一个 **绿色 \"✓\" 标记**。</li>
+              <li>帮助玩家轻松避免拾取不必要的重复物品。</li>
+              <li>简单而有效的质量生活改进。</li>
+            </ul>
+          </article>
+          `
+    },
+    {
+        "id": 8,
+        "title": "比赛总计与时长与仓库价值",
+        "description": "通过在背包屏幕中直接显示实际比赛利润（扣除后）、突袭时长和总仓库价值来增强用户界面。",
+        "imageUrl": "/images/mods/mod-08.webp",
+        "imageAlt": "比赛总计、时长和仓库价值模组预览图，显示用户界面增强。",
+        "publishDate": "2025-11-11",
+        "addressBar": "/match-stats-stash-value-mod",
+        "author": "土豆宝",
+        "releaseDate": "2025-10-18",
+        "fileSize": "2.5MB",
+        "visits": "1,200,000+",
+        "subscribers": "1,000,000+",
+        "favorites": "13,000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3588652490&searchtext=",
+        "seo": {
+            "title": "比赛总计与时长与仓库价值 - Escape from Duckov 模组",
+            "description": "获得详细的财务清晰度。在结果屏幕上显示实际利润、比赛时长，并在基地的背包中显示您的总仓库价值。享受“丰厚撤离”的体验！",
+            "keywords": "游戏模组, 比赛总计, 比赛时长, 仓库价值, 撤离利润, UI 增强, Duckov, 生活质量模组"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>比赛总计与时长与仓库价值</h2>
+            <p>在 Duckov 中，您也可以享受丰厚的撤离！</p>
+            <ul>
+              <li>背包和结果屏幕现在会显示您的 **实际利润**（扣除后）。</li>
+              <li>在结果屏幕上显示 **比赛的持续时间**。</li>
+              <li>**仓库价值**也会在基地背包中显示。</li>
+              <li>一目了然地提供关键的财务和统计信息。</li>
+            </ul>
+          </article>
+          `
+    },
+    {
+        "id": 9,
+        "title": "Escape From Duckov 合作模组预览",
+        "description": "为 Escape From Duckov 解锁稳定的 LAN/在线合作多人游戏，具有同步的玩家、AI、战利品共享、死亡观战模式和完整的战斗同步。",
+        "imageUrl": "/images/mods/mod-09.webp",
+        "imageAlt": "Escape From Duckov 合作模组预览图，显示游戏中的多名玩家。",
+        "publishDate": "2025-11-11",
+        "addressBar": "/escape-from-duckov-coop-mod",
+        "author": "Mr.sans",
+        "releaseDate": "2025-10-22",
+        "fileSize": "813KB",
+        "visits": "700,000+",
+        "subscribers": "380,000+",
+        "favorites": "11,000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3591341282&searchtext=",
+        "seo": {
+            "title": "Escape From Duckov 合作模组：稳定的 LAN/在线多人合作",
+            "description": "将 Escape From Duckov 转化为合作体验！此模组为玩家、AI、战利品、战斗提供了稳定的多人同步，并包括死亡观战模式。通过 Steam 创意工坊轻松订阅。",
+            "keywords": "Escape From Duckov 模组, 合作模组, 多人游戏, 在线合作, LAN 支持, 游戏同步, 战利品共享, 死亡观战, EFT 模组"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>Escape From Duckov 合作模组预览</h2>
+            <p>此项目旨在为游戏 Escape From Duckov 提供稳定的 LAN/在线合作多人游戏体验，将原来的单人游戏转变为共享的冒险。</p>
+            
+            <h3>核心功能</h3>
+            <ul>
+              <li>多人同步：** 玩家动作和状态的完美同步。</li>
+              <li>AI 行为同步：** 敌人 AI 行为在所有玩家中保持一致。</li>
+              <li>战利品共享：** 支持共享搜刮机制。</li>
+              <li>死亡观战模式：** 允许玩家在死亡后观战队友。</li>
+              <li>完整的战斗同步：** 确保流畅和公平的战斗体验。</li>
+              <li>LAN/在线合作支持：** 提供灵活的连接选项。</li>
+            </ul>
+            
+            <h3>使用方法 (标准玩家)</h3>
+            <p>无需手动安装或构建此项目：</p>
+            <ol>
+              <li>只需 **通过 Steam 创意工坊订阅**。</li>
+              <li>订阅后，启动游戏并启用模组即可访问合作功能。</li>
+            </ol>
+          </article>
+          `
     }
+
 ]
 

@@ -2,7 +2,7 @@ export default [
     {
         "id": 1,
         "title": "ShowQuestsAreaOnMap",
-        "description": "지도에 아이템 위치와 퀘스트 위치를 표시합니다. 이 MOD는 다국어를 지원합니다.",
+        "description": "현재 퀘스트 목표 경계를 게임 내 지도에 직접 표시하여 미션 탐색 및 완료를 단순화하는 필수 QoL(Quality of Life) 모드입니다.",
         "imageUrl": "/images/mods/mod-01.webp",
         "imageAlt": "ShowQuestsAreaOnMap 모드",
         "publishDate": "2025-11-08",
@@ -46,7 +46,7 @@ export default [
     {
         "id": 2,
         "title": "Show inventory Count",
-        "description": "배낭 및 저장 공간의 인벤토리 수를 표시합니다.",
+        "description": "스택된 아이템의 수량을 인벤토리 아이콘에 직접 숫자로 표시하여 관리를 단순화하고 정리를 빠르게 합니다.",
         "imageUrl": "/images/mods/mod-02.webp",
         "imageAlt": "Show inventory Count 모드",
         "addressBar": "/show-inventory-count",
@@ -140,7 +140,7 @@ export default [
     {
         "id": 4,
         "title": "Show The Cost",
-        "description": "비용을 표시합니다！",
+        "description": "아이템의 상인 가격(판매 가치)을 UI에 직접 표시하여 즉각적인 전리품 획득 결정 및 이윤 최적화에 도움을 줍니다.",
         "imageUrl": "/images/mods/mod-04.webp",
         "imageAlt": "Show The Cost 모드",
         "publishDate": "2025-11-08",
@@ -168,6 +168,189 @@ export default [
   <h2>작성자</h2>
   <p>xvrsl에 의해 제작되었으며, 이름은 @Sola [RU]가 제안했습니다.</p>
           `
+    },
+    {
+        "id": 5,
+        "title": "아이템 가치 레어도 표시 및 탐색 소리",
+        "description": "아이템 레어도 표시(가치 기반), 재조정된 탐색 시간, 사용자 지정 탐색 효과음을 추가합니다. 업적 안전.",
+        "imageUrl": "/images/mods/mod-05.webp",
+        "imageAlt": "아이템 레어도 표시 및 탐색 소리 모드 미리보기 이미지",
+        "publishDate": "2025-11-11",
+        "addressBar": "/item-value-rarity-display-mod",
+        "author": "土豆宝",
+        "releaseDate": "2025-10-17",
+        "fileSize": "2.54MB",
+        "visits": "1,800,000+",
+        "subscribers": "1,600,000+",
+        "favorites": "1,9000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3588386576&searchtext=",
+        "seo": {
+            "title": "아이템 가치 레어도 표시 및 탐색 소리 모드",
+            "description": "파밍 경험을 향상시키세요! 이 모드는 아이템 가치에 따른 레어도 표시를 추가하고, 탐색 시간을 재조정하며, 사용자 지정 탐색 효과음을 포함합니다. 업적을 비활성화하지 않습니다.",
+            "keywords": "게임 모드, 아이템 레어도 표시, 탐색 소리, 파밍 향상, 탐색 시간 재조정, 사용자 지정 소리, 업적 안전"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>아이템 가치 레어도 표시 및 탐색 소리</h2>
+            <p>파밍 경험을 더욱 흥미진진하게 만드세요!</p>
+            <p>이 모드는 게임 내 아이템에 **레어도 표시** (가치 기반)를 추가하고, **탐색 시간**을 **재조정**하며, **탐색 효과음**을 추가합니다.</p>
+            <p>이 모드는 **업적을 비활성화하지 않습니다**.</p>
+          
+            <h3>사용자 지정 소리 구성</h3>
+            <p>모드에 포함된 효과음을 사용하지 않고, 자체 사용자 지정 소리 파일을 사용하고 싶다면 다음과 같이 구성할 수 있습니다.</p>
+            <ol>
+              <li>게임 설치 디렉토리에 <code>ItemLevelAndSearchSoundMod</code>라는 이름의 폴더를 만듭니다.</li>
+              <li>그 안에 사운드 파일을 배치합니다. 예를 들어, <code>0.mp3</code>는 **흰색 레어도** 아이템의 탐색음을 대체합니다 (<code>1</code> = 녹색, <code>2</code> = 파란색, <code>3</code> = 보라색, <code>4</code> = 금색, <code>5</code> = 밝은 빨간색, <code>6</code> = 어두운 빨간색).</li>
+              <li>게임을 재시작합니다 (현재 실행 중인 경우).</li>
+            </ol>
+            <p>사용자 지정 소리 로딩에 문제가 발생하면 화면 왼쪽 상단에 빨간색 텍스트로 오류 메시지가 나타납니다.</p>
+          
+            <h3>사용자 지정 탐색 시간 비활성화</h3>
+            <p>모드의 사용자 지정 아이템 검사 시간을 비활성화하려면 <code>&lt;게임 설치 디렉토리&gt;/ItemLevelAndSearchSoundMod/</code>에 <code>DisableModSearchTime.txt</code>라는 이름의 파일을 생성하기만 하면 됩니다.</p>
+          </article>
+          `
+    },
+    {
+        "id": 6,
+        "title": "라이브 보스 지도 마커",
+        "description": "활성 보스와 주요 적 위치에 대한 실시간 지도 마커를 추가하여 추적 및 교전을 용이하게 하는 삶의 질 개선 모드입니다.",
+        "imageUrl": "/images/mods/mod-06.webp",
+        "imageAlt": "지도에 적 아이콘이 표시된 라이브 보스 지도 마커 모드 미리보기 이미지",
+        "publishDate": "2025-11-11",
+        "addressBar": "/live-boss-map-markers-mod",
+        "author": "Pos 4/5",
+        "releaseDate": "2025-10-18",
+        "fileSize": "896KB",
+        "visits": "1,400,000+",
+        "subscribers": "1,200,000+",
+        "favorites": "14,000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3589079671&searchtext=",
+        "seo": {
+            "title": "라이브 보스 지도 마커 - Escape from Duckov 모드",
+            "description": "검색에 지치셨나요? 이 모드는 게임 세계에 있는 모든 활성 보스와 강력한 적 위치에 대한 라이브 지도 마커를 표시하여, 타겟팅 및 상황 인지도를 향상시킵니다.",
+            "keywords": "게임 모드, 보스 지도 마커, 실시간 추적, 적 위치, 삶의 질 모드, 보스 표시기, 실시간 지도"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>라이브 보스 지도 마커</h2>
+            <p>게임 내 모든 활성 보스와 주요 적에 대한 **실시간 지도 마커**를 추가합니다.</p>
+            <ul>
+              <li>타겟 추적 및 상황 인지도를 향상시킵니다.</li>
+              <li>마커는 보스의 움직임에 따라 동적으로 업데이트됩니다.</li>
+              <li>업적을 비활성화하지 않습니다.</li>
+            </ul>
+          </article>
+          `
+    },
+    {
+        "id": 7,
+        "title": "개선된 키 표시기",
+        "description": "이미 등록된 키와 액세스 카드에 명확한 시각적 표시기(녹색 '✓')를 추가하여, 플레이어가 불필요한 중복을 빠르게 식별하도록 돕습니다.",
+        "imageUrl": "/images/mods/mod-07.webp",
+        "imageAlt": "녹색 체크 표시가 있는 키를 보여주는 개선된 키 표시기 모드 미리보기 이미지",
+        "publishDate": "2025-11-11",
+        "addressBar": "/better-key-indicator-mod",
+        "author": "Cyerol",
+        "releaseDate": "2025-10-20",
+        "fileSize": "2.48MB",
+        "visits": "1,100,000+",
+        "subscribers": "1,000,000+",
+        "favorites": "10,000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3590154134&searchtext=",
+        "seo": {
+            "title": "개선된 키 표시기 - Escape from Duckov 모드",
+            "description": "개선된 키 표시기 모드로 인벤토리 관리를 간소화하세요. 이미 등록한 키와 카드에 녹색 '✓' 표시를 추가하여 중복 수집을 방지합니다.",
+            "keywords": "게임 모드, 키 표시기, 키 시각 식별, 삶의 질, 등록된 키, 인벤토리 관리, 액세스 카드"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>개선된 키 표시기</h2>
+            <p>등록된 키와 카드에 시각적 식별을 추가하여 이미 등록된 아이템을 빠르게 식별하도록 돕습니다.</p>
+            <ul>
+              <li>키나 카드를 주울 때, 등록된 상태라면 **녹색 \"✓\" 표시**가 나타납니다.</li>
+              <li>플레이어가 불필요한 중복 아이템을 쉽게 피할 수 있도록 돕습니다.</li>
+              <li>간단하지만 효과적인 삶의 질 개선입니다.</li>
+            </ul>
+          </article>
+          `
+    },
+    {
+        "id": 8,
+        "title": "매치 총계 및 시간 및 스태시 가치",
+        "description": "실제 매치 이익(공제 후), 레이드 기간, 총 스태시 가치를 배낭 화면에 직접 표시하여 UI를 향상시킵니다.",
+        "imageUrl": "/images/mods/mod-08.webp",
+        "imageAlt": "매치 총계, 시간, 스태시 가치 모드 미리보기 이미지 (UI 향상)",
+        "publishDate": "2025-11-11",
+        "addressBar": "/match-stats-stash-value-mod",
+        "author": "土豆宝",
+        "releaseDate": "2025-10-18",
+        "fileSize": "2.5MB",
+        "visits": "1,200,000+",
+        "subscribers": "1,000,000+",
+        "favorites": "13,000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3588652490&searchtext=",
+        "seo": {
+            "title": "매치 총계 및 시간 및 스태시 가치 - Escape from Duckov 모드",
+            "description": "자세한 재정적 명확성을 얻으세요. 실제 이익, 결과 화면의 매치 시간, 기지 배낭의 총 스태시 가치를 표시합니다. '두둑한 탈출' 경험을 즐기세요!",
+            "keywords": "게임 모드, 매치 총계, 매치 시간, 스태시 가치, 탈출 이익, UI 향상, Duckov, 삶의 질 모드"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>매치 총계 및 시간 및 스태시 가치</h2>
+            <p>Duckov에서도 두둑한 탈출을 즐길 수 있습니다!</p>
+            <ul>
+              <li>배낭 및 결과 화면에 이제 **실제 이익** (공제 후)이 표시됩니다.</li>
+              <li>결과 화면에 **매치 지속 시간**이 표시됩니다.</li>
+              <li>**스태시 가치**도 기지의 배낭에 표시됩니다.</li>
+              <li>중요한 재정적 및 통계적 정보를 한눈에 제공합니다.</li>
+            </ul>
+          </article>
+          `
+    },
+    {
+        "id": 9,
+        "title": "Escape From Duckov 협동 모드 미리보기",
+        "description": "Escape From Duckov의 안정적인 LAN/온라인 협동 멀티플레이어를 해제하며, 동기화된 플레이어, AI, 전리품 공유, 사망 관전 모드 및 완전한 전투 동기화를 제공합니다.",
+        "imageUrl": "/images/mods/mod-09.webp",
+        "imageAlt": "게임 내 여러 플레이어를 보여주는 Escape From Duckov 협동 모드 미리보기 이미지",
+        "publishDate": "2025-11-11",
+        "addressBar": "/escape-from-duckov-coop-mod",
+        "author": "Mr.sans",
+        "releaseDate": "2025-10-22",
+        "fileSize": "813KB",
+        "visits": "700,000+",
+        "subscribers": "380,000+",
+        "favorites": "11,000+",
+        "externalLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3591341282&searchtext=",
+        "seo": {
+            "title": "Escape From Duckov 협동 모드: 안정적인 LAN/온라인 멀티플레이어 협동",
+            "description": "Escape From Duckov를 협동 경험으로 바꾸세요! 이 모드는 플레이어, AI, 전리품, 전투에 대한 안정적인 멀티플레이어 동기화를 제공하며, 사망 관전 모드를 포함합니다. 간단한 Steam 창작마당 구독.",
+            "keywords": "Escape From Duckov 모드, 협동 모드, 멀티플레이어, 온라인 협동, LAN 지원, 게임 동기화, 전리품 공유, 사망 관전, EFT 모드"
+        },
+        "detailsHtml": `
+          <article>
+            <h2>Escape From Duckov 협동 모드 미리보기</h2>
+            <p>이 프로젝트는 Escape From Duckov 게임에 안정적인 LAN/온라인 협동 멀티플레이어 경험을 제공하여, 원래의 싱글 플레이어 게임을 공유된 모험으로 전환하는 것을 목표로 합니다.</p>
+            
+            <h3>주요 기능</h3>
+            <ul>
+              <li>멀티플레이어 동기화:** 플레이어 움직임 및 상태의 완벽한 동기화.</li>
+              <li>AI 행동 동기화:** 적 AI 행동이 모든 플레이어에게 일관됩니다.</li>
+              <li>전리품 공유:** 공유 파밍 메커니즘을 지원합니다.</li>
+              <li>사망 관전 모드:** 플레이어가 사망 후 팀원을 관전할 수 있도록 합니다.</li>
+              <li>완전한 전투 동기화:** 부드럽고 공정한 전투 경험을 보장합니다.</li>
+              <li>LAN/온라인 협동 지원:** 연결을 위한 유연한 옵션을 제공합니다.</li>
+            </ul>
+            
+            <h3>사용법 (일반 플레이어)</h3>
+            <p>이 프로젝트를 수동으로 설치하거나 빌드할 필요가 없습니다.</p>
+            <ol>
+              <li>단순히 **Steam 창작마당을 통해 구독**하세요.</li>
+              <li>구독 후 게임을 시작하고 모드를 활성화하여 협동 기능에 접근합니다.</li>
+            </ol>
+          </article>
+          `
     }
+
 ]
 
