@@ -258,140 +258,6 @@ export const guides = [
     },
 
     {
-        "id": 3,
-        "title": "Erweiterte Ground Zero-Erkundung & Basiserweiterung",
-        "description": "Meistern Sie fortgeschrittene Ground Zero Expeditionen, schließen Sie komplexe Questreihen ab und erweitern Sie Ihre Basiseinrichtungen mit diesem umfassenden Mid-Game-Walkthrough.",
-        "imageUrl": "/images/guide-03.webp",
-        "imageAlt": "Erweiterte Ground Zero-Erkundung & Basiserweiterung",
-        "publishDate": "2025-10-27",
-        "addressBar": "/advanced-ground-zero-exploration-base-expansion",
-        "category": "walkthroughs",
-        "isHome": false,
-        "tags": [
-            "ERWEITERTE ERKUNDUNG",
-            "BASISERWEITERUNG",
-            "QUESTREIHEN",
-            "AUSRÜSTUNGS-UPGRADES",
-            "GROUND ZERO"
-        ],
-        "seo": {
-            "title": "Erweiterte Ground Zero-Erkundung & Basiserweiterung - Escape from Duckov",
-            "description": "Meistern Sie fortgeschrittene Ground Zero Expeditionen, schließen Sie komplexe Questreihen ab und erweitern Sie Ihre Basiseinrichtungen mit diesem umfassenden Mid-Game-Walkthrough.",
-            "keywords": "Escape from Duckov, Erweiterter Walkthrough, Ground Zero Erkundung, Basiserweiterung, Questreihen, Ausrüstungs-Upgrades, Mid Game Guide"
-        },
-        "detailsHtml": `
-              <p>Dieser erweiterte Walkthrough deckt den Mid-Game-Fortschritt in <a href="/">Escape from Duckov</a> ab und konzentriert sich auf komplexe Ground Zero-Expeditionen, die Erweiterung der Basiseinrichtungen und den Abschluss komplizierter Questreihen. Perfekt für Spieler, die bereit sind, sich anspruchsvolleren Inhalten zu stellen.</p>
-              
-              <h2>1. Erweiterte Ground Zero-Erkundung</h2>
-              <img src="/images/guide/guide03-01.webp" alt="Advanced Ground Zero Exploration" class="guide-image" />
-              <h3>Nördliche Turm-Mission</h3>
-      
-              <p><strong>Signalturm-Quest:</strong> Begeben Sie sich in Richtung Straßenlager und lokalisieren Sie den nördlichen Turm. Durchsuchen Sie den Werkzeugkasten nach 2 **Metallplatten**, Nägeln und einem **Schlitzschraubendreher**.</p>
-              <p><strong>Stromkasten-Interaktion:</strong> Interagieren Sie mit dem Stromkasten am Fuß des Turms, um das Ziel der Signalturm-Quest abzuschließen.</p>
-              <p><strong>Blaupausen-Entdeckung:</strong> Bewegen Sie sich rechts vom Turm, um die Blaupause für die **Kartoffel-Grafikkarte** zu finden – essenziell für fortgeschrittenes Handwerk.</p>
-      
-              <img src="/images/guide/guide03-02.webp" alt="Northern Tower Mission" class="guide-image" />
-      
-              <h3>Annäherung an das Straßenlager</h3>
-              <p><strong>Neuer Gegnertyp:</strong> Treffen Sie in der Nähe des Straßenlagers auf fortgeschrittene, Schrotflinte schwingende Feinde. Diese Gegner erfordern sorgfältige Positionierung und **ausreichend Munition**.</p>
-              <p><strong>Ausrüstungs-Erwerb:</strong> Besiegen Sie Feinde, um MP-155-Schrotflinten, <a href="/items/equipment">Motorradhelme</a> und medizinische Versorgung zu erhalten. Durchsuchen Sie unsere <a href="/items/equipment">Ausrüstungs-Datenbank</a> für alle verfügbaren Schutzausrüstungen.</p>
-              <p><strong>Brückenreparatur:</strong> Verwenden Sie 2 Stück **Holz**, um die kaputte Brücke, die zum Straßenlager führt, zu reparieren. Überprüfen Sie Verstecke unter Strommasten auf zusätzliche Beute.</p>
-              
-              <h2>2. NPC-Interaktionen und Neue Quests</h2>
-              
-              <h3>Mud der Trainer</h3>
-      
-              <p><strong>Standort:</strong> Befindet sich in einem Haus in der Nähe des Straßenlagers – eine durchtrainierte Ente, die Körpertrainingsdienste anbietet.</p>
-              <p><strong>Quest-Zuweisung:</strong> Nehmen Sie "Ausgewogene Ernährung 1" von Mud für Möglichkeiten zur physischen Verbesserung an.</p>
-              
-              <h3>Ausgewogene Ernährung Quest</h3>
-      
-              <img src="/images/guide/guide03-03.webp" alt="Mud the Trainer" class="guide-image" />
-      
-              <p><strong>Ziel:</strong> Reichen Sie **1x Entenei** ein</p>
-              <p><strong>Belohnungen:</strong> 800 EP, 500 Währung</p>
-              <p><strong>Strategie:</strong> Enteneier können an verschiedenen Orten in Ground Zero gefunden werden – **priorisieren Sie das Sammeln** während Expeditionen.</p>
-              
-              <h2>3. Höhlen-Erkundung und Erweiterte Beute</h2>
-              
-              <h3>Höhlen-Zugang</h3>
-              <p><strong>Brückenreparatur:</strong> Reparieren Sie die Brücke in der Nähe des Höhleneingangs mit gesammelten Materialien, um auf versteckte Bereiche zuzugreifen.</p>
-              <p><strong>Hochwertige Beute:</strong> Die Höhle enthält Premium-Ausrüstung, darunter:</p>
-              <ul>
-                  <li><strong>Waffen:</strong> Pistolenmündung, UP 45, AK-47, Aufsatz für Feuern aus der Hüfte. Überprüfen Sie unsere <a href="/items/weapons">Waffen-Datenbank</a> für detaillierte Waffeninformationen</li>
-                  <li><strong>Munition:</strong> Verschiedene Munitionstypen und Laser-Aufsatz. Durchsuchen Sie <a href="/items/ammunition">alle Munitionstypen</a> für Kompatibilitätsdetails</li>
-                  <li><strong>Blaupausen:</strong> Rezepte für die **Cube Gun** und **Kleine Energiemunition**</li>
-              </ul>
-              
-              <h3>Infiltration des Nordwest-Lagers</h3>
-              <p><strong>Stealth-Ansatz:</strong> Navigieren Sie vorsichtig zum Nordwest-Lager und räumen Sie kleinere feindliche Lager auf dem Weg.</p>
-              <p><strong>Quest-Gegenstands-Sammlung:</strong> Holen Sie den "**Brief von einem alten Freund**" aus dem Zelt für den Quest-Abschluss ab.</p>
-              <p><strong>Zusätzliche Entdeckungen:</strong> Finden Sie das Brecheisen-Rezept in Datenboxen in der Nähe und die Warnhinweise im **Ground Zero Wachprotokoll**.</p>
-              
-              <h2>4. Anspruchsvolle Kampfbegegnungen</h2>
-              
-              <h3>Bosskampf gegen den Vermummten Feind</h3>
-              <p><strong>Feindbeschreibung:</strong> Ein schwer bewaffneter Feind mit Kapuze, der eine Schrotflinte führt – deutlich gefährlicher als Standardgegner.</p>
-              <p><strong>Kampfvorbereitung:</strong> Stellen Sie sicher, dass Sie vor dem Angriff **ausreichend Munition** und medizinische Versorgung haben.</p>
-              <p><strong>Quest-Integration:</strong> Verwenden Sie Bandagen während des Kampfes, um die Quest "**Die Wichtigkeit der Blutungsstillung**" abzuschließen.</p>
-              <p><strong>Belohnungs-Sammlung:</strong> Besiegen Sie den Feind, um **Schwarzmarkt-Kontaktnotizen** und **Fortgeschrittene AP-Schrotflinten-Geschosse** zu erhalten.</p>
-              
-              <h3>Ressourcenverwaltung</h3>
-              <p><strong>Dehydrations-Warnung:</strong> Überwachen Sie Ihren Hydratationslevel – **Dehydration** kann während ausgedehnter Expeditionen auftreten.</p>
-              <p><strong>Schlüssel-Sammlung:</strong> Sammeln Sie **Schlüssel der Verlassenen Tankstelle** und **Zaunschlüssel** sowie das holografische Visier vor der Extraktion. Überprüfen Sie unsere <a href="/items/key">Schlüssel-Datenbank</a> für Schlüssel-Standorte und Verwendungsinformationen.</p>
-              
-              <h2>5. Erweiterung der Basiseinrichtungen</h2>
-              
-              <h3>Neue Bau-Quests</h3>
-              <p><strong>Grundlegende Konstruktion II:</strong> Bauen Sie den **Waffenladen** im Bunker</p>
-              <p><strong>Grundlegende Konstruktion III:</strong> Bauen Sie den **Rüstungsladen** im Bunker</p>
-              <p><strong>Medizinische Konstruktion:</strong> Bauen Sie die **Medizinische Station** im Bunker</p>
-              <p><strong>Tech-Experte:</strong> Reichen Sie einen **Haufen elektronischer Komponenten** ein</p>
-              
-              <h3>Kampf- und Fähigkeits-Quests</h3>
-              <p><strong>Ziele auf den Kopf:</strong> Töten Sie 5 Feinde mit **Kopftreffern** in Ground Zero</p>
-              <p><strong>Erweiterte Tasche:</strong> Schalten Sie **Rucksack-Experte 1** frei (falls noch nicht abgeschlossen)</p>
-              <p><strong>Werkbank-Upgrade:</strong> Schalten Sie **Erweiterte Verarbeitung** frei (falls noch nicht abgeschlossen)</p>
-              
-              <h3>Ressourcen-Einreichungs-Quests</h3>
-              <p><strong>Voller Liebe:</strong> Reichen Sie **1888 Währung** für signifikante Belohnungen ein</p>
-              <p><strong>Handwerks-Lehre:</strong> Reichen Sie eine **Glick-Pistole** für Handwerkskenntnisse ein</p>
-              <p><strong>Buchführung:</strong> Reichen Sie **Tinte, Stift und Notizbuch** für administrative Aufgaben ein</p>
-              
-              <h2>6. Ausrüstungs- und Einrichtungs-Upgrades</h2>
-              
-              <h3>Rüstungsladen-Konstruktion</h3>
-              <p><strong>Sofortige Verfügbarkeit:</strong> Der Rüstungsladen kann sofort mit verfügbaren Materialien gebaut werden.</p>
-              <p><strong>Ausrüstungs-Käufe:</strong> Erwerben Sie **Level 2 Körperpanzerung** und **Stahlhelm** für signifikante Verbesserung des Schutzes. Durchsuchen Sie unseren <a href="/items/equipment">vollständigen Ausrüstungskatalog</a>, um alle verfügbaren Rüstungsoptionen zu vergleichen.</p>
-              <p><strong>Quest-Zuweisungen:</strong> Nehmen Sie die Quests **Versorgungsroute** und **Buchführung** vom Rüstungsladen an.</p>
-              
-              <h3>Werkbank-Verbesserungen</h3>
-              <p><strong>Blaupausen-Forschung:</strong> Erforschen Sie alle gesammelten Blaupausen, um Inventarplatz freizugeben und neue Handwerksoptionen freizuschalten.</p>
-              <p><strong>Reparaturstation-Forschung:</strong> Schalten Sie **Waffenreparatur-Fähigkeiten** für beschädigte Ausrüstung frei.</p>
-              <p><strong>Zerlegestation:</strong> Erforschen Sie Zerlegungsfähigkeiten mit **Schere und Schraubenschlüssel** vom Verkaufsautomaten.</p>
-              
-              <h3>Charakter-Progression</h3>
-              <p><strong>Waffen-Meisterschaft I:</strong> Verbessern Sie die Waffenfertigkeit beim Verbesserer für erhöhte Kampfeffektivität.</p>
-              <p><strong>Fähigkeiten-Priorisierung:</strong> Konzentrieren Sie sich auf **kampfbezogene Verbesserungen** für die bevorstehenden anspruchsvollen Begegnungen.</p>
-              
-              <h2>7. Fortgeschrittenes Quest-Management</h2>
-              
-              <h3>Versorgungsroute Quest</h3>
-              <p><strong>Standort:</strong> Ground Zero</p>
-              <p><strong>Ziel:</strong> Markieren Sie die Versorgungsbox mit einem **Marker** (im Lager verfügbar)</p>
-              <p><strong>Strategie:</strong> Verwenden Sie zuvor gesammelte Marker, um dieses Ziel effizient abzuschließen.</p>
-              
-              <h3>Ressourcen-Planung</h3>
-              <p><strong>Währungs-Management:</strong> Überwachen Sie Ihre finanziellen Ressourcen – fortgeschrittene Ausrüstung und Upgrades erfordern **signifikante Investitionen**.</p>
-              <p><strong>Material-Sammlung:</strong> Priorisieren Sie das Sammeln von Materialien für zukünftige Bauprojekte.</p>
-              <p><strong>Inventar-Optimierung:</strong> Erforschen Sie regelmäßig Blaupausen und organisieren Sie das Lager, um eine effiziente Inventarverwaltung aufrechtzuerhalten.</p>
-              
-              <h2>Fazit</h2>
-              <p>Dieser erweiterte Walkthrough deckt den entscheidenden Mid-Game-Fortschritt in Escape from Duckov ab. Sie haben erfolgreich komplexe Ground Zero-Expeditionen abgeschlossen, Ihre Basiseinrichtungen erweitert und fortgeschrittene Handwerksfähigkeiten freigeschaltet. Überprüfen Sie unsere <a href="/wiki/quests">Quest-Datenbank</a> für alle verfügbaren Missionsdetails. Konzentrieren Sie sich darauf, die neuen Questreihen abzuschließen, Ihre Ausrüstung aufzurüsten und sich auf noch anspruchsvollere Inhalte vorzubereiten. Erkunden Sie weitere <a href="/guides">fortgeschrittene Anleitungen</a>, einschließlich der Zugangsleitfäden zur Sturmzone. Die Grundlage, die Sie geschaffen haben, wird für das Überleben in Duckovs gefährlichsten Gebieten unerlässlich sein.</p>
-              `
-    },
-
-    {
         "id": 4,
         "title": "Meistern der Kern-Spielmechaniken & Systeme",
         "description": "Umfassender Leitfaden zu den Kernmechaniken von Escape from Duckov, der Basis-Management, Charakterentwicklung, Kampfsysteme, Erkundung und Überlebensstrategien abdeckt.",
@@ -560,6 +426,814 @@ export const guides = [
               <p>Die Beherrschung dieser Kernmechaniken ist entscheidend für den Erfolg in Escape from Duckov. Konzentrieren Sie sich auf effizientes Basis-Management, strategische Charakterentwicklung und sorgfältige Risikobewertung. Für detaillierte Gegenstandsinformationen besuchen Sie unsere <a href="/items">vollständige Gegenstands-Datenbank</a>. Die Systeme arbeiten zusammen, um ein herausforderndes, aber lohnendes Überlebenserlebnis zu schaffen, bei dem Vorbereitung und Wissen Ihre größten Vorteile sind. Erkunden Sie weitere <a href="/guides">strategische Anleitungen</a>, um Ihr Gameplay zu verbessern.</p>
               `
     },
+
+    {
+        "id": 12,
+        "title": "Escape from Duckov Komplettlösung Teil 1: Gefängnisausbruch & Basis-Setup",
+        "description": "Ihr unverzichtbarer Leitfaden für den Start von Escape from Duckov! Beinhaltet das vollständige Gefängnisausbruch-Tutorial, das Basis-Infrastruktur-Setup und den Abschluss der ersten Quests in Ground Zero.",
+        "imageUrl": "/images/guide12.webp",
+        "imageAlt": "Ein Spielercharakter in Escape from Duckov plündert während der Gefängnisausbruchs-Sequenz eine Kiste.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
+        "category": "walkthroughs",
+        "tags": ["komplettlösung", "anfängerleitfaden", "gefängnisausbruch", "basisbau", "ground zero"],
+        "seo": {
+            "title": "Escape from Duckov Teil 1 Leitfaden: Gefängnis, Basis-Setup und Erste Quests",
+            "description": "Vollständige Schritt-für-Schritt-Komplettlösung für den ersten Teil von Escape from Duckov. Erfahren Sie, wie Sie aus dem Gefängnis entkommen, Ihre Basis einrichten und die Startquests 'Basis-Konstruktion' und 'Startkapital' abschließen.",
+            "keywords": "Escape from Duckov Komplettlösung Teil 1, Escape from Duckov Anfängerleitfaden, Gefängnisausbruch Leitfaden, Ground Zero Komplettlösung, Basis-Setup Duckov, Erste Quests"
+        },
+        "isHome": false,
+        "detailsHtml": `
+              <h2>Dem Gefängnis entkommen: Tutorial und Erste Begegnung</h2>
+              <p>Nach einer kurzen Einführungsszene müssen Sie zuerst zum Spiegel gehen und **Ihren Charakter im Charakter-Editor einrichten**.</p>
+              
+              <h3>Erste Beute und Bewegung</h3>
+              <ul>
+                  <li>Folgen Sie den Pfeilen und Markierungen auf dem Boden, um sich zu bewegen und Beute aufzuheben.</li>
+                  <li>Aus der Kiste erhalten Sie: eine **TT-33** (Standardpistole), **30 Schuss Munition**, **Bandagen** und **Cracker**.</li>
+                  <li>Betreten Sie den Raum rechts von Ihrer Zelle und nehmen Sie eine **Karotte** aus der Kiste darin. (<em>Tipp: Laufen und Rollen verbrauchen **Ausdauer**</em>).</li>
+                  <li>Überprüfen Sie den Mülleimer auf ein **Feuerzeug**, einen **Lollipop** und etwas **Elektronik**.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-01.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
+      
+              <h3>Erster Kampf und Ausrüstungs-Upgrade</h3>
+              <ul>
+                  <li>**Rüsten Sie die TT-33 Pistole aus** für die bevorstehende Begegnung.</li>
+                  <li>**Weichen Sie einem eingehenden Schuss aus** (wenn Sie das rote Blitzen sehen) und schalten Sie den ersten Wächter aus.</li>
+                  <li>Plündern Sie den Wächter für: einen **Polizeischlagstock**, einen **weißen Laborkittel** und eine **schwarzrandige Sonnenbrille**. **Rüsten Sie alles aus**.</li>
+                  <li>Heben Sie mehr Kugeln auf und finden Sie **Kabel** im Mülleimer. (<em>Tipp: Das Halten der rechten Maustaste verbessert die Genauigkeit.</em>)</li>
+                  <li>Plündern Sie **Bandagen** und **Aspirin** aus der nächsten Kiste.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-02.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
+      
+              <h3>Zweite Begegnung und Extraktion</h3>
+              <ul>
+                  <li>Plündern Sie die **PM Pistole** aus einer Kiste im nächsten Raum und legen Sie sie in Slot 2.</li>
+                  <li>Schalten Sie die nächsten Wächter aus und plündern Sie eine **Glick Pistole**, einen Laborkittel und eine Sonnenbrille.</li>
+                  <li>Wenn Ihr **Inventar voll** ist, müssen Sie möglicherweise weiterziehen. Plündern Sie **Cracker** und **Soda** aus dem nächsten Mülleimer.</li>
+                  <li>**Essen Sie die Karotte und Cracker**, um Energie wieder aufzufüllen.</li>
+                  <li>Nehmen Sie den Weg nach **rechts** und steuern Sie den **Extraktionspunkt** an, um die schnelle Flucht abzuschließen.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
+      
+              <h2>Die Basis: Infrastruktur und Erste Verbesserungen</h2>
+              <p>Nach der Rückkehr zur Basis finden Sie **Jeff** im Obergeschoss für eine Tour: das Lagerhaus, das Bau-Panel, den Verkaufsautomaten, den Verbesserer und den Extraktionspunkt.</p>
+      
+              <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
+      
+              <h3>Charakter- und Lager-Upgrades</h3>
+              <ul>
+                  <li>Verkaufen Sie die Glicks und behalten Sie Ihre ausgerüstete TT-33. Überprüfen Sie den Verkaufsautomaten.</li>
+                  <li>Benutzen Sie den **Verbesserer**: **Erforschen und aktivieren Sie \"Rucksack-Experte I\"** für eine **+4 Rucksackkapazität**. (<em>Hinweis: Verbesserungen erfordern Geld und Materialien.</em>)</li>
+                  <li>Benutzen Sie das **Lagerhaus**: Fügen Sie **\"Lager-Erweiterung Stufe 1\"** hinzu, um **+35 Lagerkapazität** zu erhalten.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-05.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
+      
+              <h3>Annehmen der Ersten Quests</h3>
+              <p>Sprechen Sie mit Jeff, um Ihre ersten beiden Quests anzunehmen:</p>
+              <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                      <tr>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Belohnung</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;"><strong>Basis-Konstruktion</strong></td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Bauen Sie eine Werkbank, indem Sie **zwei Holzstücke** sammeln.</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">EP +1000, Währung +500, Bandagen x3</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;"><strong>Startkapital</strong></td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">**Töten Sie einen Gegner**.</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+                          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">EP +500, Währung +1296</td>
+                      </tr>
+                  </tbody>
+              </table>
+      
+              <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
+      
+              <h2>Ground Zero: Ressourcenlauf und Quest-Abschluss</h2>
+      
+              <h3>Feindliches Lager räumen und Holz sammeln</h3>
+              <ul>
+                  <li>Plündern Sie die erste Kiste für Kugeln und eine weitere TT-33. Gehen Sie nach rechts.</li>
+                  <li>Finden Sie **kleine Steine** (zum Anlocken von Feinden) und **Nägel** in einer Werkzeugkiste. Sammeln Sie **Muttern, Bolzen und eine Autobatterie**.</li>
+                  <li>Finden Sie links ein feindliches Lager. Das Ausschalten eines **Amoklaufenden Plünderers** (rote Ente) hier **schließt \"Startkapital\" ab**.</li>
+                  <li>Plündern Sie ein **Metzger-Messer**, **Holz** und **Bargeld** vom Körper.</li>
+                  <li>Fahren Sie mit dem Plündern fort (taktische Kiste, Munitionskiste) für eine **selbstgemachte Schrotflinte**, **Kugeln** und **Pfeile**.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-07.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
+      
+              <h3>Weiteres Plündern und Erkundung</h3>
+              <ul>
+                  <li>Bekämpfen Sie die **Grünen Enten** (benutzen Sie Schrotflinten, tragen Sie Körperpanzerung).</li>
+                  <li>Plündern Sie von Körpern einen **Rucksack** (rüsten Sie ihn für +39 Lagerplatz aus), einen **Bogen** und ein **kaltes Kernfragment**.</li>
+                  <li>Plündern Sie eine **AK-74U** und finden Sie einen **Bauplan für die TOZ-66**.</li>
+                  <li>Fahren Sie nach Norden fort und finden Sie einen **Teleport-Knotenpunkt**, der zu einem **See** führt.</li>
+                  <li>In der Nähe des Waldpfades finden Sie ein kleines Lager mit einem **Rezept für MD40**. Benutzen Sie eine Schaufel, um eine **J-Lab Floppy Disk auszugraben**.</li>
+                  <li>Räumen Sie ein weiteres Lager und finden Sie das **zweite Holzstück**, das für **\"Basis-Konstruktion\"** benötigt wird.</li>
+                  <li>Beachten Sie, dass die **kaputte Brücke** zur Höhle **2 Metallplatten** und **2 Holzstücke** erfordert.</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
+      
+              <h3>Extrahieren und Quests abgeben</h3>
+              <ul>
+                  <li>Erledigen Sie die Grünen Enten im Nordwest-Lager. Finden Sie eine **Laufmündung-Befestigung** zur Verbesserung des SMG-Schadens in der Nähe des Extraktionspunkts.</li>
+                  <li>**Extrahieren Sie aus Ground Zero**.</li>
+                  <li>In der Basis geben Sie **\"Startkapital\"** ab.</li>
+                  <li>**Nehmen Sie die Quest \"Der Pfad des Jägers\" an**: Töten Sie 2 Amoklaufende Plünderer und geben Sie 2 Metzger-Messer ab.</li>
+                  <li>Gehen Sie zum **Bau-Panel** und **bauen Sie eine Werkbank**. Geben Sie **\"Basis-Konstruktion\"** ab.</li>
+                  <li>**Rüsten Sie die Werkbank auf**, indem Sie **Fortgeschrittene Verarbeitung** erforschen.</li>
+              </ul>
+      
+              <h3>Neue Quests und Abschließende Vorbereitungen</h3>
+              <p>Sie erhalten neue Quests wie **\"Die Wichtigkeit der Blutstillung\"**, **\"Der Signalturm\"** (erfordert einen **Flachkopf-Schraubendreher**) und **\"Ein Brief von einem alten Freund\"**.</p>
+              <ul>
+                  <li>Kaufen Sie einen **Flachkopf-Schraubendreher** am Verkaufsautomaten.</li>
+                  <li>Gehen Sie zum **Verbesserer** und rüsten Sie **Überlebensinstinkt 1 (Max. KP +5)** und **Weitsicht 1 (Sichtfeld +15)** auf.</li>
+                  <li>**Gehen Sie schlafen** und spulen Sie die Zeit auf **7 Uhr morgens** vor, um die erhöhte Gefahr der Nacht zu vermeiden.</li>
+              </ul>
+          `
+    },
+
+    {
+        "id": 13,
+        "title": "Escape from Duckov Komplettlösung Teil 2: Ground Zero Erkundung & Basis-Erweiterung",
+        "description": "Der essentielle Leitfaden für Teil 2 von Escape from Duckov. Schließen Sie den Signalturm ab, schalten Sie die Höhle frei, besiegen Sie den zähen Wächter und erweitern Sie Ihre Basis mit neuen Läden.",
+        "imageUrl": "/images/guide13.webp",
+        "imageAlt": "Ein Spielercharakter repariert eine kaputte Brücke in der Ground Zero Karte von Escape from Duckov.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
+        "category": "walkthroughs",
+        "tags": ["komplettlösung", "ground zero", "basis-erweiterung", "neue quests", "mittelspiel"],
+        "seo": {
+            "title": "Escape from Duckov Teil 2 Komplettlösung: Signalturm, Höhlenbeute und Rüstungsladen",
+            "description": "Vollständiger Leitfaden für Escape from Duckov Teil 2, detailliert, wie man den Signalturm repariert, die Höhle für Baupläne betritt, den schweren Wächter besiegt und den Rüstungsladen baut.",
+            "keywords": "Escape from Duckov Teil 2, Ground Zero Erkundung, Signalturm Quest, Höhlen-Baupläne, Rüstungsladen Freischalten, Schwarzmarkt-Notizen"
+        },
+        "isHome": false,
+        "detailsHtml": `
+              <h2>Ground Zero: Quest-Abschluss und Schlüsselorte</h2>
+              <p>Der zweite größere Lauf konzentriert sich darauf, Ihre aufgerüstete Ausrüstung zu nutzen, um ausstehende Aufgaben abzuschließen, neue Bereiche freizuschalten und wichtige Baupläne sowie Quest-Gegenstände zu sammeln.</p>
+      
+              <h3>Nördlicher Turm und Neue Kontakte</h3>
+              <ul>
+                  <li>Gehen Sie zum Straßenlager und suchen Sie den **Nördlichen Turm**.</li>
+                  
+                  <img src="/images/guide/guide13-01.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
+      
+                  <li>Plündern Sie die **Werkzeugkiste** in der Nähe und sichern Sie wertvolle Gegenstände, darunter **2 Metallplatten**, **1 Nagel** und einen **Flachkopf-Schraubendreher**.</li>
+      
+                  <img src="/images/guide/guide13-02.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
+      
+                  <li>Interagieren Sie mit dem **Stromkasten** am Fuß des Turms, um das Ziel für die Quest **\"Signalturm\"** abzuschließen.</li>
+                  <li>Gehen Sie rechts vom Turm, um den **Bauplan für die Kartoffel-Grafikkarte** zu finden.</li>
+      
+                  <img src="/images/guide/guide13-03.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
+      
+                  <li>Fahren Sie in Richtung Straßenlager fort, eliminieren Sie den neuen schrotflintenbewehrten Gegnertyp und plündern Sie eine **MP-155 Schrotflinte**, einen **Motorradhelm** und Medizin.</li>
+                  <li>Links finden Sie **\"Mud\"** und nehmen die Quest **\"Ausgewogene Ernährung 1\"** an (Ziel: 1 Entenei abgeben; Belohnung: EP +800, Währung +500).</li>
+              </ul>
+      
+              <h3>Brückenreparatur und Höhlenzugang</h3>
+              
+              <img src="/images/guide/guide13-04.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
+      
+              <ul>
+                  <li>Gehen Sie nach links und **reparieren Sie die kaputte Brücke**, die zum Straßenlager führt, indem Sie **zwei Holzstücke** verwenden. (Überprüfen Sie den Bereich unter dem Strommast, bevor Sie überqueren, obwohl Beute selten ist).</li>
+                  <li>Gehen Sie zum Lager am Waldweg, eliminieren Sie die **Roten Plünderer**, um **\"Pfad des Jägers\"** abzuschließen, und sammeln Sie **zwei Metzger-Messer** ein. Finden Sie auch einen **Schlüssel zur Verlassenen Tankstelle**.</li>
+                  <li>Reparieren Sie die kaputte Brücke in der Nähe des Höhleneingangs.</li>
+      
+                  <img src="/images/guide/guide13-05.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
+              </ul>
+      
+              <h3>Höhlenbeute und Baupläne</h3>
+      
+              <p>Sammeln Sie in der Höhle bedeutende Waffenaufsätze und Baupläne:</p>
+      
+              <img src="/images/guide/guide13-06.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
+      
+              <ul>
+                  <li>Plündern Sie eine **Pistolen-Mündung**, eine **UP 45**, eine **AK 47**, einen **Hüftfeuer-Aufsatz** und einen **Laser-Aufsatz**.</li>
+                  <li>Ganz wichtig: Sammeln Sie die **Baupläne für die Cube Gun** und **Kleine Energie-Munition** ein.</li>
+              </ul>
+      
+              <h3>Nordwest-Lager und Letzte Extraktionsvorbereitung</h3>
+      
+              <img src="/images/guide/guide13-07.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
+              
+              <ul>
+                  <li>Schleichen Sie sich in das **Nordwest-Lager** und finden Sie den **Brief von einem alten Freund** im Zelt, wodurch die Quest abgeschlossen wird.</li>
+                  <li>Sammeln Sie das **Brecheisen-Rezept** aus einer nahegelegenen Datenbox ein. Klettern Sie auf den Wachturm und lesen Sie das **\"Ground Zero Beobachtungsprotokoll\"**.</li>
+                  <li>**Zähe Begegnung:** Bekämpfen Sie den **super zähen verhüllten Gegner mit einer Schrotflinte**. Benutzen Sie eine **Bandage** während dieses Kampfes, um **\"Die Wichtigkeit der Blutstillung\"** abzuschließen.</li>
+                  <li>Nachdem Sie ihn ausgeschaltet haben, plündern Sie die wertvollen **Schwarzmarkt-Kontakt-Notizen** und **fortgeschrittene AP Schrotpatronen**.</li>
+                  <li>Auf dem Weg zur Extraktion räumen Sie ein weiteres Lager, um zwei Schlüssel zu finden: den **Schlüssel zur Verlassenen Tankstelle** und den **Zaun-Schlüssel**, zusammen mit einem **Holografischen Visier**.</li>
+                  <li>**Extrahieren Sie aus Ground Zero.**</li>
+              </ul>
+      
+              <h2>Basis-Management: Quests, Läden und Upgrades</h2>
+              <p>Zurück in der Basis geben Sie sofort alle abgeschlossenen Quests ab, um Ihre nächste Stufe der Konstruktion und Upgrades freizuschalten.</p>
+      
+              <img src="/images/guide/guide13-08.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
+      
+              <h3>Quest-Abgabe & Neue Ziele</h3>
+              <p>Geben Sie alle abgeschlossenen Quests ab. Die folgenden neuen Bau- und Materialquests werden erscheinen:</p>
+              <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                      <tr>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Neue Konstruktion</th>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Kampf-/Materialquests</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Basis-Konstruktion II: Bauen Sie einen **Waffenladen**</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Zielen Sie auf den Kopf: Töten Sie einen beliebigen Gegner (5) mit Kopfschüssen</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Basis-Konstruktion III: Bauen Sie einen **Rüstungsladen** (Sofortige Priorität)</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Technik-Experte: Geben Sie einen Stapel elektronischer Komponenten ab</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Basis-Konstruktion (Medizinisch): Bauen Sie eine **Sanitätsstation**</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Voller Liebe: Geben Sie 1888 Währung ab (Kann sofort abgegeben werden)</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Handwerks-Ausbildung: Geben Sie eine Glick ab</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie bereits abgeschlossene Quests ab: Erweiterte Tasche & Werkbank aufrüsten</td>
+                      </tr>
+                  </tbody>
+              </table>
+      
+              <h3>Konstruktion und Abschließende Upgrades</h3>
+              <ul>
+                  <li>Geben Sie **\"Voller Liebe\"** sofort ab.</li>
+                  <li>Überprüfen Sie die Konstruktionsstation: Sie können den **Rüstungsladen** sofort **bauen**. Geben Sie **\"Basis-Konstruktion III\"** ab.</li>
+                  <li>Besuchen Sie den neuen Rüstungsladen: **Kaufen Sie Rüstung der Stufe 2 und einen Stahlhelm**.</li>
+                  <li>An der **Werkbank**: **Erforschen Sie alle neuen Baupläne** (um Inventarplatz freizugeben) und erforschen Sie den Bauplan für die **Reparaturstation**.</li>
+                  <li>Kaufen Sie **Schere** und einen **Schraubenschlüssel** am Verkaufsautomaten und erforschen Sie dann die **Demontagestation** an der Werkbank.</li>
+                  <li>Beim **Verbesserer**: Rüsten Sie **Waffenmeisterschaft I** auf.</li>
+                  <li>Nehmen Sie die beiden neuen Quests vom Rüstungsladen an: **\"Versorgungsroute\"** (Markieren Sie die Versorgungskiste) und **\"Buchhaltung\"** (Geben Sie Tinte, Stift, Notizbuch ab).</li>
+                  <li>Der Tag endet, da Ihnen nach diesen großen Upgrades das Geld ausgeht.</li>
+              </ul>
+          `
+    },
+
+    {
+        "id": 14,
+        "title": "Escape from Duckov Komplettlösung Teil 3: Ground Zero Schlüssel & Pato Chapo Boss",
+        "description": "Der umfassende Leitfaden für Teil 3 von Escape from Duckov. Nehmen Sie neue Händlerquests an, bauen Sie die Sanitätsstation und den Waffenladen und lokalisieren Sie den Pato Chapo Boss.",
+        "imageUrl": "/images/guide14.webp",
+        "imageAlt": "Ein Spielercharakter in Escape from Duckov öffnet eine verschlossene Tür mit einem Schlüssel in Ground Zero.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
+        "category": "walkthroughs",
+        "tags": ["komplettlösung", "ground zero", "bosskampf", "pato chapo", "händlerquests", "mittelspiel"],
+        "seo": {
+            "title": "Escape from Duckov Teil 3 Leitfaden: Sanitätsstation, Schlüssel und Pato Chapo Strategie",
+            "description": "Vollständiger Leitfaden für Escape from Duckov Teil 3: Bauen Sie wichtige Basiseinrichtungen (Waffen/Medizin), verwenden Sie die Schlüssel für Tankstelle und Zaun, finden Sie das Hotelzimmer und besiegen Sie den Pato Chapo Boss.",
+            "keywords": "Escape from Duckov Teil 3, Pato Chapo Bosskampf, Ground Zero Schlüssel, Sanitätsstation, Waffenladen, Hotelzimmerschlüssel, Komplettlösung"
+        },
+        "isHome": false,
+        "detailsHtml": `
+            <h2>Basis-Vorbereitungen: Händlerquests und Einrichtungen</h2>
+            <p>Beginnen Sie den Tag, indem Sie eine neue Reihe von Quests aus den neu eingerichteten Basiseinrichtungen annehmen und sofortige Abgaben erledigen, um Erfahrung und Währung zu maximieren, bevor Sie nach Ground Zero zurückkehren.</p>
+      
+            <h3>Neue Quests angenommen:</h3>
+            <p>Nehmen Sie neue Quests von Mud, dem Waffenschmied, dem Rüstmeister und dem Verkaufsautomaten an, um Ihren nächsten Lauf zu leiten:</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Quelle (Händler)</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Mud (Fitness)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Ausgewogene Ernährung II/III, Fitness-Coach</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **Energy-Drink**, **Schokolade**, **Hantel** ab</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Waffenschmied</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Generische Pistole, Seltsame Feder</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **Glick**, **Pfauenfeder** ab</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Rüstmeister / Sanitätsstation</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Medizinische Assistenz</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **Medizin-Kit** ab</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Verkaufsautomat</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Selbstversorger, Profikoch</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **Wasser**, **Kochmesser** ab</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">TIPP:</strong> Geben Sie die Quests **\"Handwerks-Ausbildung\"** und **\"Buchhaltung\"** ab, bevor Sie die neuen annehmen, um das Inventar zu leeren und sofort Geld zu erhalten.</p>
+      
+            <h3>Konstruktion und Upgrades</h3>
+            <p>Nutzen Sie Ihre aktuellen Mittel und Materialien, um die Basis-Infrastruktur fertigzustellen:</p>
+            <ul>
+                <li>**Bauen Sie die Sanitätsstation** und geben Sie die Quest **\"Basis-Konstruktion (Medizinisch)\"** ab. Nehmen Sie die Quest **\"Medizinische Assistenz\"** von der neuen Station an.</li>
+                
+                <li>**Bauen Sie den Waffenladen** und geben Sie die Quest **\"Basis-Konstruktion II\"** ab. Nehmen Sie die Quest **\"Seltsame Feder\"** vom neuen Laden an.</li>
+                
+                <img src="/images/guide/guide14-01.webp" alt="Escape from Duckov Komplettlösung Teil 3" class="guide-image" />
+      
+                <li>Führen Sie alle verfügbaren **Basis-Upgrades** und **Fähigkeits-Upgrades** (wie Waffenmeisterschaft) durch, bevor Sie sich auf den Weg machen.</li>
+      
+                <img src="/images/guide/guide14-02.webp" alt="Escape from Duckov Komplettlösung Teil 3" class="guide-image" />
+            </ul>
+      
+            <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero: Abgeschlossene Bereiche und Versteckte Hinweise</h2>
+            <p>Ausgestattet mit den Schlüsseln und neuer Ausrüstung können Sie nun zuvor verschlossene Bereiche in Ground Zero betreten.</p>
+      
+            <h3>Verlassene Tankstelle und Zaun-Zugang</h3>
+            <ul>
+                <li>Gehen Sie zur **Verlassenen Tankstelle** und **öffnen Sie die Tür mit dem Schlüssel**, den Sie in Teil 2 gefunden haben.</li>
+                <li>Plündern Sie drinnen eine **Waffenkiste** mit einer Waffe und Munition. Sie sollten einen **Schlüssel für den Zaun** in der Station finden (oder bestätigen, dass Sie ihn bereits besitzen).</li>
+                <li>Gehen Sie zum **Zaun** am Perimeter und **öffnen Sie ihn**, um den nächsten Bereich der Karte zu betreten.</li>
+            </ul>
+      
+            <h3>Das Rätsel am Straßenrand (Hotelschlüssel)</h3>
+            <ul>
+                <li>Begeben Sie sich zum **Straßenlager** und finden Sie eine **Notiz** mit Hinweisen auf einen neuen Ort.</li>
+                <li>Folgen Sie den Anweisungen der Notiz, um eine **Leiche** zu finden. Plündern Sie die Leiche, um einen **Schlüssel zu einem Hotelzimmer** zu erhalten.</li>
+                <li>Gehen Sie zum Standort des **Hotels** und verwenden Sie den neuen Schlüssel, um **das Zimmer zu öffnen**. Im Inneren sollten Sie eine weitere **Waffenkiste** und möglicherweise einen neuen **Hinweis oder Schlüssel** finden.</li>
+              </ul>
+      
+            <h3>Den Boss lokalisieren: Pato Chapo</h3>
+            <p>Die wiederholten Hinweise und Fundorte der Leichen führen Sie wahrscheinlich zum letzten Aufeinandertreffen dieses Teils:</p>
+            <ul>
+                <li>Folgen Sie dem letzten Hinweis/der Notiz und gehen Sie zum ausgewiesenen Ort, wo Sie wahrscheinlich das durch den Boss gesicherte Gebiet finden werden.</li>
+                <li>Bereiten Sie sich auf einen harten Kampf gegen **Boss: Pato Chapo** vor. (<em>Hinweis: Stellen Sie sicher, dass Sie Ihre aufgerüstete Rüstung, reichlich hochstufige Munition und Sanitätsmaterialien haben, bevor Sie sich dem Kampf stellen.</em>)</li>
+                <li>Nachdem Sie Pato Chapo besiegt haben, **plündern Sie die Leiche** für hochwertige Gegenstände und wichtige Schlüssel/Hinweise, die für den nächsten Teil der Komplettlösung benötigt werden.</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 15,
+        "title": "Escape from Duckov Komplettlösung Teil 4: Duckmother Boss & AS VAL",
+        "description": "Der vollständige Leitfaden für Teil 4 von Escape from Duckov. Nehmen Sie neue Bunker-Quests an, besiegen Sie den beeindruckenden Duckmother Boss und sichern Sie sich die mächtige AS VAL Waffe.",
+        "imageUrl": "/images/guide15.webp",
+        "imageAlt": "Ein Spielercharakter kämpft gegen einen großen Boss, die Duckmother, im Lager-Standort 'Verlassenes Camp' in Escape from Duckov.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
+        "category": "walkthroughs",
+        "tags": ["komplettlösung", "ground zero", "bosskampf", "duckmother", "as val", "upgrades"],
+        "seo": {
+            "title": "Escape from Duckov Teil 4 Leitfaden: Duckmother besiegen, AS VAL finden und Bunker-Quests",
+            "description": "Schritt-für-Schritt-Komplettlösung für Escape from Duckov Teil 4. Lernen Sie die erforderlichen Fähigkeits-Upgrades, schließen Sie Eliminierungs- und Abgabe-Quests ab und meistern Sie den Duckmother Bosskampf.",
+            "keywords": "Escape from Duckov Teil 4, Duckmother Boss Strategie, AS VAL Standort, Ground Zero Verlassenes Camp, Energiereserve Upgrade, Leistungstest Quest"
+        },
+        "isHome": false,
+        "detailsHtml": `
+            <h2>Bunker-Vorbereitung: Neue Quests und Fähigkeits-Upgrades</h2>
+            <p>Bevor Sie nach Ground Zero zurückkehren, besuchen Sie die Händler und den Verbesserer, um Schlüsselmissionen anzunehmen und die Kampfbereitschaft Ihres Charakters für die bevorstehenden Herausforderungen, einschließlich des **Duckmother Bosses**, zu steigern.</p>
+      
+            <h3>Neue Quests angenommen:</h3>
+            <p>Priorisieren Sie diese Quests für Ihren nächsten Lauf, da sie mit üblichen Ground Zero Aktivitäten und notwendiger Beute übereinstimmen:</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Belohnung (EP/Währung)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Großes Lager</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Große Lagerkiste** ab</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Mücken-Eliminierung</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **10 Mücken**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Teile-Großhandel</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **5 Schrauben** ab</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Leistungstest</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Grafikkarte** ab</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Bestrafer</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **5 Plünderer**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;"></td>
+                        <td style="border: 1px solid #ddd; padding: 8px;"></td>
+                        <td style="border: 1px solid #ddd; padding: 8px;"></td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <h3>Fähigkeits-Upgrades: Steigerung der Kampfeffektivität</h3>
+            <p>Investieren Sie vor dem Einsatz in diese Kernfähigkeiten, um die Ausdauer und Kampfgenauigkeit zu verbessern:</p>
+            <ul>
+                <li>**Energiereserve:** Erhöht die maximale Energie um **+10**. (Erlaubt mehr Sprinten/Rollen)</li>
+      
+                <img src="/images/guide/guide15-01.webp" alt="Escape from Duckov Komplettlösung Teil 4" class="guide-image" />
+      
+                <li>**Nährstoffaufnahme:** Erhöht die Wirkung von Nahrung und Wasser um **+10%**. (Verbessert die Ausdauer)</li>
+                <li>**Stetiger Schuss I:** Erhöht die Genauigkeit des Feuerns aus der Hüfte um **+10%**. (Entscheidend für Nahkämpfe gegen den Boss)</li>
+            </ul>
+      
+            <h2>Ground Zero: Verlassenes Camp und Duckmother Boss</h2>
+            <p>Kehren Sie nach Ground Zero zurück und konzentrieren Sie sich auf die Eliminierungs-Quests und die Lokalisierung des neuen Boss-Gebiets.</p>
+      
+            <h3>Quest-Fortschritt und Neue Waffenentdeckung</h3>
+            <ul>
+                <li>Konzentrieren Sie Ihren Lauf auf Gebiete, die für Plünderer-Aktivitäten und Gewässer bekannt sind, um **10 Mücken** und **5 Plünderer** zu töten.</li>
+                <li>Plündern Sie Werkzeugkisten und Elektronik-Verstecke, um die benötigten **Schrauben** und die **Grafikkarte** für Abgabe-Quests zu finden.</li>
+                <li>Entdecken Sie während Ihrer Erkundung die mächtige Waffe **VSS**, ein wertvoller Fund für leise Gefechte.</li>
+                <li>Lokalisieren Sie das **Verlassene Camp**, den neuen Ort, den Sie entdeckt haben.</li>
+            </ul>
+      
+            <img src="/images/guide/guide15-03.webp" alt="Escape from Duckov Komplettlösung Teil 4" class="guide-image" />
+      
+            <h3>Der Duckmother Bosskampf</h3>
+            <p>Die **Duckmother** ist eine bedeutende Bedrohung, die sich im Verlassenen Camp befindet. Bereiten Sie sich auf einen Kampf vor, der Bewegung und hohe Schadensausgabe erfordert.</p>
+            <ul>
+                <li>**Strategie-Tipp:** Nutzen Sie Ihre aufgerüstete **Energiereserve** für anhaltendes Sprinten und Ausweichen. Konzentrieren Sie das Feuer auf die Schwachstelle des Bosses (oft der Kopf oder ein auffälliger Rucksack).</li>
+                <li>Nach einem schwierigen Kampf, **besiegen Sie die Duckmother**.</li>
+                <li>Plündern Sie die Leiche, um einen **Schlüssel zu einem verschlossenen Raum** im Camp zu finden.</li>
+            </ul>
+      
+            <h3>Die AS VAL sichern</h3>
+            <ul>
+                <li>Verwenden Sie den von der Duckmother erhaltenen Schlüssel, um den **Verschlossenen Raum** im Verlassenen Camp zu öffnen.</li>
+                <li>Im Inneren des Raumes finden Sie die heiß begehrte Waffe, die **AS VAL**, ein schallgedämpftes Gewehr mit hohem Schaden.</li>
+            </ul>
+      
+            <h2><span style="color: #DAA520;">&#127775;</span> Aktivitäten nach dem Lauf</h2>
+            <ul>
+                <li>**Extrahieren Sie** erfolgreich und kehren Sie zum Bunker zurück.</li>
+                <li>**Geben Sie alle abgeschlossenen Quests ab** (Mücken-Eliminierung, Bestrafer, Teile-Großhandel, Leistungstest, etc.) und kassieren Sie Ihre beträchtlichen Belohnungen.</li>
+                <li>Nehmen Sie die **neue Quest** des Händlers an, die nach Abschluss der vorherigen Reihe freigeschaltet wird.</li>
+                <li>Besuchen Sie den **Rüstmeister**, um Ihre neu gewonnene Währung für den **Kauf eines neuen Helms** oder anderer notwendiger Schutzausrüstung zu verwenden.</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 16,
+        "title": "Escape from Duckov Komplettlösung Teil 5: Wiederholung des Zyklus - Die Duckmother-Zugabe",
+        "description": "Der Leitfaden für Teil 5 von Escape from Duckov. Nehmen Sie wiederholbare Quests mit hoher Belohnung an, maximieren Sie zentrale Überlebensfähigkeiten, besiegen Sie den Duckmother Boss erneut und sichern Sie sich hochstufige Beute.",
+        "imageUrl": "/images/guide16.webp",
+        "imageAlt": "Ein Spielercharakter benutzt die AS VAL in einem dunklen Raum im Verlassenen Camp von Escape from Duckov.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
+        "category": "walkthroughs",
+        "tags": ["komplettlösung", "ground zero", "bosskampf", "wiederholungsquests", "fähigkeiten maximieren", "farm-lauf"],
+        "seo": {
+            "title": "Escape from Duckov Teil 5 Leitfaden: Kernfähigkeiten maximieren und der Duckmother Wiederholungslauf",
+            "description": "Schritt-für-Schritt-Komplettlösung für Escape from Duckov Teil 5, konzentriert sich auf den Abschluss wiederholbarer Eliminierungs- und Abgabe-Quests, um Währung zu farmen und kritische Fähigkeiten wie Energiereserve und Stetiger Schuss zu maximieren.",
+            "keywords": "Escape from Duckov Teil 5, Duckmother Wiederholung, Max Energiereserve, Stetiger Schuss II, Ground Zero Farm-Lauf, Leistungstest II Quest"
+        },
+        "isHome": false,
+        "detailsHtml": `
+            <h2>Bunker-Vorbereitung: Wiederholbare Quests und Fähigkeiten-Maximierung</h2>
+            <p>Teil 5 beinhaltet die Wiederholung von hochdotierten Versorgungs- und Eliminierungs-Quests, oft mit römischen Ziffern (II) gekennzeichnet, die sich hervorragend zum Farmen von Erfahrung und Währung eignen. Konzentrieren Sie sich darauf, zentrale Überlebens- und Kampffähigkeiten zu maximieren, bevor Sie nach Ground Zero zurückkehren.</p>
+      
+            <h3>Neue/Wiederholbare Quests angenommen:</h3>
+            <p>Nehmen Sie die verbesserten, wiederholbaren Versionen der Missionen des vorherigen Zyklus von den Händlern an:</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Belohnung (EP/Währung)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Großes Lager II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Große Lagerkiste** ab</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Mücken-Eliminierung II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **10 Mücken**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Teile-Großhandel II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **5 Schrauben** ab</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Leistungstest II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Grafikkarte** ab</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Bestrafer II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **5 Plünderer**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <h3>Fähigkeits-Upgrades: Erreichen von Stufe II</h3>
+            <p>Nutzen Sie den Verbesserer, um auf Stufe II-Fähigkeiten aufzurüsten und die Effizienz sowie Überlebensfähigkeit weiter zu steigern:</p>
+            <ul>
+                <li>**Energiereserve II:** Erhöht die maximale Energie um **+10** (Insgesamt +20, unerlässlich für Kiting/Sprinten).</li>
+                <li>**Nährstoffaufnahme II:** Erhöht die Wirkung von Nahrung und Wasser um **+10%** (Insgesamt +20%, verbessert Heilung/Hydratation dramatisch).</li>
+                <li>**Stetiger Schuss II:** Erhöht die Genauigkeit des Feuerns aus der Hüfte um **+10%** (Insgesamt +20%, macht Nahkämpfe und das Schießen während der Bewegung hocheffektiv).</li>
+            </ul>
+      
+            <img src="/images/guide/guide16-02.webp" alt="Escape from Duckov Komplettlösung Teil 5" class="guide-image" />
+      
+            <h2>Ground Zero: Ressourcen-Farm und Boss-Zugabe</h2>
+            <p>Die Ziele für diesen Lauf sind, schnell die Eliminierungs-Quoten zu erfüllen, Abgabe-Gegenstände zu sammeln und sich darauf vorzubereiten, die Duckmother erneut für lukrative Beute und Schlüssel-Drops zu besiegen.</p>
+      
+            <h3>Ressourcen-Farm und Eliminierung</h3>
+            <ul>
+                <li>Konzentrieren Sie Ihren Lauf auf Gebiete, die reich an elektronischen Komponenten und Werkzeugkisten sind, um schnell die benötigten **Schrauben** und die **Grafikkarte** zu finden.</li>
+                
+                <img src="/images/guide/guide16-01.webp" alt="Escape from Duckov Komplettlösung Teil 5" class="guide-image" />
+      
+                <li>Schließen Sie die Quests **Mücken-Eliminierung II (10 Kills)** und **Bestrafer II (5 Kills)** effizient ab.</li>
+                <li>Da Sie wahrscheinlich die **VSS** bereits zuvor gefunden haben, bestätigt dieser Lauf ihre anhaltende Existenz oder bietet eine weitere Chance, sie zu erwerben.</li>
+                <li>Begeben Sie sich erneut zum **Verlassenen Camp**, wo der Boss erscheint.</li>
+            </ul>
+      
+            <h3>Die Duckmother besiegen (Wiederholung)</h3>
+            <p>Die **Duckmother** ist das Schlüsselziel, da ihr Besiegen den Zugang zum verschlossenen Raum gewährt. Nutzen Sie Ihre neue Fähigkeit **Stetiger Schuss II** und überlegene Energiereserven, um sie aggressiv anzugreifen.</p>
+            <ul>
+                <li>Nachdem Sie die **Duckmother** besiegt haben, wird sie erneut den **Schlüssel zu einem verschlossenen Raum** im Camp fallen lassen.</li>
+                <li>Benutzen Sie den Schlüssel, um den verschlossenen Raum zu betreten und die mächtige Waffe **AS VAL** (oder deren hochwertige Komponenten/Munition, falls Sie sie bereits besitzen) zu bergen.</li>
+            </ul>
+      
+            <h2>Aktivitäten nach dem Lauf</h2>
+            <ul>
+                <li>**Extrahieren** Sie erfolgreich und kehren Sie zum Bunker zurück.</li>
+                <li>**Geben Sie alle abgeschlossenen Quests ab** (Mücken-Eliminierung II, Bestrafer II, etc.) und kassieren Sie Ihre Belohnungen.</li>
+                <li>Nehmen Sie die **neue Quest** des Händlers an, die nach Abschluss dieser Reihe freigeschaltet wird.</li>
+                <li>Besuchen Sie den **Rüstmeister**, um Ihre angesammelte Währung für den **Kauf eines neuen Helms** zu verwenden oder Ihre Rüstung auf die höchste verfügbare Stufe aufzurüsten, um sich auf die nächste einzigartige Herausforderung vorzubereiten.</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 17,
+        "title": "Escape from Duckov Komplettlösung Teil 6: Finale Fähigkeiten-Maximierung & Boss-Farm",
+        "description": "Der ultimative Leitfaden für Teil 6 von Escape from Duckov. Schließen Sie die letzte Stufe wiederholbarer Quests (III) ab, maximieren Sie zentrale Überlebens- und Kampffähigkeiten und rüsten Sie sich für die nächste große Zone.",
+        "imageUrl": "/images/guide17.webp",
+        "imageAlt": "Eine Nahaufnahme des AS VAL Gewehrs in den Händen des Spielers im verschlossenen Raum des Verlassenen Camps.",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
+        "category": "walkthroughs",
+        "tags": ["komplettlösung", "ground zero", "fähigkeiten maximieren", "boss-farm", "stufe iii", "finale vorbereitung"],
+        "seo": {
+            "title": "Escape from Duckov Teil 6 Leitfaden: Maximierung der Stufe III Fähigkeiten und finaler Duckmother-Lauf",
+            "description": "Vollständiger Leitfaden für Escape from Duckov Teil 6. Erfahren Sie, wie Sie alle Stufe III Fähigkeiten-Upgrades (Energie, Nährstoff, Stetiger Schuss) abschließen und den letzten ertragreichen Ressourcen- und Boss-Farm-Zyklus ausführen.",
+            "keywords": "Escape from Duckov Teil 6, Stufe III Fähigkeiten, Max Energiereserve, Stetiger Schuss III, Duckmother Farm, Finale Bunker-Vorbereitung, AS VAL"
+        },
+        "isHome": false,
+        "detailsHtml": `
+            <h2>Bunker-Vorbereitung: Finale Stufe III Quests und Max Upgrades</h2>
+            <p>Dies ist der letzte wiederholbare Zyklus, der darauf abzielt, die Basiswerte Ihres Charakters auf ihr maximales Potenzial zu bringen. Konzentrieren Sie sich darauf, alle Stufe **III** Quests anzunehmen und vollständig in Ihre Kernfähigkeiten zu investieren.</p>
+      
+            <h3>Finale Stufe Quests angenommen:</h3>
+            <p>Nehmen Sie die Quests mit der höchsten Belohnung an, um Ihre finalen Upgrades und den Eintritt in die nächste Zone zu finanzieren:</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Belohnung (EP/Währung)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Großes Lager III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Große Lagerkiste** ab</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Mücken-Eliminierung III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **10 Mücken**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Teile-Großhandel III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **5 Schrauben** ab</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Leistungstest III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Grafikkarte** ab</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Bestrafer III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **5 Plünderer**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <img src="/images/guide/guide17-01.webp" alt="Escape from Duckov Komplettlösung Teil 6" class="guide-image" />
+      
+            <h3>Fähigkeiten-Maximierung: Erreichen der Spitzenleistung</h3>
+            <p>Dies ist die Gelegenheit, diese kritischen Fähigkeiten **vollständig zu maximieren**, was Ihre zukünftige Leistung erheblich beeinflusst:</p>
+            <ul>
+                <li>**Energiereserve III:** Erhöht die maximale Energie um **+10**. (Bietet maximale Sprint-/Ausweichfähigkeit).</li>
+                <li>**Nährstoffaufnahme III:** Erhöht die Wirkung von Nahrung und Wasser um **+10%**. (Maximiert die passive Heilung und Ressourceneffizienz).</li>
+                <li>**Stetiger Schuss III:** Erhöht die Genauigkeit des Feuerns aus der Hüfte um **+10%**. (Macht Nahkämpfe extrem zuverlässig).</li>
+            </ul>
+      
+            <h2>Ground Zero: Der Finale Farm-Lauf</h2>
+            <p>Ihr Ziel bleibt dasselbe: Schließen Sie die Eliminierungs- und Ressourcen-Quoten ab und besiegen Sie die **Duckmother** ein letztes Mal, um maximale Ressourcen zu gewährleisten und auf die AS VAL für ihre Komponenten oder Munition zuzugreifen.</p>
+      
+            <h3>Lauf-Ziele</h3>
+            <ul>
+                <li>Sichern Sie schnell die benötigten **Schrauben** und die **Grafikkarte** und schließen Sie die Quoten für **Mücken-Eliminierung III** und **Bestrafer III** ab.</li>
+                <li>Bestätigen Sie den Standort des **Verlassenen Camps** und bereiten Sie sich auf das Boss-Treffen vor.</li>
+                <li>(Optional: Falls Sie die Waffe noch benötigen, suchen Sie erneut nach der **VSS**).</li>
+            </ul>
+      
+            <h3>Das Finale Duckmother-Treffen</h3>
+            <p>Mit Ihren vollständig maximierten Stufe III Fähigkeiten sollte die **Duckmother** einfacher zu bewältigen sein. Greifen Sie sie unter Verwendung Ihrer maximalen **Energiereserve** für anhaltendes Kiting an und nutzen Sie **Stetiger Schuss III** für verheerendes Feuern aus der Hüfte auf kurze Distanz.</p>
+            <ul>
+                <li>Besiegen Sie die **Duckmother** und holen Sie den **Schlüssel zum Verschlossenen Raum**.</li>
+                <li>Betreten Sie den Verschlossenen Raum, um die **AS VAL** (oder deren hochstufige Munition/Komponenten) einzusammeln.</li>
+            </ul>
+      
+            <h2>Aktivitäten nach dem Lauf: Vorbereitung auf die nächste Karte</h2>
+      
+            <img src="/images/guide/guide17-02.webp" alt="Escape from Duckov Komplettlösung Teil 6" class="guide-image" />
+      
+            <ul>
+                <li>**Extrahieren** Sie und kehren Sie zum Bunker zurück.</li>
+                <li>**Geben Sie alle abgeschlossenen Stufe III Quests ab** und fordern Sie Ihre beträchtlichen Belohnungen ein.</li>
+                <li>Nehmen Sie die **neue Quest** des Händlers an – diese Quest ist typischerweise das **Übergangsziel** zur nächsten großen Location oder Karte.</li>
+                <li>Besuchen Sie den **Rüstmeister**, um Ihren angesammelten Reichtum zum Kauf des **höchsten verfügbaren Helms** und der Körperpanzerung zu verwenden, um Ihre Bereitschaft für die Herausforderungen der nächsten Zone zu bestätigen.</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 3,
+        "title": "Erweiterte Ground Zero-Erkundung & Basiserweiterung",
+        "description": "Meistern Sie fortgeschrittene Ground Zero Expeditionen, schließen Sie komplexe Questreihen ab und erweitern Sie Ihre Basiseinrichtungen mit diesem umfassenden Mid-Game-Walkthrough.",
+        "imageUrl": "/images/guide-03.webp",
+        "imageAlt": "Erweiterte Ground Zero-Erkundung & Basiserweiterung",
+        "publishDate": "2025-10-27",
+        "addressBar": "/advanced-ground-zero-exploration-base-expansion",
+        "category": "walkthroughs",
+        "isHome": false,
+        "tags": [
+            "ERWEITERTE ERKUNDUNG",
+            "BASISERWEITERUNG",
+            "QUESTREIHEN",
+            "AUSRÜSTUNGS-UPGRADES",
+            "GROUND ZERO"
+        ],
+        "seo": {
+            "title": "Erweiterte Ground Zero-Erkundung & Basiserweiterung - Escape from Duckov",
+            "description": "Meistern Sie fortgeschrittene Ground Zero Expeditionen, schließen Sie komplexe Questreihen ab und erweitern Sie Ihre Basiseinrichtungen mit diesem umfassenden Mid-Game-Walkthrough.",
+            "keywords": "Escape from Duckov, Erweiterter Walkthrough, Ground Zero Erkundung, Basiserweiterung, Questreihen, Ausrüstungs-Upgrades, Mid Game Guide"
+        },
+        "detailsHtml": `
+              <p>Dieser erweiterte Walkthrough deckt den Mid-Game-Fortschritt in <a href="/">Escape from Duckov</a> ab und konzentriert sich auf komplexe Ground Zero-Expeditionen, die Erweiterung der Basiseinrichtungen und den Abschluss komplizierter Questreihen. Perfekt für Spieler, die bereit sind, sich anspruchsvolleren Inhalten zu stellen.</p>
+              
+              <h2>1. Erweiterte Ground Zero-Erkundung</h2>
+              <img src="/images/guide/guide03-01.webp" alt="Advanced Ground Zero Exploration" class="guide-image" />
+              <h3>Nördliche Turm-Mission</h3>
+      
+              <p><strong>Signalturm-Quest:</strong> Begeben Sie sich in Richtung Straßenlager und lokalisieren Sie den nördlichen Turm. Durchsuchen Sie den Werkzeugkasten nach 2 **Metallplatten**, Nägeln und einem **Schlitzschraubendreher**.</p>
+              <p><strong>Stromkasten-Interaktion:</strong> Interagieren Sie mit dem Stromkasten am Fuß des Turms, um das Ziel der Signalturm-Quest abzuschließen.</p>
+              <p><strong>Blaupausen-Entdeckung:</strong> Bewegen Sie sich rechts vom Turm, um die Blaupause für die **Kartoffel-Grafikkarte** zu finden – essenziell für fortgeschrittenes Handwerk.</p>
+      
+              <img src="/images/guide/guide03-02.webp" alt="Northern Tower Mission" class="guide-image" />
+      
+              <h3>Annäherung an das Straßenlager</h3>
+              <p><strong>Neuer Gegnertyp:</strong> Treffen Sie in der Nähe des Straßenlagers auf fortgeschrittene, Schrotflinte schwingende Feinde. Diese Gegner erfordern sorgfältige Positionierung und **ausreichend Munition**.</p>
+              <p><strong>Ausrüstungs-Erwerb:</strong> Besiegen Sie Feinde, um MP-155-Schrotflinten, <a href="/items/equipment">Motorradhelme</a> und medizinische Versorgung zu erhalten. Durchsuchen Sie unsere <a href="/items/equipment">Ausrüstungs-Datenbank</a> für alle verfügbaren Schutzausrüstungen.</p>
+              <p><strong>Brückenreparatur:</strong> Verwenden Sie 2 Stück **Holz**, um die kaputte Brücke, die zum Straßenlager führt, zu reparieren. Überprüfen Sie Verstecke unter Strommasten auf zusätzliche Beute.</p>
+              
+              <h2>2. NPC-Interaktionen und Neue Quests</h2>
+              
+              <h3>Mud der Trainer</h3>
+      
+              <p><strong>Standort:</strong> Befindet sich in einem Haus in der Nähe des Straßenlagers – eine durchtrainierte Ente, die Körpertrainingsdienste anbietet.</p>
+              <p><strong>Quest-Zuweisung:</strong> Nehmen Sie "Ausgewogene Ernährung 1" von Mud für Möglichkeiten zur physischen Verbesserung an.</p>
+              
+              <h3>Ausgewogene Ernährung Quest</h3>
+      
+              <img src="/images/guide/guide03-03.webp" alt="Mud the Trainer" class="guide-image" />
+      
+              <p><strong>Ziel:</strong> Reichen Sie **1x Entenei** ein</p>
+              <p><strong>Belohnungen:</strong> 800 EP, 500 Währung</p>
+              <p><strong>Strategie:</strong> Enteneier können an verschiedenen Orten in Ground Zero gefunden werden – **priorisieren Sie das Sammeln** während Expeditionen.</p>
+              
+              <h2>3. Höhlen-Erkundung und Erweiterte Beute</h2>
+              
+              <h3>Höhlen-Zugang</h3>
+              <p><strong>Brückenreparatur:</strong> Reparieren Sie die Brücke in der Nähe des Höhleneingangs mit gesammelten Materialien, um auf versteckte Bereiche zuzugreifen.</p>
+              <p><strong>Hochwertige Beute:</strong> Die Höhle enthält Premium-Ausrüstung, darunter:</p>
+              <ul>
+                  <li><strong>Waffen:</strong> Pistolenmündung, UP 45, AK-47, Aufsatz für Feuern aus der Hüfte. Überprüfen Sie unsere <a href="/items/weapons">Waffen-Datenbank</a> für detaillierte Waffeninformationen</li>
+                  <li><strong>Munition:</strong> Verschiedene Munitionstypen und Laser-Aufsatz. Durchsuchen Sie <a href="/items/ammunition">alle Munitionstypen</a> für Kompatibilitätsdetails</li>
+                  <li><strong>Blaupausen:</strong> Rezepte für die **Cube Gun** und **Kleine Energiemunition**</li>
+              </ul>
+              
+              <h3>Infiltration des Nordwest-Lagers</h3>
+              <p><strong>Stealth-Ansatz:</strong> Navigieren Sie vorsichtig zum Nordwest-Lager und räumen Sie kleinere feindliche Lager auf dem Weg.</p>
+              <p><strong>Quest-Gegenstands-Sammlung:</strong> Holen Sie den "**Brief von einem alten Freund**" aus dem Zelt für den Quest-Abschluss ab.</p>
+              <p><strong>Zusätzliche Entdeckungen:</strong> Finden Sie das Brecheisen-Rezept in Datenboxen in der Nähe und die Warnhinweise im **Ground Zero Wachprotokoll**.</p>
+              
+              <h2>4. Anspruchsvolle Kampfbegegnungen</h2>
+              
+              <h3>Bosskampf gegen den Vermummten Feind</h3>
+              <p><strong>Feindbeschreibung:</strong> Ein schwer bewaffneter Feind mit Kapuze, der eine Schrotflinte führt – deutlich gefährlicher als Standardgegner.</p>
+              <p><strong>Kampfvorbereitung:</strong> Stellen Sie sicher, dass Sie vor dem Angriff **ausreichend Munition** und medizinische Versorgung haben.</p>
+              <p><strong>Quest-Integration:</strong> Verwenden Sie Bandagen während des Kampfes, um die Quest "**Die Wichtigkeit der Blutungsstillung**" abzuschließen.</p>
+              <p><strong>Belohnungs-Sammlung:</strong> Besiegen Sie den Feind, um **Schwarzmarkt-Kontaktnotizen** und **Fortgeschrittene AP-Schrotflinten-Geschosse** zu erhalten.</p>
+              
+              <h3>Ressourcenverwaltung</h3>
+              <p><strong>Dehydrations-Warnung:</strong> Überwachen Sie Ihren Hydratationslevel – **Dehydration** kann während ausgedehnter Expeditionen auftreten.</p>
+              <p><strong>Schlüssel-Sammlung:</strong> Sammeln Sie **Schlüssel der Verlassenen Tankstelle** und **Zaunschlüssel** sowie das holografische Visier vor der Extraktion. Überprüfen Sie unsere <a href="/items/key">Schlüssel-Datenbank</a> für Schlüssel-Standorte und Verwendungsinformationen.</p>
+              
+              <h2>5. Erweiterung der Basiseinrichtungen</h2>
+              
+              <h3>Neue Bau-Quests</h3>
+              <p><strong>Grundlegende Konstruktion II:</strong> Bauen Sie den **Waffenladen** im Bunker</p>
+              <p><strong>Grundlegende Konstruktion III:</strong> Bauen Sie den **Rüstungsladen** im Bunker</p>
+              <p><strong>Medizinische Konstruktion:</strong> Bauen Sie die **Medizinische Station** im Bunker</p>
+              <p><strong>Tech-Experte:</strong> Reichen Sie einen **Haufen elektronischer Komponenten** ein</p>
+              
+              <h3>Kampf- und Fähigkeits-Quests</h3>
+              <p><strong>Ziele auf den Kopf:</strong> Töten Sie 5 Feinde mit **Kopftreffern** in Ground Zero</p>
+              <p><strong>Erweiterte Tasche:</strong> Schalten Sie **Rucksack-Experte 1** frei (falls noch nicht abgeschlossen)</p>
+              <p><strong>Werkbank-Upgrade:</strong> Schalten Sie **Erweiterte Verarbeitung** frei (falls noch nicht abgeschlossen)</p>
+              
+              <h3>Ressourcen-Einreichungs-Quests</h3>
+              <p><strong>Voller Liebe:</strong> Reichen Sie **1888 Währung** für signifikante Belohnungen ein</p>
+              <p><strong>Handwerks-Lehre:</strong> Reichen Sie eine **Glick-Pistole** für Handwerkskenntnisse ein</p>
+              <p><strong>Buchführung:</strong> Reichen Sie **Tinte, Stift und Notizbuch** für administrative Aufgaben ein</p>
+              
+              <h2>6. Ausrüstungs- und Einrichtungs-Upgrades</h2>
+              
+              <h3>Rüstungsladen-Konstruktion</h3>
+              <p><strong>Sofortige Verfügbarkeit:</strong> Der Rüstungsladen kann sofort mit verfügbaren Materialien gebaut werden.</p>
+              <p><strong>Ausrüstungs-Käufe:</strong> Erwerben Sie **Level 2 Körperpanzerung** und **Stahlhelm** für signifikante Verbesserung des Schutzes. Durchsuchen Sie unseren <a href="/items/equipment">vollständigen Ausrüstungskatalog</a>, um alle verfügbaren Rüstungsoptionen zu vergleichen.</p>
+              <p><strong>Quest-Zuweisungen:</strong> Nehmen Sie die Quests **Versorgungsroute** und **Buchführung** vom Rüstungsladen an.</p>
+              
+              <h3>Werkbank-Verbesserungen</h3>
+              <p><strong>Blaupausen-Forschung:</strong> Erforschen Sie alle gesammelten Blaupausen, um Inventarplatz freizugeben und neue Handwerksoptionen freizuschalten.</p>
+              <p><strong>Reparaturstation-Forschung:</strong> Schalten Sie **Waffenreparatur-Fähigkeiten** für beschädigte Ausrüstung frei.</p>
+              <p><strong>Zerlegestation:</strong> Erforschen Sie Zerlegungsfähigkeiten mit **Schere und Schraubenschlüssel** vom Verkaufsautomaten.</p>
+              
+              <h3>Charakter-Progression</h3>
+              <p><strong>Waffen-Meisterschaft I:</strong> Verbessern Sie die Waffenfertigkeit beim Verbesserer für erhöhte Kampfeffektivität.</p>
+              <p><strong>Fähigkeiten-Priorisierung:</strong> Konzentrieren Sie sich auf **kampfbezogene Verbesserungen** für die bevorstehenden anspruchsvollen Begegnungen.</p>
+              
+              <h2>7. Fortgeschrittenes Quest-Management</h2>
+              
+              <h3>Versorgungsroute Quest</h3>
+              <p><strong>Standort:</strong> Ground Zero</p>
+              <p><strong>Ziel:</strong> Markieren Sie die Versorgungsbox mit einem **Marker** (im Lager verfügbar)</p>
+              <p><strong>Strategie:</strong> Verwenden Sie zuvor gesammelte Marker, um dieses Ziel effizient abzuschließen.</p>
+              
+              <h3>Ressourcen-Planung</h3>
+              <p><strong>Währungs-Management:</strong> Überwachen Sie Ihre finanziellen Ressourcen – fortgeschrittene Ausrüstung und Upgrades erfordern **signifikante Investitionen**.</p>
+              <p><strong>Material-Sammlung:</strong> Priorisieren Sie das Sammeln von Materialien für zukünftige Bauprojekte.</p>
+              <p><strong>Inventar-Optimierung:</strong> Erforschen Sie regelmäßig Blaupausen und organisieren Sie das Lager, um eine effiziente Inventarverwaltung aufrechtzuerhalten.</p>
+              
+              <h2>Fazit</h2>
+              <p>Dieser erweiterte Walkthrough deckt den entscheidenden Mid-Game-Fortschritt in Escape from Duckov ab. Sie haben erfolgreich komplexe Ground Zero-Expeditionen abgeschlossen, Ihre Basiseinrichtungen erweitert und fortgeschrittene Handwerksfähigkeiten freigeschaltet. Überprüfen Sie unsere <a href="/wiki/quests">Quest-Datenbank</a> für alle verfügbaren Missionsdetails. Konzentrieren Sie sich darauf, die neuen Questreihen abzuschließen, Ihre Ausrüstung aufzurüsten und sich auf noch anspruchsvollere Inhalte vorzubereiten. Erkunden Sie weitere <a href="/guides">fortgeschrittene Anleitungen</a>, einschließlich der Zugangsleitfäden zur Sturmzone. Die Grundlage, die Sie geschaffen haben, wird für das Überleben in Duckovs gefährlichsten Gebieten unerlässlich sein.</p>
+              `
+    },
+
     {
         "id": 5,
         "title": "Zugang zur Sturmzone & Roadblock-Boss-Leitfaden",
@@ -680,99 +1354,107 @@ export const guides = [
 
     {
         "id": 6,
-        "title": "Escape from Duckov LEDX",
-        "description": "Suchen Sie nach dem schwer fassbaren LEDX in Escape from Duckov? Dieser Leitfaden entschlüsselt die besten Beschaffungsmethoden, einschließlich Spawn-Orten, Schlüsselverwendung, Feind-Drops und Marktwert. Maximieren Sie Ihre Chancen, diesen wichtigen medizinischen Gegenstand zu finden, und entdecken Sie clevere Handels-Tipps!",
+        "title": "Escape from Duckov LEDX-Beschaffungsleitfaden (Update)",
+        "description": "Suchen Sie nach dem schwer fassbaren LEDX in Escape from Duckov? Dieser Leitfaden erklärt die besten Beschaffungsmethoden, einschließlich Spawn-Orten, Schlüsselverwendung, Feind-Drops und Marktwert. Maximieren Sie Ihre Chancen, diesen wichtigen medizinischen Gegenstand zu finden, und entdecken Sie clevere Handelstipps!",
         "tags": [
             "Escape from Duckov",
             "LEDX",
-            "Seltenes Objekt",
+            "Seltener Gegenstand",
             "Beute-Leitfaden",
             "Sanatorium-Schlüssel"
         ],
-        "publishDate": "2025-10-28",
+        "publishDate": "2025-11-11",
         "imageUrl": "/images/guide/guide06-01.webp",
-        "imageAlt": "Ein LEDX-Hauttransilluminator in Escape from Duckov, der auf einer Werkbank angezeigt wird.",
+        "imageAlt": "Ein LEDX Skin-Transilluminator in Escape from Duckov, der auf einer Werkbank angezeigt wird.",
         "category": "advanced",
         "isHome": false,
         "seo": {
-            "title": "Escape from Duckov LEDX: Der Ultimative Beschaffungs-Leitfaden",
-            "description": "Erfahren Sie, wie Sie das seltene LEDX in Escape from Duckov finden. Holen Sie sich Tipps zu Spawn-Orten, Schlüsselanforderungen, Handelsstrategien und Quest-Implikationen, um den Gewinn zu maximieren!",
-            "keywords": "escape from duckov, ledx, beute-leitfaden, sanatorium, schlüssel, seltenes objekt, handel, quests"
+            "title": "Escape from Duckov LEDX: Der Ultimative Beschaffungsleitfaden",
+            "description": "Erfahren Sie, wie Sie das seltene LEDX in Escape from Duckov finden. Holen Sie sich Tipps zu Spawn-Orten, erforderlichen Schlüsseln, Handelsstrategien und Quest-Implikationen zur Gewinnmaximierung!",
+            "keywords": "escape from duckov, ledx, beute-leitfaden, sanatorium, schlüssel, seltener gegenstand, handeln, quests"
         },
         "addressBar": "/escape-from-duckov-ledx",
         "detailsHtml": `
-              <h2 style="font-size: 1.5em; font-weight: bold;">
-                  <span>Escape from Duckov LEDX</span>
-              </h2>
-              <p style="margin: 1em 0px;">
-                  Der LEDX-Hauttransilluminator in <a href="/">Escape from Duckov</a> ist ein sehr begehrter und unglaublich seltener Gegenstand, der wegen seines hohen Marktwerts und seiner kritischen Rolle in verschiedenen Quests des späten Spiels begehrt ist.
-                  Der Erwerb dieses medizinischen Geräts kann Ihren Reichtum und Ihren Fortschritt erheblich steigern. Dieser umfassende Leitfaden enthält detaillierte Informationen darüber, wo und wie Sie das **LEDX** finden, welchen Wert es auf dem Markt hat und strategische Empfehlungen für seine Verwendung. Überprüfen Sie unsere <a href="/wiki/quests">Quest-Datenbank</a>, um zu sehen, welche Missionen das LEDX erfordern.
-              </p>
-              <img src="/images/guide/guide06-02.webp" alt="LEDX-1">
+          <p><em>Ein Effizienter Leitfaden zum Finden und Verwenden des LEDX</em></p>
+          <p>Das Finden des **LEDX Skin Transilluminator** in *Escape from Duckov* ist ein wichtiges Ziel, um Ihren Unterschlupf (Hideout) aufzuwerten und im Spiel voranzukommen. Dieser seltene Gegenstand ist nicht nur wegen seines Marktpreises wertvoll, sondern auch unerlässlich für entscheidende Quests und Unterschlupf-Upgrades. Zu wissen, wo man suchen und wofür man ihn aufbewahren muss, kann Ihre Suche viel effizienter gestalten.</p>
       
-              <h3 style="font-size: 1.17em; font-weight: bold;">
-                  <span>Über das LEDX</span>
-              </h3>
-              <p style="margin: 1em 0px;">
-                  <span>
-                      Der LEDX-Hauttransilluminator ist in Escape from Duckov als medizinisches Objekt kategorisiert. Sein Hauptzweck ist es, die Sichtbarkeit von Blutgefäßen zu verbessern, was einfachere und genauere Injektionen ermöglicht.
-                      Mit einem Gewicht von nur **0,2 kg** ist es relativ leicht, was es zu einer handhabbaren Ergänzung Ihres Inventars macht. Seine Seltenheit und sein Wert machen es zu einem **Ziel mit hoher Priorität** für viele Spieler, sei es für den persönlichen Gebrauch, das Abschließen von Aufgaben oder die Kapitalisierung seines Marktwerts.
-                      Denken Sie daran, dass das Finden des LEDX in Escape from Duckov Geduld und ein strategisches Vorgehen erfordert. Für weitere Beute-Leitfäden und Strategien erkunden Sie unsere <a href="/guides">vollständige Sammlung von Leitfäden</a>.
-                  </span>
-              </p>
+          <h2>**Was ist ein LEDX? – Ein Überblick**</h2>
+          <ul>
+              <li>**Zweck:** Wird verwendet, um Blutgefäße für eine einfache Injektion sichtbar zu machen.</li>
+              <li>**Gewicht:** 0,2 kg</li>
+              <li>**Gegenstandstyp:** Medizinisch</li>
+              <li>**Artikelnummer:** „#331“</li>
+          </ul>
+          <p><img src="/images/guide/guide06-01.webp" alt="LEDX-1"></p>
       
-              <h3 style="font-size: 1.17em; font-weight: bold;">
-                  <span>LEDX-Beschaffungs-Methoden</span>
-              </h3>
-              <ol>
-                  <li><strong>Zufällige Beute-Spawn-Punkte:</strong>
-                      <span> Die häufigste Methode beinhaltet das Durchsuchen spezifischer Beute-Spawn-Punkte auf verschiedenen Karten. Das **Sanatorium**, insbesondere ein bestimmter Raum mit einem Bett, ist ein bekannter Ort für LEDX-Spawns. Beachten Sie jedoch, dass die Spawn-Raten zufällig sind.</span>
-                  </li>
-                  <li><strong>Raum-Schlüssel:</strong>
-                      <span> Der Zugang zu bestimmten Räumen, wie jenen, die den "**Sanatoriums-Raumschlüssel 2**" erfordern, erhöht Ihre Chancen, ein LEDX zu finden. Diese Räume enthalten oft Beute höherer Stufe, was sie zu lohnenden Investitionen macht. Durchsuchen Sie unsere <a href="/items/key">Schlüssel-Datenbank</a>, um alle verfügbaren Schlüssel zu finden. Halten Sie beim Erkunden Ausschau nach diesen Schlüsseln.</span>
-                  </li>
-                  <li><strong>Feind-Drops:</strong>
-                      <span> Obwohl seltener, bietet das Besiegen von Feinden wie Scavs, Raiders und Bossen eine geringe Chance, dass diese ein LEDX fallen lassen. Das Ansteuern von Hochwert-Gebieten mit erhöhter Feindpräsenz kann Ihre Chancen verbessern.</span>
-                  </li>
-                  <li><strong>Scav-Kiste:</strong>
-                      <span> Die Verwendung der **Scav-Kiste** in Ihrem Versteck könnte potenziell ein LEDX hervorbringen, obwohl dies ein sehr seltenes Ergebnis ist. Dies ist eine passive Methode, um zu versuchen, den Gegenstand zu erwerben.</span>
-                  </li>
-                  <li><strong>Handwerk:</strong>
-                      <span> Obwohl Sie das LEDX nicht direkt herstellen können, kann der Besitz anderer notwendiger Gegenstände zu Möglichkeiten führen, es einzutauschen oder für Schlüssel zu Orten zu feilschen, an denen LEDX spawnen.</span>
-                  </li>
-                  <li><strong>Flohmarkt:</strong>
-                      <span> Obwohl Sie nicht direkt bei Händlern kaufen können, ermöglicht der Flohmarkt Transaktionen zwischen Spielern. Dies ist möglicherweise nicht zuverlässig, kann aber eine Schätzung des aktuellen LEDX-Wertes liefern.</span>
-                  </li>
-                  <li><strong>Quest-Belohnungen:</strong>
-                      <span> Einige seltene Quests bieten das LEDX als Belohnung an, halten Sie also Ausschau nach diesen! Überprüfen Sie unsere <a href="/wiki/quests">vollständige Quest-Datenbank</a> für alle Missionsbelohnungen.</span>
-                  </li>
-              </ol>
+          <h2>**Wichtigste Verwendungszwecke: Warum ist der LEDX so wichtig?**</h2>
+          <p>Bevor Sie in Erwägung ziehen, diesen hochwertigen Gegenstand zu verkaufen, sollten Sie seine zwei kritischen Verwendungszwecke im Spiel verstehen. Ein **im Raid gefundener (found-in-raid)** LEDX ist ein wichtiger Meilenstein in Ihrem Fortschritt.</p>
       
-              <h3 style="font-size: 1.17em; font-weight: bold;">
-                  <span>FAQ</span>
-              </h3>
-              <ol>
-                  <li><span>Was ist der Marktwert eines LEDX in Escape from Duckov?</span></li>
-                  <li><span>Das LEDX kann auf dem Markt bis zu **16.250 HKD** einbringen, was es zu einem lukrativen Verkaufsgegenstand macht. Die Preise können schwanken, behalten Sie also die Markttrends im Auge.</span></li>
-                  <li><span>Kann ich das LEDX bei Händlern kaufen?</span></li>
-                  <li><span>Nein, das LEDX kann nicht direkt bei Händlern gekauft werden. Sein Einkaufswert wird aufgrund seiner Nichtverfügbarkeit über diese Kanäle als "???" angezeigt.</span></li>
-                  <li><span>Wie viele LEDX sollte ich für Quests aufbewahren?</span></li>
-                  <li><span>Es wird empfohlen, mindestens **5 LEDX** für zukünftige Quests und Handwerkszwecke aufzubewahren. Das spart Ihnen langfristig Zeit und Geld.</span></li>
-                  <li><span>Welche Schlüssel sind am nützlichsten, um LEDX zu finden?</span></li>
-                  <li><span>Der "**Sanatoriums-Raumschlüssel 2**" ist ein besonders wertvoller Schlüssel, da er Räume freischaltet, die für Beute höherer Stufe bekannt sind, einschließlich des Potenzials für LEDX-Spawns.</span></li>
-                  <li><span>Ist es besser, ein LEDX früh im Spiel zu verkaufen oder zu behalten?</span></li>
-                  <li><span>Obwohl es verlockend ist, es für schnelles Geld zu verkaufen, sollten Sie den Wert des Aufbewahrens einiger für anstehende Quests in Betracht ziehen. Wenn Sie mehr als 5 haben, ist der Verkauf der zusätzlichen eine vernünftige Wahl.</span></li>
-              </ol>
+          <h3>**1. Quest des Therapeuten: „Private Clinic“**</h3>
+          <p>Auf Stufe 35 bietet der Therapeut diese Quest an, bei der Sie einen **im Raid gefundenen LEDX** zusammen mit einem Ophthalmoskop abgeben müssen. Die Belohnung ist ein sehr wertvoller **Item Case (Gegenstandsbehälter)**, der eine enorme Menge an Stauraum bietet und das Management Ihres Stash (Lager) grundlegend verändert.</p>
       
-              <p style="margin: 1em 0px;">
-                  <span>
-                      Zusammenfassend lässt sich sagen, dass das LEDX in Escape from Duckov ein wertvoller und seltener Gegenstand mit sowohl wirtschaftlicher als auch strategischer Bedeutung ist.
-                      Die Sicherung eines LEDX in Escape from Duckov erfordert Geduld, Kenntnis der Spawn-Orte und ein bisschen Glück.
-                      Zu wissen, wie man das **LEDX** erhält, bewertet und nutzt, kann Ihren Fortschritt und Ihren finanziellen Erfolg im Spiel erheblich beeinflussen. Viel Glück bei Ihrer Jagd!
-                  </span>
-              </p>
-              `
+          <h3>**2. Unterschlupf-Upgrade: Medstation Stufe 3**</h3>
+          <p>Das Aufrüsten der Medstation Ihres Unterschlupfs auf die maximale Stufe (Stufe 3) erfordert **einen LEDX**. Dieses Upgrade ist unerlässlich, da es Ihre gesamte **Heilungseffektivität** steigert und weitere Herstellungsrezepte für fortschrittliche medizinische Gegenstände freischaltet.</p>
+      
+          <h2>**Wo man LEDX findet – Top-Orte**</h2>
+          <p>Während ein LEDX theoretisch an vielen hochwertigen Orten für medizinische Beute spawnen kann, sind einige Stellen weitaus zuverlässiger als andere. Konzentrieren Sie Ihre Bemühungen auf diese Gebiete, um Ihre Chancen zu maximieren.</p>
+      
+          <table>
+              <thead>
+                  <tr>
+                      <th>Ort</th>
+                      <th>Häufige Spawn-Punkte</th>
+                      <th>Anmerkungen</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>**Farmtown Pharmacies (Farmtown-Apotheken)**</td>
+                      <td>Regale, Tische, Medizintaschen</td>
+                      <td>Gilt als einer der zuverlässigsten und beständigsten LEDX-Spawns.</td>
+                  </tr>
+                  <tr>
+                      <td>**USEC Camp (Woods)**</td>
+                      <td>Tragen, Leichen, Medizintaschen</td>
+                      <td>Eine sehr hohe LEDX-Spawn-Rate, was es zu einem erstklassigen Farm-Ort macht.</td>
+                  </tr>
+                  <tr>
+                      <td>**Lab Areas (Laborbereiche)**</td>
+                      <td>Medizinische Wagen, Regale, Metallboxen</td>
+                      <td>Hohes Risiko, hohe Belohnung. Erfordert Schlüssel und sorgfältige Navigation.</td>
+                  </tr>
+              </tbody>
+          </table>
+      
+          <h3>**So beschaffen Sie LEDX effizient**</h3>
+          <p>
+              **Ort 1: Begeben Sie sich zu den Farmtown Pharmacies**
+              <br>Betreten Sie das Gewerbegebiet und suchen Sie die beiden Apotheken auf. Überprüfen Sie systematisch jedes Regal, jeden Tisch und jede lose Medizintasche auf den LEDX.
+          </p>
+          <p>
+              **Ort 2: Besuchen Sie das USEC Camp auf der Woods-Karte**
+              <br>Gehen Sie in den Bereich des USEC-Camps und durchsuchen Sie die Tragen, Leichen und medizinischen Behälter. Dies ist ein Hotspot für alle Arten von wertvoller medizinischer Beute.
+          </p>
+          <p>
+              **Ort 3: Erkunden Sie Lab Areas**
+              <br>Dies ist eine Hochrisiko-Option. Verwenden Sie Schlüssel, um Türen zu medizinischen Räumen (z. B. im Sanatorium) zu öffnen und überprüfen Sie medizinische Wagen, Regale und Metallboxen. Die Beutedichte ist hoch, aber die Gefahr auch.
+          </p>
+          <p><img src="/images/guide/guide06-02.webp" alt="LEDX2" width="50%" style="width: 50%;"></p>
+      
+          <h2>**Wert und Handel-Empfehlungen**</h2>
+          <p>Ein LEDX wird auf dem Flohmarkt zu einem sehr hohen Preis verkauft (oft **16.250 HKD** oder mehr), was es verlockend macht, ihn sofort zu verkaufen. Dies ist jedoch meistens ein Fehler.</p>
+          
+          <p>**Dringende Empfehlung: Verkaufen Sie ihn NICHT voreilig!**</p>
+          <ul>
+              <li>**Sparen Sie mindestens zwei:** Sie benötigen einen für das Medstation-Upgrade und einen weiteren für die Quest „Private Clinic“. Stellen Sie sicher, dass Sie diese abgedeckt haben, bevor Sie zusätzliche verkaufen.</li>
+              <li>**Spieler-Erfahrung bestätigt dies:** Wie Spieler oft raten: „Sie werden 3 für spätere Aufgaben benötigen“ und „Sie werden diese später verwenden, um wichtige Gegenstände herzustellen. Stellen Sie sicher, dass Sie einige behalten.“ Priorisieren Sie Ihren Fortschritt gegenüber kurzfristigem Gewinn.</li>
+          </ul>
+      
+          <h2>**Zusammenfassung**</h2>
+          <p>Der LEDX ist ein seltener Gegenstand mit erheblichem wirtschaftlichem und strategischem Wert. Indem Sie seine Kernverwendungszwecke für Quests und Ihren Unterschlupf verstehen und Ihre Suche auf zuverlässige Orte wie die **Farmtown Pharmacies, das Woods USEC Camp und das Labor** konzentrieren, können Sie diesen wichtigen Gegenstand effizient sichern und Ihren Fortschritt in *Escape from Duckov* vorantreiben. Viel Glück bei der Suche nach Ihrer „gelben Ente“!</p>
+          `
     },
+
     {
         "id": 7,
         "title": "Escape from Duckov J-Lab Zutrittskarten Beschaffungs-Leitfaden",
@@ -795,23 +1477,23 @@ export const guides = [
         },
         "addressBar": "/escape-from-duckov-j-lab-access-card-acquisition-guide",
         "detailsHtml": `
-              <p style="margin: 1em 0px;">
+              <p>
                   In <a href="/">Escape from Duckov</a> sind J-Lab Zutrittskarten entscheidend, um Zugang zu den **gesperrten Laboren** zu erhalten, die in den Vororten von Duckov verstreut sind.
                   Während die erste Einstiegskarte (**J-Lab 1**) relativ leicht zu finden ist, sind fortgeschrittenere Versionen – einschließlich Level 2-Karten und farbiger Zutrittskarten (rot, blau, grün, lila, gelb und schwarz) – viel seltener und werden typischerweise durch tiefere Erkundung, Plünderung und das Abschließen spezifischer Quests freigeschaltet. Überprüfen Sie unsere <a href="/items/key">Schlüssel-Datenbank</a> für Schlüsselkarten-Informationen.
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Dieser Leitfaden beschreibt, wie Sie jede **J-Lab Karte** finden, ihre bestätigten Spawn-Gebiete und die besten Suchrouten, um Ihre Labor-Raids effizient und wiederholbar zu gestalten. Für detaillierte <a href="/maps">Karten-Standorte</a> und Labor-Zugangspunkte besuchen Sie unseren Kartenbereich.
               </p>
       
               <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Was sind J-Lab Karten?</strong></h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   J-Lab Karten sind Sicherheitspässe, die verwendet werden, um auf unterirdische Forschungseinrichtungen zuzugreifen, die sich in der gesamten Duckov-Region befinden.
                   Verschiedene Karten-Level gewähren Zugang zu tieferen Bereichen des Labors oder zu farbcodierten **Eindämmungszonen**, die mit Top-Tier-Beute und Laborausrüstung verbunden sind.
               </p>
       
-              <p style="margin: 1em 0px;">Hier ist eine kurze Beschreibung jedes Kartentyps:</p>
+              <p>Hier ist eine kurze Beschreibung jedes Kartentyps:</p>
       
               <ol>
                   <li><strong>J-Lab 1 Karte</strong> – Basis-Zugang (Zugang zu Standard-Laborbereichen)</li>
@@ -819,13 +1501,13 @@ export const guides = [
                   <li><strong>Farbige Karten (Rot, Blau, Grün, Lila, Gelb, Schwarz)</strong> – Fortgeschrittene und optionale Schlüssel zum Freischalten von versiegelten Flügeln oder versteckten Laborbereichen</li>
               </ol>
       
-              <p style="margin: 1em 0px;"><strong>Hinweis:</strong> Im Gegensatz zu typischen Schlüssel-Gegenständen sind diese Karten **Verbrauchsgüter**; bei jedem Betreten des Labors wird eine verbraucht.</p>
+              <p><strong>Hinweis:</strong> Im Gegensatz zu typischen Schlüssel-Gegenständen sind diese Karten **Verbrauchsgüter**; bei jedem Betreten des Labors wird eine verbraucht.</p>
       
               <h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 1 Karte – Basis-Zugang</strong></h2>
       
               <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Wie man sie erhält</strong></h3>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   In Escape from Duckov gibt es zwei Hauptwege, um Ihre erste J-Lab 1 Karte zu erhalten:
               </p>
       
@@ -854,13 +1536,13 @@ export const guides = [
                   <li>Einige Spieler haben berichtet, Level 2-Karten im **Büro** im ersten Stock des Labors gefunden zu haben. Untersuchen Sie den Raum sorgfältig auf Schreibtische, Metallregale oder Computerterminals. Diese Spawn-Punkte sind **nicht garantiert**.</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   <strong>Tipps:</strong> Konzentrieren Sie Ihre Suche auf Bereiche, die von Wanderern patrouilliert werden, da diese die höchste gemeldete Drop-Rate aufweisen. Das Neustarten eines Raids oder das Wechseln von Servern kann die Beute-Tabelle aktualisieren und Ihre Chancen, eine Karte zu finden, erhöhen.
               </p>
       
               <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Farbige Zutrittskarten</strong></h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Es gibt mehrere Möglichkeiten, farbige Zutrittskarten für das Labor zu sammeln.
                   Eine der effektivsten Methoden ist die Suche im **Raum des Geheimnisvollen Schlüssels (X/O)**, wo fast alle Karten und hochwertigen Vorräte eine Chance haben zu spawnen.
                   Die folgenden Karten haben jedoch spezifische Beschaffungsmethoden:
@@ -908,13 +1590,13 @@ export const guides = [
                   <li>Können in dem kleinen Haus rechts vom **Holzlager** in Farm Town spawnen.</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   <img src="/images/guide/guide07-02.webp" alt="J-Lab Zutrittskarte (Lila)">
               </p>
       
               <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Scouting- und Entwicklungs-Strategie</strong></h2>
       
-              <p style="margin: 1em 0px;">Für maximale Effizienz folgen Sie dieser Route:</p>
+              <p>Für maximale Effizienz folgen Sie dieser Route:</p>
       
               <ol>
                   <li><strong>Start in Farm Town → Versteckte Mine</strong></li>
@@ -929,7 +1611,7 @@ export const guides = [
                   <li>Verwenden Sie farbige Karten nur, nachdem Sie Ihren Zielraum identifiziert haben und **vollständig vorbereitet** sind. Diese Karten sind extrem wertvoll, planen Sie Ihre Erkundung also sorgfältig.</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Das Sammeln aller J-Lab Karten in Escape from Duckov erfordert Geduld und konsequente Erkundung.
                   Während die Basis-Karten leicht aufgefüllt werden können, sind die leuchtend farbigen Premium-Karten für Spieler reserviert, die wirklich in die Spielwelt eintauchen – jede Ecke erkunden, jeden Bunker überfallen und verstreute Hinweise zusammensuchen.
                   Überprüfen Sie unsere <a href="/wiki/quests">Quest-Datenbank</a> auf Missionen im Zusammenhang mit dem J-Lab-Zugang. Erkunden Sie weitere <a href="/guides">fortgeschrittene Leitfäden</a> für umfassende Beute-Strategien. Viel Glück!
@@ -957,7 +1639,7 @@ export const guides = [
         "addressBar": "/escape-from-duckov-rampaging-scavenger",
         "isHome": false,
         "detailsHtml": `
-            <p style="margin: 1em 0px;">
+            <p>
                   Eine der frühen Missionen, die Sie in <a href="/">Escape from Duckov</a> erhalten, ist die Quest <strong>"Pfad des Jägers"</strong>, bei der Sie einige der aggressiveren Bewohner des Ödlands jagen und eliminieren müssen: **Wütende Plünderer**. Dieser Leitfaden zeigt Ihnen genau, wo Sie diese flinken Feinde finden, wie Sie sie effizient töten und wie Sie die Quest abschließen. Überprüfen Sie unsere <a href="/wiki/quests">Quest-Datenbank</a> für alle verfügbaren Missionen.
               </p>
       
@@ -965,7 +1647,7 @@ export const guides = [
                   <strong>Schritt 1: Wo man Wütende Plünderer findet</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Im Gegensatz zu anderen Feinden, die zufällig umherstreifen, sind Wütende Plünderer an einem **spezifischen, festen Ort** zu finden. Sie werden nicht mitten auf dem Hauptweg über sie stolpern; Sie müssen ihr Lager aufsuchen.
               </p>
       
@@ -973,7 +1655,7 @@ export const guides = [
                   <strong>Standort:</strong>
               </h4>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Das Lager der Wütenden Plünderer befindet sich auf einer Lichtung in der **südwestlichen Ecke der Karte**, direkt südlich des Haupt-Waldpfades. Für detaillierte <a href="/maps">Karteninformationen</a> besuchen Sie unseren Kartenbereich.
                   <img src="/images/guide/guide08-02.webp" alt="Wütender Plünderer 2">
               </p>
@@ -988,11 +1670,11 @@ export const guides = [
                   <li>Folgen Sie diesem kleinen Umwegpfad nach Süden auf die Lichtung. Von hier aus können Sie das Lager nicht verfehlen.</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Sobald Sie ihr Lager betreten, werden Sie sie sofort bemerken. Sie sind leicht an ihrer **hellroten Kleidung** und den bedrohlichen **Metzger-Messern** erkennbar, die sie führen. Typischerweise finden Sie zu jedem Zeitpunkt **zwei bis drei Plünderer** in diesem Lager.
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   <strong>Warnung:</strong> Seien Sie vorsichtig! Sobald sie Sie entdecken, sind Wütende Plünderer unglaublich schnell und werden Sie unerbittlich jagen, möglicherweise den ganzen Weg zurück zum Bunker. **Unterschätzen Sie ihre Verfolgung nicht.**
               </p>
       
@@ -1000,7 +1682,7 @@ export const guides = [
                   <strong>Schritt 2: Wie man Wütende Plünderer schnell tötet</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Der Schlüssel im Umgang mit diesen Feinden ist **Geschwindigkeit und Präzision**. Sie sprinten direkt auf Sie zu, um einen schnellen, schadenverursachenden Nahkampf zu beginnen, der einen **Blutungs-Statuseffekt** hervorruft.
               </p>
       
@@ -1008,11 +1690,11 @@ export const guides = [
                   <strong>Die Beste Strategie: Zielen Sie auf den Kopf</strong>
               </h4>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   <img src="/images/guide/guide08-03.webp" alt="Wütender Plünderer 2">
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Der einzig wirksame Weg, einen Wütenden Plünderer zu töten, ist ein **sauberer Kopfschuss**. Dies neutralisiert sie sofort und verhindert, dass sie die Distanz überbrücken und Ihnen Schaden zufügen.
               </p>
       
@@ -1027,7 +1709,7 @@ export const guides = [
                   <strong>Schritt 3: Abschluss der Quest "Pfad des Jägers"</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Sobald Sie sich um die Plünderer gekümmert haben, besteht der letzte Schritt darin, die Questziele abzuschließen.
               </p>
       
@@ -1065,11 +1747,11 @@ export const guides = [
         },
         "addressBar": "/escape-from-duckov-tote-bag-guide",
         "detailsHtml": `
-          <p style="margin: 1em 0px;">
+          <p>
                   In der Welt von <a href="/">Escape from Duckov</a> werden Sie auf viele Gegenstände stoßen. Einige sind zum Handwerk, einige zum Verkaufen und einige, wie die **Tragetasche** (Tote Bag), haben einen sehr spezifischen und entscheidenden Zweck, der nicht sofort ersichtlich ist. Viele neue Spieler machen den Fehler, diesen "Luxusartikel" für einen schnellen Gewinn zu verkaufen, ohne zu bemerken, dass sie ein wesentliches Werkzeug für den Erwerb eines der einzigartigen Boss-Drops des Spiels wegwerfen. Durchsuchen Sie unsere <a href="/items">Gegenstands-Datenbank</a>, um mehr über alle Spezialgegenstände zu erfahren.
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Dieser Leitfaden behandelt, was die Tragetasche bewirkt, wo Sie sie finden und warum Sie sie unbedingt behalten sollten.
               </p>
       
@@ -1077,11 +1759,11 @@ export const guides = [
                   <strong>Was ist die Tragetasche?</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Die Tragetasche ist ein einzigartiges Ausrüstungsstück mit sehr spezifischen Eigenschaften, die sie von Standard-Rucksäcken abheben.
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   <img src="/images/guide/guide09-02.webp" alt="tragetasche1">
               </p>
       
@@ -1092,7 +1774,7 @@ export const guides = [
                   <li><strong>Schlüssel-Merkmal:</strong> Sie enthält einen einzigen, speziellen Lager-Slot, der mit **"?"** gekennzeichnet ist. Dieser Slot ist der gesamte Grund für die Existenz der Tasche.</li>
               </ul>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Im Gegensatz zu anderen Taschen bietet die Tragetasche **keinen allgemeinen Inventarbonus**, wie z. B. zusätzliche Kapazität oder Gewichtsbegrenzung. Ihr Wert ist rein funktional. Vergleichen Sie sie mit anderen <a href="/items/equipment">Rucksäcken und Lagergegenständen</a> in unserer Ausrüstungs-Datenbank.
               </p>
       
@@ -1100,7 +1782,7 @@ export const guides = [
                   <strong>Wo man die Tragetasche findet</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Es gibt keinen einzigen, garantierten Ort, um eine Tragetasche zu finden. Ihr Erwerb basiert ausschließlich auf **Glück und gründlicher Erkundung**.
               </p>
       
@@ -1109,7 +1791,7 @@ export const guides = [
                   <li><strong>Wie man sie findet:</strong> Der beste Weg, Ihre Chancen zu erhöhen, eine zu finden, besteht darin, bei Ihren Raids akribisch vorzugehen. **Durchsuchen Sie gründlich Gebäude, Container und Beute-Verstecke** auf jeder Karte. Irgendwann werden Sie auf eine stoßen.</li>
               </ul>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Sobald Sie eine Tragetasche finden, **verkaufen Sie sie nicht**. Lagern Sie sie sicher im Lager Ihres Verstecks, bis Sie bereit sind, sie zu verwenden.
               </p>
       
@@ -1117,7 +1799,7 @@ export const guides = [
                   <strong>Der Wahre Zweck: Wie man die Tragetasche benutzt</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Die Tragetasche ist das einzige Werkzeug, mit dem Sie einen speziellen Gegenstand transportieren können, der von einem bestimmten Boss fallen gelassen wird.
               </p>
       
@@ -1128,7 +1810,7 @@ export const guides = [
                   <li><strong>Die Lösung:</strong> Um das Rote Auge zu transportieren, müssen Sie die **Tragetasche** in Ihrem Inventar haben. Sie interagieren dann mit dem Roten Auge und legen es direkt in den speziellen **"?"**-Slot der Tragetasche. Nur dann können Sie es zu Ihrer Basis zurücktragen.</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Das Rote Auge selbst bietet eine **mächtige und dauerhafte Verbesserung** bei der Verwendung, was die Tragetasche zu einem unverzichtbaren Gegenstand für jeden Spieler macht, der diesen Boss wegen seiner einzigartigen Belohnung farmen möchte.
               </p>
       
@@ -1136,7 +1818,7 @@ export const guides = [
                   <strong>Tragetasche vs. Deko-Tasche: Was ist der Unterschied?</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Es ist entscheidend zu verstehen, dass die Tragetasche ein Werkzeug und kein Rucksack ist. Für allgemeine Beute-Läufe ist die **Deko-Tasche** (Decoration Bag) die überlegene Wahl.
               </p>
       
@@ -1198,15 +1880,15 @@ export const guides = [
                   <strong>Warum Sie die Tragetasche niemals verkaufen sollten</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Der Verkauf der Tragetasche ist ein häufiger Fehler für neue Spieler, die ihre einzigartige Funktion nicht verstehen. Da sie als "Luxusartikel" klassifiziert ist und keine offensichtlichen Werte aufweist, kann sie wie Händler-Müll erscheinen.
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Die Tragetasche ist jedoch ein **unverzichtbares, nicht kaufbares Werkzeug**, das erforderlich ist, um den Roten Blob Boss wiederholt zu jagen und das wertvolle Rote Auge zu erwerben. Wenn Sie vorhaben, sich mit diesem Inhalt zu beschäftigen, müssen Sie die Tasche behalten.
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Wenn Sie Ihre bereits verkauft haben, geraten Sie nicht in Panik. Stellen Sie einfach sicher, dass Sie die nächste behalten, die Sie finden – Sie werden sie später brauchen. Für weitere Gegenstands-Leitfäden und Boss-Strategien erkunden Sie unsere <a href="/guides">vollständige Sammlung von Leitfäden</a>.
               </p>
               `
@@ -1480,679 +2162,6 @@ export const guides = [
     },
 
     {
-        "id": 12,
-        "title": "Escape from Duckov Komplettlösung Teil 1: Gefängnisausbruch & Basis-Setup",
-        "description": "Ihr unverzichtbarer Leitfaden für den Start von Escape from Duckov! Beinhaltet das vollständige Gefängnisausbruch-Tutorial, das Basis-Infrastruktur-Setup und den Abschluss der ersten Quests in Ground Zero.",
-        "imageUrl": "/images/guide12.webp",
-        "imageAlt": "Ein Spielercharakter in Escape from Duckov plündert während der Gefängnisausbruchs-Sequenz eine Kiste.",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
-        "category": "walkthroughs",
-        "tags": ["komplettlösung", "anfängerleitfaden", "gefängnisausbruch", "basisbau", "ground zero"],
-        "seo": {
-            "title": "Escape from Duckov Teil 1 Leitfaden: Gefängnis, Basis-Setup und Erste Quests",
-            "description": "Vollständige Schritt-für-Schritt-Komplettlösung für den ersten Teil von Escape from Duckov. Erfahren Sie, wie Sie aus dem Gefängnis entkommen, Ihre Basis einrichten und die Startquests 'Basis-Konstruktion' und 'Startkapital' abschließen.",
-            "keywords": "Escape from Duckov Komplettlösung Teil 1, Escape from Duckov Anfängerleitfaden, Gefängnisausbruch Leitfaden, Ground Zero Komplettlösung, Basis-Setup Duckov, Erste Quests"
-        },
-        "isHome": false,
-        "detailsHtml": `
-              <h2>Dem Gefängnis entkommen: Tutorial und Erste Begegnung</h2>
-              <p>Nach einer kurzen Einführungsszene müssen Sie zuerst zum Spiegel gehen und **Ihren Charakter im Charakter-Editor einrichten**.</p>
-              
-              <h3>Erste Beute und Bewegung</h3>
-              <ul>
-                  <li>Folgen Sie den Pfeilen und Markierungen auf dem Boden, um sich zu bewegen und Beute aufzuheben.</li>
-                  <li>Aus der Kiste erhalten Sie: eine **TT-33** (Standardpistole), **30 Schuss Munition**, **Bandagen** und **Cracker**.</li>
-                  <li>Betreten Sie den Raum rechts von Ihrer Zelle und nehmen Sie eine **Karotte** aus der Kiste darin. (<em>Tipp: Laufen und Rollen verbrauchen **Ausdauer**</em>).</li>
-                  <li>Überprüfen Sie den Mülleimer auf ein **Feuerzeug**, einen **Lollipop** und etwas **Elektronik**.</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-01.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
-      
-              <h3>Erster Kampf und Ausrüstungs-Upgrade</h3>
-              <ul>
-                  <li>**Rüsten Sie die TT-33 Pistole aus** für die bevorstehende Begegnung.</li>
-                  <li>**Weichen Sie einem eingehenden Schuss aus** (wenn Sie das rote Blitzen sehen) und schalten Sie den ersten Wächter aus.</li>
-                  <li>Plündern Sie den Wächter für: einen **Polizeischlagstock**, einen **weißen Laborkittel** und eine **schwarzrandige Sonnenbrille**. **Rüsten Sie alles aus**.</li>
-                  <li>Heben Sie mehr Kugeln auf und finden Sie **Kabel** im Mülleimer. (<em>Tipp: Das Halten der rechten Maustaste verbessert die Genauigkeit.</em>)</li>
-                  <li>Plündern Sie **Bandagen** und **Aspirin** aus der nächsten Kiste.</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-02.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
-      
-              <h3>Zweite Begegnung und Extraktion</h3>
-              <ul>
-                  <li>Plündern Sie die **PM Pistole** aus einer Kiste im nächsten Raum und legen Sie sie in Slot 2.</li>
-                  <li>Schalten Sie die nächsten Wächter aus und plündern Sie eine **Glick Pistole**, einen Laborkittel und eine Sonnenbrille.</li>
-                  <li>Wenn Ihr **Inventar voll** ist, müssen Sie möglicherweise weiterziehen. Plündern Sie **Cracker** und **Soda** aus dem nächsten Mülleimer.</li>
-                  <li>**Essen Sie die Karotte und Cracker**, um Energie wieder aufzufüllen.</li>
-                  <li>Nehmen Sie den Weg nach **rechts** und steuern Sie den **Extraktionspunkt** an, um die schnelle Flucht abzuschließen.</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
-      
-              <h2>Die Basis: Infrastruktur und Erste Verbesserungen</h2>
-              <p>Nach der Rückkehr zur Basis finden Sie **Jeff** im Obergeschoss für eine Tour: das Lagerhaus, das Bau-Panel, den Verkaufsautomaten, den Verbesserer und den Extraktionspunkt.</p>
-      
-              <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
-      
-              <h3>Charakter- und Lager-Upgrades</h3>
-              <ul>
-                  <li>Verkaufen Sie die Glicks und behalten Sie Ihre ausgerüstete TT-33. Überprüfen Sie den Verkaufsautomaten.</li>
-                  <li>Benutzen Sie den **Verbesserer**: **Erforschen und aktivieren Sie \"Rucksack-Experte I\"** für eine **+4 Rucksackkapazität**. (<em>Hinweis: Verbesserungen erfordern Geld und Materialien.</em>)</li>
-                  <li>Benutzen Sie das **Lagerhaus**: Fügen Sie **\"Lager-Erweiterung Stufe 1\"** hinzu, um **+35 Lagerkapazität** zu erhalten.</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-05.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
-      
-              <h3>Annehmen der Ersten Quests</h3>
-              <p>Sprechen Sie mit Jeff, um Ihre ersten beiden Quests anzunehmen:</p>
-              <table style="width: 100%; border-collapse: collapse;">
-                  <thead>
-                      <tr>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Belohnung</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;"><strong>Basis-Konstruktion</strong></td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">Bauen Sie eine Werkbank, indem Sie **zwei Holzstücke** sammeln.</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">EP +1000, Währung +500, Bandagen x3</td>
-                      </tr>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;"><strong>Startkapital</strong></td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">**Töten Sie einen Gegner**.</td>
-                      </tr>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-                          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">EP +500, Währung +1296</td>
-                      </tr>
-                  </tbody>
-              </table>
-      
-              <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
-      
-              <h2>Ground Zero: Ressourcenlauf und Quest-Abschluss</h2>
-      
-              <h3>Feindliches Lager räumen und Holz sammeln</h3>
-              <ul>
-                  <li>Plündern Sie die erste Kiste für Kugeln und eine weitere TT-33. Gehen Sie nach rechts.</li>
-                  <li>Finden Sie **kleine Steine** (zum Anlocken von Feinden) und **Nägel** in einer Werkzeugkiste. Sammeln Sie **Muttern, Bolzen und eine Autobatterie**.</li>
-                  <li>Finden Sie links ein feindliches Lager. Das Ausschalten eines **Amoklaufenden Plünderers** (rote Ente) hier **schließt \"Startkapital\" ab**.</li>
-                  <li>Plündern Sie ein **Metzger-Messer**, **Holz** und **Bargeld** vom Körper.</li>
-                  <li>Fahren Sie mit dem Plündern fort (taktische Kiste, Munitionskiste) für eine **selbstgemachte Schrotflinte**, **Kugeln** und **Pfeile**.</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-07.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
-      
-              <h3>Weiteres Plündern und Erkundung</h3>
-              <ul>
-                  <li>Bekämpfen Sie die **Grünen Enten** (benutzen Sie Schrotflinten, tragen Sie Körperpanzerung).</li>
-                  <li>Plündern Sie von Körpern einen **Rucksack** (rüsten Sie ihn für +39 Lagerplatz aus), einen **Bogen** und ein **kaltes Kernfragment**.</li>
-                  <li>Plündern Sie eine **AK-74U** und finden Sie einen **Bauplan für die TOZ-66**.</li>
-                  <li>Fahren Sie nach Norden fort und finden Sie einen **Teleport-Knotenpunkt**, der zu einem **See** führt.</li>
-                  <li>In der Nähe des Waldpfades finden Sie ein kleines Lager mit einem **Rezept für MD40**. Benutzen Sie eine Schaufel, um eine **J-Lab Floppy Disk auszugraben**.</li>
-                  <li>Räumen Sie ein weiteres Lager und finden Sie das **zweite Holzstück**, das für **\"Basis-Konstruktion\"** benötigt wird.</li>
-                  <li>Beachten Sie, dass die **kaputte Brücke** zur Höhle **2 Metallplatten** und **2 Holzstücke** erfordert.</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
-      
-              <h3>Extrahieren und Quests abgeben</h3>
-              <ul>
-                  <li>Erledigen Sie die Grünen Enten im Nordwest-Lager. Finden Sie eine **Laufmündung-Befestigung** zur Verbesserung des SMG-Schadens in der Nähe des Extraktionspunkts.</li>
-                  <li>**Extrahieren Sie aus Ground Zero**.</li>
-                  <li>In der Basis geben Sie **\"Startkapital\"** ab.</li>
-                  <li>**Nehmen Sie die Quest \"Der Pfad des Jägers\" an**: Töten Sie 2 Amoklaufende Plünderer und geben Sie 2 Metzger-Messer ab.</li>
-                  <li>Gehen Sie zum **Bau-Panel** und **bauen Sie eine Werkbank**. Geben Sie **\"Basis-Konstruktion\"** ab.</li>
-                  <li>**Rüsten Sie die Werkbank auf**, indem Sie **Fortgeschrittene Verarbeitung** erforschen.</li>
-              </ul>
-      
-              <h3>Neue Quests und Abschließende Vorbereitungen</h3>
-              <p>Sie erhalten neue Quests wie **\"Die Wichtigkeit der Blutstillung\"**, **\"Der Signalturm\"** (erfordert einen **Flachkopf-Schraubendreher**) und **\"Ein Brief von einem alten Freund\"**.</p>
-              <ul>
-                  <li>Kaufen Sie einen **Flachkopf-Schraubendreher** am Verkaufsautomaten.</li>
-                  <li>Gehen Sie zum **Verbesserer** und rüsten Sie **Überlebensinstinkt 1 (Max. KP +5)** und **Weitsicht 1 (Sichtfeld +15)** auf.</li>
-                  <li>**Gehen Sie schlafen** und spulen Sie die Zeit auf **7 Uhr morgens** vor, um die erhöhte Gefahr der Nacht zu vermeiden.</li>
-              </ul>
-          `
-    },
-
-    {
-        "id": 13,
-        "title": "Escape from Duckov Komplettlösung Teil 2: Ground Zero Erkundung & Basis-Erweiterung",
-        "description": "Der essentielle Leitfaden für Teil 2 von Escape from Duckov. Schließen Sie den Signalturm ab, schalten Sie die Höhle frei, besiegen Sie den zähen Wächter und erweitern Sie Ihre Basis mit neuen Läden.",
-        "imageUrl": "/images/guide13.webp",
-        "imageAlt": "Ein Spielercharakter repariert eine kaputte Brücke in der Ground Zero Karte von Escape from Duckov.",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
-        "category": "walkthroughs",
-        "tags": ["komplettlösung", "ground zero", "basis-erweiterung", "neue quests", "mittelspiel"],
-        "seo": {
-            "title": "Escape from Duckov Teil 2 Komplettlösung: Signalturm, Höhlenbeute und Rüstungsladen",
-            "description": "Vollständiger Leitfaden für Escape from Duckov Teil 2, detailliert, wie man den Signalturm repariert, die Höhle für Baupläne betritt, den schweren Wächter besiegt und den Rüstungsladen baut.",
-            "keywords": "Escape from Duckov Teil 2, Ground Zero Erkundung, Signalturm Quest, Höhlen-Baupläne, Rüstungsladen Freischalten, Schwarzmarkt-Notizen"
-        },
-        "isHome": false,
-        "detailsHtml": `
-              <h2>Ground Zero: Quest-Abschluss und Schlüsselorte</h2>
-              <p>Der zweite größere Lauf konzentriert sich darauf, Ihre aufgerüstete Ausrüstung zu nutzen, um ausstehende Aufgaben abzuschließen, neue Bereiche freizuschalten und wichtige Baupläne sowie Quest-Gegenstände zu sammeln.</p>
-      
-              <h3>Nördlicher Turm und Neue Kontakte</h3>
-              <ul>
-                  <li>Gehen Sie zum Straßenlager und suchen Sie den **Nördlichen Turm**.</li>
-                  
-                  <img src="/images/guide/guide13-01.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
-      
-                  <li>Plündern Sie die **Werkzeugkiste** in der Nähe und sichern Sie wertvolle Gegenstände, darunter **2 Metallplatten**, **1 Nagel** und einen **Flachkopf-Schraubendreher**.</li>
-      
-                  <img src="/images/guide/guide13-02.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
-      
-                  <li>Interagieren Sie mit dem **Stromkasten** am Fuß des Turms, um das Ziel für die Quest **\"Signalturm\"** abzuschließen.</li>
-                  <li>Gehen Sie rechts vom Turm, um den **Bauplan für die Kartoffel-Grafikkarte** zu finden.</li>
-      
-                  <img src="/images/guide/guide13-03.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
-      
-                  <li>Fahren Sie in Richtung Straßenlager fort, eliminieren Sie den neuen schrotflintenbewehrten Gegnertyp und plündern Sie eine **MP-155 Schrotflinte**, einen **Motorradhelm** und Medizin.</li>
-                  <li>Links finden Sie **\"Mud\"** und nehmen die Quest **\"Ausgewogene Ernährung 1\"** an (Ziel: 1 Entenei abgeben; Belohnung: EP +800, Währung +500).</li>
-              </ul>
-      
-              <h3>Brückenreparatur und Höhlenzugang</h3>
-              
-              <img src="/images/guide/guide13-04.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
-      
-              <ul>
-                  <li>Gehen Sie nach links und **reparieren Sie die kaputte Brücke**, die zum Straßenlager führt, indem Sie **zwei Holzstücke** verwenden. (Überprüfen Sie den Bereich unter dem Strommast, bevor Sie überqueren, obwohl Beute selten ist).</li>
-                  <li>Gehen Sie zum Lager am Waldweg, eliminieren Sie die **Roten Plünderer**, um **\"Pfad des Jägers\"** abzuschließen, und sammeln Sie **zwei Metzger-Messer** ein. Finden Sie auch einen **Schlüssel zur Verlassenen Tankstelle**.</li>
-                  <li>Reparieren Sie die kaputte Brücke in der Nähe des Höhleneingangs.</li>
-      
-                  <img src="/images/guide/guide13-05.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
-              </ul>
-      
-              <h3>Höhlenbeute und Baupläne</h3>
-      
-              <p>Sammeln Sie in der Höhle bedeutende Waffenaufsätze und Baupläne:</p>
-      
-              <img src="/images/guide/guide13-06.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
-      
-              <ul>
-                  <li>Plündern Sie eine **Pistolen-Mündung**, eine **UP 45**, eine **AK 47**, einen **Hüftfeuer-Aufsatz** und einen **Laser-Aufsatz**.</li>
-                  <li>Ganz wichtig: Sammeln Sie die **Baupläne für die Cube Gun** und **Kleine Energie-Munition** ein.</li>
-              </ul>
-      
-              <h3>Nordwest-Lager und Letzte Extraktionsvorbereitung</h3>
-      
-              <img src="/images/guide/guide13-07.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
-              
-              <ul>
-                  <li>Schleichen Sie sich in das **Nordwest-Lager** und finden Sie den **Brief von einem alten Freund** im Zelt, wodurch die Quest abgeschlossen wird.</li>
-                  <li>Sammeln Sie das **Brecheisen-Rezept** aus einer nahegelegenen Datenbox ein. Klettern Sie auf den Wachturm und lesen Sie das **\"Ground Zero Beobachtungsprotokoll\"**.</li>
-                  <li>**Zähe Begegnung:** Bekämpfen Sie den **super zähen verhüllten Gegner mit einer Schrotflinte**. Benutzen Sie eine **Bandage** während dieses Kampfes, um **\"Die Wichtigkeit der Blutstillung\"** abzuschließen.</li>
-                  <li>Nachdem Sie ihn ausgeschaltet haben, plündern Sie die wertvollen **Schwarzmarkt-Kontakt-Notizen** und **fortgeschrittene AP Schrotpatronen**.</li>
-                  <li>Auf dem Weg zur Extraktion räumen Sie ein weiteres Lager, um zwei Schlüssel zu finden: den **Schlüssel zur Verlassenen Tankstelle** und den **Zaun-Schlüssel**, zusammen mit einem **Holografischen Visier**.</li>
-                  <li>**Extrahieren Sie aus Ground Zero.**</li>
-              </ul>
-      
-              <h2>Basis-Management: Quests, Läden und Upgrades</h2>
-              <p>Zurück in der Basis geben Sie sofort alle abgeschlossenen Quests ab, um Ihre nächste Stufe der Konstruktion und Upgrades freizuschalten.</p>
-      
-              <img src="/images/guide/guide13-08.webp" alt="Escape from Duckov Komplettlösung Teil 2" class="guide-image" />
-      
-              <h3>Quest-Abgabe & Neue Ziele</h3>
-              <p>Geben Sie alle abgeschlossenen Quests ab. Die folgenden neuen Bau- und Materialquests werden erscheinen:</p>
-              <table style="width: 100%; border-collapse: collapse;">
-                  <thead>
-                      <tr>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Neue Konstruktion</th>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Kampf-/Materialquests</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;">Basis-Konstruktion II: Bauen Sie einen **Waffenladen**</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">Zielen Sie auf den Kopf: Töten Sie einen beliebigen Gegner (5) mit Kopfschüssen</td>
-                      </tr>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;">Basis-Konstruktion III: Bauen Sie einen **Rüstungsladen** (Sofortige Priorität)</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">Technik-Experte: Geben Sie einen Stapel elektronischer Komponenten ab</td>
-                      </tr>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;">Basis-Konstruktion (Medizinisch): Bauen Sie eine **Sanitätsstation**</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">Voller Liebe: Geben Sie 1888 Währung ab (Kann sofort abgegeben werden)</td>
-                      </tr>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;">Handwerks-Ausbildung: Geben Sie eine Glick ab</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie bereits abgeschlossene Quests ab: Erweiterte Tasche & Werkbank aufrüsten</td>
-                      </tr>
-                  </tbody>
-              </table>
-      
-              <h3>Konstruktion und Abschließende Upgrades</h3>
-              <ul>
-                  <li>Geben Sie **\"Voller Liebe\"** sofort ab.</li>
-                  <li>Überprüfen Sie die Konstruktionsstation: Sie können den **Rüstungsladen** sofort **bauen**. Geben Sie **\"Basis-Konstruktion III\"** ab.</li>
-                  <li>Besuchen Sie den neuen Rüstungsladen: **Kaufen Sie Rüstung der Stufe 2 und einen Stahlhelm**.</li>
-                  <li>An der **Werkbank**: **Erforschen Sie alle neuen Baupläne** (um Inventarplatz freizugeben) und erforschen Sie den Bauplan für die **Reparaturstation**.</li>
-                  <li>Kaufen Sie **Schere** und einen **Schraubenschlüssel** am Verkaufsautomaten und erforschen Sie dann die **Demontagestation** an der Werkbank.</li>
-                  <li>Beim **Verbesserer**: Rüsten Sie **Waffenmeisterschaft I** auf.</li>
-                  <li>Nehmen Sie die beiden neuen Quests vom Rüstungsladen an: **\"Versorgungsroute\"** (Markieren Sie die Versorgungskiste) und **\"Buchhaltung\"** (Geben Sie Tinte, Stift, Notizbuch ab).</li>
-                  <li>Der Tag endet, da Ihnen nach diesen großen Upgrades das Geld ausgeht.</li>
-              </ul>
-          `
-    },
-
-    {
-        "id": 14,
-        "title": "Escape from Duckov Komplettlösung Teil 3: Ground Zero Schlüssel & Pato Chapo Boss",
-        "description": "Der umfassende Leitfaden für Teil 3 von Escape from Duckov. Nehmen Sie neue Händlerquests an, bauen Sie die Sanitätsstation und den Waffenladen und lokalisieren Sie den Pato Chapo Boss.",
-        "imageUrl": "/images/guide14.webp",
-        "imageAlt": "Ein Spielercharakter in Escape from Duckov öffnet eine verschlossene Tür mit einem Schlüssel in Ground Zero.",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
-        "category": "walkthroughs",
-        "tags": ["komplettlösung", "ground zero", "bosskampf", "pato chapo", "händlerquests", "mittelspiel"],
-        "seo": {
-            "title": "Escape from Duckov Teil 3 Leitfaden: Sanitätsstation, Schlüssel und Pato Chapo Strategie",
-            "description": "Vollständiger Leitfaden für Escape from Duckov Teil 3: Bauen Sie wichtige Basiseinrichtungen (Waffen/Medizin), verwenden Sie die Schlüssel für Tankstelle und Zaun, finden Sie das Hotelzimmer und besiegen Sie den Pato Chapo Boss.",
-            "keywords": "Escape from Duckov Teil 3, Pato Chapo Bosskampf, Ground Zero Schlüssel, Sanitätsstation, Waffenladen, Hotelzimmerschlüssel, Komplettlösung"
-        },
-        "isHome": false,
-        "detailsHtml": `
-            <h2>Basis-Vorbereitungen: Händlerquests und Einrichtungen</h2>
-            <p>Beginnen Sie den Tag, indem Sie eine neue Reihe von Quests aus den neu eingerichteten Basiseinrichtungen annehmen und sofortige Abgaben erledigen, um Erfahrung und Währung zu maximieren, bevor Sie nach Ground Zero zurückkehren.</p>
-      
-            <h3>Neue Quests angenommen:</h3>
-            <p>Nehmen Sie neue Quests von Mud, dem Waffenschmied, dem Rüstmeister und dem Verkaufsautomaten an, um Ihren nächsten Lauf zu leiten:</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Quelle (Händler)</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Mud (Fitness)</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Ausgewogene Ernährung II/III, Fitness-Coach</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **Energy-Drink**, **Schokolade**, **Hantel** ab</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Waffenschmied</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Generische Pistole, Seltsame Feder</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **Glick**, **Pfauenfeder** ab</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Rüstmeister / Sanitätsstation</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Medizinische Assistenz</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **Medizin-Kit** ab</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Verkaufsautomat</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Selbstversorger, Profikoch</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **Wasser**, **Kochmesser** ab</td>
-                    </tr>
-                </tbody>
-            </table>
-      
-            <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">TIPP:</strong> Geben Sie die Quests **\"Handwerks-Ausbildung\"** und **\"Buchhaltung\"** ab, bevor Sie die neuen annehmen, um das Inventar zu leeren und sofort Geld zu erhalten.</p>
-      
-            <h3>Konstruktion und Upgrades</h3>
-            <p>Nutzen Sie Ihre aktuellen Mittel und Materialien, um die Basis-Infrastruktur fertigzustellen:</p>
-            <ul>
-                <li>**Bauen Sie die Sanitätsstation** und geben Sie die Quest **\"Basis-Konstruktion (Medizinisch)\"** ab. Nehmen Sie die Quest **\"Medizinische Assistenz\"** von der neuen Station an.</li>
-                
-                <li>**Bauen Sie den Waffenladen** und geben Sie die Quest **\"Basis-Konstruktion II\"** ab. Nehmen Sie die Quest **\"Seltsame Feder\"** vom neuen Laden an.</li>
-                
-                <img src="/images/guide/guide14-01.webp" alt="Escape from Duckov Komplettlösung Teil 3" class="guide-image" />
-      
-                <li>Führen Sie alle verfügbaren **Basis-Upgrades** und **Fähigkeits-Upgrades** (wie Waffenmeisterschaft) durch, bevor Sie sich auf den Weg machen.</li>
-      
-                <img src="/images/guide/guide14-02.webp" alt="Escape from Duckov Komplettlösung Teil 3" class="guide-image" />
-            </ul>
-      
-            <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero: Abgeschlossene Bereiche und Versteckte Hinweise</h2>
-            <p>Ausgestattet mit den Schlüsseln und neuer Ausrüstung können Sie nun zuvor verschlossene Bereiche in Ground Zero betreten.</p>
-      
-            <h3>Verlassene Tankstelle und Zaun-Zugang</h3>
-            <ul>
-                <li>Gehen Sie zur **Verlassenen Tankstelle** und **öffnen Sie die Tür mit dem Schlüssel**, den Sie in Teil 2 gefunden haben.</li>
-                <li>Plündern Sie drinnen eine **Waffenkiste** mit einer Waffe und Munition. Sie sollten einen **Schlüssel für den Zaun** in der Station finden (oder bestätigen, dass Sie ihn bereits besitzen).</li>
-                <li>Gehen Sie zum **Zaun** am Perimeter und **öffnen Sie ihn**, um den nächsten Bereich der Karte zu betreten.</li>
-            </ul>
-      
-            <h3>Das Rätsel am Straßenrand (Hotelschlüssel)</h3>
-            <ul>
-                <li>Begeben Sie sich zum **Straßenlager** und finden Sie eine **Notiz** mit Hinweisen auf einen neuen Ort.</li>
-                <li>Folgen Sie den Anweisungen der Notiz, um eine **Leiche** zu finden. Plündern Sie die Leiche, um einen **Schlüssel zu einem Hotelzimmer** zu erhalten.</li>
-                <li>Gehen Sie zum Standort des **Hotels** und verwenden Sie den neuen Schlüssel, um **das Zimmer zu öffnen**. Im Inneren sollten Sie eine weitere **Waffenkiste** und möglicherweise einen neuen **Hinweis oder Schlüssel** finden.</li>
-              </ul>
-      
-            <h3>Den Boss lokalisieren: Pato Chapo</h3>
-            <p>Die wiederholten Hinweise und Fundorte der Leichen führen Sie wahrscheinlich zum letzten Aufeinandertreffen dieses Teils:</p>
-            <ul>
-                <li>Folgen Sie dem letzten Hinweis/der Notiz und gehen Sie zum ausgewiesenen Ort, wo Sie wahrscheinlich das durch den Boss gesicherte Gebiet finden werden.</li>
-                <li>Bereiten Sie sich auf einen harten Kampf gegen **Boss: Pato Chapo** vor. (<em>Hinweis: Stellen Sie sicher, dass Sie Ihre aufgerüstete Rüstung, reichlich hochstufige Munition und Sanitätsmaterialien haben, bevor Sie sich dem Kampf stellen.</em>)</li>
-                <li>Nachdem Sie Pato Chapo besiegt haben, **plündern Sie die Leiche** für hochwertige Gegenstände und wichtige Schlüssel/Hinweise, die für den nächsten Teil der Komplettlösung benötigt werden.</li>
-            </ul>
-        `
-    },
-
-    {
-        "id": 15,
-        "title": "Escape from Duckov Komplettlösung Teil 4: Duckmother Boss & AS VAL",
-        "description": "Der vollständige Leitfaden für Teil 4 von Escape from Duckov. Nehmen Sie neue Bunker-Quests an, besiegen Sie den beeindruckenden Duckmother Boss und sichern Sie sich die mächtige AS VAL Waffe.",
-        "imageUrl": "/images/guide15.webp",
-        "imageAlt": "Ein Spielercharakter kämpft gegen einen großen Boss, die Duckmother, im Lager-Standort 'Verlassenes Camp' in Escape from Duckov.",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
-        "category": "walkthroughs",
-        "tags": ["komplettlösung", "ground zero", "bosskampf", "duckmother", "as val", "upgrades"],
-        "seo": {
-            "title": "Escape from Duckov Teil 4 Leitfaden: Duckmother besiegen, AS VAL finden und Bunker-Quests",
-            "description": "Schritt-für-Schritt-Komplettlösung für Escape from Duckov Teil 4. Lernen Sie die erforderlichen Fähigkeits-Upgrades, schließen Sie Eliminierungs- und Abgabe-Quests ab und meistern Sie den Duckmother Bosskampf.",
-            "keywords": "Escape from Duckov Teil 4, Duckmother Boss Strategie, AS VAL Standort, Ground Zero Verlassenes Camp, Energiereserve Upgrade, Leistungstest Quest"
-        },
-        "isHome": false,
-        "detailsHtml": `
-            <h2>Bunker-Vorbereitung: Neue Quests und Fähigkeits-Upgrades</h2>
-            <p>Bevor Sie nach Ground Zero zurückkehren, besuchen Sie die Händler und den Verbesserer, um Schlüsselmissionen anzunehmen und die Kampfbereitschaft Ihres Charakters für die bevorstehenden Herausforderungen, einschließlich des **Duckmother Bosses**, zu steigern.</p>
-      
-            <h3>Neue Quests angenommen:</h3>
-            <p>Priorisieren Sie diese Quests für Ihren nächsten Lauf, da sie mit üblichen Ground Zero Aktivitäten und notwendiger Beute übereinstimmen:</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Belohnung (EP/Währung)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Großes Lager</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Große Lagerkiste** ab</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Mücken-Eliminierung</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **10 Mücken**</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Teile-Großhandel</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **5 Schrauben** ab</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Leistungstest</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Grafikkarte** ab</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Bestrafer</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **5 Plünderer**</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;"></td>
-                        <td style="border: 1px solid #ddd; padding: 8px;"></td>
-                        <td style="border: 1px solid #ddd; padding: 8px;"></td>
-                    </tr>
-                </tbody>
-            </table>
-      
-            <h3>Fähigkeits-Upgrades: Steigerung der Kampfeffektivität</h3>
-            <p>Investieren Sie vor dem Einsatz in diese Kernfähigkeiten, um die Ausdauer und Kampfgenauigkeit zu verbessern:</p>
-            <ul>
-                <li>**Energiereserve:** Erhöht die maximale Energie um **+10**. (Erlaubt mehr Sprinten/Rollen)</li>
-      
-                <img src="/images/guide/guide15-01.webp" alt="Escape from Duckov Komplettlösung Teil 4" class="guide-image" />
-      
-                <li>**Nährstoffaufnahme:** Erhöht die Wirkung von Nahrung und Wasser um **+10%**. (Verbessert die Ausdauer)</li>
-                <li>**Stetiger Schuss I:** Erhöht die Genauigkeit des Feuerns aus der Hüfte um **+10%**. (Entscheidend für Nahkämpfe gegen den Boss)</li>
-            </ul>
-      
-            <h2>Ground Zero: Verlassenes Camp und Duckmother Boss</h2>
-            <p>Kehren Sie nach Ground Zero zurück und konzentrieren Sie sich auf die Eliminierungs-Quests und die Lokalisierung des neuen Boss-Gebiets.</p>
-      
-            <h3>Quest-Fortschritt und Neue Waffenentdeckung</h3>
-            <ul>
-                <li>Konzentrieren Sie Ihren Lauf auf Gebiete, die für Plünderer-Aktivitäten und Gewässer bekannt sind, um **10 Mücken** und **5 Plünderer** zu töten.</li>
-                <li>Plündern Sie Werkzeugkisten und Elektronik-Verstecke, um die benötigten **Schrauben** und die **Grafikkarte** für Abgabe-Quests zu finden.</li>
-                <li>Entdecken Sie während Ihrer Erkundung die mächtige Waffe **VSS**, ein wertvoller Fund für leise Gefechte.</li>
-                <li>Lokalisieren Sie das **Verlassene Camp**, den neuen Ort, den Sie entdeckt haben.</li>
-            </ul>
-      
-            <img src="/images/guide/guide15-03.webp" alt="Escape from Duckov Komplettlösung Teil 4" class="guide-image" />
-      
-            <h3>Der Duckmother Bosskampf</h3>
-            <p>Die **Duckmother** ist eine bedeutende Bedrohung, die sich im Verlassenen Camp befindet. Bereiten Sie sich auf einen Kampf vor, der Bewegung und hohe Schadensausgabe erfordert.</p>
-            <ul>
-                <li>**Strategie-Tipp:** Nutzen Sie Ihre aufgerüstete **Energiereserve** für anhaltendes Sprinten und Ausweichen. Konzentrieren Sie das Feuer auf die Schwachstelle des Bosses (oft der Kopf oder ein auffälliger Rucksack).</li>
-                <li>Nach einem schwierigen Kampf, **besiegen Sie die Duckmother**.</li>
-                <li>Plündern Sie die Leiche, um einen **Schlüssel zu einem verschlossenen Raum** im Camp zu finden.</li>
-            </ul>
-      
-            <h3>Die AS VAL sichern</h3>
-            <ul>
-                <li>Verwenden Sie den von der Duckmother erhaltenen Schlüssel, um den **Verschlossenen Raum** im Verlassenen Camp zu öffnen.</li>
-                <li>Im Inneren des Raumes finden Sie die heiß begehrte Waffe, die **AS VAL**, ein schallgedämpftes Gewehr mit hohem Schaden.</li>
-            </ul>
-      
-            <h2><span style="color: #DAA520;">&#127775;</span> Aktivitäten nach dem Lauf</h2>
-            <ul>
-                <li>**Extrahieren Sie** erfolgreich und kehren Sie zum Bunker zurück.</li>
-                <li>**Geben Sie alle abgeschlossenen Quests ab** (Mücken-Eliminierung, Bestrafer, Teile-Großhandel, Leistungstest, etc.) und kassieren Sie Ihre beträchtlichen Belohnungen.</li>
-                <li>Nehmen Sie die **neue Quest** des Händlers an, die nach Abschluss der vorherigen Reihe freigeschaltet wird.</li>
-                <li>Besuchen Sie den **Rüstmeister**, um Ihre neu gewonnene Währung für den **Kauf eines neuen Helms** oder anderer notwendiger Schutzausrüstung zu verwenden.</li>
-            </ul>
-        `
-    },
-
-    {
-        "id": 16,
-        "title": "Escape from Duckov Komplettlösung Teil 5: Wiederholung des Zyklus - Die Duckmother-Zugabe",
-        "description": "Der Leitfaden für Teil 5 von Escape from Duckov. Nehmen Sie wiederholbare Quests mit hoher Belohnung an, maximieren Sie zentrale Überlebensfähigkeiten, besiegen Sie den Duckmother Boss erneut und sichern Sie sich hochstufige Beute.",
-        "imageUrl": "/images/guide16.webp",
-        "imageAlt": "Ein Spielercharakter benutzt die AS VAL in einem dunklen Raum im Verlassenen Camp von Escape from Duckov.",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
-        "category": "walkthroughs",
-        "tags": ["komplettlösung", "ground zero", "bosskampf", "wiederholungsquests", "fähigkeiten maximieren", "farm-lauf"],
-        "seo": {
-            "title": "Escape from Duckov Teil 5 Leitfaden: Kernfähigkeiten maximieren und der Duckmother Wiederholungslauf",
-            "description": "Schritt-für-Schritt-Komplettlösung für Escape from Duckov Teil 5, konzentriert sich auf den Abschluss wiederholbarer Eliminierungs- und Abgabe-Quests, um Währung zu farmen und kritische Fähigkeiten wie Energiereserve und Stetiger Schuss zu maximieren.",
-            "keywords": "Escape from Duckov Teil 5, Duckmother Wiederholung, Max Energiereserve, Stetiger Schuss II, Ground Zero Farm-Lauf, Leistungstest II Quest"
-        },
-        "isHome": false,
-        "detailsHtml": `
-            <h2>Bunker-Vorbereitung: Wiederholbare Quests und Fähigkeiten-Maximierung</h2>
-            <p>Teil 5 beinhaltet die Wiederholung von hochdotierten Versorgungs- und Eliminierungs-Quests, oft mit römischen Ziffern (II) gekennzeichnet, die sich hervorragend zum Farmen von Erfahrung und Währung eignen. Konzentrieren Sie sich darauf, zentrale Überlebens- und Kampffähigkeiten zu maximieren, bevor Sie nach Ground Zero zurückkehren.</p>
-      
-            <h3>Neue/Wiederholbare Quests angenommen:</h3>
-            <p>Nehmen Sie die verbesserten, wiederholbaren Versionen der Missionen des vorherigen Zyklus von den Händlern an:</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Belohnung (EP/Währung)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Großes Lager II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Große Lagerkiste** ab</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Mücken-Eliminierung II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **10 Mücken**</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Teile-Großhandel II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **5 Schrauben** ab</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Leistungstest II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Grafikkarte** ab</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Bestrafer II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **5 Plünderer**</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                </tbody>
-            </table>
-      
-            <h3>Fähigkeits-Upgrades: Erreichen von Stufe II</h3>
-            <p>Nutzen Sie den Verbesserer, um auf Stufe II-Fähigkeiten aufzurüsten und die Effizienz sowie Überlebensfähigkeit weiter zu steigern:</p>
-            <ul>
-                <li>**Energiereserve II:** Erhöht die maximale Energie um **+10** (Insgesamt +20, unerlässlich für Kiting/Sprinten).</li>
-                <li>**Nährstoffaufnahme II:** Erhöht die Wirkung von Nahrung und Wasser um **+10%** (Insgesamt +20%, verbessert Heilung/Hydratation dramatisch).</li>
-                <li>**Stetiger Schuss II:** Erhöht die Genauigkeit des Feuerns aus der Hüfte um **+10%** (Insgesamt +20%, macht Nahkämpfe und das Schießen während der Bewegung hocheffektiv).</li>
-            </ul>
-      
-            <img src="/images/guide/guide16-02.webp" alt="Escape from Duckov Komplettlösung Teil 5" class="guide-image" />
-      
-            <h2>Ground Zero: Ressourcen-Farm und Boss-Zugabe</h2>
-            <p>Die Ziele für diesen Lauf sind, schnell die Eliminierungs-Quoten zu erfüllen, Abgabe-Gegenstände zu sammeln und sich darauf vorzubereiten, die Duckmother erneut für lukrative Beute und Schlüssel-Drops zu besiegen.</p>
-      
-            <h3>Ressourcen-Farm und Eliminierung</h3>
-            <ul>
-                <li>Konzentrieren Sie Ihren Lauf auf Gebiete, die reich an elektronischen Komponenten und Werkzeugkisten sind, um schnell die benötigten **Schrauben** und die **Grafikkarte** zu finden.</li>
-                
-                <img src="/images/guide/guide16-01.webp" alt="Escape from Duckov Komplettlösung Teil 5" class="guide-image" />
-      
-                <li>Schließen Sie die Quests **Mücken-Eliminierung II (10 Kills)** und **Bestrafer II (5 Kills)** effizient ab.</li>
-                <li>Da Sie wahrscheinlich die **VSS** bereits zuvor gefunden haben, bestätigt dieser Lauf ihre anhaltende Existenz oder bietet eine weitere Chance, sie zu erwerben.</li>
-                <li>Begeben Sie sich erneut zum **Verlassenen Camp**, wo der Boss erscheint.</li>
-            </ul>
-      
-            <h3>Die Duckmother besiegen (Wiederholung)</h3>
-            <p>Die **Duckmother** ist das Schlüsselziel, da ihr Besiegen den Zugang zum verschlossenen Raum gewährt. Nutzen Sie Ihre neue Fähigkeit **Stetiger Schuss II** und überlegene Energiereserven, um sie aggressiv anzugreifen.</p>
-            <ul>
-                <li>Nachdem Sie die **Duckmother** besiegt haben, wird sie erneut den **Schlüssel zu einem verschlossenen Raum** im Camp fallen lassen.</li>
-                <li>Benutzen Sie den Schlüssel, um den verschlossenen Raum zu betreten und die mächtige Waffe **AS VAL** (oder deren hochwertige Komponenten/Munition, falls Sie sie bereits besitzen) zu bergen.</li>
-            </ul>
-      
-            <h2>Aktivitäten nach dem Lauf</h2>
-            <ul>
-                <li>**Extrahieren** Sie erfolgreich und kehren Sie zum Bunker zurück.</li>
-                <li>**Geben Sie alle abgeschlossenen Quests ab** (Mücken-Eliminierung II, Bestrafer II, etc.) und kassieren Sie Ihre Belohnungen.</li>
-                <li>Nehmen Sie die **neue Quest** des Händlers an, die nach Abschluss dieser Reihe freigeschaltet wird.</li>
-                <li>Besuchen Sie den **Rüstmeister**, um Ihre angesammelte Währung für den **Kauf eines neuen Helms** zu verwenden oder Ihre Rüstung auf die höchste verfügbare Stufe aufzurüsten, um sich auf die nächste einzigartige Herausforderung vorzubereiten.</li>
-            </ul>
-        `
-    },
-
-    {
-        "id": 17,
-        "title": "Escape from Duckov Komplettlösung Teil 6: Finale Fähigkeiten-Maximierung & Boss-Farm",
-        "description": "Der ultimative Leitfaden für Teil 6 von Escape from Duckov. Schließen Sie die letzte Stufe wiederholbarer Quests (III) ab, maximieren Sie zentrale Überlebens- und Kampffähigkeiten und rüsten Sie sich für die nächste große Zone.",
-        "imageUrl": "/images/guide17.webp",
-        "imageAlt": "Eine Nahaufnahme des AS VAL Gewehrs in den Händen des Spielers im verschlossenen Raum des Verlassenen Camps.",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
-        "category": "walkthroughs",
-        "tags": ["komplettlösung", "ground zero", "fähigkeiten maximieren", "boss-farm", "stufe iii", "finale vorbereitung"],
-        "seo": {
-            "title": "Escape from Duckov Teil 6 Leitfaden: Maximierung der Stufe III Fähigkeiten und finaler Duckmother-Lauf",
-            "description": "Vollständiger Leitfaden für Escape from Duckov Teil 6. Erfahren Sie, wie Sie alle Stufe III Fähigkeiten-Upgrades (Energie, Nährstoff, Stetiger Schuss) abschließen und den letzten ertragreichen Ressourcen- und Boss-Farm-Zyklus ausführen.",
-            "keywords": "Escape from Duckov Teil 6, Stufe III Fähigkeiten, Max Energiereserve, Stetiger Schuss III, Duckmother Farm, Finale Bunker-Vorbereitung, AS VAL"
-        },
-        "isHome": false,
-        "detailsHtml": `
-            <h2>Bunker-Vorbereitung: Finale Stufe III Quests und Max Upgrades</h2>
-            <p>Dies ist der letzte wiederholbare Zyklus, der darauf abzielt, die Basiswerte Ihres Charakters auf ihr maximales Potenzial zu bringen. Konzentrieren Sie sich darauf, alle Stufe **III** Quests anzunehmen und vollständig in Ihre Kernfähigkeiten zu investieren.</p>
-      
-            <h3>Finale Stufe Quests angenommen:</h3>
-            <p>Nehmen Sie die Quests mit der höchsten Belohnung an, um Ihre finalen Upgrades und den Eintritt in die nächste Zone zu finanzieren:</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Questname</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Ziel</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Belohnung (EP/Währung)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Großes Lager III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Große Lagerkiste** ab</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Mücken-Eliminierung III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **10 Mücken**</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Teile-Großhandel III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie **5 Schrauben** ab</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Leistungstest III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Geben Sie 1 **Grafikkarte** ab</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Bestrafer III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Töten Sie **5 Plünderer**</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                </tbody>
-            </table>
-      
-            <img src="/images/guide/guide17-01.webp" alt="Escape from Duckov Komplettlösung Teil 6" class="guide-image" />
-      
-            <h3>Fähigkeiten-Maximierung: Erreichen der Spitzenleistung</h3>
-            <p>Dies ist die Gelegenheit, diese kritischen Fähigkeiten **vollständig zu maximieren**, was Ihre zukünftige Leistung erheblich beeinflusst:</p>
-            <ul>
-                <li>**Energiereserve III:** Erhöht die maximale Energie um **+10**. (Bietet maximale Sprint-/Ausweichfähigkeit).</li>
-                <li>**Nährstoffaufnahme III:** Erhöht die Wirkung von Nahrung und Wasser um **+10%**. (Maximiert die passive Heilung und Ressourceneffizienz).</li>
-                <li>**Stetiger Schuss III:** Erhöht die Genauigkeit des Feuerns aus der Hüfte um **+10%**. (Macht Nahkämpfe extrem zuverlässig).</li>
-            </ul>
-      
-            <h2>Ground Zero: Der Finale Farm-Lauf</h2>
-            <p>Ihr Ziel bleibt dasselbe: Schließen Sie die Eliminierungs- und Ressourcen-Quoten ab und besiegen Sie die **Duckmother** ein letztes Mal, um maximale Ressourcen zu gewährleisten und auf die AS VAL für ihre Komponenten oder Munition zuzugreifen.</p>
-      
-            <h3>Lauf-Ziele</h3>
-            <ul>
-                <li>Sichern Sie schnell die benötigten **Schrauben** und die **Grafikkarte** und schließen Sie die Quoten für **Mücken-Eliminierung III** und **Bestrafer III** ab.</li>
-                <li>Bestätigen Sie den Standort des **Verlassenen Camps** und bereiten Sie sich auf das Boss-Treffen vor.</li>
-                <li>(Optional: Falls Sie die Waffe noch benötigen, suchen Sie erneut nach der **VSS**).</li>
-            </ul>
-      
-            <h3>Das Finale Duckmother-Treffen</h3>
-            <p>Mit Ihren vollständig maximierten Stufe III Fähigkeiten sollte die **Duckmother** einfacher zu bewältigen sein. Greifen Sie sie unter Verwendung Ihrer maximalen **Energiereserve** für anhaltendes Kiting an und nutzen Sie **Stetiger Schuss III** für verheerendes Feuern aus der Hüfte auf kurze Distanz.</p>
-            <ul>
-                <li>Besiegen Sie die **Duckmother** und holen Sie den **Schlüssel zum Verschlossenen Raum**.</li>
-                <li>Betreten Sie den Verschlossenen Raum, um die **AS VAL** (oder deren hochstufige Munition/Komponenten) einzusammeln.</li>
-            </ul>
-      
-            <h2>Aktivitäten nach dem Lauf: Vorbereitung auf die nächste Karte</h2>
-      
-            <img src="/images/guide/guide17-02.webp" alt="Escape from Duckov Komplettlösung Teil 6" class="guide-image" />
-      
-            <ul>
-                <li>**Extrahieren** Sie und kehren Sie zum Bunker zurück.</li>
-                <li>**Geben Sie alle abgeschlossenen Stufe III Quests ab** und fordern Sie Ihre beträchtlichen Belohnungen ein.</li>
-                <li>Nehmen Sie die **neue Quest** des Händlers an – diese Quest ist typischerweise das **Übergangsziel** zur nächsten großen Location oder Karte.</li>
-                <li>Besuchen Sie den **Rüstmeister**, um Ihren angesammelten Reichtum zum Kauf des **höchsten verfügbaren Helms** und der Körperpanzerung zu verwenden, um Ihre Bereitschaft für die Herausforderungen der nächsten Zone zu bestätigen.</li>
-            </ul>
-        `
-    },
-
-    {
         "id": 18,
         "title": "Escape From Duckov: Der Ultimative Leitfaden für Erweiterungskisten (Expansion Crates)",
         "description": "Ihnen geht in Escape From Duckov der Lagerplatz aus? Dieser Leitfaden enthüllt die Geheimnisse der Erweiterungskisten, dem Schlüssel zu permanenten Lager-Upgrades! Lernen Sie die besten Farm-Routen, entscheidende Tipps und Kisten-Standorte, um Ihre Beute zu maximieren und das Spiel zu dominieren. Erweitern Sie Ihr Depot noch heute!",
@@ -2169,7 +2178,7 @@ export const guides = [
         "isHome": true,
         "addressBar": "/escape-from-duckov-expansion-crates-guide",
         "detailsHtml": `
-          <p>Die Verwaltung Ihrer Beute ist entscheidend für das Überleben in <strong>Escape From Duckov</strong>. Während Sie mehr Ausrüstung und Ressourcen sammeln, wird der Lagerplatz Ihres Verstecks schnell zu einem limitierenden Faktor. <strong>Erweiterungskisten (Expansion Crates)</strong> sind der Schlüssel zur Lösung dieses Problems, da sie es Ihnen ermöglichen, Ihre Lagerkapazität permanent zu erhöhen.</p>
+          <p>Die Verwaltung Ihrer Beute ist entscheidend für das Überleben in <strong>Escape From Duckov</strong>. Während Sie mehr Ausrüstung und Ressourcen sammeln, wird der Lagerplatz Ihres Verstecks schnell zu einem limitierenden Faktor. <strong>Erweiterungskisten (Expansion Crates)</strong> sind der Schlüssel zur Lösung dieses Problems, da sie es Ihnen ermöglichen, Ihre Lagerkapazität permanent zu erhöhen.</p>
       <p>Dieser Leitfaden behandelt alles, was Sie über das Finden dieser wertvollen Kisten und deren Verwendung zur Erweiterung Ihres Depots wissen müssen.</p>
       
       <h2><strong>Teil 1: So erhalten Sie Erweiterungskisten</strong></h2>
@@ -2178,59 +2187,59 @@ export const guides = [
       
       <h3><strong>Wo Sie Erweiterungskisten finden:</strong></h3>
       <ul>
-          <li><strong>Spinde in spezifischen Bereichen:</strong>
-              <ul>
-                  <li><strong>Söldnerbasis:</strong> Viele Spieler berichten, dass sie die meisten ihrer Erweiterungskisten in der Söldnerbasis gefunden haben. Obwohl dies Zufall sein mag, ist der Bereich definitiv ein **Hotspot, der durchsucht werden sollte**.</li>
-                  <li><strong>Das Erste Gebiet:</strong> Schon früh im Spiel haben Sie eine gute Chance, <strong>Erweiterungskiste S</strong> und <strong>M</strong> in Spinden im gesamten ersten spielbaren Gebiet zu finden.</li>
-              </ul>
-          </li>
-          <li><strong>Werkzeugkisten:</strong> Werkzeugkisten, die in allen Regionen gefunden werden, haben eine hohe Chance, Erweiterungskisten zu enthalten. **Gehen Sie niemals an einer Werkzeugkiste vorbei** während Ihrer Läufe.</li>
+          <li><strong>Spinde in spezifischen Bereichen:</strong>
+              <ul>
+                  <li><strong>Söldnerbasis:</strong> Viele Spieler berichten, dass sie die meisten ihrer Erweiterungskisten in der Söldnerbasis gefunden haben. Obwohl dies Zufall sein mag, ist der Bereich definitiv ein **Hotspot, der durchsucht werden sollte**.</li>
+                  <li><strong>Das Erste Gebiet:</strong> Schon früh im Spiel haben Sie eine gute Chance, <strong>Erweiterungskiste S</strong> und <strong>M</strong> in Spinden im gesamten ersten spielbaren Gebiet zu finden.</li>
+              </ul>
+          </li>
+          <li><strong>Werkzeugkisten:</strong> Werkzeugkisten, die in allen Regionen gefunden werden, haben eine hohe Chance, Erweiterungskisten zu enthalten. **Gehen Sie niemals an einer Werkzeugkiste vorbei** während Ihrer Läufe.</li>
       </ul>
       
       <h3><strong>Eine Schnelle und Effiziente Frühe Farm-Route:</strong></h3>
       <ol>
-          <li>Betreten Sie das erste Gebiet und begeben Sie sich nach Nordwesten durch das Portal, dann weiter nach oben.</li>
-          <li>Durchsuchen Sie alle Spinde entlang dieses Weges.</li>
-            <li>Sobald Sie eine Erweiterungskiste gefunden haben, **extrahieren Sie sofort**.</li>
+          <li>Betreten Sie das erste Gebiet und begeben Sie sich nach Nordwesten durch das Portal, dann weiter nach oben.</li>
+          <li>Durchsuchen Sie alle Spinde entlang dieses Weges.</li>
+            <li>Sobald Sie eine Erweiterungskiste gefunden haben, **extrahieren Sie sofort**.</li>
       </ol>
       <p>Diese Route hält Ihr Risiko gering und konzentriert sich gleichzeitig auf ertragreiche Behälter, was sie perfekt für das Farmen im frühen Spiel macht.</p>
       
       <h3><strong>Wichtige Tipps:</strong></h3>
       <ul>
-          <li><strong>Drops sind RNG-gesteuert:</strong> Das Finden einer Erweiterungskiste hängt vom Glück ab (**RNG**), erwarten Sie also ein paar leere Läufe zwischen erfolgreichen Funden. **Geduld ist der Schlüssel.**</li>
-          <li><strong>Achten Sie auf Ihr Gewicht:</strong> Größere Kisten (besonders M und L) sind sehr schwer. Wenn Sie eine tragen, **priorisieren Sie die Extraktion**, um zu vermeiden, sie in einem Kampf zu verlieren.</li>
+          <li><strong>Drops sind RNG-gesteuert:</strong> Das Finden einer Erweiterungskiste hängt vom Glück ab (**RNG**), erwarten Sie also ein paar leere Läufe zwischen erfolgreichen Funden. **Geduld ist der Schlüssel.**</li>
+          <li><strong>Achten Sie auf Ihr Gewicht:</strong> Größere Kisten (besonders M und L) sind sehr schwer. Wenn Sie eine tragen, **priorisieren Sie die Extraktion**, um zu vermeiden, sie in einem Kampf zu verlieren.</li>
       </ul>
       
       <h3><strong>Details und Typen der Erweiterungskisten</strong></h3>
       <table>
-          <thead>
-              <tr>
-                  <th>Gegenstand</th>
-                  <th>Verwendung für</th>
-                  <th>Häufige Standorte</th>
-                  <th>Anmerkungen</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td><strong>Erweiterungskiste S</strong></td>
-                  <td>Frühe Depotstufen, die Gegenstände erfordern.</td>
-                  <td>Spinde im ersten Gebiet; Werkzeugkisten überall.</td>
-                  <td>Leichteste Kiste; erscheint früh im Spiel.</td>
-              </tr>
-              <tr>
-                  <td><strong>Erweiterungskiste M</strong></td>
-                  <td>Mittlere Depot-Upgrades.</td>
-                  <td>Spinde im ersten Gebiet (seltener); Werkzeugkisten.</td>
-                  <td>Schwerer als S; planen Sie Ihre Extraktionsroute.</td>
-              </tr>
-              <tr>
-                  <td><strong>Erweiterungskiste L</strong></td>
-                  <td>Späte Depot-Upgrades.</td>
-                  <td>Werkzeugkisten und hochwertige Verstecke.</td>
-                  <td>Die schwerste Kiste mit der niedrigsten Spawnrate.</td>
-              </tr>
-          </tbody>
+          <thead>
+              <tr>
+                  <th>Gegenstand</th>
+                  <th>Verwendung für</th>
+                  <th>Häufige Standorte</th>
+                  <th>Anmerkungen</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><strong>Erweiterungskiste S</strong></td>
+                  <td>Frühe Depotstufen, die Gegenstände erfordern.</td>
+                  <td>Spinde im ersten Gebiet; Werkzeugkisten überall.</td>
+                  <td>Leichteste Kiste; erscheint früh im Spiel.</td>
+              </tr>
+              <tr>
+                  <td><strong>Erweiterungskiste M</strong></td>
+                  <td>Mittlere Depot-Upgrades.</td>
+                  <td>Spinde im ersten Gebiet (seltener); Werkzeugkisten.</td>
+                  <td>Schwerer als S; planen Sie Ihre Extraktionsroute.</td>
+              </tr>
+              <tr>
+                  <td><strong>Erweiterungskiste L</strong></td>
+                  <td>Späte Depot-Upgrades.</td>
+                  <td>Werkzeugkisten und hochwertige Verstecke.</td>
+                  <td>Die schwerste Kiste mit der niedrigsten Spawnrate.</td>
+              </tr>
+          </tbody>
       </table>
       
       <h2><strong>Teil 2: So verwenden Sie die Erweiterungskiste S zur Lagererweiterung</strong></h2>
@@ -2239,20 +2248,20 @@ export const guides = [
       
       <h3><strong>Erweiterungskiste S zur Verbesserung Ihres Depots verwenden (Schritt-für-Schritt):</strong></h3>
       <ol>
-          <li><strong>Bringen Sie die Kiste zurück zur Basis:</strong> Nachdem Sie eine Kiste gefunden haben, stellen Sie sicher, dass sie sich im **Inventar Ihres Charakters** (Ihre Taschen oder Ausrüstung), nicht in Ihrem Depot-Lager befindet.</li>
-          <li><strong>Finden Sie den Lager-NPC:</strong> Gehen Sie in Ihrem Versteck zum ersten NPC, **Jeff**.</li>
-          <li><strong>Interagieren Sie mit dem Spind:</strong> Interagieren Sie mit dem Hauptlager-Spind, der sich hinter ihm befindet, um die Lager-Benutzeroberfläche zu öffnen.</li>
-          <li><strong>Wechseln Sie zur Upgrade-Registerkarte:</strong> Wechseln Sie in der Lager-Benutzeroberfläche zur Registerkarte **\"Lagererweiterung\" / \"Depot-Upgrade\"**. Auf dem PC können Sie den Registerkarten-Wechsler auf dem Bildschirm oder Ihr Mausrad verwenden.</li>
-          <li><strong>Wählen Sie die Upgrade-Stufe:</strong> Wählen Sie die nächste verfügbare Depot-Upgrade-Stufe aus. Frühe Stufen kosten möglicherweise nur Credits, während spätere Stufen Gegenstände wie Erweiterungskisten erfordern.</li>
-          <li><strong>Bestätigen Sie das Upgrade:</strong> Bestätigen Sie die Aktion. Die Erweiterungskiste und die erforderlichen Credits werden verbraucht, und Ihre Depotkapazität wird sofort erhöht.</li>
+          <li><strong>Bringen Sie die Kiste zurück zur Basis:</strong> Nachdem Sie eine Kiste gefunden haben, stellen Sie sicher, dass sie sich im **Inventar Ihres Charakters** (Ihre Taschen oder Ausrüstung), nicht in Ihrem Depot-Lager befindet.</li>
+          <li><strong>Finden Sie den Lager-NPC:</strong> Gehen Sie in Ihrem Versteck zum ersten NPC, **Jeff**.</li>
+          <li><strong>Interagieren Sie mit dem Spind:</strong> Interagieren Sie mit dem Hauptlager-Spind, der sich hinter ihm befindet, um die Lager-Benutzeroberfläche zu öffnen.</li>
+          <li><strong>Wechseln Sie zur Upgrade-Registerkarte:</strong> Wechseln Sie in der Lager-Benutzeroberfläche zur Registerkarte **\"Lagererweiterung\" / \"Depot-Upgrade\"**. Auf dem PC können Sie den Registerkarten-Wechsler auf dem Bildschirm oder Ihr Mausrad verwenden.</li>
+          <li><strong>Wählen Sie die Upgrade-Stufe:</strong> Wählen Sie die nächste verfügbare Depot-Upgrade-Stufe aus. Frühe Stufen kosten möglicherweise nur Credits, während spätere Stufen Gegenstände wie Erweiterungskisten erfordern.</li>
+          <li><strong>Bestätigen Sie das Upgrade:</strong> Bestätigen Sie die Aktion. Die Erweiterungskiste und die erforderlichen Credits werden verbraucht, und Ihre Depotkapazität wird sofort erhöht.</li>
       </ol>
       
       <h3><strong>Fehlerbehebung: Was tun, wenn das Upgrade nicht funktioniert</strong></h3>
       <ul>
-          <li><strong>Ist es am richtigen Ort?</strong> Stellen Sie sicher, dass sich die Kiste in Ihrem **Inventar am Charakter** befindet, nicht in Ihrem Depot.</li>
-          <li><strong>Sind Sie auf dem richtigen Bildschirm?</strong> Überprüfen Sie nochmals, ob Sie sich auf der Registerkarte **\"Depot-Upgrade\"** befinden, nicht in der regulären Lageransicht.</li>
-          <li><strong>Erfordert die Stufe es?</strong> Bestätigen Sie, dass die Upgrade-Stufe, die Sie auswählen, tatsächlich **Erweiterungskiste S** als erforderliches Material auflistet.</li>
-          <li><strong>Haben Sie genügend Credits?</strong> Stellen Sie sicher, dass Sie zusätzlich zur Kiste die erforderliche Menge an Credits besitzen.</li>
+          <li><strong>Ist es am richtigen Ort?</strong> Stellen Sie sicher, dass sich die Kiste in Ihrem **Inventar am Charakter** befindet, nicht in Ihrem Depot.</li>
+          <li><strong>Sind Sie auf dem richtigen Bildschirm?</strong> Überprüfen Sie nochmals, ob Sie sich auf der Registerkarte **\"Depot-Upgrade\"** befinden, nicht in der regulären Lageransicht.</li>
+          <li><strong>Erfordert die Stufe es?</strong> Bestätigen Sie, dass die Upgrade-Stufe, die Sie auswählen, tatsächlich **Erweiterungskiste S** als erforderliches Material auflistet.</li>
+          <li><strong>Haben Sie genügend Credits?</strong> Stellen Sie sicher, dass Sie zusätzlich zur Kiste die erforderliche Menge an Credits besitzen.</li>
       </ul>
       <p><img src="/images/guide/guide18-03.webp" alt="Erweiterungskiste 2" width="100%" style="width: 100%;"></p>
       
@@ -2263,11 +2272,11 @@ export const guides = [
       <p>Wenn Sie *während* eines Raids mehr Beute tragen möchten, müssen Sie Ihre **Rucksackkapazität** durch separate Systeme erhöhen:</p>
       <p><img src="/images/guide/guide18-04.webp" alt="Depot- vs. Rucksackkapazität" width="100%" style="width: 100%;"></p>
       <ul>
-          <li><strong>Die Fähigkeitsverbesserungsmaschine:</strong> Verwenden Sie in Ihrer Basis diese Maschine und wählen Sie die Upgrade-Linie **\"Rucksack-Experte\"** aus.</li>
-          <li><strong>Spezielle Rucksäcke:</strong> Finden Sie spezielle Rucksäcke im Feld, die beim Ausrüsten permanent Plätze hinzufügen.</li>
-          <li><strong>Körperpanzerung:</strong> Bestimmte Teile der Körperpanzerung können ebenfalls Ihre Tragekapazität erhöhen.</li>
+          <li><strong>Die Fähigkeitsverbesserungsmaschine:</strong> Verwenden Sie in Ihrer Basis diese Maschine und wählen Sie die Upgrade-Linie **\"Rucksack-Experte\"** aus.</li>
+          <li><strong>Spezielle Rucksäcke:</strong> Finden Sie spezielle Rucksäcke im Feld, die beim Ausrüsten permanent Plätze hinzufügen.</li>
+          <li><strong>Körperpanzerung:</strong> Bestimmte Teile der Körperpanzerung können ebenfalls Ihre Tragekapazität erhöhen.</li>
       </ul>
-          `
+          `
     },
 
     {
@@ -2287,66 +2296,66 @@ export const guides = [
         "isHome": true,
         "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
         "detailsHtml": `
-          <p>Die \"Bronze-Taschenuhr\" ist eine der ersten kritischen Quests, die Sie in <strong>Escape From Duckov</strong> erhalten. Von Xavier gegeben, dient diese Mission als perfekte Einführung in die Kernmechaniken des Spiels: Verwenden spezieller Schlüssel, Navigieren zu einem spezifischen Ort, Abrufen eines Quest-Gegenstands und sichere Extraktion.</p>
+          <p>Die \"Bronze-Taschenuhr\" ist eine der ersten kritischen Quests, die Sie in <strong>Escape From Duckov</strong> erhalten. Von Xavier gegeben, dient diese Mission als perfekte Einführung in die Kernmechaniken des Spiels: Verwenden spezieller Schlüssel, Navigieren zu einem spezifischen Ort, Abrufen eines Quest-Gegenstands und sichere Extraktion.</p>
       <p>Dieser Leitfaden führt Sie durch jeden Schritt, von der Beschaffung des Schlüssels über das Finden der Uhr bis hin zur Sicherung Ihrer Belohnung.</p>
       
       <h2><strong>Kurzanleitung (TL;DR)</strong></h2>
       <ol>
-          <li>**Kaufen Sie den Mechanischen Schlüssel** am Verkaufsautomaten in Ihrem Bunker.</li>
-          <li>Setzen Sie auf der Karte **Ground Zero** ein.</li>
-          <li>Begeben Sie sich in die **südöstliche Ecke**, um einen weißen Lastwagen mit einem orangefarbenen Tankauflieger zu finden.</li>
-          <li>Verwenden Sie den **Mechanischen Schlüssel**, um die Fahrerkabine des Lastwagens zu entriegeln.</li>
-          <li>Plündern Sie die **Bronze-Taschenuhr** im Inneren.</li>
-          <li>Extrahieren Sie sofort über den **Gullideckel** neben dem Lastwagen.</li>
-          <li>Übergeben Sie die Uhr an **Xavier**, um die Quest abzuschließen.</li>
+          <li>**Kaufen Sie den Mechanischen Schlüssel** am Verkaufsautomaten in Ihrem Bunker.</li>
+          <li>Setzen Sie auf der Karte **Ground Zero** ein.</li>
+          <li>Begeben Sie sich in die **südöstliche Ecke**, um einen weißen Lastwagen mit einem orangefarbenen Tankauflieger zu finden.</li>
+          <li>Verwenden Sie den **Mechanischen Schlüssel**, um die Fahrerkabine des Lastwagens zu entriegeln.</li>
+          <li>Plündern Sie die **Bronze-Taschenuhr** im Inneren.</li>
+          <li>Extrahieren Sie sofort über den **Gullideckel** neben dem Lastwagen.</li>
+          <li>Übergeben Sie die Uhr an **Xavier**, um die Quest abzuschließen.</li>
       </ol>
       
       <h2><strong>Quest-Details</strong></h2>
       <table>
-          <thead>
-              <tr>
-                  <th>Detail</th>
-                  <th></th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td><strong>Questname</strong></td>
-                  <td>Bronze-Taschenuhr</td>
-              </tr>
-              <tr>
-                  <td><strong>Geber</strong></td>
-                  <td>Xavier (Waffen-NPC im Bunker)</td>
-              </tr>
-              <tr>
-                  <td><strong>Karte</strong></td>
-                  <td>Ground Zero</td>
-              </tr>
-              <tr>
-                  <td><strong>Hauptziel</strong></td>
-                  <td>Die Bronze-Taschenuhr aus einem verschlossenen Lastwagen bergen und Xavier übergeben.</td>
-              </tr>
-              <tr>
-                  <td><strong>Benötigte Gegenstände</strong></td>
-                  <td>1x Mechanischer Schlüssel</td>
-              </tr>
-              <tr>
-                  <td><strong>Belohnungen</strong></td>
-                  <td>~2.500 EP und ~450 Währung (Werte können leicht variieren)</td>
-              </tr>
-              <tr>
-                  <td><strong>Folge-Quest</strong></td>
-                  <td>Ladungsliste</td>
-              </tr>
-          </tbody>
+          <thead>
+              <tr>
+                  <th>Detail</th>
+                  <th></th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><strong>Questname</strong></td>
+                  <td>Bronze-Taschenuhr</td>
+              </tr>
+              <tr>
+                  <td><strong>Geber</strong></td>
+                  <td>Xavier (Waffen-NPC im Bunker)</td>
+              </tr>
+              <tr>
+                  <td><strong>Karte</strong></td>
+                  <td>Ground Zero</td>
+              </tr>
+              <tr>
+                  <td><strong>Hauptziel</strong></td>
+                  <td>Die Bronze-Taschenuhr aus einem verschlossenen Lastwagen bergen und Xavier übergeben.</td>
+              </tr>
+              <tr>
+                  <td><strong>Benötigte Gegenstände</strong></td>
+                  <td>1x Mechanischer Schlüssel</td>
+              </tr>
+              <tr>
+                  <td><strong>Belohnungen</strong></td>
+                  <td>~2.500 EP und ~450 Währung (Werte können leicht variieren)</td>
+              </tr>
+              <tr>
+                  <td><strong>Folge-Quest</strong></td>
+                  <td>Ladungsliste</td>
+              </tr>
+          </tbody>
       </table>
       
       <h2><strong>Schritt 1: So erhalten Sie den Mechanischen Schlüssel</strong></h2>
       <p>Der Lastwagen mit der Uhr ist verschlossen, und der <strong>Mechanische Schlüssel</strong> ist der einzige Weg hinein.</p>
       <p><img src="/images/guide/guide19-01.webp" alt="Schlüssel kaufen" width="100%" style="width: 100%;"></p>
       <ul>
-          <li><strong>Primäre Methode (Empfohlen):</strong> Der zuverlässigste Weg, den Schlüssel zu bekommen, ist der Kauf am <strong>Verkaufsautomaten</strong> in Ihrem Bunker/Safehouse für <strong>660 Währung</strong>.</li>
-          <li><strong>Alternative Methode:</strong> Es ist möglich, den Schlüssel als zufällige Beute in der Welt zu finden, aber dies ist weitaus weniger vorhersehbar. Kaufen ist der schnellste Weg zum Fortschritt.</li>
+          <li><strong>Primäre Methode (Empfohlen):</strong> Der zuverlässigste Weg, den Schlüssel zu bekommen, ist der Kauf am <strong>Verkaufsautomaten</strong> in Ihrem Bunker/Safehouse für <strong>660 Währung</strong>.</li>
+          <li><strong>Alternative Methode:</strong> Es ist möglich, den Schlüssel als zufällige Beute in der Welt zu finden, aber dies ist weitaus weniger vorhersehbar. Kaufen ist der schnellste Weg zum Fortschritt.</li>
       </ul>
       <p><strong>Pro-Tipp:</strong> Wenn Sie das **Schlüsselregistrierungsgerät** in Ihrem Bunker gebaut haben, können Sie den Mechanischen Schlüssel vor dem Einsatz registrieren. Dadurch wird verhindert, dass Sie ihn verlieren, falls Sie während des Raids sterben. Andernfalls bewahren Sie den Schlüssel einfach in Ihrem sicheren Behälter oder Inventar auf.</p>
       <p><img src="/images/guide/guide19-02.webp" alt="Mechanischer Schlüssel" width="100%" style="width: 100%;"></p>
@@ -2358,30 +2367,30 @@ export const guides = [
       
       <h3><strong>Zwei Zuverlässige Routen zum Lastwagen:</strong></h3>
       <ul>
-          <li><strong>Die Brücken-Route:</strong>
-              <ul>
-                  <li>Gehen Sie vom Bunkereingang nach Osten in Richtung der kaputten Holzbrücke.</li>
-                  <li>Sie benötigen **2 Holz**, um sie zu reparieren. (Holz kann in Werkzeugkisten gefunden oder gekauft werden).</li>
-                  <li>Überqueren Sie die Brücke und folgen Sie der mit Fahrzeugen verstopften Straße nach Süden, um den Tankwagen zu finden.</li>
-                  <li><strong>Risiko:</strong> Diese Route ist exponierter und kann Plünderer anziehen. Die südliche Brücke ist generell ruhiger.</li>
-              </ul>
-          </li>
-          <li><strong>Die Kanalisations-Route (Schnellste &amp; Sicherste):</strong>
-              <ul>
-                  <li>Wenn Sie die Kanalisationsluke zuvor freigeschaltet haben, ist dies bei weitem die beste Route.</li>
-                  <li>Tauchen Sie am Kanalisationsausgang von Ground Zero auf.</li>
-                  <li>Der Lastwagen und Tankwagen werden sich fast unmittelbar vor Ihnen befinden, nur wenige Meter östlich.</li>
-              </ul>
-          </li>
+          <li><strong>Die Brücken-Route:</strong>
+              <ul>
+                  <li>Gehen Sie vom Bunkereingang nach Osten in Richtung der kaputten Holzbrücke.</li>
+                  <li>Sie benötigen **2 Holz**, um sie zu reparieren. (Holz kann in Werkzeugkisten gefunden oder gekauft werden).</li>
+                  <li>Überqueren Sie die Brücke und folgen Sie der mit Fahrzeugen verstopften Straße nach Süden, um den Tankwagen zu finden.</li>
+                  <li><strong>Risiko:</strong> Diese Route ist exponierter und kann Plünderer anziehen. Die südliche Brücke ist generell ruhiger.</li>
+              </ul>
+          </li>
+          <li><strong>Die Kanalisations-Route (Schnellste &amp; Sicherste):</strong>
+              <ul>
+                  <li>Wenn Sie die Kanalisationsluke zuvor freigeschaltet haben, ist dies bei weitem die beste Route.</li>
+                  <li>Tauchen Sie am Kanalisationsausgang von Ground Zero auf.</li>
+                  <li>Der Lastwagen und Tankwagen werden sich fast unmittelbar vor Ihnen befinden, nur wenige Meter östlich.</li>
+              </ul>
+          </li>
       </ul>
       <p>Sobald Sie den Lastwagen erreicht haben, nähern Sie sich der **Fahrertür** und verwenden Sie den Mechanischen Schlüssel aus Ihrem Inventar, um sie zu entriegeln. Die Bronze-Taschenuhr wird sich im Inneren befinden.</p>
       
       <h2><strong>Schritt 3: Die Einfachste Extraktion</strong></h2>
       <p>Sie müssen nicht über die ganze Karte zurücklaufen, um zu extrahieren. Einer der besten Extraktionspunkte befindet sich direkt neben dem Ziel.</p>
       <ul>
-          <li>Suchen Sie einen **Gullideckel** auf dem Boden, direkt links neben dem Tanklaster.</li>
-          <li>Möglicherweise liegt ein Pappkarton darauf. Bewegen Sie einfach den Karton, um die Luke freizulegen.</li>
-          <li>Die Interaktion mit der offenen Luke bietet eine direkte und sichere Abkürzung zurück in den Keller Ihres Bunkers.</li>
+          <li>Suchen Sie einen **Gullideckel** auf dem Boden, direkt links neben dem Tanklaster.</li>
+          <li>Möglicherweise liegt ein Pappkarton darauf. Bewegen Sie einfach den Karton, um die Luke freizulegen.</li>
+          <li>Die Interaktion mit der offenen Luke bietet eine direkte und sichere Abkürzung zurück in den Keller Ihres Bunkers.</li>
       </ul>
       
       <h2><strong>Schritt 4: Abgabe und Belohnungen</strong></h2>
@@ -2391,17 +2400,17 @@ export const guides = [
       
       <h2><strong>Fehlerbehebung &amp; FAQ</strong></h2>
       <ul>
-          <li><strong>Ist das Erscheinen der Uhr garantiert?</strong>
-              <p><strong>Ja.</strong> Die Bronze-Taschenuhr ist ein feststehender Quest-Gegenstand. Wenn Sie die Tür entriegeln und sie nicht sehen, handelt es sich wahrscheinlich um einen seltenen Fehler (Bug). Verlassen Sie einfach Ground Zero und betreten Sie die Karte erneut, um sie zurückzusetzen.</p>
-          </li>
-          <li><strong>Was passiert, wenn ich sterbe?</strong>
-              <p>Sterben setzt Ihren Quest-Fortschritt zurück. Sie müssen erneut nach Ground Zero gehen, um die Uhr wiederzubeschaffen. Aus diesem Grund wird die schnelle Gullideckel-Extraktion dringend empfohlen.</p>
-          </li>
-          <li><strong>Warum ist diese Quest wichtig?</strong>
-              <p>Sie bietet einen großartigen frühen EP- und Währungs-Schub, lehrt grundlegende Fertigkeiten und schaltet weitere Quests frei, um Ihre Haupt-Storyline voranzutreiben.</p>
-          </li>
+          <li><strong>Ist das Erscheinen der Uhr garantiert?</strong>
+              <p><strong>Ja.</strong> Die Bronze-Taschenuhr ist ein feststehender Quest-Gegenstand. Wenn Sie die Tür entriegeln und sie nicht sehen, handelt es sich wahrscheinlich um einen seltenen Fehler (Bug). Verlassen Sie einfach Ground Zero und betreten Sie die Karte erneut, um sie zurückzusetzen.</p>
+          </li>
+          <li><strong>Was passiert, wenn ich sterbe?</strong>
+              <p>Sterben setzt Ihren Quest-Fortschritt zurück. Sie müssen erneut nach Ground Zero gehen, um die Uhr wiederzubeschaffen. Aus diesem Grund wird die schnelle Gullideckel-Extraktion dringend empfohlen.</p>
+          </li>
+          <li><strong>Warum ist diese Quest wichtig?</strong>
+              <p>Sie bietet einen großartigen frühen EP- und Währungs-Schub, lehrt grundlegende Fertigkeiten und schaltet weitere Quests frei, um Ihre Haupt-Storyline voranzutreiben.</p>
+          </li>
       </ul>
-          `
+          `
     }
 
 

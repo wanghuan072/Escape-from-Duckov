@@ -259,139 +259,7 @@ export const guides = [
               <p>Este passo a passo cobre os primeiros passos essenciais em Escape from Duckov. Você escapou com sucesso da prisão, estabeleceu sua base, completou sua primeira expedição em Ground Zero e desbloqueou várias linhas de missão. Verifique nosso <a href="/wiki/quests">banco de dados completo de missões</a> para todas as missões disponíveis. Concentre-se em completar as missões disponíveis, atualizar seu equipamento e se preparar para expedições mais desafiadoras. Explore mais <a href="/guides">guias avançados</a> para estratégias mais profundas.</p>
               `
   },
-  {
-    "id": 3,
-    "title": "Exploração Avançada de Ground Zero e Expansão da Base",
-    "description": "Domine expedições avançadas em Ground Zero, complete cadeias de missões complexas e expanda suas instalações de base com este passo a passo abrangente de meio de jogo.",
-    "imageUrl": "/images/guide-03.webp",
-    "imageAlt": "Exploração Avançada de Ground Zero e Expansão da Base",
-    "publishDate": "2025-10-27",
-    "addressBar": "/advanced-ground-zero-exploration-base-expansion",
-    "category": "walkthroughs",
-    "tags": [
-      "EXPLORAÇÃO AVANÇADA",
-      "EXPANSÃO DE BASE",
-      "CADEIAS DE MISSÕES",
-      "ATUALIZAÇÕES DE EQUIPAMENTO",
-      "GROUND ZERO"
-    ],
-    "seo": {
-      "title": "Exploração Avançada de Ground Zero e Expansão da Base - Escape from Duckov",
-      "description": "Domine expedições avançadas em Ground Zero, complete cadeias de missões complexas e expanda suas instalações de base com este passo a passo abrangente de meio de jogo.",
-      "keywords": "Escape from Duckov, Passo a Passo Avançado, Exploração Ground Zero, Expansão de Base, Cadeias de Missões, Atualizações de Equipamento, Guia de Meio de Jogo"
-    },
-    "isHome": false,
-    "detailsHtml": `
-              <p>Este passo a passo avançado cobre a progressão de meio de jogo em <a href="/">Escape from Duckov</a>, focando em expedições complexas em Ground Zero, expansão de instalações de base e conclusão de cadeias de missões intrincadas. Perfeito para jogadores prontos para enfrentar conteúdo mais desafiador.</p>
-              
-              <h2>1. Exploração Avançada de Ground Zero</h2>
-              <img src="/images/guide/guide03-01.webp" alt="Advanced Ground Zero Exploration" class="guide-image" />
-              <h3>Missão da Torre Norte</h3>
-      
-              <p><strong>Missão da Torre de Sinal:</strong> Siga em direção ao Acampamento da Estrada (Road Camp) e localize a torre norte. Procure na caixa de ferramentas por **2 Placas de Metal**, pregos e uma **Chave de Fenda de Ponta Chata**.</p>
-              <p><strong>Interação com a Caixa de Força:</strong> Interaja com a caixa de força na base da torre para completar o objetivo da missão Torre de Sinal.</p>
-              <p><strong>Descoberta de Planta:</strong> Mova-se para a direita da torre para encontrar a planta da **Potato Graphics Card** - essencial para criação avançada.</p>
-      
-              <img src="/images/guide/guide03-02.webp" alt="Northern Tower Mission" class="guide-image" />
-      
-              <h3>Abordagem do Acampamento da Estrada</h3>
-              <p><strong>Novo Tipo de Inimigo:</strong> Encontre **inimigos avançados portando espingardas** perto do Acampamento da Estrada. Esses inimigos exigem posicionamento cuidadoso e munição adequada.</p>
-              <p><strong>Aquisição de Equipamento:</strong> Derrote inimigos para obter espingardas **MP-155**, <a href="/items/equipment">capacetes de motocicleta</a> e suprimentos médicos. Navegue em nosso <a href="/items/equipment">banco de dados de equipamentos</a> para todo o equipamento de proteção disponível.</p>
-              <p><strong>Reparo da Ponte:</strong> Use **2 pedaços de madeira** para reparar a ponte quebrada que leva ao Acampamento da Estrada. Verifique os esconderijos sob os postes elétricos em busca de saque adicional.</p>
-              
-              <h2>2. Interações com NPCs e Novas Missões</h2>
-              
-              <h3>Mud, o Treinador</h3>
-      
-              <p><strong>Localização:</strong> Encontrado em uma casa perto do Acampamento da Estrada - um pato musculoso que oferece serviços de treinamento corporal.</p>
-              <p><strong>Atribuição de Missão:</strong> Aceite "**Balanced Nutrition 1**" de Mud para oportunidades de aprimoramento físico.</p>
-              
-              <h3>Missão Nutrição Equilibrada</h3>
-      
-              <img src="/images/guide/guide03-03.webp" alt="Mud the Trainer" class="guide-image" />
-      
-              <p><strong>Objetivo:</strong> Entregar **1x Duck Egg** (Ovo de Pato)</p>
-              <p><strong>Recompensas:</strong> 800 XP, 500 Moedas</p>
-              <p><strong>Estratégia:</strong> Ovos de pato podem ser encontrados em vários locais em Ground Zero - priorize a coleta durante as expedições.</p>
-              
-              <h2>3. Exploração de Cavernas e Saque Avançado</h2>
-              
-              <h3>Acesso à Caverna</h3>
-              <p><strong>Reparo da Ponte:</strong> Repare a ponte perto da entrada da caverna usando materiais coletados para acessar áreas ocultas.</p>
-              <p><strong>Saque de Alto Valor:</strong> A caverna contém equipamento premium, incluindo:</p>
-              <ul>
-                  <li><strong>Armas:</strong> Pistol Muzzle, UP 45, AK-47, Hip-fire attachment. Verifique nosso <a href="/items/weapons">banco de dados de armas</a> para informações detalhadas sobre armas</li>
-                  <li><strong>Munição:</strong> Vários tipos de munição e Laser attachment. Navegue por <a href="/items/ammunition">todos os tipos de munição</a> para detalhes de compatibilidade</li>
-                  <li><strong>Plantas:</strong> Receitas da Cube Gun e Small Energy Ammo</li>
-              </ul>
-              
-              <h3>Infiltração no Acampamento Noroeste</h3>
-              <p><strong>Abordagem Furtiva:</strong> Navegue cuidadosamente até o Acampamento Noroeste, limpando acampamentos inimigos menores ao longo do caminho.</p>
-              <p><strong>Coleta de Itens de Missão:</strong> Recupere a "**Letter from Old Friend**" (Carta de um Velho Amigo) de dentro da barraca para a conclusão da missão.</p>
-              <p><strong>Descobertas Adicionais:</strong> Encontre a receita da **Crowbar** (Pé de Cabra) em caixas de dados próximas e notas de aviso do **Ground Zero Watch Log**.</p>
-              
-              <h2>4. Encontros de Combate Desafiadores</h2>
-              
-              <h3>Luta contra o Chefe Inimigo de Capuz</h3>
-              <p><strong>Descrição do Inimigo:</strong> Um inimigo fortemente armado usando um capuz e empunhando uma espingarda - significativamente mais perigoso do que inimigos comuns.</p>
-              <p><strong>Preparação para o Combate:</strong> Certifique-se de ter munição e suprimentos médicos suficientes antes de atacar.</p>
-              <p><strong>Integração de Missão:</strong> Use bandagens durante o combate para completar a missão "**The Importance of Bleeding Control**" (A Importância do Controle de Sangramento).</p>
-              <p><strong>Coleta de Recompensa:</strong> Derrote o inimigo para obter as **Black Market Contact Notes** (Notas de Contato do Mercado Negro) e **Advanced AP Shotgun Shells** (Cartuchos de Espingarda AP Avançados).</p>
-              
-              <h3>Gestão de Recursos</h3>
-              <p><strong>Aviso de Desidratação:</strong> Monitore seus níveis de hidratação - a desidratação pode ocorrer durante expedições prolongadas.</p>
-              <p><strong>Coleta de Chaves:</strong> Reúna as chaves **Abandoned Gas Station** e **Fence**, além de mira holográfica antes da extração. Verifique nosso <a href="/items/key">banco de dados de chaves</a> para locais e informações de uso das chaves.</p>
-              
-              <h2>5. Expansão das Instalações da Base</h2>
-              
-              <h3>Novas Missões de Construção</h3>
-              <p><strong>Basic Construction II:</strong> Construir Loja de Armas no Bunker</p>
-              <p><strong>Basic Construction III:</strong> Construir Loja de Armaduras no Bunker</p>
-              <p><strong>Medical Construction:</strong> Construir Estação Médica no Bunker</p>
-              <p><strong>Tech Expert:</strong> Entregar uma Pilha de Componentes Eletrônicos</p>
-              
-              <h3>Missões de Combate e Habilidade</h3>
-              <p><strong>Aim for the Head:</strong> Mate 5 inimigos com tiros na cabeça em Ground Zero</p>
-              <p><strong>Expanded Pocket:</strong> Desbloquear Backpack Expert 1 (se ainda não estiver concluído)</p>
-              <p><strong>Upgrade Workbench:</strong> Desbloquear Advanced Processing (se ainda não estiver concluído)</p>
-              
-              <h3>Missões de Entrega de Recursos</h3>
-              <p><strong>Full of Love:</strong> Entregar 1888 Moedas por recompensas significativas</p>
-              <p><strong>Crafting Apprenticeship:</strong> Entregar uma pistola Glick para conhecimento de criação</p>
-              <p><strong>Bookkeeping:</strong> Entregar Tinta, Caneta e Caderno para tarefas administrativas</p>
-              
-              <h2>6. Atualizações de Equipamento e Instalações</h2>
-              
-              <h3>Construção da Loja de Armaduras</h3>
-              <p><strong>Disponibilidade Imediata:</strong> A Loja de Armaduras pode ser construída imediatamente com os materiais disponíveis.</p>
-              <p><strong>Compras de Equipamento:</strong> Adquira **Armadura Corporal Nível 2** e **Capacete de Aço** para melhorias significativas na proteção. Navegue em nosso <a href="/items/equipment">catálogo completo de equipamentos</a> para comparar todas as opções de armadura disponíveis.</p>
-              <p><strong>Atribuições de Missão:</strong> Aceite as missões **Supply Route** e **Bookkeeping** na loja de armaduras.</p>
-              
-              <h3>Aprimoramentos da Bancada</h3>
-              <p><strong>Pesquisa de Planta:</strong> Pesquise todas as plantas coletadas para liberar espaço no inventário e desbloquear novas opções de criação.</p>
-              <p><strong>Pesquisa da Estação de Reparo:</strong> Desbloqueie recursos de **reparo de armas** para equipamentos danificados.</p>
-              <p><strong>Estação de Desmontagem:</strong> Pesquise recursos de **desmontagem** usando tesoura e chave inglesa da máquina de vendas.</p>
-              
-              <h3>Progressão do Personagem</h3>
-              <p><strong>Gun Mastery I:</strong> Atualize a proficiência em armas de fogo no aprimorador para melhorar a eficácia em combate.</p>
-              <p><strong>Priorização de Habilidades:</strong> Concentre-se em aprimoramentos relacionados ao combate para os próximos encontros desafiadores.</p>
-              
-              <h2>7. Gestão Avançada de Missões</h2>
-              
-              <h3>Missão Rota de Suprimentos (Supply Route)</h3>
-              <p><strong>Localização:</strong> Ground Zero</p>
-              <p><strong>Objetivo:</strong> Marcar a caixa de suprimentos com um **Marcador** (disponível no armazenamento)</p>
-              <p><strong>Estratégia:</strong> Use marcadores coletados anteriormente para completar este objetivo de forma eficiente.</p>
-              
-              <h3>Planejamento de Recursos</h3>
-              <p><strong>Gestão de Moedas:</strong> Monitore seus recursos financeiros - equipamentos e atualizações avançados exigem investimento significativo.</p>
-              <p><strong>Coleta de Materiais:</strong> Priorize a coleta de materiais para futuros projetos de construção.</p>
-              <p><strong>Otimização de Inventário:</strong> Pesquise regularmente plantas e organize o armazenamento para manter uma gestão eficiente do inventário.</p>
-              
-              <h2>Conclusion</h2>
-              <p>Este passo a passo avançado cobre a crucial progressão de meio de jogo em Escape from Duckov. Você concluiu com sucesso expedições complexas em Ground Zero, expandiu suas instalações de base e desbloqueou recursos avançados de criação. Verifique nosso <a href="/wiki/quests">banco de dados de missões</a> para todos os detalhes das missões disponíveis. Concentre-se em completar as novas cadeias de missões, atualizar seu equipamento e se preparar para conteúdo ainda mais desafiador. Explore mais <a href="/guides">guias avançados</a>, incluindo guias de acesso à Storm Zone. A base que você construiu será essencial para sobreviver às áreas mais perigosas de Duckov.</p>
-              `
-  },
+
   {
     "id": 4,
     "title": "Domine as Mecânicas e Sistemas Centrais do Jogo",
@@ -563,6 +431,802 @@ export const guides = [
   },
 
   {
+    "id": 12,
+    "title": "Escape from Duckov Passo a Passo Parte 1: Fuga da Prisão e Configuração da Base",
+    "description": "Seu guia essencial para começar Escape from Duckov! Cobre todo o tutorial de fuga da prisão, configuração da infraestrutura da base e conclusão das missões iniciais em Ground Zero.",
+    "imageUrl": "/images/guide12.webp",
+    "imageAlt": "Um personagem do jogador em Escape from Duckov saqueando uma caixa durante a sequência de fuga da prisão.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "guia para iniciantes", "fuga da prisão", "construção de base", "ground zero"],
+    "seo": {
+      "title": "Escape from Duckov Guia Parte 1: Prisão, Configuração da Base e Missões Iniciais",
+      "description": "Passo a passo completo para a primeira parte de Escape from Duckov. Aprenda a escapar da prisão, configurar sua base e completar as missões Construção Básica e Capital Inicial.",
+      "keywords": "Escape from Duckov Passo a Passo Parte 1, Escape from Duckov Guia para Iniciantes, Guia de Fuga da Prisão, Ground Zero Passo a Passo, Configuração da Base Duckov, Missões Iniciais"
+    },
+    "isHome": false,
+    "detailsHtml": `
+            <h2>Fugindo da Prisão: Tutorial e Primeiro Encontro</h2>
+            <p>Após uma breve cena introdutória, sua primeira ação é ir ao espelho e **configurar seu personagem** no criador de personagens.</p>
+            
+            <h3>Saque Inicial e Movimento</h3>
+            <ul>
+                <li>Siga as setas e marcações no chão para se mover e pegar o saque.</li>
+                <li>Na caixa, você adquirirá: uma **TT-33** (pistola básica), **30 munições**, **ataduras** e **biscoitos**.</li>
+                <li>Entre na sala à direita de sua cela e pegue uma **cenoura** na caixa dentro. (<em>Dica: Correr e rolar consomem **Stamina**</em>).</li>
+                <li>Verifique a lixeira em busca de um **isqueiro**, um **pirulito** e alguns **componentes eletrônicos**.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-01.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
+    
+            <h3>Primeiro Combate e Atualização de Equipamento</h3>
+            <ul>
+                <li>**Equipe a pistola TT-33** para o próximo encontro.</li>
+                <li>**Desvie de um tiro que se aproxima** (quando vir o flash vermelho) e elimine o primeiro guarda.</li>
+                <li>Saque o guarda para obter: um **cassetete policial**, um **jaleco branco** e **óculos de sol de aro preto**. **Equipe tudo**.</li>
+                <li>Pegue mais balas e encontre **cabos** na lixeira. (<em>Dica: Segurar o botão direito do mouse melhora a precisão.</em>)</li>
+                <li>Saque **ataduras** e **aspirina** da próxima caixa.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-02.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
+    
+            <h3>Segundo Encontro e Extração</h3>
+            <ul>
+                <li>Saque a **pistola PM** de uma caixa na próxima sala e coloque-a no slot 2.</li>
+                <li>Elimine os próximos guardas, saqueando uma **pistola Glick**, jaleco e óculos de sol.</li>
+                <li>Se o seu **inventário estiver cheio**, você pode precisar seguir em frente. Saque **biscoitos** e **refrigerante** da próxima lixeira.</li>
+                <li>**Coma a cenoura e os biscoitos** para reabastecer a energia.</li>
+                <li>Pegue o caminho para a **direita** e siga para o **ponto de extração** para completar a fuga rápida.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
+    
+            <h2>A Base: Infraestrutura e Melhorias Iniciais</h2>
+            <p>Ao retornar à base, encontre **Jeff** no andar de cima para um tour: o armazém, o painel de construção, a máquina de venda automática, o aprimorador e o ponto de extração.</p>
+    
+            <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
+    
+            <h3>Atualizações de Personagem e Armazenamento</h3>
+            <ul>
+                <li>Venda as Glicks e mantenha sua TT-33 equipada. Verifique a máquina de venda automática.</li>
+                <li>Use o **Aprimorador**: **Pesquise e ative "Especialista em Mochila I"** para uma **capacidade de mochila de +4**. (<em>Nota: Aprimoramentos exigem dinheiro e materiais.</em>)</li>
+                <li>Use o **Armazém**: Adicione **"Expansão de Armazenamento Nv.1"** para ganhar **+35 de capacidade de armazenamento**.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-05.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
+    
+            <h3>Aceitando Missões Iniciais</h3>
+            <p>Fale com Jeff para aceitar suas duas primeiras missões:</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Recompensa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Construção Básica</strong></td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Construa uma bancada coletando **dois pedaços de madeira**.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">EXP +1000, Moeda +500, Ataduras x3</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Capital Inicial</strong></td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**Mate um inimigo**.</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">EXP +500, Moeda +1296</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
+    
+            <h2>Ground Zero: Coleta de Recursos e Conclusão de Missões</h2>
+    
+            <h3>Limpando o Acampamento Inimigo e Coletando Madeira</h3>
+            <ul>
+                <li>Saque a primeira caixa em busca de balas e outra TT-33. Mova-se para a direita.</li>
+                <li>Encontre **pequenas pedras** (para atrair inimigos) e **pregos** em uma caixa de ferramentas. Colete **porcas, parafusos e uma bateria de carro**.</li>
+                <li>Encontre um acampamento inimigo à esquerda. Eliminar um **Catador Furioso** (pato vermelho) aqui **completa "Capital Inicial"**.</li>
+                <li>Saque o corpo em busca de: uma **faca de açougueiro**, **madeira** e **dinheiro**.</li>
+                <li>Continue saqueando (caixa tática, caixa de munição) em busca de uma **espingarda caseira**, **balas** e **flechas**.</li>
+            </ul>
+    
+            <img src="/images/guide/guide12-07.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
+    
+            <h3>Mais Saques e Exploração</h3>
+            <ul>
+                <li>Enfrente os **Patos Verdes** (use espingardas, vista armadura corporal).</li>
+                <li>Saque corpos em busca de uma **mochila** (equipe-a para +39 de armazenamento), um **arco** e um **fragmento de núcleo frio**.</li>
+                <li>Saque uma **AK-74U** e encontre um **projeto para a TOZ-66**.</li>
+                <li>Continue para o norte, encontrando um **nó de teletransporte** que leva a um **lago**.</li>
+                <li>Perto da trilha da floresta, encontre um pequeno acampamento com uma **receita para MD40**. Use uma pá para **desenterrar um disquete J-Lab**.</li>
+                <li>Limpe outro acampamento, encontrando o **segundo pedaço de madeira** necessário para **"Construção Básica"**.</li>
+                <li>Observe que a **ponte quebrada** para a caverna requer **2 placas de metal** e **2 pedaços de madeira**.</li>
+            </ul>
+    
+            <h3>Extração e Submissão de Missões</h3>
+            <ul>
+                <li>Lide com os Patos Verdes no acampamento noroeste. Encontre um **acessório de cano** para aprimoramento de dano de SMG perto do ponto de extração.</li>
+                <li>**Extraia de Ground Zero**.</li>
+                <li>Na base, entregue **"Capital Inicial"**.</li>
+                <li>**Aceite a missão "O Caminho do Caçador"**: Mate 2 Catadores Furiosos e entregue 2 facas de açougueiro.</li>
+                <li>Vá para o **painel de construção** e **construa uma bancada**. Entregue **"Construção Básica"**.</li>
+                <li>**Atualize a bancada** pesquisando **Processamento Avançado**.</li>
+            </ul>
+    
+            <h3>Novas Missões e Preparações Finais</h3>
+            <p>Você receberá novas missões como **"A Importância da Hemostasia"**, **"A Torre de Sinal"** (requer uma **Chave de Fenda de Ponta Chata**) e **"Uma Carta de um Velho Amigo"**.</p>
+            <ul>
+                <li>Compre uma **chave de fenda de ponta chata** na máquina de venda automática.</li>
+                <li>Vá para o **Aprimorador** e atualize **Instinto de Sobrevivência 1 (HP Máximo +5)** e **Visão Ampla 1 (FOV +15)**.</li>
+                <li>**Vá dormir** e avance o tempo para as **7h da manhã** para evitar o aumento do perigo da noite.</li>
+            </ul>
+        `
+  },
+
+  {
+    "id": 13,
+    "title": "Escape from Duckov Passo a Passo Parte 2: Exploração de Ground Zero e Expansão da Base",
+    "description": "O guia essencial para a Parte 2 de Escape from Duckov. Complete a Torre de Sinal, desbloqueie a caverna, derrote o guarda difícil e expanda sua base com novas lojas.",
+    "imageUrl": "/images/guide13.webp",
+    "imageAlt": "Um personagem do jogador consertando uma ponte quebrada no mapa Ground Zero de Escape from Duckov.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "expansão da base", "novas missões", "meio do jogo"],
+    "seo": {
+      "title": "Escape from Duckov Parte 2 Passo a Passo: Torre de Sinal, Saque da Caverna e Loja de Armaduras",
+      "description": "Guia completo para Escape from Duckov Parte 2, detalhando como consertar a torre de sinal, acessar a caverna para projetos, derrotar o guarda pesado e construir a Loja de Armaduras.",
+      "keywords": "Escape from Duckov Parte 2, Exploração de Ground Zero, Missão da Torre de Sinal, Projetos da Caverna, Desbloqueio da Loja de Armaduras, Notas do Mercado Negro"
+    },
+    "isHome": false,
+    "detailsHtml": `
+            <h2>Ground Zero: Conclusão de Missões e Locais Chave</h2>
+            <p>A segunda corrida principal se concentra em utilizar seu equipamento atualizado para concluir tarefas pendentes, desbloquear novas áreas e coletar projetos e itens de missão cruciais.</p>
+    
+            <h3>Torre do Norte e Novos Contatos</h3>
+            <ul>
+                <li>Siga em direção ao acampamento da estrada e localize a **Torre do Norte**.</li>
+                
+                <img src="/images/guide/guide13-01.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
+    
+                <li>Saque a **caixa de ferramentas** próxima, garantindo itens valiosos, incluindo **2 Placas de Metal**, **1 Prego** e uma **Chave de Fenda de Ponta Chata**.</li>
+    
+                <img src="/images/guide/guide13-02.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
+    
+                <li>Interaja com a **caixa de energia** na base da torre para completar o objetivo da missão **"Torre de Sinal"**.</li>
+                <li>Mova-se para a direita da torre para encontrar o **projeto para a Placa Gráfica de Batata**.</li>
+    
+                <img src="/images/guide/guide13-03.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
+    
+                <li>Continue em direção ao acampamento da estrada, elimine o novo tipo de inimigo empunhando espingarda e saqueie uma **espingarda MP-155**, um **capacete de motocicleta** e remédios.</li>
+                <li>À esquerda, encontre **"Mud"** e aceite a missão **"Nutrição Balanceada 1"** (Objetivo: Entregar 1 Ovo de Pato; Recompensa: EXP +800, Moeda +500).</li>
+            </ul>
+    
+            <h3>Conserto da Ponte e Acesso à Caverna</h3>
+            
+            <img src="/images/guide/guide13-04.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
+    
+            <ul>
+                <li>Mova-se para a esquerda e **conserto a ponte quebrada** que leva ao acampamento da estrada usando **dois pedaços de madeira**. (Verifique sob o poste de energia antes de atravessar, embora o saque seja raro).</li>
+                <li>Siga para o acampamento na trilha da floresta, elimine os **Catadores Vermelhos** para completar **"Caminho do Caçador"** e pegue **duas Facas de Açougueiro**. Encontre também uma **Chave para o Posto de Gasolina Abandonado**.</li>
+                <li>Conserte a ponte quebrada perto da entrada da caverna.</li>
+    
+                <img src="/images/guide/guide13-05.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
+            </ul>
+    
+            <h3>Saque da Caverna e Projetos</h3>
+    
+            <p>Dentro da caverna, colete acessórios de armas e projetos significativos:</p>
+    
+            <img src="/images/guide/guide13-06.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
+    
+            <ul>
+                <li>Saque um **Cano de Pistola**, uma **UP 45**, uma **AK 47**, um **Acessório de Tiro Livre** e um **Acessório a Laser**.</li>
+                <li>Crucialmente, pegue os **projetos para a Cube Gun** e **Munição de Energia Pequena**.</li>
+            </ul>
+    
+            <h3>Acampamento Noroeste e Preparação para Extração Final</h3>
+    
+            <img src="/images/guide/guide13-07.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
+            
+            <ul>
+                <li>Entre furtivamente no **acampamento noroeste** e encontre a **Carta de um Velho Amigo** na barraca, completando a missão.</li>
+                <li>Pegue a **Receita de Pé de Cabra** de uma caixa de dados próxima. Suba na torre de vigia e leia o **"Registro de Observação de Ground Zero"**.</li>
+                <li>**Encontro Difícil:** Enfrente o **inimigo encapuzado super resistente com uma espingarda**. Use uma **atadura** durante esta luta para completar **"A Importância da Hemostasia"**.</li>
+                <li>Depois de eliminá-lo, saqueie as valiosas **Notas de Contato do Mercado Negro** e **munição AP avançada para espingarda**.</li>
+                <li>No caminho para a extração, limpe outro acampamento para encontrar duas chaves: a **Chave do Posto de Gasolina Abandonado** e a **Chave da Cerca**, juntamente com uma **Mira Holográfica**.</li>
+                <li>**Extraia de Ground Zero.**</li>
+            </ul>
+    
+            <h2>Gerenciamento da Base: Missões, Lojas e Atualizações</h2>
+            <p>De volta à base, entregue todas as missões concluídas imediatamente para desbloquear seu próximo nível de construção e atualizações.</p>
+    
+            <img src="/images/guide/guide13-08.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
+    
+            <h3>Submissão de Missões e Novos Objetivos</h3>
+            <p>Entregue todas as missões concluídas. As seguintes novas missões de construção e material aparecerão:</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nova Construção</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Missões de Combate/Material</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Construção Básica II: Construa uma **Loja de Armas**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Mire na Cabeça: Mate qualquer inimigo (5) com tiros na cabeça</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Construção Básica III: Construa uma **Loja de Armaduras** (Prioridade imediata)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Especialista em Tecnologia: Entregue uma pilha de componentes eletrônicos</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Construção Básica (Médica): Construa uma **Estação Médica**</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Cheio de Amor: Entregue 1888 em moeda (Pode ser entregue imediatamente)</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Aprendizagem de Criação: Entregue uma Glick</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Entregue missões já concluídas: Bolso Expandido e Bancada de Atualização</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <h3>Construção e Atualizações Finais</h3>
+            <ul>
+                <li>Entregue **"Cheio de Amor"** imediatamente.</li>
+                <li>Verifique a Estação de Construção: Você pode **construir a Loja de Armaduras** imediatamente. Entregue **"Construção Básica III"**.</li>
+                <li>Visite a nova Loja de Armaduras: **Compre Armadura Nível 2 e um Capacete de Aço**.</li>
+                <li>Na **Bancada**: **Pesquise todos os novos projetos** (para liberar espaço no inventário) e pesquise o projeto da **Estação de Reparo**.</li>
+                <li>Compre **Tesouras** e uma **Chave Inglesa** na máquina de venda automática e, em seguida, pesquise a **Estação de Desmontagem** na Bancada.</li>
+                <li>No **Aprimorador**: Atualize **Maestria em Armas I**.</li>
+                <li>Aceite as duas novas missões da Loja de Armaduras: **"Rota de Suprimentos"** (Marque a caixa de suprimentos) e **"Contabilidade"** (Entregue tinta, caneta, caderno).</li>
+                <li>O dia termina quando você fica sem dinheiro após essas grandes atualizações.</li>
+            </ul>
+        `
+  },
+
+  {
+    "id": 14,
+    "title": "Escape from Duckov Passo a Passo Parte 3: Chaves de Ground Zero e Chefe Pato Chapo",
+    "description": "O guia abrangente para a Parte 3 de Escape from Duckov. Aceite novas missões de comerciantes, construa a Estação Médica e a Loja de Armas e localize o Chefe Pato Chapo.",
+    "imageUrl": "/images/guide14.webp",
+    "imageAlt": "Um personagem do jogador em Escape from Duckov abrindo uma porta trancada com uma chave em Ground Zero.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "luta contra chefe", "pato chapo", "missoes de comerciantes", "meio do jogo"],
+    "seo": {
+      "title": "Escape from Duckov Guia Parte 3: Estação Médica, Chaves e Estratégia Pato Chapo",
+      "description": "Guia completo para Escape from Duckov Parte 3: construa instalações de base cruciais (Armas/Médica), use as chaves do Posto de Gasolina e da Cerca, encontre o quarto de hotel e derrote o Chefe Pato Chapo.",
+      "keywords": "Escape from Duckov Parte 3, Luta contra Chefe Pato Chapo, Chaves Ground Zero, Estação Médica, Loja de Armas, Chave do Quarto de Hotel, Passo a Passo"
+    },
+    "isHome": false,
+    "detailsHtml": `
+        <h2>Preparações da Base: Missões de Comerciantes e Instalações</h2>
+        <p>Comece o dia aceitando um novo lote de missões das instalações da base recém-estabelecidas e entregando submissões imediatas para maximizar a experiência e a moeda antes de voltar para Ground Zero.</p>
+  
+        <h3>Novas Missões Aceitas:</h3>
+        <p>Aceite novas missões de Mud, do Ferreiro de Armas, do Armeiro e da Máquina de Venda Automática para guiar sua próxima corrida:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Fonte (Comerciante)</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Mud (Fitness)</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Nutrição Balanceada II/III, Treinador Físico</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **Bebida Energética**, **Chocolate**, **Haltere**</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Ferreiro de Armas</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Pistola Genérica, Pena Estranha</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **Glick**, **Pena de Pavão**</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Armeiro / Estação Médica</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Assistência Médica</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **Kit Médico**</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Máquina de Venda Automática</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Autossuficiente, Chef Profissional</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **Água**, **Faca de Chef**</td>
+                </tr>
+            </tbody>
+        </table>
+  
+        <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">DICA:</strong> Entregue as missões **"Aprendizagem de Criação"** e **"Contabilidade"** antes de aceitar as novas para liberar o inventário e obter fundos imediatos.</p>
+  
+        <h3>Construção e Atualizações</h3>
+        <p>Use seus fundos e materiais atuais para finalizar a infraestrutura da base:</p>
+        <ul>
+            <li>**Construa a Estação Médica** e entregue a missão **"Construção Básica (Médica)"**. Aceite a missão **"Assistência Médica"** da nova estação.</li>
+            
+            <li>**Construa a Loja de Armas** e entregue a missão **"Construção Básica II"**. Aceite a missão **"Pena Estranha"** da nova loja.</li>
+            
+            <img src="/images/guide/guide14-01.webp" alt="Escape from Duckov passo a passo parte 3" class="guide-image" />
+  
+            <li>Realize quaisquer **atualizações de base** e **atualizações de habilidade** disponíveis (como Maestria em Armas) antes de se deslocar.</li>
+  
+            <img src="/images/guide/guide14-02.webp" alt="Escape from Duckov passo a passo parte 3" class="guide-image" />
+        </ul>
+  
+        <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero: Áreas Trancadas e Pistas Escondidas</h2>
+        <p>Equipado com as chaves e novo equipamento, você pode agora acessar áreas anteriormente trancadas em Ground Zero.</p>
+  
+        <h3>Posto de Gasolina Abandonado e Acesso à Cerca</h3>
+        <ul>
+            <li>Vá até o **Posto de Gasolina Abandonado** e **abra a porta com a chave** encontrada na Parte 2.</li>
+            <li>Lá dentro, saqueie uma **caixa de armas** com uma arma e munição. Você deve encontrar uma **chave para a cerca** dentro do posto (ou confirmar que já a tem).</li>
+            <li>Vá até a **cerca** perimetral e **abra-a** para acessar a próxima área do mapa.</li>
+        </ul>
+  
+        <h3>O Mistério da Beira da Estrada (Chave do Hotel)</h3>
+        <ul>
+            <li>Vá para o **acampamento na beira da estrada** e encontre uma **nota** contendo pistas para um novo local.</li>
+            <li>Siga as instruções da nota para encontrar um **cadáver**. Saqueie o corpo para adquirir uma **chave de um Quarto de Hotel**.</li>
+            <li>Prossiga para a localização do **hotel** e use a nova chave para **abrir o quarto**. Lá dentro, você deve encontrar outra **caixa de armas** e potencialmente uma nova **pista ou chave**.</li>
+        </ul>
+  
+        <h3>Localizando o Chefe: Pato Chapo</h3>
+        <p>As pistas repetidas e as localizações dos corpos provavelmente o levarão ao confronto final desta parte:</p>
+        <ul>
+            <li>Seguindo a última pista/nota, avance para o local designado, onde você provavelmente encontrará a área protegida pelo chefe.</li>
+            <li>Prepare-se para uma luta difícil contra o **Chefe: Pato Chapo**. (<em>Nota: Certifique-se de ter sua armadura atualizada, muita munição de nível superior e suprimentos médicos antes de engajar.</em>)</li>
+            <li>Após derrotar Pato Chapo, **saqueie o corpo** em busca de itens de alto valor e chaves/pistas essenciais necessárias para a próxima parte do passo a passo.</li>
+        </ul>
+    `
+  },
+
+  {
+    "id": 15,
+    "title": "Escape from Duckov Passo a Passo Parte 4: Chefe Duckmother e AS VAL",
+    "description": "O guia completo para a Parte 4 de Escape from Duckov. Aceite novas missões do Bunker, derrote a formidável Chefe Duckmother e garanta a poderosa arma AS VAL.",
+    "imageUrl": "/images/guide15.webp",
+    "imageAlt": "Um personagem do jogador lutando contra um grande chefe, a Duckmother, no acampamento abandonado de Escape from Duckov.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "luta contra chefe", "duckmother", "as val", "upgrades"],
+    "seo": {
+      "title": "Escape from Duckov Guia Parte 4: Derrotando Duckmother, Encontrando AS VAL e Missões do Bunker",
+      "description": "Passo a passo detalhado para Escape from Duckov Parte 4. Aprenda as atualizações de habilidade necessárias, complete missões de extermínio e submissão e domine a luta contra o chefe Duckmother.",
+      "keywords": "Escape from Duckov Parte 4, Estratégia do Chefe Duckmother, Localização da AS VAL, Acampamento Abandonado Ground Zero, Atualização de Reserva de Energia, Missão Teste de Desempenho"
+    },
+    "isHome": false,
+    "detailsHtml": `
+        <h2>Preparação do Bunker: Novas Missões e Atualizações de Habilidade</h2>
+        <p>Antes de voltar para Ground Zero, visite os comerciantes e o aprimorador para aceitar missões chave e aumentar a prontidão de combate do seu personagem para os novos desafios que se avizinham, incluindo a **Chefe Duckmother**.</p>
+  
+        <h3>Novas Missões Aceitas:</h3>
+        <p>Priorize estas missões para sua próxima corrida, pois elas se alinham com atividades comuns em Ground Zero e saque necessário:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Recompensa (EXP/Moeda)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Grande Armazenamento</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Caixa de Armazenamento Grande**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Eliminação de Mosquito</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **10 Mosquitos**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Atacado de Peças</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **5 Parafusos**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Teste de Desempenho</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Placa Gráfica**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Justiceiro</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **5 Catadores**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+              </tbody>
+        </table>
+  
+        <h3>Atualizações de Habilidade: Aprimorando a Eficácia de Combate</h3>
+        <p>Invista nestas habilidades essenciais antes do deslocamento para melhorar a sustentabilidade e a precisão em combate:</p>
+        <ul>
+            <li>**Reserva de Energia:** Aumenta a energia máxima em **+10**. (Permite mais corrida/rolamento)</li>
+  
+            <img src="/images/guide/guide15-01.webp" alt="Escape from Duckov passo a passo parte 4" class="guide-image" />
+  
+            <li>**Ingestão de Nutrientes:** Aumenta o efeito de comida e água em **+10%**. (Melhora a sustentação)</li>
+            <li>**Tiro Firme I:** Aumenta a precisão do tiro livre em **+10%**. (Crucial para combate a curta distância contra o Chefe)</li>
+        </ul>
+  
+        <h2>Ground Zero: Acampamento Abandonado e Chefe Duckmother</h2>
+        <p>Volte para Ground Zero focando nas missões de extermínio e localizando a nova área do chefe.</p>
+  
+        <h3>Progressão da Missão e Descoberta de Nova Arma</h3>
+        <ul>
+            <li>Concentre sua corrida em áreas conhecidas pela atividade de Catadores e corpos d'água para **matar 10 Mosquitos** e **5 Catadores**.</li>
+            <li>Saque caixas de ferramentas e caches eletrônicos para encontrar os **Parafusos** e a **Placa Gráfica** necessários para as missões de submissão.</li>
+            <li>Durante sua exploração, descubra a poderosa arma **VSS**, um achado valioso para engajamentos silenciosos.</li>
+            <li>Localize o **Acampamento Abandonado**, o novo local que você descobriu.</li>
+        </ul>
+  
+        <img src="/images/guide/guide15-03.webp" alt="Escape from Duckov passo a passo parte 4" class="guide-image" />
+  
+        <h3>A Luta contra o Chefe Duckmother</h3>
+        <p>A **Duckmother** é uma ameaça significativa localizada no Acampamento Abandonado. Prepare-se para uma luta que enfatiza movimento e alto rendimento de dano.</p>
+        <ul>
+            <li>**Dica de Estratégia:** Utilize sua **Reserva de Energia** aprimorada para corrida e desvio sustentados. Concentre o fogo no ponto fraco do Chefe (muitas vezes a cabeça ou uma mochila conspícua).</li>
+            <li>Após uma luta difícil, **derrote a Duckmother**.</li>
+            <li>Saqueie o corpo para encontrar uma **Chave para uma Sala Trancada** dentro do acampamento.</li>
+        </ul>
+  
+        <h3>Garantindo a AS VAL</h3>
+        <ul>
+            <li>Use a chave obtida da Duckmother para abrir a **Sala Trancada** dentro do Acampamento Abandonado.</li>
+            <li>Dentro da sala, você encontrará a arma altamente procurada, a **AS VAL**, um rifle silenciado de alto dano.</li>
+        </ul>
+  
+        <h2><span style="color: #DAA520;">&#127775;</span> Atividades Pós-Corrida</h2>
+        <ul>
+            <li>**Extraia** com sucesso e retorne ao Bunker.</li>
+            <li>**Entregue todas as missões concluídas** (Eliminação de Mosquito, Justiceiro, Atacado de Peças, Teste de Desempenho, etc.) e colete suas recompensas substanciais.</li>
+            <li>Aceite a **nova missão** do comerciante que é desbloqueada ao completar o conjunto anterior.</li>
+            <li>Visite o **Armeiro** para usar sua moeda recém-adquirida para **comprar um novo capacete** ou outro equipamento de proteção necessário.</li>
+        </ul>
+    `
+  },
+
+  {
+    "id": 16,
+    "title": "Escape from Duckov Passo a Passo Parte 5: Repetindo o Ciclo - O Encore da Duckmother",
+    "description": "O guia para a Parte 5 de Escape from Duckov. Aceite missões repetíveis de alta recompensa, maximize as habilidades de sobrevivência principais, derrote a Chefe Duckmother novamente e garanta loot de alto nível.",
+    "imageUrl": "/images/guide16.webp",
+    "imageAlt": "Um personagem do jogador usando a AS VAL em um quarto escuro no Acampamento Abandonado de Escape from Duckov.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "luta contra chefe", "missoes repetiveis", "maximizacao de habilidade", "farm run"],
+    "seo": {
+      "title": "Escape from Duckov Guia Parte 5: Maximizando Habilidades Essenciais e Corrida de Repetição da Duckmother",
+      "description": "Passo a passo detalhado para Escape from Duckov Parte 5, focando na conclusão de missões repetíveis de extermínio e submissão para farmar moeda e maximizar habilidades críticas como Reserva de Energia e Tiro Firme.",
+      "keywords": "Escape from Duckov Parte 5, Repetição da Duckmother, Max Reserva de Energia, Tiro Firme II, Corrida de Farm Ground Zero, Missão Teste de Desempenho II"
+    },
+    "isHome": false,
+    "detailsHtml": `
+        <h2>Preparação do Bunker: Missões Repetíveis e Maximização de Habilidade</h2>
+        <p>A Parte 5 envolve a repetição de missões de suprimento e extermínio de alto valor, muitas vezes marcadas com sufixos de numeração romana (II), que são excelentes para farmar experiência e moeda. Concentre-se em **maximizar as habilidades** essenciais de sobrevivência e combate antes de retornar a Ground Zero.</p>
+  
+        <h3>Novas/Missões Repetíveis Aceitas:</h3>
+        <p>Aceite as versões aprimoradas e repetíveis das missões do ciclo anterior dos comerciantes:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Recompensa (EXP/Moeda)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Grande Armazenamento II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Caixa de Armazenamento Grande**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Eliminação de Mosquito II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **10 Mosquitos**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Atacado de Peças II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **5 Parafusos**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Teste de Desempenho II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Placa Gráfica**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Justiceiro II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **5 Catadores**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+            </tbody>
+        </table>
+  
+        <h3>Atualizações de Habilidade: Alcançando o Nível II</h3>
+        <p>Utilize o Aprimorador para atualizar para as habilidades de Nível II, aumentando ainda mais a eficiência e a capacidade de sobrevivência:</p>
+        <ul>
+            <li>**Reserva de Energia II:** Aumenta a energia máxima em **+10** (Total +20, essencial para fugas/sprint).</li>
+            <li>**Ingestão de Nutrientes II:** Aumenta o efeito de comida e água em **+10%** (Total +20%, melhora drasticamente a cura/hidratação).</li>
+            <li>**Tiro Firme II:** Aumenta a precisão do tiro livre em **+10%** (Total +20%, torna o combate de curto alcance e o tiro em movimento altamente eficazes).</li>
+        </ul>
+  
+        <img src="/images/guide/guide16-02.webp" alt="Escape from Duckov passo a passo parte 5" class="guide-image" />
+  
+        <h2>Ground Zero: Farm de Recursos e Encore do Chefe</h2>
+        <p>Os objetivos para esta corrida são completar rapidamente as cotas de extermínio, coletar itens de submissão e se preparar para enfrentar a **Duckmother** novamente para obter loot lucrativo e drops de chaves.</p>
+  
+        <h3>Farm de Recursos e Extermínio</h3>
+        <ul>
+            <li>Concentre sua corrida em áreas ricas em componentes eletrônicos e caixas de ferramentas para encontrar rapidamente os **Parafusos** e a **Placa Gráfica** necessários.</li>
+            
+            <img src="/images/guide/guide16-01.webp" alt="Escape from Duckov passo a passo parte 5" class="guide-image" />
+  
+            <li>Complete as missões **Eliminação de Mosquito II (10 abates)** e **Justiceiro II (5 abates)** de forma eficiente.</li>
+            <li>Como você provavelmente já encontrou a **VSS** anteriormente, esta corrida confirma sua existência contínua ou oferece outra chance de adquiri-la.</li>
+            <li>Relocalize o **Acampamento Abandonado** onde o chefe nasce.</li>
+        </ul>
+  
+        <h3>Derrotando a Duckmother (Repetição)</h3>
+        <p>A **Duckmother** é o objetivo principal, pois derrotá-la concede acesso ao quarto trancado. Use sua nova habilidade **Tiro Firme II** e reservas de energia superiores para enfrentá-la agressivamente.</p>
+        <ul>
+            <li>Após derrotar a **Duckmother**, ela deixará cair novamente a **Chave para uma Sala Trancada** no acampamento.</li>
+            <li>Use a chave para acessar a Sala Trancada e recuperar a poderosa arma **AS VAL** (ou seus componentes/munição de alto valor se você já a possui).</li>
+        </ul>
+  
+        <h2>Atividades Pós-Corrida</h2>
+        <ul>
+            <li>**Extraia** com sucesso e retorne ao Bunker.</li>
+            <li>**Entregue todas as missões concluídas** (Eliminação de Mosquito II, Justiceiro II, etc.) e colete suas recompensas.</li>
+            <li>Aceite a **nova missão** do comerciante que é desbloqueada ao completar este conjunto.</li>
+            <li>Visite o **Armeiro** para usar sua moeda acumulada para **comprar um novo capacete** ou atualizar sua armadura para o nível mais alto disponível, preparando-se para o próximo desafio único.</li>
+        </ul>
+    `
+  },
+
+  {
+    "id": 17,
+    "title": "Escape from Duckov Passo a Passo Parte 6: Maximização Final de Habilidade e Farm do Chefe",
+    "description": "O guia definitivo para a Parte 6 de Escape from Duckov. Complete o nível final de missões repetíveis (III), maximize as habilidades essenciais de sobrevivência e combate e prepare-se para a próxima grande zona.",
+    "imageUrl": "/images/guide17.webp",
+    "imageAlt": "Uma foto em close-up do rifle AS VAL nas mãos do jogador dentro do quarto trancado do Acampamento Abandonado.",
+    "publishDate": "2025-11-03",
+    "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
+    "category": "walkthroughs",
+    "tags": ["walkthrough", "ground zero", "maximizacao de habilidade", "farm do chefe", "nivel iii", "preparacao final"],
+    "seo": {
+      "title": "Escape from Duckov Guia Parte 6: Maximizando Habilidades de Nível III e Corrida Final da Duckmother",
+      "description": "Guia completo para Escape from Duckov Parte 6. Aprenda a finalizar todas as atualizações de habilidade de Nível III (Energia, Nutriente, Tiro Firme) e execute o ciclo final de farm de recursos e chefes de alta recompensa.",
+      "keywords": "Escape from Duckov Parte 6, Habilidades Nível III, Max Reserva de Energia, Tiro Firme III, Farm da Duckmother, Preparação Final do Bunker, AS VAL"
+    },
+    "isHome": false,
+    "detailsHtml": `
+        <h2>Preparação do Bunker: Missões Finais de Nível III e Atualizações Máximas</h2>
+        <p>Este é o loop repetível final projetado para levar as estatísticas base do seu personagem ao seu potencial máximo. Concentre-se em aceitar todas as missões de **Nível III** e investir totalmente em suas habilidades essenciais.</p>
+  
+        <h3>Missões de Nível Final Aceitas:</h3>
+        <p>Aceite as missões de recompensa mais alta para alimentar suas atualizações finais e entrada na próxima zona:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Recompensa (EXP/Moeda)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Grande Armazenamento III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Caixa de Armazenamento Grande**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Eliminação de Mosquito III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **10 Mosquitos**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Atacado de Peças III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **5 Parafusos**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Teste de Desempenho III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Placa Gráfica**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Justiceiro III</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **5 Catadores**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+            </tbody>
+        </table>
+  
+        <img src="/images/guide/guide17-01.webp" alt="Escape from Duckov passo a passo parte 6" class="guide-image" />
+  
+        <h3>Maximização de Habilidade: Alcançando o Desempenho Máximo</h3>
+        <p>Esta é a oportunidade de **maximizar** essas habilidades críticas, impactando significativamente seu desempenho futuro:</p>
+        <ul>
+            <li>**Reserva de Energia III:** Aumenta a energia máxima em **+10**. (Fornece capacidade máxima de sprint/desvio).</li>
+            <li>**Ingestão de Nutrientes III:** Aumenta o efeito de comida e água em **+10%**. (Maximiza a cura passiva e a eficiência de recursos).</li>
+            <li>**Tiro Firme III:** Aumenta a precisão do tiro livre em **+10%**. (Torna o combate de curto alcance extremamente confiável).</li>
+        </ul>
+  
+        <h2>Ground Zero: A Corrida Final de Farm</h2>
+        <p>Seu objetivo permanece o mesmo: completar as cotas de extermínio e recursos e derrotar a **Duckmother** uma última vez para garantir recursos máximos e acessar a AS VAL por seus componentes ou munição.</p>
+  
+        <h3>Objetivos da Corrida</h3>
+        <ul>
+            <li>Garanta rapidamente os **Parafusos** e a **Placa Gráfica** necessários e complete as cotas **Eliminação de Mosquito III** e **Justiceiro III**.</li>
+            <li>Confirme a localização do **Acampamento Abandonado** e prepare-se para o encontro com o chefe.</li>
+            <li>(Opcional: Se você ainda precisar da arma, procure a **VSS** novamente).</li>
+        </ul>
+  
+        <h3>O Encontro Final com a Duckmother</h3>
+        <p>Com suas habilidades de Nível III totalmente maximizadas, a **Duckmother** deve ser mais fácil de lidar. Envolva-a usando sua **Reserva de Energia** máxima para fugas sustentadas e utilize o **Tiro Firme III** para devastadores tiros livres de curto alcance.</p>
+        <ul>
+            <li>Derrote a **Duckmother** e recupere a **Chave para a Sala Trancada**.</li>
+            <li>Acesse a Sala Trancada para coletar a **AS VAL** (ou sua munição/componentes de alto valor).</li>
+        </ul>
+  
+        <h2>Atividades Pós-Corrida: Preparando-se para o Próximo Mapa</h2>
+  
+        <img src="/images/guide/guide17-02.webp" alt="Escape from Duckov passo a passo parte 6" class="guide-image" />
+  
+        <ul>
+            <li>**Extraia** e retorne ao Bunker.</li>
+            <li>**Entregue todas as missões de Nível III concluídas** e reivindique suas recompensas substanciais.</li>
+            <li>Aceite a **nova missão** do comerciante – esta missão será tipicamente o **objetivo de transição** para o próximo local ou mapa principal.</li>
+            <li>Visite o **Armeiro** para usar sua riqueza acumulada para comprar o **capacete de nível mais alto** e armadura corporal disponíveis, confirmando sua prontidão para os desafios da próxima zona.</li>
+        </ul>
+    `
+  },
+
+  {
+    "id": 3,
+    "title": "Exploração Avançada de Ground Zero e Expansão da Base",
+    "description": "Domine expedições avançadas em Ground Zero, complete cadeias de missões complexas e expanda suas instalações de base com este passo a passo abrangente de meio de jogo.",
+    "imageUrl": "/images/guide-03.webp",
+    "imageAlt": "Exploração Avançada de Ground Zero e Expansão da Base",
+    "publishDate": "2025-10-27",
+    "addressBar": "/advanced-ground-zero-exploration-base-expansion",
+    "category": "walkthroughs",
+    "tags": [
+      "EXPLORAÇÃO AVANÇADA",
+      "EXPANSÃO DE BASE",
+      "CADEIAS DE MISSÕES",
+      "ATUALIZAÇÕES DE EQUIPAMENTO",
+      "GROUND ZERO"
+    ],
+    "seo": {
+      "title": "Exploração Avançada de Ground Zero e Expansão da Base - Escape from Duckov",
+      "description": "Domine expedições avançadas em Ground Zero, complete cadeias de missões complexas e expanda suas instalações de base com este passo a passo abrangente de meio de jogo.",
+      "keywords": "Escape from Duckov, Passo a Passo Avançado, Exploração Ground Zero, Expansão de Base, Cadeias de Missões, Atualizações de Equipamento, Guia de Meio de Jogo"
+    },
+    "isHome": false,
+    "detailsHtml": `
+              <p>Este passo a passo avançado cobre a progressão de meio de jogo em <a href="/">Escape from Duckov</a>, focando em expedições complexas em Ground Zero, expansão de instalações de base e conclusão de cadeias de missões intrincadas. Perfeito para jogadores prontos para enfrentar conteúdo mais desafiador.</p>
+              
+              <h2>1. Exploração Avançada de Ground Zero</h2>
+              <img src="/images/guide/guide03-01.webp" alt="Advanced Ground Zero Exploration" class="guide-image" />
+              <h3>Missão da Torre Norte</h3>
+      
+              <p><strong>Missão da Torre de Sinal:</strong> Siga em direção ao Acampamento da Estrada (Road Camp) e localize a torre norte. Procure na caixa de ferramentas por **2 Placas de Metal**, pregos e uma **Chave de Fenda de Ponta Chata**.</p>
+              <p><strong>Interação com a Caixa de Força:</strong> Interaja com a caixa de força na base da torre para completar o objetivo da missão Torre de Sinal.</p>
+              <p><strong>Descoberta de Planta:</strong> Mova-se para a direita da torre para encontrar a planta da **Potato Graphics Card** - essencial para criação avançada.</p>
+      
+              <img src="/images/guide/guide03-02.webp" alt="Northern Tower Mission" class="guide-image" />
+      
+              <h3>Abordagem do Acampamento da Estrada</h3>
+              <p><strong>Novo Tipo de Inimigo:</strong> Encontre **inimigos avançados portando espingardas** perto do Acampamento da Estrada. Esses inimigos exigem posicionamento cuidadoso e munição adequada.</p>
+              <p><strong>Aquisição de Equipamento:</strong> Derrote inimigos para obter espingardas **MP-155**, <a href="/items/equipment">capacetes de motocicleta</a> e suprimentos médicos. Navegue em nosso <a href="/items/equipment">banco de dados de equipamentos</a> para todo o equipamento de proteção disponível.</p>
+              <p><strong>Reparo da Ponte:</strong> Use **2 pedaços de madeira** para reparar a ponte quebrada que leva ao Acampamento da Estrada. Verifique os esconderijos sob os postes elétricos em busca de saque adicional.</p>
+              
+              <h2>2. Interações com NPCs e Novas Missões</h2>
+              
+              <h3>Mud, o Treinador</h3>
+      
+              <p><strong>Localização:</strong> Encontrado em uma casa perto do Acampamento da Estrada - um pato musculoso que oferece serviços de treinamento corporal.</p>
+              <p><strong>Atribuição de Missão:</strong> Aceite "**Balanced Nutrition 1**" de Mud para oportunidades de aprimoramento físico.</p>
+              
+              <h3>Missão Nutrição Equilibrada</h3>
+      
+              <img src="/images/guide/guide03-03.webp" alt="Mud the Trainer" class="guide-image" />
+      
+              <p><strong>Objetivo:</strong> Entregar **1x Duck Egg** (Ovo de Pato)</p>
+              <p><strong>Recompensas:</strong> 800 XP, 500 Moedas</p>
+              <p><strong>Estratégia:</strong> Ovos de pato podem ser encontrados em vários locais em Ground Zero - priorize a coleta durante as expedições.</p>
+              
+              <h2>3. Exploração de Cavernas e Saque Avançado</h2>
+              
+              <h3>Acesso à Caverna</h3>
+              <p><strong>Reparo da Ponte:</strong> Repare a ponte perto da entrada da caverna usando materiais coletados para acessar áreas ocultas.</p>
+              <p><strong>Saque de Alto Valor:</strong> A caverna contém equipamento premium, incluindo:</p>
+              <ul>
+                  <li><strong>Armas:</strong> Pistol Muzzle, UP 45, AK-47, Hip-fire attachment. Verifique nosso <a href="/items/weapons">banco de dados de armas</a> para informações detalhadas sobre armas</li>
+                  <li><strong>Munição:</strong> Vários tipos de munição e Laser attachment. Navegue por <a href="/items/ammunition">todos os tipos de munição</a> para detalhes de compatibilidade</li>
+                  <li><strong>Plantas:</strong> Receitas da Cube Gun e Small Energy Ammo</li>
+              </ul>
+              
+              <h3>Infiltração no Acampamento Noroeste</h3>
+              <p><strong>Abordagem Furtiva:</strong> Navegue cuidadosamente até o Acampamento Noroeste, limpando acampamentos inimigos menores ao longo do caminho.</p>
+              <p><strong>Coleta de Itens de Missão:</strong> Recupere a "**Letter from Old Friend**" (Carta de um Velho Amigo) de dentro da barraca para a conclusão da missão.</p>
+              <p><strong>Descobertas Adicionais:</strong> Encontre a receita da **Crowbar** (Pé de Cabra) em caixas de dados próximas e notas de aviso do **Ground Zero Watch Log**.</p>
+              
+              <h2>4. Encontros de Combate Desafiadores</h2>
+              
+              <h3>Luta contra o Chefe Inimigo de Capuz</h3>
+              <p><strong>Descrição do Inimigo:</strong> Um inimigo fortemente armado usando um capuz e empunhando uma espingarda - significativamente mais perigoso do que inimigos comuns.</p>
+              <p><strong>Preparação para o Combate:</strong> Certifique-se de ter munição e suprimentos médicos suficientes antes de atacar.</p>
+              <p><strong>Integração de Missão:</strong> Use bandagens durante o combate para completar a missão "**The Importance of Bleeding Control**" (A Importância do Controle de Sangramento).</p>
+              <p><strong>Coleta de Recompensa:</strong> Derrote o inimigo para obter as **Black Market Contact Notes** (Notas de Contato do Mercado Negro) e **Advanced AP Shotgun Shells** (Cartuchos de Espingarda AP Avançados).</p>
+              
+              <h3>Gestão de Recursos</h3>
+              <p><strong>Aviso de Desidratação:</strong> Monitore seus níveis de hidratação - a desidratação pode ocorrer durante expedições prolongadas.</p>
+              <p><strong>Coleta de Chaves:</strong> Reúna as chaves **Abandoned Gas Station** e **Fence**, além de mira holográfica antes da extração. Verifique nosso <a href="/items/key">banco de dados de chaves</a> para locais e informações de uso das chaves.</p>
+              
+              <h2>5. Expansão das Instalações da Base</h2>
+              
+              <h3>Novas Missões de Construção</h3>
+              <p><strong>Basic Construction II:</strong> Construir Loja de Armas no Bunker</p>
+              <p><strong>Basic Construction III:</strong> Construir Loja de Armaduras no Bunker</p>
+              <p><strong>Medical Construction:</strong> Construir Estação Médica no Bunker</p>
+              <p><strong>Tech Expert:</strong> Entregar uma Pilha de Componentes Eletrônicos</p>
+              
+              <h3>Missões de Combate e Habilidade</h3>
+              <p><strong>Aim for the Head:</strong> Mate 5 inimigos com tiros na cabeça em Ground Zero</p>
+              <p><strong>Expanded Pocket:</strong> Desbloquear Backpack Expert 1 (se ainda não estiver concluído)</p>
+              <p><strong>Upgrade Workbench:</strong> Desbloquear Advanced Processing (se ainda não estiver concluído)</p>
+              
+              <h3>Missões de Entrega de Recursos</h3>
+              <p><strong>Full of Love:</strong> Entregar 1888 Moedas por recompensas significativas</p>
+              <p><strong>Crafting Apprenticeship:</strong> Entregar uma pistola Glick para conhecimento de criação</p>
+              <p><strong>Bookkeeping:</strong> Entregar Tinta, Caneta e Caderno para tarefas administrativas</p>
+              
+              <h2>6. Atualizações de Equipamento e Instalações</h2>
+              
+              <h3>Construção da Loja de Armaduras</h3>
+              <p><strong>Disponibilidade Imediata:</strong> A Loja de Armaduras pode ser construída imediatamente com os materiais disponíveis.</p>
+              <p><strong>Compras de Equipamento:</strong> Adquira **Armadura Corporal Nível 2** e **Capacete de Aço** para melhorias significativas na proteção. Navegue em nosso <a href="/items/equipment">catálogo completo de equipamentos</a> para comparar todas as opções de armadura disponíveis.</p>
+              <p><strong>Atribuições de Missão:</strong> Aceite as missões **Supply Route** e **Bookkeeping** na loja de armaduras.</p>
+              
+              <h3>Aprimoramentos da Bancada</h3>
+              <p><strong>Pesquisa de Planta:</strong> Pesquise todas as plantas coletadas para liberar espaço no inventário e desbloquear novas opções de criação.</p>
+              <p><strong>Pesquisa da Estação de Reparo:</strong> Desbloqueie recursos de **reparo de armas** para equipamentos danificados.</p>
+              <p><strong>Estação de Desmontagem:</strong> Pesquise recursos de **desmontagem** usando tesoura e chave inglesa da máquina de vendas.</p>
+              
+              <h3>Progressão do Personagem</h3>
+              <p><strong>Gun Mastery I:</strong> Atualize a proficiência em armas de fogo no aprimorador para melhorar a eficácia em combate.</p>
+              <p><strong>Priorização de Habilidades:</strong> Concentre-se em aprimoramentos relacionados ao combate para os próximos encontros desafiadores.</p>
+              
+              <h2>7. Gestão Avançada de Missões</h2>
+              
+              <h3>Missão Rota de Suprimentos (Supply Route)</h3>
+              <p><strong>Localização:</strong> Ground Zero</p>
+              <p><strong>Objetivo:</strong> Marcar a caixa de suprimentos com um **Marcador** (disponível no armazenamento)</p>
+              <p><strong>Estratégia:</strong> Use marcadores coletados anteriormente para completar este objetivo de forma eficiente.</p>
+              
+              <h3>Planejamento de Recursos</h3>
+              <p><strong>Gestão de Moedas:</strong> Monitore seus recursos financeiros - equipamentos e atualizações avançados exigem investimento significativo.</p>
+              <p><strong>Coleta de Materiais:</strong> Priorize a coleta de materiais para futuros projetos de construção.</p>
+              <p><strong>Otimização de Inventário:</strong> Pesquise regularmente plantas e organize o armazenamento para manter uma gestão eficiente do inventário.</p>
+              
+              <h2>Conclusion</h2>
+              <p>Este passo a passo avançado cobre a crucial progressão de meio de jogo em Escape from Duckov. Você concluiu com sucesso expedições complexas em Ground Zero, expandiu suas instalações de base e desbloqueou recursos avançados de criação. Verifique nosso <a href="/wiki/quests">banco de dados de missões</a> para todos os detalhes das missões disponíveis. Concentre-se em completar as novas cadeias de missões, atualizar seu equipamento e se preparar para conteúdo ainda mais desafiador. Explore mais <a href="/guides">guias avançados</a>, incluindo guias de acesso à Storm Zone. A base que você construiu será essencial para sobreviver às áreas mais perigosas de Duckov.</p>
+              `
+  },
+
+  {
     "id": 5,
     "title": "Acesso à Zona de Tempestade e Guia do Chefe Roadblock",
     "description": "Guia completo para acessar a Zona de Tempestade, incluindo ativação de energia, aquisição de certificado, estratégia para o chefe Roadblock e preparação essencial para a área mais perigosa de Duckov.",
@@ -679,101 +1343,108 @@ export const guides = [
               <p>A Zona de Tempestade representa o auge do desafio em Escape from Duckov. O sucesso requer preparação meticulosa, equipamento ideal e domínio de técnicas avançadas de combate. Verifique nosso <a href="/wiki/quests">banco de dados de missões</a> para requisitos de certificados relacionados a missões. Siga este guia cuidadosamente, prepare-se completamente e lembre-se de que a sobrevivência na Zona de Tempestade exige respeito por seus perigos extremos. Para mais estratégias avançadas, explore nossa <a href="/guides">coleção completa de guias</a>. Boa sorte com sua fuga final de Duckov!</p>
               `
   },
+
   {
     "id": 6,
-    "title": "escape from duckov ledx",
-    "description": "Procurando pelo indescritível LEDX em Escape from Duckov? Este guia detalha os melhores métodos de aquisição, cobrindo locais de surgimento, uso de chaves, drops de inimigos e valor de mercado. Maximize suas chances de encontrar este item médico vital e descubra dicas inteligentes de negociação!",
+    "title": "Guia de Aquisição de LEDX para Escape from Duckov (Atualização)",
+    "description": "À procura do elusivo LEDX em Escape from Duckov? Este guia detalha os melhores métodos de aquisição, cobrindo locais de surgimento (spawn), uso de chaves, drops de inimigos e valor de mercado. Maximize as suas chances de encontrar este item médico vital e descubra dicas de comércio inteligentes!",
     "tags": [
       "Escape from Duckov",
       "LEDX",
       "Item Raro",
-      "Guia de Saque",
+      "Guia de Saques",
       "Chave do Sanatório"
     ],
-    "publishDate": "2025-10-28",
+    "publishDate": "2025-11-11",
     "imageUrl": "/images/guide/guide06-01.webp",
-    "imageAlt": "Um Transiluminador de Pele LEDX em Escape from Duckov exibido em uma bancada.",
+    "imageAlt": "Um Transiluminador de Pele LEDX em Escape from Duckov exibido numa bancada de trabalho.",
     "category": "advanced",
-    "seo": {
-      "title": "Escape from Duckov LEDX: O Guia Definitivo de Aquisição",
-      "description": "Aprenda a encontrar o raro LEDX em Escape from Duckov. Obtenha dicas sobre locais de surgimento, requisitos de chave, estratégias de negociação e implicações de missões para maximizar o lucro!",
-      "keywords": "escape from duckov, ledx, guia de saque, sanatório, chave, item raro, negociação, missões"
-    },
     "isHome": false,
+    "seo": {
+      "title": "LEDX de Escape from Duckov: O Guia Definitivo de Aquisição",
+      "description": "Aprenda a encontrar o raro LEDX em Escape from Duckov. Obtenha dicas sobre locais de surgimento, requisitos de chaves, estratégias de comércio e implicações de missões para maximizar o lucro!",
+      "keywords": "escape from duckov, ledx, guia de saques, sanatório, chave, item raro, comércio, missões"
+    },
     "addressBar": "/escape-from-duckov-ledx",
     "detailsHtml": `
-              <h2 style="font-size: 1.5em; font-weight: bold;">
-        <span>escape from duckov ledx</span>
-      </h2>
-      <p style="margin: 1em 0px;">
-          O Transiluminador de Pele LEDX em <a href="/">Escape from Duckov</a> é um item altamente procurado e incrivelmente **raro**, cobiçado por seu **alto valor de mercado** e papel crucial em várias missões de late-game.
-          Adquirir este dispositivo médico pode aumentar significativamente sua riqueza e progresso. Este guia abrangente fornece informações detalhadas sobre onde e como encontrar o LEDX, seu valor no mercado e recomendações estratégicas para seu uso. Verifique nosso <a href="/wiki/quests">banco de dados de missões</a> para ver quais missões exigem o LEDX.
-          </p>
-      <img src="/images/guide/guide06-02.webp" alt="LEDX-1">
-      
-      <h3 style="font-size: 1.17em; font-weight: bold;">
-        <span >Sobre o LEDX</span>
-      </h3>
-      <p style="margin: 1em 0px;">
-        <span>
-          O LEDX Skin Transilluminator é categorizado como um **item médico** dentro de Escape from Duckov. Seu propósito principal é aumentar a visibilidade dos vasos sanguíneos, facilitando injeções mais fáceis e precisas.
-          Pesando apenas 0,2kg, é relativamente leve, tornando-o uma adição gerenciável ao seu inventário. Sua raridade e valor o tornam um alvo de alta prioridade para muitos jogadores, seja para uso pessoal, completar tarefas ou capitalizar seu valor de mercado.
-          Lembre-se que encontrar o LEDX em Escape from Duckov requer paciência e uma abordagem estratégica. Para mais guias e estratégias de saque, explore nossa <a href="/guides">coleção completa de guias</a>.
-        </span>
+      <p><em>Um Guia Eficiente para Encontrar e Usar o LEDX</em></p>
+      <p>Encontrar o **Transiluminador de Pele LEDX** em *Escape from Duckov* é um objetivo chave para aprimorar o seu esconderijo (hideout) e progredir no jogo. Este item raro não é apenas valioso pelo seu preço de mercado, mas também é essencial para missões cruciais e melhorias do esconderijo. Saber onde procurar e para que guardá-lo pode tornar a sua busca muito mais eficiente.</p>
+  
+      <h2>**O Que É um LEDX? - Uma Visão Geral**</h2>
+      <ul>
+          <li>**Propósito:** Usado para tornar os vasos sanguíneos visíveis para facilitar a injeção.</li>
+          <li>**Peso:** 0.2kg</li>
+          <li>**Tipo de Item:** Médico</li>
+          <li>**Número do Item:** "#331"</li>
+      </ul>
+      <p><img src="/images/guide/guide06-01.webp" alt="LEDX-1"></p>
+  
+      <h2>**Usos Principais: Por Que o LEDX É Tão Importante?**</h2>
+      <p>Antes de considerar vender este item de alto valor, compreenda os seus dois usos críticos no jogo. Um LEDX **encontrado em raid (found-in-raid)** é um marco importante na sua progressão.</p>
+  
+      <h3>**1. Missão da Terapeuta: "Private Clinic"**</h3>
+      <p>No nível 35, a Terapeuta oferecerá esta missão, exigindo que você entregue um **LEDX encontrado em raid** juntamente com um oftalmoscópio. A recompensa é uma **Caixa de Itens (Item Case)** altamente valiosa, que fornece uma enorme quantidade de espaço de armazenamento e muda o jogo na gestão do seu estoque (stash).</p>
+  
+      <h3>**2. Melhoria do Esconderijo: Posto Médico Nível 3**</h3>
+      <p>Melhorar o Posto Médico do seu esconderijo para o nível máximo (Nível 3) requer **um LEDX**. Esta melhoria é essencial, pois aumenta a sua **eficácia de cura** geral e desbloqueia mais receitas de criação para itens médicos avançados.</p>
+  
+      <h2>**Onde Encontrar LEDX - Principais Locais**</h2>
+      <p>Embora um LEDX possa teoricamente surgir em muitos locais de saques médicos de alto nível, alguns pontos são muito mais confiáveis do que outros. Concentre os seus esforços nestas áreas para maximizar as suas hipóteses.</p>
+  
+      <table>
+          <thead>
+              <tr>
+                  <th>Local</th>
+                  <th>Pontos de Surgimento Comuns</th>
+                  <th>Notas</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>**Farmtown Pharmacies (Farmácias de Farmtown)**</td>
+                  <td>Prateleiras, mesas, sacos médicos</td>
+                  <td>Considerado um dos surgimentos de LEDX mais confiáveis e consistentes.</td>
+              </tr>
+              <tr>
+                  <td>**Acampamento USEC (Woods)**</td>
+                  <td>Macas, corpos, sacos médicos</td>
+                  <td>Uma taxa de surgimento de LEDX muito alta, tornando-o um local principal de farming.</td>
+              </tr>
+              <tr>
+                  <td>**Lab Areas (Áreas de Laboratório)**</td>
+                  <td>Carrinhos médicos, prateleiras, latas de metal</td>
+                  <td>Alto risco, alta recompensa. Requer chaves e navegação cuidadosa.</td>
+              </tr>
+          </tbody>
+      </table>
+  
+      <h3>**Como Adquirir LEDX de Forma Eficiente**</h3>
+      <p>
+          **Local 1: Dirija-se às Farmtown Pharmacies**
+          <br>Entre no distrito comercial e localize as duas farmácias. Verifique sistematicamente cada prateleira, mesa e saco médico solto à procura do LEDX.
       </p>
-      
-      <h3 style="font-size: 1.17em; font-weight: bold;">
-        <span >Métodos de Aquisição do LEDX</span>
-      </h3>
-      <ol>
-        <li><strong>Pontos de Surgimento de Saque Aleatórios:</strong>
-          <span > O método mais comum envolve a busca em pontos de surgimento de saque específicos em vários mapas. O **Sanatório**, particularmente uma sala específica contendo uma cama, é um local conhecido para o surgimento de LEDX. No entanto, lembre-se que as taxas de surgimento são aleatórias.</span>
-        </li>
-        <li><strong>Chaves de Sala:</strong>
-          <span > O acesso a certas salas, como aquelas que exigem a <strong>"Chave de Sala 2 do Sanatório"</strong>, aumenta suas chances de encontrar um LEDX. Essas salas geralmente contêm saque de nível superior, tornando-as investimentos que valem a pena. Navegue em nosso <a href="/items/key">banco de dados de chaves</a> para encontrar todas as chaves disponíveis. Fique de olho nessas chaves enquanto explora.</span>
-        </li>
-        <li><strong>Drops de Inimigos:</strong>
-          <span > Embora menos frequente, derrotar inimigos como Scavs, Raiders e Chefes oferece uma pequena chance de eles deixarem cair um LEDX. Mirar em áreas de alto valor com maior presença inimiga pode melhorar suas chances.</span>
-        </li>
-        <li><strong>Caixa Scav (Scav Case):</strong>
-          <span > Usar a Caixa Scav em seu esconderijo pode potencialmente render um LEDX, embora seja um resultado muito raro. Este é um método passivo para tentar adquirir o item.</span>
-        </li>
-        <li><strong>Criação (Crafting):</strong>
-          <span > Embora você não possa criar o LEDX diretamente, ter outros itens necessários pode levar a oportunidades de trocá-lo ou barganhar por chaves para locais onde os LEDX's surgem.</span>
-        </li>
-        <li><strong>Mercado de Pulgas (Flea Market):</strong>
-          <span > Embora você não possa comprar diretamente de comerciantes, o Mercado de Pulgas permite transações entre jogadores. Isso pode não ser confiável, mas pode dar uma estimativa do valor atual do LEDX.</span>
-        </li>
-        <li><strong>Recompensas de Missões:</strong>
-          <span > Algumas missões raras oferecerão o LEDX como recompensa, então fique de olho! Verifique nosso <a href="/wiki/quests">banco de dados completo de missões</a> para todas as recompensas de missões.</span>
-        </li>
-      </ol>
-      
-      <h3 style="font-size: 1.17em; font-weight: bold;">
-        <span >FAQ</span>
-      </h3>
-      <ol>
-        <li><span >Qual é o valor de mercado de um LEDX em Escape from Duckov?</span></li>
-        <li><span >O LEDX pode atingir até <strong>16.250 HKD</strong> no mercado, tornando-o um item lucrativo para venda. Os preços podem flutuar, então fique de olho nas tendências do mercado.</span></li>
-        <li><span >Posso comprar o LEDX de comerciantes?</span></li>
-        <li><span >Não, o LEDX <strong>não pode ser comprado</strong> diretamente de comerciantes. Seu valor de compra é exibido como "???" devido à sua indisponibilidade através desses canais.</span></li>
-        <li><span >Quantos LEDX devo guardar para missões?</span></li>
-        <li><span >É recomendado guardar pelo menos <strong>5 LEDX</strong> para futuras missões e fins de criação. Isso economizará tempo e dinheiro a longo prazo.</span></li>
-        <li><span >Quais chaves são mais úteis para encontrar LEDX?</span></li>
-        <li><span >A <strong>"Chave de Sala 2 do Sanatório"</strong> é uma chave particularmente valiosa de se adquirir, pois desbloqueia salas conhecidas por saque de nível superior, incluindo o potencial para surgimento de LEDX.</span></li>
-        <li><span >É melhor vender ou guardar um LEDX no início do jogo?</span></li>
-        <li><span >Embora seja tentador vender por dinheiro rápido, considere o valor de guardar alguns para as próximas missões. Se você tiver mais de 5, vender os extras é uma escolha razoável.</span></li>
-      </ol>
-      
-      <p style="margin: 1em 0px;">
-        <span >
-          Em resumo, o LEDX em Escape from Duckov é um item valioso e raro com importância tanto econômica quanto estratégica.
-          Garantir um LEDX em Escape from Duckov requer paciência, conhecimento dos locais de surgimento e um pouco de sorte.
-          Saber como obter, valorizar e utilizar o LEDX pode impactar significativamente sua progressão e sucesso financeiro dentro do jogo. Boa sorte em sua caçada!
-        </span>
+      <p>
+          **Local 2: Visite o Acampamento USEC no Mapa Woods**
+          <br>Vá para a área do acampamento USEC e procure nas macas, corpos e contentores médicos. Este é um ponto de acesso para todos os tipos de saques médicos valiosos.
       </p>
+      <p>
+          **Local 3: Explore as Lab Areas**
+          <br>Esta é uma opção de alto risco. Use chaves para destrancar as portas das salas médicas (por exemplo, no Sanatório) e verifique os carrinhos médicos, prateleiras e latas de metal. A densidade de saques é alta, mas o perigo também é.
+      </p>
+      <p><img src="/images/guide/guide06-02.webp" alt="LEDX2" width="50%" style="width: 50%;"></p>
+  
+      <h2>**Valor e Recomendações de Comércio**</h2>
+      <p>Um LEDX é vendido por um preço muito alto no Mercado de Pulgas (Flea Market) (frequentemente **16.250 HKD** ou mais), tornando tentador vendê-lo imediatamente. No entanto, isto é geralmente um erro.</p>
       
-              `
+      <p>**Forte Recomendação: NÃO se apresse a vendê-lo!**</p>
+      <ul>
+          <li>**Guarde pelo menos dois:** Precisará de um para a melhoria do Posto Médico e outro para a missão "Private Clinic". Certifique-se de que tem estes garantidos antes de vender quaisquer extras.</li>
+          <li>**A experiência dos jogadores confirma isto:** Como os jogadores frequentemente aconselham: "Você precisará de 3 para tarefas posteriores" e "Você usará estes para criar itens importantes mais tarde. Certifique-se de guardar alguns." Priorize a sua progressão em vez do lucro a curto prazo.</li>
+      </ul>
+  
+      <h2>**Resumo**</h2>
+      <p>O LEDX é um item raro com valor económico e estratégico significativo. Ao compreender os seus usos principais para missões e o seu esconderijo, e ao concentrar as suas buscas em locais confiáveis como as **Farmtown Pharmacies, o Acampamento USEC em Woods e o Laboratório**, você pode garantir eficientemente este item vital e avançar o seu progresso em *Escape from Duckov*. Boa sorte a encontrar o seu "pato amarelo"!</p>
+      `
   },
 
   {
@@ -798,23 +1469,23 @@ export const guides = [
     "isHome": false,
     "addressBar": "/escape-from-duckov-j-lab-access-card-acquisition-guide",
     "detailsHtml": `
-              <p style="margin: 1em 0px;">
+              <p>
         Em <a href="/">Escape from Duckov</a>, os Cartões de Acesso J-Lab são cruciais para obter acesso aos laboratórios restritos espalhados pelos subúrbios de Duckov.
         Enquanto o primeiro cartão de nível de entrada (J-Lab 1) é relativamente fácil de encontrar, versões mais avançadas—incluindo cartões de Nível 2 e cartões de acesso coloridos (vermelho, azul, verde, roxo, amarelo e preto)—são muito mais raros e tipicamente desbloqueados através de exploração mais profunda, saque e completando missões específicas. Verifique nosso <a href="/items/key">banco de dados de chaves</a> para informações sobre cartões-chave.
       </p>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Este guia detalha como encontrar cada cartão J-Lab, suas áreas de surgimento confirmadas e as melhores rotas de busca para tornar seus raids aos laboratórios eficientes e repetíveis. Para <a href="/maps">localizações de mapa</a> detalhadas e pontos de acesso ao laboratório, visite nossa seção de mapas.
       </p>
       
       <h2 style="font-size: 1.5em; font-weight: bold;"><strong>O que são Cartões J-Lab?</strong></h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Cartões J-Lab são passes de segurança usados para acessar instalações de pesquisa subterrâneas localizadas em toda a região de Duckov.
         Diferentes níveis de cartões concedem acesso a áreas mais profundas do laboratório ou a zonas de contenção codificadas por cores associadas a saque de nível superior e equipamento de laboratório.
       </p>
       
-      <p style="margin: 1em 0px;">Aqui está uma breve descrição de cada tipo de cartão:</p>
+      <p>Aqui está uma breve descrição de cada tipo de cartão:</p>
       
       <ol>
         <li><strong>Cartão J-Lab 1</strong> – Acesso de nível básico (acesso a áreas de laboratório padrão)</li>
@@ -822,13 +1493,13 @@ export const guides = [
         <li><strong>Cartões Coloridos (Vermelho, Azul, Verde, Roxo, Amarelo, Preto)</strong> – Chaves avançadas e opcionais usadas para desbloquear alas seladas ou áreas de laboratório escondidas</li>
       </ol>
       
-      <p style="margin: 1em 0px;"><strong>Nota:</strong> Ao contrário de itens-chave típicos, estes cartões são <strong>consumíveis</strong>; um é consumido cada vez que você entra no laboratório.</p>
+      <p><strong>Nota:</strong> Ao contrário de itens-chave típicos, estes cartões são <strong>consumíveis</strong>; um é consumido cada vez que você entra no laboratório.</p>
       
       <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Cartão J-Lab 1 – Acesso Básico</strong></h2>
       
       <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Como Obter</strong></h3>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Em Escape from Duckov, existem duas maneiras principais de obter seu primeiro Cartão J-Lab 1:
       </p>
       
@@ -857,13 +1528,13 @@ export const guides = [
         <li>Alguns jogadores relataram encontrar Cartões Nível 2 no escritório no primeiro andar do laboratório. Inspecione cuidadosamente a sala em busca de mesas, prateleiras de metal ou terminais de computador. Estes pontos de surgimento não têm aparecimento garantido.</li>
       </ol>
       
-      <p style="margin: 1em 0px;">
+      <p>
         <strong>Dicas:</strong> Concentre sua busca em áreas patrulhadas por Errantes, pois eles têm a maior taxa de drop relatada. Reiniciar um raid ou trocar de servidor pode atualizar a tabela de saque, aumentando suas chances de encontrar um cartão.
       </p>
       
       <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Cartões de Acesso Coloridos</strong></h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Existem várias maneiras de coletar cartões de acesso coloridos para o Laboratório.
         Um dos métodos mais eficazes é procurar na <strong>sala Chave Misteriosa (X/O)</strong>, onde quase todos os cartões e suprimentos de alto nível têm uma chance de surgir.
         No entanto, os seguintes cartões têm maneiras específicas de serem obtidos:
@@ -911,13 +1582,13 @@ export const guides = [
         <li>Podem surgir na pequena casa à direita do Pátio de Madeira (Lumberyard) em Farm Town.</li>
       </ol>
       
-      <p style="margin: 1em 0px;">
+      <p>
         <img src="/images/guide/guide07-02.webp" alt="Cartão de Acesso J-Lab (Roxo)">
       </p>
       
       <h2 style="font-size: 1.5em; font-weight: bold;"><strong>Estratégia de Exploração e Desenvolvimento</strong></h2>
       
-      <p style="margin: 1em 0px;">Para máxima eficiência, siga esta rota:</p>
+      <p>Para máxima eficiência, siga esta rota:</p>
       
       <ol>
         <li><strong>Comece em Farm Town → Mina Escondida</strong></li>
@@ -932,7 +1603,7 @@ export const guides = [
         <li>Use cartões coloridos apenas depois de ter identificado sua sala alvo e estar totalmente preparado. Estes cartões são extremamente valiosos, então planeje sua exploração com cuidado.</li>
       </ol>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Coletar todos os cartões J-Lab em Escape from Duckov requer paciência e exploração consistente.
         Enquanto os cartões básicos podem ser facilmente reabastecidos, os vibrantes cartões premium coloridos são reservados para jogadores que realmente se aprofundam no mundo do jogo—explorando cada canto, invadindo cada bunker e juntando pistas espalhadas.
         Verifique nosso <a href="/wiki/quests">banco de dados de missões</a> para missões relacionadas ao acesso ao J-Lab. Explore mais <a href="/guides">guias avançados</a> para estratégias abrangentes de saque. Boa sorte!
@@ -960,7 +1631,7 @@ export const guides = [
     "isHome": false,
     "addressBar": "/escape-from-duckov-rampaging-scavenger",
     "detailsHtml": `
-            <p style="margin: 1em 0px;">
+            <p>
         Uma das primeiras missões que você receberá em <a href="/">Escape from Duckov</a> é a quest <strong>"Caminho do Caçador"</strong>, que lhe incumbe de caçar e eliminar alguns dos habitantes mais agressivos do ermo: **Saqueadores Furiosos (Rampaging Scavengers)**. Este guia mostrará exatamente onde encontrar esses ágeis inimigos, como matá-los eficientemente e como completar a missão. Verifique nosso <a href="/wiki/quests">banco de dados de missões</a> para todas as missões disponíveis.
       </p>
       
@@ -968,7 +1639,7 @@ export const guides = [
         <strong>Passo 1: Onde Encontrar Saqueadores Furiosos</strong>
       </h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Ao contrário de outros inimigos que vagueiam aleatoriamente, os Saqueadores Furiosos são encontrados em uma localização fixa e específica. Você não tropeçará neles no meio do caminho principal; você precisa procurar o acampamento deles.
       </p>
       
@@ -976,7 +1647,7 @@ export const guides = [
         <strong>Localização:</strong>
       </h4>
       
-      <p style="margin: 1em 0px;">
+      <p>
         O acampamento dos Saqueadores Furiosos está localizado em uma clareira no <strong>canto sudoeste do mapa</strong>, logo ao sul do Caminho da Floresta principal. Para <a href="/maps">informações detalhadas do mapa</a>, visite nossa seção de mapas.
         <img src="/images/guide/guide08-02.webp" alt="Rampaging Scavenger2">
       </p>
@@ -991,11 +1662,11 @@ export const guides = [
         <li>Siga este pequeno desvio para o sul, na clareira. Você não pode perder o acampamento a partir daqui.</li>
       </ol>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Assim que você entrar no acampamento deles, você os avistará imediatamente. Eles são facilmente identificáveis por suas **roupas vermelhas brilhantes** e as ameaçadoras **facas de açougueiro** que empunham. Tipicamente, você encontrará **dois a três saqueadores** surgidos neste acampamento a qualquer momento.
       </p>
       
-      <p style="margin: 1em 0px;">
+      <p>
         <strong>Aviso:</strong> Seja cauteloso! Assim que eles o avistarem, os Saqueadores Furiosos são incrivelmente rápidos e o perseguirão implacavelmente, potencialmente até o bunker. Não subestime a perseguição deles.
       </p>
       
@@ -1003,7 +1674,7 @@ export const guides = [
         <strong>Passo 2: Como Matar Saqueadores Furiosos Rapidamente</strong>
       </h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         A chave para lidar com esses inimigos é **velocidade e precisão**. Eles correrão diretamente em sua direção para engajar em combate corpo a corpo rápido e danoso que inflige um efeito de status de sangramento.
       </p>
       
@@ -1011,11 +1682,11 @@ export const guides = [
         <strong>A Melhor Estratégia: Mire na Cabeça</strong>
       </h4>
       
-      <p style="margin: 1em 0px;">
+      <p>
         <img src="/images/guide/guide08-03.webp" alt="Rampaging Scavenger2">
       </p>
       
-      <p style="margin: 1em 0px;">
+      <p>
         A única maneira mais eficaz de matar um Saqueador Furioso é com um **tiro limpo na cabeça**. Isso os neutraliza instantaneamente, impedindo-os de diminuir a distância e causar-lhe dano.
       </p>
       
@@ -1030,7 +1701,7 @@ export const guides = [
         <strong>Passo 3: Completando a Missão Caminho do Caçador</strong>
       </h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Depois de lidar com os saqueadores, o passo final é completar os objetivos da missão.
       </p>
       
@@ -1070,11 +1741,11 @@ export const guides = [
     "isHome": false,
     "addressBar": "/escape-from-duckov-tote-bag-guide",
     "detailsHtml": `
-          <p style="margin: 1em 0px;">
+          <p>
         No mundo de <a href="/">Escape from Duckov</a>, você encontrará muitos itens. Alguns são para criação, alguns para venda, e alguns, como a **Sacola (Tote Bag)**, têm um propósito muito específico e crucial que não é imediatamente óbvio. Muitos jogadores novos cometem o erro de vender este "item de luxo" por um lucro rápido, sem perceber que estão descartando uma ferramenta essencial para obter um dos drops únicos de chefe do jogo. Navegue em nosso <a href="/items">banco de dados de itens</a> para saber mais sobre todos os itens especiais.
       </p>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Este guia aborda o que a Sacola faz, onde encontrá-la e por que você deve absolutamente mantê-la.
       </p>
       
@@ -1082,11 +1753,11 @@ export const guides = [
         <strong>O Que É a Sacola?</strong>
       </h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         A Sacola é um equipamento único com propriedades muito específicas que a diferenciam das mochilas padrão.
       </p>
       
-      <p style="margin: 1em 0px;">
+      <p>
         <img src="/images/guide/guide09-02.webp" alt="tote-bag1">
       </p>
       
@@ -1097,7 +1768,7 @@ export const guides = [
         <li><strong>Característica Principal:</strong> Contém um único e especial slot de armazenamento rotulado como <strong>“?”</strong>. Este slot é toda a razão de ser da sacola.</li>
       </ul>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Ao contrário de outras bolsas, a Sacola não oferece bônus de inventário geral, como capacidade extra ou limite de peso. Seu valor é inteiramente funcional. Compare-a com outras <a href="/items/equipment">mochilas e itens de armazenamento</a> em nosso banco de dados de equipamentos.
       </p>
       
@@ -1105,7 +1776,7 @@ export const guides = [
         <strong>Onde Encontrar a Sacola</strong>
       </h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Não há um único local garantido para encontrar uma Sacola. Sua aquisição é inteiramente baseada na sorte e na exploração minuciosa.
       </p>
       
@@ -1114,7 +1785,7 @@ export const guides = [
         <li><strong>Como Encontrar:</strong> A melhor maneira de aumentar suas chances de encontrar uma é ser meticuloso durante seus raids. **Pesquise minuciosamente edifícios, contêineres e esconderijos de saque** em qualquer mapa. Eventualmente, você encontrará uma.</li>
       </ul>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Assim que encontrar uma Sacola, **não a venda**. Guarde-a com segurança no armazém do seu esconderijo até estar pronto para usá-la.
       </p>
       
@@ -1122,7 +1793,7 @@ export const guides = [
         <strong>O Verdadeiro Propósito: Como Usar a Sacola</strong>
       </h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         A Sacola é a única ferramenta que permite transportar um item especial derrubado por um chefe específico.
       </p>
       
@@ -1133,7 +1804,7 @@ export const guides = [
         <li><strong>A Solução:</strong> Para transportar o Olho Vermelho, você deve ter a **Sacola** em seu inventário. Você então interage com o Olho Vermelho e o coloca diretamente no slot especial **"?"** da Sacola. Só então você pode levá-lo de volta para sua base.</li>
       </ol>
       
-      <p style="margin: 1em 0px;">
+      <p>
         O Olho Vermelho em si fornece um aprimoramento poderoso e duradouro quando usado, tornando a Sacola um item essencial para qualquer jogador que queira farmar este chefe por sua recompensa única.
       </p>
       
@@ -1141,7 +1812,7 @@ export const guides = [
         <strong>Sacola vs. Bolsa de Decoração: Qual a Diferença?</strong>
       </h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         É crucial entender que a Sacola é uma ferramenta, não uma mochila. Para corridas de saque gerais, a Bolsa de Decoração é a escolha superior.
       </p>
       
@@ -1203,15 +1874,15 @@ export const guides = [
         <strong>Por Que Você Nunca Deve Vender a Sacola</strong>
       </h2>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Vender a Sacola é um erro comum para jogadores novos que não entendem sua função única. Por ser classificada como um "item de luxo" e não ter estatísticas óbvias, pode parecer lixo de vendedor.
       </p>
       
-      <p style="margin: 1em 0px;">
+      <p>
         No entanto, a Sacola é uma ferramenta essencial e não comprável, necessária para caçar repetidamente o Chefe Red Blob e adquirir o valioso Olho Vermelho. Se você planeja se envolver com este conteúdo, precisa manter a sacola.
       </p>
       
-      <p style="margin: 1em 0px;">
+      <p>
         Se você já vendeu a sua, não entre em pânico. Apenas certifique-se de guardar a próxima que encontrar—você precisará dela mais tarde. Para mais guias de itens e estratégias de chefe, explore nossa <a href="/guides">coleção completa de guias</a>.
       </p>
       
@@ -1486,668 +2157,6 @@ export const guides = [
   },
 
   {
-    "id": 12,
-    "title": "Escape from Duckov Passo a Passo Parte 1: Fuga da Prisão e Configuração da Base",
-    "description": "Seu guia essencial para começar Escape from Duckov! Cobre todo o tutorial de fuga da prisão, configuração da infraestrutura da base e conclusão das missões iniciais em Ground Zero.",
-    "imageUrl": "/images/guide12.webp",
-    "imageAlt": "Um personagem do jogador em Escape from Duckov saqueando uma caixa durante a sequência de fuga da prisão.",
-    "publishDate": "2025-11-03",
-    "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
-    "category": "walkthroughs",
-    "tags": ["walkthrough", "guia para iniciantes", "fuga da prisão", "construção de base", "ground zero"],
-    "seo": {
-      "title": "Escape from Duckov Guia Parte 1: Prisão, Configuração da Base e Missões Iniciais",
-      "description": "Passo a passo completo para a primeira parte de Escape from Duckov. Aprenda a escapar da prisão, configurar sua base e completar as missões Construção Básica e Capital Inicial.",
-      "keywords": "Escape from Duckov Passo a Passo Parte 1, Escape from Duckov Guia para Iniciantes, Guia de Fuga da Prisão, Ground Zero Passo a Passo, Configuração da Base Duckov, Missões Iniciais"
-    },
-    "isHome": false,
-    "detailsHtml": `
-            <h2>Fugindo da Prisão: Tutorial e Primeiro Encontro</h2>
-            <p>Após uma breve cena introdutória, sua primeira ação é ir ao espelho e **configurar seu personagem** no criador de personagens.</p>
-            
-            <h3>Saque Inicial e Movimento</h3>
-            <ul>
-                <li>Siga as setas e marcações no chão para se mover e pegar o saque.</li>
-                <li>Na caixa, você adquirirá: uma **TT-33** (pistola básica), **30 munições**, **ataduras** e **biscoitos**.</li>
-                <li>Entre na sala à direita de sua cela e pegue uma **cenoura** na caixa dentro. (<em>Dica: Correr e rolar consomem **Stamina**</em>).</li>
-                <li>Verifique a lixeira em busca de um **isqueiro**, um **pirulito** e alguns **componentes eletrônicos**.</li>
-            </ul>
-    
-            <img src="/images/guide/guide12-01.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
-    
-            <h3>Primeiro Combate e Atualização de Equipamento</h3>
-            <ul>
-                <li>**Equipe a pistola TT-33** para o próximo encontro.</li>
-                <li>**Desvie de um tiro que se aproxima** (quando vir o flash vermelho) e elimine o primeiro guarda.</li>
-                <li>Saque o guarda para obter: um **cassetete policial**, um **jaleco branco** e **óculos de sol de aro preto**. **Equipe tudo**.</li>
-                <li>Pegue mais balas e encontre **cabos** na lixeira. (<em>Dica: Segurar o botão direito do mouse melhora a precisão.</em>)</li>
-                <li>Saque **ataduras** e **aspirina** da próxima caixa.</li>
-            </ul>
-    
-            <img src="/images/guide/guide12-02.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
-    
-            <h3>Segundo Encontro e Extração</h3>
-            <ul>
-                <li>Saque a **pistola PM** de uma caixa na próxima sala e coloque-a no slot 2.</li>
-                <li>Elimine os próximos guardas, saqueando uma **pistola Glick**, jaleco e óculos de sol.</li>
-                <li>Se o seu **inventário estiver cheio**, você pode precisar seguir em frente. Saque **biscoitos** e **refrigerante** da próxima lixeira.</li>
-                <li>**Coma a cenoura e os biscoitos** para reabastecer a energia.</li>
-                <li>Pegue o caminho para a **direita** e siga para o **ponto de extração** para completar a fuga rápida.</li>
-            </ul>
-    
-            <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
-    
-            <h2>A Base: Infraestrutura e Melhorias Iniciais</h2>
-            <p>Ao retornar à base, encontre **Jeff** no andar de cima para um tour: o armazém, o painel de construção, a máquina de venda automática, o aprimorador e o ponto de extração.</p>
-    
-            <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
-    
-            <h3>Atualizações de Personagem e Armazenamento</h3>
-            <ul>
-                <li>Venda as Glicks e mantenha sua TT-33 equipada. Verifique a máquina de venda automática.</li>
-                <li>Use o **Aprimorador**: **Pesquise e ative "Especialista em Mochila I"** para uma **capacidade de mochila de +4**. (<em>Nota: Aprimoramentos exigem dinheiro e materiais.</em>)</li>
-                <li>Use o **Armazém**: Adicione **"Expansão de Armazenamento Nv.1"** para ganhar **+35 de capacidade de armazenamento**.</li>
-            </ul>
-    
-            <img src="/images/guide/guide12-05.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
-    
-            <h3>Aceitando Missões Iniciais</h3>
-            <p>Fale com Jeff para aceitar suas duas primeiras missões:</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Recompensa</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Construção Básica</strong></td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Construa uma bancada coletando **dois pedaços de madeira**.</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">EXP +1000, Moeda +500, Ataduras x3</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;"><strong>Capital Inicial</strong></td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**Mate um inimigo**.</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">EXP +500, Moeda +1296</td>
-                    </tr>
-                </tbody>
-            </table>
-    
-            <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
-    
-            <h2>Ground Zero: Coleta de Recursos e Conclusão de Missões</h2>
-    
-            <h3>Limpando o Acampamento Inimigo e Coletando Madeira</h3>
-            <ul>
-                <li>Saque a primeira caixa em busca de balas e outra TT-33. Mova-se para a direita.</li>
-                <li>Encontre **pequenas pedras** (para atrair inimigos) e **pregos** em uma caixa de ferramentas. Colete **porcas, parafusos e uma bateria de carro**.</li>
-                <li>Encontre um acampamento inimigo à esquerda. Eliminar um **Catador Furioso** (pato vermelho) aqui **completa "Capital Inicial"**.</li>
-                <li>Saque o corpo em busca de: uma **faca de açougueiro**, **madeira** e **dinheiro**.</li>
-                <li>Continue saqueando (caixa tática, caixa de munição) em busca de uma **espingarda caseira**, **balas** e **flechas**.</li>
-            </ul>
-    
-            <img src="/images/guide/guide12-07.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
-    
-            <h3>Mais Saques e Exploração</h3>
-            <ul>
-                <li>Enfrente os **Patos Verdes** (use espingardas, vista armadura corporal).</li>
-                <li>Saque corpos em busca de uma **mochila** (equipe-a para +39 de armazenamento), um **arco** e um **fragmento de núcleo frio**.</li>
-                <li>Saque uma **AK-74U** e encontre um **projeto para a TOZ-66**.</li>
-                <li>Continue para o norte, encontrando um **nó de teletransporte** que leva a um **lago**.</li>
-                <li>Perto da trilha da floresta, encontre um pequeno acampamento com uma **receita para MD40**. Use uma pá para **desenterrar um disquete J-Lab**.</li>
-                <li>Limpe outro acampamento, encontrando o **segundo pedaço de madeira** necessário para **"Construção Básica"**.</li>
-                <li>Observe que a **ponte quebrada** para a caverna requer **2 placas de metal** e **2 pedaços de madeira**.</li>
-            </ul>
-    
-            <h3>Extração e Submissão de Missões</h3>
-            <ul>
-                <li>Lide com os Patos Verdes no acampamento noroeste. Encontre um **acessório de cano** para aprimoramento de dano de SMG perto do ponto de extração.</li>
-                <li>**Extraia de Ground Zero**.</li>
-                <li>Na base, entregue **"Capital Inicial"**.</li>
-                <li>**Aceite a missão "O Caminho do Caçador"**: Mate 2 Catadores Furiosos e entregue 2 facas de açougueiro.</li>
-                <li>Vá para o **painel de construção** e **construa uma bancada**. Entregue **"Construção Básica"**.</li>
-                <li>**Atualize a bancada** pesquisando **Processamento Avançado**.</li>
-            </ul>
-    
-            <h3>Novas Missões e Preparações Finais</h3>
-            <p>Você receberá novas missões como **"A Importância da Hemostasia"**, **"A Torre de Sinal"** (requer uma **Chave de Fenda de Ponta Chata**) e **"Uma Carta de um Velho Amigo"**.</p>
-            <ul>
-                <li>Compre uma **chave de fenda de ponta chata** na máquina de venda automática.</li>
-                <li>Vá para o **Aprimorador** e atualize **Instinto de Sobrevivência 1 (HP Máximo +5)** e **Visão Ampla 1 (FOV +15)**.</li>
-                <li>**Vá dormir** e avance o tempo para as **7h da manhã** para evitar o aumento do perigo da noite.</li>
-            </ul>
-        `
-  },
-
-  {
-    "id": 13,
-    "title": "Escape from Duckov Passo a Passo Parte 2: Exploração de Ground Zero e Expansão da Base",
-    "description": "O guia essencial para a Parte 2 de Escape from Duckov. Complete a Torre de Sinal, desbloqueie a caverna, derrote o guarda difícil e expanda sua base com novas lojas.",
-    "imageUrl": "/images/guide13.webp",
-    "imageAlt": "Um personagem do jogador consertando uma ponte quebrada no mapa Ground Zero de Escape from Duckov.",
-    "publishDate": "2025-11-03",
-    "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
-    "category": "walkthroughs",
-    "tags": ["walkthrough", "ground zero", "expansão da base", "novas missões", "meio do jogo"],
-    "seo": {
-      "title": "Escape from Duckov Parte 2 Passo a Passo: Torre de Sinal, Saque da Caverna e Loja de Armaduras",
-      "description": "Guia completo para Escape from Duckov Parte 2, detalhando como consertar a torre de sinal, acessar a caverna para projetos, derrotar o guarda pesado e construir a Loja de Armaduras.",
-      "keywords": "Escape from Duckov Parte 2, Exploração de Ground Zero, Missão da Torre de Sinal, Projetos da Caverna, Desbloqueio da Loja de Armaduras, Notas do Mercado Negro"
-    },
-    "isHome": false,
-    "detailsHtml": `
-            <h2>Ground Zero: Conclusão de Missões e Locais Chave</h2>
-            <p>A segunda corrida principal se concentra em utilizar seu equipamento atualizado para concluir tarefas pendentes, desbloquear novas áreas e coletar projetos e itens de missão cruciais.</p>
-    
-            <h3>Torre do Norte e Novos Contatos</h3>
-            <ul>
-                <li>Siga em direção ao acampamento da estrada e localize a **Torre do Norte**.</li>
-                
-                <img src="/images/guide/guide13-01.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
-    
-                <li>Saque a **caixa de ferramentas** próxima, garantindo itens valiosos, incluindo **2 Placas de Metal**, **1 Prego** e uma **Chave de Fenda de Ponta Chata**.</li>
-    
-                <img src="/images/guide/guide13-02.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
-    
-                <li>Interaja com a **caixa de energia** na base da torre para completar o objetivo da missão **"Torre de Sinal"**.</li>
-                <li>Mova-se para a direita da torre para encontrar o **projeto para a Placa Gráfica de Batata**.</li>
-    
-                <img src="/images/guide/guide13-03.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
-    
-                <li>Continue em direção ao acampamento da estrada, elimine o novo tipo de inimigo empunhando espingarda e saqueie uma **espingarda MP-155**, um **capacete de motocicleta** e remédios.</li>
-                <li>À esquerda, encontre **"Mud"** e aceite a missão **"Nutrição Balanceada 1"** (Objetivo: Entregar 1 Ovo de Pato; Recompensa: EXP +800, Moeda +500).</li>
-            </ul>
-    
-            <h3>Conserto da Ponte e Acesso à Caverna</h3>
-            
-            <img src="/images/guide/guide13-04.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
-    
-            <ul>
-                <li>Mova-se para a esquerda e **conserto a ponte quebrada** que leva ao acampamento da estrada usando **dois pedaços de madeira**. (Verifique sob o poste de energia antes de atravessar, embora o saque seja raro).</li>
-                <li>Siga para o acampamento na trilha da floresta, elimine os **Catadores Vermelhos** para completar **"Caminho do Caçador"** e pegue **duas Facas de Açougueiro**. Encontre também uma **Chave para o Posto de Gasolina Abandonado**.</li>
-                <li>Conserte a ponte quebrada perto da entrada da caverna.</li>
-    
-                <img src="/images/guide/guide13-05.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
-            </ul>
-    
-            <h3>Saque da Caverna e Projetos</h3>
-    
-            <p>Dentro da caverna, colete acessórios de armas e projetos significativos:</p>
-    
-            <img src="/images/guide/guide13-06.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
-    
-            <ul>
-                <li>Saque um **Cano de Pistola**, uma **UP 45**, uma **AK 47**, um **Acessório de Tiro Livre** e um **Acessório a Laser**.</li>
-                <li>Crucialmente, pegue os **projetos para a Cube Gun** e **Munição de Energia Pequena**.</li>
-            </ul>
-    
-            <h3>Acampamento Noroeste e Preparação para Extração Final</h3>
-    
-            <img src="/images/guide/guide13-07.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
-            
-            <ul>
-                <li>Entre furtivamente no **acampamento noroeste** e encontre a **Carta de um Velho Amigo** na barraca, completando a missão.</li>
-                <li>Pegue a **Receita de Pé de Cabra** de uma caixa de dados próxima. Suba na torre de vigia e leia o **"Registro de Observação de Ground Zero"**.</li>
-                <li>**Encontro Difícil:** Enfrente o **inimigo encapuzado super resistente com uma espingarda**. Use uma **atadura** durante esta luta para completar **"A Importância da Hemostasia"**.</li>
-                <li>Depois de eliminá-lo, saqueie as valiosas **Notas de Contato do Mercado Negro** e **munição AP avançada para espingarda**.</li>
-                <li>No caminho para a extração, limpe outro acampamento para encontrar duas chaves: a **Chave do Posto de Gasolina Abandonado** e a **Chave da Cerca**, juntamente com uma **Mira Holográfica**.</li>
-                <li>**Extraia de Ground Zero.**</li>
-            </ul>
-    
-            <h2>Gerenciamento da Base: Missões, Lojas e Atualizações</h2>
-            <p>De volta à base, entregue todas as missões concluídas imediatamente para desbloquear seu próximo nível de construção e atualizações.</p>
-    
-            <img src="/images/guide/guide13-08.webp" alt="Escape from Duckov passo a passo parte 2" class="guide-image" />
-    
-            <h3>Submissão de Missões e Novos Objetivos</h3>
-            <p>Entregue todas as missões concluídas. As seguintes novas missões de construção e material aparecerão:</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nova Construção</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Missões de Combate/Material</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Construção Básica II: Construa uma **Loja de Armas**</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Mire na Cabeça: Mate qualquer inimigo (5) com tiros na cabeça</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Construção Básica III: Construa uma **Loja de Armaduras** (Prioridade imediata)</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Especialista em Tecnologia: Entregue uma pilha de componentes eletrônicos</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Construção Básica (Médica): Construa uma **Estação Médica**</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Cheio de Amor: Entregue 1888 em moeda (Pode ser entregue imediatamente)</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Aprendizagem de Criação: Entregue uma Glick</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Entregue missões já concluídas: Bolso Expandido e Bancada de Atualização</td>
-                    </tr>
-                </tbody>
-            </table>
-    
-            <h3>Construção e Atualizações Finais</h3>
-            <ul>
-                <li>Entregue **"Cheio de Amor"** imediatamente.</li>
-                <li>Verifique a Estação de Construção: Você pode **construir a Loja de Armaduras** imediatamente. Entregue **"Construção Básica III"**.</li>
-                <li>Visite a nova Loja de Armaduras: **Compre Armadura Nível 2 e um Capacete de Aço**.</li>
-                <li>Na **Bancada**: **Pesquise todos os novos projetos** (para liberar espaço no inventário) e pesquise o projeto da **Estação de Reparo**.</li>
-                <li>Compre **Tesouras** e uma **Chave Inglesa** na máquina de venda automática e, em seguida, pesquise a **Estação de Desmontagem** na Bancada.</li>
-                <li>No **Aprimorador**: Atualize **Maestria em Armas I**.</li>
-                <li>Aceite as duas novas missões da Loja de Armaduras: **"Rota de Suprimentos"** (Marque a caixa de suprimentos) e **"Contabilidade"** (Entregue tinta, caneta, caderno).</li>
-                <li>O dia termina quando você fica sem dinheiro após essas grandes atualizações.</li>
-            </ul>
-        `
-  },
-
-  {
-    "id": 14,
-    "title": "Escape from Duckov Passo a Passo Parte 3: Chaves de Ground Zero e Chefe Pato Chapo",
-    "description": "O guia abrangente para a Parte 3 de Escape from Duckov. Aceite novas missões de comerciantes, construa a Estação Médica e a Loja de Armas e localize o Chefe Pato Chapo.",
-    "imageUrl": "/images/guide14.webp",
-    "imageAlt": "Um personagem do jogador em Escape from Duckov abrindo uma porta trancada com uma chave em Ground Zero.",
-    "publishDate": "2025-11-03",
-    "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
-    "category": "walkthroughs",
-    "tags": ["walkthrough", "ground zero", "luta contra chefe", "pato chapo", "missoes de comerciantes", "meio do jogo"],
-    "seo": {
-      "title": "Escape from Duckov Guia Parte 3: Estação Médica, Chaves e Estratégia Pato Chapo",
-      "description": "Guia completo para Escape from Duckov Parte 3: construa instalações de base cruciais (Armas/Médica), use as chaves do Posto de Gasolina e da Cerca, encontre o quarto de hotel e derrote o Chefe Pato Chapo.",
-      "keywords": "Escape from Duckov Parte 3, Luta contra Chefe Pato Chapo, Chaves Ground Zero, Estação Médica, Loja de Armas, Chave do Quarto de Hotel, Passo a Passo"
-    },
-    "isHome": false,
-    "detailsHtml": `
-        <h2>Preparações da Base: Missões de Comerciantes e Instalações</h2>
-        <p>Comece o dia aceitando um novo lote de missões das instalações da base recém-estabelecidas e entregando submissões imediatas para maximizar a experiência e a moeda antes de voltar para Ground Zero.</p>
-  
-        <h3>Novas Missões Aceitas:</h3>
-        <p>Aceite novas missões de Mud, do Ferreiro de Armas, do Armeiro e da Máquina de Venda Automática para guiar sua próxima corrida:</p>
-        <table style="width: 100%; border-collapse: collapse;">
-            <thead>
-                <tr>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Fonte (Comerciante)</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Mud (Fitness)</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Nutrição Balanceada II/III, Treinador Físico</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **Bebida Energética**, **Chocolate**, **Haltere**</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Ferreiro de Armas</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Pistola Genérica, Pena Estranha</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **Glick**, **Pena de Pavão**</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Armeiro / Estação Médica</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Assistência Médica</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **Kit Médico**</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Máquina de Venda Automática</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Autossuficiente, Chef Profissional</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **Água**, **Faca de Chef**</td>
-                </tr>
-            </tbody>
-        </table>
-  
-        <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">DICA:</strong> Entregue as missões **"Aprendizagem de Criação"** e **"Contabilidade"** antes de aceitar as novas para liberar o inventário e obter fundos imediatos.</p>
-  
-        <h3>Construção e Atualizações</h3>
-        <p>Use seus fundos e materiais atuais para finalizar a infraestrutura da base:</p>
-        <ul>
-            <li>**Construa a Estação Médica** e entregue a missão **"Construção Básica (Médica)"**. Aceite a missão **"Assistência Médica"** da nova estação.</li>
-            
-            <li>**Construa a Loja de Armas** e entregue a missão **"Construção Básica II"**. Aceite a missão **"Pena Estranha"** da nova loja.</li>
-            
-            <img src="/images/guide/guide14-01.webp" alt="Escape from Duckov passo a passo parte 3" class="guide-image" />
-  
-            <li>Realize quaisquer **atualizações de base** e **atualizações de habilidade** disponíveis (como Maestria em Armas) antes de se deslocar.</li>
-  
-            <img src="/images/guide/guide14-02.webp" alt="Escape from Duckov passo a passo parte 3" class="guide-image" />
-        </ul>
-  
-        <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero: Áreas Trancadas e Pistas Escondidas</h2>
-        <p>Equipado com as chaves e novo equipamento, você pode agora acessar áreas anteriormente trancadas em Ground Zero.</p>
-  
-        <h3>Posto de Gasolina Abandonado e Acesso à Cerca</h3>
-        <ul>
-            <li>Vá até o **Posto de Gasolina Abandonado** e **abra a porta com a chave** encontrada na Parte 2.</li>
-            <li>Lá dentro, saqueie uma **caixa de armas** com uma arma e munição. Você deve encontrar uma **chave para a cerca** dentro do posto (ou confirmar que já a tem).</li>
-            <li>Vá até a **cerca** perimetral e **abra-a** para acessar a próxima área do mapa.</li>
-        </ul>
-  
-        <h3>O Mistério da Beira da Estrada (Chave do Hotel)</h3>
-        <ul>
-            <li>Vá para o **acampamento na beira da estrada** e encontre uma **nota** contendo pistas para um novo local.</li>
-            <li>Siga as instruções da nota para encontrar um **cadáver**. Saqueie o corpo para adquirir uma **chave de um Quarto de Hotel**.</li>
-            <li>Prossiga para a localização do **hotel** e use a nova chave para **abrir o quarto**. Lá dentro, você deve encontrar outra **caixa de armas** e potencialmente uma nova **pista ou chave**.</li>
-        </ul>
-  
-        <h3>Localizando o Chefe: Pato Chapo</h3>
-        <p>As pistas repetidas e as localizações dos corpos provavelmente o levarão ao confronto final desta parte:</p>
-        <ul>
-            <li>Seguindo a última pista/nota, avance para o local designado, onde você provavelmente encontrará a área protegida pelo chefe.</li>
-            <li>Prepare-se para uma luta difícil contra o **Chefe: Pato Chapo**. (<em>Nota: Certifique-se de ter sua armadura atualizada, muita munição de nível superior e suprimentos médicos antes de engajar.</em>)</li>
-            <li>Após derrotar Pato Chapo, **saqueie o corpo** em busca de itens de alto valor e chaves/pistas essenciais necessárias para a próxima parte do passo a passo.</li>
-        </ul>
-    `
-  },
-
-  {
-    "id": 15,
-    "title": "Escape from Duckov Passo a Passo Parte 4: Chefe Duckmother e AS VAL",
-    "description": "O guia completo para a Parte 4 de Escape from Duckov. Aceite novas missões do Bunker, derrote a formidável Chefe Duckmother e garanta a poderosa arma AS VAL.",
-    "imageUrl": "/images/guide15.webp",
-    "imageAlt": "Um personagem do jogador lutando contra um grande chefe, a Duckmother, no acampamento abandonado de Escape from Duckov.",
-    "publishDate": "2025-11-03",
-    "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
-    "category": "walkthroughs",
-    "tags": ["walkthrough", "ground zero", "luta contra chefe", "duckmother", "as val", "upgrades"],
-    "seo": {
-      "title": "Escape from Duckov Guia Parte 4: Derrotando Duckmother, Encontrando AS VAL e Missões do Bunker",
-      "description": "Passo a passo detalhado para Escape from Duckov Parte 4. Aprenda as atualizações de habilidade necessárias, complete missões de extermínio e submissão e domine a luta contra o chefe Duckmother.",
-      "keywords": "Escape from Duckov Parte 4, Estratégia do Chefe Duckmother, Localização da AS VAL, Acampamento Abandonado Ground Zero, Atualização de Reserva de Energia, Missão Teste de Desempenho"
-    },
-    "isHome": false,
-    "detailsHtml": `
-        <h2>Preparação do Bunker: Novas Missões e Atualizações de Habilidade</h2>
-        <p>Antes de voltar para Ground Zero, visite os comerciantes e o aprimorador para aceitar missões chave e aumentar a prontidão de combate do seu personagem para os novos desafios que se avizinham, incluindo a **Chefe Duckmother**.</p>
-  
-        <h3>Novas Missões Aceitas:</h3>
-        <p>Priorize estas missões para sua próxima corrida, pois elas se alinham com atividades comuns em Ground Zero e saque necessário:</p>
-        <table style="width: 100%; border-collapse: collapse;">
-            <thead>
-                <tr>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Recompensa (EXP/Moeda)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Grande Armazenamento</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Caixa de Armazenamento Grande**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Eliminação de Mosquito</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **10 Mosquitos**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Atacado de Peças</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **5 Parafusos**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Teste de Desempenho</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Placa Gráfica**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Justiceiro</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **5 Catadores**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-              </tbody>
-        </table>
-  
-        <h3>Atualizações de Habilidade: Aprimorando a Eficácia de Combate</h3>
-        <p>Invista nestas habilidades essenciais antes do deslocamento para melhorar a sustentabilidade e a precisão em combate:</p>
-        <ul>
-            <li>**Reserva de Energia:** Aumenta a energia máxima em **+10**. (Permite mais corrida/rolamento)</li>
-  
-            <img src="/images/guide/guide15-01.webp" alt="Escape from Duckov passo a passo parte 4" class="guide-image" />
-  
-            <li>**Ingestão de Nutrientes:** Aumenta o efeito de comida e água em **+10%**. (Melhora a sustentação)</li>
-            <li>**Tiro Firme I:** Aumenta a precisão do tiro livre em **+10%**. (Crucial para combate a curta distância contra o Chefe)</li>
-        </ul>
-  
-        <h2>Ground Zero: Acampamento Abandonado e Chefe Duckmother</h2>
-        <p>Volte para Ground Zero focando nas missões de extermínio e localizando a nova área do chefe.</p>
-  
-        <h3>Progressão da Missão e Descoberta de Nova Arma</h3>
-        <ul>
-            <li>Concentre sua corrida em áreas conhecidas pela atividade de Catadores e corpos d'água para **matar 10 Mosquitos** e **5 Catadores**.</li>
-            <li>Saque caixas de ferramentas e caches eletrônicos para encontrar os **Parafusos** e a **Placa Gráfica** necessários para as missões de submissão.</li>
-            <li>Durante sua exploração, descubra a poderosa arma **VSS**, um achado valioso para engajamentos silenciosos.</li>
-            <li>Localize o **Acampamento Abandonado**, o novo local que você descobriu.</li>
-        </ul>
-  
-        <img src="/images/guide/guide15-03.webp" alt="Escape from Duckov passo a passo parte 4" class="guide-image" />
-  
-        <h3>A Luta contra o Chefe Duckmother</h3>
-        <p>A **Duckmother** é uma ameaça significativa localizada no Acampamento Abandonado. Prepare-se para uma luta que enfatiza movimento e alto rendimento de dano.</p>
-        <ul>
-            <li>**Dica de Estratégia:** Utilize sua **Reserva de Energia** aprimorada para corrida e desvio sustentados. Concentre o fogo no ponto fraco do Chefe (muitas vezes a cabeça ou uma mochila conspícua).</li>
-            <li>Após uma luta difícil, **derrote a Duckmother**.</li>
-            <li>Saqueie o corpo para encontrar uma **Chave para uma Sala Trancada** dentro do acampamento.</li>
-        </ul>
-  
-        <h3>Garantindo a AS VAL</h3>
-        <ul>
-            <li>Use a chave obtida da Duckmother para abrir a **Sala Trancada** dentro do Acampamento Abandonado.</li>
-            <li>Dentro da sala, você encontrará a arma altamente procurada, a **AS VAL**, um rifle silenciado de alto dano.</li>
-        </ul>
-  
-        <h2><span style="color: #DAA520;">&#127775;</span> Atividades Pós-Corrida</h2>
-        <ul>
-            <li>**Extraia** com sucesso e retorne ao Bunker.</li>
-            <li>**Entregue todas as missões concluídas** (Eliminação de Mosquito, Justiceiro, Atacado de Peças, Teste de Desempenho, etc.) e colete suas recompensas substanciais.</li>
-            <li>Aceite a **nova missão** do comerciante que é desbloqueada ao completar o conjunto anterior.</li>
-            <li>Visite o **Armeiro** para usar sua moeda recém-adquirida para **comprar um novo capacete** ou outro equipamento de proteção necessário.</li>
-        </ul>
-    `
-  },
-
-  {
-    "id": 16,
-    "title": "Escape from Duckov Passo a Passo Parte 5: Repetindo o Ciclo - O Encore da Duckmother",
-    "description": "O guia para a Parte 5 de Escape from Duckov. Aceite missões repetíveis de alta recompensa, maximize as habilidades de sobrevivência principais, derrote a Chefe Duckmother novamente e garanta loot de alto nível.",
-    "imageUrl": "/images/guide16.webp",
-    "imageAlt": "Um personagem do jogador usando a AS VAL em um quarto escuro no Acampamento Abandonado de Escape from Duckov.",
-    "publishDate": "2025-11-03",
-    "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
-    "category": "walkthroughs",
-    "tags": ["walkthrough", "ground zero", "luta contra chefe", "missoes repetiveis", "maximizacao de habilidade", "farm run"],
-    "seo": {
-      "title": "Escape from Duckov Guia Parte 5: Maximizando Habilidades Essenciais e Corrida de Repetição da Duckmother",
-      "description": "Passo a passo detalhado para Escape from Duckov Parte 5, focando na conclusão de missões repetíveis de extermínio e submissão para farmar moeda e maximizar habilidades críticas como Reserva de Energia e Tiro Firme.",
-      "keywords": "Escape from Duckov Parte 5, Repetição da Duckmother, Max Reserva de Energia, Tiro Firme II, Corrida de Farm Ground Zero, Missão Teste de Desempenho II"
-    },
-    "isHome": false,
-    "detailsHtml": `
-        <h2>Preparação do Bunker: Missões Repetíveis e Maximização de Habilidade</h2>
-        <p>A Parte 5 envolve a repetição de missões de suprimento e extermínio de alto valor, muitas vezes marcadas com sufixos de numeração romana (II), que são excelentes para farmar experiência e moeda. Concentre-se em **maximizar as habilidades** essenciais de sobrevivência e combate antes de retornar a Ground Zero.</p>
-  
-        <h3>Novas/Missões Repetíveis Aceitas:</h3>
-        <p>Aceite as versões aprimoradas e repetíveis das missões do ciclo anterior dos comerciantes:</p>
-        <table style="width: 100%; border-collapse: collapse;">
-            <thead>
-                <tr>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Recompensa (EXP/Moeda)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Grande Armazenamento II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Caixa de Armazenamento Grande**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Eliminação de Mosquito II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **10 Mosquitos**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Atacado de Peças II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **5 Parafusos**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Teste de Desempenho II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Placa Gráfica**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Justiceiro II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **5 Catadores**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-            </tbody>
-        </table>
-  
-        <h3>Atualizações de Habilidade: Alcançando o Nível II</h3>
-        <p>Utilize o Aprimorador para atualizar para as habilidades de Nível II, aumentando ainda mais a eficiência e a capacidade de sobrevivência:</p>
-        <ul>
-            <li>**Reserva de Energia II:** Aumenta a energia máxima em **+10** (Total +20, essencial para fugas/sprint).</li>
-            <li>**Ingestão de Nutrientes II:** Aumenta o efeito de comida e água em **+10%** (Total +20%, melhora drasticamente a cura/hidratação).</li>
-            <li>**Tiro Firme II:** Aumenta a precisão do tiro livre em **+10%** (Total +20%, torna o combate de curto alcance e o tiro em movimento altamente eficazes).</li>
-        </ul>
-  
-        <img src="/images/guide/guide16-02.webp" alt="Escape from Duckov passo a passo parte 5" class="guide-image" />
-  
-        <h2>Ground Zero: Farm de Recursos e Encore do Chefe</h2>
-        <p>Os objetivos para esta corrida são completar rapidamente as cotas de extermínio, coletar itens de submissão e se preparar para enfrentar a **Duckmother** novamente para obter loot lucrativo e drops de chaves.</p>
-  
-        <h3>Farm de Recursos e Extermínio</h3>
-        <ul>
-            <li>Concentre sua corrida em áreas ricas em componentes eletrônicos e caixas de ferramentas para encontrar rapidamente os **Parafusos** e a **Placa Gráfica** necessários.</li>
-            
-            <img src="/images/guide/guide16-01.webp" alt="Escape from Duckov passo a passo parte 5" class="guide-image" />
-  
-            <li>Complete as missões **Eliminação de Mosquito II (10 abates)** e **Justiceiro II (5 abates)** de forma eficiente.</li>
-            <li>Como você provavelmente já encontrou a **VSS** anteriormente, esta corrida confirma sua existência contínua ou oferece outra chance de adquiri-la.</li>
-            <li>Relocalize o **Acampamento Abandonado** onde o chefe nasce.</li>
-        </ul>
-  
-        <h3>Derrotando a Duckmother (Repetição)</h3>
-        <p>A **Duckmother** é o objetivo principal, pois derrotá-la concede acesso ao quarto trancado. Use sua nova habilidade **Tiro Firme II** e reservas de energia superiores para enfrentá-la agressivamente.</p>
-        <ul>
-            <li>Após derrotar a **Duckmother**, ela deixará cair novamente a **Chave para uma Sala Trancada** no acampamento.</li>
-            <li>Use a chave para acessar a Sala Trancada e recuperar a poderosa arma **AS VAL** (ou seus componentes/munição de alto valor se você já a possui).</li>
-        </ul>
-  
-        <h2>Atividades Pós-Corrida</h2>
-        <ul>
-            <li>**Extraia** com sucesso e retorne ao Bunker.</li>
-            <li>**Entregue todas as missões concluídas** (Eliminação de Mosquito II, Justiceiro II, etc.) e colete suas recompensas.</li>
-            <li>Aceite a **nova missão** do comerciante que é desbloqueada ao completar este conjunto.</li>
-            <li>Visite o **Armeiro** para usar sua moeda acumulada para **comprar um novo capacete** ou atualizar sua armadura para o nível mais alto disponível, preparando-se para o próximo desafio único.</li>
-        </ul>
-    `
-  },
-
-  {
-    "id": 17,
-    "title": "Escape from Duckov Passo a Passo Parte 6: Maximização Final de Habilidade e Farm do Chefe",
-    "description": "O guia definitivo para a Parte 6 de Escape from Duckov. Complete o nível final de missões repetíveis (III), maximize as habilidades essenciais de sobrevivência e combate e prepare-se para a próxima grande zona.",
-    "imageUrl": "/images/guide17.webp",
-    "imageAlt": "Uma foto em close-up do rifle AS VAL nas mãos do jogador dentro do quarto trancado do Acampamento Abandonado.",
-    "publishDate": "2025-11-03",
-    "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
-    "category": "walkthroughs",
-    "tags": ["walkthrough", "ground zero", "maximizacao de habilidade", "farm do chefe", "nivel iii", "preparacao final"],
-    "seo": {
-      "title": "Escape from Duckov Guia Parte 6: Maximizando Habilidades de Nível III e Corrida Final da Duckmother",
-      "description": "Guia completo para Escape from Duckov Parte 6. Aprenda a finalizar todas as atualizações de habilidade de Nível III (Energia, Nutriente, Tiro Firme) e execute o ciclo final de farm de recursos e chefes de alta recompensa.",
-      "keywords": "Escape from Duckov Parte 6, Habilidades Nível III, Max Reserva de Energia, Tiro Firme III, Farm da Duckmother, Preparação Final do Bunker, AS VAL"
-    },
-    "isHome": false,
-    "detailsHtml": `
-        <h2>Preparação do Bunker: Missões Finais de Nível III e Atualizações Máximas</h2>
-        <p>Este é o loop repetível final projetado para levar as estatísticas base do seu personagem ao seu potencial máximo. Concentre-se em aceitar todas as missões de **Nível III** e investir totalmente em suas habilidades essenciais.</p>
-  
-        <h3>Missões de Nível Final Aceitas:</h3>
-        <p>Aceite as missões de recompensa mais alta para alimentar suas atualizações finais e entrada na próxima zona:</p>
-        <table style="width: 100%; border-collapse: collapse;">
-            <thead>
-                <tr>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nome da Missão</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Objetivo</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Recompensa (EXP/Moeda)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Grande Armazenamento III</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Caixa de Armazenamento Grande**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Eliminação de Mosquito III</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **10 Mosquitos**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Atacado de Peças III</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue **5 Parafusos**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Teste de Desempenho III</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Entregue 1 **Placa Gráfica**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Justiceiro III</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Mate **5 Catadores**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-            </tbody>
-        </table>
-  
-        <img src="/images/guide/guide17-01.webp" alt="Escape from Duckov passo a passo parte 6" class="guide-image" />
-  
-        <h3>Maximização de Habilidade: Alcançando o Desempenho Máximo</h3>
-        <p>Esta é a oportunidade de **maximizar** essas habilidades críticas, impactando significativamente seu desempenho futuro:</p>
-        <ul>
-            <li>**Reserva de Energia III:** Aumenta a energia máxima em **+10**. (Fornece capacidade máxima de sprint/desvio).</li>
-            <li>**Ingestão de Nutrientes III:** Aumenta o efeito de comida e água em **+10%**. (Maximiza a cura passiva e a eficiência de recursos).</li>
-            <li>**Tiro Firme III:** Aumenta a precisão do tiro livre em **+10%**. (Torna o combate de curto alcance extremamente confiável).</li>
-        </ul>
-  
-        <h2>Ground Zero: A Corrida Final de Farm</h2>
-        <p>Seu objetivo permanece o mesmo: completar as cotas de extermínio e recursos e derrotar a **Duckmother** uma última vez para garantir recursos máximos e acessar a AS VAL por seus componentes ou munição.</p>
-  
-        <h3>Objetivos da Corrida</h3>
-        <ul>
-            <li>Garanta rapidamente os **Parafusos** e a **Placa Gráfica** necessários e complete as cotas **Eliminação de Mosquito III** e **Justiceiro III**.</li>
-            <li>Confirme a localização do **Acampamento Abandonado** e prepare-se para o encontro com o chefe.</li>
-            <li>(Opcional: Se você ainda precisar da arma, procure a **VSS** novamente).</li>
-        </ul>
-  
-        <h3>O Encontro Final com a Duckmother</h3>
-        <p>Com suas habilidades de Nível III totalmente maximizadas, a **Duckmother** deve ser mais fácil de lidar. Envolva-a usando sua **Reserva de Energia** máxima para fugas sustentadas e utilize o **Tiro Firme III** para devastadores tiros livres de curto alcance.</p>
-        <ul>
-            <li>Derrote a **Duckmother** e recupere a **Chave para a Sala Trancada**.</li>
-            <li>Acesse a Sala Trancada para coletar a **AS VAL** (ou sua munição/componentes de alto valor).</li>
-        </ul>
-  
-        <h2>Atividades Pós-Corrida: Preparando-se para o Próximo Mapa</h2>
-  
-        <img src="/images/guide/guide17-02.webp" alt="Escape from Duckov passo a passo parte 6" class="guide-image" />
-  
-        <ul>
-            <li>**Extraia** e retorne ao Bunker.</li>
-            <li>**Entregue todas as missões de Nível III concluídas** e reivindique suas recompensas substanciais.</li>
-            <li>Aceite a **nova missão** do comerciante – esta missão será tipicamente o **objetivo de transição** para o próximo local ou mapa principal.</li>
-            <li>Visite o **Armeiro** para usar sua riqueza acumulada para comprar o **capacete de nível mais alto** e armadura corporal disponíveis, confirmando sua prontidão para os desafios da próxima zona.</li>
-        </ul>
-    `
-  },
-
-  {
     "id": 18,
     "title": "Escape From Duckov: O Guia Definitivo para Caixas de Expansão",
     "description": "Está ficando sem espaço no armazém em Escape From Duckov? Este guia revela os segredos das Caixas de Expansão, a chave para melhorias permanentes de armazenamento! Aprenda as melhores rotas de farm, dicas cruciais e locais das caixas para maximizar seu loot e dominar o jogo. Expanda seu cofre hoje!",
@@ -2164,7 +2173,7 @@ export const guides = [
     "isHome": true,
     "addressBar": "/escape-from-duckov-expansion-crates-guide",
     "detailsHtml": `
-      <p>Gerenciar seu loot é crucial para a sobrevivência em <strong>Escape From Duckov</strong>. À medida que você acumula mais equipamentos e recursos, o espaço do armazém do seu esconderijo se tornará rapidamente um fator limitante. As <strong>Caixas de Expansão</strong> são a chave para resolver este problema, permitindo que você aumente permanentemente sua capacidade de armazenamento.</p>
+      <p>Gerenciar seu loot é crucial para a sobrevivência em <strong>Escape From Duckov</strong>. À medida que você acumula mais equipamentos e recursos, o espaço do armazém do seu esconderijo se tornará rapidamente um fator limitante. As <strong>Caixas de Expansão</strong> são a chave para resolver este problema, permitindo que você aumente permanentemente sua capacidade de armazenamento.</p>
   <p>Este guia cobrirá tudo o que você precisa saber sobre como encontrar essas caixas valiosas e como usá-las para expandir seu cofre.</p>
   
   <h2><strong>Parte 1: Como Obter Caixas de Expansão</strong></h2>
@@ -2173,59 +2182,59 @@ export const guides = [
   
   <h3><strong>Onde Encontrar Caixas de Expansão:</strong></h3>
   <ul>
-      <li><strong>Armários em Áreas Específicas:</strong>
-          <ul>
-              <li><strong>Base Mercenária:</strong> Muitos jogadores relatam ter encontrado a maioria de suas caixas de expansão na Base Mercenária. Embora isso possa ser uma coincidência, a área é definitivamente um **ponto de interesse que vale a pena procurar**.</li>
-              <li><strong>A Primeira Área:</strong> Mesmo no início do jogo, você tem uma boa chance de encontrar <strong>Caixa de Expansão P</strong> e <strong>M</strong> em armários por toda a primeira área jogável.</li>
-          </ul>
-      </li>
-      <li><strong>Caixas de Ferramentas:</strong> Caixas de ferramentas encontradas em todas as regiões têm uma forte chance de gerar caixas de expansão. **Nunca ignore uma caixa de ferramentas** durante suas corridas.</li>
+      <li><strong>Armários em Áreas Específicas:</strong>
+          <ul>
+              <li><strong>Base Mercenária:</strong> Muitos jogadores relatam ter encontrado a maioria de suas caixas de expansão na Base Mercenária. Embora isso possa ser uma coincidência, a área é definitivamente um **ponto de interesse que vale a pena procurar**.</li>
+              <li><strong>A Primeira Área:</strong> Mesmo no início do jogo, você tem uma boa chance de encontrar <strong>Caixa de Expansão P</strong> e <strong>M</strong> em armários por toda a primeira área jogável.</li>
+          </ul>
+      </li>
+      <li><strong>Caixas de Ferramentas:</strong> Caixas de ferramentas encontradas em todas as regiões têm uma forte chance de gerar caixas de expansão. **Nunca ignore uma caixa de ferramentas** durante suas corridas.</li>
   </ul>
   
   <h3><strong>Uma Rota de Farm Rápida e Eficiente no Início do Jogo:</strong></h3>
   <ol>
-      <li>Entre na primeira área e siga para noroeste através do portal, depois continue subindo.</li>
-      <li>Reviste todos os armários ao longo deste caminho.</li>
-      <li>Assim que encontrar uma caixa de expansão, **extraia imediatamente**.</li>
+      <li>Entre na primeira área e siga para noroeste através do portal, depois continue subindo.</li>
+      <li>Reviste todos os armários ao longo deste caminho.</li>
+      <li>Assim que encontrar uma caixa de expansão, **extraia imediatamente**.</li>
   </ol>
   <p>Esta rota mantém seu risco baixo enquanto se concentra em contêineres de alto rendimento, tornando-a perfeita para o farm no início do jogo.</p>
   
   <h3><strong>Dicas Importantes:</strong></h3>
   <ul>
-      <li><strong>Os Drops são Limitados por RNG:</strong> Encontrar uma caixa de expansão é baseado na sorte (**RNG**), então espere algumas corridas vazias entre achados bem-sucedidos. **Paciência é fundamental.**</li>
-      <li><strong>Cuidado com o Peso:</strong> Caixas maiores (especialmente M e G) são muito pesadas. Se estiver carregando uma, **priorize a extração** para evitar perdê-la em uma luta.</li>
+      <li><strong>Os Drops são Limitados por RNG:</strong> Encontrar uma caixa de expansão é baseado na sorte (**RNG**), então espere algumas corridas vazias entre achados bem-sucedidos. **Paciência é fundamental.**</li>
+      <li><strong>Cuidado com o Peso:</strong> Caixas maiores (especialmente M e G) são muito pesadas. Se estiver carregando uma, **priorize a extração** para evitar perdê-la em uma luta.</li>
   </ul>
   
   <h3><strong>Tipos e Detalhes da Caixa de Expansão</strong></h3>
   <table>
-      <thead>
-          <tr>
-              <th>Item</th>
-              <th>Usado Para</th>
-              <th>Locais Comuns</th>
-              <th>Notas</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td><strong>Caixa de Expansão P</strong></td>
-              <td>Níveis iniciais do cofre que requerem itens.</td>
-              <td>Armários na primeira área; caixas de ferramentas em qualquer lugar.</td>
-              <td>A caixa mais leve; aparece cedo no jogo.</td>
-          </tr>
-          <tr>
-              <td><strong>Caixa de Expansão M</strong></td>
-              <td>Melhorias de cofre de nível médio.</td>
-              <td>Armários na primeira área (mais raro); caixas de ferramentas.</td>
-              <td>Mais pesada que a P; planeje sua rota de extração.</td>
-          </tr>
-          <tr>
-              <td><strong>Caixa de Expansão G</strong></td>
-              <td>Melhorias de cofre de nível avançado.</td>
-              <td>Caixas de ferramentas e caches de alto valor.</td>
-              <td>A caixa mais pesada com a menor taxa de geração.</td>
-          </tr>
-      </tbody>
+      <thead>
+          <tr>
+              <th>Item</th>
+              <th>Usado Para</th>
+              <th>Locais Comuns</th>
+              <th>Notas</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><strong>Caixa de Expansão P</strong></td>
+              <td>Níveis iniciais do cofre que requerem itens.</td>
+              <td>Armários na primeira área; caixas de ferramentas em qualquer lugar.</td>
+              <td>A caixa mais leve; aparece cedo no jogo.</td>
+          </tr>
+          <tr>
+              <td><strong>Caixa de Expansão M</strong></td>
+              <td>Melhorias de cofre de nível médio.</td>
+              <td>Armários na primeira área (mais raro); caixas de ferramentas.</td>
+              <td>Mais pesada que a P; planeje sua rota de extração.</td>
+          </tr>
+          <tr>
+              <td><strong>Caixa de Expansão G</strong></td>
+              <td>Melhorias de cofre de nível avançado.</td>
+              <td>Caixas de ferramentas e caches de alto valor.</td>
+              <td>A caixa mais pesada com a menor taxa de geração.</td>
+          </tr>
+      </tbody>
   </table>
   
   <h2><strong>Parte 2: Como Usar a Caixa de Expansão P para Expandir o Armazenamento</strong></h2>
@@ -2234,20 +2243,20 @@ export const guides = [
   
   <h3><strong>Usando a Caixa de Expansão P para Melhorar Seu Armazém (Passo a Passo):</strong></h3>
   <ol>
-      <li><strong>Traga a Caixa de Volta para a Base:</strong> Depois de encontrar uma caixa, certifique-se de que ela esteja no **inventário do seu personagem** (seus bolsos ou colete), e não no seu armazenamento do armazém.</li>
-      <li><strong>Encontre o NPC de Armazenamento:</strong> No seu esconderijo, vá até o primeiro NPC, **Jeff**.</li>
-      <li><strong>Interaja com o Armário:</strong> Interaja com o armário de armazenamento principal localizado atrás dele para abrir a interface do usuário de armazenamento.</li>
-      <li><strong>Mude para a Aba de Melhoria:</strong> Na interface do usuário de armazenamento, mude para a aba **"Expansão de Armazenamento" / "Melhorar Cofre"**. No PC, você pode usar o seletor de aba na tela ou a roda do mouse.</li>
-      <li><strong>Selecione o Nível de Melhoria:</strong> Selecione o próximo nível de melhoria de cofre disponível. Os níveis iniciais podem custar apenas créditos, enquanto os níveis posteriores exigirão itens como Caixas de Expansão.</li>
-      <li><strong>Confirme a Melhoria:</strong> Confirme a ação. A Caixa de Expansão e os créditos necessários serão consumidos, e a capacidade do seu armazém aumentará imediatamente.</li>
+      <li><strong>Traga a Caixa de Volta para a Base:</strong> Depois de encontrar uma caixa, certifique-se de que ela esteja no **inventário do seu personagem** (seus bolsos ou colete), e não no seu armazenamento do armazém.</li>
+      <li><strong>Encontre o NPC de Armazenamento:</strong> No seu esconderijo, vá até o primeiro NPC, **Jeff**.</li>
+      <li><strong>Interaja com o Armário:</strong> Interaja com o armário de armazenamento principal localizado atrás dele para abrir a interface do usuário de armazenamento.</li>
+      <li><strong>Mude para a Aba de Melhoria:</strong> Na interface do usuário de armazenamento, mude para a aba **"Expansão de Armazenamento" / "Melhorar Cofre"**. No PC, você pode usar o seletor de aba na tela ou a roda do mouse.</li>
+      <li><strong>Selecione o Nível de Melhoria:</strong> Selecione o próximo nível de melhoria de cofre disponível. Os níveis iniciais podem custar apenas créditos, enquanto os níveis posteriores exigirão itens como Caixas de Expansão.</li>
+      <li><strong>Confirme a Melhoria:</strong> Confirme a ação. A Caixa de Expansão e os créditos necessários serão consumidos, e a capacidade do seu armazém aumentará imediatamente.</li>
   </ol>
   
   <h3><strong>Solução de Problemas: O Que Fazer Se a Melhoria Não Funcionar</strong></h3>
   <ul>
-      <li><strong>Está no lugar certo?</strong> Certifique-se de que a caixa esteja no seu **inventário pessoal**, e não no seu cofre.</li>
-      <li><strong>Está na tela certa?</strong> Verifique novamente se você está na aba **"Melhorar Cofre"**, e não na visualização de armazenamento regular.</li>
-      <li><strong>O nível exige isso?</strong> Confirme se o nível de melhoria que você está selecionando realmente lista a **Caixa de Expansão P** como um material necessário.</li>
-      <li><strong>Você tem créditos suficientes?</strong> Certifique-se de ter a quantidade necessária de créditos além da caixa.</li>
+      <li><strong>Está no lugar certo?</strong> Certifique-se de que a caixa esteja no seu **inventário pessoal**, e não no seu cofre.</li>
+      <li><strong>Está na tela certa?</strong> Verifique novamente se você está na aba **"Melhorar Cofre"**, e não na visualização de armazenamento regular.</li>
+      <li><strong>O nível exige isso?</strong> Confirme se o nível de melhoria que você está selecionando realmente lista a **Caixa de Expansão P** como um material necessário.</li>
+      <li><strong>Você tem créditos suficientes?</strong> Certifique-se de ter a quantidade necessária de créditos além da caixa.</li>
   </ul>
   <p><img src="/images/guide/guide18-03.webp" alt="Caixa de expansão 2" width="100%" style="width: 100%;"></p>
   
@@ -2256,11 +2265,11 @@ export const guides = [
   <p>Se você deseja carregar mais loot *durante* uma raid, você precisa aumentar sua <strong>capacidade da mochila</strong> através de sistemas separados:</p>
   <p><img src="/images/guide/guide18-04.webp" alt="Capacidade do Armazém vs. Mochila" width="100%" style="width: 100%;"></p>
   <ul>
-      <li><strong>A Máquina de Aprimoramento de Habilidade:</strong> Na sua base, use esta máquina e escolha a linha de melhoria **"Especialista em Mochila"**.</li>
-      <li><strong>Mochilas Específicas:</strong> Encontre mochilas especiais no campo que adicionam permanentemente espaços quando equipadas.</li>
-      <li><strong>Armadura Corporal:</strong> Certas peças de armadura corporal também podem aumentar sua capacidade de transporte.</li>
+      <li><strong>A Máquina de Aprimoramento de Habilidade:</strong> Na sua base, use esta máquina e escolha a linha de melhoria **"Especialista em Mochila"**.</li>
+      <li><strong>Mochilas Específicas:</strong> Encontre mochilas especiais no campo que adicionam permanentemente espaços quando equipadas.</li>
+      <li><strong>Armadura Corporal:</strong> Certas peças de armadura corporal também podem aumentar sua capacidade de transporte.</li>
   </ul>
-      `
+      `
   },
 
   {
@@ -2280,66 +2289,66 @@ export const guides = [
     "isHome": true,
     "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
     "detailsHtml": `
-      <p>O "Relógio de Bolso de Bronze" é uma das primeiras missões críticas que você receberá em <strong>Escape From Duckov</strong>. Dada por Xavier, esta missão serve como uma introdução perfeita às mecânicas centrais do jogo: usar chaves especiais, navegar até um local específico, recuperar um item de missão e extrair com segurança.</p>
+      <p>O "Relógio de Bolso de Bronze" é uma das primeiras missões críticas que você receberá em <strong>Escape From Duckov</strong>. Dada por Xavier, esta missão serve como uma introdução perfeita às mecânicas centrais do jogo: usar chaves especiais, navegar até um local específico, recuperar um item de missão e extrair com segurança.</p>
   <p>Este guia o guiará por cada passo, desde a aquisição da chave até a localização do relógio e a garantia de sua recompensa.</p>
   
   <h2><strong>Guia Rápido (TL;DR)</strong></h2>
   <ol>
-      <li>**Compre a Chave Mecânica** na máquina de venda automática do seu bunker.</li>
-      <li>Desloque-se para o mapa **Ground Zero**.</li>
-      <li>Siga para o **canto sudeste** para encontrar um caminhão branco com um tanque de combustível laranja.</li>
-      <li>Use a **Chave Mecânica** para destrancar a cabine do caminhão.</li>
-      <li>Saqueie o **Relógio de Bolso de Bronze** de dentro.</li>
-      <li>Extraia imediatamente através da **tampa de bueiro** ao lado do caminhão.</li>
-      <li>Entregue o relógio a **Xavier** para completar a missão.</li>
+      <li>**Compre a Chave Mecânica** na máquina de venda automática do seu bunker.</li>
+      <li>Desloque-se para o mapa **Ground Zero**.</li>
+      <li>Siga para o **canto sudeste** para encontrar um caminhão branco com um tanque de combustível laranja.</li>
+      <li>Use a **Chave Mecânica** para destrancar a cabine do caminhão.</li>
+      <li>Saqueie o **Relógio de Bolso de Bronze** de dentro.</li>
+      <li>Extraia imediatamente através da **tampa de bueiro** ao lado do caminhão.</li>
+      <li>Entregue o relógio a **Xavier** para completar a missão.</li>
   </ol>
   
   <h2><strong>Detalhes da Missão</strong></h2>
   <table>
-      <thead>
-          <tr>
-              <th>Detalhes em Campo</th>
-              <th></th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td><strong>Nome da Missão</strong></td>
-              <td>Relógio de Bolso de Bronze</td>
-          </tr>
-          <tr>
-              <td><strong>Doador</strong></td>
-              <td>Xavier (NPC de Armas no bunker)</td>
-          </tr>
-          <tr>
-              <td><strong>Mapa</strong></td>
-              <td>Ground Zero</td>
-          </tr>
-          <tr>
-              <td><strong>Objetivo Principal</strong></td>
-              <td>Recuperar o Relógio de Bolso de Bronze de um caminhão trancado e entregá-lo a Xavier.</td>
-          </tr>
-          <tr>
-              <td><strong>Itens Necessários</strong></td>
-              <td>1x Chave Mecânica</td>
-          </tr>
-          <tr>
-              <td><strong>Recompensas</strong></td>
-              <td>~2.500 EXP e ~450 Moeda (valores podem variar ligeiramente)</td>
-          </tr>
-          <tr>
-              <td><strong>Missão de Seguimento</strong></td>
-              <td>Lista de Carga</td>
-          </tr>
-      </tbody>
+      <thead>
+          <tr>
+              <th>Detalhes em Campo</th>
+              <th></th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><strong>Nome da Missão</strong></td>
+              <td>Relógio de Bolso de Bronze</td>
+          </tr>
+          <tr>
+              <td><strong>Doador</strong></td>
+              <td>Xavier (NPC de Armas no bunker)</td>
+          </tr>
+          <tr>
+              <td><strong>Mapa</strong></td>
+              <td>Ground Zero</td>
+          </tr>
+          <tr>
+              <td><strong>Objetivo Principal</strong></td>
+              <td>Recuperar o Relógio de Bolso de Bronze de um caminhão trancado e entregá-lo a Xavier.</td>
+          </tr>
+          <tr>
+              <td><strong>Itens Necessários</strong></td>
+              <td>1x Chave Mecânica</td>
+          </tr>
+          <tr>
+              <td><strong>Recompensas</strong></td>
+              <td>~2.500 EXP e ~450 Moeda (valores podem variar ligeiramente)</td>
+          </tr>
+          <tr>
+              <td><strong>Missão de Seguimento</strong></td>
+              <td>Lista de Carga</td>
+          </tr>
+      </tbody>
   </table>
   
   <h2><strong>Passo 1: Como Obter a Chave Mecânica</strong></h2>
   <p>O caminhão que contém o relógio está trancado, e a **Chave Mecânica** é a única maneira de entrar.</p>
   <p><img src="/images/guide/guide19-01.webp" alt="Comprar Chave" width="100%" style="width: 100%;"></p>
   <ul>
-      <li>**Método Primário (Recomendado):** A maneira mais confiável de obter a chave é comprá-la na **máquina de venda automática** no seu bunker/esconderijo por **660 moedas**.</li>
-      <li>**Método Alternativo:** É possível encontrar a chave como loot aleatório no mundo, mas isso é muito menos previsível. Comprá-la é a maneira mais rápida de prosseguir.</li>
+      <li>**Método Primário (Recomendado):** A maneira mais confiável de obter a chave é comprá-la na **máquina de venda automática** no seu bunker/esconderijo por **660 moedas**.</li>
+      <li>**Método Alternativo:** É possível encontrar a chave como loot aleatório no mundo, mas isso é muito menos previsível. Comprá-la é a maneira mais rápida de prosseguir.</li>
   </ul>
   <p><strong>Dica Profissional:</strong> Se você construiu o **Dispositivo de Registro de Chaves** no seu bunker, você pode registrar a Chave Mecânica antes de se deslocar. Isso evita que você a perca se morrer durante a raid. Caso contrário, simplesmente mantenha a chave em seu contêiner seguro ou inventário.</p>
   <p><img src="/images/guide/guide19-02.webp" alt="Chave Mecânica" width="100%" style="width: 100%;"></p>
@@ -2351,30 +2360,30 @@ export const guides = [
   
   <h3><strong>Duas Rotas Confiáveis para o Caminhão:</strong></h3>
   <ul>
-      <li>**A Rota da Ponte:**
-          <ul>
-              <li>Da entrada do bunker, siga para leste em direção à ponte de madeira quebrada.</li>
-              <li>Você precisará de **2 Madeira** para consertá-la. (A madeira pode ser encontrada em caixas de ferramentas ou comprada).</li>
-              <li>Atravesse a ponte e siga a estrada congestionada de veículos para o sul para encontrar o tanque.</li>
-              <li>**Risco:** Esta rota é mais exposta e pode atrair catadores. A ponte sul é geralmente mais tranquila.</li>
-          </ul>
-      </li>
-      <li>**A Rota do Esgoto (Mais Rápida e Segura):**
-          <ul>
-              <li>Se você desbloqueou anteriormente a escotilha do esgoto, esta é de longe a melhor rota.</li>
-              <li>Suba na saída do esgoto de Ground Zero.</li>
-              <li>O caminhão e o tanque estarão quase imediatamente à sua frente, apenas alguns metros a leste.</li>
-          </ul>
-      </li>
+      <li>**A Rota da Ponte:**
+          <ul>
+              <li>Da entrada do bunker, siga para leste em direção à ponte de madeira quebrada.</li>
+              <li>Você precisará de **2 Madeira** para consertá-la. (A madeira pode ser encontrada em caixas de ferramentas ou comprada).</li>
+              <li>Atravesse a ponte e siga a estrada congestionada de veículos para o sul para encontrar o tanque.</li>
+              <li>**Risco:** Esta rota é mais exposta e pode atrair catadores. A ponte sul é geralmente mais tranquila.</li>
+          </ul>
+      </li>
+      <li>**A Rota do Esgoto (Mais Rápida e Segura):**
+          <ul>
+              <li>Se você desbloqueou anteriormente a escotilha do esgoto, esta é de longe a melhor rota.</li>
+              <li>Suba na saída do esgoto de Ground Zero.</li>
+              <li>O caminhão e o tanque estarão quase imediatamente à sua frente, apenas alguns metros a leste.</li>
+          </ul>
+      </li>
   </ul>
   <p>Assim que chegar ao caminhão, aproxime-se da **porta do lado do motorista** e use a Chave Mecânica do seu inventário para destrancá-la. O Relógio de Bolso de Bronze estará dentro.</p>
   
   <h2><strong>Passo 3: A Extração Mais Fácil</strong></h2>
   <p>Você não precisa correr de volta pelo mapa para extrair. Um dos melhores pontos de extração está localizado bem ao lado do objetivo.</p>
   <ul>
-      <li>Procure por uma **tampa de bueiro** no chão, logo à esquerda do caminhão-tanque.</li>
-      <li>Pode haver uma caixa de papelão em cima dela. Simplesmente mova a caixa para liberar a escotilha.</li>
-      <li>Interagir com a escotilha aberta fornece um atalho direto e seguro de volta para o porão do seu bunker.</li>
+      <li>Procure por uma **tampa de bueiro** no chão, logo à esquerda do caminhão-tanque.</li>
+      <li>Pode haver uma caixa de papelão em cima dela. Simplesmente mova a caixa para liberar a escotilha.</li>
+      <li>Interagir com a escotilha aberta fornece um atalho direto e seguro de volta para o porão do seu bunker.</li>
   </ul>
   
   <h2><strong>Passo 4: Entrega e Recompensas</strong></h2>
@@ -2384,17 +2393,17 @@ export const guides = [
   
   <h2><strong>Solução de Problemas e FAQ</strong></h2>
   <ul>
-      <li>**A geração do relógio é garantida?**
-          <p><strong>Sim.</strong> O Relógio de Bolso de Bronze é um item de missão fixo. Se você destrancar a porta e não o vir, é provável que seja um bug raro. Simplesmente saia de Ground Zero e entre novamente no mapa para redefini-lo.</p>
-      </li>
-      <li>**O que acontece se eu morrer?**
-          <p>Morrer redefinirá seu progresso na missão. Você terá que voltar para Ground Zero para recuperar o relógio novamente. É por isso que usar a extração rápida pelo bueiro é altamente recomendado.</p>
-      </li>
-      <li>**Por que esta missão é importante?**
-          <p>Ela fornece um grande impulso de EXP e moeda no início do jogo, ensina habilidades essenciais e desbloqueia outras missões para progredir em sua linha de história principal.</p>
-      </li>
+      <li>**A geração do relógio é garantida?**
+          <p><strong>Sim.</strong> O Relógio de Bolso de Bronze é um item de missão fixo. Se você destrancar a porta e não o vir, é provável que seja um bug raro. Simplesmente saia de Ground Zero e entre novamente no mapa para redefini-lo.</p>
+      </li>
+      <li>**O que acontece se eu morrer?**
+          <p>Morrer redefinirá seu progresso na missão. Você terá que voltar para Ground Zero para recuperar o relógio novamente. É por isso que usar a extração rápida pelo bueiro é altamente recomendado.</p>
+      </li>
+      <li>**Por que esta missão é importante?**
+          <p>Ela fornece um grande impulso de EXP e moeda no início do jogo, ensina habilidades essenciais e desbloqueia outras missões para progredir em sua linha de história principal.</p>
+      </li>
   </ul>
-      `
+      `
   }
 
 

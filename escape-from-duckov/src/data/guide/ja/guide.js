@@ -259,139 +259,6 @@ export const guides = [
     },
 
     {
-        "id": 3,
-        "title": "上級者向けグランドゼロ探索と基地拡張",
-        "description": "複雑なクエストチェーンを完了し、基地施設を拡張するための、上級者向けグランドゼロ遠征と中盤の攻略法を網羅した包括的なウォークスルーです。",
-        "imageUrl": "/images/guide-03.webp",
-        "imageAlt": "上級者向けグランドゼロ探索と基地拡張",
-        "publishDate": "2025-10-27",
-        "addressBar": "/advanced-ground-zero-exploration-base-expansion",
-        "category": "walkthroughs",
-        "tags": [
-            "ADVANCED EXPLORATION",
-            "BASE EXPANSION",
-            "QUEST CHAINS",
-            "EQUIPMENT UPGRADES",
-            "GROUND ZERO"
-        ],
-        "seo": {
-            "title": "上級者向けグランドゼロ探索と基地拡張 - Escape from Duckov",
-            "description": "複雑なクエストチェーンを完了し、基地施設を拡張するための、上級者向けグランドゼロ遠征と中盤の攻略法を網羅した包括的なウォークスルーです。",
-            "keywords": "Escape from Duckov, 上級者向けウォークスルー, グランドゼロ探索, 基地拡張, クエストチェーン, 装備アップグレード, 中盤ガイド"
-        },
-        "isHome": false,
-        "detailsHtml": `
-              <p>この上級者向けウォークスルーは、<a href="/">Escape from Duckov</a>の**中盤の進行**をカバーしており、複雑なグランドゼロ遠征、基地施設の拡張、および入り組んだクエストチェーンの完了に焦点を当てています。より困難なコンテンツに取り組む準備ができているプレイヤーに最適です。</p>
-              
-              <h2>1. 上級グランドゼロ探索</h2>
-              <img src="/images/guide/guide03-01.webp" alt="上級グランドゼロ探索" class="guide-image" />
-              <h3>北のタワーミッション</h3>
-      
-              <p><strong>信号塔クエスト:</strong> ロードキャンプに向かい、北のタワーを見つけます。ツールボックスから**金属板2枚**、釘、**マイナスドライバー**を探します。</p>
-              <p><strong>電源ボックスの操作:</strong> タワーの土台にある電源ボックスを操作して、**信号塔クエスト**の目標を完了します。</p>
-              <p><strong>設計図の発見:</strong> タワーの右側に移動し、高度なクラフトに不可欠な**ポテトグラフィックカードの設計図**を見つけます。</p>
-      
-              <img src="/images/guide/guide03-02.webp" alt="北のタワーミッション" class="guide-image" />
-      
-              <h3>ロードキャンプへのアプローチ</h3>
-              <p><strong>新しい敵タイプ:</strong> ロードキャンプの近くで、高度なショットガンを装備した敵に遭遇します。これらの敵は、慎重なポジショニングと十分な弾薬が必要です。</p>
-              <p><strong>装備の入手:</strong> 敵を倒して、MP-155ショットガン、<a href="/items/equipment">モーターサイクルヘルメット</a>、および医療品を入手します。利用可能なすべての保護具については、こちらの <a href="/items/equipment">装備データベース</a> を参照してください。</p>
-              <p><strong>橋の修理:</strong> **木材**を2つ使用して、ロードキャンプにつながる壊れた橋を修理します。追加のルートについては、電柱の下の隠し場所を確認してください。</p>
-              
-              <h2>2. NPCとの交流と新しいクエスト</h2>
-              
-              <h3>トレーナー Mud</h3>
-      
-              <p><strong>場所:</strong> ロードキャンプ近くの家で見つかります - 身体トレーニングサービスを提供する筋肉質なアヒルです。</p>
-              <p><strong>クエストの割り当て:</strong> Mudから「**バランスの取れた栄養 1**」を受諾し、身体能力向上の機会を得ます。</p>
-              
-              <h3>バランスの取れた栄養クエスト</h3>
-      
-              <img src="/images/guide/guide03-03.webp" alt="トレーナー Mud" class="guide-image" />
-      
-              <p><strong>目的:</strong> **アヒルの卵** 1個を提出</p>
-              <p><strong>報酬:</strong> 800 XP、500 通貨</p>
-              <p><strong>戦略:</strong> アヒルの卵はグランドゼロ全体の様々な場所で見つけることができます - 遠征中に収集を優先してください。</p>
-              
-              <h2>3. 洞窟探索と上級ルート</h2>
-              
-              <h3>洞窟へのアクセス</h3>
-              <p><strong>橋の修理:</strong> 収集した材料を使用して洞窟の入り口近くの橋を修理し、隠されたエリアにアクセスします。</p>
-              <p><strong>高価値ルート:</strong> 洞窟には以下のプレミアム装備が含まれています:</p>
-              <ul>
-                  <li><strong>武器:</strong> ピストルマズル、UP 45、AK-47、腰だめアタッチメント。詳細な武器情報については、こちらの <a href="/items/weapons">武器データベース</a> を確認してください</li>
-                  <li><strong>弾薬:</strong> 様々な弾薬タイプとレーザーアタッチメント。互換性の詳細については、<a href="/items/ammunition">すべての弾薬タイプ</a> を参照してください</li>
-                  <li><strong>設計図:</strong> **キューブガン**と**小型エネルギー弾**のレシピ</li>
-              </ul>
-              
-              <h3>北西キャンプへの潜入</h3>
-              <p><strong>ステルスアプローチ:</strong> ルート沿いの小規模な敵のキャンプを排除しながら、慎重に**北西キャンプ**へ進みます。</p>
-              <p><strong>クエストアイテムの収集:</strong> クエスト完了のために、テントの中から「**旧友からの手紙**」を回収します。</p>
-              <p><strong>追加の発見:</strong> 近くのデータボックスから**バール**のレシピと**グランドゼロの監視ログ**の警告メモを見つけます。</p>
-              
-              <h2>4. 困難な戦闘遭遇</h2>
-              
-              <h3>フード付きの敵ボス戦</h3>
-              <p><strong>敵の説明:</strong> フードをかぶり、ショットガンを振り回す重武装の敵 - 標準的な敵よりも格段に危険です。</p>
-              <p><strong>戦闘準備:</strong> 交戦する前に、十分な弾薬と医療品があることを確認してください。</p>
-              <p><strong>クエストとの連携:</strong> 戦闘中に**包帯**を使用して「**止血の重要性**」クエストを完了します。</p>
-              <p><strong>報酬の収集:</strong> 敵を倒して、**闇市場の連絡メモ**と**上級APショットガンシェル**を入手します。</p>
-              
-              <h3>資源管理</h3>
-              <p><strong>脱水警告:</strong> 水分レベルを監視してください - 長時間の遠征中に**脱水症状**が発生する可能性があります。</p>
-              <p><strong>鍵の収集:</strong> 脱出前に、**廃ガソリンスタンドの鍵**と**フェンスの鍵**、さらに**ホログラフィックスコープ**を収集します。鍵の場所と使用方法については、こちらの <a href="/items/key">鍵データベース</a> を確認してください。</p>
-              
-              <h2>5. 基地施設の拡張</h2>
-              
-              <h3>新しい建設クエスト</h3>
-              <p><strong>基本建設 II:</strong> バンカー内に**武器店**を建設</p>
-              <p><strong>基本建設 III:</strong> バンカー内に**防具店**を建設</p>
-              <p><strong>医療建設:</strong> バンカー内に**医療ステーション**を建設</p>
-              <p><strong>技術専門家:</strong> **電子部品の山**を提出</p>
-              
-              <h3>戦闘とスキルクエスト</h3>
-              <p><strong>頭を狙え:</strong> グランドゼロで**ヘッドショット**で敵を5体倒す</p>
-              <p><strong>拡張ポケット:</strong> バックパックエキスパート 1 をアンロック（未完了の場合）</p>
-              <p><strong>作業台のアップグレード:</strong> 高度な処理をアンロック（未完了の場合）</p>
-              
-              <h3>資源提出クエスト</h3>
-              <p><strong>愛いっぱい:</strong> 大きな報酬のために**1888通貨**を提出</p>
-              <p><strong>クラフト見習い:</strong> クラフト知識のために**Glickピストル**を提出</p>
-              <p><strong>帳簿係:</strong> 事務作業のために**インク**、**ペン**、**ノート**を提出</p>
-              
-              <h2>6. 装備と施設のアップグレード</h2>
-              
-              <h3>防具店の建設</h3>
-              <p><strong>即時利用可能:</strong> 防具店は利用可能な材料で直ちに建設できます。</p>
-              <p><strong>装備の購入:</strong> **レベル2ボディアーマー**と**スチールヘルメット**を入手し、防御力を大幅に向上させます。利用可能なすべての防具オプションを比較するには、こちらの <a href="/items/equipment">完全装備カタログ</a> を参照してください。</p>
-              <p><strong>クエストの割り当て:</strong> 防具店から**補給ルート**と**帳簿係**のクエストを受諾します。</p>
-              
-              <h3>作業台の強化</h3>
-              <p><strong>設計図の研究:</strong> 収集したすべての設計図を研究して、インベントリスペースを解放し、新しいクラフトオプションをアンロックします。</p>
-              <p><strong>修理ステーションの研究:</strong> 損傷した装備の**武器修理機能**をアンロックします。</p>
-              <p><strong>分解ステーション:</strong> 自動販売機から**ハサミ**と**レンチ**を使用して分解機能を研究します。</p>
-              
-              <h3>キャラクターの成長</h3>
-              <p><strong>銃マスタリー I:</strong> エンハンサーで銃器の習熟度をアップグレードし、戦闘効果を向上させます。</p>
-              <p><strong>スキルの優先順位付け:</strong> 今後の困難な遭遇に備えて、**戦闘関連の強化**に焦点を当てます。</p>
-              
-              <h2>7. 上級クエスト管理</h2>
-              
-              <h3>補給ルートクエスト</h3>
-              <p><strong>場所:</strong> グランドゼロ</p>
-              <p><strong>目的:</strong> **マーカー**（ストレージで利用可能）で補給ボックスに印を付ける</p>
-              <p><strong>戦略:</strong> 以前に収集したマーカーを使用して、この目標を効率的に完了します。</p>
-              
-              <h3>資源計画</h3>
-              <p><strong>通貨管理:</strong> 財源を監視します - 高度な装備とアップグレードにはかなりの投資が必要です。</p>
-              <p><strong>材料の収集:</strong> 将来の建設プロジェクトのための材料収集を優先します。</p>
-              <p><strong>インベントリの最適化:</strong> 定期的に設計図を研究し、ストレージを整理して効率的なインベントリ管理を維持します。</p>
-              
-              <h2>結論</h2>
-              <p>この上級者向けウォークスルーは、Escape from Duckovでの**重要な中盤の進行**をカバーしています。複雑なグランドゼロ遠征を成功裏に完了し、基地施設を拡張し、高度なクラフト機能をアンロックしました。利用可能なすべてのミッションの詳細については、こちらの <a href="/wiki/quests">クエストデータベース</a> を確認してください。新しいクエストチェーンの完了、装備のアップグレード、そして今後のさらに困難なコンテンツへの準備に焦点を当ててください。ストームゾーンへのアクセスガイドなど、さらに <a href="/guides">上級ガイド</a> を探索してください。あなたが築いた基盤は、Duckovの最も危険なエリアを生き残るために不可欠になるでしょう。</p>
-              `
-    },
-    {
         "id": 4,
         "title": "コアゲームメカニクスとシステムをマスターする",
         "description": "基地管理、キャラクターの成長、戦闘システム、探索、サバイバル戦略を網羅した、『Escape from Duckov』のコアメカニクスに関する包括的なガイドです。",
@@ -562,6 +429,802 @@ export const guides = [
     },
 
     {
+        "id": 12,
+        "title": "Escape from Duckov ウォークスルー パート1：脱獄と基地のセットアップ",
+        "description": "Escape from Duckov の開始に不可欠なガイドです！完全な脱獄チュートリアル、基地のインフラ設定、および Ground Zero での初期クエストの完了をカバーします。",
+        "imageUrl": "/images/guide12.webp",
+        "imageAlt": "Escape from Duckovの脱獄シーンで、プレイヤーキャラクターが箱を漁っている様子。",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
+        "category": "walkthroughs",
+        "tags": ["ウォークスルー", "初心者ガイド", "脱獄", "基地建設", "グランドゼロ"],
+        "seo": {
+            "title": "Escape from Duckov パート1 ガイド：刑務所、基地設定、初期クエスト",
+            "description": "Escape from Duckovの最初のパートの完全なステップバイステップウォークスルー。刑務所から脱出する方法、基地をセットアップする方法、および「基本的な建設」と「運転資金」のクエストを完了する方法を学びます。",
+            "keywords": "Escape from Duckov ウォークスルー パート1, Escape from Duckov 初心者ガイド, 脱獄ガイド, グランドゼロ ウォークスルー, 基地セットアップ Duckov, 初期クエスト"
+        },
+        "isHome": false,
+        "detailsHtml": `
+              <h2>刑務所からの脱出：チュートリアルと最初の遭遇</h2>
+              <p>簡単な紹介シーンの後、最初のアクションは鏡に行き、キャラクタークリエーターで**自分のキャラクターを設定する**ことです。</p>
+              
+              <h3>初期の戦利品と移動</h3>
+              <ul>
+                  <li>床の矢印とマーキングに従って移動し、戦利品を拾います。</li>
+                  <li>箱から、**TT-33**（基本的なピストル）、**弾薬30発**、**包帯**、**クラッカー**を入手します。</li>
+                  <li>自分の独房の右側の部屋に入り、中の箱から**ニンジン**を取ります。（<em>ヒント：走ったり転がったりすると**スタミナ**を消費します</em>）。</li>
+                  <li>ゴミ箱をチェックして、**ライター**、**ロリポップ**、**電子機器**を見つけます。</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-01.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
+      
+              <h3>最初の戦闘と装備のアップグレード</h3>
+              <ul>
+                  <li>今後の遭遇に備えて**TT-33ピストルを装備**します。</li>
+                  <li>**迫りくる弾丸を回避**し（赤い閃光が見えたら）、最初の警備員を倒します。</li>
+                  <li>警備員から**警察の警棒**、**白い白衣**、**黒縁のサングラス**を戦利品として獲得します。**すべて装備してください**。</li>
+                  <li>さらに弾丸を拾い、ゴミ箱から**ケーブル**を見つけます。（<em>ヒント：右クリックを押し続けると精度が向上します。</em>）</li>
+                  <li>次の箱から**包帯**と**アスピリン**を戦利品として獲得します。</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-02.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
+      
+              <h3>2回目の遭遇と脱出</h3>
+              <ul>
+                  <li>次の部屋の箱から**PMピストル**を戦利品として獲得し、スロット2に入れます。</li>
+                  <li>次の警備員を倒し、**Glickピストル**、白衣、サングラスを戦利品として獲得します。</li>
+                  <li>**インベントリがいっぱい**の場合は、次に進む必要があるかもしれません。次のゴミ箱から**クラッカー**と**ソーダ**を戦利品として獲得します。</li>
+                  <li>エネルギーを補充するために**ニンジンとクラッカーを食べます**。</li>
+                  <li>**右**の道を進み、**脱出地点**に向かって素早い脱出を完了します。</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
+      
+              <h2>基地：インフラストラクチャと初期の強化</h2>
+              <p>基地に戻ったら、2階で**Jeff**を見つけて、倉庫、建設パネル、自動販売機、エンハンサー、脱出地点のツアーを受けてください。</p>
+      
+              <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
+      
+              <h3>キャラクターとストレージのアップグレード</h3>
+              <ul>
+                  <li>Glickを売り、装備しているTT-33を保持します。自動販売機をチェックします。</li>
+                  <li>**エンハンサー**を使用します：**「バックパックエキスパートI」を研究してアクティブ化**し、**バックパック容量を+4**にします。（<em>注：強化にはお金と材料が必要です。</em>）</li>
+                  <li>**倉庫**を使用します：「**ストレージ拡張Lv.1**」を追加して、**ストレージ容量を+35**増やします。</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-05.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
+      
+              <h3>初期クエストの受諾</h3>
+              <p>Jeffに話しかけて、最初の2つのクエストを受諾します：</p>
+              <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                      <tr>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">報酬</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;"><strong>基本的な建設</strong></td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">**木材2個**を集めて作業台を建設する。</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">EXP +1000、通貨 +500、包帯 x3</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">**運転資金**</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">**敵を1体倒す**。</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">EXP +500、通貨 +1296</td>
+                      </tr>
+                  </tbody>
+              </table>
+      
+              <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
+      
+              <h2>Ground Zero：リソースランとクエスト完了</h2>
+      
+              <h3>敵キャンプの掃討と木材の収集</h3>
+              <ul>
+                  <li>最初の箱を漁り、弾丸ともう1つのTT-33を見つけます。右に移動します。</li>
+                  <li>ツールボックスで**小さな石**（敵を誘い出すため）と**釘**を見つけます。**ナット、ボルト、車のバッテリー**を収集します。</li>
+                  <li>左側に敵のキャンプを見つけます。ここで**暴れまわるスカベンジャー**（赤いアヒル）を倒すと、**「運転資金」が完了します**。</li>
+                  <li>死体から**肉切り包丁**、**木材**、**現金**を戦利品として獲得します。</li>
+                  <li>さらに戦利品を漁り（タクティカルボックス、弾薬箱）、**手作りのショットガン**、**弾丸**、**矢**を見つけます。</li>
+              </ul>
+      
+              <img src="/images/guide/guide12-07.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
+      
+              <h3>さらなる戦利品と探索</h3>
+              <ul>
+                  <li>**グリーンアヒル**と交戦します（ショットガンを使用し、ボディアーマーを着用します）。</li>
+                  <li>死体から**バックパック**（装備するとストレージ+39）、**弓**、**コールドコアの破片**を戦利品として獲得します。</li>
+                  <li>**AK-74U**を戦利品として獲得し、**TOZ-66の設計図**を見つけます。</li>
+                  <li>北に進み、**湖**に通じる**テレポートノード**を見つけます。</li>
+                  <li>森の小道の近くで、**MD40のレシピ**がある小さなキャンプを見つけます。シャベルを使って**J-Labフロッピーディスクを掘り出します**。</li>
+                  <li>別のキャンプを掃討し、**「基本的な建設」**に必要な**2番目の木材**を見つけます。</li>
+                  <li>**壊れた橋**から洞窟へ行くには、**金属板2枚**と**木材2個**が必要です。</li>
+              </ul>
+      
+              <h3>脱出とクエストの提出</h3>
+              <ul>
+                  <li>北西のキャンプでグリーンアヒルに対処します。脱出地点の近くでSMGダメージ強化用の**マズルアタッチメント**を見つけます。</li>
+                  <li>**Ground Zeroから脱出**します。</li>
+                  <li>基地で**「運転資金」**を提出します。</li>
+                  <li>**クエスト「ハンターの道」を受諾**します：暴れまわるスカベンジャーを2体倒し、肉切り包丁を2本提出します。</li>
+                  <li>**建設パネル**に行き、**作業台を建設**します。**「基本的な建設」**を提出します。</li>
+                  <li>**高度な加工**を研究して**作業台をアップグレード**します。</li>
+              </ul>
+      
+              <h3>新しいクエストと最終準備</h3>
+              <p>**「止血の重要性」**、**「信号塔」**（**マイナスドライバー**が必要）、**「旧友からの手紙」**などの新しいクエストを受け取ります。</p>
+              <ul>
+                  <li>自動販売機から**マイナスドライバー**を購入します。</li>
+                  <li>**エンハンサー**に行き、**サバイバル本能 1（最大HP +5）**と**ワイドビュー 1（FOV +15）**をアップグレードします。</li>
+                  <li>夜間の危険性の増加を避けるために**寝て**、時間を**午前7時**に進めます。</li>
+              </ul>
+          `
+    },
+
+    {
+        "id": 13,
+        "title": "Escape from Duckov ウォークスルー パート2：Ground Zero 探索と基地拡張",
+        "description": "Escape from Duckov のパート2に不可欠なガイドです。信号塔の完了、洞窟のロック解除、タフな警備員の撃破、および新しいショップによる基地の拡張を行います。",
+        "imageUrl": "/images/guide13.webp",
+        "imageAlt": "Escape from Duckov の Ground Zero マップで、プレイヤーキャラクターが壊れた橋を修理している様子。",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
+        "category": "walkthroughs",
+        "tags": ["ウォークスルー", "グランドゼロ", "基地拡張", "新しいクエスト", "中盤"],
+        "seo": {
+            "title": "Escape from Duckov パート2 ウォークスルー：信号塔、洞窟の戦利品、アーマーショップ",
+            "description": "Escape from Duckov パート2の完全ガイド。信号塔の修理、設計図のための洞窟へのアクセス、重装甲の警備員の撃破、およびアーマーショップの建設方法を詳述します。",
+            "keywords": "Escape from Duckov パート2, Ground Zero 探索, 信号塔クエスト, 洞窟の設計図, アーマーショップのロック解除, ブラックマーケットのメモ"
+        },
+        "isHome": false,
+        "detailsHtml": `
+              <h2>Ground Zero：クエスト完了と主要な場所</h2>
+              <p>2回目の主要なランは、アップグレードされた装備を利用して未解決のタスクを完了し、新しいエリアのロックを解除し、重要な設計図とクエストアイテムを収集することに焦点を当てています。</p>
+      
+              <h3>北の塔と新しい連絡先</h3>
+              <ul>
+                  <li>道路キャンプに向かい、**北の塔**を見つけます。</li>
+                  
+                  <img src="/images/guide/guide13-01.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
+      
+                  <li>近くの**ツールボックス**を漁り、**金属板2枚**、**釘1本**、**マイナスドライバー**を含む貴重なアイテムを確保します。</li>
+      
+                  <img src="/images/guide/guide13-02.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
+      
+                  <li>塔の根元にある**電源ボックス**と対話し、**「信号塔」**クエストの目的を完了します。</li>
+                  <li>塔の右側に移動し、**ポテトグラフィックカードの設計図**を見つけます。</li>
+      
+                  <img src="/images/guide/guide13-03.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
+      
+                  <li>道路キャンプに向かい、新しいショットガンを携行した敵タイプを排除し、**MP-155ショットガン**、**オートバイのヘルメット**、および薬を戦利品として獲得します。</li>
+                  <li>左側で**「マッド」**を見つけ、クエスト**「バランスの取れた栄養 1」**を受諾します（目的：アヒルの卵1個を提出、報酬：EXP +800、通貨 +500）。</li>
+              </ul>
+      
+              <h3>橋の修理と洞窟へのアクセス</h3>
+              
+              <img src="/images/guide/guide13-04.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
+      
+              <ul>
+                  <li>左に移動し、**木材2個**を使用して道路キャンプに通じる**壊れた橋を修理**します。（渡る前に電柱の下をチェックしますが、戦利品はまれです）。</li>
+                  <li>森の小道のキャンプに向かい、**レッドスカベンジャー**を排除して**「ハンターの道」**を完了し、**肉切り包丁2本**を拾います。また、**放棄されたガソリンスタンドの鍵**も見つけます。</li>
+                  <li>洞窟の入り口近くにある壊れた橋を修理します。</li>
+      
+                  <img src="/images/guide/guide13-05.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
+              </ul>
+      
+              <h3>洞窟の戦利品と設計図</h3>
+      
+              <p>洞窟内で、重要な武器アタッチメントと設計図を収集します：</p>
+      
+              <img src="/images/guide/guide13-06.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
+      
+              <ul>
+                  <li>**ピストルマズル**、**UP 45**、**AK 47**、**腰だめ撃ちアタッチメント**、**レーザーアタッチメント**を戦利品として獲得します。</li>
+                  <li>決定的に重要なのは、**キューブガンの設計図**と**小型エネルギー弾薬**を拾うことです。</li>
+              </ul>
+      
+              <h3>北西キャンプと最終脱出の準備</h3>
+      
+              <img src="/images/guide/guide13-07.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
+              
+              <ul>
+                  <li>**北西のキャンプ**に忍び込み、テントで**旧友からの手紙**を見つけ、クエストを完了します。</li>
+                  <li>近くのデータボックスから**バールレシピ**を拾います。監視塔に登り、**「Ground Zero 観測ログ」**を読みます。</li>
+                  <li>**タフな遭遇：** **ショットガンを持った超タフなフード付きの敵**と交戦します。この戦闘中に**包帯**を使用して**「止血の重要性」**を完了します。</li>
+                  <li>彼を倒した後、貴重な**ブラックマーケット連絡メモ**と**高度なAPショットガンシェル**を戦利品として獲得します。</li>
+                  <li>脱出に向かう途中で、別のキャンプを掃討し、2つの鍵（**放棄されたガソリンスタンドの鍵**と**フェンスの鍵**）と**ホログラフィックサイト**を見つけます。</li>
+                  <li>**Ground Zeroから脱出**します。</li>
+              </ul>
+      
+              <h2>基地管理：クエスト、ショップ、アップグレード</h2>
+              <p>基地に戻ったら、完了したすべてのクエストをすぐに提出して、次のレベルの建設とアップグレードのロックを解除します。</p>
+      
+              <img src="/images/guide/guide13-08.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
+      
+              <h3>クエスト提出と新しい目的</h3>
+              <p>完了したすべてのクエストを提出します。次の新しい建設および材料クエストが表示されます：</p>
+              <table style="width: 100%; border-collapse: collapse;">
+                  <thead>
+                      <tr>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">新しい建設</th>
+                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">戦闘/材料クエスト</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">基本的な建設 II：**武器ショップ**を建設する</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">ヘッドショットを狙え：敵をヘッドショットで倒す（5体）</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">基本的な建設 III：**アーマーショップ**を建設する（最優先）</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">技術の専門家：電子部品の山を提出する</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">基本的な建設（医療）：**医療ステーション**を建設する</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">愛に満ちて：通貨1888を提出する（すぐに提出可能）</td>
+                      </tr>
+                      <tr>
+                          <td style="border: 1px solid #ddd; padding: 8px;">クラフトの見習い：Glickを提出する</td>
+                          <td style="border: 1px solid #ddd; padding: 8px;">すでに完了したクエストを提出：拡張ポケットと作業台のアップグレード</td>
+                      </tr>
+                  </tbody>
+              </table>
+      
+              <h3>建設と最終アップグレード</h3>
+              <ul>
+                  <li>**「愛に満ちて」**をすぐに提出します。</li>
+                  <li>建設ステーションをチェックします：**アーマーショップ**をすぐに**建設**できます。**「基本的な建設 III」**を提出します。</li>
+                  <li>新しいアーマーショップを訪れます：**レベル2アーマーとスチールヘルメットを購入**します。</li>
+                  <li>**作業台**で：**すべての新しい設計図を研究**し（インベントリスペースを空けるため）、**修理ステーションの設計図**を研究します。</li>
+                  <li>自動販売機から**ハサミ**と**レンチ**を購入し、作業台で**分解ステーション**を研究します。</li>
+                  <li>**エンハンサー**で：**ガンの熟練度 I**をアップグレードします。</li>
+                  <li>アーマーショップから2つの新しいクエストを受諾します：**「供給ルート」**（供給クレートにマークを付ける）と**「帳簿」**（インク、ペン、ノートを提出する）。</li>
+                  <li>これらの主要なアップグレードの後、お金が尽きて一日が終わります。</li>
+              </ul>
+          `
+    },
+
+    {
+        "id": 14,
+        "title": "Escape from Duckov ウォークスルー パート3：Ground Zeroの鍵とPato Chapoボス",
+        "description": "Escape from Duckov パート3の包括的なガイドです。新しい商人のクエストを受諾し、医療ステーションと武器ショップを建設し、Pato Chapoボスを突き止めます。",
+        "imageUrl": "/images/guide14.webp",
+        "imageAlt": "Escape from Duckovで、プレイヤーキャラクターがGround Zeroにある鍵のかかったドアを鍵で開けている様子。",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
+        "category": "walkthroughs",
+        "tags": ["ウォークスルー", "グランドゼロ", "ボス戦", "パトチャポ", "商人クエスト", "中盤"],
+        "seo": {
+            "title": "Escape from Duckov パート3 ガイド：医療ステーション、鍵、Pato Chapo戦略",
+            "description": "Escape from Duckov パート3の完全ガイド：重要な基地施設（武器/医療）の建設、ガソリンスタンドとフェンスの鍵の使用、ホテルの部屋の特定、Pato Chapoボスの撃破。",
+            "keywords": "Escape from Duckov パート3, Pato Chapo ボス戦, Ground Zero 鍵, 医療ステーション, 武器ショップ, ホテルの部屋の鍵, ウォークスルー"
+        },
+        "isHome": false,
+        "detailsHtml": `
+            <h2>基地の準備：商人のクエストと施設</h2>
+            <p>Ground Zeroに戻る前に、新設された基地施設から新しいクエストの束を受諾し、すぐに提出可能なものは提出して、経験値と通貨を最大化して一日を始めましょう。</p>
+      
+            <h3>受諾した新しいクエスト：</h3>
+            <p>次のランを導くために、Mud、武器職人、アーマー職人、および自動販売機から新しいクエストを受諾します：</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">情報源（商人）</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">Mud (フィットネス)</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">バランスの取れた栄養 II/III、フィットネスコーチ</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**エナジードリンク**、**チョコレート**、**ダンベル**を提出する</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">武器職人</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">汎用ピストル、奇妙な羽</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**Glick**、**クジャクの羽**を提出する</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">アーマー職人 / 医療ステーション</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">医療支援</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**医療キット**を提出する</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">自動販売機</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">自給自足、プロのシェフ</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**水**、**シェフナイフ**を提出する</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">ヒント:</strong> 新しいクエストを受諾する前に、**「クラフトの見習い」**と**「帳簿」**のクエストを提出して、インベントリを整理し、すぐに資金を得ましょう。</p>
+      
+            <h3>建設とアップグレード</h3>
+            <p>現在の資金と材料を使用して、基地のインフラを完成させます：</p>
+            <ul>
+                <li>**医療ステーションを建設**し、**「基本的な建設（医療）」**クエストを提出します。新しいステーションから**「医療支援」**クエストを受諾します。</li>
+                
+                <li>**武器ショップを建設**し、**「基本的な建設 II」**クエストを提出します。新しいショップから**「奇妙な羽」**クエストを受諾します。</li>
+                
+                <img src="/images/guide/guide14-01.webp" alt="Escape from Duckov ウォークスルー パート3" class="guide-image" />
+      
+                <li>展開する前に、利用可能な**基地のアップグレード**と**スキルのアップグレード**（武器の熟練度など）を実行します。</li>
+      
+                <img src="/images/guide/guide14-02.webp" alt="Escape from Duckov ウォークスルー パート3" class="guide-image" />
+            </ul>
+      
+            <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero: ロックされたエリアと隠された手がかり</h2>
+            <p>鍵と新しい装備を備えて、Ground Zeroで以前はロックされていたエリアにアクセスできるようになりました。</p>
+      
+            <h3>放棄されたガソリンスタンドとフェンスへのアクセス</h3>
+            <ul>
+                <li>**放棄されたガソリンスタンド**に行き、パート2で見つけた**鍵でドアを開けます**。</li>
+                <li>内部で、銃と弾薬が入った**武器クレート**を漁ります。スタンド内で**フェンスの鍵**を見つけるはずです（または、すでに持っていることを確認します）。</li>
+                <li>境界**フェンス**に行き、**開けて**マップの次のエリアにアクセスします。</li>
+            </ul>
+      
+            <h3>路肩の謎（ホテルの鍵）</h3>
+            <ul>
+                <li>**路肩のキャンプ**に向かい、新しい場所への手がかりを含む**メモ**を見つけます。</li>
+                <li>メモの指示に従って**死体**を見つけます。死体を漁り、**ホテルの部屋の鍵**を入手します。</li>
+                <li>**ホテル**の場所に進み、新しい鍵を使用して**部屋を開けます**。内部には、別の**武器クレート**と、おそらく新しい**手がかりまたは鍵**があるはずです。</li>
+            </ul>
+      
+            <h3>ボスの特定：Pato Chapo</h3>
+            <p>繰り返される手がかりと死体の場所は、このパートの最後の遭遇につながる可能性があります：</p>
+            <ul>
+                <li>最後の手がかり/メモに従って、ボスによって警備されている可能性が高い指定された場所に進みます。</li>
+                <li>**ボス：Pato Chapo**とのタフな戦いに備えます。（<em>注：戦闘を開始する前に、アップグレードされたアーマー、十分な高ティアの弾薬、および医療用品を持っていることを確認してください。</em>）</li>
+                <li>Pato Chapoを倒した後、次のウォークスルーパートに必要な高価値アイテムと必須の鍵/手がかりを求めて**死体を漁ります**。</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 15,
+        "title": "Escape from Duckov ウォークスルー パート4：DuckmotherボスとAS VAL",
+        "description": "Escape from Duckov パート4の完全ガイド。新しいバンカークエストを受諾し、手ごわいDuckmotherボスを撃破し、強力なAS VAL武器を確保します。",
+        "imageUrl": "/images/guide15.webp",
+        "imageAlt": "Escape from Duckovの放棄されたキャンプの場所で、プレイヤーキャラクターが大きなボス、Duckmotherと戦っている様子。",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
+        "category": "walkthroughs",
+        "tags": ["ウォークスルー", "グランドゼロ", "ボス戦", "ダックマザー", "AS VAL", "アップグレード"],
+        "seo": {
+            "title": "Escape from Duckov パート4 ガイド：Duckmotherの撃破、AS VALの発見、バンカークエスト",
+            "description": "Escape from Duckov パート4のステップバイステップウォークスルー。必要なスキルアップグレード、駆除および提出クエストの完了、そしてDuckmotherボス戦の攻略法を学びます。",
+            "keywords": "Escape from Duckov パート4, Duckmother ボス戦略, AS VAL 場所, Ground Zero 放棄されたキャンプ, エネルギーリザーブ アップグレード, パフォーマンス テスト クエスト"
+        },
+        "isHome": false,
+        "detailsHtml": `
+            <h2>バンカーの準備：新しいクエストとスキルアップグレード</h2>
+            <p>Ground Zeroに戻る前に、商人やエンハンサーを訪れ、**Duckmotherボス**を含む今後の新しい課題に備えて、重要なミッションを受諾し、キャラクターの戦闘準備を整えましょう。</p>
+      
+            <h3>受諾した新しいクエスト：</h3>
+            <p>次のランのためにこれらのクエストを優先してください。これらは一般的なGround Zeroの活動と必要な戦利品に合致しています：</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">報酬（EXP/通貨）</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">大型ストレージ</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**大型ストレージボックス**1個を提出する</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">蚊の駆除</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**蚊**を**10匹**倒す</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">部品の卸売</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**ネジ**を**5個**提出する</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">パフォーマンス テスト</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**グラフィックカード**1枚を提出する</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">処罰者</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**スカベンジャー**を**5体**倒す</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <h3>スキルアップグレード：戦闘効率の向上</h3>
+            <p>展開前にこれらのコアスキルに投資して、持続性と戦闘精度を向上させましょう：</p>
+            <ul>
+                <li>**エネルギーリザーブ：** 最大エネルギーを**+10**増加させます。（より長くスプリント/ロールが可能になります）</li>
+      
+                <img src="/images/guide/guide15-01.webp" alt="Escape from Duckov ウォークスルー パート4" class="guide-image" />
+      
+                <li>**栄養摂取：** 食料と水の影響を**+10%**増加させます。（持続性を向上させます）</li>
+                <li>**安定した射撃 I：** 腰だめ撃ちの精度を**+10%**増加させます。（ボスとの近接戦闘に不可欠です）</li>
+            </ul>
+      
+            <h2>Ground Zero：放棄されたキャンプとDuckmotherボス</h2>
+            <p>駆除クエストに焦点を当て、新しいボスエリアを特定するためにGround Zeroに戻ります。</p>
+      
+            <h3>クエストの進行と新武器の発見</h3>
+            <ul>
+                <li>スカベンジャーの活動と水域で知られるエリアに焦点を当ててランを行い、**蚊を10匹**、**スカベンジャーを5体**倒します。</li>
+                <li>ツールボックスと電子機器の隠し場所を漁り、提出クエストに必要な**ネジ**と**グラフィックカード**を見つけます。</li>
+                <li>探索中に、強力な武器である**VSS**を発見します。これはサイレンサー付きの交戦に役立つ貴重な発見です。</li>
+                <li>発見した新しい場所である**放棄されたキャンプ**を特定します。</li>
+            </ul>
+      
+            <img src="/images/guide/guide15-03.webp" alt="Escape from Duckov ウォークスルー パート4" class="guide-image" />
+      
+            <h3>Duckmotherボス戦</h3>
+            <p>**Duckmother**は、放棄されたキャンプにいる大きな脅威です。動きと高いダメージ出力が重視される戦いに備えてください。</p>
+            <ul>
+                <li>**戦略のヒント：** アップグレードされた**エネルギーリザーブ**を持続的なスプリントと回避に活用します。ボスの弱点（多くの場合、頭または目立つバックパック）に集中攻撃します。</li>
+                <li>困難な戦いの後、**Duckmotherを撃破**します。</li>
+                <li>死体を漁り、キャンプ内の**ロックされた部屋の鍵**を見つけます。</li>
+            </ul>
+      
+            <h3>AS VALの確保</h3>
+            <ul>
+                <li>Duckmotherから入手した鍵を使用して、放棄されたキャンプ内にある**ロックされた部屋**を開けます。</li>
+                <li>部屋の中には、非常に求められている武器である**AS VAL**（サイレンサー付きの高ダメージライフル）があります。</li>
+            </ul>
+      
+            <h2><span style="color: #DAA520;">&#127775;</span> ラン後のアクティビティ</h2>
+            <ul>
+                <li>無事に**脱出**し、バンカーに戻ります。</li>
+                <li>**完了したすべてのクエスト**（蚊の駆除、処罰者、部品の卸売、パフォーマンステストなど）を**提出**し、多額の報酬を受け取ります。</li>
+                <li>以前のセットを完了したことでロック解除された商人から**新しいクエスト**を受諾します。</li>
+                <li>**アーマー職人**を訪れ、新しく見つけた通貨を使用して**新しいヘルメット**やその他の必要な保護具を**購入**します。</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 16,
+        "title": "Escape from Duckov ウォークスルー パート5：サイクルの繰り返し - Duckmotherアンコール",
+        "description": "Escape from Duckov パート5のガイドです。高報酬の反復クエストを受諾し、コアとなるサバイバルスキルを最大化し、Duckmotherボスを再度撃破し、高ティアの戦利品を確保します。",
+        "imageUrl": "/images/guide16.webp",
+        "imageAlt": "Escape from Duckovの放棄されたキャンプの暗い部屋で、プレイヤーキャラクターがAS VALを使用している様子。",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
+        "category": "walkthroughs",
+        "tags": ["ウォークスルー", "グランドゼロ", "ボス戦", "反復クエスト", "スキル最大化", "ファームラン"],
+        "seo": {
+            "title": "Escape from Duckov パート5 ガイド：コアスキルの最大化とDuckmother反復ラン",
+            "description": "Escape from Duckov パート5のステップバイステップウォークスルー。通貨を稼ぎ、エネルギーリザーブや安定した射撃などの重要なスキルを最大化するための、反復可能な駆除および提出クエストの完了に焦点を当てます。",
+            "keywords": "Escape from Duckov パート5, Duckmother 反復, エネルギーリザーブ最大化, 安定した射撃 II, Ground Zero ファームラン, パフォーマンス テスト II クエスト"
+        },
+        "isHome": false,
+        "detailsHtml": `
+            <h2>バンカーの準備：反復可能なクエストとスキル最大化</h2>
+            <p>パート5では、高価値の物資調達および駆除クエスト（多くの場合、ローマ数字の接尾辞 (II) が付いています）を繰り返し行い、経験値と通貨を稼ぐのに最適です。Ground Zeroに戻る前に、コアとなるサバイバルスキルと戦闘スキルを最大化することに焦点を当てましょう。</p>
+      
+            <h3>受諾した新しい/反復可能なクエスト：</h3>
+            <p>商人から、前のサイクルのミッションのアップグレードされた反復可能なバージョンを受諾します：</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">報酬（EXP/通貨）</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">大型ストレージ II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**大型ストレージボックス**1個を提出する</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">蚊の駆除 II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**蚊**を**10匹**倒す</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">部品の卸売 II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**ネジ**を**5個**提出する</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">パフォーマンス テスト II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**グラフィックカード**1枚を提出する</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">処罰者 II</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**スカベンジャー**を**5体**倒す</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <h3>スキルアップグレード：ティア IIの達成</h3>
+            <p>エンハンサーを利用してティア IIスキルにアップグレードし、効率と生存率をさらに向上させましょう：</p>
+            <ul>
+                <li>**エネルギーリザーブ II：** 最大エネルギーを**+10**増加させます（合計+20、カイト/スプリントに不可欠）。</li>
+                <li>**栄養摂取 II：** 食料と水の影響を**+10%**増加させます（合計+20%、回復/水分補給を劇的に改善）。</li>
+                <li>**安定した射撃 II：** 腰だめ撃ちの精度を**+10%**増加させます（合計+20%、近距離戦闘と移動中の射撃を非常に効果的にします）。</li>
+            </ul>
+      
+            <img src="/images/guide/guide16-02.webp" alt="Escape from Duckov ウォークスルー パート5" class="guide-image" />
+      
+            <h2>Ground Zero：リソースのファーミングとボスアンコール</h2>
+            <p>このランの目的は、駆除ノルマを迅速にクリアし、提出アイテムを集め、利益の高い戦利品と鍵のドロップのためにDuckmotherに再び立ち向かう準備をすることです。</p>
+      
+            <h3>リソースのファーミングと駆除</h3>
+            <ul>
+                <li>電子部品とツールボックスが豊富なエリアに焦点を当ててランを行い、必要な**ネジ**と**グラフィックカード**を迅速に見つけます。</li>
+                
+                <img src="/images/guide/guide16-01.webp" alt="Escape from Duckov ウォークスルー パート5" class="guide-image" />
+      
+                <li>**蚊の駆除 II（10キル）**と**処罰者 II（5キル）**のクエストを効率的に完了します。</li>
+                <li>以前に**VSS**を見つけている可能性が高いため、このランではその継続的な存在を確認するか、再び入手する機会を提供します。</li>
+                <li>ボスが出現する**放棄されたキャンプ**に再度向かいます。</li>
+            </ul>
+      
+            <h3>Duckmotherの撃破（反復）</h3>
+            <p>**Duckmother**は、彼女を倒すことでロックされた部屋にアクセスできるため、主要な目標です。新しい**安定した射撃 II**スキルと優れたエネルギーリザーブを使用して、積極的に彼女と交戦します。</p>
+            <ul>
+                <li>**Duckmother**を倒した後、彼女は再びキャンプ内の**ロックされた部屋の鍵**をドロップします。</li>
+                <li>鍵を使用してロックされた部屋にアクセスし、強力な武器である**AS VAL**（または、すでに所有している場合はその高価値のコンポーネント/弾薬）を回収します。</li>
+            </ul>
+      
+            <h2>ラン後のアクティビティ</h2>
+            <ul>
+                <li>無事に**脱出**し、バンカーに戻ります。</li>
+                <li>**完了したすべてのクエスト**（蚊の駆除 II、処罰者 IIなど）を**提出**し、報酬を受け取ります。</li>
+                <li>このセットを完了したことでロック解除された商人から**新しいクエスト**を受諾します。</li>
+                <li>**アーマー職人**を訪れ、蓄積した通貨を使用して**新しいヘルメット**を購入するか、利用可能な最高のティアにアーマーをアップグレードし、次のユニークな課題に備えます。</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 17,
+        "title": "Escape from Duckov ウォークスルー パート6：最終スキル最大化とボスファーミング",
+        "description": "Escape from Duckov パート6の究極ガイド。反復可能なクエストの最終ティア（III）を完了し、コアとなるサバイバルスキルと戦闘スキルを最大化し、次の主要ゾーンに備えます。",
+        "imageUrl": "/images/guide17.webp",
+        "imageAlt": "放棄されたキャンプのロックされた部屋の中で、プレイヤーの手にあるAS VALライフルのクローズアップショット。",
+        "publishDate": "2025-11-03",
+        "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
+        "category": "walkthroughs",
+        "tags": ["ウォークスルー", "グランドゼロ", "スキル最大化", "ボスファーミング", "ティア III", "最終準備"],
+        "seo": {
+            "title": "Escape from Duckov パート6 ガイド：ティア IIIスキルの最大化とDuckmother最終ラン",
+            "description": "Escape from Duckov パート6の完全ガイド。すべてのティア IIIスキルアップグレード（エネルギー、栄養、安定した射撃）を完了し、最後の高報酬リソースおよびボスファーミングサイクルを実行する方法を学びます。",
+            "keywords": "Escape from Duckov パート6, ティア III スキル, エネルギーリザーブ最大化, 安定した射撃 III, Duckmother ファーム, 最終バンカー準備, AS VAL"
+        },
+        "isHome": false,
+        "detailsHtml": `
+            <h2>バンカーの準備：最終ティア IIIクエストと最大アップグレード</h2>
+            <p>これは、キャラクターの基本ステータスを最大限に高めるために設計された最後の反復ループです。すべてのティア **III**クエストを受諾し、コアスキルに完全に投資することに焦点を当てましょう。</p>
+      
+            <h3>最終ティアのクエスト受諾：</h3>
+            <p>最後のアップグレードと次のゾーンへのエントリーを促進するために、最高の報酬のミッションを受諾します：</p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
+                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">報酬（EXP/通貨）</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">大型ストレージ III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**大型ストレージボックス**1個を提出する</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">蚊の駆除 III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**蚊**を**10匹**倒す</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">部品の卸売 III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**ネジ**を**5個**提出する</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">パフォーマンス テスト III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**グラフィックカード**1枚を提出する</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">処罰者 III</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">**スカベンジャー**を**5体**倒す</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+            <img src="/images/guide/guide17-01.webp" alt="Escape from Duckov ウォークスルー パート6" class="guide-image" />
+      
+            <h3>スキル最大化：ピークパフォーマンスの達成</h3>
+            <p>これは、これらの重要なスキルを**最大化**する機会であり、今後のパフォーマンスに大きく影響します：</p>
+            <ul>
+                <li>**エネルギーリザーブ III：** 最大エネルギーを**+10**増加させます。（最大のスプリント/回避能力を提供します）。</li>
+                <li>**栄養摂取 III：** 食料と水の影響を**+10%**増加させます。（受動的な回復とリソース効率を最大化します）。</li>
+                <li>**安定した射撃 III：** 腰だめ撃ちの精度を**+10%**増加させます。（近接戦闘を非常に信頼できるものにします）。</li>
+            </ul>
+      
+            <h2>Ground Zero：最終ファームラン</h2>
+            <p>あなたの目的は変わりません。駆除とリソースのノルマを完了し、**Duckmother**を最後にもう一度倒して、最大のリソースを確保し、AS VALをそのコンポーネントまたは弾薬のためにアクセスすることです。</p>
+      
+            <h3>ランの目的</h3>
+            <ul>
+                <li>必要な**ネジ**と**グラフィックカード**を迅速に確保し、**蚊の駆除 III**と**処罰者 III**のノルマを完了します。</li>
+                <li>**放棄されたキャンプ**の場所を確認し、ボス戦に備えます。</li>
+                <li>（オプション：まだ武器が必要な場合は、**VSS**を再度探します）。</li>
+            </ul>
+      
+            <h3>Duckmotherとの最終遭遇</h3>
+            <p>完全に最大化されたティア IIIスキルがあれば、**Duckmother**はより簡単に処理できるはずです。最大**エネルギーリザーブ**を使用して持続的なカイトを行い、**安定した射撃 III**を利用して壊滅的な近距離腰だめ撃ちを行います。</p>
+            <ul>
+                <li>**Duckmother**を倒し、**ロックされた部屋の鍵**を回収します。</li>
+                <li>ロックされた部屋にアクセスして、**AS VAL**（またはその高価値の弾薬/コンポーネント）を収集します。</li>
+            </ul>
+      
+            <h2>ラン後のアクティビティ：次のマップへの準備</h2>
+      
+            <img src="/images/guide/guide17-02.webp" alt="Escape from Duckov ウォークスルー パート6" class="guide-image" />
+      
+            <ul>
+                <li>**脱出**し、バンカーに戻ります。</li>
+                <li>**完了したすべてのティア IIIクエスト**を**提出**し、多額の報酬を請求します。</li>
+                <li>商人から**新しいクエスト**を受諾します—このクエストは通常、次の主要な場所またはマップへの**移行の目的**となります。</li>
+                <li>**アーマー職人**を訪れ、蓄積した富を使用して**最高ティアのヘルメット**とボディアーマーを購入し、次のゾーンの課題に対する準備が整っていることを確認します。</li>
+            </ul>
+        `
+    },
+
+    {
+        "id": 3,
+        "title": "上級者向けグランドゼロ探索と基地拡張",
+        "description": "複雑なクエストチェーンを完了し、基地施設を拡張するための、上級者向けグランドゼロ遠征と中盤の攻略法を網羅した包括的なウォークスルーです。",
+        "imageUrl": "/images/guide-03.webp",
+        "imageAlt": "上級者向けグランドゼロ探索と基地拡張",
+        "publishDate": "2025-10-27",
+        "addressBar": "/advanced-ground-zero-exploration-base-expansion",
+        "category": "walkthroughs",
+        "tags": [
+            "ADVANCED EXPLORATION",
+            "BASE EXPANSION",
+            "QUEST CHAINS",
+            "EQUIPMENT UPGRADES",
+            "GROUND ZERO"
+        ],
+        "seo": {
+            "title": "上級者向けグランドゼロ探索と基地拡張 - Escape from Duckov",
+            "description": "複雑なクエストチェーンを完了し、基地施設を拡張するための、上級者向けグランドゼロ遠征と中盤の攻略法を網羅した包括的なウォークスルーです。",
+            "keywords": "Escape from Duckov, 上級者向けウォークスルー, グランドゼロ探索, 基地拡張, クエストチェーン, 装備アップグレード, 中盤ガイド"
+        },
+        "isHome": false,
+        "detailsHtml": `
+              <p>この上級者向けウォークスルーは、<a href="/">Escape from Duckov</a>の**中盤の進行**をカバーしており、複雑なグランドゼロ遠征、基地施設の拡張、および入り組んだクエストチェーンの完了に焦点を当てています。より困難なコンテンツに取り組む準備ができているプレイヤーに最適です。</p>
+              
+              <h2>1. 上級グランドゼロ探索</h2>
+              <img src="/images/guide/guide03-01.webp" alt="上級グランドゼロ探索" class="guide-image" />
+              <h3>北のタワーミッション</h3>
+      
+              <p><strong>信号塔クエスト:</strong> ロードキャンプに向かい、北のタワーを見つけます。ツールボックスから**金属板2枚**、釘、**マイナスドライバー**を探します。</p>
+              <p><strong>電源ボックスの操作:</strong> タワーの土台にある電源ボックスを操作して、**信号塔クエスト**の目標を完了します。</p>
+              <p><strong>設計図の発見:</strong> タワーの右側に移動し、高度なクラフトに不可欠な**ポテトグラフィックカードの設計図**を見つけます。</p>
+      
+              <img src="/images/guide/guide03-02.webp" alt="北のタワーミッション" class="guide-image" />
+      
+              <h3>ロードキャンプへのアプローチ</h3>
+              <p><strong>新しい敵タイプ:</strong> ロードキャンプの近くで、高度なショットガンを装備した敵に遭遇します。これらの敵は、慎重なポジショニングと十分な弾薬が必要です。</p>
+              <p><strong>装備の入手:</strong> 敵を倒して、MP-155ショットガン、<a href="/items/equipment">モーターサイクルヘルメット</a>、および医療品を入手します。利用可能なすべての保護具については、こちらの <a href="/items/equipment">装備データベース</a> を参照してください。</p>
+              <p><strong>橋の修理:</strong> **木材**を2つ使用して、ロードキャンプにつながる壊れた橋を修理します。追加のルートについては、電柱の下の隠し場所を確認してください。</p>
+              
+              <h2>2. NPCとの交流と新しいクエスト</h2>
+              
+              <h3>トレーナー Mud</h3>
+      
+              <p><strong>場所:</strong> ロードキャンプ近くの家で見つかります - 身体トレーニングサービスを提供する筋肉質なアヒルです。</p>
+              <p><strong>クエストの割り当て:</strong> Mudから「**バランスの取れた栄養 1**」を受諾し、身体能力向上の機会を得ます。</p>
+              
+              <h3>バランスの取れた栄養クエスト</h3>
+      
+              <img src="/images/guide/guide03-03.webp" alt="トレーナー Mud" class="guide-image" />
+      
+              <p><strong>目的:</strong> **アヒルの卵** 1個を提出</p>
+              <p><strong>報酬:</strong> 800 XP、500 通貨</p>
+              <p><strong>戦略:</strong> アヒルの卵はグランドゼロ全体の様々な場所で見つけることができます - 遠征中に収集を優先してください。</p>
+              
+              <h2>3. 洞窟探索と上級ルート</h2>
+              
+              <h3>洞窟へのアクセス</h3>
+              <p><strong>橋の修理:</strong> 収集した材料を使用して洞窟の入り口近くの橋を修理し、隠されたエリアにアクセスします。</p>
+              <p><strong>高価値ルート:</strong> 洞窟には以下のプレミアム装備が含まれています:</p>
+              <ul>
+                  <li><strong>武器:</strong> ピストルマズル、UP 45、AK-47、腰だめアタッチメント。詳細な武器情報については、こちらの <a href="/items/weapons">武器データベース</a> を確認してください</li>
+                  <li><strong>弾薬:</strong> 様々な弾薬タイプとレーザーアタッチメント。互換性の詳細については、<a href="/items/ammunition">すべての弾薬タイプ</a> を参照してください</li>
+                  <li><strong>設計図:</strong> **キューブガン**と**小型エネルギー弾**のレシピ</li>
+              </ul>
+              
+              <h3>北西キャンプへの潜入</h3>
+              <p><strong>ステルスアプローチ:</strong> ルート沿いの小規模な敵のキャンプを排除しながら、慎重に**北西キャンプ**へ進みます。</p>
+              <p><strong>クエストアイテムの収集:</strong> クエスト完了のために、テントの中から「**旧友からの手紙**」を回収します。</p>
+              <p><strong>追加の発見:</strong> 近くのデータボックスから**バール**のレシピと**グランドゼロの監視ログ**の警告メモを見つけます。</p>
+              
+              <h2>4. 困難な戦闘遭遇</h2>
+              
+              <h3>フード付きの敵ボス戦</h3>
+              <p><strong>敵の説明:</strong> フードをかぶり、ショットガンを振り回す重武装の敵 - 標準的な敵よりも格段に危険です。</p>
+              <p><strong>戦闘準備:</strong> 交戦する前に、十分な弾薬と医療品があることを確認してください。</p>
+              <p><strong>クエストとの連携:</strong> 戦闘中に**包帯**を使用して「**止血の重要性**」クエストを完了します。</p>
+              <p><strong>報酬の収集:</strong> 敵を倒して、**闇市場の連絡メモ**と**上級APショットガンシェル**を入手します。</p>
+              
+              <h3>資源管理</h3>
+              <p><strong>脱水警告:</strong> 水分レベルを監視してください - 長時間の遠征中に**脱水症状**が発生する可能性があります。</p>
+              <p><strong>鍵の収集:</strong> 脱出前に、**廃ガソリンスタンドの鍵**と**フェンスの鍵**、さらに**ホログラフィックスコープ**を収集します。鍵の場所と使用方法については、こちらの <a href="/items/key">鍵データベース</a> を確認してください。</p>
+              
+              <h2>5. 基地施設の拡張</h2>
+              
+              <h3>新しい建設クエスト</h3>
+              <p><strong>基本建設 II:</strong> バンカー内に**武器店**を建設</p>
+              <p><strong>基本建設 III:</strong> バンカー内に**防具店**を建設</p>
+              <p><strong>医療建設:</strong> バンカー内に**医療ステーション**を建設</p>
+              <p><strong>技術専門家:</strong> **電子部品の山**を提出</p>
+              
+              <h3>戦闘とスキルクエスト</h3>
+              <p><strong>頭を狙え:</strong> グランドゼロで**ヘッドショット**で敵を5体倒す</p>
+              <p><strong>拡張ポケット:</strong> バックパックエキスパート 1 をアンロック（未完了の場合）</p>
+              <p><strong>作業台のアップグレード:</strong> 高度な処理をアンロック（未完了の場合）</p>
+              
+              <h3>資源提出クエスト</h3>
+              <p><strong>愛いっぱい:</strong> 大きな報酬のために**1888通貨**を提出</p>
+              <p><strong>クラフト見習い:</strong> クラフト知識のために**Glickピストル**を提出</p>
+              <p><strong>帳簿係:</strong> 事務作業のために**インク**、**ペン**、**ノート**を提出</p>
+              
+              <h2>6. 装備と施設のアップグレード</h2>
+              
+              <h3>防具店の建設</h3>
+              <p><strong>即時利用可能:</strong> 防具店は利用可能な材料で直ちに建設できます。</p>
+              <p><strong>装備の購入:</strong> **レベル2ボディアーマー**と**スチールヘルメット**を入手し、防御力を大幅に向上させます。利用可能なすべての防具オプションを比較するには、こちらの <a href="/items/equipment">完全装備カタログ</a> を参照してください。</p>
+              <p><strong>クエストの割り当て:</strong> 防具店から**補給ルート**と**帳簿係**のクエストを受諾します。</p>
+              
+              <h3>作業台の強化</h3>
+              <p><strong>設計図の研究:</strong> 収集したすべての設計図を研究して、インベントリスペースを解放し、新しいクラフトオプションをアンロックします。</p>
+              <p><strong>修理ステーションの研究:</strong> 損傷した装備の**武器修理機能**をアンロックします。</p>
+              <p><strong>分解ステーション:</strong> 自動販売機から**ハサミ**と**レンチ**を使用して分解機能を研究します。</p>
+              
+              <h3>キャラクターの成長</h3>
+              <p><strong>銃マスタリー I:</strong> エンハンサーで銃器の習熟度をアップグレードし、戦闘効果を向上させます。</p>
+              <p><strong>スキルの優先順位付け:</strong> 今後の困難な遭遇に備えて、**戦闘関連の強化**に焦点を当てます。</p>
+              
+              <h2>7. 上級クエスト管理</h2>
+              
+              <h3>補給ルートクエスト</h3>
+              <p><strong>場所:</strong> グランドゼロ</p>
+              <p><strong>目的:</strong> **マーカー**（ストレージで利用可能）で補給ボックスに印を付ける</p>
+              <p><strong>戦略:</strong> 以前に収集したマーカーを使用して、この目標を効率的に完了します。</p>
+              
+              <h3>資源計画</h3>
+              <p><strong>通貨管理:</strong> 財源を監視します - 高度な装備とアップグレードにはかなりの投資が必要です。</p>
+              <p><strong>材料の収集:</strong> 将来の建設プロジェクトのための材料収集を優先します。</p>
+              <p><strong>インベントリの最適化:</strong> 定期的に設計図を研究し、ストレージを整理して効率的なインベントリ管理を維持します。</p>
+              
+              <h2>結論</h2>
+              <p>この上級者向けウォークスルーは、Escape from Duckovでの**重要な中盤の進行**をカバーしています。複雑なグランドゼロ遠征を成功裏に完了し、基地施設を拡張し、高度なクラフト機能をアンロックしました。利用可能なすべてのミッションの詳細については、こちらの <a href="/wiki/quests">クエストデータベース</a> を確認してください。新しいクエストチェーンの完了、装備のアップグレード、そして今後のさらに困難なコンテンツへの準備に焦点を当ててください。ストームゾーンへのアクセスガイドなど、さらに <a href="/guides">上級ガイド</a> を探索してください。あなたが築いた基盤は、Duckovの最も危険なエリアを生き残るために不可欠になるでしょう。</p>
+              `
+    },
+
+    {
         "id": 5,
         "title": "ストームゾーンへのアクセスとロードブロックボスガイド",
         "description": "電源の作動、認証書の取得、ロードブロックボスの戦略、そしてDuckovで最も危険なエリアへの必須の準備を網羅した、ストームゾーンにアクセスするための完全ガイド。",
@@ -678,100 +1341,108 @@ export const guides = [
               <p>ストームゾーンは、Escape from Duckovにおける**挑戦の頂点**を表しています。成功には、綿密な準備、最適な装備、そして高度な戦闘技術の習得が必要です。ミッション関連の認証書の要件については、こちらの <a href="/wiki/quests">クエストデータベース</a> を確認してください。このガイドに注意深く従い、徹底的に準備し、ストームゾーンでの生存にはその極端な危険に対する敬意が必要であることを忘れないでください。さらに高度な戦略については、こちらの <a href="/guides">完全ガイドコレクション</a> を探索してください。Duckovからの究極の脱出の成功を祈ります！</p>
               `
     },
+
     {
         "id": 6,
-        "title": "Escape from Duckov LEDX",
-        "description": "Escape from DuckovでとらえどころのないLEDXをお探しですか？ このガイドでは、出現場所、鍵の使用法、敵のドロップ、および市場価値を網羅し、取得するための最良の方法を解説します。この重要な医療アイテムを見つける機会を最大化し、賢い取引のヒントを発見してください！",
+        "title": "Escape from Duckov LEDX 入手ガイド（更新）",
+        "description": "Escape from Duckov で見つけにくい LEDX をお探しですか？このガイドでは、スポーン場所、鍵の使用、敵からのドロップ、市場価値を網羅し、最適な入手方法を解説します。この重要な医療アイテムを見つけるチャンスを最大化し、賢い取引のヒントを発見しましょう！",
         "tags": [
             "Escape from Duckov",
             "LEDX",
-            "Rare Item",
-            "Loot Guide",
-            "Sanatorium Key"
+            "レアアイテム",
+            "ルートガイド",
+            "サナトリウムの鍵"
         ],
-        "publishDate": "2025-10-28",
+        "publishDate": "2025-11-11",
         "imageUrl": "/images/guide/guide06-01.webp",
-        "imageAlt": "Escape from Duckovの作業台に表示されたLEDX経皮照明器。",
+        "imageAlt": "作業台に表示された Escape from Duckov の LEDX Skin Transilluminator。",
         "category": "advanced",
+        "isHome": false,
         "seo": {
-            "title": "Escape from Duckov LEDX: 究極の取得ガイド",
-            "description": "Escape from DuckovでレアなLEDXを見つける方法を学びましょう。出現場所、鍵の要件、取引戦略、および利益を最大化するためのクエストへの影響に関するヒントを入手してください！",
+            "title": "Escape from Duckov LEDX：究極の入手ガイド",
+            "description": "Escape from Duckov でレアな LEDX を見つける方法を学びましょう。スポーン場所、必要な鍵、取引戦略、利益を最大化するためのクエストへの影響についてのアドバイスを得ましょう！",
             "keywords": "escape from duckov, ledx, ルートガイド, サナトリウム, 鍵, レアアイテム, 取引, クエスト"
         },
-        "isHome": false,
         "addressBar": "/escape-from-duckov-ledx",
         "detailsHtml": `
-              <h2 style="font-size: 1.5em; font-weight: bold;">
-                  <span>Escape from Duckov LEDX</span>
-              </h2>
-              <p style="margin: 1em 0px;">
-                  **LEDX経皮照明器**は、<a href="/">Escape from Duckov</a>において非常に人気があり、信じられないほどレアなアイテムであり、その**高い市場価値**と様々な**レイトゲームクエスト**における重要な役割のために切望されています。
-                  この医療機器を取得することは、あなたの富と進行を大幅に後押しすることができます。この包括的なガイドでは、LEDXを見つける場所と方法、市場での価値、およびその使用に関する戦略的な推奨事項について詳細な情報を提供します。どのミッションにLEDXが必要かについては、こちらの <a href="/wiki/quests">クエストデータベース</a> を確認してください。
-              </p>
-              <img src="/images/guide/guide06-02.webp" alt="LEDX-1">
+          <p><em>LEDX を見つけ、活用するための効率的なガイド</em></p>
+          <p>*Escape from Duckov* で **LEDX Skin Transilluminator** を見つけることは、Hideout（隠れ家）をアップグレードし、ゲームを進めるための重要な目標です。このレアアイテムは、市場価格だけでなく、重要なクエストや Hideout のアップグレードにも不可欠です。どこを探すべきか、何のために保存すべきかを知ることで、探索がより効率的になります。</p>
       
-              <h3 style="font-size: 1.17em; font-weight: bold;">
-                  <span>LEDXについて</span>
-              </h3>
-              <p style="margin: 1em 0px;">
-                  <span>
-                      LEDX経皮照明器は、Escape from Duckov内で**医療アイテム**として分類されています。その主な目的は、血管の視認性を高め、より簡単で正確な注射を促進することです。
-                      重量はわずか0.2kgと比較的軽量であり、インベントリへの追加が容易です。その希少性と価値により、個人的な使用、タスクの完了、または市場価値を利用する目的で、多くのプレイヤーにとって**最優先のターゲット**となっています。
-                      Escape from DuckovでLEDXを見つけるには、忍耐と戦略的なアプローチが必要であることを忘れないでください。さらに多くのルートガイドと戦略については、こちらの <a href="/guides">完全ガイドコレクション</a> を探索してください。
-                  </span>
-              </p>
+          <h2>**LEDX とは？ - 概要**</h2>
+          <ul>
+              <li>**目的:** 血液を注射しやすくするために血管を可視化するのに使用されます。</li>
+              <li>**重量:** 0.2kg</li>
+              <li>**アイテムタイプ:** 医療品 (Medic)</li>
+              <li>**アイテム番号:** "#331"</li>
+          </ul>
+          <p><img src="/images/guide/guide06-01.webp" alt="LEDX-1"></p>
       
-              <h3 style="font-size: 1.17em; font-weight: bold;">
-                  <span>LEDXの取得方法</span>
-              </h3>
-              <ol>
-                  <li><strong >ランダムなルート出現ポイント:</strong>
-                      <span>様々なマップ全体で特定のルート出現ポイントを検索することが、最も一般的な方法です。**サナトリウム**、特にベッドがある特定の部屋は、LEDXが出現する既知の場所です。ただし、出現率はランダムであることに注意してください。</span>
-                  </li>
-                  <li><strong >部屋の鍵:</strong>
-                      <span>「**サナトリウムルームキー 2**」などの特定の鍵を必要とする部屋にアクセスすると、LEDXを見つける可能性が高まります。これらの部屋には、より高ティアのルートが含まれていることが多く、投資する価値があります。利用可能なすべての鍵については、こちらの <a href="/items/key">鍵データベース</a> を参照してください。探索中にこれらの鍵に注意してください。</span>
-                  </li>
-                  <li><strong >敵のドロップ:</strong>
-                      <span>頻度は低いですが、スカブ、レイダー、ボスなどの敵を倒すと、LEDXをドロップする**わずかなチャンス**があります。敵の存在が増加している高価値エリアをターゲットにすることで、オッズを向上させることができます。</span>
-                  </li>
-                  <li><strong >スカブケース:</strong>
-                      <span>隠れ家で**スカブケース**を使用すると、LEDXが得られる可能性がありますが、これは非常に稀な結果です。これは、アイテムの取得を試みる**受動的な方法**です。</span>
-                  </li>
-                  <li><strong >クラフト:</strong>
-                      <span>LEDXを直接クラフトすることはできませんが、他の必要なアイテムを持っていると、それと交換したり、LEDXが出現する場所への鍵と物々交換したりする機会につながる可能性があります。</span>
-                  </li>
-                  <li><strong >フリーマーケット:</strong>
-                      <span>商人から直接購入することはできませんが、**フリーマーケット**ではプレイヤー間の取引が可能です。これは信頼できる方法ではないかもしれませんが、現在のLEDXの価値の推定値を知ることができます。</span>
-                  </li>
-                  <li><strong >クエスト報酬:</strong>
-                      <span>一部のレアなクエストでは、LEDXが**報酬**として提供されるため、これらに注意してください！ すべてのミッション報酬については、こちらの <a href="/wiki/quests">完全クエストデータベース</a> を確認してください。</span>
-                  </li>
-              </ol>
+          <h2>**主な用途：なぜ LEDX はそれほど重要なのか？**</h2>
+          <p>この高価値アイテムの売却を検討する前に、ゲーム内でのその2つの重要な用途を理解してください。 **レイドで見つけた（found-in-raid）** LEDX は、あなたの進行における重要なマイルストーンです。</p>
       
-              <h3 style="font-size: 1.17em; font-weight: bold;">
-                  <span>FAQ</span>
-              </h3>
-              <ol>
-                  <li><span>Escape from DuckovでのLEDXの市場価値はいくらですか？</span></li>
-                  <li><span>LEDXは市場で**最大16,250 香港ドル**の値を付けることができ、売却するのに有利なアイテムとなっています。価格は変動する可能性があるため、市場の傾向に注意してください。</span></li>
-                  <li><span>商人からLEDXを購入できますか？</span></li>
-                  <li><span>いいえ、LEDXは商人から直接購入することはできません。これらのチャネルでは利用できないため、その買い取り価格は「???」と表示されます。</span></li>
-                  <li><span>クエストのためにLEDXをいくつ保管しておくべきですか？</span></li>
-                  <li><span>将来のクエストやクラフト目的のために、**少なくとも5個のLEDX**を保管しておくことをお勧めします。これにより、長期的には時間と費用を節約できます。</span></li>
-                  <li><span>LEDXを見つけるのに最も役立つ鍵は何ですか？</span></li>
-                  <li><span>「**サナトリウムルームキー 2**」は、LEDXの出現の可能性を含む高ティアのルートで知られる部屋をアンロックするため、特に貴重な鍵です。</span></li>
-                  <li><span>ゲームの序盤でLEDXを売るのと保管するのとではどちらが良いですか？</span></li>
-                  <li><span>迅速な現金のために売却するのは魅力的ですが、今後のクエストのためにいくつか取っておく価値を考慮してください。5個以上持っている場合は、余分なものを売却するのは合理的な選択です。</span></li>
-              </ol>
+          <h3>**1. セラピストのクエスト: 「Private Clinic」**</h3>
+          <p>レベル35になると、セラピストがこのクエストを提供します。これには、検眼鏡と一緒に **レイドで見つけた LEDX** を提出する必要があります。報酬は、大量のストレージスペースを提供し、Stash（倉庫）管理を劇的に変える非常に価値のある **Item Case（アイテムケース）** です。</p>
       
-              <p style="margin: 1em 0px;">
-                  <span>
-                      要約すると、Escape from DuckovのLEDXは、経済的および戦略的な重要性の両方を持つ**貴重でレアなアイテム**です。
-                      Escape from DuckovでLEDXを確保するには、忍耐、出現場所の知識、そして少しの運が必要です。
-                      LEDXを取得、評価、活用する方法を知っていることは、ゲーム内での進行と経済的な成功に**大きな影響**を与える可能性があります。あなたの探索の成功を祈ります！
-                  </span>
-              </p>
-              `
+          <h3>**2. Hideout のアップグレード: Medstation レベル3**</h3>
+          <p>Hideout の Medstation（医療ステーション）を最大レベル（レベル3）にアップグレードするには、**1つの LEDX** が必要です。このアップグレードは、全体の **回復効果** を向上させ、高度な医療アイテムのためのクラフトレシピをさらに多くアンロックするため、不可欠です。</p>
+      
+          <h2>**LEDX を見つける場所 - 主要なロケーション**</h2>
+          <p>LEDX は理論上、多くの高ティアの医療ルート（戦利品）の場所にスポーンする可能性がありますが、一部のスポットは他の場所よりもはるかに信頼性が高いです。チャンスを最大化するために、これらのエリアに努力を集中させてください。</p>
+      
+          <table>
+              <thead>
+                  <tr>
+                      <th>ロケーション</th>
+                      <th>一般的なスポーンポイント</th>
+                      <th>備考</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>**Farmtown Pharmacies**</td>
+                      <td>棚、テーブル、医療バッグ</td>
+                      <td>最も信頼性が高く、一貫した LEDX スポーンの1つと考えられています。</td>
+                  </tr>
+                  <tr>
+                      <td>**USEC Camp (Woods)**</td>
+                      <td>担架、遺体、医療バッグ</td>
+                      <td>非常に高い LEDX スポーン率があり、主要なファーミングスポットとなっています。</td>
+                  </tr>
+                  <tr>
+                      <td>**Lab Areas (ラボエリア)**</td>
+                      <td>医療カート、棚、金属缶</td>
+                      <td>ハイリスク、ハイリターン。鍵と慎重なナビゲーションが必要です。</td>
+                  </tr>
+              </tbody>
+          </table>
+      
+          <h3>**LEDX を効率的に入手する方法**</h3>
+          <p>
+              **場所 1: Farmtown Pharmacies へ向かう**
+              <br>商業地区に入り、2つの薬局を見つけます。棚、テーブル、ばらばらの医療バッグをすべて系統的にチェックし、LEDX を探します。
+          </p>
+          <p>
+              **場所 2: Woods マップの USEC Camp を訪れる**
+              <br>USEC キャンプエリアに行き、担架、遺体、医療コンテナを捜索します。ここはあらゆる種類の価値ある医療ルートのホットスポットです。
+          </p>
+          <p>
+              **場所 3: Lab Areas を探索する**
+              <br>これはハイリスクなオプションです。鍵を使用して医療室（例：サナトリウム内）のドアを解錠し、医療カート、棚、金属缶をチェックします。ルート密度は高いですが、危険も伴います。
+          </p>
+          <p><img src="/images/guide/guide06-02.webp" alt="LEDX2" width="50%" style="width: 50%;"></p>
+      
+          <h2>**価値と取引の推奨事項**</h2>
+          <p>LEDX は Flea Market（フリーマーケット）で非常に高値で売却されるため（しばしば **16,250 香港ドル**以上）、すぐに売却したくなるかもしれません。しかし、これは通常間違いです。</p>
+          
+          <p>**強い推奨事項：急いで売却しないでください！**</p>
+          <ul>
+              <li>**少なくとも2つは保存する：** Medstation のアップグレードに1つ、そして「Private Clinic」クエストに別の1つが必要になります。余分なものを売る前に、これらが確保されていることを確認してください。</li>
+              <li>**プレイヤーの経験がこれを裏付けます：** プレイヤーがよくアドバイスするように、「後のタスクのために3つ必要になる」や「これらは後で重要なアイテムをクラフトするために使用する。必ずいくつかは保管しておいてください。」短期的な利益よりも進行を優先しましょう。</li>
+          </ul>
+      
+          <h2>**まとめ**</h2>
+          <p>LEDX は、経済的および戦略的に大きな価値を持つレアアイテムです。クエストや Hideout のためのその主な用途を理解し、**Farmtown Pharmacies、Woods の USEC Camp、および Lab** のような信頼できる場所に探索を集中することで、この不可欠なアイテムを効率的に確保し、*Escape from Duckov* での進行を前進させることができます。あなたの「黄色いアヒル」を見つける幸運を祈ります！</p>
+          `
     },
 
     {
@@ -796,23 +1467,23 @@ export const guides = [
         "isHome": false,
         "addressBar": "/escape-from-duckov-j-lab-access-card-acquisition-guide",
         "detailsHtml": `
-              <p style="margin: 1em 0px;">
+              <p>
                   <a href="/">Escape from Duckov</a>では、**J-Labアクセスカード**は、Duckovの郊外に点在する立ち入り禁止の研究所にアクセスするために不可欠です。
                   最初のエントリーレベルのカード（**J-Lab 1**）は比較的簡単に見つけることができますが、レベル2カードや色付きのアクセスカード（赤、青、緑、紫、黄、黒）などのより高度なバージョンははるかに希少であり、通常はより深い探索、ルート、および特定のクエストの完了を通じてアンロックされます。キーカード情報については、こちらの <a href="/items/key">鍵データベース</a> を確認してください。
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   このガイドでは、各J-Labカードを見つける方法、確認された出現エリア、およびラボの襲撃を効率的かつ再現性のあるものにするための最適な検索ルートについて詳しく説明します。詳細な <a href="/maps">マップの場所</a> とラボのアクセスポイントについては、マップセクションをご覧ください。
               </p>
       
               <h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Labカードとは？</strong></h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   J-Labカードは、Duckov地域全体にある**地下研究施設**にアクセスするために使用されるセキュリティパスです。
                   異なるレベルのカードは、ラボのより深いエリア、またはトップティアのルートやラボ機器に関連付けられた色分けされた封鎖ゾーンへのアクセスを許可します。
               </p>
       
-              <p style="margin: 1em 0px;">各カードタイプの簡単な説明は次のとおりです:</p>
+              <p>各カードタイプの簡単な説明は次のとおりです:</p>
       
               <ol>
                   <li><strong>J-Lab 1 カード</strong> – 基本レベルのアクセス（標準のラボエリアへのアクセス）</li>
@@ -820,13 +1491,13 @@ export const guides = [
                   <li><strong>色付きカード（赤、青、緑、紫、黄、黒）</strong> – 封鎖された棟や隠されたラボエリアをアンロックするために使用される高度でオプションの鍵</li>
               </ol>
       
-              <p style="margin: 1em 0px;"><strong>注:</strong> 通常のキーアイテムとは異なり、これらのカードは**消耗品**です。ラボに入るたびに1枚消費されます。</p>
+              <p><strong>注:</strong> 通常のキーアイテムとは異なり、これらのカードは**消耗品**です。ラボに入るたびに1枚消費されます。</p>
       
               <h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 1 カード – 基本アクセス</strong></h2>
       
               <h3 style="font-size: 1.17em; font-weight: bold;"><strong>取得方法</strong></h3>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Escape from Duckovで最初のJ-Lab 1カードを取得するには、主に2つの方法があります:
               </p>
       
@@ -855,13 +1526,13 @@ export const guides = [
                   <li>一部のプレイヤーは、ラボの1階にある**オフィス**でレベル2カードを見つけたと報告しています。机、金属製の棚、またはコンピューター端末がないか、部屋を注意深く調べてください。これらの出現ポイントは保証されていません。</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   **ヒント:** 報告されているドロップ率が最も高いため、**放浪者**がパトロールしているエリアに検索を集中させてください。レイドを再開するか、サーバーを切り替えることでルートテーブルが更新され、カードを見つける可能性が高まる場合があります。
               </p>
       
               <h2 style="font-size: 1.5em; font-weight: bold;"><strong>色付きアクセスカード</strong></h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   研究所用の色付きアクセスカードを収集するには、いくつかの方法があります。
                   最も効果的な方法の1つは、**謎の鍵 (X/O) の部屋**を検索することです。ここでは、ほぼすべてのカードと高レベルの物資が出現する可能性があります。
                   ただし、次のカードには特定の取得方法があります:
@@ -909,13 +1580,13 @@ export const guides = [
                   <li>ファームタウンの**製材所**の右側にある**小さな家**に出現する場合があります。</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   <img src="/images/guide/guide07-02.webp" alt="J-Labアクセスカード（パープル）">
               </p>
       
               <h2 style="font-size: 1.5em; font-weight: bold;"><strong>偵察と開発戦略</strong></h2>
       
-              <p style="margin: 1em 0px;">効率を最大化するには、このルートに従ってください:</p>
+              <p>効率を最大化するには、このルートに従ってください:</p>
       
               <ol>
                   <li><strong>ファームタウン → 隠された鉱山から開始</strong></li>
@@ -930,7 +1601,7 @@ export const guides = [
                   <li>ターゲットの部屋を特定し、完全に準備ができてからのみ、色付きカードを使用してください。これらのカードは極めて価値があるため、探索を慎重に計画してください。</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   Escape from Duckovで**すべてのJ-Labカード**を収集するには、忍耐と一貫した探索が必要です。
                   基本的なカードは簡単に補充できますが、鮮やかな色付きのプレミアムカードは、ゲームの世界に真に深く入り込み、隅々まで探索し、すべてのバンカーを襲撃し、散らばった手がかりをつなぎ合わせるプレイヤーのために予約されています。
                   J-Labアクセスに関連するミッションについては、こちらの <a href="/wiki/quests">クエストデータベース</a> を確認してください。包括的なルート戦略については、さらに <a href="/guides">上級ガイド</a> を探索してください。頑張ってください！
@@ -957,7 +1628,7 @@ export const guides = [
         "isHome": false,
         "addressBar": "/escape-from-duckov-rampaging-scavenger",
         "detailsHtml": `
-              <p style="margin: 1em 0px;">
+              <p>
                   <a href="/">Escape from Duckov</a>で受ける初期のミッションの1つは、荒野のより攻撃的な住人である**暴走スカベンジャー**を狩り、排除するよう求められる**「ハンターの道」**クエストです。このガイドでは、この機敏な敵をどこで見つけるか、いかに効率的に倒すか、そしてクエストを完了する方法を正確に示します。利用可能なすべてのミッションについては、こちらの <a href="/wiki/quests">クエストデータベース</a> を確認してください。
               </p>
       
@@ -965,7 +1636,7 @@ export const guides = [
                   <strong>ステップ 1: 暴走スカベンジャーを見つける場所</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   ランダムに徘徊する他の敵とは異なり、暴走スカベンジャーは**特定の固定された場所**で見つかります。メインパスの途中で偶然遭遇することはありません。彼らのキャンプを探す必要があります。
               </p>
       
@@ -973,7 +1644,7 @@ export const guides = [
                   <strong>場所:</strong>
               </h4>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   暴走スカベンジャーのキャンプは、メインの**フォレストパスのすぐ南**、**マップの南西の隅**にある空き地にあります。詳細な <a href="/maps">マップ情報</a> については、マップセクションをご覧ください。
                   <img src="/images/guide/guide08-02.webp" alt="暴走スカベンジャー2">
               </p>
@@ -988,11 +1659,11 @@ export const guides = [
                   <li>この小さな回り道に沿って南に進み、空き地に入ります。ここからはキャンプを見逃すことはありません。</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   彼らのキャンプに入ると、すぐに彼らを見つけることができます。彼らは**明るい赤い服**と、彼らが振るう威嚇的な**肉切り包丁**によって容易に識別できます。通常、このキャンプには、いつでも**2〜3体のスカベンジャー**が出現しています。
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   **警告:** 注意してください！彼らはあなたを見つけると信じられないほど速く、執拗に追いかけてきます。場合によっては、バンカーまで追いかけてくる可能性もあります。彼らの追跡を過小評価しないでください。
               </p>
       
@@ -1000,7 +1671,7 @@ export const guides = [
                   <strong>ステップ 2: 暴走スカベンジャーを素早く倒す方法</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   これらの敵に対処するための鍵は、**スピードと精度**です。彼らはあなたに直接スプリントして、出血状態異常を引き起こす、速く、ダメージの大きい近接戦闘を行います。
               </p>
       
@@ -1008,11 +1679,11 @@ export const guides = [
                   <strong>最善の戦略: 頭を狙う</strong>
               </h4>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   <img src="/images/guide/guide08-03.webp" alt="暴走スカベンジャー2">
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   暴走スカベンジャーを倒すための最も効果的な方法は、**クリーンなヘッドショット**です。これにより、彼らが距離を詰めてあなたに危害を加えるのを防ぎ、即座に無力化されます。
               </p>
       
@@ -1027,7 +1698,7 @@ export const guides = [
                   <strong>ステップ 3: ハンターの道クエストを完了する</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   スカベンジャーに対処したら、最後のステップはクエストの目標を完了することです。
               </p>
       
@@ -1066,11 +1737,11 @@ export const guides = [
         },
         "addressBar": "/escape-from-duckov-tote-bag-guide",
         "detailsHtml": `
-              <p style="margin: 1em 0px;">
+              <p>
                   <a href="/">Escape from Duckov</a>の世界では、多くのアイテムに出くわします。あるものはクラフト用、あるものは売却用、そして**トートバッグ**のように、すぐに明らかではない非常に**具体的かつ重要な目的**を持つものもあります。多くの新しいプレイヤーは、この「高級アイテム」を素早い利益のために売却するという間違いを犯し、ゲームの**ユニークなボスドロップ**の1つを取得するために不可欠なツールを捨てていることに気づきません。すべての特殊アイテムについては、こちらの <a href="/items">アイテムデータベース</a> を参照してください。
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   このガイドでは、トートバッグが何をするのか、どこで見つけるのか、そしてなぜそれを絶対に保管しておくべきなのかをカバーしています。
               </p>
       
@@ -1078,11 +1749,11 @@ export const guides = [
                   <strong>トートバッグとは？</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   トートバッグは、標準的なバックパックとは一線を画す、非常に**特殊な特性**を持つユニークな装備品です。
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   <img src="/images/guide/guide09-02.webp" alt="tote-bag1">
               </p>
       
@@ -1093,7 +1764,7 @@ export const guides = [
                   <li><strong>主要機能:</strong> **「？」**とラベル付けされた単一の**特別な収納スロット**が含まれています。このスロットがバッグの存在理由のすべてです。</li>
               </ul>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   他のバッグとは異なり、トートバッグは、追加の容量や重量制限などの一般的なインベントリボーナスを提供しません。その価値は完全に機能的です。装備データベースで他の <a href="/items/equipment">バックパックと収納アイテム</a> と比較してください。
               </p>
       
@@ -1101,7 +1772,7 @@ export const guides = [
                   <strong>トートバッグを見つける場所</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   トートバッグを見つけるための単一の保証された場所はありません。その取得は、完全に**運と徹底的な探索**に基づいています。
               </p>
       
@@ -1110,7 +1781,7 @@ export const guides = [
                   <li><strong>見つけ方:</strong> それを見つけるチャンスを増やす最良の方法は、レイド中に**細心の注意を払う**ことです。**建物、コンテナ、およびルートの隠し場所**をどのマップでも徹底的に検索してください。やがて、それに出くわすでしょう。</li>
               </ul>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   トートバッグを見つけたら、**売らないでください**。使用する準備ができるまで、隠れ家の倉庫に安全に保管してください。
               </p>
       
@@ -1118,7 +1789,7 @@ export const guides = [
                   <strong>真の目的: トートバッグの使用方法</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   トートバッグは、特定のボスがドロップする特別なアイテムを輸送することを可能にする**唯一のツール**です。
               </p>
       
@@ -1129,7 +1800,7 @@ export const guides = [
                   <li><strong>解決策:</strong> レッドアイを輸送するには、インベントリに**トートバッグ**を持っている必要があります。次に、レッドアイと相互作用し、それをトートバッグの特別な**「？」スロット**に直接配置します。そうして初めて、それをベースに持ち帰ることができます。</li>
               </ol>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   レッドアイ自体は、使用時に強力で永続的な強化を提供するため、トートバッグは、そのユニークな報酬のためにこのボスをファーミングしようとしているプレイヤーにとって**不可欠なアイテム**となります。
               </p>
       
@@ -1137,7 +1808,7 @@ export const guides = [
                   <strong>トートバッグ vs. デコレーションバッグ: 違いは何ですか？</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   トートバッグがツールであり、バックパックではないことを理解することが重要です。一般的なルートランでは、**デコレーションバッグ**が優れた選択肢です。
               </p>
       
@@ -1199,15 +1870,15 @@ export const guides = [
                   <strong>トートバッグを決して売るべきではない理由</strong>
               </h2>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   トートバッグを売却するのは、その独自の機能**を理解していない**新しいプレイヤーによくある間違いです。「高級アイテム」として分類され、目立ったステータスがないため、**ベンダーゴミ**のように見えるかもしれません。
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   しかし、トートバッグは、**レッドブロブボス**を繰り返し狩り、貴重な**レッドアイ**を獲得するために必要な、**購入できない不可欠なツール**です。このコンテンツに参加する予定がある場合は、バッグを保管しておく必要があります。
               </p>
       
-              <p style="margin: 1em 0px;">
+              <p>
                   すでに売却してしまった場合でも、パニックにならないでください。次に見つけたものは必ず保管するようにしてください。後で必要になります。その他のアイテムガイドやボス戦略については、こちらの <a href="/guides">完全ガイドコレクション</a> を探索してください。
               </p>
               `
@@ -1480,668 +2151,6 @@ export const guides = [
     },
 
     {
-        "id": 12,
-        "title": "Escape from Duckov ウォークスルー パート1：脱獄と基地のセットアップ",
-        "description": "Escape from Duckov の開始に不可欠なガイドです！完全な脱獄チュートリアル、基地のインフラ設定、および Ground Zero での初期クエストの完了をカバーします。",
-        "imageUrl": "/images/guide12.webp",
-        "imageAlt": "Escape from Duckovの脱獄シーンで、プレイヤーキャラクターが箱を漁っている様子。",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-1-new-player-guide",
-        "category": "walkthroughs",
-        "tags": ["ウォークスルー", "初心者ガイド", "脱獄", "基地建設", "グランドゼロ"],
-        "seo": {
-            "title": "Escape from Duckov パート1 ガイド：刑務所、基地設定、初期クエスト",
-            "description": "Escape from Duckovの最初のパートの完全なステップバイステップウォークスルー。刑務所から脱出する方法、基地をセットアップする方法、および「基本的な建設」と「運転資金」のクエストを完了する方法を学びます。",
-            "keywords": "Escape from Duckov ウォークスルー パート1, Escape from Duckov 初心者ガイド, 脱獄ガイド, グランドゼロ ウォークスルー, 基地セットアップ Duckov, 初期クエスト"
-        },
-        "isHome": false,
-        "detailsHtml": `
-              <h2>刑務所からの脱出：チュートリアルと最初の遭遇</h2>
-              <p>簡単な紹介シーンの後、最初のアクションは鏡に行き、キャラクタークリエーターで**自分のキャラクターを設定する**ことです。</p>
-              
-              <h3>初期の戦利品と移動</h3>
-              <ul>
-                  <li>床の矢印とマーキングに従って移動し、戦利品を拾います。</li>
-                  <li>箱から、**TT-33**（基本的なピストル）、**弾薬30発**、**包帯**、**クラッカー**を入手します。</li>
-                  <li>自分の独房の右側の部屋に入り、中の箱から**ニンジン**を取ります。（<em>ヒント：走ったり転がったりすると**スタミナ**を消費します</em>）。</li>
-                  <li>ゴミ箱をチェックして、**ライター**、**ロリポップ**、**電子機器**を見つけます。</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-01.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
-      
-              <h3>最初の戦闘と装備のアップグレード</h3>
-              <ul>
-                  <li>今後の遭遇に備えて**TT-33ピストルを装備**します。</li>
-                  <li>**迫りくる弾丸を回避**し（赤い閃光が見えたら）、最初の警備員を倒します。</li>
-                  <li>警備員から**警察の警棒**、**白い白衣**、**黒縁のサングラス**を戦利品として獲得します。**すべて装備してください**。</li>
-                  <li>さらに弾丸を拾い、ゴミ箱から**ケーブル**を見つけます。（<em>ヒント：右クリックを押し続けると精度が向上します。</em>）</li>
-                  <li>次の箱から**包帯**と**アスピリン**を戦利品として獲得します。</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-02.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
-      
-              <h3>2回目の遭遇と脱出</h3>
-              <ul>
-                  <li>次の部屋の箱から**PMピストル**を戦利品として獲得し、スロット2に入れます。</li>
-                  <li>次の警備員を倒し、**Glickピストル**、白衣、サングラスを戦利品として獲得します。</li>
-                  <li>**インベントリがいっぱい**の場合は、次に進む必要があるかもしれません。次のゴミ箱から**クラッカー**と**ソーダ**を戦利品として獲得します。</li>
-                  <li>エネルギーを補充するために**ニンジンとクラッカーを食べます**。</li>
-                  <li>**右**の道を進み、**脱出地点**に向かって素早い脱出を完了します。</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
-      
-              <h2>基地：インフラストラクチャと初期の強化</h2>
-              <p>基地に戻ったら、2階で**Jeff**を見つけて、倉庫、建設パネル、自動販売機、エンハンサー、脱出地点のツアーを受けてください。</p>
-      
-              <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
-      
-              <h3>キャラクターとストレージのアップグレード</h3>
-              <ul>
-                  <li>Glickを売り、装備しているTT-33を保持します。自動販売機をチェックします。</li>
-                  <li>**エンハンサー**を使用します：**「バックパックエキスパートI」を研究してアクティブ化**し、**バックパック容量を+4**にします。（<em>注：強化にはお金と材料が必要です。</em>）</li>
-                  <li>**倉庫**を使用します：「**ストレージ拡張Lv.1**」を追加して、**ストレージ容量を+35**増やします。</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-05.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
-      
-              <h3>初期クエストの受諾</h3>
-              <p>Jeffに話しかけて、最初の2つのクエストを受諾します：</p>
-              <table style="width: 100%; border-collapse: collapse;">
-                  <thead>
-                      <tr>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">報酬</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;"><strong>基本的な建設</strong></td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">**木材2個**を集めて作業台を建設する。</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">EXP +1000、通貨 +500、包帯 x3</td>
-                      </tr>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;">**運転資金**</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">**敵を1体倒す**。</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">EXP +500、通貨 +1296</td>
-                      </tr>
-                  </tbody>
-              </table>
-      
-              <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
-      
-              <h2>Ground Zero：リソースランとクエスト完了</h2>
-      
-              <h3>敵キャンプの掃討と木材の収集</h3>
-              <ul>
-                  <li>最初の箱を漁り、弾丸ともう1つのTT-33を見つけます。右に移動します。</li>
-                  <li>ツールボックスで**小さな石**（敵を誘い出すため）と**釘**を見つけます。**ナット、ボルト、車のバッテリー**を収集します。</li>
-                  <li>左側に敵のキャンプを見つけます。ここで**暴れまわるスカベンジャー**（赤いアヒル）を倒すと、**「運転資金」が完了します**。</li>
-                  <li>死体から**肉切り包丁**、**木材**、**現金**を戦利品として獲得します。</li>
-                  <li>さらに戦利品を漁り（タクティカルボックス、弾薬箱）、**手作りのショットガン**、**弾丸**、**矢**を見つけます。</li>
-              </ul>
-      
-              <img src="/images/guide/guide12-07.webp" alt="Escape from Duckov ウォークスルー パート1" class="guide-image" />
-      
-              <h3>さらなる戦利品と探索</h3>
-              <ul>
-                  <li>**グリーンアヒル**と交戦します（ショットガンを使用し、ボディアーマーを着用します）。</li>
-                  <li>死体から**バックパック**（装備するとストレージ+39）、**弓**、**コールドコアの破片**を戦利品として獲得します。</li>
-                  <li>**AK-74U**を戦利品として獲得し、**TOZ-66の設計図**を見つけます。</li>
-                  <li>北に進み、**湖**に通じる**テレポートノード**を見つけます。</li>
-                  <li>森の小道の近くで、**MD40のレシピ**がある小さなキャンプを見つけます。シャベルを使って**J-Labフロッピーディスクを掘り出します**。</li>
-                  <li>別のキャンプを掃討し、**「基本的な建設」**に必要な**2番目の木材**を見つけます。</li>
-                  <li>**壊れた橋**から洞窟へ行くには、**金属板2枚**と**木材2個**が必要です。</li>
-              </ul>
-      
-              <h3>脱出とクエストの提出</h3>
-              <ul>
-                  <li>北西のキャンプでグリーンアヒルに対処します。脱出地点の近くでSMGダメージ強化用の**マズルアタッチメント**を見つけます。</li>
-                  <li>**Ground Zeroから脱出**します。</li>
-                  <li>基地で**「運転資金」**を提出します。</li>
-                  <li>**クエスト「ハンターの道」を受諾**します：暴れまわるスカベンジャーを2体倒し、肉切り包丁を2本提出します。</li>
-                  <li>**建設パネル**に行き、**作業台を建設**します。**「基本的な建設」**を提出します。</li>
-                  <li>**高度な加工**を研究して**作業台をアップグレード**します。</li>
-              </ul>
-      
-              <h3>新しいクエストと最終準備</h3>
-              <p>**「止血の重要性」**、**「信号塔」**（**マイナスドライバー**が必要）、**「旧友からの手紙」**などの新しいクエストを受け取ります。</p>
-              <ul>
-                  <li>自動販売機から**マイナスドライバー**を購入します。</li>
-                  <li>**エンハンサー**に行き、**サバイバル本能 1（最大HP +5）**と**ワイドビュー 1（FOV +15）**をアップグレードします。</li>
-                  <li>夜間の危険性の増加を避けるために**寝て**、時間を**午前7時**に進めます。</li>
-              </ul>
-          `
-    },
-
-    {
-        "id": 13,
-        "title": "Escape from Duckov ウォークスルー パート2：Ground Zero 探索と基地拡張",
-        "description": "Escape from Duckov のパート2に不可欠なガイドです。信号塔の完了、洞窟のロック解除、タフな警備員の撃破、および新しいショップによる基地の拡張を行います。",
-        "imageUrl": "/images/guide13.webp",
-        "imageAlt": "Escape from Duckov の Ground Zero マップで、プレイヤーキャラクターが壊れた橋を修理している様子。",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-2-base-expansion",
-        "category": "walkthroughs",
-        "tags": ["ウォークスルー", "グランドゼロ", "基地拡張", "新しいクエスト", "中盤"],
-        "seo": {
-            "title": "Escape from Duckov パート2 ウォークスルー：信号塔、洞窟の戦利品、アーマーショップ",
-            "description": "Escape from Duckov パート2の完全ガイド。信号塔の修理、設計図のための洞窟へのアクセス、重装甲の警備員の撃破、およびアーマーショップの建設方法を詳述します。",
-            "keywords": "Escape from Duckov パート2, Ground Zero 探索, 信号塔クエスト, 洞窟の設計図, アーマーショップのロック解除, ブラックマーケットのメモ"
-        },
-        "isHome": false,
-        "detailsHtml": `
-              <h2>Ground Zero：クエスト完了と主要な場所</h2>
-              <p>2回目の主要なランは、アップグレードされた装備を利用して未解決のタスクを完了し、新しいエリアのロックを解除し、重要な設計図とクエストアイテムを収集することに焦点を当てています。</p>
-      
-              <h3>北の塔と新しい連絡先</h3>
-              <ul>
-                  <li>道路キャンプに向かい、**北の塔**を見つけます。</li>
-                  
-                  <img src="/images/guide/guide13-01.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
-      
-                  <li>近くの**ツールボックス**を漁り、**金属板2枚**、**釘1本**、**マイナスドライバー**を含む貴重なアイテムを確保します。</li>
-      
-                  <img src="/images/guide/guide13-02.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
-      
-                  <li>塔の根元にある**電源ボックス**と対話し、**「信号塔」**クエストの目的を完了します。</li>
-                  <li>塔の右側に移動し、**ポテトグラフィックカードの設計図**を見つけます。</li>
-      
-                  <img src="/images/guide/guide13-03.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
-      
-                  <li>道路キャンプに向かい、新しいショットガンを携行した敵タイプを排除し、**MP-155ショットガン**、**オートバイのヘルメット**、および薬を戦利品として獲得します。</li>
-                  <li>左側で**「マッド」**を見つけ、クエスト**「バランスの取れた栄養 1」**を受諾します（目的：アヒルの卵1個を提出、報酬：EXP +800、通貨 +500）。</li>
-              </ul>
-      
-              <h3>橋の修理と洞窟へのアクセス</h3>
-              
-              <img src="/images/guide/guide13-04.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
-      
-              <ul>
-                  <li>左に移動し、**木材2個**を使用して道路キャンプに通じる**壊れた橋を修理**します。（渡る前に電柱の下をチェックしますが、戦利品はまれです）。</li>
-                  <li>森の小道のキャンプに向かい、**レッドスカベンジャー**を排除して**「ハンターの道」**を完了し、**肉切り包丁2本**を拾います。また、**放棄されたガソリンスタンドの鍵**も見つけます。</li>
-                  <li>洞窟の入り口近くにある壊れた橋を修理します。</li>
-      
-                  <img src="/images/guide/guide13-05.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
-              </ul>
-      
-              <h3>洞窟の戦利品と設計図</h3>
-      
-              <p>洞窟内で、重要な武器アタッチメントと設計図を収集します：</p>
-      
-              <img src="/images/guide/guide13-06.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
-      
-              <ul>
-                  <li>**ピストルマズル**、**UP 45**、**AK 47**、**腰だめ撃ちアタッチメント**、**レーザーアタッチメント**を戦利品として獲得します。</li>
-                  <li>決定的に重要なのは、**キューブガンの設計図**と**小型エネルギー弾薬**を拾うことです。</li>
-              </ul>
-      
-              <h3>北西キャンプと最終脱出の準備</h3>
-      
-              <img src="/images/guide/guide13-07.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
-              
-              <ul>
-                  <li>**北西のキャンプ**に忍び込み、テントで**旧友からの手紙**を見つけ、クエストを完了します。</li>
-                  <li>近くのデータボックスから**バールレシピ**を拾います。監視塔に登り、**「Ground Zero 観測ログ」**を読みます。</li>
-                  <li>**タフな遭遇：** **ショットガンを持った超タフなフード付きの敵**と交戦します。この戦闘中に**包帯**を使用して**「止血の重要性」**を完了します。</li>
-                  <li>彼を倒した後、貴重な**ブラックマーケット連絡メモ**と**高度なAPショットガンシェル**を戦利品として獲得します。</li>
-                  <li>脱出に向かう途中で、別のキャンプを掃討し、2つの鍵（**放棄されたガソリンスタンドの鍵**と**フェンスの鍵**）と**ホログラフィックサイト**を見つけます。</li>
-                  <li>**Ground Zeroから脱出**します。</li>
-              </ul>
-      
-              <h2>基地管理：クエスト、ショップ、アップグレード</h2>
-              <p>基地に戻ったら、完了したすべてのクエストをすぐに提出して、次のレベルの建設とアップグレードのロックを解除します。</p>
-      
-              <img src="/images/guide/guide13-08.webp" alt="Escape from Duckov ウォークスルー パート2" class="guide-image" />
-      
-              <h3>クエスト提出と新しい目的</h3>
-              <p>完了したすべてのクエストを提出します。次の新しい建設および材料クエストが表示されます：</p>
-              <table style="width: 100%; border-collapse: collapse;">
-                  <thead>
-                      <tr>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">新しい建設</th>
-                          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">戦闘/材料クエスト</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;">基本的な建設 II：**武器ショップ**を建設する</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">ヘッドショットを狙え：敵をヘッドショットで倒す（5体）</td>
-                      </tr>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;">基本的な建設 III：**アーマーショップ**を建設する（最優先）</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">技術の専門家：電子部品の山を提出する</td>
-                      </tr>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;">基本的な建設（医療）：**医療ステーション**を建設する</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">愛に満ちて：通貨1888を提出する（すぐに提出可能）</td>
-                      </tr>
-                      <tr>
-                          <td style="border: 1px solid #ddd; padding: 8px;">クラフトの見習い：Glickを提出する</td>
-                          <td style="border: 1px solid #ddd; padding: 8px;">すでに完了したクエストを提出：拡張ポケットと作業台のアップグレード</td>
-                      </tr>
-                  </tbody>
-              </table>
-      
-              <h3>建設と最終アップグレード</h3>
-              <ul>
-                  <li>**「愛に満ちて」**をすぐに提出します。</li>
-                  <li>建設ステーションをチェックします：**アーマーショップ**をすぐに**建設**できます。**「基本的な建設 III」**を提出します。</li>
-                  <li>新しいアーマーショップを訪れます：**レベル2アーマーとスチールヘルメットを購入**します。</li>
-                  <li>**作業台**で：**すべての新しい設計図を研究**し（インベントリスペースを空けるため）、**修理ステーションの設計図**を研究します。</li>
-                  <li>自動販売機から**ハサミ**と**レンチ**を購入し、作業台で**分解ステーション**を研究します。</li>
-                  <li>**エンハンサー**で：**ガンの熟練度 I**をアップグレードします。</li>
-                  <li>アーマーショップから2つの新しいクエストを受諾します：**「供給ルート」**（供給クレートにマークを付ける）と**「帳簿」**（インク、ペン、ノートを提出する）。</li>
-                  <li>これらの主要なアップグレードの後、お金が尽きて一日が終わります。</li>
-              </ul>
-          `
-    },
-
-    {
-        "id": 14,
-        "title": "Escape from Duckov ウォークスルー パート3：Ground Zeroの鍵とPato Chapoボス",
-        "description": "Escape from Duckov パート3の包括的なガイドです。新しい商人のクエストを受諾し、医療ステーションと武器ショップを建設し、Pato Chapoボスを突き止めます。",
-        "imageUrl": "/images/guide14.webp",
-        "imageAlt": "Escape from Duckovで、プレイヤーキャラクターがGround Zeroにある鍵のかかったドアを鍵で開けている様子。",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-3-pato-chapo-boss",
-        "category": "walkthroughs",
-        "tags": ["ウォークスルー", "グランドゼロ", "ボス戦", "パトチャポ", "商人クエスト", "中盤"],
-        "seo": {
-            "title": "Escape from Duckov パート3 ガイド：医療ステーション、鍵、Pato Chapo戦略",
-            "description": "Escape from Duckov パート3の完全ガイド：重要な基地施設（武器/医療）の建設、ガソリンスタンドとフェンスの鍵の使用、ホテルの部屋の特定、Pato Chapoボスの撃破。",
-            "keywords": "Escape from Duckov パート3, Pato Chapo ボス戦, Ground Zero 鍵, 医療ステーション, 武器ショップ, ホテルの部屋の鍵, ウォークスルー"
-        },
-        "isHome": false,
-        "detailsHtml": `
-            <h2>基地の準備：商人のクエストと施設</h2>
-            <p>Ground Zeroに戻る前に、新設された基地施設から新しいクエストの束を受諾し、すぐに提出可能なものは提出して、経験値と通貨を最大化して一日を始めましょう。</p>
-      
-            <h3>受諾した新しいクエスト：</h3>
-            <p>次のランを導くために、Mud、武器職人、アーマー職人、および自動販売機から新しいクエストを受諾します：</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">情報源（商人）</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">Mud (フィットネス)</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">バランスの取れた栄養 II/III、フィットネスコーチ</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**エナジードリンク**、**チョコレート**、**ダンベル**を提出する</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">武器職人</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">汎用ピストル、奇妙な羽</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**Glick**、**クジャクの羽**を提出する</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">アーマー職人 / 医療ステーション</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">医療支援</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**医療キット**を提出する</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">自動販売機</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">自給自足、プロのシェフ</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**水**、**シェフナイフ**を提出する</td>
-                    </tr>
-                </tbody>
-            </table>
-      
-            <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">ヒント:</strong> 新しいクエストを受諾する前に、**「クラフトの見習い」**と**「帳簿」**のクエストを提出して、インベントリを整理し、すぐに資金を得ましょう。</p>
-      
-            <h3>建設とアップグレード</h3>
-            <p>現在の資金と材料を使用して、基地のインフラを完成させます：</p>
-            <ul>
-                <li>**医療ステーションを建設**し、**「基本的な建設（医療）」**クエストを提出します。新しいステーションから**「医療支援」**クエストを受諾します。</li>
-                
-                <li>**武器ショップを建設**し、**「基本的な建設 II」**クエストを提出します。新しいショップから**「奇妙な羽」**クエストを受諾します。</li>
-                
-                <img src="/images/guide/guide14-01.webp" alt="Escape from Duckov ウォークスルー パート3" class="guide-image" />
-      
-                <li>展開する前に、利用可能な**基地のアップグレード**と**スキルのアップグレード**（武器の熟練度など）を実行します。</li>
-      
-                <img src="/images/guide/guide14-02.webp" alt="Escape from Duckov ウォークスルー パート3" class="guide-image" />
-            </ul>
-      
-            <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero: ロックされたエリアと隠された手がかり</h2>
-            <p>鍵と新しい装備を備えて、Ground Zeroで以前はロックされていたエリアにアクセスできるようになりました。</p>
-      
-            <h3>放棄されたガソリンスタンドとフェンスへのアクセス</h3>
-            <ul>
-                <li>**放棄されたガソリンスタンド**に行き、パート2で見つけた**鍵でドアを開けます**。</li>
-                <li>内部で、銃と弾薬が入った**武器クレート**を漁ります。スタンド内で**フェンスの鍵**を見つけるはずです（または、すでに持っていることを確認します）。</li>
-                <li>境界**フェンス**に行き、**開けて**マップの次のエリアにアクセスします。</li>
-            </ul>
-      
-            <h3>路肩の謎（ホテルの鍵）</h3>
-            <ul>
-                <li>**路肩のキャンプ**に向かい、新しい場所への手がかりを含む**メモ**を見つけます。</li>
-                <li>メモの指示に従って**死体**を見つけます。死体を漁り、**ホテルの部屋の鍵**を入手します。</li>
-                <li>**ホテル**の場所に進み、新しい鍵を使用して**部屋を開けます**。内部には、別の**武器クレート**と、おそらく新しい**手がかりまたは鍵**があるはずです。</li>
-            </ul>
-      
-            <h3>ボスの特定：Pato Chapo</h3>
-            <p>繰り返される手がかりと死体の場所は、このパートの最後の遭遇につながる可能性があります：</p>
-            <ul>
-                <li>最後の手がかり/メモに従って、ボスによって警備されている可能性が高い指定された場所に進みます。</li>
-                <li>**ボス：Pato Chapo**とのタフな戦いに備えます。（<em>注：戦闘を開始する前に、アップグレードされたアーマー、十分な高ティアの弾薬、および医療用品を持っていることを確認してください。</em>）</li>
-                <li>Pato Chapoを倒した後、次のウォークスルーパートに必要な高価値アイテムと必須の鍵/手がかりを求めて**死体を漁ります**。</li>
-            </ul>
-        `
-    },
-
-    {
-        "id": 15,
-        "title": "Escape from Duckov ウォークスルー パート4：DuckmotherボスとAS VAL",
-        "description": "Escape from Duckov パート4の完全ガイド。新しいバンカークエストを受諾し、手ごわいDuckmotherボスを撃破し、強力なAS VAL武器を確保します。",
-        "imageUrl": "/images/guide15.webp",
-        "imageAlt": "Escape from Duckovの放棄されたキャンプの場所で、プレイヤーキャラクターが大きなボス、Duckmotherと戦っている様子。",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-4-duckmother-boss",
-        "category": "walkthroughs",
-        "tags": ["ウォークスルー", "グランドゼロ", "ボス戦", "ダックマザー", "AS VAL", "アップグレード"],
-        "seo": {
-            "title": "Escape from Duckov パート4 ガイド：Duckmotherの撃破、AS VALの発見、バンカークエスト",
-            "description": "Escape from Duckov パート4のステップバイステップウォークスルー。必要なスキルアップグレード、駆除および提出クエストの完了、そしてDuckmotherボス戦の攻略法を学びます。",
-            "keywords": "Escape from Duckov パート4, Duckmother ボス戦略, AS VAL 場所, Ground Zero 放棄されたキャンプ, エネルギーリザーブ アップグレード, パフォーマンス テスト クエスト"
-        },
-        "isHome": false,
-        "detailsHtml": `
-            <h2>バンカーの準備：新しいクエストとスキルアップグレード</h2>
-            <p>Ground Zeroに戻る前に、商人やエンハンサーを訪れ、**Duckmotherボス**を含む今後の新しい課題に備えて、重要なミッションを受諾し、キャラクターの戦闘準備を整えましょう。</p>
-      
-            <h3>受諾した新しいクエスト：</h3>
-            <p>次のランのためにこれらのクエストを優先してください。これらは一般的なGround Zeroの活動と必要な戦利品に合致しています：</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">報酬（EXP/通貨）</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">大型ストレージ</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**大型ストレージボックス**1個を提出する</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">蚊の駆除</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**蚊**を**10匹**倒す</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">部品の卸売</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**ネジ**を**5個**提出する</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">パフォーマンス テスト</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**グラフィックカード**1枚を提出する</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">処罰者</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**スカベンジャー**を**5体**倒す</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                </tbody>
-            </table>
-      
-            <h3>スキルアップグレード：戦闘効率の向上</h3>
-            <p>展開前にこれらのコアスキルに投資して、持続性と戦闘精度を向上させましょう：</p>
-            <ul>
-                <li>**エネルギーリザーブ：** 最大エネルギーを**+10**増加させます。（より長くスプリント/ロールが可能になります）</li>
-      
-                <img src="/images/guide/guide15-01.webp" alt="Escape from Duckov ウォークスルー パート4" class="guide-image" />
-      
-                <li>**栄養摂取：** 食料と水の影響を**+10%**増加させます。（持続性を向上させます）</li>
-                <li>**安定した射撃 I：** 腰だめ撃ちの精度を**+10%**増加させます。（ボスとの近接戦闘に不可欠です）</li>
-            </ul>
-      
-            <h2>Ground Zero：放棄されたキャンプとDuckmotherボス</h2>
-            <p>駆除クエストに焦点を当て、新しいボスエリアを特定するためにGround Zeroに戻ります。</p>
-      
-            <h3>クエストの進行と新武器の発見</h3>
-            <ul>
-                <li>スカベンジャーの活動と水域で知られるエリアに焦点を当ててランを行い、**蚊を10匹**、**スカベンジャーを5体**倒します。</li>
-                <li>ツールボックスと電子機器の隠し場所を漁り、提出クエストに必要な**ネジ**と**グラフィックカード**を見つけます。</li>
-                <li>探索中に、強力な武器である**VSS**を発見します。これはサイレンサー付きの交戦に役立つ貴重な発見です。</li>
-                <li>発見した新しい場所である**放棄されたキャンプ**を特定します。</li>
-            </ul>
-      
-            <img src="/images/guide/guide15-03.webp" alt="Escape from Duckov ウォークスルー パート4" class="guide-image" />
-      
-            <h3>Duckmotherボス戦</h3>
-            <p>**Duckmother**は、放棄されたキャンプにいる大きな脅威です。動きと高いダメージ出力が重視される戦いに備えてください。</p>
-            <ul>
-                <li>**戦略のヒント：** アップグレードされた**エネルギーリザーブ**を持続的なスプリントと回避に活用します。ボスの弱点（多くの場合、頭または目立つバックパック）に集中攻撃します。</li>
-                <li>困難な戦いの後、**Duckmotherを撃破**します。</li>
-                <li>死体を漁り、キャンプ内の**ロックされた部屋の鍵**を見つけます。</li>
-            </ul>
-      
-            <h3>AS VALの確保</h3>
-            <ul>
-                <li>Duckmotherから入手した鍵を使用して、放棄されたキャンプ内にある**ロックされた部屋**を開けます。</li>
-                <li>部屋の中には、非常に求められている武器である**AS VAL**（サイレンサー付きの高ダメージライフル）があります。</li>
-            </ul>
-      
-            <h2><span style="color: #DAA520;">&#127775;</span> ラン後のアクティビティ</h2>
-            <ul>
-                <li>無事に**脱出**し、バンカーに戻ります。</li>
-                <li>**完了したすべてのクエスト**（蚊の駆除、処罰者、部品の卸売、パフォーマンステストなど）を**提出**し、多額の報酬を受け取ります。</li>
-                <li>以前のセットを完了したことでロック解除された商人から**新しいクエスト**を受諾します。</li>
-                <li>**アーマー職人**を訪れ、新しく見つけた通貨を使用して**新しいヘルメット**やその他の必要な保護具を**購入**します。</li>
-            </ul>
-        `
-    },
-
-    {
-        "id": 16,
-        "title": "Escape from Duckov ウォークスルー パート5：サイクルの繰り返し - Duckmotherアンコール",
-        "description": "Escape from Duckov パート5のガイドです。高報酬の反復クエストを受諾し、コアとなるサバイバルスキルを最大化し、Duckmotherボスを再度撃破し、高ティアの戦利品を確保します。",
-        "imageUrl": "/images/guide16.webp",
-        "imageAlt": "Escape from Duckovの放棄されたキャンプの暗い部屋で、プレイヤーキャラクターがAS VALを使用している様子。",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-5-duckmother-encore",
-        "category": "walkthroughs",
-        "tags": ["ウォークスルー", "グランドゼロ", "ボス戦", "反復クエスト", "スキル最大化", "ファームラン"],
-        "seo": {
-            "title": "Escape from Duckov パート5 ガイド：コアスキルの最大化とDuckmother反復ラン",
-            "description": "Escape from Duckov パート5のステップバイステップウォークスルー。通貨を稼ぎ、エネルギーリザーブや安定した射撃などの重要なスキルを最大化するための、反復可能な駆除および提出クエストの完了に焦点を当てます。",
-            "keywords": "Escape from Duckov パート5, Duckmother 反復, エネルギーリザーブ最大化, 安定した射撃 II, Ground Zero ファームラン, パフォーマンス テスト II クエスト"
-        },
-        "isHome": false,
-        "detailsHtml": `
-            <h2>バンカーの準備：反復可能なクエストとスキル最大化</h2>
-            <p>パート5では、高価値の物資調達および駆除クエスト（多くの場合、ローマ数字の接尾辞 (II) が付いています）を繰り返し行い、経験値と通貨を稼ぐのに最適です。Ground Zeroに戻る前に、コアとなるサバイバルスキルと戦闘スキルを最大化することに焦点を当てましょう。</p>
-      
-            <h3>受諾した新しい/反復可能なクエスト：</h3>
-            <p>商人から、前のサイクルのミッションのアップグレードされた反復可能なバージョンを受諾します：</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">報酬（EXP/通貨）</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">大型ストレージ II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**大型ストレージボックス**1個を提出する</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">蚊の駆除 II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**蚊**を**10匹**倒す</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">部品の卸売 II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**ネジ**を**5個**提出する</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">パフォーマンス テスト II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**グラフィックカード**1枚を提出する</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">処罰者 II</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**スカベンジャー**を**5体**倒す</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                </tbody>
-            </table>
-      
-            <h3>スキルアップグレード：ティア IIの達成</h3>
-            <p>エンハンサーを利用してティア IIスキルにアップグレードし、効率と生存率をさらに向上させましょう：</p>
-            <ul>
-                <li>**エネルギーリザーブ II：** 最大エネルギーを**+10**増加させます（合計+20、カイト/スプリントに不可欠）。</li>
-                <li>**栄養摂取 II：** 食料と水の影響を**+10%**増加させます（合計+20%、回復/水分補給を劇的に改善）。</li>
-                <li>**安定した射撃 II：** 腰だめ撃ちの精度を**+10%**増加させます（合計+20%、近距離戦闘と移動中の射撃を非常に効果的にします）。</li>
-            </ul>
-      
-            <img src="/images/guide/guide16-02.webp" alt="Escape from Duckov ウォークスルー パート5" class="guide-image" />
-      
-            <h2>Ground Zero：リソースのファーミングとボスアンコール</h2>
-            <p>このランの目的は、駆除ノルマを迅速にクリアし、提出アイテムを集め、利益の高い戦利品と鍵のドロップのためにDuckmotherに再び立ち向かう準備をすることです。</p>
-      
-            <h3>リソースのファーミングと駆除</h3>
-            <ul>
-                <li>電子部品とツールボックスが豊富なエリアに焦点を当ててランを行い、必要な**ネジ**と**グラフィックカード**を迅速に見つけます。</li>
-                
-                <img src="/images/guide/guide16-01.webp" alt="Escape from Duckov ウォークスルー パート5" class="guide-image" />
-      
-                <li>**蚊の駆除 II（10キル）**と**処罰者 II（5キル）**のクエストを効率的に完了します。</li>
-                <li>以前に**VSS**を見つけている可能性が高いため、このランではその継続的な存在を確認するか、再び入手する機会を提供します。</li>
-                <li>ボスが出現する**放棄されたキャンプ**に再度向かいます。</li>
-            </ul>
-      
-            <h3>Duckmotherの撃破（反復）</h3>
-            <p>**Duckmother**は、彼女を倒すことでロックされた部屋にアクセスできるため、主要な目標です。新しい**安定した射撃 II**スキルと優れたエネルギーリザーブを使用して、積極的に彼女と交戦します。</p>
-            <ul>
-                <li>**Duckmother**を倒した後、彼女は再びキャンプ内の**ロックされた部屋の鍵**をドロップします。</li>
-                <li>鍵を使用してロックされた部屋にアクセスし、強力な武器である**AS VAL**（または、すでに所有している場合はその高価値のコンポーネント/弾薬）を回収します。</li>
-            </ul>
-      
-            <h2>ラン後のアクティビティ</h2>
-            <ul>
-                <li>無事に**脱出**し、バンカーに戻ります。</li>
-                <li>**完了したすべてのクエスト**（蚊の駆除 II、処罰者 IIなど）を**提出**し、報酬を受け取ります。</li>
-                <li>このセットを完了したことでロック解除された商人から**新しいクエスト**を受諾します。</li>
-                <li>**アーマー職人**を訪れ、蓄積した通貨を使用して**新しいヘルメット**を購入するか、利用可能な最高のティアにアーマーをアップグレードし、次のユニークな課題に備えます。</li>
-            </ul>
-        `
-    },
-
-    {
-        "id": 17,
-        "title": "Escape from Duckov ウォークスルー パート6：最終スキル最大化とボスファーミング",
-        "description": "Escape from Duckov パート6の究極ガイド。反復可能なクエストの最終ティア（III）を完了し、コアとなるサバイバルスキルと戦闘スキルを最大化し、次の主要ゾーンに備えます。",
-        "imageUrl": "/images/guide17.webp",
-        "imageAlt": "放棄されたキャンプのロックされた部屋の中で、プレイヤーの手にあるAS VALライフルのクローズアップショット。",
-        "publishDate": "2025-11-03",
-        "addressBar": "/escape-from-duckov-walkthrough-part-6-final-maxing",
-        "category": "walkthroughs",
-        "tags": ["ウォークスルー", "グランドゼロ", "スキル最大化", "ボスファーミング", "ティア III", "最終準備"],
-        "seo": {
-            "title": "Escape from Duckov パート6 ガイド：ティア IIIスキルの最大化とDuckmother最終ラン",
-            "description": "Escape from Duckov パート6の完全ガイド。すべてのティア IIIスキルアップグレード（エネルギー、栄養、安定した射撃）を完了し、最後の高報酬リソースおよびボスファーミングサイクルを実行する方法を学びます。",
-            "keywords": "Escape from Duckov パート6, ティア III スキル, エネルギーリザーブ最大化, 安定した射撃 III, Duckmother ファーム, 最終バンカー準備, AS VAL"
-        },
-        "isHome": false,
-        "detailsHtml": `
-            <h2>バンカーの準備：最終ティア IIIクエストと最大アップグレード</h2>
-            <p>これは、キャラクターの基本ステータスを最大限に高めるために設計された最後の反復ループです。すべてのティア **III**クエストを受諾し、コアスキルに完全に投資することに焦点を当てましょう。</p>
-      
-            <h3>最終ティアのクエスト受諾：</h3>
-            <p>最後のアップグレードと次のゾーンへのエントリーを促進するために、最高の報酬のミッションを受諾します：</p>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">クエスト名</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目的</th>
-                        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">報酬（EXP/通貨）</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">大型ストレージ III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**大型ストレージボックス**1個を提出する</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">蚊の駆除 III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**蚊**を**10匹**倒す</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">部品の卸売 III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**ネジ**を**5個**提出する</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">パフォーマンス テスト III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**グラフィックカード**1枚を提出する</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #ddd; padding: 8px;">処罰者 III</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">**スカベンジャー**を**5体**倒す</td>
-                        <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                    </tr>
-                </tbody>
-            </table>
-      
-            <img src="/images/guide/guide17-01.webp" alt="Escape from Duckov ウォークスルー パート6" class="guide-image" />
-      
-            <h3>スキル最大化：ピークパフォーマンスの達成</h3>
-            <p>これは、これらの重要なスキルを**最大化**する機会であり、今後のパフォーマンスに大きく影響します：</p>
-            <ul>
-                <li>**エネルギーリザーブ III：** 最大エネルギーを**+10**増加させます。（最大のスプリント/回避能力を提供します）。</li>
-                <li>**栄養摂取 III：** 食料と水の影響を**+10%**増加させます。（受動的な回復とリソース効率を最大化します）。</li>
-                <li>**安定した射撃 III：** 腰だめ撃ちの精度を**+10%**増加させます。（近接戦闘を非常に信頼できるものにします）。</li>
-            </ul>
-      
-            <h2>Ground Zero：最終ファームラン</h2>
-            <p>あなたの目的は変わりません。駆除とリソースのノルマを完了し、**Duckmother**を最後にもう一度倒して、最大のリソースを確保し、AS VALをそのコンポーネントまたは弾薬のためにアクセスすることです。</p>
-      
-            <h3>ランの目的</h3>
-            <ul>
-                <li>必要な**ネジ**と**グラフィックカード**を迅速に確保し、**蚊の駆除 III**と**処罰者 III**のノルマを完了します。</li>
-                <li>**放棄されたキャンプ**の場所を確認し、ボス戦に備えます。</li>
-                <li>（オプション：まだ武器が必要な場合は、**VSS**を再度探します）。</li>
-            </ul>
-      
-            <h3>Duckmotherとの最終遭遇</h3>
-            <p>完全に最大化されたティア IIIスキルがあれば、**Duckmother**はより簡単に処理できるはずです。最大**エネルギーリザーブ**を使用して持続的なカイトを行い、**安定した射撃 III**を利用して壊滅的な近距離腰だめ撃ちを行います。</p>
-            <ul>
-                <li>**Duckmother**を倒し、**ロックされた部屋の鍵**を回収します。</li>
-                <li>ロックされた部屋にアクセスして、**AS VAL**（またはその高価値の弾薬/コンポーネント）を収集します。</li>
-            </ul>
-      
-            <h2>ラン後のアクティビティ：次のマップへの準備</h2>
-      
-            <img src="/images/guide/guide17-02.webp" alt="Escape from Duckov ウォークスルー パート6" class="guide-image" />
-      
-            <ul>
-                <li>**脱出**し、バンカーに戻ります。</li>
-                <li>**完了したすべてのティア IIIクエスト**を**提出**し、多額の報酬を請求します。</li>
-                <li>商人から**新しいクエスト**を受諾します—このクエストは通常、次の主要な場所またはマップへの**移行の目的**となります。</li>
-                <li>**アーマー職人**を訪れ、蓄積した富を使用して**最高ティアのヘルメット**とボディアーマーを購入し、次のゾーンの課題に対する準備が整っていることを確認します。</li>
-            </ul>
-        `
-    },
-
-    {
         "id": 18,
         "title": "Escape From Duckov：拡張クレートの究極ガイド",
         "description": "Escape From Duckovで倉庫スペースが不足していませんか？このガイドでは、恒久的なストレージアップグレードの鍵となる拡張クレートの秘密を公開します！最高のファーミングルート、重要なヒント、クレートの場所を学び、戦利品を最大化してゲームを支配しましょう。今すぐあなたの金庫を拡張してください！",
@@ -2158,7 +2167,7 @@ export const guides = [
         "isHome": true,
         "addressBar": "/escape-from-duckov-expansion-crates-guide",
         "detailsHtml": `
-          <p><strong>Escape From Duckov</strong>で戦利品を管理することは、サバイバルにとって非常に重要です。ギアやリソースを集めるにつれて、隠れ家の倉庫スペースはすぐに制限要因となります。<strong>拡張クレート</strong>は、この問題を解決するための鍵であり、ストレージ容量を恒久的に増やすことができます。</p>
+          <p><strong>Escape From Duckov</strong>で戦利品を管理することは、サバイバルにとって非常に重要です。ギアやリソースを集めるにつれて、隠れ家の倉庫スペースはすぐに制限要因となります。<strong>拡張クレート</strong>は、この問題を解決するための鍵であり、ストレージ容量を恒久的に増やすことができます。</p>
       <p>このガイドでは、これらの貴重なクレートを見つける方法と、それらを使用して金庫を拡張する方法について知っておくべきことすべてを説明します。</p>
       
       <h2><strong>パート1：拡張クレートの入手方法</strong></h2>
@@ -2167,59 +2176,59 @@ export const guides = [
       
       <h3><strong>拡張クレートを見つける場所：</strong></h3>
       <ul>
-          <li><strong>特定のエリアのロッカー：</strong>
-              <ul>
-                  <li><strong>傭兵基地：</strong> 多くのプレイヤーが、ほとんどの拡張クレートを傭兵基地で見つけたと報告しています。これは偶然かもしれませんが、このエリアは間違いなく**探索する価値のあるホットスポット**です。</li>
-                  <li><strong>最初のエリア：</strong> ゲームの早い段階でも、最初のプレイ可能なエリア全体のロッカーで**拡張ボックス S**と**M**を見つける良い機会があります。</li>
-              </ul>
-          </li>
-          <li><strong>ツールボックス：</strong> すべての地域で見つかるツールボックスには、拡張クレートが出現する可能性が高くあります。ラン中に**ツールボックスを見逃さないでください**。</li>
+          <li><strong>特定のエリアのロッカー：</strong>
+              <ul>
+                  <li><strong>傭兵基地：</strong> 多くのプレイヤーが、ほとんどの拡張クレートを傭兵基地で見つけたと報告しています。これは偶然かもしれませんが、このエリアは間違いなく**探索する価値のあるホットスポット**です。</li>
+                  <li><strong>最初のエリア：</strong> ゲームの早い段階でも、最初のプレイ可能なエリア全体のロッカーで**拡張ボックス S**と**M**を見つける良い機会があります。</li>
+              </ul>
+          </li>
+          <li><strong>ツールボックス：</strong> すべての地域で見つかるツールボックスには、拡張クレートが出現する可能性が高くあります。ラン中に**ツールボックスを見逃さないでください**。</li>
       </ul>
       
       <h3><strong>高速で効率的な早期ファーミングルート：</strong></h3>
       <ol>
-          <li>最初のエリアに入り、ポータルを通って北西に進み、さらに上に向かって進みます。</li>
-          <li>このパス沿いのすべてのロッカーを調べます。</li>
-          <li>拡張クレートを見つけたら、**すぐに脱出**します。</li>
+          <li>最初のエリアに入り、ポータルを通って北西に進み、さらに上に向かって進みます。</li>
+          <li>このパス沿いのすべてのロッカーを調べます。</li>
+          <li>拡張クレートを見つけたら、**すぐに脱出**します。</li>
       </ol>
       <p>このルートは、高収量のコンテナに焦点を当てながらリスクを低く保つため、ゲーム序盤のファーミングに最適です。</p>
       
       <h3><strong>重要なヒント：</strong></h3>
       <ul>
-          <li><strong>ドロップはRNGにゲートされています：</strong> 拡張クレートを見つけることは運（**RNG**）に基づいているため、成功する発見の間にはいくつかの空のランを予想してください。**忍耐が鍵です。**</li>
-          <li><strong>重量に注意：</strong> より大きなクレート（特にMとL）は非常に重いです。持っている場合は、戦闘で失うのを避けるために**脱出を優先**してください。</li>
+          <li><strong>ドロップはRNGにゲートされています：</strong> 拡張クレートを見つけることは運（**RNG**）に基づいているため、成功する発見の間にはいくつかの空のランを予想してください。**忍耐が鍵です。**</li>
+          <li><strong>重量に注意：</strong> より大きなクレート（特にMとL）は非常に重いです。持っている場合は、戦闘で失うのを避けるために**脱出を優先**してください。</li>
       </ul>
       
       <h3><strong>拡張クレートの種類と詳細</strong></h3>
       <table>
-          <thead>
-              <tr>
-                  <th>アイテム</th>
-                  <th>用途</th>
-                  <th>一般的な場所</th>
-                  <th>備考</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td><strong>拡張ボックス S</strong></td>
-                  <td>アイテムが必要な初期の金庫ティア。</td>
-                  <td>最初のエリアのロッカー。どこでもツールボックス。</td>
-                  <td>最も軽いクレート。ゲームの早い段階で出現します。</td>
-              </tr>
-              <tr>
-                  <td><strong>拡張ボックス M</strong></td>
-                  <td>中ティアの金庫アップグレード。</td>
-                  <td>最初のエリアのロッカー（よりレア）。ツールボックス。</td>
-                  <td>Sよりも重い。脱出ルートを計画してください。</td>
-              </tr>
-              <tr>
-                  <td><strong>拡張ボックス L</strong></td>
-                  <td>後期ティアの金庫アップグレード。</td>
-                  <td>ツールボックスと高価値のキャッシュ。</td>
-                  <td>最も重いクレートで、出現率が最も低い。</td>
-              </tr>
-          </tbody>
+          <thead>
+              <tr>
+                  <th>アイテム</th>
+                  <th>用途</th>
+                  <th>一般的な場所</th>
+                  <th>備考</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><strong>拡張ボックス S</strong></td>
+                  <td>アイテムが必要な初期の金庫ティア。</td>
+                  <td>最初のエリアのロッカー。どこでもツールボックス。</td>
+                  <td>最も軽いクレート。ゲームの早い段階で出現します。</td>
+              </tr>
+              <tr>
+                  <td><strong>拡張ボックス M</strong></td>
+                  <td>中ティアの金庫アップグレード。</td>
+                  <td>最初のエリアのロッカー（よりレア）。ツールボックス。</td>
+                  <td>Sよりも重い。脱出ルートを計画してください。</td>
+              </tr>
+              <tr>
+                  <td><strong>拡張ボックス L</strong></td>
+                  <td>後期ティアの金庫アップグレード。</td>
+                  <td>ツールボックスと高価値のキャッシュ。</td>
+                  <td>最も重いクレートで、出現率が最も低い。</td>
+              </tr>
+          </tbody>
       </table>
       
       <h2><strong>パート2：拡張ボックス S を使用してストレージを拡張する方法</strong></h2>
@@ -2228,20 +2237,20 @@ export const guides = [
       
       <h3><strong>拡張ボックス S を使用して倉庫をアップグレードする（ステップバイステップ）：</strong></h3>
       <ol>
-          <li><strong>ボックスを基地に持ち帰る：</strong> ボックスを見つけたら、それが倉庫ストレージではなく、**キャラクターのインベントリ**（ポケットまたはリグ）にあることを確認してください。</li>
-          <li><strong>ストレージNPCを見つける：</strong> 隠れ家で、最初のNPCである**ジェフ**のところに行きます。</li>
-          <li><strong>ロッカーと対話する：</strong> 彼の後ろにあるメインのストレージロッカーと対話して、ストレージUIを開きます。</li>
-          <li><strong>アップグレードタブに切り替える：</strong> ストレージUIで、**「ストレージ拡張」/「金庫アップグレード」**タブに切り替えます。PCでは、画面上のタブスイッチャーまたはマウスホイールを使用できます。</li>
-          <li><strong>アップグレードティアを選択する：</strong> 次に利用可能な金庫アップグレードティアを選択します。初期のティアはクレジットのみが必要な場合がありますが、後期のティアは拡張ボックスのようなアイテムが必要になります。</li>
-          <li><strong>アップグレードを確認する：</strong> アクションを確認します。拡張ボックスと必要なクレジットが消費され、倉庫容量が即座に増加します。</li>
+          <li><strong>ボックスを基地に持ち帰る：</strong> ボックスを見つけたら、それが倉庫ストレージではなく、**キャラクターのインベントリ**（ポケットまたはリグ）にあることを確認してください。</li>
+          <li><strong>ストレージNPCを見つける：</strong> 隠れ家で、最初のNPCである**ジェフ**のところに行きます。</li>
+          <li><strong>ロッカーと対話する：</strong> 彼の後ろにあるメインのストレージロッカーと対話して、ストレージUIを開きます。</li>
+          <li><strong>アップグレードタブに切り替える：</strong> ストレージUIで、**「ストレージ拡張」/「金庫アップグレード」**タブに切り替えます。PCでは、画面上のタブスイッチャーまたはマウスホイールを使用できます。</li>
+          <li><strong>アップグレードティアを選択する：</strong> 次に利用可能な金庫アップグレードティアを選択します。初期のティアはクレジットのみが必要な場合がありますが、後期のティアは拡張ボックスのようなアイテムが必要になります。</li>
+          <li><strong>アップグレードを確認する：</strong> アクションを確認します。拡張ボックスと必要なクレジットが消費され、倉庫容量が即座に増加します。</li>
       </ol>
       
       <h3><strong>トラブルシューティング：アップグレードが機能しない場合の対処法</strong></h3>
       <ul>
-          <li><strong>正しい場所にあるか？</strong> ボックスが金庫ではなく、**オンキャラクターインベントリ**にあることを確認してください。</li>
-          <li><strong>正しい画面にいるか？</strong> 通常のストレージビューではなく、**「金庫アップグレード」**タブにいることを再確認してください。</li>
-          <li><strong>そのティアはそれを必要とするか？</strong> 選択しているアップグレードティアが実際に**拡張ボックス S**を必須材料としてリストしていることを確認してください。</li>
-          <li><strong>十分なクレジットがあるか？</strong> ボックスに加えて、必要な量のクレジットがあることを確認してください。</li>
+          <li><strong>正しい場所にあるか？</strong> ボックスが金庫ではなく、**オンキャラクターインベントリ**にあることを確認してください。</li>
+          <li><strong>正しい画面にいるか？</strong> 通常のストレージビューではなく、**「金庫アップグレード」**タブにいることを再確認してください。</li>
+          <li><strong>そのティアはそれを必要とするか？</strong> 選択しているアップグレードティアが実際に**拡張ボックス S**を必須材料としてリストしていることを確認してください。</li>
+          <li><strong>十分なクレジットがあるか？</strong> ボックスに加えて、必要な量のクレジットがあることを確認してください。</li>
       </ul>
       <p><img src="/images/guide/guide18-03.webp" alt="拡張クレート 2" width="100%" style="width: 100%;"></p>
       
@@ -2250,11 +2259,11 @@ export const guides = [
       <p>レイド<em>中</em>により多くの戦利品を運びたい場合は、別のシステムを通じて**バックパック容量**を増やす必要があります：</p>
       <p><img src="/images/guide/guide18-04.webp" alt="倉庫とバックパックの容量" width="100%" style="width: 100%;"></p>
       <ul>
-          <li><strong>スキル強化マシン：</strong> 基地でこのマシンを使用し、**「バックパックエキスパート」**アップグレードラインを選択します。</li>
-          <li><strong>特定のバックパック：</strong> 装備時にスロットを恒久的に追加する特別なバックパックをフィールドで見つけます。</li>
-          <li><strong>ボディアーマー：</strong> 特定のボディアーマーも持ち運び容量を増やすことができます。</li>
+          <li><strong>スキル強化マシン：</strong> 基地でこのマシンを使用し、**「バックパックエキスパート」**アップグレードラインを選択します。</li>
+          <li><strong>特定のバックパック：</strong> 装備時にスロットを恒久的に追加する特別なバックパックをフィールドで見つけます。</li>
+          <li><strong>ボディアーマー：</strong> 特定のボディアーマーも持ち運び容量を増やすことができます。</li>
       </ul>
-          `
+          `
     },
 
     {
@@ -2274,66 +2283,66 @@ export const guides = [
         "isHome": true,
         "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
         "detailsHtml": `
-          <p>「ブロンズ懐中時計」は、<strong>Escape From Duckov</strong>で最初に受け取る重要なクエストの1つです。Xavierから与えられるこのミッションは、特殊な鍵の使用、特定の場所へのナビゲート、クエストアイテムの回収、安全な脱出という、ゲームのコアメカニクスへの完璧な入門として機能します。</p>
+          <p>「ブロンズ懐中時計」は、<strong>Escape From Duckov</strong>で最初に受け取る重要なクエストの1つです。Xavierから与えられるこのミッションは、特殊な鍵の使用、特定の場所へのナビゲート、クエストアイテムの回収、安全な脱出という、ゲームのコアメカニクスへの完璧な入門として機能します。</p>
       <p>このガイドでは、鍵の入手から時計の発見、報酬の確保まで、すべてのステップを案内します。</p>
       
       <h2><strong>クイックガイド（TL;DR）</strong></h2>
       <ol>
-          <li>バンカーの自動販売機から**メカニカルキーを購入**します。</li>
-          <li>**Ground Zero**マップに展開します。</li>
-          <li>**南東の角**に向かい、オレンジ色の燃料タンカーを備えた白いトラックを見つけます。</li>
-          <li>**メカニカルキー**を使用して、トラックの運転席をロック解除します。</li>
-          <li>中から**ブロンズ懐中時計**を漁ります。</li>
-          <li>トラックの隣にある**マンホールの蓋**からすぐに脱出します。</li>
-          <li>**Xavier**に時計を渡してクエストを完了します。</li>
+          <li>バンカーの自動販売機から**メカニカルキーを購入**します。</li>
+          <li>**Ground Zero**マップに展開します。</li>
+          <li>**南東の角**に向かい、オレンジ色の燃料タンカーを備えた白いトラックを見つけます。</li>
+          <li>**メカニカルキー**を使用して、トラックの運転席をロック解除します。</li>
+          <li>中から**ブロンズ懐中時計**を漁ります。</li>
+          <li>トラックの隣にある**マンホールの蓋**からすぐに脱出します。</li>
+          <li>**Xavier**に時計を渡してクエストを完了します。</li>
       </ol>
       
       <h2><strong>クエストの詳細</strong></h2>
       <table>
-          <thead>
-              <tr>
-                  <th>フィールドの詳細</th>
-                  <th></th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td><strong>クエスト名</strong></td>
-                  <td>ブロンズ懐中時計</td>
-              </tr>
-              <tr>
-                  <td><strong>依頼者</strong></td>
-                  <td>Xavier（バンカーの武器NPC）</td>
-              </tr>
-              <tr>
-                  <td><strong>マップ</strong></td>
-                  <td>Ground Zero</td>
-              </tr>
-              <tr>
-                  <td><strong>主な目的</strong></td>
-                  <td>ロックされたトラックからブロンズ懐中時計を回収し、Xavierに渡す。</td>
-              </tr>
-              <tr>
-                  <td><strong>必須アイテム</strong></td>
-                  <td>メカニカルキー 1個</td>
-              </tr>
-              <tr>
-                  <td><strong>報酬</strong></td>
-                  <td>約2,500 XPと約450 通貨（値は若干異なる場合があります）</td>
-              </tr>
-              <tr>
-                  <td><strong>次のクエスト</strong></td>
-                  <td>貨物リスト</td>
-              </tr>
-          </tbody>
+          <thead>
+              <tr>
+                  <th>フィールドの詳細</th>
+                  <th></th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><strong>クエスト名</strong></td>
+                  <td>ブロンズ懐中時計</td>
+              </tr>
+              <tr>
+                  <td><strong>依頼者</strong></td>
+                  <td>Xavier（バンカーの武器NPC）</td>
+              </tr>
+              <tr>
+                  <td><strong>マップ</strong></td>
+                  <td>Ground Zero</td>
+              </tr>
+              <tr>
+                  <td><strong>主な目的</strong></td>
+                  <td>ロックされたトラックからブロンズ懐中時計を回収し、Xavierに渡す。</td>
+              </tr>
+              <tr>
+                  <td><strong>必須アイテム</strong></td>
+                  <td>メカニカルキー 1個</td>
+              </tr>
+              <tr>
+                  <td><strong>報酬</strong></td>
+                  <td>約2,500 XPと約450 通貨（値は若干異なる場合があります）</td>
+              </tr>
+              <tr>
+                  <td><strong>次のクエスト</strong></td>
+                  <td>貨物リスト</td>
+              </tr>
+          </tbody>
       </table>
       
       <h2><strong>ステップ1：メカニカルキーの入手方法</strong></h2>
       <p>時計が入っているトラックはロックされており、<strong>メカニカルキー</strong>が内部に入る唯一の方法です。</p>
       <p><img src="/images/guide/guide19-01.webp" alt="鍵を購入" width="100%" style="width: 100%;"></p>
       <ul>
-          <li><strong>主な方法（推奨）：</strong> 鍵を入手する最も信頼できる方法は、バンカー/セーフハウスの**自動販売機**から**660通貨**で購入することです。</li>
-          <li><strong>代替方法：</strong> 鍵は世界中でランダムな戦利品として見つけることも可能ですが、これははるかに予測不可能です。購入するのが最も速い進行方法です。</li>
+          <li><strong>主な方法（推奨）：</strong> 鍵を入手する最も信頼できる方法は、バンカー/セーフハウスの**自動販売機**から**660通貨**で購入することです。</li>
+          <li><strong>代替方法：</strong> 鍵は世界中でランダムな戦利品として見つけることも可能ですが、これははるかに予測不可能です。購入するのが最も速い進行方法です。</li>
       </ul>
       <p><strong>プロのヒント：</strong> バンカーで**キー登録デバイス**を構築している場合は、展開する前にメカニカルキーを登録できます。これにより、レイド中に死亡した場合にキーを失うのを防ぐことができます。そうでない場合は、キーを安全コンテナまたはインベントリに保管してください。</p>
       <p><img src="/images/guide/guide19-02.webp" alt="メカニカルキー" width="100%" style="width: 100%;"></p>
@@ -2345,30 +2354,30 @@ export const guides = [
       
       <h3><strong>トラックへの2つの信頼できるルート：</strong></h3>
       <ul>
-          <li><strong>橋のルート：</strong>
-              <ul>
-                  <li>バンカーの入り口から、壊れた木製の橋に向かって東に進みます。</li>
-                  <li>修理するには**木材2個**が必要です。（木材はツールボックスで見つけるか、購入できます）。</li>
-                  <li>橋を渡り、車両で詰まった道路を南にたどると、タンカーが見つかります。</li>
-                  <li><strong>リスク：</strong> このルートはより露出しており、スカベンジャーを引き付ける可能性があります。南の橋は通常、より静かです。</li>
-              </ul>
-          </li>
-          <li><strong>下水道ルート（最速かつ最も安全）：</strong>
-              <ul>
-                  <li>以前に下水道のハッチをロック解除している場合、これが断然最良のルートです。</li>
-                  <li>Ground Zeroの下水道出口で地上に出ます。</li>
-                  <li>トラックとタンカーは、目の前、東に数メートル離れたところにほぼすぐに見つかります。</li>
-              </ul>
-          </li>
+          <li><strong>橋のルート：</strong>
+              <ul>
+                  <li>バンカーの入り口から、壊れた木製の橋に向かって東に進みます。</li>
+                  <li>修理するには**木材2個**が必要です。（木材はツールボックスで見つけるか、購入できます）。</li>
+                  <li>橋を渡り、車両で詰まった道路を南にたどると、タンカーが見つかります。</li>
+                  <li><strong>リスク：</strong> このルートはより露出しており、スカベンジャーを引き付ける可能性があります。南の橋は通常、より静かです。</li>
+              </ul>
+          </li>
+          <li><strong>下水道ルート（最速かつ最も安全）：</strong>
+              <ul>
+                  <li>以前に下水道のハッチをロック解除している場合、これが断然最良のルートです。</li>
+                  <li>Ground Zeroの下水道出口で地上に出ます。</li>
+                  <li>トラックとタンカーは、目の前、東に数メートル離れたところにほぼすぐに見つかります。</li>
+              </ul>
+          </li>
       </ul>
       <p>トラックに到着したら、**運転席側のドア**に近づき、インベントリからメカニカルキーを使用してロックを解除します。ブロンズ懐中時計は中にあります。</p>
       
       <h2><strong>ステップ3：最も簡単な脱出</strong></h2>
       <p>脱出のためにマップを横切って戻る必要はありません。最高の脱出ポイントの1つは、目的地のすぐ隣にあります。</p>
       <ul>
-          <li>タンカートラックのすぐ左側の地面にある**マンホールの蓋**を探します。</li>
-          <li>その上に段ボール箱がある場合があります。箱を移動させてハッチをクリアするだけです。</li>
-          <li>開いたハッチと対話すると、バンカーの地下室に直接、安全な近道が提供されます。</li>
+          <li>タンカートラックのすぐ左側の地面にある**マンホールの蓋**を探します。</li>
+          <li>その上に段ボール箱がある場合があります。箱を移動させてハッチをクリアするだけです。</li>
+          <li>開いたハッチと対話すると、バンカーの地下室に直接、安全な近道が提供されます。</li>
       </ul>
       
       <h2><strong>ステップ4：提出と報酬</strong></h2>
@@ -2378,17 +2387,17 @@ export const guides = [
       
       <h2><strong>トラブルシューティングとFAQ</strong></h2>
       <ul>
-          <li><strong>時計の出現は保証されていますか？</strong>
-              <p><strong>はい。</strong> ブロンズ懐中時計は固定されたクエストアイテムです。ドアをロック解除しても表示されない場合は、まれなバグである可能性があります。Ground Zeroを離れてマップに再入場するだけでリセットされます。</p>
-          </li>
-          <li><strong>死亡した場合はどうなりますか？</strong>
-              <p>死亡するとクエストの進行状況がリセットされます。時計を再び回収するためにGround Zeroに戻る必要があります。そのため、迅速なマンホール脱出の使用を強くお勧めします。</p>
-          </li>
-          <li><strong>このクエストが重要なのはなぜですか？</strong>
-              <p>XPと通貨の大きな早期ゲームブーストを提供し、不可欠なスキルを教え、メインストーリーラインを進めるためのさらなるクエストをロック解除します。</p>
-          </li>
+          <li><strong>時計の出現は保証されていますか？</strong>
+              <p><strong>はい。</strong> ブロンズ懐中時計は固定されたクエストアイテムです。ドアをロック解除しても表示されない場合は、まれなバグである可能性があります。Ground Zeroを離れてマップに再入場するだけでリセットされます。</p>
+          </li>
+          <li><strong>死亡した場合はどうなりますか？</strong>
+              <p>死亡するとクエストの進行状況がリセットされます。時計を再び回収するためにGround Zeroに戻る必要があります。そのため、迅速なマンホール脱出の使用を強くお勧めします。</p>
+          </li>
+          <li><strong>このクエストが重要なのはなぜですか？</strong>
+              <p>XPと通貨の大きな早期ゲームブーストを提供し、不可欠なスキルを教え、メインストーリーラインを進めるためのさらなるクエストをロック解除します。</p>
+          </li>
       </ul>
-          `
+          `
     }
 
 

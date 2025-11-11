@@ -1,3 +1,11 @@
+.nav-card-prev {
+    align-items: flex-start;
+}
+
+.nav-card-next {
+    align-items: flex-end;
+    text-align: right;
+}
 <template>
     <div class="guide-detail-view">
         <!-- Guide Detail Header -->
@@ -86,13 +94,34 @@
                             </div>
                         </div>
 
-                        <!-- Other Guides 自动总结所有数据 -->
-                        <div class="guide-navigation">
-                            <h4 class="nav-title">Other Guides</h4>
-                            <div class="nav-links">
-                                <a v-for="otherGuide in otherGuides" :key="otherGuide.id"
-                                    :href="getLocalizedPathForCurrentLang(`/guides${otherGuide.addressBar}`)"
-                                    class="nav-link">{{ otherGuide.title }}</a>
+                        <!-- Guide navigation -->
+                        <div class="guide-navigation" v-if="previousGuide || nextGuide">
+                            <h4 class="nav-title">Guide Navigation</h4>
+                            <div class="nav-grid">
+                                <a
+                                    v-if="previousGuide"
+                                    :href="getLocalizedPathForCurrentLang(`/guides${previousGuide.addressBar}`)"
+                                    class="nav-card nav-card-prev"
+                                >
+                                    <div class="nav-card-direction">← Previous Guide</div>
+                                    <div class="nav-card-title">{{ previousGuide.title }}</div>
+                                    <div class="nav-card-meta">
+                                        <span>{{ getCategoryName(previousGuide.category) }}</span>
+                                        <span>{{ formatDate(previousGuide.publishDate) }}</span>
+                                    </div>
+                                </a>
+                                <a
+                                    v-if="nextGuide"
+                                    :href="getLocalizedPathForCurrentLang(`/guides${nextGuide.addressBar}`)"
+                                    class="nav-card nav-card-next"
+                                >
+                                    <div class="nav-card-direction">Next Guide →</div>
+                                    <div class="nav-card-title">{{ nextGuide.title }}</div>
+                                    <div class="nav-card-meta">
+                                        <span>{{ getCategoryName(nextGuide.category) }}</span>
+                                        <span>{{ formatDate(nextGuide.publishDate) }}</span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -184,11 +213,19 @@ watch(guide, () => {
     }
 }, { immediate: true })
 
-// 计算其他guides（排除当前guide，只显示最后5个）
-const otherGuides = computed(() => {
-    if (!guide.value) return []
-    const filtered = guides.value.filter(g => g.id !== guide.value.id)
-    return filtered.slice(-5)
+const currentGuideIndex = computed(() => {
+    if (!guide.value) return -1
+    return guides.value.findIndex(g => g.id === guide.value.id)
+})
+
+const previousGuide = computed(() => {
+    if (currentGuideIndex.value <= 0) return null
+    return guides.value[currentGuideIndex.value - 1] || null
+})
+
+const nextGuide = computed(() => {
+    if (currentGuideIndex.value === -1) return null
+    return guides.value[currentGuideIndex.value + 1] || null
 })
 
 const formatDate = (dateString) => {
@@ -405,26 +442,59 @@ const getCategoryName = (category) => {
     margin: 0 0 16px 0;
 }
 
-.nav-links {
+.nav-grid {
+    display: grid;
+    gap: 12px;
+}
+
+.nav-card {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-}
-
-.nav-link {
-    color: var(--text-primary);
+    gap: 6px;
+    padding: 16px;
+    border-radius: 10px;
     text-decoration: none;
-    font-size: 0.9rem;
-    padding: 8px 12px;
-    border-radius: 4px;
-    transition: all 0.2s ease;
-    border: 1px solid transparent;
+    color: var(--text-primary);
+    background: linear-gradient(135deg, rgba(250, 147, 23, 0.08), rgba(250, 147, 23, 0.02));
+    border: 1px solid rgba(250, 147, 23, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 
-.nav-link:hover {
-    background-color: var(--bg-secondary);
-    border-color: var(--border-color);
+.nav-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(250, 147, 23, 0.18);
+    border-color: rgba(250, 147, 23, 0.35);
+    background: linear-gradient(135deg, rgba(250, 147, 23, 0.12), rgba(250, 147, 23, 0.04));
+}
+
+.nav-card-direction {
+    font-size: 0.75rem;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
     color: #FA9317;
+    font-weight: 600;
+}
+
+.nav-card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.nav-card-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.nav-card-meta span:first-child {
+    font-weight: 500;
+}
+
+.nav-card-next .nav-card-meta {
+    flex-direction: row-reverse;
+    text-align: right;
 }
 
 
@@ -492,9 +562,17 @@ const getCategoryName = (category) => {
         margin-bottom: 10px;
     }
 
-    .nav-link {
-        font-size: 12px;
-        padding: 5px 10px;
+    .nav-card {
+        padding: 12px;
+    }
+
+    .nav-card-title {
+        font-size: 0.95rem;
+    }
+
+    .nav-card-direction,
+    .nav-card-meta {
+        font-size: 0.7rem;
     }
 
     /* Section Spacing */
