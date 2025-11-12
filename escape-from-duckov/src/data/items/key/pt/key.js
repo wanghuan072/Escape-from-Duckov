@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: 'Certificado J-Lab Nível 1',
-        description: 'Pessoas do J-Lab recebem passes de uso único que lhes permitem o acesso apenas à área mais externa.',
+        description: 'Pessoas do J-Lab recebem passes de uso único que lhes permitem o acesso apenas à área mais externa. Consulte o <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guia de aquisição de cartões de acesso J-Lab</a> para planejar entradas seguras.',
         imageUrl: '/images/items/key/key-01.webp',
         imageAlt: 'Certificado J-Lab Nível 1',
         publishDate: '2025-10-31',
@@ -78,7 +78,7 @@ export default [
     {
         id: 5,
         title: 'Cartão de Acesso J-Lab (Roxo)',
-        description: 'Você pode acessar áreas especiais no J-Lab.',
+        description: 'Você pode acessar áreas especiais no J-Lab. Siga o <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guia de aquisição de cartões de acesso J-Lab</a> para encadear com os cartões vermelho e azul.',
         imageUrl: '/images/items/key/key-05.webp',
         imageAlt: 'Cartão de Acesso J-Lab (Roxo)',
         publishDate: '2025-10-31',
@@ -211,7 +211,7 @@ export default [
     {
         id: 12,
         title: 'Chave do Escritório da Fábrica',
-        description: 'Abre um escritório localizado na área da fábrica.',
+        description: 'Abre um escritório localizado na área da fábrica; o <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guia de aquisição de cartões de acesso J-Lab</a> recomenda este espaço como base avançada antes do laboratório.',
         imageUrl: '/images/items/key/key-12.webp',
         imageAlt: 'Chave do Escritório da Fábrica',
         publishDate: '2025-10-31',
@@ -363,7 +363,7 @@ export default [
     {
         id: 20,
         title: 'Cartão de Acesso da Fábrica',
-        description: 'Cartões de acesso para funcionários da fábrica.',
+        description: 'Cartão de acesso para funcionários da fábrica; o <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guia de aquisição de cartões de acesso J-Lab</a> mostra como avançar das linhas de produção até o perímetro do laboratório.',
         imageUrl: '/images/items/key/key-20.webp',
         imageAlt: 'Cartão de Acesso da Fábrica',
         publishDate: '2025-10-31',
@@ -477,7 +477,7 @@ export default [
     {
         id: 26,
         title: 'Chave do Quarto do Sanatório - 1',
-        description: 'Pode abrir a porta de um quarto no sanatório.',
+        description: 'Pode abrir a porta de um quarto no sanatório; o <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guia de aquisição de cartões de acesso J-Lab</a> explica como financiar upgrades tardios com saques médicos.',
         imageUrl: '/images/items/key/key-26.webp',
         imageAlt: 'Chave do Quarto do Sanatório - 1',
         publishDate: '2025-10-31',
@@ -591,7 +591,7 @@ export default [
     {
         id: 32,
         title: 'Chave da Partição do Restaurante',
-        description: 'A chave para um pequeno cubículo no restaurante da Cidade Fazenda.',
+        description: 'A chave para um pequeno cubículo no restaurante da Cidade Fazenda; segundo o <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guia de aquisição de cartões de acesso J-Lab</a>, é um ponto de encontro de contrabandistas.',
         imageUrl: '/images/items/key/key-32.webp',
         imageAlt: 'Chave da Partição do Restaurante',
         publishDate: '2025-10-31',

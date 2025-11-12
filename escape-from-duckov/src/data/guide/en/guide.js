@@ -428,7 +428,7 @@ export const guides = [
     },
     "detailsHtml": `
         <h2>Escaping the Prison: Tutorial and First Encounter</h2>
-        <p>After a brief introductory scene, your first action is to go to the mirror and **set up your character** in the character creator.</p>
+        <p>After a brief introductory scene, your first action is to go to the mirror and **set up your character** in the character creator. If you need a refresher on the overall roadmap, swing by our <a href="/">homepage</a> for daily updates and quick shortcuts to every major section.</p>
         
         <h3>Initial Loot and Movement</h3>
         <ul>
@@ -463,7 +463,7 @@ export const guides = [
         <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
 
         <h2>The Base: Infrastructure and Initial Enhancements</h2>
-        <p>Upon returning to base, find **Jeff** upstairs for a tour: the warehouse, construction panel, vending machine, enhancer, and extraction point.</p>
+        <p>Upon returning to base, find **Jeff** upstairs for a tour: the warehouse, construction panel, vending machine, enhancer, and extraction point. For other structured playthroughs, keep our <a href="/guides">complete guides hub</a> bookmarked so you can jump to Part 2 and specialty walkthroughs without hunting around.</p>
 
         <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
 
@@ -499,6 +499,7 @@ export const guides = [
                 </tr>
             </tbody>
         </table>
+        <p>Keep a running checklist open in our <a href="/wiki/quests">quest database</a> so you can verify objectives and rewards before you head back out.</p>
 
         <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov walkthrough part 1" class="guide-image" />
 
@@ -521,7 +522,7 @@ export const guides = [
             <li>Loot bodies for a **backpack** (equip it for +39 storage), a **bow**, and **cold core fragment**.</li>
             <li>Loot an **AK-74U** and find a **blueprint for the TOZ-66**.</li>
             <li>Continue north, finding a **teleport node** that leads to a **lake**.</li>
-            <li>Near the forest trail, find a small camp with a **recipe for MD40**. Use a shovel to **dig up a J-Lab floppy disk**.</li>
+            <li>Near the forest trail, find a small camp with a **recipe for MD40**. Use a shovel to **dig up a J-Lab floppy disk**, and log any keycard drops in our <a href="/items/key">keys catalog</a> so you remember where each one is used.</li>
             <li>Clear another camp, finding the **second piece of wood** needed for **"Basic Construction"**.</li>
             <li>Note that the **broken bridge** to the cave requires **2 metal plates** and **2 pieces of wood**.</li>
         </ul>
@@ -543,6 +544,7 @@ export const guides = [
             <li>Go to the **Enhancer** and upgrade **Survival Instinct 1 (Max HP +5)** and **Wide View 1 (FOV +15)**.</li>
             <li>**Go to sleep** and fast-forward time to **7 am** to avoid the increased danger of the night.</li>
         </ul>
+        <p>Want to check how active the community is before your next raid? Peek at the live numbers on our <a href="/escape-from-duckov-steam-charts">Steam charts tracker</a>.</p>
     `
   },
 
@@ -564,7 +566,7 @@ export const guides = [
     },
     "detailsHtml": `
         <h2>Ground Zero: Quest Completion and Key Locations</h2>
-        <p>The second major run focuses on utilizing your upgraded gear to complete outstanding tasks, unlock new areas, and gather crucial blueprints and quest items.</p>
+        <p>The second major run focuses on utilizing your upgraded gear to complete outstanding tasks, unlock new areas, and gather crucial blueprints and quest items. Keep our <a href="/">homepage</a> handy for daily highlights, and leave the <a href="/guides">guides hub</a> open so you can jump back to Part 1 or other specialized walkthroughs whenever you need context.</p>
 
         <h3>Northern Tower and New Contacts</h3>
         <ul>
@@ -584,6 +586,7 @@ export const guides = [
             <li>Continue towards the road camp, eliminate the new shotgun-wielding enemy type, and loot an **MP-155 shotgun**, a **motorcycle helmet**, and medicine.</li>
             <li>To the left, find **"Mud"** and accept the quest **"Balanced Nutrition 1"** (Objective: Submit 1 Duck Egg; Reward: EXP +800, Currency +500).</li>
         </ul>
+        <p>If you want to double-check exact objectives or rewards, skim the relevant entry in our <a href="/wiki/quests">quest database</a> before you set off.</p>
 
         <h3>Bridge Repair and Cave Access</h3>
         
@@ -591,7 +594,7 @@ export const guides = [
 
         <ul>
             <li>Move left and **repair the broken bridge** leading to the road camp using **two pieces of wood**. (Check under the power pole before crossing, though loot is rare).</li>
-            <li>Head to the camp on the forest path, eliminate the **Red Scavengers** to complete **"Hunter's Path"**, and pick up **two Butcher Knives**. Also find a **Key to the Abandoned Gas Station**.</li>
+            <li>Head to the camp on the forest path, eliminate the **Red Scavengers** to complete **"Hunter's Path"**, and pick up **two Butcher Knives**. Also find a <a href="/items/key">Key to the Abandoned Gas Station</a>.</li>
             <li>Repair the broken bridge near the cave entrance.</li>
 
             <img src="/images/guide/guide13-05.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
@@ -599,7 +602,7 @@ export const guides = [
 
         <h3>Cave Loot and Blueprints</h3>
 
-        <p>Inside the cave, collect significant weapon attachments and blueprints:</p>
+        <p>Inside the cave, collect significant weapon attachments and blueprints; cross-reference stats in the <a href="/items">complete items database</a> if you need to compare upgrades on the fly.</p>
 
         <img src="/images/guide/guide13-06.webp" alt="Escape from Duckov walkthrough part 2" class="guide-image" />
 
@@ -666,6 +669,7 @@ export const guides = [
             <li>Accept the two new quests from the Armor Shop: **"Supply Route"** (Mark the supply crate) and **"Bookkeeping"** (Submit ink, pen, notebook).</li>
             <li>The day ends as you run out of money after these major upgrades.</li>
         </ul>
+        <p>Planning your next dive? Take a quick breather on our <a href="/escape-from-duckov-steam-charts">Steam charts tracker</a> to see how busy Duckov is before you deploy again.</p>
     `
   },
 

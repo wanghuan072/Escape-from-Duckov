@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: 'J-Lab 레벨1 증명서',
-        description: 'J-Lab 직원에게 지급되는 일회용 패스로, 가장 외곽 지역에만 접근할 수 있습니다.',
+        description: 'J-Lab 직원에게 지급되는 일회용 패스로, 가장 외곽 지역에만 접근할 수 있습니다. 안전한 진입 동선은 <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 접근 카드 획득 가이드</a>에서 확인하세요.',
         imageUrl: '/images/items/key/key-01.webp',
         imageAlt: 'J-Lab 레벨1 증명서',
         publishDate: '2025-10-31',
@@ -78,7 +78,7 @@ export default [
     {
         id: 5,
         title: 'J-Lab 액세스 카드 (보라색)',
-        description: 'J-Lab 내의 특별 구역에 접근할 수 있습니다.',
+        description: 'J-Lab 내의 특별 구역에 접근할 수 있습니다. <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 접근 카드 획득 가이드</a>를 따라 빨간·파란 카드와 연동하면 효율적입니다.',
         imageUrl: '/images/items/key/key-05.webp',
         imageAlt: 'J-Lab 액세스 카드 (보라색)',
         publishDate: '2025-10-31',
@@ -211,7 +211,7 @@ export default [
     {
         id: 12,
         title: '공장 사무실 키',
-        description: '공장 구역에 위치한 사무실을 열 수 있는 키입니다.',
+        description: '공장 구역에 위치한 사무실을 열 수 있는 키입니다. <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 접근 카드 획득 가이드</a>가 연구소 공략 전 전진 기지로 추천합니다.',
         imageUrl: '/images/items/key/key-12.webp',
         imageAlt: '공장 사무실 키',
         publishDate: '2025-10-31',
@@ -363,7 +363,7 @@ export default [
     {
         id: 20,
         title: '공장 액세스 카드',
-        description: '공장 직원을 위한 액세스 카드입니다.',
+        description: '공장 직원을 위한 액세스 카드입니다. <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 접근 카드 획득 가이드</a>가 생산 라인에서 연구소 외곽으로 이어지는 루트를 안내합니다.',
         imageUrl: '/images/items/key/key-20.webp',
         imageAlt: '공장 액세스 카드',
         publishDate: '2025-10-31',
@@ -477,7 +477,7 @@ export default [
     {
         id: 26,
         title: '요양소 방 키 - 1',
-        description: '요양소에 있는 방 문을 열 수 있습니다.',
+        description: '요양소에 있는 방 문을 열 수 있습니다. <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 접근 카드 획득 가이드</a>가 의료 전리품으로 고급 카드 업그레이드를 자금 조달하는 법을 설명합니다.',
         imageUrl: '/images/items/key/key-26.webp',
         imageAlt: '요양소 방 키 - 1',
         publishDate: '2025-10-31',
@@ -591,7 +591,7 @@ export default [
     {
         id: 32,
         title: '식당 칸막이 키',
-        description: '팜 타운 식당에 있는 작은 칸막이의 키입니다.',
+        description: '팜 타운 식당에 있는 작은 칸막이의 키입니다. <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 접근 카드 획득 가이드</a>에 따르면 밀수업자들이 모이는 연락 거점입니다.',
         imageUrl: '/images/items/key/key-32.webp',
         imageAlt: '식당 칸막이 키',
         publishDate: '2025-10-31',

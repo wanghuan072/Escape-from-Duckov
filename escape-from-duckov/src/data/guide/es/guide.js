@@ -448,8 +448,8 @@ export const guides = [
     },
     "isHome": false,
     "detailsHtml": `
-              <h2>Escapando de la Prisión: Tutorial y Primer Encuentro</h2>
-              <p>Tras una breve escena introductoria, tu primera acción es ir al espejo y **configurar a tu personaje** en el creador de personajes.</p>
+             <h2>Escapando de la Prisión: Tutorial y Primer Encuentro</h2>
+             <p>Tras una breve escena introductoria, tu primera acción es ir al espejo y **configurar a tu personaje** en el creador de personajes. Si necesitas un repaso rápido de las novedades y accesos directos clave, pasa antes por nuestra <a href="/">página principal</a>.</p>
               
               <h3>Botín Inicial y Movimiento</h3>
               <ul>
@@ -484,7 +484,7 @@ export const guides = [
               <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov guía paso a paso parte 1" class="guide-image" />
       
               <h2>La Base: Infraestructura y Mejoras Iniciales</h2>
-              <p>Al regresar a la base, encuentra a **Jeff** arriba para un recorrido: el almacén, el panel de construcción, la máquina expendedora, el potenciador y el punto de extracción.</p>
+             <p>Al regresar a la base, encuentra a **Jeff** arriba para un recorrido: el almacén, el panel de construcción, la máquina expendedora, el potenciador y el punto de extracción. Para seguir con otras rutas paso a paso, guarda en tus favoritos nuestro <a href="/guides">centro de guías</a>.</p>
       
               <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov guía paso a paso parte 1" class="guide-image" />
       
@@ -520,6 +520,7 @@ export const guides = [
                       </tr>
                   </tbody>
               </table>
+             <p>Mantén un seguimiento claro de cada objetivo con nuestra <a href="/wiki/quests">base de datos de misiones</a>, así sabrás qué entregar antes de volver a salir.</p>
       
               <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov guía paso a paso parte 1" class="guide-image" />
       
@@ -542,7 +543,7 @@ export const guides = [
                   <li>Saquea cuerpos para obtener una **mochila** (equípala para +39 de almacenamiento), un **arco** y un **fragmento de núcleo frío**.</li>
                   <li>Saquea un **AK-74U** y encuentra un **plano para el TOZ-66**.</li>
                   <li>Continúa hacia el norte, encontrando un **nodo de teletransporte** que conduce a un **lago**.</li>
-                  <li>Cerca del sendero del bosque, encuentra un pequeño campamento con una **receta para MD40**. Usa una pala para **desenterrar un disquete J-Lab**.</li>
+                 <li>Cerca del sendero del bosque, encuentra un pequeño campamento con una **receta para MD40**. Usa una pala para **desenterrar un disquete J-Lab** y anota cualquier tarjeta que aparezca en el <a href="/items/key">catálogo de llaves</a>.</li>
                   <li>Despeja otro campamento, encontrando la **segunda pieza de madera** necesaria para **"Construcción Básica"**.</li>
                   <li>Ten en cuenta que el **puente roto** hacia la cueva requiere **2 placas de metal** y **2 piezas de madera**.</li>
               </ul>
@@ -564,6 +565,7 @@ export const guides = [
                   <li>Ve al **Potenciador** y mejora **Instinto de Supervivencia 1 (PV Máx +5)** y **Vista Amplia 1 (FOV +15)**.</li>
                   <li>**Ve a dormir** y adelanta el tiempo a las **7 a.m.** para evitar el peligro incrementado de la noche.</li>
               </ul>
+             <p>Antes de tu próxima incursión, revisa cómo va la población de jugadores en nuestro <a href="/escape-from-duckov-steam-charts">seguimiento de Steam</a>.</p>
           `
   },
 
@@ -585,7 +587,7 @@ export const guides = [
     "isHome": false,
     "detailsHtml": `
               <h2>Ground Zero: Finalización de Misiones y Ubicaciones Clave</h2>
-              <p>La segunda gran carrera se centra en utilizar tu equipo mejorado para completar tareas pendientes, desbloquear nuevas áreas y reunir planos cruciales y objetos de misión.</p>
+        <p>La segunda gran carrera se centra en utilizar tu equipo mejorado para completar tareas pendientes, desbloquear nuevas áreas y reunir planos cruciales y objetos de misión. Ten a mano nuestra <a href="/">página principal</a> para repasar las novedades del día y deja abierto el <a href="/guides">centro de guías</a> para volver rápidamente a la Parte 1 u otros recorridos especializados.</p>
       
               <h3>Torre del Norte y Nuevos Contactos</h3>
               <ul>

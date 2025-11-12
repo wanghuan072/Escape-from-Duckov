@@ -27,7 +27,8 @@
                                 <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
-                                <span class="desc-text">{{ item.description || '-' }}</span>
+                                <span v-if="item.description" class="desc-text" v-html="item.description"></span>
+                                <span v-else class="desc-text">-</span>
                             </td>
                             <td class="type-cell">
                                 <span class="type-tag" v-if="item.type">{{ item.type }}</span>
@@ -59,7 +60,8 @@
                                 <h3 class="name-main">{{ item.title }}</h3>
                             </td>
                             <td class="desc-cell">
-                                <span class="desc-text">{{ item.description || '-' }}</span>
+                                <span v-if="item.description" class="desc-text" v-html="item.description"></span>
+                                <span v-else class="desc-text">-</span>
                             </td>
                             <td class="type-cell">
                                 <span class="type-tag" v-if="item.type">{{ item.type }}</span>
@@ -228,7 +230,6 @@ const onRowClick = (item) => {
 }
 
 .item-row {
-    cursor: pointer;
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
 

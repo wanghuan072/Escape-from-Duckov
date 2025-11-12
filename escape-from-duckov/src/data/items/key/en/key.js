@@ -3,7 +3,7 @@ export default [
     {
         id: 1,
         title: 'J-Lab Level 1 Certificate',
-        description: 'J-Lab personnel are given one-time passes that allow them access only to the outermost area.',
+        description: 'Issued to new researchers for outer-ring checkpoints only—pair it with the tips in our <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab access card acquisition guide</a> to plan safe entry.',
         imageUrl: '/images/items/key/key-01.webp',
         imageAlt: 'J-Lab Level 1 Certificate',
         publishDate: '2025-10-31',
@@ -22,7 +22,7 @@ export default [
     {
         id: 2,
         title: 'J-Lab Level 3 Certificate',
-        description: "A one-time credential granting access to the laboratory's most confidential areas.",
+        description: 'A vaulted credential for the innermost labs, favored by senior researchers and security captains.',
         imageUrl: '/images/items/key/key-02.webp',
         imageAlt: 'J-Lab Level 3 Certificate',
         publishDate: '2025-10-31',
@@ -41,7 +41,7 @@ export default [
     {
         id: 3,
         title: 'J-Lab Level 2 Certificate',
-        description: 'A one-time pass that grants access to the core area of ​​the laboratory.',
+        description: 'Single-use pass to the central sector, often issued after completing mid-tier hazard drills.',
         imageUrl: '/images/items/key/key-03.webp',
         imageAlt: 'J-Lab Level 2 Certificate',
         publishDate: '2025-10-31',
@@ -60,7 +60,7 @@ export default [
     {
         id: 4,
         title: 'J-Lab Screening Room',
-        description: 'The key to a screening room inside the J-Lab laboratory, where researchers usually relax.',
+        description: 'Unlocks the J-Lab screening lounge where off-duty analysts stash snacks, film reels, and spare ammo.',
         imageUrl: '/images/items/key/key-04.webp',
         imageAlt: 'J-Lab Screening Room',
         publishDate: '2025-10-31',
@@ -79,7 +79,7 @@ export default [
     {
         id: 5,
         title: 'J-Lab Access Card (Purple)',
-        description: 'You can access special areas in J-Lab',
+        description: 'Grants purple-tier clearance for data vaults—follow the <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab access card acquisition guide</a> to chain it with red and blue cards efficiently.',
         imageUrl: '/images/items/key/key-05.webp',
         imageAlt: 'J-Lab Access Card (Purple)',
         publishDate: '2025-10-31',
@@ -98,7 +98,7 @@ export default [
     {
         id: 6,
         title: 'J-Lab access card (red)',
-        description: 'You can access special areas in J-Lab',
+        description: 'Unlocks crimson quarantine zones guarded by hazmat sentries—bring antidotes and extra filters.',
         imageUrl: '/images/items/key/key-06.webp',
         imageAlt: 'J-Lab access card (red)',
         publishDate: '2025-10-31',
@@ -117,7 +117,7 @@ export default [
     {
         id: 7,
         title: 'J-Lab access card (green)',
-        description: 'You can access special areas in J-Lab',
+        description: 'Green-tier access opens hydroponics halls where nutrient vats and coolant valves sit unguarded.',
         imageUrl: '/images/items/key/key-07.webp',
         imageAlt: 'J-Lab access card (green)',
         publishDate: '2025-10-31',
@@ -136,7 +136,7 @@ export default [
     {
         id: 8,
         title: 'J-Lab access card (blue)',
-        description: 'You can access special areas in J-Lab',
+        description: 'Blue card clearance leads to archives and R&D, including prototype storage and encrypted terminals.',
         imageUrl: '/images/items/key/key-08.webp',
         imageAlt: 'J-Lab access card (blue)',
         publishDate: '2025-10-31',
@@ -155,7 +155,7 @@ export default [
     {
         id: 9,
         title: 'J-Lab access card (yellow)',
-        description: 'You can access special areas within J-Lab.',
+        description: 'Yellow-tier slots open logistics aisles stocked with shipping manifests and ration caches.',
         imageUrl: '/images/items/key/key-09.webp',
         imageAlt: 'J-Lab access card (yellow)',
         publishDate: '2025-10-31',
@@ -174,7 +174,7 @@ export default [
     {
         id: 10,
         title: 'J-Lab Access Card (Black)',
-        description: 'You can access special areas in J-Lab',
+        description: 'Black clearance covers executive vaults and anomaly labs—expect biometric locks and armored escorts.',
         imageUrl: '/images/items/key/key-10.webp',
         imageAlt: 'J-Lab Access Card (Black)',
         publishDate: '2025-10-31',
@@ -212,7 +212,7 @@ export default [
     {
         id: 12,
         title: 'Factory office key',
-        description: 'Open an office located in the factory area.',
+        description: 'Opens a factory control office; combine it with the route in our <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab access card acquisition guide</a> to stage lab-ward assaults.',
         imageUrl: '/images/items/key/key-12.webp',
         imageAlt: 'Factory office key',
         publishDate: '2025-10-31',
@@ -365,7 +365,7 @@ export default [
     {
         id: 20,
         title: 'Factory access card',
-        description: 'Access cards for factory employees.',
+        description: 'Grants factory employee access—see the <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab access card acquisition guide</a> for how to pivot from production lines into the lab perimeter.',
         imageUrl: '/images/items/key/key-20.webp',
         imageAlt: 'Factory access card',
         publishDate: '2025-10-31',
@@ -480,7 +480,7 @@ export default [
     {
         id: 26,
         title: 'Sanatorium Room Key - 1',
-        description: 'It can open the door to a room in the sanatorium.',
+        description: 'Opens a sanatorium recovery room; the <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab access card acquisition guide</a> explains why med-bay contraband here funds late-game card upgrades.',
         imageUrl: '/images/items/key/key-26.webp',
         imageAlt: 'Sanatorium Room Key - 1',
         publishDate: '2025-10-31',
@@ -595,7 +595,7 @@ export default [
     {
         id: 32,
         title: 'Restaurant partition key',
-        description: 'The key to a small cubicle in the farm town restaurant.',
+        description: 'Unlocks a farm town restaurant booth used by smugglers—cross-check drop rotations in the <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab access card acquisition guide</a>.',
         imageUrl: '/images/items/key/key-32.webp',
         imageAlt: 'Restaurant partition key',
         publishDate: '2025-10-31',

@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: 'Сертификат J-Lab Уровень 1',
-        description: 'Персоналу J-Lab выдаются одноразовые пропуска, которые разрешают доступ только к самой внешней зоне.',
+        description: 'Персоналу J-Lab выдаются одноразовые пропуска, которые разрешают доступ только к самой внешней зоне. Ознакомьтесь с <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">гайдом по получению карт доступа J-Lab</a>, чтобы спланировать безопасные входы.',
         imageUrl: '/images/items/key/key-01.webp',
         imageAlt: 'Сертификат J-Lab Уровень 1',
         publishDate: '2025-10-31',
@@ -78,7 +78,7 @@ export default [
     {
         id: 5,
         title: 'Карта Доступа J-Lab (Фиолетовая)',
-        description: 'Вы можете получить доступ к специальным зонам в J-Lab.',
+        description: 'Вы можете получить доступ к специальным зонам в J-Lab. Следуйте рекомендациям из <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">гайда по получению карт доступа J-Lab</a>, чтобы связать её с красной и синей картами.',
         imageUrl: '/images/items/key/key-05.webp',
         imageAlt: 'Карта Доступа J-Lab (Фиолетовая)',
         publishDate: '2025-10-31',
@@ -211,7 +211,7 @@ export default [
     {
         id: 12,
         title: 'Ключ от Офиса Завода',
-        description: 'Открывает офис, расположенный в зоне завода.',
+        description: 'Открывает офис, расположенный в зоне завода; <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">гайд по получению карт доступа J-Lab</a> советует использовать его как передовую базу перед рейдом в лабораторию.',
         imageUrl: '/images/items/key/key-12.webp',
         imageAlt: 'Ключ от Офиса Завода',
         publishDate: '2025-10-31',
@@ -364,7 +364,7 @@ export default [
     {
         id: 20,
         title: 'Карта Доступа на Завод',
-        description: 'Карты доступа для сотрудников завода.',
+        description: 'Карта доступа для сотрудников завода; <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">гайд по получению карт доступа J-Lab</a> показывает, как перейти с производственных линий к периметру лаборатории.',
         imageUrl: '/images/items/key/key-20.webp',
         imageAlt: 'Карта Доступа на Завод',
         publishDate: '2025-10-31',
@@ -479,7 +479,7 @@ export default [
     {
         id: 26,
         title: 'Ключ от Комнаты Санатория - 1',
-        description: 'Может открыть дверь в комнату в санатории.',
+        description: 'Может открыть дверь в комнату в санатории; <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">гайд по получению карт доступа J-Lab</a> объясняет, как медицинская добыча финансирует поздние улучшения карт.',
         imageUrl: '/images/items/key/key-26.webp',
         imageAlt: 'Ключ от Комнаты Санатория - 1',
         publishDate: '2025-10-31',
@@ -594,7 +594,7 @@ export default [
     {
         id: 32,
         title: 'Ключ от Перегородки Ресторана',
-        description: 'Ключ от небольшого отсека в ресторане Фермерского Городка.',
+        description: 'Ключ от небольшого отсека в ресторане Фермерского Городка; по словам <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">гайда по получению карт доступа J-Lab</a>, здесь встречаются контрабандисты.',
         imageUrl: '/images/items/key/key-32.webp',
         imageAlt: 'Ключ от Перегородки Ресторана',
         publishDate: '2025-10-31',

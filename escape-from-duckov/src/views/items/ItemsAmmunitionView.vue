@@ -190,7 +190,6 @@ const onRowClick = (item) => {
 }
 
 .item-row {
-    cursor: pointer;
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
 

@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: 'Certificado Nivel 1 J-Lab',
-        description: 'Se entregan pases de un solo uso al personal del J-Lab que solo les permiten el acceso a la zona más exterior.',
+        description: 'Se entregan pases de un solo uso al personal del J-Lab que solo les permiten el acceso a la zona más exterior. Consulta la <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guía de obtención de tarjetas de acceso J-Lab</a> para planificar entradas seguras.',
         imageUrl: '/images/items/key/key-01.webp',
         imageAlt: 'Certificado Nivel 1 J-Lab',
         publishDate: '2025-10-31',
@@ -78,7 +78,7 @@ export default [
     {
         id: 5,
         title: 'Tarjeta de Acceso J-Lab (Púrpura)',
-        description: 'Permite acceder a áreas especiales en J-Lab.',
+        description: 'Permite acceder a áreas especiales en J-Lab. Sigue la <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guía de obtención de tarjetas de acceso J-Lab</a> para encadenarla con las tarjetas roja y azul.',
         imageUrl: '/images/items/key/key-05.webp',
         imageAlt: 'Tarjeta de Acceso J-Lab (Púrpura)',
         publishDate: '2025-10-31',
@@ -211,7 +211,7 @@ export default [
     {
         id: 12,
         title: 'Llave de la oficina de la Fábrica',
-        description: 'Abre una oficina ubicada en el área de la fábrica.',
+        description: 'Abre una oficina ubicada en el área de la fábrica; la <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guía de obtención de tarjetas de acceso J-Lab</a> la recomienda como base previa al laboratorio.',
         imageUrl: '/images/items/key/key-12.webp',
         imageAlt: 'Llave de la oficina de la Fábrica',
         publishDate: '2025-10-31',
@@ -363,7 +363,7 @@ export default [
     {
         id: 20,
         title: 'Tarjeta de acceso a la Fábrica',
-        description: 'Tarjetas de acceso para empleados de la fábrica.',
+        description: 'Tarjetas de acceso para empleados de la fábrica; la <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guía de obtención de tarjetas de acceso J-Lab</a> detalla cómo saltar de la línea de producción al perímetro del laboratorio.',
         imageUrl: '/images/items/key/key-20.webp',
         imageAlt: 'Tarjeta de acceso a la Fábrica',
         publishDate: '2025-10-31',
@@ -477,7 +477,7 @@ export default [
     {
         id: 26,
         title: 'Llave del Sanatorio Habitación - 1',
-        description: 'Puede abrir la puerta de una habitación en el sanatorio.',
+        description: 'Puede abrir la puerta de una habitación en el sanatorio; la <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guía de obtención de tarjetas de acceso J-Lab</a> explica cómo el botín médico financia mejoras tardías.',
         imageUrl: '/images/items/key/key-26.webp',
         imageAlt: 'Llave del Sanatorio Habitación - 1',
         publishDate: '2025-10-31',
@@ -591,7 +591,7 @@ export default [
     {
         id: 32,
         title: 'Llave de la partición del Restaurante',
-        description: 'La llave de un pequeño cubículo en el restaurante de Farm Town.',
+        description: 'La llave de un pequeño cubículo en el restaurante de Farm Town; según la <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guía de obtención de tarjetas de acceso J-Lab</a>, es un punto de encuentro para contrabandistas.',
         imageUrl: '/images/items/key/key-32.webp',
         imageAlt: 'Llave de la partición del Restaurante',
         publishDate: '2025-10-31',

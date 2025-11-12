@@ -444,8 +444,8 @@ export const guides = [
         },
         "isHome": false,
         "detailsHtml": `
-              <h2>Dem Gefängnis entkommen: Tutorial und Erste Begegnung</h2>
-              <p>Nach einer kurzen Einführungsszene müssen Sie zuerst zum Spiegel gehen und **Ihren Charakter im Charakter-Editor einrichten**.</p>
+             <h2>Dem Gefängnis entkommen: Tutorial und Erste Begegnung</h2>
+             <p>Nach einer kurzen Einführungsszene müssen Sie zuerst zum Spiegel gehen und **Ihren Charakter im Charakter-Editor einrichten**. Wenn Sie aktuelle Highlights und Schnellzugriffe brauchen, werfen Sie vor dem Losziehen einen Blick auf unsere <a href="/">Startseite</a>.</p>
               
               <h3>Erste Beute und Bewegung</h3>
               <ul>
@@ -480,7 +480,7 @@ export const guides = [
               <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
       
               <h2>Die Basis: Infrastruktur und Erste Verbesserungen</h2>
-              <p>Nach der Rückkehr zur Basis finden Sie **Jeff** im Obergeschoss für eine Tour: das Lagerhaus, das Bau-Panel, den Verkaufsautomaten, den Verbesserer und den Extraktionspunkt.</p>
+             <p>Nach der Rückkehr zur Basis finden Sie **Jeff** im Obergeschoss für eine Tour: das Lagerhaus, das Bau-Panel, den Verkaufsautomaten, den Verbesserer und den Extraktionspunkt. Für weitere Schritt-für-Schritt-Routen legen Sie sich am besten unser <a href="/guides">Guide-Zentrum</a> als Lesezeichen an.</p>
       
               <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
       
@@ -520,6 +520,7 @@ export const guides = [
                       </tr>
                   </tbody>
               </table>
+             <p>Behalten Sie mit unserer <a href="/wiki/quests">Quest-Datenbank</a> jederzeit den Überblick darüber, welche Aufgaben und Belohnungen anstehen.</p>
       
               <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov Komplettlösung Teil 1" class="guide-image" />
       
@@ -542,7 +543,7 @@ export const guides = [
                   <li>Plündern Sie von Körpern einen **Rucksack** (rüsten Sie ihn für +39 Lagerplatz aus), einen **Bogen** und ein **kaltes Kernfragment**.</li>
                   <li>Plündern Sie eine **AK-74U** und finden Sie einen **Bauplan für die TOZ-66**.</li>
                   <li>Fahren Sie nach Norden fort und finden Sie einen **Teleport-Knotenpunkt**, der zu einem **See** führt.</li>
-                  <li>In der Nähe des Waldpfades finden Sie ein kleines Lager mit einem **Rezept für MD40**. Benutzen Sie eine Schaufel, um eine **J-Lab Floppy Disk auszugraben**.</li>
+                 <li>In der Nähe des Waldpfades finden Sie ein kleines Lager mit einem **Rezept für MD40**. Benutzen Sie eine Schaufel, um eine **J-Lab Floppy Disk auszugraben**, und notieren Sie gefundene Karten direkt im <a href="/items/key">Schlüsselverzeichnis</a>.</li>
                   <li>Räumen Sie ein weiteres Lager und finden Sie das **zweite Holzstück**, das für **\"Basis-Konstruktion\"** benötigt wird.</li>
                   <li>Beachten Sie, dass die **kaputte Brücke** zur Höhle **2 Metallplatten** und **2 Holzstücke** erfordert.</li>
               </ul>
@@ -566,6 +567,7 @@ export const guides = [
                   <li>Gehen Sie zum **Verbesserer** und rüsten Sie **Überlebensinstinkt 1 (Max. KP +5)** und **Weitsicht 1 (Sichtfeld +15)** auf.</li>
                   <li>**Gehen Sie schlafen** und spulen Sie die Zeit auf **7 Uhr morgens** vor, um die erhöhte Gefahr der Nacht zu vermeiden.</li>
               </ul>
+             <p>Vor der nächsten Runde lohnt sich ein Blick auf die Spielerzahlen in unserem <a href="/escape-from-duckov-steam-charts">Steam-Charts-Tracker</a>.</p>
           `
     },
 
@@ -587,7 +589,7 @@ export const guides = [
         "isHome": false,
         "detailsHtml": `
               <h2>Ground Zero: Quest-Abschluss und Schlüsselorte</h2>
-              <p>Der zweite größere Lauf konzentriert sich darauf, Ihre aufgerüstete Ausrüstung zu nutzen, um ausstehende Aufgaben abzuschließen, neue Bereiche freizuschalten und wichtige Baupläne sowie Quest-Gegenstände zu sammeln.</p>
+        <p>Der zweite größere Lauf konzentriert sich darauf, Ihre aufgerüstete Ausrüstung zu nutzen, um ausstehende Aufgaben abzuschließen, neue Bereiche freizuschalten und wichtige Baupläne sowie Quest-Gegenstände zu sammeln. Halten Sie unsere <a href="/">Startseite</a> bereit, um Tageshighlights zu verfolgen, und lassen Sie den <a href="/guides">Guides-Hub</a> offen, damit Sie bei Bedarf schnell zu Teil 1 oder Spezialrouten zurückspringen können.</p>
       
               <h3>Nördlicher Turm und Neue Kontakte</h3>
               <ul>

@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: 'J-Lab 一级证书',
-        description: 'J-Lab 人员获得的单次通行证，只允许他们进入最外围区域。',
+        description: 'J-Lab 人员获得的单次通行证，只允许他们进入最外围区域。建议查看 <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 门禁卡获取指南</a>，提前规划安全的进场路线。',
         imageUrl: '/images/items/key/key-01.webp',
         imageAlt: 'J-Lab 一级证书',
         publishDate: '2025-10-31',
@@ -78,7 +78,7 @@ export default [
     {
         id: 5,
         title: 'J-Lab 门禁卡（紫色）',
-        description: '您可以进入 J-Lab 的特殊区域',
+        description: '您可以进入 J-Lab 的特殊区域。按照 <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 门禁卡获取指南</a> 搭配红卡与蓝卡效率更高。',
         imageUrl: '/images/items/key/key-05.webp',
         imageAlt: 'J-Lab 门禁卡（紫色）',
         publishDate: '2025-10-31',
@@ -211,7 +211,7 @@ export default [
     {
         id: 12,
         title: '工厂办公室钥匙',
-        description: '打开位于工厂区域的一间办公室。',
+        description: '打开位于工厂区域的一间办公室；<a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 门禁卡获取指南</a> 将其视为突入实验室前的前哨。',
         imageUrl: '/images/items/key/key-12.webp',
         imageAlt: '工厂办公室钥匙',
         publishDate: '2025-10-31',
@@ -364,7 +364,7 @@ export default [
     {
         id: 20,
         title: '工厂门禁卡',
-        description: '工厂员工的门禁卡。',
+        description: '工厂员工的门禁卡；<a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 门禁卡获取指南</a> 讲解如何从生产线渗透到实验室外围。',
         imageUrl: '/images/items/key/key-20.webp',
         imageAlt: '工厂门禁卡',
         publishDate: '2025-10-31',
@@ -479,7 +479,7 @@ export default [
     {
         id: 26,
         title: '疗养院房间钥匙 - 1',
-        description: '可以打开疗养院内一间房间的门。',
+        description: '可以打开疗养院内一间房间的门；<a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 门禁卡获取指南</a> 说明如何用这里的医疗战利品支撑后期升级。',
         imageUrl: '/images/items/key/key-26.webp',
         imageAlt: '疗养院房间钥匙 - 1',
         publishDate: '2025-10-31',
@@ -594,7 +594,7 @@ export default [
     {
         id: 32,
         title: '餐厅隔板钥匙',
-        description: '农场镇餐厅内一个小隔间的钥匙。',
+        description: '农场镇餐厅内一个小隔间的钥匙；据 <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Lab 门禁卡获取指南</a> 所述，这里是走私者的接头点。',
         imageUrl: '/images/items/key/key-32.webp',
         imageAlt: '餐厅隔板钥匙',
         publishDate: '2025-10-31',

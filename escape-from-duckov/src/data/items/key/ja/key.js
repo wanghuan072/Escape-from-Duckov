@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: 'J-Lab レベル1証明書',
-        description: 'J-Labの職員に与えられる、最も外側のエリアのみへのアクセスを許可する1回限りのパス。',
+        description: 'J-Labの職員に与えられる、最も外側のエリアのみへのアクセスを許可する1回限りのパス。安全な侵入ルートは<a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Labアクセスカード入手ガイド</a>で確認しよう。',
         imageUrl: '/images/items/key/key-01.webp',
         imageAlt: 'J-Lab レベル1証明書',
         publishDate: '2025-10-31',
@@ -78,7 +78,7 @@ export default [
     {
         id: 5,
         title: 'J-Lab アクセスカード (紫)',
-        description: 'J-Lab内の特別エリアにアクセスできます。',
+        description: 'J-Lab内の特別エリアにアクセスできます。<a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Labアクセスカード入手ガイド</a>に従って赤・青カードと組み合わせると効率的。',
         imageUrl: '/images/items/key/key-05.webp',
         imageAlt: 'J-Lab アクセスカード (紫)',
         publishDate: '2025-10-31',
@@ -211,7 +211,7 @@ export default [
     {
         id: 12,
         title: '工場事務所の鍵',
-        description: '工場エリアにある事務所を開ける鍵。',
+        description: '工場エリアにある事務所を開ける鍵。<a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Labアクセスカード入手ガイド</a>ではラボ突入前の前線拠点として紹介されている。',
         imageUrl: '/images/items/key/key-12.webp',
         imageAlt: '工場事務所の鍵',
         publishDate: '2025-10-31',
@@ -363,7 +363,7 @@ export default [
     {
         id: 20,
         title: '工場アクセスカード',
-        description: '工場従業員用のアクセスカード。',
+        description: '工場従業員用のアクセスカード。<a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Labアクセスカード入手ガイド</a>で生産ラインからラボ周辺へ抜けるルートをチェックしよう。',
         imageUrl: '/images/items/key/key-20.webp',
         imageAlt: '工場アクセスカード',
         publishDate: '2025-10-31',
@@ -477,7 +477,7 @@ export default [
     {
         id: 26,
         title: '療養所 部屋の鍵 - 1',
-        description: '療養所内の部屋のドアを開けることができる。',
+        description: '療養所内の部屋のドアを開けることができる。<a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Labアクセスカード入手ガイド</a>が医療物資で高位カードを資金調達する手順を解説。',
         imageUrl: '/images/items/key/key-26.webp',
         imageAlt: '療養所 部屋の鍵 - 1',
         publishDate: '2025-10-31',
@@ -591,7 +591,7 @@ export default [
     {
         id: 32,
         title: 'レストラン仕切りの鍵',
-        description: 'ファームタウンのレストランにある小さな個室の鍵。',
+        description: 'ファームタウンのレストランにある小さな個室の鍵。<a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">J-Labアクセスカード入手ガイド</a>によれば密輸業者が集まる連絡地点。',
         imageUrl: '/images/items/key/key-32.webp',
         imageAlt: 'レストラン仕切りの鍵',
         publishDate: '2025-10-31',

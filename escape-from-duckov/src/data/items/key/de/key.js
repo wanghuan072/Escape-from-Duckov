@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: 'J-Lab Level 1-Zertifikat',
-        description: 'Das J-Lab-Personal erhält einmalige Pässe, die nur Zugang zum äußersten Bereich gewähren.',
+        description: 'Das J-Lab-Personal erhält einmalige Pässe, die nur Zugang zum äußersten Bereich gewähren. Sieh dir den <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">Guide zur Beschaffung von J-Lab-Zugangskarten</a> an, um sichere Einstiege zu planen.',
         imageUrl: '/images/items/key/key-01.webp',
         imageAlt: 'J-Lab Level 1-Zertifikat',
         publishDate: '2025-10-31',
@@ -78,7 +78,7 @@ export default [
     {
         id: 5,
         title: 'J-Lab Zugangskarte (Lila)',
-        description: 'Ermöglicht den Zugang zu speziellen Bereichen im J-Lab.',
+        description: 'Ermöglicht den Zugang zu speziellen Bereichen im J-Lab. Kombiniere sie laut <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">Guide zur Beschaffung von J-Lab-Zugangskarten</a> mit roten und blauen Karten.',
         imageUrl: '/images/items/key/key-05.webp',
         imageAlt: 'J-Lab Zugangskarte (Lila)',
         publishDate: '2025-10-31',
@@ -211,7 +211,7 @@ export default [
     {
         id: 12,
         title: 'Fabrikbüroschlüssel',
-        description: 'Öffnet ein Büro auf dem Fabrikgelände.',
+        description: 'Öffnet ein Büro auf dem Fabrikgelände; der <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">Guide zur Beschaffung von J-Lab-Zugangskarten</a> empfiehlt ihn als Vorposten für Laborausflüge.',
         imageUrl: '/images/items/key/key-12.webp',
         imageAlt: 'Fabrikbüroschlüssel',
         publishDate: '2025-10-31',
@@ -363,7 +363,7 @@ export default [
     {
         id: 20,
         title: 'Fabrik-Zugangskarte',
-        description: 'Zugangskarten für Fabrikmitarbeiter.',
+        description: 'Zugangskarte für Fabrikmitarbeiter – der <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">Guide zur Beschaffung von J-Lab-Zugangskarten</a> zeigt die Übergänge zum Laborperimeter.',
         imageUrl: '/images/items/key/key-20.webp',
         imageAlt: 'Fabrik-Zugangskarte',
         publishDate: '2025-10-31',
@@ -477,7 +477,7 @@ export default [
     {
         id: 26,
         title: 'Schlüssel Sanatoriumszimmer - 1',
-        description: 'Er kann die Tür zu einem Zimmer im Sanatorium öffnen.',
+        description: 'Öffnet ein Genesungszimmer; der <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">Guide zur Beschaffung von J-Lab-Zugangskarten</a> erklärt, wie sich dortige Beute in Karten-Upgrades investieren lässt.',
         imageUrl: '/images/items/key/key-26.webp',
         imageAlt: 'Schlüssel Sanatoriumszimmer - 1',
         publishDate: '2025-10-31',
@@ -591,7 +591,7 @@ export default [
     {
         id: 32,
         title: 'Schlüssel zur Restaurantkabine',
-        description: 'Der Schlüssel zu einer kleinen Kabine im Restaurant der Farmstadt.',
+        description: 'Der Schlüssel zu einer kleinen Kabine im Restaurant der Farmstadt – laut <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">Guide zur Beschaffung von J-Lab-Zugangskarten</a> ein Treffpunkt für Schmuggler.',
         imageUrl: '/images/items/key/key-32.webp',
         imageAlt: 'Schlüssel zur Restaurantkabine',
         publishDate: '2025-10-31',

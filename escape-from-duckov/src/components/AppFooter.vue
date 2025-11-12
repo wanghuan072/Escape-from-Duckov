@@ -33,11 +33,12 @@
           <div class="link-column">
             <h4>{{ t('Footer.quickLinks') }}</h4>
             <ul>
-              <li><a :href="getLocalizedPathForCurrentLang('/guides')">{{ t('Footer.links.guides') }}</a></li>
-              <li><a :href="getLocalizedPathForCurrentLang('/wiki')">{{ t('Footer.links.wiki') }}</a></li>
-              <li><a :href="getLocalizedPathForCurrentLang('/items')">{{ t('Footer.links.items') }}</a></li>
-              <li><a :href="getLocalizedPathForCurrentLang('/maps')">{{ t('Footer.links.maps') }}</a></li>
-              <li><a :href="getLocalizedPathForCurrentLang('/mods')">{{ t('Footer.links.mods') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/')">{{ t('Navigation.home') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/guides')">{{ t('Navigation.guides') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/wiki')">{{ t('Navigation.wiki') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/items')">{{ t('Navigation.items') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/maps')">{{ t('Navigation.maps') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/mods')">{{ t('Navigation.mods') }}</a></li>
             </ul>
           </div>
           <div class="link-column">

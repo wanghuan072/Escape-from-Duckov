@@ -448,7 +448,7 @@ export const guides = [
     "isHome": false,
     "detailsHtml": `
             <h2>Fugindo da Prisão: Tutorial e Primeiro Encontro</h2>
-            <p>Após uma breve cena introdutória, sua primeira ação é ir ao espelho e **configurar seu personagem** no criador de personagens.</p>
+            <p>Após uma breve cena introdutória, sua primeira ação é ir ao espelho e **configurar seu personagem** no criador de personagens. Se quiser um panorama rápido das novidades e dos atalhos principais, faça antes uma visita à nossa <a href="/">página inicial</a>.</p>
             
             <h3>Saque Inicial e Movimento</h3>
             <ul>
@@ -483,7 +483,7 @@ export const guides = [
             <img src="/images/guide/guide12-03.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
     
             <h2>A Base: Infraestrutura e Melhorias Iniciais</h2>
-            <p>Ao retornar à base, encontre **Jeff** no andar de cima para um tour: o armazém, o painel de construção, a máquina de venda automática, o aprimorador e o ponto de extração.</p>
+            <p>Ao retornar à base, encontre **Jeff** no andar de cima para um tour: o armazém, o painel de construção, a máquina de venda automática, o aprimorador e o ponto de extração. Para continuar com outros roteiros detalhados, salve o nosso <a href="/guides">hub de guias</a>.</p>
     
             <img src="/images/guide/guide12-04.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
     
@@ -519,6 +519,7 @@ export const guides = [
                     </tr>
                 </tbody>
             </table>
+            <p>Mantenha os objetivos organizados consultando a nossa <a href="/wiki/quests">base de dados de missões</a> antes de cada saída.</p>
     
             <img src="/images/guide/guide12-06.webp" alt="Escape from Duckov passo a passo parte 1" class="guide-image" />
     
@@ -541,7 +542,7 @@ export const guides = [
                 <li>Saque corpos em busca de uma **mochila** (equipe-a para +39 de armazenamento), um **arco** e um **fragmento de núcleo frio**.</li>
                 <li>Saque uma **AK-74U** e encontre um **projeto para a TOZ-66**.</li>
                 <li>Continue para o norte, encontrando um **nó de teletransporte** que leva a um **lago**.</li>
-                <li>Perto da trilha da floresta, encontre um pequeno acampamento com uma **receita para MD40**. Use uma pá para **desenterrar um disquete J-Lab**.</li>
+                <li>Perto da trilha da floresta, encontre um pequeno acampamento com uma **receita para MD40**. Use uma pá para **desenterrar um disquete J-Lab** e registre qualquer cartão novo no <a href="/items/key">catálogo de chaves</a>.</li>
                 <li>Limpe outro acampamento, encontrando o **segundo pedaço de madeira** necessário para **"Construção Básica"**.</li>
                 <li>Observe que a **ponte quebrada** para a caverna requer **2 placas de metal** e **2 pedaços de madeira**.</li>
             </ul>
@@ -563,6 +564,7 @@ export const guides = [
                 <li>Vá para o **Aprimorador** e atualize **Instinto de Sobrevivência 1 (HP Máximo +5)** e **Visão Ampla 1 (FOV +15)**.</li>
                 <li>**Vá dormir** e avance o tempo para as **7h da manhã** para evitar o aumento do perigo da noite.</li>
             </ul>
+            <p>Antes da próxima incursão, confira como a comunidade está ativa no nosso <a href="/escape-from-duckov-steam-charts">rastreador de jogadores via Steam</a>.</p>
         `
   },
 
@@ -584,7 +586,7 @@ export const guides = [
     "isHome": false,
     "detailsHtml": `
             <h2>Ground Zero: Conclusão de Missões e Locais Chave</h2>
-            <p>A segunda corrida principal se concentra em utilizar seu equipamento atualizado para concluir tarefas pendentes, desbloquear novas áreas e coletar projetos e itens de missão cruciais.</p>
+            <p>A segunda corrida principal se concentra em utilizar seu equipamento atualizado para concluir tarefas pendentes, desbloquear novas áreas e coletar projetos e itens de missão cruciais. Mantenha a nossa <a href="/">página inicial</a> por perto para revisar os destaques do dia e deixe o <a href="/guides">hub de guias</a> aberto para voltar rapidamente à Parte 1 ou a outros roteiros especializados.</p>
     
             <h3>Torre do Norte e Novos Contatos</h3>
             <ul>

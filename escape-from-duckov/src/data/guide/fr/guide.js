@@ -451,8 +451,8 @@ export const guides = [
         },
         "isHome": false,
         "detailsHtml": `
-              <h2>Évasion de Prison : Tutoriel et Première Rencontre</h2>
-              <p>Après une brève scène d'introduction, votre première action est d'aller au miroir et de **configurer votre personnage** dans le créateur de personnage.</p>
+             <h2>Évasion de Prison : Tutoriel et Première Rencontre</h2>
+             <p>Après une brève scène d'introduction, votre première action est d'aller au miroir et de **configurer votre personnage** dans le créateur de personnage. Pour un récapitulatif express des nouveautés et des raccourcis essentiels, faites un détour par notre <a href="/">page d'accueil</a> avant de partir.</p>
               
               <h3>Butin Initial et Mouvement</h3>
               <ul>
@@ -487,7 +487,7 @@ export const guides = [
               <img src="/images/guide/guide12-03.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
       
               <h2>La Base : Infrastructure et Améliorations Initiales</h2>
-              <p>En revenant à la base, trouvez **Jeff** à l'étage pour une visite : l'entrepôt, le panneau de construction, le distributeur automatique, l'améliorateur et le point d'extraction.</p>
+             <p>En revenant à la base, trouvez **Jeff** à l'étage pour une visite : l'entrepôt, le panneau de construction, le distributeur automatique, l'améliorateur et le point d'extraction. Pour poursuivre d'autres parcours détaillés, pensez à enregistrer notre <a href="/guides">hub de guides</a>.</p>
       
               <img src="/images/guide/guide12-04.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
       
@@ -523,6 +523,7 @@ export const guides = [
                       </tr>
                   </tbody>
               </table>
+             <p>Gardez une trace claire des objectifs et récompenses en consultant notre <a href="/wiki/quests">base de données des quêtes</a>.</p>
       
               <img src="/images/guide/guide12-06.webp" alt="Solution complète Escape from Duckov partie 1" class="guide-image" />
       
@@ -545,7 +546,7 @@ export const guides = [
                   <li>Pillez des corps pour un **sac à dos** (équipez-le pour +39 de stockage), un **arc** et un **fragment de noyau froid**.</li>
                   <li>Pillez un **AK-74U** et trouvez un **plan pour le TOZ-66**.</li>
                   <li>Continuez vers le nord, trouvant un **nœud de téléportation** qui mène à un **lac**.</li>
-                  <li>Près du sentier forestier, trouvez un petit camp avec une **recette pour le MD40**. Utilisez une pelle pour **déterrer une disquette J-Lab**.</li>
+                 <li>Près du sentier forestier, trouvez un petit camp avec une **recette pour le MD40**. Utilisez une pelle pour **déterrer une disquette J-Lab** et répertoriez chaque carte obtenue dans le <a href="/items/key">catalogue des clés</a>.</li>
                   <li>Nettoyez un autre camp, trouvant le **deuxième morceau de bois** nécessaire pour **"Construction de Base"**.</li>
                   <li>Notez que le **pont cassé** vers la grotte nécessite **2 plaques métalliques** et **2 morceaux de bois**.</li>
               </ul>
@@ -567,6 +568,7 @@ export const guides = [
                   <li>Allez à l'**Améliorateur** et améliorez **Instinct de Survie 1 (PV Max +5)** et **Vue Large 1 (Champ de Vision +15)**.</li>
                   <li>**Allez vous coucher** et avancez rapidement l'heure à **7h du matin** pour éviter le danger accru de la nuit.</li>
               </ul>
+             <p>Avant votre prochaine sortie, consultez l'activité de la communauté sur notre <a href="/escape-from-duckov-steam-charts">suivi Steam</a>.</p>
           `
     },
 
@@ -588,7 +590,7 @@ export const guides = [
         "isHome": false,
         "detailsHtml": `
               <h2>Ground Zero : Achèvement des Quêtes et Emplacements Clés</h2>
-              <p>La deuxième course majeure se concentre sur l'utilisation de votre équipement amélioré pour accomplir les tâches en suspens, déverrouiller de nouvelles zones et collecter des plans et des objets de quête cruciaux.</p>
+        <p>La deuxième course majeure se concentre sur l'utilisation de votre équipement amélioré pour accomplir les tâches en suspens, déverrouiller de nouvelles zones et collecter des plans et des objets de quête cruciaux. Gardez notre <a href="/">page d'accueil</a> à portée de main pour suivre les temps forts du jour, et laissez ouvert le <a href="/guides">hub de guides</a> afin de revenir rapidement à la Partie 1 ou à d'autres parcours spécialisés.</p>
       
               <h3>Tour du Nord et Nouveaux Contacts</h3>
               <ul>

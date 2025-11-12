@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: 'Certificat Niveau 1 J-Lab',
-        description: 'Le personnel du J-Lab reçoit des laissez-passer à usage unique qui ne leur donnent accès qu\'à la zone la plus extérieure.',
+        description: 'Le personnel du J-Lab reçoit des laissez-passer à usage unique qui ne leur donnent accès qu\'à la zone la plus extérieure. Consultez le <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guide d\'obtention des cartes d\'accès du J-Lab</a> pour préparer des entrées sûres.',
         imageUrl: '/images/items/key/key-01.webp',
         imageAlt: 'Certificat Niveau 1 J-Lab',
         publishDate: '2025-10-31',
@@ -78,7 +78,7 @@ export default [
     {
         id: 5,
         title: 'Carte d\'Accès J-Lab (Violette)',
-        description: 'Vous pouvez accéder aux zones spéciales du J-Lab.',
+        description: 'Vous pouvez accéder aux zones spéciales du J-Lab. Suivez le <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guide d\'obtention des cartes d\'accès du J-Lab</a> pour l\'enchaîner avec les cartes rouge et bleue.',
         imageUrl: '/images/items/key/key-05.webp',
         imageAlt: 'Carte d\'Accès J-Lab (Violette)',
         publishDate: '2025-10-31',
@@ -211,7 +211,7 @@ export default [
     {
         id: 12,
         title: 'Clé du bureau de l\'usine',
-        description: 'Ouvre un bureau situé dans la zone de l\'usine.',
+        description: 'Ouvre un bureau situé dans la zone de l\'usine ; le <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guide d\'obtention des cartes d\'accès du J-Lab</a> le recommande comme base d\'assaut vers le laboratoire.',
         imageUrl: '/images/items/key/key-12.webp',
         imageAlt: 'Clé du bureau de l\'usine',
         publishDate: '2025-10-31',
@@ -363,7 +363,7 @@ export default [
     {
         id: 20,
         title: 'Carte d\'accès à l\'usine',
-        description: 'Cartes d\'accès pour les employés de l\'usine.',
+        description: 'Carte d\'accès pour les employés de l\'usine ; le <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guide d\'obtention des cartes d\'accès du J-Lab</a> détaille le passage vers le périmètre du laboratoire.',
         imageUrl: '/images/items/key/key-20.webp',
         imageAlt: 'Carte d\'accès à l\'usine',
         publishDate: '2025-10-31',
@@ -477,7 +477,7 @@ export default [
     {
         id: 26,
         title: 'Clé de chambre du Sanatorium - 1',
-        description: 'Elle peut ouvrir la porte d\'une chambre du sanatorium.',
+        description: 'Elle peut ouvrir la porte d\'une chambre du sanatorium ; le <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guide d\'obtention des cartes d\'accès du J-Lab</a> explique comment le butin médical finance les cartes haut niveau.',
         imageUrl: '/images/items/key/key-26.webp',
         imageAlt: 'Clé de chambre du Sanatorium - 1',
         publishDate: '2025-10-31',
@@ -591,7 +591,7 @@ export default [
     {
         id: 32,
         title: 'Clé de la cloison du Restaurant',
-        description: 'La clé d\'un petit box dans le restaurant de Farm Town.',
+        description: 'La clé d\'un petit box dans le restaurant de Farm Town ; selon le <a href="/guides/escape-from-duckov-j-lab-access-card-acquisition-guide">guide d\'obtention des cartes d\'accès du J-Lab</a>, c\'est un point de rendez-vous pour les contrebandiers.',
         imageUrl: '/images/items/key/key-32.webp',
         imageAlt: 'Clé de la cloison du Restaurant',
         publishDate: '2025-10-31',
