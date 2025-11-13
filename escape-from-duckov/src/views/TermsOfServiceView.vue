@@ -47,8 +47,7 @@
           <section>
             <h2>{{ t('TermsOfServicePage.information.title') }}</h2>
             <p>
-              {{ t('TermsOfServicePage.information.p1') }} <a
-                  href='/privacy-policy' target='_blank' rel='noopener'>Privacy Policy</a>.
+              {{ t('TermsOfServicePage.information.p1') }} 
             </p>
             <p>
               {{ t('TermsOfServicePage.information.p2') }}
@@ -103,8 +102,7 @@
           <section>
             <h2>{{ t('TermsOfServicePage.filtering.title') }}</h2>
             <p>
-              {{ t('TermsOfServicePage.filtering.text1') }} <a href='https://en.wikipedia.org/wiki/Comparison_of_content-control_software_and_providers'
-                  target='_blank' rel='noopener'>here</a>. {{ t('TermsOfServicePage.filtering.text2') }}
+              {{ t('TermsOfServicePage.filtering.text1') }} {{ t('TermsOfServicePage.filtering.text2') }}
             </p>
           </section>
 
