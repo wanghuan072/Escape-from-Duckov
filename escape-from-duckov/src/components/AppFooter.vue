@@ -44,13 +44,11 @@
           <div class="link-column">
             <h4>{{ t('Footer.legal') }}</h4>
             <ul>
-              <li><a :href="getLocalizedPathForCurrentLang('/privacy-policy')">{{ t('Footer.links.privacyPolicy') }}</a>
-              </li>
-              <li><a :href="getLocalizedPathForCurrentLang('/terms-of-service')">{{ t('Footer.links.termsOfService')
-              }}</a></li>
-              <li><a :href="getLocalizedPathForCurrentLang('/copyright')">{{ t('Footer.links.copyright') }}</a></li>
-              <li><a :href="getLocalizedPathForCurrentLang('/about-us')">{{ t('Footer.links.aboutUs') }}</a></li>
-              <li><a :href="getLocalizedPathForCurrentLang('/contact-us')">{{ t('Footer.links.contactUs') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/privacy-policy')" rel="nofollow">{{ t('Footer.links.privacyPolicy') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/terms-of-service')" rel="nofollow">{{ t('Footer.links.termsOfService')}}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/copyright')" rel="nofollow">{{ t('Footer.links.copyright') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/about-us')" rel="nofollow">{{ t('Footer.links.aboutUs') }}</a></li>
+              <li><a :href="getLocalizedPathForCurrentLang('/contact-us')" rel="nofollow">{{ t('Footer.links.contactUs') }}</a></li>
             </ul>
           </div>
         </div>
