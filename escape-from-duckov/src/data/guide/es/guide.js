@@ -1357,7 +1357,7 @@ export const guides = [
               <p>La Zona de Tormenta representa la cúspide del desafío en Escape from Duckov. El éxito requiere una preparación meticulosa, equipo óptimo y dominio de técnicas de combate avanzadas. Consulta nuestra <a href="/wiki/quests">base de datos de misiones</a> para conocer los requisitos de certificados relacionados con las misiones. Sigue esta guía con atención, prepárate a fondo y recuerda que la supervivencia en la Zona de Tormenta exige respeto por sus peligros extremos. Para obtener más estrategias avanzadas, explora nuestra <a href="/guides">colección completa de guías</a>. ¡Buena suerte con tu escape final de Duckov!</p>
               `
   },
-  
+
   {
     "id": 6,
     "title": "Guía de Adquisición de LEDX para Escape from Duckov (Actualización)",
@@ -2413,7 +2413,237 @@ export const guides = [
       </li>
   </ul>
       `
+  },
+
+  {
+    "id": 20,
+    "title": "La Guía Definitiva de las Mejores Armas en Escape From Duckov",
+    "iframeUrl": "1",
+    "description": "¡Domina Escape From Duckov con el arsenal adecuado! Esta guía revela las mejores opciones de armas para cada estilo de juego, desde cuerpo a cuerpo sigiloso hasta francotiradores de largo alcance. ¡Descubre munición esencial, mods y ventajas para maximizar tu supervivencia en este mundo brutal!",
+    "tags": [
+      "Escape From Duckov",
+      "Guía de Mejores Armas",
+      "Armas Cuerpo a Cuerpo",
+      "Armas a Distancia",
+      "Mods de Armas"
+    ],
+    "publishDate": "2025-11-17",
+    "imageUrl": "/images/guide20.webp",
+    "imageAlt": "Un personaje jugador en Escape From Duckov empuñando un potente rifle, mostrando la guía definitiva de armas.",
+    "category": "advanced",
+    "seo": {
+      "title": "La Guía Definitiva de las Mejores Armas en Escape From Duckov",
+      "description": "¡Desbloquea las mejores armas en Escape From Duckov! Esta guía definitiva proporciona un análisis en profundidad de armas cuerpo a cuerpo y a distancia, mods y ventajas para la supervivencia.",
+      "keywords": "Escape From Duckov, guía de armas, mejores armas, cuerpo a cuerpo, a distancia, MDR-556, MDR-762, Hacha Épica, munición, mods, ventajas, supervivencia, consejos y trucos"
+    },
+    "addressBar": "/the-ultimate-guide-to-the-best-weapons-in-escape-from-duckov",
+    "detailsHtml": `
+      <p>En el mundo intenso e implacable de <em>Escape From Duckov</em>, cada lucha es breve pero brutal. Elegir el arma adecuada puede significar la diferencia entre sobrevivir a un asalto y tener un final prematuro, pero no existe una "mejor arma" universal. Como enfatizan los jugadores experimentados, la elección ideal depende de tres factores fundamentales: tu estilo de juego, tu etapa de progreso en el juego y el equipo disponible. Peor aún, pedir una respuesta de "talla única" a menudo pasa por alto el sorprendente equilibrio de armas del juego: ninguna herramienta domina todos los escenarios, y las tareas específicas siempre harán que ciertas opciones brillen más que otras. Esta guía integra ideas de la comunidad y experiencia 实战 (práctica) para desglosar las mejores armas para cada rol, desde cuerpo a cuerpo y todoterreno hasta francotiradores especializados, además de consejos críticos sobre munición, mods y ventajas que a menudo importan más que el arma misma.</p>
+  
+  <p>
+    <img src="/images/guide/guide20-01.webp" alt="Las Mejores Armas en Escape From Duckov 2" width="50%" style="width: 50%;">
+  </p>
+  
+  <h2><strong>Cuerpo a Cuerpo y Todoterreno: Opciones Fundamentales para Cada Jugador</strong></h2>
+  
+  <p>Antes de sumergirnos en las armas a distancia, no ignores el cuerpo a cuerpo: el consenso de la comunidad confirma el **Hacha Épica** como la opción superior indiscutible para las peleas a corta distancia cuando el sigilo o la conservación de munición son clave. Para los todoterreno a distancia, destacan dos opciones: el clásico **DT MDR-556** y el potente **MDR-762**.</p>
+  
+  <p>El **DT MDR-556** sigue siendo un caballo de batalla confiable. En teoría, puede que no encabece todas las listas de niveles, pero en asaltos reales, su velocidad, controlabilidad y precisión durante el fuego sostenido (con mods) lo convierten en uno de los favoritos tanto para jugadores nuevos como veteranos. Para aquellos que buscan más poder de frenada, el **MDR-762** (una alternativa recomendada por la comunidad) se presenta como una opción de rifle de batalla, equilibrando el daño con la versatilidad. Mientras tanto, el **RPK** obtiene altas calificaciones de los jugadores como una opción destacada de propósito general: su rendimiento constante lo convierte en una elección sólida cuando necesitas un arma que se adapte a la mayoría de los encuentros sin especialización.</p>
+  
+  <p>Para maximizar estos todoterreno, prioriza los mods que se dirigen a estadísticas críticas. Los jugadores juran por ajustar primero el **retroceso horizontal**: esta estadística tiene un mayor impacto en el control que el retroceso vertical para la mayoría de los estilos de juego. Para el DT MDR-556, combina el **Freno de Boca de Daño de Rifle II** con una **Empuñadura Equilibrada** para endurecer el retroceso, manteniendo la mira firme para disparos consecutivos a la cabeza. Esta configuración lo convierte en una verdadera herramienta para todos los rangos, manejando enfrentamientos de medio alcance y encuentros cercanos inesperados con igual facilidad. Para el MDR-762, concéntrate en los accesorios de reducción de retroceso para mitigar su retroceso ligeramente mayor y añade una mira de adquisición rápida para mantener su versatilidad.</p>
+  
+  <h2><strong>Mejores Armas por Rol</strong></h2>
+  
+  <p>Diferentes roles exigen diferentes herramientas, y dominar esta combinación aumentará drásticamente tu tasa de supervivencia. A continuación se presentan selecciones probadas por la comunidad, organizadas por rol, con notas especiales sobre casos de uso específicos del enemigo (como escopetas para fantasmas, según los consejos de los jugadores).</p>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Francotiradores: Dominio de Largo Alcance</strong></h3>
+  
+  <p>Al eliminar enemigos a distancia, tres rifles de francotirador obtienen la aclamación de la comunidad: el **M107** de alta potencia, el preciso **SV-98** y el subestimado **VPO-101 (Lordon)**. Cada uno se adapta a diferentes estilos de juego, desde la fuerza bruta hasta el sigilo.</p>
+  
+  <ol>
+    <li>**M107**: Si el poder de frenada puro no es negociable, el M107 no tiene rival. Elimina objetivos blindados y jefes con facilidad, compensando su peso y manejo lento con un potencial de un solo disparo. Combínalo con ventajas de Tirador/Tótem, balas azules AP y una mira de precisión para maximizar su letalidad; esta configuración te da un margen de error más grande que la mayoría de los francotiradores.</li>
+  
+    <li>**SV-98**: Un favorito constante para los jugadores que valoran la precisión y la velocidad sobre la fuerza bruta. Su excelente velocidad de bala y puntería rápida lo hacen perfecto para derribos confiables de largo alcance sin el volumen del M107. Al igual que con el M107, las ventajas de Tirador/Tótem y las balas azules AP garantizan muertes de un solo disparo en la mayoría de los enemigos típicos.</li>
+  
+    <li>**VPO-101 (Lordon)**: Una joya centrada en el sigilo destacada por los miembros de la comunidad. Sobresale para los jugadores que prefieren derribos silenciosos y de largo alcance, ideal para evitar la detección mientras controlan las líneas de visión. Combínalo con mods de supresor y munición de alta penetración para mantener tu presencia oculta mientras eliminas objetivos clave.</li>
+  </ol>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Combate a Corta Distancia (CQC): Dominando Espacios Reducidos</strong></h3>
+  
+  <p>En espacios reducidos como edificios o pasillos, necesitas armas que infligen daño rápido y masivo, crucial para detener a los enemigos fantasma (como señalan los jugadores) o repeler ataques a las habitaciones. Las escopetas y los subfusiles dominan aquí, con los favoritos de la comunidad añadiendo profundidad al meta.</p>
+  
+  <ol>
+    <li>**MP-155 ULTIMA (Escopeta)**: La mejor escopeta para CQC, según las listas de niveles y los comentarios de los jugadores. Su alta capacidad de cartuchos y recargas rápidas detienen los empujes enemigos antes de que ganen impulso, perfecta para encuentros con fantasmas o despejar habitaciones abarrotadas. Modifícala con un cañón corto y una mira réflex para aumentar la maniobrabilidad en cuartos cerrados.</li>
+  
+    <li>**MP7 (incluida la variante Eléctrica)**: El rey de los subfusiles en CQC, gracias a su imbatible tiempo para matar y su manejo rápido. A los jugadores agresivos que esprintan, se deslizan y despejan habitaciones les encantará su rendimiento de disparo desde la cadera. Como aconseja un jugador, disparar en ráfagas (en lugar de rociar) maximiza la precisión sin desperdiciar munición, incluso con su bajo retroceso.</li>
+  
+    <li>**Vector (Subfusil)**: Una opción liviana y económica para despejar habitaciones al principio del juego. Puede que no iguale el rendimiento del MP7, pero su manejo ágil lo convierte en un sólido trampolín hasta que desbloquees mejor equipo.</li>
+  
+    <li>**MP5 y SR-3M (Subfusiles)**: Queridos de la comunidad para un juego CQC equilibrado. El MP5 ofrece un control de retroceso confiable para peleas sostenidas, mientras que el SR-3M se inclina hacia un mayor daño para eliminaciones rápidas. Ambos funcionan bien con tácticas de ráfagas desde la cadera y son fáciles de modificar para reducir el retroceso horizontal.</li>
+  
+    <li>**Bizon-2 (Subfusil)**: Un éxito inesperado destacado por los jugadores. Su gran capacidad de cargador la hace ideal para enfrentamientos CQC prolongados, y su retroceso manejable (con mods) la mantiene competitiva frente a subfusiles de nivel superior. Es especialmente útil para jugadores nuevos que aún están dominando la gestión de la munición.</li>
+  </ol>
+  
+  <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Rifles y Rifles de Batalla: Maestros de Medio Alcance</strong></h3>
+  
+  <p>Los rifles logran el equilibrio perfecto entre el combate de corto y medio alcance, mientras que los rifles de batalla se centran en la precisión ADS (apuntar con la mira) para enfrentamientos más largos. Los comentarios de la comunidad añaden varias selecciones clave al meta, con el **AK-103** destacando como un favorito de los fans.</p>
+  
+  <ol>
+    <li>**AK-103**: Como confirman repetidamente los jugadores, este rifle es una "sólida" opción principal. Golpea fuerte, maneja peleas de medio alcance con facilidad y responde bien a los mods, lo que lo convierte en una elección confiable para jugadores equilibrados. Concéntrate en accesorios que reduzcan el retroceso y munición de alta penetración para eliminar enemigos de manera eficiente.</li>
+  
+    <li>**AK-47 de Llama**: Una variante que cambia un retroceso menor por un efecto de quemadura. Esto la hace más fácil de controlar que las AK estándar, especialmente en escaramuzas caóticas de medio alcance donde cada segundo cuenta.</li>
+  
+    <li>**STG 77A3 y MF (Rifles)**: Alternativas recomendadas por la comunidad a la línea AK. El STG 77A3 ofrece un retroceso más suave para los nuevos jugadores, mientras que el MF se inclina hacia una cadencia de fuego más rápida para empujes agresivos de medio alcance. Ambos combinan bien con mods híbridos (reducción de dispersión de disparo desde la cadera + velocidad ADS) para adaptarse a encuentros cambiantes.</li>
+  
+    <li>**M1A y MCX Spear (Rifles de Batalla)**: Para los jugadores que priorizan la precisión ADS, estos son imprescindibles. El M1A es una opción clásica con daño constante, mientras que el codiciado **MCX Spear** (a menudo llamado "Sig Spear" por los jugadores) es un favorito del final del juego, aunque muchos jugadores señalan que usan el MDR-762 como una alternativa de primer nivel hasta que lo desbloquean. Ambos requieren compromiso con las líneas de visión y los disparos a la cabeza, pero su salida de daño recompensa la puntería cuidadosa.</li>
+  </ol>
+  
+  <h2><strong>Instantánea de la Lista de Niveles: Clasificaciones Populares de Armas</strong></h2>
+  
+  <p>
+    <img src="/images/guide/guide20-02.webp" alt="Las Mejores Armas en Escape From Duckov 3 " width="50%" style="width: 50%;">
+  </p>
+  
+  <p>A lo largo de varias clasificaciones, existe un consenso general sobre qué armas destacan. Aquí tienes una instantánea de la lista de niveles para ayudarte a evaluar el rendimiento general de diferentes armas:</p>
+  
+  <p>Nivel Armas</p>
+  
+  <p> S</p>
+  
+  <p>Hacha Épica (Cuerpo a Cuerpo), MCX Spear, SV-98, MP7, M14, AS Val, M700, Desert Eagle</p>
+  
+  <p>A</p>
+  
+  <p>UZI, M1A, RPG-7, Mosin-Nagant, DT MDR-556, MDR-762, MP-155 ULTIMA, AK-103</p>
+  
+  <p>B</p>
+  
+  <p>Vector, MP5, StG 77A3, SR-3M, AK-47 de Llama, Bizon-2, VPO-101 (Lordon)</p>
+  
+  <p>C</p>
+  
+  <p>SKS-45, PPSh, MP-155, ADAR 2-15, Pistola PM, Escopeta de Caza Artesanal</p>
+  
+  <p>Algunas clasificaciones incluyen un nivel S+, que generalmente presenta el **M107** (francotirador) y el **MCX Spear** (rifle de batalla) como pináculos del final del juego. La UZI sigue siendo un comodín, oscilando entre niveles, pero es universalmente elogiada como una fuerte opción al principio del juego o para la movilidad, no como un arma principal al final del juego. Recuerda: esta lista de niveles es un punto de partida, no una regla. El equilibrio del juego significa que un arma de nivel B con la munición y las ventajas adecuadas puede superar a una de nivel S en las manos adecuadas.</p>
+  
+  <p><br></p>
+  
+  <h2><strong>Elección de Armas Basada en el Estilo de Juego: Disparo desde la Cadera vs. ADS</strong></h2>
+  
+  <p>Tu estilo de juego es el factor decisivo final para la elección de armas, y en ninguna parte esto es más claro que en el debate entre el disparo desde la cadera y el ADS. Los jugadores enfatizan que incluso dentro de las clases de armas, tácticas como el disparo en ráfagas pueden cambiar drásticamente el rendimiento, así que no solo elijas un arma, elige una estrategia.</p>
+  
+  <ol>
+    <li>**Amantes del Disparo desde la Cadera**: Los subfusiles como el MP7, MP5 y Bizon-2 son ideales. Diseñados para el juego de correr y disparar, te permiten esprintar, deslizarte y despejar habitaciones sin disminuir la velocidad para apuntar. Consejo profesional de la comunidad: evita mantener presionado el gatillo para rociar: las ráfagas rápidas mantienen la precisión mientras capitalizan su bajo retroceso.</li>
+  
+    <li>**Jugadores Equilibrados**: Los rifles como el DT MDR-556, AK-103 y STG 77A3 alcanzan el punto óptimo. Tienen un disparo desde la cadera viable para encuentros cercanos y un ADS más rápido y estable para precisión de medio alcance. Los mods que reducen tanto la dispersión del disparo desde la cadera como el retroceso horizontal maximizarán su adaptabilidad.</li>
+  
+    <li>**Especialistas en ADS**: Los rifles de batalla y los francotiradores son tu dominio. Los rifles de batalla como el M1A y el MCX Spear exigen un compromiso con las líneas de visión y los disparos a la cabeza; olvídate de la dispersión de disparo desde la cadera indulgente. Los francotiradores (M107, SV-98, VPO-101) dependen completamente del ADS; controla los ángulos, preapunta los puntos de estrangulamiento y usa el sigilo a tu favor. Para una movilidad extrema con potencial ADS, prueba pistolas como la Desert Eagle (que usa munición MAG de alta potencia) como arma principal, aunque la mayoría de los jugadores se saltan las armas secundarias para ahorrar peso.</li>
+  </ol>
+  
+  <h2><strong>Munición, Mods y Ventajas: Los Secretos del Dominio de las Armas</strong></h2>
+  
+  <p>Aquí hay una dura verdad de la comunidad: la munición, los accesorios, los tótems y las ventajas tienen un impacto mayor en el daño que el arma misma. Incluso un arma económica con munición de primer nivel superará a un arma legendaria con proyectiles básicos. A continuación se presentan los consejos más críticos:</p>
+  
+  <ol>
+    <li>**Munición Primero, Arma Segundo**: Este es el consejo n.º 1 de la comunidad. Siempre haz coincidir tu munición con el nivel de armadura del enemigo: las rondas de alta penetración (como las balas azules AP) convertirán un rifle de nivel medio en un asesino de enemigos blindados, mientras que la munición débil inutiliza incluso a las armas de nivel S. Para los francotiradores, la munición de Tirador/Tótem no es negociable para el potencial de un solo disparo; para los subfusiles, prioriza las rondas de punta hueca para derribos en CQC.</li>
+  
+    <li>**Modifica de forma Inteligente, No Pesada**: No construyas en exceso al principio del juego. Prioriza dos estadísticas clave: **retroceso horizontal** (el mayor factor de control, según los jugadores) y **velocidad de mira** (una mira de adquisición rápida supera a los visores elegantes para la mayoría de las peleas). Para los subfusiles, añade reducción de la dispersión de disparo desde la cadera; para los rifles, equilibra la velocidad ADS y el retroceso. Guarda los mods pesados como los cargadores extendidos para el final del juego cuando la gestión del peso sea menos crítica.</li>
+  
+    <li>**Óptica para tu Estilo de Juego**: Los visores son excelentes para el control de carriles y la adquisición de objetivos fuera de la pantalla (perfectos para francotiradores y rifles de batalla), pero las miras réflex o los puntos rojos son mejores para CQC y juego de correr y disparar. Evita la sobre-visión: un visor variable de 1x-4x es más versátil que un 8x fijo para la mayoría de los asaltos.</li>
+  
+    <li>**Las Ventajas y los Tótems Importan**: Combina armas con ventajas complementarias. Las ventajas de Tirador/Tótem aumentan el daño de los francotiradores, mientras que las ventajas de movilidad hacen que los subfusiles sean aún más ágiles. No pases por alto los tótems: a menudo son la pieza final del rompecabezas que convierte un arma buena en una excelente.</li>
+  </ol>
+  
+  <h2><strong>Opciones de Juego Temprano para Evitar Desperdiciar tu Asalto</strong></h2>
+  
+  <p>Cuando recién estás comenzando y no tienes acceso a armas de alto nivel, estas opciones de juego temprano te ayudarán a sobrevivir y progresar:</p>
+  
+  <ol>
+    <li>**Pistola PM**: Un arma secundaria de arranque práctica con recargas rápidas y bajo retroceso. No es potente, pero es confiable para tus primeros asaltos: combínala con munición básica de punta hueca para derribar enemigos sin armadura.</li>
+  
+    <li>**Escopeta de Caza Artesanal**: Simple y confiable, esta arma inflige un daño decente en las zonas de apertura mientras te equipas. Es una excelente opción para los jugadores que quieren jugar a lo seguro al principio.</li>
+  
+    <li>**UZI**: El mejor subfusil de juego temprano. Su excelente movilidad y fácil control la hacen perfecta para aprender tácticas de limpieza de habitaciones. A menudo la encontrarás en áreas de almacén, y con mods de retroceso básicos y buena munición, se mantiene firme hasta que desbloqueas mejores opciones como el MP5.</li>
+  </ol>
+  
+  <h2><strong>Pensamientos Finales</strong></h2>
+  
+  <p>En <em>Escape From Duckov</em>, la mejor arma para ti depende de cómo juegues. Si quieres un arma que lo haga todo, construye el DT MDR - 556 y mantente fiel a él: es el todoterreno más confiable. Si prefieres especializarte, el M107 o SV - 98 dominarán las líneas de visión largas, el MP - 155 ULTIMA destrozará pasillos y el MP7 manejará empujes rápidos.</p>
+  
+  <p>Recuerda, no se trata solo del arma en sí: modificarla correctamente, elegir la munición adecuada y adaptarla a tu estilo de juego son igual de importantes. Con esta guía en la mano, podrás elegir el arma perfecta para cada pelea y aumentar tus posibilidades de escapar de Duckov con vida.</p>
+  
+      `
+  },
+  {
+    "id": 21,
+    "title": "La Historia Completa de Escape From Duckov: Del Planeta Pato a la Traición Galáctica",
+    "iframeUrl": "1",
+    "description": "Sumérgete profundamente en la cautivadora historia de Escape From Duckov. Descubre los orígenes de la civilización pato, la amenaza cósmica invisible, la tormenta púrpura, el plan de escape desesperado del Laboratorio J, los súper soldados y el papel del jugador en un mundo al borde de la destrucción.",
+    "tags": [
+      "publicado",
+      "octubre",
+      "16",
+      "<em>escape",
+      "from"
+    ],
+    "publishDate": "2025-11-17",
+    "imageUrl": "/images/guide/guide21.webp",
+    "imageAlt": "duckovgame 11",
+    "category": "advanced",
+    "seo": {
+      "title": "La Historia Completa de Escape From Duckov | Duckovgame.com",
+      "description": "Sumérgete profundamente en la cautivadora historia de Escape From Duckov. Descubre los orígenes de la civilización pato, la amenaza cósmica invisible, el plan de escape desesperado del Laboratorio J.",
+      "keywords": "Escape From Duckov historia, historia del juego, trasfondo de Duckov, planeta Akov, Laboratorio J, tormenta púrpura, civilización cósmica, súper soldados, Bomb Maniac, Dios de Piel Azul, narrativa del juego, viaje del jugador, trama del juego, universo de Escape From Duckov, invasión alienígena, traición"
+    },
+    "addressBar": "/the-complete-lore-of-escape-from-duckov",
+    "detailsHtml": `
+      <p>Publicado el 16 de octubre, <em>Escape From Duckov</em> logró un éxito notable en solo una semana, vendiendo más de un millón de copias y alcanzando un pico de jugadores simultáneos de más de 300.000. Para el día 28, las ventas aumentaron nuevamente a la asombrosa cifra de 2 millones. Es probable que muchos jugadores entraran con una mentalidad de "vamos a probarlo", solo para quedar enganchados por estos adorables patos. Este juego, quizás el juego de carroñeo principal menos parecido a "Escape From Tarkov", incluso obtuvo el reconocimiento del propio creador de Tarkov. La explosiva popularidad de Duckov se debe a su jugabilidad humorística pero incondicional y a la dedicación de todos sus autores de mods. El disfrute a largo plazo que se deriva del carroñeo y la progresión, junto con la distinta experiencia de juego que ofrecen varias armas, incluso el combate cuerpo a cuerpo, lo hace increíblemente adictivo. Pero hoy, cambiemos nuestra perspectiva sobre este juego cada vez más popular y exploremos la historia que realmente cuenta.</p>
+  
+  <p><img src="/images/guide/guide21-01.webp" alt="duckovgame 1" width="50%" style="width: 50%;"></p>
+  
+  <h2><strong>Capítulo 1: El Planeta Pato y una Amenaza Invisible</strong></h2>
+  
+  <p>En el vasto cosmos, existe un planeta llamado Akov. Sus habitantes son criaturas inteligentes parecidas a patos que construyeron hermosas y prósperas ciudades en su mundo. Nuestra historia se desarrolla en una de esas ciudades, donde reside una instalación oculta conocida como **Laboratorio J**. Su ambición se extendía hasta el campo estelar ilimitado, pero eran ingenuos, como si el cosmos fuera una deidad benévola que les concedería todos sus deseos. Las instalaciones de la ciudad eran completamente autosuficientes, un testimonio de su vida acogedora, cuidando su "parcela de un acre". Parecía que esta vida podría continuar indefinidamente, hasta que llegó una civilización de las estrellas. Sin embargo, esta civilización ni siquiera mostró su rostro, dejando a los patos completamente desprevenidos para la crisis inminente. Para los patos, esta civilización ni siquiera podía llamarse un enemigo; la disparidad entre ellos era simplemente demasiado grande. Por lo tanto, los recién llegados no estaban allí para antagonizar a los patos.</p>
+  
+  <p>Si el universo fuera un árbol floreciente, con cada planeta siendo una fruta que produce, entonces esta civilización era como un gusano. Extraían energía directamente de los planetas. Si bien "matar a la gallina de los huevos de oro" no es ideal, es diferente cuando es la gallina de otra persona. Esta civilización, similar a los piratas interestelares, había estado haciendo esto durante mucho tiempo. Incluso habían esclavizado a deidades. Pero como dice el refrán, tanto va el cántaro a la fuente que al final se rompe. Sus acciones anteriores les valieron un enemigo eterno. Después de todo, en la vida útil casi infinita de una deidad, simplemente necesitaban algo de diversión, siempre y cuando no se excedieran de nuevo. Esta vez, por ejemplo, la deidad decidió causar algunos problemas a estos piratas. En cuanto a los patos, ¿a quién le importaba?</p>
+  
+  <h2><strong>Capítulo 2: La Tormenta Púrpura y un Planeta Condenado</strong></h2>
+  
+  <p>Mientras extraían energía de Akov, los piratas descubrieron el "condimento" añadido por la deidad. Los habituales cristales azules extraídos del interior del planeta habían desaparecido, reemplazados por una furiosa energía púrpura. El repentino estallido de energía púrpura tomó a los piratas por sorpresa. Una nave espacial incluso se estrelló, incapaz de escapar de la zona de explosión a tiempo. Fue entonces cuando el comandante de la flota finalmente se dio cuenta de que habían sido engañados. El comandante ordenó a la flota que abandonara la operación. Así, los piratas pagaron el precio, la deidad cosechó alegría y los patos se quedaron con un planeta moribundo. Estaba condenado, aunque la destrucción no llegaría de la noche a la mañana. En las etapas iniciales de la erupción de la tormenta, los patos ni siquiera se dieron cuenta de su destino ineludible. Durante la primera tormenta, algunos presenciaron naves espaciales alienígenas que se asemejaban a osos de agua, sorprendentemente similares a las descripciones de dioses malignos en una antigua religión llamada el "Culto Disperso". A través de susurros y rumores, el Culto Disperso ganó secretamente numerosas historias extrañas y seguidores. A partir de entonces, Akov experimentó una tormenta púrpura cada 10 días. La buena noticia era que las tormentas no eran perpetuas; la mala noticia era que el día que desaparecieran por completo sería el día en que todos dejarían de existir.</p>
+  
+  <h2><strong>Capítulo 3: El Plan de Escape del Laboratorio J y los Súper Soldados</strong></h2>
+  
+  <p>Como se mencionó anteriormente, el **Laboratorio J**, al no estar lejos de la zona de la tormenta, envió encubiertamente un equipo de expedición de inmediato. Al estudiar la nave espacial estrellada, su tecnología avanzó rápidamente y dominaron el método de creación de armas de energía. Aunque las armas de energía ofrecían una mejora limitada con respecto a las armas de pólvora tradicionales, este producto monopolizado rápidamente acumuló una vasta riqueza para el Laboratorio J. Simultáneamente, descubrieron la inminente destrucción del planeta. Para sobrevivir, invirtieron toda esta riqueza en el desarrollo de una nave espacial, buscando escapar de Akov, un barco destinado a hundirse. Para llevar a cabo este plan, reclutaron una gran cantidad de mercenarios para garantizar la seguridad de su investigación, prometiendo sacar a estos mercenarios del planeta como pago. La élite entre ellos, con la ayuda del laboratorio, obtuvo poderosas habilidades fusionando drogas infundidas con sustancia de tormenta de cápsulas de sueño. Sin embargo, el laboratorio no pudo controlar por completo esta energía derivada del planeta, lo que provocó defectos en estos súper soldados. Sin excepción, sus personalidades se volvieron más impulsivas, irritables o, más bien, guerreras, sembrando las semillas del caos futuro.</p>
+  
+  <h2><strong>Capítulo 4: Creaciones Fallidas y el Dios de Piel Azul</strong></h2>
+  
+  <p>Quizás sintiendo la falta de fiabilidad de los mercenarios, el laboratorio creó un guerrero que no debería haber existido en este mundo: [REDACCIÓN]. Sin embargo, esta magnífica creación estaba completamente fuera de su control. Entonces, para restringir a [REDACCIÓN], iniciaron inmediatamente el **Proyecto Cuatro Jinetes**. Pero al completar el plan, se dieron cuenta de que tampoco podían controlar completamente a los Cuatro Jinetes. Una mentira lleva a diez, y quizás las cosas que no están destinadas a ser controladas deberían seguir siéndolo. Mientras el laboratorio ejecutaba su plan de escape, el instigador, la deidad dispersa, el **Dios de Piel Azul**, ya sea por culpa u otras razones, también descendió sobre Akov. Luego, fue reprimido nuevamente. Después de ser controlado por una civilización superior durante 50 años, el Dios de Piel Azul fue nuevamente mantenido cautivo. Fue encarcelado por **Bomb Maniac**, un súper soldado fusionado con energía, en un distrito de almacenes, dentro de un barranco lleno de gas tóxico. Por cierto, Bomb Maniac robó su cápsula de sueño del líder del culto. Para el Dios de Piel Azul, esto era justicia poética, ya que el gas tóxico se originó a partir de una tecnología que él mismo proporcionó, una tecnología malvada supuestamente para purificar almas. Los cubos de alma azules purificados, después de un procesamiento posterior, se convertirían en un líquido volátil verde. Llamó a este líquido verde "jarabe de cola". El jarabe era corrosivo y no directamente bebible, pero después de un simple reprocesamiento, se convertiría en la cola de mejor sabor del mundo. Como nota aparte, incluso con la mejor cola del mundo frente a nosotros, nuestro Chico de Barro no le dedicaría ni una mirada; es verdaderamente, increíblemente genial. Quizás debido a la fusión de energía, o tal vez Bomb Maniac era simplemente inherentemente imprudente, arruinó las cosas. El jarabe de cola se filtró, llenando el barranco con gas tóxico, y no tenía forma de lidiar con eso. Entonces, decidió mudarse a Farm Town y abrir otra fábrica. Creyendo que sabía todo por el Dios de Piel Azul, no tenía intención de liberarlo. Pero su progreso en Farm Town no fue fluido. El secreto fue revelado; el laboratorio descubrió su robo de la cápsula de sueño y envió un equipo de arañas mecánicas para ocuparse del ladrón. Sin embargo, a las arañas mecánicas no les importa el gas tóxico, o tal vez el laboratorio las envió sabiendo sobre el jarabe de cola. En cualquier caso, aunque Bomb Maniac escapó, su fábrica de cola fue destruida una vez más y su plan para hacerse rico rápidamente fue frustrado.</p>
+  
+  <h2><strong>Capítulo 5: Un Mundo Desesperado y Traición</strong></h2>
+  
+  <p>En el contexto de un mundo moribundo, no faltan individuos codiciosos. Por ejemplo, está el **Minero** que utiliza las tarjetas gráficas que le confió el laboratorio para minar criptomonedas, el **Matón de la Escuela** que, como campeón de la ciudad en una competencia de lanzamiento de martillo, ocupa la escuela, y los jugadores que carroñean por todas partes. También están aquellos abandonados por el laboratorio, dejados en el planeta para disfrutar de los últimos privilegios del **Recuento Cero de Cuerpos**. Ah, sí, el laboratorio rompió su promesa; no se llevaron a esos mercenarios sedientos de sangre, ni siquiera a todos sus propios investigadores. Para producir suficientes naves espaciales, el laboratorio aceleró la minería de cristales, y con el aumento de la extracción, el colapso del planeta también se aceleró. El laboratorio pronto concluyó que no podían producir suficientes naves espaciales antes de la destrucción del planeta. ¿Cuántas naves espaciales necesitaban entonces? La respuesta surgió con la pregunta: la suficiente para que las partes indispensables pudieran escapar. Después de todo, nadie podía predecir el momento exacto de la desaparición del planeta. Por lo tanto, los mercenarios, e incluso los empleados no críticos del laboratorio, fueron abandonados. Una vez que construyeron suficientes naves, los que sabían abordaron en silencio y huyeron del planeta, dejando atrás un mundo desesperado y un grupo de individuos sin esperanza luchando en el apocalipsis.</p>
+  
+  <p><br></p>
+  
+  <h2><strong>Capítulo 6: La Segunda Oportunidad de Jeff y el Papel del Jugador</strong></h2>
+  
+  <p>Ha pasado una cantidad considerable de tiempo desde que el laboratorio partió de Akov, y la noticia de la inminente destrucción del planeta está muy extendida. El orden, las reglas y todas las formas de existencia estructurada han desaparecido sin dejar rastro. Todos han caído en un estupor bizarro y hedonista, sin embargo, algunos se niegan a rendirse. Tomemos a **Jeff**, un ex empleado del Laboratorio J. Sintió ira e impotencia por haber sido abandonado por el laboratorio. Después de todo, fue sorprendido holgazaneando. Como no pudo integrarse en el equipo anterior, decidió construir el suyo propio. Siendo técnico, claramente no era rival para los luchadores rudos, así que buscó un ejecutor capaz y ágil. Para esto, apuntó a los prisioneros. Luego se infiltró en la prisión, rescatando una figura importante: nosotros, los jugadores. Después de escapar de la prisión y llegar al escondite de Jeff, Jeff contactó a dos viejos amigos en el negocio de armas y equipos para proporcionarnos el equipo necesario. Mientras deambulábamos por la Zona de Recuento Cero de Cuerpos, también nos encontramos con un deportista: **Niba**. Créanme, es prácticamente un superhombre. Todo transcurrió sin problemas, pero Jeff tenía una cosa que no le había contado a nadie. Holgazaneaba en el trabajo no porque su capacidad de trabajo fuera lo suficientemente sobresaliente como para completar tareas mientras holgazaneaba, de lo contrario, el laboratorio podría no haberlo despedido. Apenas podía manejar la tecnología básica de Akov, pero carecía de una comprensión profunda de las tecnologías de vanguardia de naves espaciales y energía de tormenta. Quizás él mismo sintió que si nos decía la verdad, simplemente podríamos dispararle.</p>
+  
+  <p><img src="/images/guide/guide21-02.webp" alt="duckovgame 3" width="50%" style="width: 50%;"></p>
+  
+  <h2><strong>Capítulo 7: Un Nuevo Plan, Traición y el Misil Antiaéreo</strong></h2>
+  
+  <p>Bueno, cuando se resolvió el problema, **Xiao Ming**, un ex colega de Jeff que también fue despedido, lo contactó proactivamente y se unió al equipo. Para el escape, Xiao Ming era mucho más confiable que Jeff. Siguiendo sus instrucciones, nos abrimos paso luchando desde la Zona de Recuento Cero de Cuerpos hasta Farm Town y encontramos el área de investigación subterránea del laboratorio. El personal de seguridad aquí había degenerado por completo en alborotadores: portadores de armas, lanzadores de bombas e incluso "jugadores de caca", cada uno formando su propia facción, manteniendo un frágil equilibrio entre ellos. Después de múltiples infiltraciones de vida o muerte, finalmente obtuvimos todos los sistemas necesarios para la nave espacial. Xiao Ming, a la altura de las expectativas, convirtió una autocaravana de viaje en una nave espacial. Pero el día en que se completó la conversión, Jeff y su equipo entregaron un mensaje: el sistema no nos permitiría evacuar debido a la formación de equipos ilegales. De acuerdo, en realidad, fue porque la nave contenía demasiados sistemas y no había suficientes asientos. Su plan era que ellos se irían primero y luego volverían por nosotros más tarde. ¿Te lo crees? Yo no, pero simplemente nos estaban informando. Mañana evacuarían oficialmente. ¿A quién le importa? En el peor de los casos, eliminaríamos a uno de ellos mañana para hacer espacio para nosotros.</p>
+  
+  <p>Al día siguiente, cuando la nave espacial estaba a punto de despegar, nos encontramos incapaces de abrir fuego, indecisos. Bien, confiaríamos en ellos una última vez. Nos despedimos, pero justo en ese momento, un misil antiaéreo fue lanzado desde algún lugar dentro de la inaccesible zona de la tormenta. El misil impactó con precisión la nave espacial de Jeff. Ahora yo era el último superviviente, presenciando todo esto, desanimado. Después de finalmente presenciar la destrucción del mundo, perecería con él. Después del final, renacimos el día antes del final. En la vida anterior, morimos solos, abandonados. En esta vida, absolutamente no repetiríamos ese error. Le conté a Jeff y a su equipo sobre el misil antiaéreo. Al ser personal interno del laboratorio, habían escuchado rumores antes, pero en la vida anterior, con el escape tan cerca, habían olvidado esta información crucial. Por lo tanto, me guiaron una vez más para infiltrarme en el laboratorio subterráneo. En la esquina noroeste del nivel superior del laboratorio, encontramos una habitación a la que no habíamos entrado antes. Para infiltrarnos en esta habitación, entramos en este primer piso del laboratorio, restauramos la energía de la habitación y, en consecuencia, encontramos creaciones completamente invisibles del laboratorio.</p>
+  
+  <h2><strong>Capítulo 8: Enfrentando la Amenaza y una Nueva Esperanza</strong></h2>
+  
+  <p>Al regresar a la habitación en la esquina superior noroeste, nos encontramos con una creación llamada **Barricada**. Después de derrotarla, obtuvimos el pase de Nivel 3 del laboratorio para la zona de la tormenta. Finalmente, pudimos resolver todo. Luchando con todas nuestras fuerzas, finalmente matamos el arma intermedia del laboratorio, [REDACCIÓN], en la zona de la tormenta, obteniendo la clave para desactivar el sistema antiaéreo. Mientras desactivábamos el misil antiaéreo, hubo una ventaja inesperada. Desde una computadora en la zona de la tormenta, pudimos descargar nueva tecnología de naves espaciales. Con esta tecnología, Xiao Ming y su equipo pudieron añadir un asiento más a la nave espacial. Nuestra familia finalmente podría evacuar junta, completo.</p>
+  
+      `
   }
+
 
 
 

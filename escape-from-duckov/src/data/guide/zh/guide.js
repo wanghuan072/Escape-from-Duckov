@@ -457,126 +457,126 @@ export const guides = [
     },
     "isHome": false,
     "detailsHtml": `
-          <h2>逃离监狱：教程与首次遭遇</h2>
-        <p>在简短的开场动画后，您的第一个行动是走向镜子，在角色创建器中<strong>设置您的角色</strong>。如果想先快速了解最新资讯和常用入口，出发前不妨看看我们的<a href="/">首页</a>。</p>
-          
-          <h3>初始搜刮与移动</h3>
-          <ul>
-              <li>按照地面上的箭头和标记移动并捡起战利品。</li>
-              <li>从箱子里，您将获得：一把 **TT-33**（基础手枪）、**30发弹药**、**绷带** 和 **饼干**。</li>
-              <li>进入您牢房右边的房间，从里面的箱子里拿走一根 **胡萝卜**。（<em>提示：奔跑和翻滚会消耗 **体力**</em>）。</li>
-              <li>检查垃圾桶，找到一个 **打火机**、一个 **棒棒糖** 和一些 **电子元件**。</li>
-          </ul>
+          <h2>逃离监狱：教程与首次遭遇</h2>
+        <p>在简短的开场动画后，您的第一个行动是走向镜子，在角色创建器中<strong>设置您的角色</strong>。如果想先快速了解最新资讯和常用入口，出发前不妨看看我们的<a href="/">首页</a>。</p>
+          
+          <h3>初始搜刮与移动</h3>
+          <ul>
+              <li>按照地面上的箭头和标记移动并捡起战利品。</li>
+              <li>从箱子里，您将获得：一把 **TT-33**（基础手枪）、**30发弹药**、**绷带** 和 **饼干**。</li>
+              <li>进入您牢房右边的房间，从里面的箱子里拿走一根 **胡萝卜**。（<em>提示：奔跑和翻滚会消耗 **体力**</em>）。</li>
+              <li>检查垃圾桶，找到一个 **打火机**、一个 **棒棒糖** 和一些 **电子元件**。</li>
+          </ul>
   
-          <img src="/images/guide/guide12-01.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
+          <img src="/images/guide/guide12-01.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
   
-          <h3>首次战斗与装备升级</h3>
-          <ul>
-              <li>为即将到来的遭遇战**装备 TT-33 手枪**。</li>
-              <li>**躲避射来的子弹**（看到红色闪光时）并干掉第一个守卫。</li>
-              <li>搜刮守卫，获得：一根 **警棍**、一件 **白色实验服** 和一副 **黑框太阳镜**。**全部装备上**。</li>
-              <li>捡起更多子弹，并在垃圾桶里找到 **电缆**。（<em>提示：按住鼠标右键可以提高准确性。</em>）</li>
-              <li>从下一个箱子里搜刮 **绷带** 和 **阿司匹林**。</li>
-          </ul>
+          <h3>首次战斗与装备升级</h3>
+          <ul>
+              <li>为即将到来的遭遇战**装备 TT-33 手枪**。</li>
+              <li>**躲避射来的子弹**（看到红色闪光时）并干掉第一个守卫。</li>
+              <li>搜刮守卫，获得：一根 **警棍**、一件 **白色实验服** 和一副 **黑框太阳镜**。**全部装备上**。</li>
+              <li>捡起更多子弹，并在垃圾桶里找到 **电缆**。（<em>提示：按住鼠标右键可以提高准确性。</em>）</li>
+              <li>从下一个箱子里搜刮 **绷带** 和 **阿司匹林**。</li>
+          </ul>
   
-          <img src="/images/guide/guide12-02.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
+          <img src="/images/guide/guide12-02.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
   
-          <h3>第二次遭遇与撤离</h3>
-          <ul>
-              <li>从下一个房间的箱子里搜刮 **PM 手枪** 并放入槽位 2。</li>
-              <li>干掉接下来的守卫，搜刮一把 **Glick 手枪**、实验服和太阳镜。</li>
-              <li>如果您的**背包满了**，您可能需要继续前进。从下一个垃圾桶里搜刮 **饼干** 和 **汽水**。</li>
-              <li>**吃掉胡萝卜和饼干**以补充能量。</li>
-              <li>走**右边**的路，前往**撤离点**完成快速逃脱。</li>
-          </ul>
+          <h3>第二次遭遇与撤离</h3>
+          <ul>
+              <li>从下一个房间的箱子里搜刮 **PM 手枪** 并放入槽位 2。</li>
+              <li>干掉接下来的守卫，搜刮一把 **Glick 手枪**、实验服和太阳镜。</li>
+              <li>如果您的**背包满了**，您可能需要继续前进。从下一个垃圾桶里搜刮 **饼干** 和 **汽水**。</li>
+              <li>**吃掉胡萝卜和饼干**以补充能量。</li>
+              <li>走**右边**的路，前往**撤离点**完成快速逃脱。</li>
+          </ul>
   
-          <img src="/images/guide/guide12-03.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
+          <img src="/images/guide/guide12-03.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
   
-          <h2>基地：基础设施和初始增强</h2>
-        <p>返回基地后，找到楼上的 **杰夫（Jeff）** 进行参观：仓库、建造面板、自动售货机、增强器和撤离点。想继续查阅其他路线攻略时，记得收藏<a href="/guides">指南合集</a>。</p>
+          <h2>基地：基础设施和初始增强</h2>
+        <p>返回基地后，找到楼上的 **杰夫（Jeff）** 进行参观：仓库、建造面板、自动售货机、增强器和撤离点。想继续查阅其他路线攻略时，记得收藏<a href="/guides">指南合集</a>。</p>
   
-          <img src="/images/guide/guide12-04.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
+          <img src="/images/guide/guide12-04.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
   
-          <h3>角色与存储升级</h3>
-          <ul>
-              <li>出售 Glicks 并保留您装备的 TT-33。查看自动售货机。</li>
-              <li>使用 **增强器（Enhancer）**：**研究并激活“背包专家 I”** 以获得 **+4 背包容量**。（<em>注意：增强需要金钱和材料。</em>）</li>
-              <li>使用 **仓库（Warehouse）**：添加 **“存储扩展 Lv.1”** 以获得 **+35 存储容量**。</li>
-          </ul>
+          <h3>角色与存储升级</h3>
+          <ul>
+              <li>出售 Glicks 并保留您装备的 TT-33。查看自动售货机。</li>
+              <li>使用 **增强器（Enhancer）**：**研究并激活“背包专家 I”** 以获得 **+4 背包容量**。（<em>注意：增强需要金钱和材料。</em>）</li>
+              <li>使用 **仓库（Warehouse）**：添加 **“存储扩展 Lv.1”** 以获得 **+35 存储容量**。</li>
+          </ul>
   
-          <img src="/images/guide/guide12-05.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
+          <img src="/images/guide/guide12-05.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
   
-          <h3>接受初始任务</h3>
-          <p>与杰夫交谈，接受您的前两个任务：</p>
-          <table style="width: 100%; border-collapse: collapse;">
-              <thead>
-                  <tr>
-                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">任务名称</th>
-                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目标</th>
-                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">奖励</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td style="border: 1px solid #ddd; padding: 8px;"><strong>基本建设 (Basic Construction)</strong></td>
-                      <td style="border: 1px solid #ddd; padding: 8px;">收集 **两块木头** 建造一个工作台。</td>
-                      <td style="border: 1px solid #ddd; padding: 8px;">经验 +1000，货币 +500，绷带 x3</td>
-                  </tr>
-                  <tr>
-                      <td style="border: 1px solid #ddd; padding: 8px;"><strong>启动资金 (Startup Capital)</strong></td>
-                      <td style="border: 1px solid #ddd; padding: 8px;">**杀死一名敌人**。</td>
-                      <td style="border: 1px solid #ddd; padding: 8px;">经验 +500，货币 +1296</td>
-                  </tr>
-              </tbody>
-          </table>
-         <p>您也可以随时通过<a href="/wiki/quests">任务数据库</a>查看目标与奖励，避免遗漏。</p>
+          <h3>接受初始任务</h3>
+          <p>与杰夫交谈，接受您的前两个任务：</p>
+          <table style="width: 100%; border-collapse: collapse;">
+              <thead>
+                  <tr>
+                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">任务名称</th>
+                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目标</th>
+                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">奖励</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td style="border: 1px solid #ddd; padding: 8px;"><strong>基本建设 (Basic Construction)</strong></td>
+                      <td style="border: 1px solid #ddd; padding: 8px;">收集 **两块木头** 建造一个工作台。</td>
+                      <td style="border: 1px solid #ddd; padding: 8px;">经验 +1000，货币 +500，绷带 x3</td>
+                  </tr>
+                  <tr>
+                      <td style="border: 1px solid #ddd; padding: 8px;"><strong>启动资金 (Startup Capital)</strong></td>
+                      <td style="border: 1px solid #ddd; padding: 8px;">**杀死一名敌人**。</td>
+                      <td style="border: 1px solid #ddd; padding: 8px;">经验 +500，货币 +1296</td>
+                  </tr>
+              </tbody>
+          </table>
+         <p>您也可以随时通过<a href="/wiki/quests">任务数据库</a>查看目标与奖励，避免遗漏。</p>
   
-          <img src="/images/guide/guide12-06.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
+          <img src="/images/guide/guide12-06.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
   
-          <h2>Ground Zero：资源搜刮与任务完成</h2>
-        <p>第二次大型行动的核心，是利用升级后的装备完成尚未完成的任务，解锁新区域，并搜集关键蓝图与任务物品。随手打开<a href="/">首页</a>查看每日更新，并让<a href="/guides">指南合集</a>常驻，方便随时跳回第一部分或其他专题攻略。</p>
+          <h2>Ground Zero：资源搜刮与任务完成</h2>
+        <p>第二次大型行动的核心，是利用升级后的装备完成尚未完成的任务，解锁新区域，并搜集关键蓝图与任务物品。随手打开<a href="/">首页</a>查看每日更新，并让<a href="/guides">指南合集</a>常驻，方便随时跳回第一部分或其他专题攻略。</p>
 
-          <h3>清理敌方营地和收集木材</h3>
-          <ul>
-              <li>搜刮第一个箱子以获得子弹和另一把 TT-33。向右移动。</li>
-              <li>在一个工具箱中找到 **小石头**（用于引诱敌人）和 **钉子**。收集 **螺母、螺栓和汽车电池**。</li>
-              <li>在左侧找到一个敌方营地。在这里干掉一个 **暴怒的拾荒者 (Rampaging Scavenger)**（红色的鸭子）**完成“启动资金”**。</li>
-              <li>从尸体上搜刮一把 **屠夫刀**、**木材** 和 **现金**。</li>
-              <li>继续搜刮（战术箱、弹药箱）以获得一把 **自制霰弹枪**、**子弹** 和 **箭矢**。</li>
-          </ul>
+          <h3>清理敌方营地和收集木材</h3>
+          <ul>
+              <li>搜刮第一个箱子以获得子弹和另一把 TT-33。向右移动。</li>
+              <li>在一个工具箱中找到 **小石头**（用于引诱敌人）和 **钉子**。收集 **螺母、螺栓和汽车电池**。</li>
+              <li>在左侧找到一个敌方营地。在这里干掉一个 **暴怒的拾荒者 (Rampaging Scavenger)**（红色的鸭子）**完成“启动资金”**。</li>
+              <li>从尸体上搜刮一把 **屠夫刀**、**木材** 和 **现金**。</li>
+              <li>继续搜刮（战术箱、弹药箱）以获得一把 **自制霰弹枪**、**子弹** 和 **箭矢**。</li>
+          </ul>
   
-          <img src="/images/guide/guide12-07.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
+          <img src="/images/guide/guide12-07.webp" alt="《逃离达科夫》攻略第一部分" class="guide-image" />
   
-          <h3>进一步搜刮和探索</h3>
-          <ul>
-              <li>与 **绿鸭子 (Green Ducks)** 交战（使用霰弹枪，穿戴防弹衣）。</li>
-              <li>从尸体上搜刮一个 **背包**（装备后 +39 存储空间）、一把 **弓** 和 **冷核碎片**。</li>
-              <li>搜刮一把 **AK-74U** 并找到一张 **TOZ-66 的蓝图**。</li>
-              <li>继续向北，找到一个通往 **湖泊** 的 **传送节点**。</li>
-              <li>在森林小径附近，找到一个小营地，里面有 **MD40 的配方**。使用铲子**挖出 J-Lab 软盘**，并把新获得的卡片记录在<a href="/items/key">钥匙目录</a>。</li>
-              <li>清理另一个营地，找到 **“基本建设”** 所需的**第二块木头**。</li>
-              <li>请注意，通往洞穴的 **破损桥梁** 需要 **2 块金属板** 和 **2 块木头**。</li>
-          </ul>
-         <p>行动前也别忘了看一眼<a href="/escape-from-duckov-steam-charts">Steam 在线数据</a>，了解当前的玩家活跃度。</p>
+          <h3>进一步搜刮和探索</h3>
+          <ul>
+              <li>与 **绿鸭子 (Green Ducks)** 交战（使用霰弹枪，穿戴防弹衣）。</li>
+              <li>从尸体上搜刮一个 **背包**（装备后 +39 存储空间）、一把 **弓** 和 **冷核碎片**。</li>
+              <li>搜刮一把 **AK-74U** 并找到一张 **TOZ-66 的蓝图**。</li>
+              <li>继续向北，找到一个通往 **湖泊** 的 **传送节点**。</li>
+              <li>在森林小径附近，找到一个小营地，里面有 **MD40 的配方**。使用铲子**挖出 J-Lab 软盘**，并把新获得的卡片记录在<a href="/items/key">钥匙目录</a>。</li>
+              <li>清理另一个营地，找到 **“基本建设”** 所需的**第二块木头**。</li>
+              <li>请注意，通往洞穴的 **破损桥梁** 需要 **2 块金属板** 和 **2 块木头**。</li>
+          </ul>
+         <p>行动前也别忘了看一眼<a href="/escape-from-duckov-steam-charts">Steam 在线数据</a>，了解当前的玩家活跃度。</p>
   
-          <h3>撤离与提交任务</h3>
-          <ul>
-              <li>在西北营地对付绿鸭子。在撤离点附近找到一个用于增强冲锋枪伤害的 **枪口附件**。</li>
-              <li>**从 Ground Zero 撤离**。</li>
-              <li>在基地，上交 **“启动资金”** 任务。</li>
-              <li>**接受任务“猎人之路 (The Hunter's Path)”**：杀死 2 只暴怒的拾荒者并上交 2 把屠夫刀。</li>
-              <li>前往 **建造面板** 并**建造一个工作台**。上交 **“基本建设”** 任务。</li>
-              <li>通过研究 **高级处理 (Advanced Processing)** 来**升级工作台**。</li>
-          </ul>
+          <h3>撤离与提交任务</h3>
+          <ul>
+              <li>在西北营地对付绿鸭子。在撤离点附近找到一个用于增强冲锋枪伤害的 **枪口附件**。</li>
+              <li>**从 Ground Zero 撤离**。</li>
+              <li>在基地，上交 **“启动资金”** 任务。</li>
+              <li>**接受任务“猎人之路 (The Hunter's Path)”**：杀死 2 只暴怒的拾荒者并上交 2 把屠夫刀。</li>
+              <li>前往 **建造面板** 并**建造一个工作台**。上交 **“基本建设”** 任务。</li>
+              <li>通过研究 **高级处理 (Advanced Processing)** 来**升级工作台**。</li>
+          </ul>
   
-          <h3>新任务与最终准备</h3>
-          <p>您将收到诸如 **“止血的重要性 (The Importance of Hemostasis)”**、**“信号塔 (The Signal Tower)”**（需要一把 **平头螺丝刀**）和 **“老朋友的信 (A Letter from an Old Friend)”** 等新任务。</p>
-          <ul>
-              <li>从自动售货机购买一把 **平头螺丝刀**。</li>
-              <li>前往 **增强器** 升级 **生存本能 1（最大生命值 +5）** 和 **广阔视野 1（视野 +15）**。</li>
-              <li>**去睡觉** 并快进时间到 **早上 7 点**，以避开夜间增加的危险。</li>
-          </ul>
-      `
+          <h3>新任务与最终准备</h3>
+          <p>您将收到诸如 **“止血的重要性 (The Importance of Hemostasis)”**、**“信号塔 (The Signal Tower)”**（需要一把 **平头螺丝刀**）和 **“老朋友的信 (A Letter from an Old Friend)”** 等新任务。</p>
+          <ul>
+              <li>从自动售货机购买一把 **平头螺丝刀**。</li>
+              <li>前往 **增强器** 升级 **生存本能 1（最大生命值 +5）** 和 **广阔视野 1（视野 +15）**。</li>
+              <li>**去睡觉** 并快进时间到 **早上 7 点**，以避开夜间增加的危险。</li>
+          </ul>
+      `
   },
 
   {
@@ -602,109 +602,109 @@ export const guides = [
       "keywords": "Escape from Duckov Part 2, Ground Zero Exploration, Signal Tower Quest, Cave Blueprints, Armor Shop Unlock, Black Market Notes"
     },
     "detailsHtml": `
-          <h2>Ground Zero：任务完成与关键位置</h2>
-          <p>第二次主要行动侧重于利用您升级后的装备来完成未完成的任务、解锁新区域并收集关键的蓝图和任务物品。</p>
+          <h2>Ground Zero：任务完成与关键位置</h2>
+          <p>第二次主要行动侧重于利用您升级后的装备来完成未完成的任务、解锁新区域并收集关键的蓝图和任务物品。</p>
   
-          <h3>北方信号塔与新联系人</h3>
-          <ul>
-              <li>前往公路营地，找到 **北方信号塔 (Northern Tower)**。</li>
-              
-              <img src="/images/guide/guide13-01.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
+          <h3>北方信号塔与新联系人</h3>
+          <ul>
+              <li>前往公路营地，找到 **北方信号塔 (Northern Tower)**。</li>
+              
+              <img src="/images/guide/guide13-01.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
   
-              <li>搜刮附近的 **工具箱**，获得宝贵的物品，包括 **2 块金属板**、**1 根钉子** 和一把 **平头螺丝刀**。</li>
+              <li>搜刮附近的 **工具箱**，获得宝贵的物品，包括 **2 块金属板**、**1 根钉子** 和一把 **平头螺丝刀**。</li>
   
-              <img src="/images/guide/guide13-02.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
+              <img src="/images/guide/guide13-02.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
   
-              <li>与塔底的 **电源箱** 互动，完成 **“信号塔”** 任务的目标。</li>
-              <li>向右移动到信号塔，找到 **土豆显卡 (Potato Graphics Card) 的蓝图**。</li>
+              <li>与塔底的 **电源箱** 互动，完成 **“信号塔”** 任务的目标。</li>
+              <li>向右移动到信号塔，找到 **土豆显卡 (Potato Graphics Card) 的蓝图**。</li>
   
-              <img src="/images/guide/guide13-03.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
+              <img src="/images/guide/guide13-03.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
   
-              <li>继续前往公路营地，消灭新的持霰弹枪敌人类型，并搜刮一把 **MP-155 霰弹枪**、一个 **摩托车头盔** 和药品。</li>
-              <li>在左侧，找到 **“泥土 (Mud)”** 并接受任务 **“均衡营养 1 (Balanced Nutrition 1)”**（目标：上交 1 个鸭蛋；奖励：经验 +800，货币 +500）。</li>
-          </ul>
+              <li>继续前往公路营地，消灭新的持霰弹枪敌人类型，并搜刮一把 **MP-155 霰弹枪**、一个 **摩托车头盔** 和药品。</li>
+              <li>在左侧，找到 **“泥土 (Mud)”** 并接受任务 **“均衡营养 1 (Balanced Nutrition 1)”**（目标：上交 1 个鸭蛋；奖励：经验 +800，货币 +500）。</li>
+          </ul>
   
-          <h3>桥梁修理与进入洞穴</h3>
-          
-          <img src="/images/guide/guide13-04.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
+          <h3>桥梁修理与进入洞穴</h3>
+          
+          <img src="/images/guide/guide13-04.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
   
-          <ul>
-              <li>向左移动并使用 **两块木头** **修理通往公路营地的破损桥梁**。（过桥前检查电线杆下方，尽管战利品稀少）。</li>
-              <li>前往森林小径上的营地，消灭 **红色拾荒者** 以完成 **“猎人之路”**，并捡起 **两把屠夫刀**。还会找到一把 **废弃加油站的钥匙**。</li>
-              <li>修理洞穴入口附近的破损桥梁。</li>
+          <ul>
+              <li>向左移动并使用 **两块木头** **修理通往公路营地的破损桥梁**。（过桥前检查电线杆下方，尽管战利品稀少）。</li>
+              <li>前往森林小径上的营地，消灭 **红色拾荒者** 以完成 **“猎人之路”**，并捡起 **两把屠夫刀**。还会找到一把 **废弃加油站的钥匙**。</li>
+              <li>修理洞穴入口附近的破损桥梁。</li>
   
-              <img src="/images/guide/guide13-05.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
-          </ul>
+              <img src="/images/guide/guide13-05.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
+          </ul>
   
-          <h3>洞穴搜刮与蓝图</h3>
+          <h3>洞穴搜刮与蓝图</h3>
   
-          <p>在洞穴内部，收集重要的武器附件和蓝图：</p>
+          <p>在洞穴内部，收集重要的武器附件和蓝图：</p>
   
-          <img src="/images/guide/guide13-06.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
+          <img src="/images/guide/guide13-06.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
   
-          <ul>
-              <li>搜刮一个 **手枪枪口**、一把 **UP 45**、一把 **AK 47**、一个 **盲射附件** 和一个 **激光附件**。</li>
-              <li>最重要的是，捡起 **Cube Gun** 和 **小型能量弹药 (Small Energy Ammo)** 的蓝图。</li>
-          </ul>
+          <ul>
+              <li>搜刮一个 **手枪枪口**、一把 **UP 45**、一把 **AK 47**、一个 **盲射附件** 和一个 **激光附件**。</li>
+              <li>最重要的是，捡起 **Cube Gun** 和 **小型能量弹药 (Small Energy Ammo)** 的蓝图。</li>
+          </ul>
   
-          <h3>西北营地与最终撤离准备</h3>
+          <h3>西北营地与最终撤离准备</h3>
   
-          <img src="/images/guide/guide13-07.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
-          
-          <ul>
-              <li>潜入 **西北营地**，在帐篷里找到 **老朋友的信**，完成任务。</li>
-              <li>从附近的数据箱中捡起 **撬棍配方 (Crowbar Recipe)**。爬上瞭望塔并阅读 **“Ground Zero 观察日志”**。</li>
-              <li>**艰难遭遇战：** 与 **拿着霰弹枪的超级强悍的戴头巾敌人** 交战。在这场战斗中使用 **绷带** 以完成 **“止血的重要性”** 任务。</li>
-              <li>干掉他后，搜刮宝贵的 **黑市联系人笔记 (Black Market Contact Notes)** 和 **高级穿甲霰弹 (advanced AP shotgun shells)**。</li>
-              <li>在前往撤离点的路上，清理另一个营地，找到两把钥匙：**废弃加油站钥匙 (Abandoned Gas Station Key)** 和 **围栏钥匙 (Fence Key)**，以及一个 **全息瞄准镜 (Holographic Sight)**。</li>
-              <li>**从 Ground Zero 撤离。**</li>
-          </ul>
+          <img src="/images/guide/guide13-07.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
+          
+          <ul>
+              <li>潜入 **西北营地**，在帐篷里找到 **老朋友的信**，完成任务。</li>
+              <li>从附近的数据箱中捡起 **撬棍配方 (Crowbar Recipe)**。爬上瞭望塔并阅读 **“Ground Zero 观察日志”**。</li>
+              <li>**艰难遭遇战：** 与 **拿着霰弹枪的超级强悍的戴头巾敌人** 交战。在这场战斗中使用 **绷带** 以完成 **“止血的重要性”** 任务。</li>
+              <li>干掉他后，搜刮宝贵的 **黑市联系人笔记 (Black Market Contact Notes)** 和 **高级穿甲霰弹 (advanced AP shotgun shells)**。</li>
+              <li>在前往撤离点的路上，清理另一个营地，找到两把钥匙：**废弃加油站钥匙 (Abandoned Gas Station Key)** 和 **围栏钥匙 (Fence Key)**，以及一个 **全息瞄准镜 (Holographic Sight)**。</li>
+              <li>**从 Ground Zero 撤离。**</li>
+          </ul>
   
-          <h2>基地管理：任务、商店与升级</h2>
-          <p>回到基地，立即上交所有已完成的任务，以解锁下一等级的建造和升级。</p>
+          <h2>基地管理：任务、商店与升级</h2>
+          <p>回到基地，立即上交所有已完成的任务，以解锁下一等级的建造和升级。</p>
   
-          <img src="/images/guide/guide13-08.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
+          <img src="/images/guide/guide13-08.webp" alt="《逃离达科夫》攻略第二部分" class="guide-image" />
   
-          <h3>任务提交与新目标</h3>
-          <p>提交所有已完成的任务。将会出现以下新的建造和材料任务：</p>
-          <table style="width: 100%; border-collapse: collapse;">
-              <thead>
-                  <tr>
-                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">新建筑</th>
-                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">战斗/材料任务</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td style="border: 1px solid #ddd; padding: 8px;">基本建设 II：建造一个 **武器商店**</td>
-                      <td style="border: 1px solid #ddd; padding: 8px;">爆头：用爆头杀死任意敌人 (5)</td>
-                  </tr>
-                  <tr>
-                      <td style="border: 1px solid #ddd; padding: 8px;">基本建设 III：建造一个 **防具商店**（立即优先）</td>
-                      <td style="border: 1px solid #ddd; padding: 8px;">技术专家：上交一堆电子元件</td>
-                  </tr>
-                  <tr>
-                      <td style="border: 1px solid #ddd; padding: 8px;">基本建设（医疗）：建造一个 **医疗站**</td>
-                      <td style="border: 1px solid #ddd; padding: 8px;">充满爱：上交 1888 货币（可立即提交）</td>
-                  </tr>
-                  <tr>
-                      <td style="border: 1px solid #ddd; padding: 8px;">制作学徒：上交一把 Glick</td>
-                      <td style="border: 1px solid #ddd; padding: 8px;">提交已完成的任务：扩大的口袋和升级工作台</td>
-                  </tr>
-              </tbody>
-          </table>
+          <h3>任务提交与新目标</h3>
+          <p>提交所有已完成的任务。将会出现以下新的建造和材料任务：</p>
+          <table style="width: 100%; border-collapse: collapse;">
+              <thead>
+                  <tr>
+                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">新建筑</th>
+                      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">战斗/材料任务</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td style="border: 1px solid #ddd; padding: 8px;">基本建设 II：建造一个 **武器商店**</td>
+                      <td style="border: 1px solid #ddd; padding: 8px;">爆头：用爆头杀死任意敌人 (5)</td>
+                  </tr>
+                  <tr>
+                      <td style="border: 1px solid #ddd; padding: 8px;">基本建设 III：建造一个 **防具商店**（立即优先）</td>
+                      <td style="border: 1px solid #ddd; padding: 8px;">技术专家：上交一堆电子元件</td>
+                  </tr>
+                  <tr>
+                      <td style="border: 1px solid #ddd; padding: 8px;">基本建设（医疗）：建造一个 **医疗站**</td>
+                      <td style="border: 1px solid #ddd; padding: 8px;">充满爱：上交 1888 货币（可立即提交）</td>
+                  </tr>
+                  <tr>
+                      <td style="border: 1px solid #ddd; padding: 8px;">制作学徒：上交一把 Glick</td>
+                      <td style="border: 1px solid #ddd; padding: 8px;">提交已完成的任务：扩大的口袋和升级工作台</td>
+                  </tr>
+              </tbody>
+          </table>
   
-          <h3>建造与最终升级</h3>
-          <ul>
-              <li>立即提交 **“充满爱”** 任务。</li>
-              <li>检查建造站：您可以立即**建造防具商店**。提交 **“基本建设 III”** 任务。</li>
-              <li>访问新的防具商店：**购买 2 级防具和一个钢制头盔**。</li>
-              <li>在 **工作台**：**研究所有新蓝图**（以清理库存空间），并研究 **修理站** 蓝图。</li>
-              <li>从自动售货机购买 **剪刀** 和 **扳手**，然后在工作台研究 **拆解站**。</li>
-              <li>在 **增强器**：升级 **枪械精通 I (Gun Mastery I)**。</li>
-              <li>接受来自防具商店的两个新任务：**“补给路线 (Supply Route)”**（标记补给箱）和 **“簿记 (Bookkeeping)”**（上交墨水、钢笔、笔记本）。</li>
-              <li>在完成这些重大升级后，您的资金用尽，这一天也随之结束。</li>
-      `
+          <h3>建造与最终升级</h3>
+          <ul>
+              <li>立即提交 **“充满爱”** 任务。</li>
+              <li>检查建造站：您可以立即**建造防具商店**。提交 **“基本建设 III”** 任务。</li>
+              <li>访问新的防具商店：**购买 2 级防具和一个钢制头盔**。</li>
+              <li>在 **工作台**：**研究所有新蓝图**（以清理库存空间），并研究 **修理站** 蓝图。</li>
+              <li>从自动售货机购买 **剪刀** 和 **扳手**，然后在工作台研究 **拆解站**。</li>
+              <li>在 **增强器**：升级 **枪械精通 I (Gun Mastery I)**。</li>
+              <li>接受来自防具商店的两个新任务：**“补给路线 (Supply Route)”**（标记补给箱）和 **“簿记 (Bookkeeping)”**（上交墨水、钢笔、笔记本）。</li>
+              <li>在完成这些重大升级后，您的资金用尽，这一天也随之结束。</li>
+      `
   },
 
   {
@@ -731,84 +731,84 @@ export const guides = [
       "keywords": "Escape from Duckov Part 3, Pato Chapo Boss Fight, Ground Zero Keys, Medical Station, Weapon Shop, Hotel Room Key, Walkthrough"
     },
     "detailsHtml": `
-        <h2>基地准备：商人任务与设施</h2>
-        <p>开始新的一天，从新建立的基地设施接受一批新任务，并上交可立即提交的任务以最大化经验和货币，然后再返回 Ground Zero。</p>
+        <h2>基地准备：商人任务与设施</h2>
+        <p>开始新的一天，从新建立的基地设施接受一批新任务，并上交可立即提交的任务以最大化经验和货币，然后再返回 Ground Zero。</p>
   
-        <h3>接受的新任务：</h3>
-        <p>接受来自 Mud、武器商人、防具商人和自动售货机的新任务，以指导您的下一次行动：</p>
-        <table style="width: 100%; border-collapse: collapse;">
-            <thead>
-                <tr>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">来源（商人）</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">任务名称</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目标</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">Mud (健身)</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">均衡营养 II/III，健身教练</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **能量饮料**、**巧克力**、**哑铃**</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">武器商人</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">普通手枪，奇怪的羽毛</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **Glick**，**孔雀羽毛**</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">防具商人 / 医疗站</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">医疗援助</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **医疗包**</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">自动售货机</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">自给自足，专业厨师</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **水**，**厨师刀**</td>
-                </tr>
-            </tbody>
-        </table>
+        <h3>接受的新任务：</h3>
+        <p>接受来自 Mud、武器商人、防具商人和自动售货机的新任务，以指导您的下一次行动：</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">来源（商人）</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">任务名称</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目标</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Mud (健身)</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">均衡营养 II/III，健身教练</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **能量饮料**、**巧克力**、**哑铃**</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">武器商人</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">普通手枪，奇怪的羽毛</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **Glick**，**孔雀羽毛**</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">防具商人 / 医疗站</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">医疗援助</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **医疗包**</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">自动售货机</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">自给自足，专业厨师</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **水**，**厨师刀**</td>
+                </tr>
+            </tbody>
+        </table>
   
-        <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">提示：</strong> 在接受新任务之前，上交 **“制作学徒 (Crafting Apprenticeship)”** 和 **“簿记 (Bookkeeping)”** 任务，以清理库存并立即获得资金。</p>
+        <p class="tip" style="padding: 10px; border-left: 5px solid #F0E68C; background-color: #FFFFF0; color: #000;"><strong style="color: #000;">提示：</strong> 在接受新任务之前，上交 **“制作学徒 (Crafting Apprenticeship)”** 和 **“簿记 (Bookkeeping)”** 任务，以清理库存并立即获得资金。</p>
   
-        <h3>建造与升级</h3>
-        <p>使用您现有的资金和材料完成基地基础设施：</p>
-        <ul>
-            <li>**建造医疗站** 并上交 **“基本建设（医疗）”** 任务。从新的医疗站接受 **“医疗援助”** 任务。</li>
-            
-            <li>**建造武器店** 并上交 **“基本建设 II”** 任务。从新的商店接受 **“奇怪的羽毛”** 任务。</li>
-            
-            <img src="/images/guide/guide14-01.webp" alt="《逃离达科夫》攻略第三部分" class="guide-image" />
+        <h3>建造与升级</h3>
+        <p>使用您现有的资金和材料完成基地基础设施：</p>
+        <ul>
+            <li>**建造医疗站** 并上交 **“基本建设（医疗）”** 任务。从新的医疗站接受 **“医疗援助”** 任务。</li>
+            
+            <li>**建造武器店** 并上交 **“基本建设 II”** 任务。从新的商店接受 **“奇怪的羽毛”** 任务。</li>
+            
+            <img src="/images/guide/guide14-01.webp" alt="《逃离达科夫》攻略第三部分" class="guide-image" />
   
-            <li>在部署之前，执行任何可用的**基地升级**和**技能升级**（例如武器精通）。</li>
+            <li>在部署之前，执行任何可用的**基地升级**和**技能升级**（例如武器精通）。</li>
   
-            <img src="/images/guide/guide14-02.webp" alt="《逃离达科夫》攻略第三部分" class="guide-image" />
-        </ul>
+            <img src="/images/guide/guide14-02.webp" alt="《逃离达科夫》攻略第三部分" class="guide-image" />
+        </ul>
   
-        <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero：上锁区域与隐藏线索</h2>
-        <p>装备了钥匙和新装备后，您现在可以进入 Ground Zero 中以前上锁的区域。</p>
+        <h2><span style="color: #CD853F;">&#128273;</span> Ground Zero：上锁区域与隐藏线索</h2>
+        <p>装备了钥匙和新装备后，您现在可以进入 Ground Zero 中以前上锁的区域。</p>
   
-        <h3>废弃加油站和围栏通道</h3>
-        <ul>
-            <li>前往 **废弃加油站** 并**用在第 2 部分中找到的钥匙打开门**。</li>
-            <li>在里面，搜刮一个装有枪支和弹药的 **武器箱**。您应该会在加油站内找到**通往围栏的钥匙**（或确认您已经拥有）。</li>
-            <li>前往周边 **围栏** 并**打开它**以进入地图的下一区域。</li>
-        </ul>
+        <h3>废弃加油站和围栏通道</h3>
+        <ul>
+            <li>前往 **废弃加油站** 并**用在第 2 部分中找到的钥匙打开门**。</li>
+            <li>在里面，搜刮一个装有枪支和弹药的 **武器箱**。您应该会在加油站内找到**通往围栏的钥匙**（或确认您已经拥有）。</li>
+            <li>前往周边 **围栏** 并**打开它**以进入地图的下一区域。</li>
+        </ul>
   
-        <h3>路边谜团（旅馆钥匙）</h3>
-        <ul>
-            <li>前往 **路边营地** 并找到一张包含新地点线索的 **便条**。</li>
-            <li>按照便条上的指示找到一具 **尸体**。搜刮尸体以获得 **旅馆房间的钥匙**。</li>
-            <li>前往 **旅馆** 位置，并使用新钥匙**打开房间**。在里面，您应该会找到另一个 **武器箱**，并可能找到一个新的 **线索或钥匙**。</li>
-        </ul>
+        <h3>路边谜团（旅馆钥匙）</h3>
+        <ul>
+            <li>前往 **路边营地** 并找到一张包含新地点线索的 **便条**。</li>
+            <li>按照便条上的指示找到一具 **尸体**。搜刮尸体以获得 **旅馆房间的钥匙**。</li>
+            <li>前往 **旅馆** 位置，并使用新钥匙**打开房间**。在里面，您应该会找到另一个 **武器箱**，并可能找到一个新的 **线索或钥匙**。</li>
+        </ul>
   
-        <h3>定位 Boss：Pato Chapo</h3>
-        <p>重复出现的线索和尸体位置很可能将您引向本部分的最终遭遇战：</p>
-        <ul>
-            <li>跟随最后一条线索/便条，前往指定位置，您可能会发现该区域已被 Boss 守卫。</li>
-            <li>准备与 **Boss：Pato Chapo** 进行一场艰难的战斗。（<em>注意：在交战前，确保您已升级防具、充足的高级弹药和医疗用品。</em>）</li>
-            <li>击败 Pato Chapo 后，**搜刮尸体** 以获得高价值物品和下一部分攻略所需的关键钥匙/线索。</li>
-        </ul>
-    `
+        <h3>定位 Boss：Pato Chapo</h3>
+        <p>重复出现的线索和尸体位置很可能将您引向本部分的最终遭遇战：</p>
+        <ul>
+            <li>跟随最后一条线索/便条，前往指定位置，您可能会发现该区域已被 Boss 守卫。</li>
+            <li>准备与 **Boss：Pato Chapo** 进行一场艰难的战斗。（<em>注意：在交战前，确保您已升级防具、充足的高级弹药和医疗用品。</em>）</li>
+            <li>击败 Pato Chapo 后，**搜刮尸体** 以获得高价值物品和下一部分攻略所需的关键钥匙/线索。</li>
+        </ul>
+    `
   },
 
   {
@@ -835,94 +835,94 @@ export const guides = [
       "keywords": "Escape from Duckov Part 4, Duckmother Boss Strategy, AS VAL Location, Ground Zero Abandoned Camp, Energy Reserve Upgrade, Performance Test Quest"
     },
     "detailsHtml": `
-        <h2>地堡准备：新任务与技能升级</h2>
-        <p>在返回 Ground Zero 之前，拜访商人和增强器以接受关键任务，并提升您的角色战斗准备，以应对前方的挑战，包括 **鸭母 Boss**。</p>
+        <h2>地堡准备：新任务与技能升级</h2>
+        <p>在返回 Ground Zero 之前，拜访商人和增强器以接受关键任务，并提升您的角色战斗准备，以应对前方的挑战，包括 **鸭母 Boss**。</p>
   
-        <h3>接受的新任务：</h3>
-        <p>优先处理这些任务以进行您的下一次行动，因为它们与常见的 Ground Zero 活动和必要的战利品一致：</p>
-        <table style="width: 100%; border-collapse: collapse;">
-            <thead>
-                <tr>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">任务名称</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目标</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">奖励（经验/货币）</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">大型存储</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 1 个 **大型存储箱**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">蚊子清除</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">杀死 **10 只蚊子**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">零件批发</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **5 个螺丝**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">性能测试</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 1 个 **显卡**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">惩罚者</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">杀死 **5 个拾荒者**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-            </tbody>
-        </table>
+        <h3>接受的新任务：</h3>
+        <p>优先处理这些任务以进行您的下一次行动，因为它们与常见的 Ground Zero 活动和必要的战利品一致：</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">任务名称</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目标</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">奖励（经验/货币）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">大型存储</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 1 个 **大型存储箱**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">蚊子清除</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">杀死 **10 只蚊子**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">零件批发</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **5 个螺丝**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">性能测试</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 1 个 **显卡**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">惩罚者</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">杀死 **5 个拾荒者**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+            </tbody>
+        </table>
   
-        <h3>技能升级：增强战斗效率</h3>
-        <p>在部署之前投资这些核心技能，以提高可持续性和战斗准确性：</p>
-        <ul>
-            <li>**能量储备 (Energy Reserve)：** 最大能量增加 **+10**。（允许更多的冲刺/翻滚）</li>
+        <h3>技能升级：增强战斗效率</h3>
+        <p>在部署之前投资这些核心技能，以提高可持续性和战斗准确性：</p>
+        <ul>
+            <li>**能量储备 (Energy Reserve)：** 最大能量增加 **+10**。（允许更多的冲刺/翻滚）</li>
   
-            <img src="/images/guide/guide15-01.webp" alt="《逃离达科夫》攻略第四部分" class="guide-image" />
+            <img src="/images/guide/guide15-01.webp" alt="《逃离达科夫》攻略第四部分" class="guide-image" />
   
-            <li>**营养摄入 (Nutrient Intake)：** 食物和水的效果增加 **+10%**。（提高续航能力）</li>
-            <li>**稳定射击 I (Steady Shot I)：** 盲射准确度增加 **+10%**。（对付 Boss 进行近距离战斗至关重要）</li>
-        </ul>
+            <li>**营养摄入 (Nutrient Intake)：** 食物和水的效果增加 **+10%**。（提高续航能力）</li>
+            <li>**稳定射击 I (Steady Shot I)：** 盲射准确度增加 **+10%**。（对付 Boss 进行近距离战斗至关重要）</li>
+        </ul>
   
-        <h2>Ground Zero：废弃营地与鸭母 Boss</h2>
-        <p>返回 Ground Zero，重点关注清除任务并定位新的 Boss 区域。</p>
+        <h2>Ground Zero：废弃营地与鸭母 Boss</h2>
+        <p>返回 Ground Zero，重点关注清除任务并定位新的 Boss 区域。</p>
   
-        <h3>任务进度与新武器发现</h3>
-        <ul>
-            <li>将您的行动集中在已知有拾荒者活动的区域和水体附近，以 **杀死 10 只蚊子** 和 **5 个拾荒者**。</li>
-            <li>搜刮工具箱和电子缓存，找到上交任务所需的 **螺丝** 和 **显卡**。</li>
-            <li>在您的探索过程中，发现强大的 **VSS** 武器，这是消音交战的宝贵发现。</li>
-            <li>找到 **废弃营地 (Abandoned Camp)**，这是您发现的新地点。</li>
-        </ul>
+        <h3>任务进度与新武器发现</h3>
+        <ul>
+            <li>将您的行动集中在已知有拾荒者活动的区域和水体附近，以 **杀死 10 只蚊子** 和 **5 个拾荒者**。</li>
+            <li>搜刮工具箱和电子缓存，找到上交任务所需的 **螺丝** 和 **显卡**。</li>
+            <li>在您的探索过程中，发现强大的 **VSS** 武器，这是消音交战的宝贵发现。</li>
+            <li>找到 **废弃营地 (Abandoned Camp)**，这是您发现的新地点。</li>
+        </ul>
   
-        <img src="/images/guide/guide15-03.webp" alt="《逃离达科夫》攻略第四部分" class="guide-image" />
+        <img src="/images/guide/guide15-03.webp" alt="《逃离达科夫》攻略第四部分" class="guide-image" />
   
-        <h3>鸭母 Boss 战</h3>
-        <p>**鸭母 (Duckmother)** 是位于废弃营地的重大威胁。准备一场强调移动和高伤害输出的战斗。</p>
-        <ul>
-            <li>**策略提示：** 利用您升级后的 **能量储备** 进行持续冲刺和躲避。集中火力攻击 Boss 的弱点（通常是头部或显眼的背包）。</li>
-            <li>经过一场艰苦的战斗，**击败鸭母**。</li>
-            <li>搜刮尸体以找到营地内 **一个上锁房间的钥匙**。</li>
-        </ul>
+        <h3>鸭母 Boss 战</h3>
+        <p>**鸭母 (Duckmother)** 是位于废弃营地的重大威胁。准备一场强调移动和高伤害输出的战斗。</p>
+        <ul>
+            <li>**策略提示：** 利用您升级后的 **能量储备** 进行持续冲刺和躲避。集中火力攻击 Boss 的弱点（通常是头部或显眼的背包）。</li>
+            <li>经过一场艰苦的战斗，**击败鸭母**。</li>
+            <li>搜刮尸体以找到营地内 **一个上锁房间的钥匙**。</li>
+        </ul>
   
-        <h3>获得 AS VAL</h3>
-        <ul>
-            <li>使用从鸭母身上获得的钥匙打开废弃营地内的 **上锁房间**。</li>
-            <li>在房间里，您将找到备受追捧的武器 **AS VAL**，这是一把消音、高伤害的步枪。</li>
-        </ul>
+        <h3>获得 AS VAL</h3>
+        <ul>
+            <li>使用从鸭母身上获得的钥匙打开废弃营地内的 **上锁房间**。</li>
+            <li>在房间里，您将找到备受追捧的武器 **AS VAL**，这是一把消音、高伤害的步枪。</li>
+        </ul>
   
-        <h2><span style="color: #DAA520;">&#127775;</span> 跑图后活动</h2>
-        <ul>
-            <li>成功**撤离**并返回地堡。</li>
-            <li>**上交所有已完成的任务**（蚊子清除、惩罚者、零件批发、性能测试等）并领取您丰厚的奖励。</li>
-            <li>接受完成上一组任务后解锁的**新任务**。</li>
-            <li>访问**防具商人**，使用您新获得的货币**购买新头盔**或其他必要的防护装备。</li>
-        </ul>
-    `
+        <h2><span style="color: #DAA520;">&#127775;</span> 跑图后活动</h2>
+        <ul>
+            <li>成功**撤离**并返回地堡。</li>
+            <li>**上交所有已完成的任务**（蚊子清除、惩罚者、零件批发、性能测试等）并领取您丰厚的奖励。</li>
+            <li>接受完成上一组任务后解锁的**新任务**。</li>
+            <li>访问**防具商人**，使用您新获得的货币**购买新头盔**或其他必要的防护装备。</li>
+        </ul>
+    `
   },
 
   {
@@ -949,87 +949,87 @@ export const guides = [
     },
     "isHome": false,
     "detailsHtml": `
-        <h2>地堡准备：可重复任务与技能最大化</h2>
-        <p>第五部分涉及重复进行高价值的补给和清除任务，这些任务通常标有罗马数字后缀（II），是刷取经验和货币的绝佳途径。在返回 Ground Zero 之前，专注于最大化核心生存和战斗技能。</p>
+        <h2>地堡准备：可重复任务与技能最大化</h2>
+        <p>第五部分涉及重复进行高价值的补给和清除任务，这些任务通常标有罗马数字后缀（II），是刷取经验和货币的绝佳途径。在返回 Ground Zero 之前，专注于最大化核心生存和战斗技能。</p>
   
-        <h3>接受的新/可重复任务：</h3>
-        <p>从商人那里接受上一周期任务的升级版、可重复版：</p>
-        <table style="width: 100%; border-collapse: collapse;">
-            <thead>
-                <tr>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">任务名称</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目标</th>
-                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">奖励（经验/货币）</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">大型存储 II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 1 个 **大型存储箱**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">蚊子清除 II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">杀死 **10 只蚊子**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">零件批发 II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **5 个螺丝**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">性能测试 II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">上交 1 个 **显卡**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid #ddd; padding: 8px;">惩罚者 II</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">杀死 **5 个拾荒者**</td>
-                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
-                </tr>
-            </tbody>
-        </table>
+        <h3>接受的新/可重复任务：</h3>
+        <p>从商人那里接受上一周期任务的升级版、可重复版：</p>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">任务名称</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">目标</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">奖励（经验/货币）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">大型存储 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 1 个 **大型存储箱**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">蚊子清除 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">杀死 **10 只蚊子**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">零件批发 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 **5 个螺丝**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2000 / 1500</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">性能测试 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">上交 1 个 **显卡**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">惩罚者 II</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">杀死 **5 个拾荒者**</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2500 / 2000</td>
+                </tr>
+            </tbody>
+        </table>
   
-        <h3>技能升级：达到 II 级</h3>
-        <p>利用增强器 (Enhancer) 升级到 II 级技能，进一步提高效率和生存能力：</p>
-        <ul>
-            <li>**能量储备 II：** 最大能量增加 **+10**（总计 +20，对于放风筝/冲刺至关重要）。</li>
-            <li>**营养摄入 II：** 食物和水的效果增加 **+10%**（总计 +20%，显着改善治疗/水合作用）。</li>
-            <li>**稳定射击 II：** 盲射准确度增加 **+10%**（总计 +20%，使近距离战斗和基于移动的射击非常有效）。</li>
-        </ul>
+        <h3>技能升级：达到 II 级</h3>
+        <p>利用增强器 (Enhancer) 升级到 II 级技能，进一步提高效率和生存能力：</p>
+        <ul>
+            <li>**能量储备 II：** 最大能量增加 **+10**（总计 +20，对于放风筝/冲刺至关重要）。</li>
+            <li>**营养摄入 II：** 食物和水的效果增加 **+10%**（总计 +20%，显着改善治疗/水合作用）。</li>
+            <li>**稳定射击 II：** 盲射准确度增加 **+10%**（总计 +20%，使近距离战斗和基于移动的射击非常有效）。</li>
+        </ul>
   
-        <img src="/images/guide/guide16-02.webp" alt="《逃离达科夫》攻略第五部分" class="guide-image" />
+        <img src="/images/guide/guide16-02.webp" alt="《逃离达科夫》攻略第五部分" class="guide-image" />
   
-        <h2>Ground Zero：刷取资源与 Boss 返场</h2>
-        <p>这次行动的目标是快速完成清除配额，收集提交物品，并准备再次面对鸭母，以获取丰厚的战利品和钥匙掉落。</p>
+        <h2>Ground Zero：刷取资源与 Boss 返场</h2>
+        <p>这次行动的目标是快速完成清除配额，收集提交物品，并准备再次面对鸭母，以获取丰厚的战利品和钥匙掉落。</p>
   
-        <h3>资源刷取与清除</h3>
-        <ul>
-            <li>将您的行动集中在富含电子元件和工具箱的区域，以快速找到所需的 **螺丝** 和 **显卡**。</li>
-            
-            <img src="/images/guide/guide16-01.webp" alt="《逃离达科夫》攻略第五部分" class="guide-image" />
+        <h3>资源刷取与清除</h3>
+        <ul>
+            <li>将您的行动集中在富含电子元件和工具箱的区域，以快速找到所需的 **螺丝** 和 **显卡**。</li>
+            
+            <img src="/images/guide/guide16-01.webp" alt="《逃离达科夫》攻略第五部分" class="guide-image" />
   
-            <li>高效完成 **蚊子清除 II（击杀 10 只）** 和 **惩罚者 II（击杀 5 只）** 任务。</li>
-            <li>由于您之前很可能已经找到了 **VSS**，这次行动将确认它仍然存在，或者提供另一个获取它的机会。</li>
-            <li>重新定位 Boss 刷新的 **废弃营地**。</li>
-        </ul>
+            <li>高效完成 **蚊子清除 II（击杀 10 只）** 和 **惩罚者 II（击杀 5 只）** 任务。</li>
+            <li>由于您之前很可能已经找到了 **VSS**，这次行动将确认它仍然存在，或者提供另一个获取它的机会。</li>
+            <li>重新定位 Boss 刷新的 **废弃营地**。</li>
+        </ul>
   
-        <h3>击败鸭母（重复）</h3>
-        <p>**鸭母** 是关键目标，因为击败她可以进入上锁的房间。使用您新的 **稳定射击 II** 技能和更优越的能量储备来积极与她交战。</p>
-        <ul>
-            <li>击败 **鸭母** 后，她将再次掉落营地内 **一个上锁房间的钥匙**。</li>
-            <li>使用钥匙进入上锁房间，取回强大的 **AS VAL** 武器（如果您已经拥有它，则获取其高价值部件/弹药）。</li>
-        </ul>
+        <h3>击败鸭母（重复）</h3>
+        <p>**鸭母** 是关键目标，因为击败她可以进入上锁的房间。使用您新的 **稳定射击 II** 技能和更优越的能量储备来积极与她交战。</p>
+        <ul>
+            <li>击败 **鸭母** 后，她将再次掉落营地内 **一个上锁房间的钥匙**。</li>
+            <li>使用钥匙进入上锁房间，取回强大的 **AS VAL** 武器（如果您已经拥有它，则获取其高价值部件/弹药）。</li>
+        </ul>
   
-        <h2>跑图后活动</h2>
-        <ul>
-            <li>成功**撤离**并返回地堡。</li>
-            <li>**上交所有已完成的任务**（蚊子清除 II、惩罚者 II 等）并领取奖励。</li>
-            <li>接受完成此组任务后解锁的**新任务**。</li>
-            <li>访问**防具商人**，使用您累积的货币**购买新头盔**或将您的防具升级到最高可用等级，为下一个独特的挑战做准备。</li>
-        </ul>
-    `
+        <h2>跑图后活动</h2>
+        <ul>
+            <li>成功**撤离**并返回地堡。</li>
+            <li>**上交所有已完成的任务**（蚊子清除 II、惩罚者 II 等）并领取奖励。</li>
+            <li>接受完成此组任务后解锁的**新任务**。</li>
+            <li>访问**防具商人**，使用您累积的货币**购买新头盔**或将您的防具升级到最高可用等级，为下一个独特的挑战做准备。</li>
+        </ul>
+    `
   },
   {
     "id": 17,
@@ -2242,7 +2242,7 @@ export const guides = [
     "isHome": true,
     "addressBar": "/escape-from-duckov-expansion-crates-guide",
     "detailsHtml": `
-      <p>在<strong>《逃离达科夫》</strong>中，管理您的战利品对于生存至关重要。随着您收集越来越多的装备和资源，您的藏身处仓库空间很快就会成为一个限制因素。<strong>扩张板条箱（Expansion Crates）</strong>是解决这个问题的关键，可让您永久增加存储容量。</p>
+      <p>在<strong>《逃离达科夫》</strong>中，管理您的战利品对于生存至关重要。随着您收集越来越多的装备和资源，您的藏身处仓库空间很快就会成为一个限制因素。<strong>扩张板条箱（Expansion Crates）</strong>是解决这个问题的关键，可让您永久增加存储容量。</p>
   <p>本指南将涵盖您需要了解的关于如何找到这些宝贵板条箱以及如何使用它们来扩展您的保险库的所有信息。</p>
   
   <h2><strong>第 1 部分：如何获取扩张板条箱</strong></h2>
@@ -2251,59 +2251,59 @@ export const guides = [
   
   <h3><strong>在哪里可以找到扩张板条箱：</strong></h3>
   <ul>
-      <li><strong>特定区域的储物柜：</strong>
-          <ul>
-              <li><strong>雇佣兵基地：</strong> 许多玩家报告说他们在雇佣兵基地找到了他们大部分的扩张板条箱。虽然这可能是一个巧合，但该区域绝对是一个**值得搜索的热点**。</li>
-              <li><strong>第一个区域：</strong> 即使在游戏早期，您也有很大机会在第一个可玩区域的储物柜中找到 **小型扩张箱 S** 和 **中型扩张箱 M**。</li>
-          </ul>
-      </li>
-      <li><strong>工具箱：</strong> 在所有区域找到的工具箱都有很高的几率生成扩张板条箱。在您的行动中**绝不要放过一个工具箱**。</li>
+      <li><strong>特定区域的储物柜：</strong>
+          <ul>
+              <li><strong>雇佣兵基地：</strong> 许多玩家报告说他们在雇佣兵基地找到了他们大部分的扩张板条箱。虽然这可能是一个巧合，但该区域绝对是一个**值得搜索的热点**。</li>
+              <li><strong>第一个区域：</strong> 即使在游戏早期，您也有很大机会在第一个可玩区域的储物柜中找到 **小型扩张箱 S** 和 **中型扩张箱 M**。</li>
+          </ul>
+      </li>
+      <li><strong>工具箱：</strong> 在所有区域找到的工具箱都有很高的几率生成扩张板条箱。在您的行动中**绝不要放过一个工具箱**。</li>
   </ul>
   
   <h3><strong>快速高效的早期刷取路线：</strong></h3>
   <ol>
-      <li>进入第一个区域，穿过传送门向西北方向走，然后继续向上。</li>
-      <li>沿着这条路径搜刮所有储物柜。</li>
-      <li>一旦找到扩张板条箱，**立即撤离**。</li>
+      <li>进入第一个区域，穿过传送门向西北方向走，然后继续向上。</li>
+      <li>沿着这条路径搜刮所有储物柜。</li>
+      <li>一旦找到扩张板条箱，**立即撤离**。</li>
   </ol>
   <p>这条路线专注于高产出容器，同时将风险保持在较低水平，使其成为早期游戏刷取的完美选择。</p>
   
   <h3><strong>重要提示：</strong></h3>
   <ul>
-      <li><strong>掉落受 RNG 限制：</strong> 找到扩张板条箱取决于运气（**RNG**），因此预计在成功找到之间会有几次空手而归。**耐心是关键。**</li>
-      <li><strong>注意您的负重：</strong> 较大的板条箱（尤其是 M 和 L）非常重。如果您携带一个，请**优先撤离**，以避免在战斗中丢失它。</li>
+      <li><strong>掉落受 RNG 限制：</strong> 找到扩张板条箱取决于运气（**RNG**），因此预计在成功找到之间会有几次空手而归。**耐心是关键。**</li>
+      <li><strong>注意您的负重：</strong> 较大的板条箱（尤其是 M 和 L）非常重。如果您携带一个，请**优先撤离**，以避免在战斗中丢失它。</li>
   </ul>
   
   <h3><strong>扩张板条箱类型和详情</strong></h3>
   <table>
-      <thead>
-          <tr>
-              <th>物品</th>
-              <th>用途</th>
-              <th>常见位置</th>
-              <th>备注</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td><strong>小型扩张箱 S</strong></td>
-              <td>需要物品的早期保险库等级。</td>
-              <td>第一个区域的储物柜；任何地方的工具箱。</td>
-              <td>最轻的板条箱；在游戏早期出现。</td>
-          </tr>
-          <tr>
-              <td><strong>中型扩张箱 M</strong></td>
-              <td>中级保险库升级。</td>
-              <td>第一个区域的储物柜（较稀有）；工具箱。</td>
-              <td>比 S 重；规划好您的撤离路线。</td>
-          </tr>
-          <tr>
-              <td><strong>大型扩张箱 L</strong></td>
-              <td>后期保险库升级。</td>
-              <td>工具箱和高价值储藏点。</td>
-              <td>最重的板条箱，生成率最低。</td>
-          </tr>
-      </tbody>
+      <thead>
+          <tr>
+              <th>物品</th>
+              <th>用途</th>
+              <th>常见位置</th>
+              <th>备注</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><strong>小型扩张箱 S</strong></td>
+              <td>需要物品的早期保险库等级。</td>
+              <td>第一个区域的储物柜；任何地方的工具箱。</td>
+              <td>最轻的板条箱；在游戏早期出现。</td>
+          </tr>
+          <tr>
+              <td><strong>中型扩张箱 M</strong></td>
+              <td>中级保险库升级。</td>
+              <td>第一个区域的储物柜（较稀有）；工具箱。</td>
+              <td>比 S 重；规划好您的撤离路线。</td>
+          </tr>
+          <tr>
+              <td><strong>大型扩张箱 L</strong></td>
+              <td>后期保险库升级。</td>
+              <td>工具箱和高价值储藏点。</td>
+              <td>最重的板条箱，生成率最低。</td>
+          </tr>
+      </tbody>
   </table>
   
   <h2><strong>第 2 部分：如何使用小型扩张箱 S 扩展存储空间</strong></h2>
@@ -2312,20 +2312,20 @@ export const guides = [
   
   <h3><strong>使用小型扩张箱 S 升级您的仓库（分步指南）：</strong></h3>
   <ol>
-      <li>**将箱子带回基地：** 找到箱子后，确保它在您的**角色库存**中（您的口袋或背包），而不是您的仓库存储中。</li>
-      <li>**找到存储 NPC：** 在您的藏身处，找到第一个 NPC，**杰夫 (Jeff)**。</li>
-      <li>**与储物柜互动：** 与他身后的主储物柜互动以打开存储 UI。</li>
-      <li>**切换到升级标签：** 在存储 UI 中，切换到 **“存储扩展”/“升级保险库”** 标签。在 PC 上，您可以使用屏幕上的标签切换器或鼠标滚轮。</li>
-      <li>**选择升级等级：** 选择下一个可用的保险库升级等级。早期等级可能只需要信用点，而后期等级将需要像扩张箱这样的物品。</li>
-      <li>**确认升级：** 确认操作。扩张箱和所需的信用点将被消耗，您的仓库容量将立即增加。</li>
+      <li>**将箱子带回基地：** 找到箱子后，确保它在您的**角色库存**中（您的口袋或背包），而不是您的仓库存储中。</li>
+      <li>**找到存储 NPC：** 在您的藏身处，找到第一个 NPC，**杰夫 (Jeff)**。</li>
+      <li>**与储物柜互动：** 与他身后的主储物柜互动以打开存储 UI。</li>
+      <li>**切换到升级标签：** 在存储 UI 中，切换到 **“存储扩展”/“升级保险库”** 标签。在 PC 上，您可以使用屏幕上的标签切换器或鼠标滚轮。</li>
+      <li>**选择升级等级：** 选择下一个可用的保险库升级等级。早期等级可能只需要信用点，而后期等级将需要像扩张箱这样的物品。</li>
+      <li>**确认升级：** 确认操作。扩张箱和所需的信用点将被消耗，您的仓库容量将立即增加。</li>
   </ol>
   
   <h3><strong>故障排除：如果升级不起作用怎么办</strong></h3>
   <ul>
-      <li><strong>它在正确的位置吗？</strong> 确保箱子在您的**角色身上库存**中，而不是您的保险库中。</li>
-      <li><strong>您在正确的屏幕上吗？</strong> 仔细检查您是否在 **“升级保险库”** 标签页，而不是常规存储视图。</li>
-      <li><strong>该等级需要它吗？</strong> 确认您选择的升级等级是否确实列出了 **小型扩张箱 S** 作为所需材料。</li>
-      <li><strong>您有足够的信用点吗？</strong> 确保除了箱子之外，您还有所需的信用点数量。</li>
+      <li><strong>它在正确的位置吗？</strong> 确保箱子在您的**角色身上库存**中，而不是您的保险库中。</li>
+      <li><strong>您在正确的屏幕上吗？</strong> 仔细检查您是否在 **“升级保险库”** 标签页，而不是常规存储视图。</li>
+      <li><strong>该等级需要它吗？</strong> 确认您选择的升级等级是否确实列出了 **小型扩张箱 S** 作为所需材料。</li>
+      <li><strong>您有足够的信用点吗？</strong> 确保除了箱子之外，您还有所需的信用点数量。</li>
   </ul>
   <p><img src="/images/guide/guide18-03.webp" alt="Expansion crate 2" width="100%" style="width: 100%;"></p>
   
@@ -2334,11 +2334,11 @@ export const guides = [
   <p>如果您想在突袭**期间**携带更多战利品，您需要通过单独的系统增加您的**背包容量**：</p>
   <p><img src="/images/guide/guide18-04.webp" alt="Warehouse vs. Backpack Capacity" width="100%" style="width: 100%;"></p>
   <ul>
-      <li><strong>技能增强机器：</strong> 在您的基地，使用此机器并选择 **“背包专家”** 升级线。</li>
-      <li><strong>特定背包：</strong> 在野外找到装备后永久增加槽位的特殊背包。</li>
-          <li><strong>身体护甲：</strong> 某些身体护甲也可以增加您的携带容量。</li>
+      <li><strong>技能增强机器：</strong> 在您的基地，使用此机器并选择 **“背包专家”** 升级线。</li>
+      <li><strong>特定背包：</strong> 在野外找到装备后永久增加槽位的特殊背包。</li>
+          <li><strong>身体护甲：</strong> 某些身体护甲也可以增加您的携带容量。</li>
   </ul>
-      `
+      `
   },
 
   {
@@ -2364,66 +2364,66 @@ export const guides = [
     "isHome": true,
     "addressBar": "/escape-from-duckov-bronze-pocket-watch-quest",
     "detailsHtml": `
-      <p>“青铜怀表”是您在<strong>《逃离达科夫》</strong>中接到的第一批关键任务之一。该任务由泽维尔（Xavier）提供，是介绍游戏核心机制的完美入门：使用特殊钥匙、导航到特定位置、检索任务物品并安全撤离。</p>
+      <p>“青铜怀表”是您在<strong>《逃离达科夫》</strong>中接到的第一批关键任务之一。该任务由泽维尔（Xavier）提供，是介绍游戏核心机制的完美入门：使用特殊钥匙、导航到特定位置、检索任务物品并安全撤离。</p>
   <p>本指南将引导您完成每一步，从获取钥匙到找到怀表并确保您的奖励。</p>
   
   <h2><strong>快速指南（太长不看版）</strong></h2>
   <ol>
-      <li>从您的地堡中的自动售货机**购买机械钥匙**。</li>
-      <li>部署到 **Ground Zero** 地图。</li>
-      <li>前往**东南角**，找到一辆带有橙色油罐车的白色卡车。</li>
-      <li>使用**机械钥匙**解锁卡车驾驶室。</li>
-      <li>从里面搜刮**青铜怀表**。</li>
-      <li>立即通过卡车旁边的**下水道井盖**撤离。</li>
-      <li>将怀表交给**泽维尔**以完成任务。</li>
+      <li>从您的地堡中的自动售货机**购买机械钥匙**。</li>
+      <li>部署到 **Ground Zero** 地图。</li>
+      <li>前往**东南角**，找到一辆带有橙色油罐车的白色卡车。</li>
+      <li>使用**机械钥匙**解锁卡车驾驶室。</li>
+      <li>从里面搜刮**青铜怀表**。</li>
+      <li>立即通过卡车旁边的**下水道井盖**撤离。</li>
+      <li>将怀表交给**泽维尔**以完成任务。</li>
   </ol>
   
   <h2><strong>任务详情</strong></h2>
   <table>
-      <thead>
-          <tr>
-              <th>字段详情</th>
-              <th></th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td><strong>任务名称</strong></td>
-              <td>青铜怀表 (Bronze Pocket Watch)</td>
-          </tr>
-          <tr>
-              <td><strong>给予者</strong></td>
-              <td>泽维尔 (Xavier)（地堡的武器 NPC）</td>
-          </tr>
-          <tr>
-              <td><strong>地图</strong></td>
-              <td>Ground Zero</td>
-          </tr>
-          <tr>
-              <td><strong>主要目标</strong></td>
-              <td>从一辆上锁的卡车上取回青铜怀表并交给泽维尔。</td>
-          </tr>
-          <tr>
-              <td><strong>所需物品</strong></td>
-              <td>1 把机械钥匙 (Mechanical Key)</td>
-          </tr>
-          <tr>
-              <td><strong>奖励</strong></td>
-              <td>约 2,500 XP 和约 450 货币（数值可能略有不同）</td>
-          </tr>
-          <tr>
-              <td><strong>后续任务</strong></td>
-              <td>货物清单 (Cargo List)</td>
-          </tr>
-      </tbody>
+      <thead>
+          <tr>
+              <th>字段详情</th>
+              <th></th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><strong>任务名称</strong></td>
+              <td>青铜怀表 (Bronze Pocket Watch)</td>
+          </tr>
+          <tr>
+              <td><strong>给予者</strong></td>
+              <td>泽维尔 (Xavier)（地堡的武器 NPC）</td>
+          </tr>
+          <tr>
+              <td><strong>地图</strong></td>
+              <td>Ground Zero</td>
+          </tr>
+          <tr>
+              <td><strong>主要目标</strong></td>
+              <td>从一辆上锁的卡车上取回青铜怀表并交给泽维尔。</td>
+          </tr>
+          <tr>
+              <td><strong>所需物品</strong></td>
+              <td>1 把机械钥匙 (Mechanical Key)</td>
+          </tr>
+          <tr>
+              <td><strong>奖励</strong></td>
+              <td>约 2,500 XP 和约 450 货币（数值可能略有不同）</td>
+          </tr>
+          <tr>
+              <td><strong>后续任务</strong></td>
+              <td>货物清单 (Cargo List)</td>
+          </tr>
+      </tbody>
   </table>
   
   <h2><strong>第 1 步：如何获得机械钥匙</strong></h2>
   <p>装有怀表的卡车是上锁的，**机械钥匙**是进入内部的唯一途径。</p>
   <p><img src="/images/guide/guide19-01.webp" alt="buy Key " width="100%" style="width: 100%;"></p>
   <ul>
-      <li><strong>主要方法（推荐）：</strong> 获取钥匙最可靠的方法是从您的地堡/安全屋中的**自动售货机**以 **660 货币**购买。</li>
-      <li><strong>替代方法：</strong> 有可能在世界各地随机战利品中找到钥匙，但这远不如购买可预测。购买是继续任务最快的方法。</li>
+      <li><strong>主要方法（推荐）：</strong> 获取钥匙最可靠的方法是从您的地堡/安全屋中的**自动售货机**以 **660 货币**购买。</li>
+      <li><strong>替代方法：</strong> 有可能在世界各地随机战利品中找到钥匙，但这远不如购买可预测。购买是继续任务最快的方法。</li>
   </ul>
   <p><strong>专业提示：</strong> 如果您在地堡中建造了**钥匙登记装置**，您可以在部署前登记机械钥匙。这样可以防止您在突袭中死亡时丢失它。如果没有，只需将钥匙放在您的安全容器或库存中。</p>
   <p><img src="/images/guide/guide19-02.webp" alt="Mechanical Key" width="100%" style="width: 100%;"></p>
@@ -2435,30 +2435,30 @@ export const guides = [
   
   <h3><strong>前往卡车的两条可靠路线：</strong></h3>
   <ul>
-      <li><strong>桥梁路线：</strong>
-          <ul>
-              <li>从地堡入口出发，向东前往破损的木桥。</li>
-              <li>您需要 **2 块木材**来修理它。（木材可以在工具箱中找到或购买）。</li>
-              <li>穿过桥，沿着被车辆堵塞的道路向南走，找到油罐车。</li>
-              <li>**风险：** 这条路线更容易暴露，可能会吸引拾荒者。南部的桥梁通常更安静。</li>
-          </ul>
-      </li>
-      <li><strong>下水道路线（最快且最安全）：</strong>
-          <ul>
-              <li>如果您之前解锁了下水道井盖，这是迄今为止最好的路线。</li>
-              <li>在 Ground Zero 下水道出口浮出水面。</li>
-              <li>卡车和油罐车几乎就在您的正前方，向东几米处。</li>
-          </ul>
-      </li>
+      <li><strong>桥梁路线：</strong>
+          <ul>
+              <li>从地堡入口出发，向东前往破损的木桥。</li>
+              <li>您需要 **2 块木材**来修理它。（木材可以在工具箱中找到或购买）。</li>
+              <li>穿过桥，沿着被车辆堵塞的道路向南走，找到油罐车。</li>
+              <li>**风险：** 这条路线更容易暴露，可能会吸引拾荒者。南部的桥梁通常更安静。</li>
+          </ul>
+      </li>
+      <li><strong>下水道路线（最快且最安全）：</strong>
+          <ul>
+              <li>如果您之前解锁了下水道井盖，这是迄今为止最好的路线。</li>
+              <li>在 Ground Zero 下水道出口浮出水面。</li>
+              <li>卡车和油罐车几乎就在您的正前方，向东几米处。</li>
+          </ul>
+      </li>
   </ul>
   <p>一旦您到达卡车，靠近**驾驶员侧车门**，并使用库存中的机械钥匙将其解锁。青铜怀表就在里面。</p>
   
   <h2><strong>第 3 步：最简单的撤离方式</strong></h2>
   <p>您不需要跑回地图的另一边撤离。最好的撤离点之一就位于目标旁边。</p>
   <ul>
-      <li>寻找油罐车旁边地面上的一个**下水道井盖**。</li>
-      <li>上面可能有一个纸板箱。只需移动箱子以清理井盖即可。</li>
-      <li>与打开的井盖互动可提供一条直接且安全的捷径回到您的地堡地下室。</li>
+      <li>寻找油罐车旁边地面上的一个**下水道井盖**。</li>
+      <li>上面可能有一个纸板箱。只需移动箱子以清理井盖即可。</li>
+      <li>与打开的井盖互动可提供一条直接且安全的捷径回到您的地堡地下室。</li>
   </ul>
   
   <h2><strong>第 4 步：上交和奖励</strong></h2>
@@ -2468,16 +2468,234 @@ export const guides = [
   
   <h2><strong>故障排除与常见问题解答</strong></h2>
   <ul>
-      <li><strong>怀表的生成是固定的吗？</strong>
-          <p>**是的。** 青铜怀表是固定的任务物品。如果您解锁了门但没有看到它，这很可能是一个罕见的错误。只需离开 Ground Zero 并重新进入地图即可重置它。</p>
-      </li>
-      <li><strong>如果我死了怎么办？</strong>
-          <p>死亡将重置您的任务进度。您将不得不回到 Ground Zero 再次取回怀表。这就是为什么强烈建议使用快速的下水道撤离点。</p>
-      </li>
-      <li><strong>为什么这个任务很重要？</strong>
-          <p>它提供了丰厚的早期游戏 XP 和货币，教授了基本技能，并解锁了后续任务以推进您的主线故事情节。</p>
-      </li>
+      <li><strong>怀表的生成是固定的吗？</strong>
+          <p>**是的。** 青铜怀表是固定的任务物品。如果您解锁了门但没有看到它，这很可能是一个罕见的错误。只需离开 Ground Zero 并重新进入地图即可重置它。</p>
+      </li>
+      <li><strong>如果我死了怎么办？</strong>
+          <p>死亡将重置您的任务进度。您将不得不回到 Ground Zero 再次取回怀表。这就是为什么强烈建议使用快速的下水道撤离点。</p>
+      </li>
+      <li><strong>为什么这个任务很重要？</strong>
+          <p>它提供了丰厚的早期游戏 XP 和货币，教授了基本技能，并解锁了后续任务以推进您的主线故事情节。</p>
+      </li>
   </ul>
-      `
+      `
+  },
+
+  {
+    id: 20,
+    title: "The Ultimate Guide to the Best Weapons in Escape From Duckov",
+    iframeUrl: "1",
+    description: "Dominate Escape From Duckov with the right arsenal! This guide reveals top weapon choices for every playstyle, from stealthy melee to long-range sniping. Discover essential ammo, mods, and perks to maximize your survival in this brutal world!",
+    tags: ["Escape From Duckov", "Best Weapons Guide", "Melee Weapons", "Ranged Weapons", "Weapon Mods"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/guide20.webp",
+    imageAlt: "A player character in Escape From Duckov wielding a powerful rifle, showcasing the ultimate weapons guide.",
+    category: "advanced",
+    seo: {
+      title: "The Ultimate Guide to the Best Weapons in Escape From Duckov",
+      description: "Unlock the best weapons in Escape From Duckov! This ultimate guide provides in-depth analysis of melee & ranged weapons, mods, and perks for survival.",
+      keywords: "Escape From Duckov, weapons guide, best weapons, melee, ranged, MDR-556, MDR-762, Epic Axe, ammo, mods, perks, survival, tips and tricks",
+    },
+    addressBar: "/the-ultimate-guide-to-the-best-weapons-in-escape-from-duckov",
+    detailsHtml: `
+        <p>在激烈而无情的《逃离达科夫》（<em>Escape From Duckov</em>）世界中，每一次战斗都短暂而残酷。选择正确的武器可能意味着在突袭中幸存下来与英年早逝的区别——但没有一个普遍适用的“最佳武器”。正如经验丰富的玩家所强调的，理想的选择取决于三个核心因素：**你的游戏风格**、**你在游戏中的进度阶段**和**你可用的装备**。更糟糕的是，寻求“一刀切”的答案往往忽略了游戏令人惊讶的武器平衡性——没有单一工具可以主宰所有场景，特定的任务总会使某些选项比其他选项更闪耀。本指南整合了社区见解和**实战**经验，细分了适用于每种角色的顶级武器，从近战和全能型到专业狙击手，以及关于**弹药、改装件和天赋**的关键技巧，这些往往比武器本身更重要。</p>
+    
+    <p>
+      <img src="/images/guide/guide20-01.webp" alt="the Best Weapons in Escape From Duckov 2" width="50%" style="width: 50%;">
+    </p>
+    
+    <h2><strong>近战和全能型：每位玩家的基础选择</strong></h2>
+    
+    <p>在深入探讨远程武器之前，不要忽略近战——社区共识确认 **Epic Axe（史诗战斧）** 是在隐秘或弹药节省至关重要时，近距离混战中无可争议的**首选**。对于远程全能型，有两个选项脱颖而出：经典的 **DT MDR-556** 和重击的 **MDR-762**。</p>
+    
+    <p>**DT MDR-556** 仍然是一把可靠的“工作马”。理论上，它可能不会位居每个排行榜榜首，但在实际突袭中，它的**速度、可控性**和（带改装件的）持续射击精度使其成为新老玩家的最爱。对于那些寻求更大停止力的人来说，**MDR-762**（社区推荐的替代品）作为一把战斗步枪选项，在伤害和多功能性之间取得了平衡。与此同时，**RPK** 作为一把通用型武器赢得了玩家的高度赞扬——其**一致的性能**使其成为一个可靠的选择，当你需要一把能够适应大多数遭遇战而无需特殊化的武器时。</p>
+    
+    <p>要最大限度地发挥这些全能型武器的效用，请优先考虑针对关键属性的改装件。玩家一致认为应首先调整**水平后坐力**——对于大多数游戏风格来说，这个属性对控制的影响比垂直后坐力更大。对于 DT MDR-556，将 **Rifle Damage Muzzle II（步枪伤害枪口 II）** 与 **Balanced Grip（平衡握把）** 搭配使用，以收紧后坐力，保持瞄准镜稳定以进行连续爆头。这种设置将其变成一个真正的全范围工具，可以轻松应对中距离交战和意外的近距离遭遇战。对于 MDR-762，专注于**减少后坐力的附件**以减轻其稍高的后坐力，并添加一个**快速捕获瞄准镜**以保持其多功能性。</p>
+    
+    <h2><strong>按角色划分的顶级武器</strong></h2>
+    
+    <p>不同的角色需要不同的工具，掌握这种匹配将大大提高你的生存率。以下是社区验证的选择，按角色组织——并附有针对特定敌人使用情况的特别说明（例如，根据玩家的提示，霰弹枪用于对付幽灵）。</p>
+    
+    <h3 style="font-size: 1.17em; font-weight: bold;"><strong>狙击手：远程支配</strong></h3>
+    
+    <p>在远距离消灭敌人时，三把狙击枪获得了社区的赞誉：高威力的 **M107**、精确的 **SV-98** 和被低估的 **VPO-101 (Lordon)**。每把枪都迎合了不同的游戏风格，从蛮力到隐秘。</p>
+    
+    <ol>
+      <li>**M107**：如果原始停止力不容商榷，M107 是无与伦比的。它可以轻松清除装甲目标和首领——为了其**一枪毙命的潜力**，其重量和缓慢操作的权衡是值得的。将其与 Marksman/Totem 天赋、AP 蓝子弹和精密瞄准镜搭配使用，以最大限度地提高其杀伤力；这种设置比大多数狙击枪提供更大的容错空间。</li>
+    
+      <li>**SV-98**：对于重视**精度和速度**而非蛮力的玩家来说，它是一个持续的最爱。其出色的子弹速度和快速瞄准使其成为可靠的远程射击的完美选择，而没有 M107 的笨重。像 M107 一样，Marksman/Totem 天赋和 AP 蓝子弹确保对大多数典型敌人的一枪毙命。</li>
+    
+      <li>**VPO-101 (Lordon)**：社区成员强调的一个**注重隐秘的珍品**。它擅长于喜欢安静、远程击杀的玩家——是避免被发现，同时控制视线的理想选择。将其与**消音器模组和高穿透弹药**搭配使用，在消灭关键目标时保持你的行踪隐秘。</li>
+    </ol>
+    
+    <h3 style="font-size: 1.17em; font-weight: bold;"><strong>近距离作战 (CQC)：主宰狭小空间</strong></h3>
+    
+    <p>在像建筑物或走廊这样的狭小空间中，你需要能够快速、造成巨大伤害的武器——这对于阻止幽灵敌人（正如玩家所指出的）或击退冲锋至关重要。霰弹枪和冲锋枪在这里占据主导地位，社区的最爱为这个元游戏增加了深度。</p>
+    
+    <ol>
+      <li>**MP-155 ULTIMA (霰弹枪)**：根据排行榜和玩家反馈，这是 CQC 的**顶级霰弹枪**。其高弹容量和快速重装能力在敌人推进获得动力之前将其击溃——非常适合幽灵遭遇战或清理聚集的房间。使用**短枪管和反射瞄准镜**进行改装，以提高在狭小空间中的机动性。</li>
+    
+      <li>**MP7（包括 Electric 变体）**：CQC 的冲锋枪之王，得益于其**无与伦比的击杀时间和快速操作**。喜欢奔跑、滑铲和清理房间的激进玩家会喜欢它的盲射性能。正如一位玩家所建议的，**点射（而不是扫射）**可以最大限度地提高准确性，而不会浪费弹药——即使它的后坐力很低。</li>
+    
+      <li>**Vector (冲锋枪)**：一个**轻量级、预算友好**的选项，适用于游戏初期的房间清理。它可能无法与 MP7 的性能相匹配，但其快速操作使其成为在你解锁更好的装备之前的坚实垫脚石。</li>
+    
+      <li>**MP5 &amp; SR-3M (冲锋枪)**：社区宠儿，适用于**平衡的 CQC 游戏**。MP5 为持续战斗提供可靠的后坐力控制，而 SR-3M 则倾向于**更高的伤害**以实现快速击杀。两者都适用于盲射点射战术，并且易于改装以减少水平后坐力。</li>
+    
+      <li>**Bizon-2 (冲锋枪)**：一个被玩家强调的**黑马**。其**大弹匣容量**使其非常适合长时间的 CQC 交战，而其可控的后坐力（带改装件）使其能够与更高级别的冲锋枪竞争。它对于仍在掌握弹药管理的新玩家特别有用。</li>
+    </ol>
+    
+    <h3 style="font-size: 1.17em; font-weight: bold;"><strong>步枪和战斗步枪：中距离大师</strong></h3>
+    
+    <p>步枪在近距离和中距离战斗之间取得了完美的平衡，而战斗步枪则加倍侧重于**ADS（瞄准瞄具）精度**，以进行更长时间的交战。社区反馈为这个元游戏增加了几个关键选择，其中 **AK-103** 作为粉丝的最爱脱颖而出。</p>
+    
+    <ol>
+      <li>**AK-103**：正如玩家反复确认的那样，这把步枪是“可靠”的顶级选择。它攻击力高，可以轻松应对中距离战斗，并且对改装件反应良好——使其成为平衡型玩家的可靠选择。专注于**减少后坐力的附件和高穿透弹药**，以有效地清除敌人。</li>
+    
+      <li>**Flame AK-47（火焰 AK-47）**：一个以微小的后坐力换取灼烧效果的变体。这使得它比原版 AK 更容易控制，尤其是在每一秒都很重要的混乱中距离混战中。</li>
+    
+      <li>**STG 77A3 &amp; MF (步枪)**：社区推荐的 AK 系列替代品。STG 77A3 为新玩家提供了**更平稳的后坐力**，而 MF 则倾向于**更快的射速**，以进行激进的中距离推进。两者都与**混合改装件**（减少盲射扩散 + ADS 速度）搭配良好，以适应不断变化的遭遇战。</li>
+    
+      <li>**M1A &amp; MCX Spear (战斗步枪)**：对于优先考虑 ADS 精度的玩家来说，这些是必试之选。M1A 是一个经典选择，具有一致的伤害，而备受追捧的 **MCX Spear**（玩家常称之为“Sig Spear”）是**终局阶段的最爱**——尽管许多玩家指出，在解锁它之前，他们使用 MDR-762 作为顶级替代品。两者都需要致力于视线和爆头，但它们的伤害输出会奖励仔细瞄准。</li>
+    </ol>
+    
+    <h2><strong>排行榜快照：热门武器排名</strong></h2>
+    
+    <p>
+      <img src="/images/guide/guide20-02.webp" alt="the Best Weapons in Escape From Duckov 3 " width="50%" style="width: 50%;">
+    </p>
+    
+    <p>在各种排名中，对于哪些武器脱颖而出存在普遍共识。以下是排行榜的快照，可帮助您衡量不同武器的整体性能：</p>
+    
+    <p>等级 武器</p>
+    
+    <p> S</p>
+    
+    <p>Epic Axe（近战），MCX Spear，SV-98，MP7，M14，AS Val，M700，Desert Eagle</p>
+    
+    <p>A</p>
+    
+    <p>UZI，M1A，RPG-7，Mosin-Nagant，DT MDR-556，MDR-762，MP-155 ULTIMA，AK-103</p>
+    
+    <p>B</p>
+    
+    <p>Vector，MP5，StG 77A3，SR-3M，Flame AK-47，Bizon-2，VPO-101 (Lordon)</p>
+    
+    <p>C</p>
+    
+    <p>SKS-45，PPSh，MP-155，ADAR 2-15，PM Pistol，Handmade Hunting Gun</p>
+    
+    <p>一些排名包括一个 S+ 级，通常以 **M107**（狙击枪）和 **MCX Spear**（战斗步枪）作为终局阶段的巅峰。UZI 仍然是一个不确定因素——在不同等级之间摇摆——但它被普遍称赞为**强大的早期游戏或机动性选择**，而不是后期的主力武器。请记住：此排行榜是一个起点，而非规则。游戏的平衡性意味着一把 B 级武器，如果配有正确的弹药和天赋，在合适的玩家手中可以超越一把 S 级武器。</p>
+    
+    <p><br></p>
+    
+    <h2><strong>根据游戏风格选择武器：盲射 vs. ADS</strong></h2>
+    
+    <p>你的游戏风格是武器选择的最终决定因素，这一点在盲射与 ADS 的争论中体现得最为明显。玩家强调，即使在武器类别内，像**点射**这样的战术也可以极大地改变性能——所以不要只选择一把武器，要选择一个策略。</p>
+    
+    <ol>
+      <li>**盲射爱好者**：像 **MP7、MP5 和 Bizon-2** 这样的冲锋枪是理想的选择。它们专为跑轰式游戏设计，让你可以在不减速瞄准的情况下冲刺、滑铲和清理房间。来自社区的专业提示：避免按住扳机进行扫射——**快速点射**可以保持准确性，同时利用其低后坐力。</li>
+    
+      <li>**平衡型玩家**：像 **DT MDR-556、AK-103 和 STG 77A3** 这样的步枪达到了最佳平衡点。它们具有可用的**盲射**以应对近距离遭遇，以及更快、更稳定的 **ADS** 以实现中距离精度。减少盲射扩散和水平后坐力的改装件将最大限度地提高它们的适应性。</li>
+    
+      <li>**ADS 专家**：战斗步枪和狙击枪是你的领域。像 **M1A 和 MCX Spear** 这样的战斗步枪要求致力于视线和爆头——忘记宽容的盲射扩散。狙击枪（M107、SV-98、VPO-101）完全依赖 **ADS**；控制角度、预瞄关键点，并利用隐秘来发挥你的优势。对于具有 ADS 潜力的极限机动性，可以尝试像 **Desert Eagle（沙漠之鹰）** 这样的手枪（它使用高威力 MAG 弹药）作为主武器——尽管大多数玩家会跳过副武器以节省重量。</li>
+    </ol>
+    
+    <h2><strong>弹药、改装件和天赋：武器支配的秘密</strong></h2>
+    
+    <p>这是一个来自社区的残酷事实：**弹药、附件、图腾和天赋对伤害的影响比武器本身更大**。即使是一把预算武器，如果配有顶级弹药，其性能也会优于装有基本弹药的传奇武器。以下是最关键的提示：</p>
+    
+    <ol>
+      <li>**弹药优先，武器其次**：这是社区的**头号**提示。始终将你的弹药与敌人的护甲等级匹配——高穿透弹（如 AP 蓝子弹）将把一把中级步枪变成装甲敌人杀手，而弱弹药会使即使是 S 级武器也无效。对于狙击枪，Marksman/Totem 弹药对于一枪毙命的潜力是**不可或缺**的；对于冲锋枪，优先考虑**空尖弹**以进行 CQC 击杀。</li>
+    
+      <li>**智能改装，而非笨重**：早期游戏不要过度堆砌。优先考虑两个关键属性：**水平后坐力**（根据玩家的说法，最大的控制因素）和**瞄准速度**（对于大多数战斗来说，快速捕获瞄准镜胜过花哨的瞄准镜）。对于冲锋枪，增加盲射扩散减少；对于步枪，平衡 ADS 速度和后坐力。将**重型改装件**（如加长弹匣）留到后期游戏，此时重量管理不那么重要。</li>
+    
+      <li>**适合你游戏风格的光学器件**：瞄准镜非常适合巷道控制和屏幕外目标获取（非常适合狙击枪和战斗步枪），但**反射瞄准镜或红点瞄准镜**更适合 CQC 和跑轰式游戏。避免过度瞄准——对于大多数突袭来说，**1x-4x 可变瞄准镜**比固定 8x 瞄准镜更通用。</li>
+    
+      <li>**天赋和图腾很重要**：将武器与互补的天赋搭配。Marksman/Totem 天赋可以提高狙击枪的伤害，而**机动性天赋**使冲锋枪更加灵活。不要忽视图腾——它们往往是将一把好武器变成一把伟大武器的最后一步。</li>
+    </ol>
+    
+    <h2><strong>早期游戏选择以避免浪费你的突袭</strong></h2>
+    
+    <p>当你刚开始游戏且无法获得高级武器时，这些早期游戏选择将帮助你生存和进步：</p>
+    
+    <ol>
+      <li>**PM Pistol（PM 手枪）**：一把实用的入门副武器，具有快速重装和低后坐力。它不强大，但对于你的前几次突袭来说是**可靠的**——将其与基本空尖弹搭配使用以击倒未装甲的敌人。</li>
+    
+      <li>**Handmade Hunting Gun（手工猎枪）**：简单可靠，这把枪在你装备时在起始区域提供**不错的伤害**。对于想在早期保持安全的玩家来说，这是一个很好的选择。</li>
+    
+      <li>**UZI**：最好的**早期游戏冲锋枪**。其出色的机动性和易于控制使其非常适合学习房间清理战术。你经常会在仓库区域找到它，并且通过基本的后坐力改装件和良好的弹药，它可以坚持到你解锁像 MP5 这样更好的选择。</li>
+    </ol>
+    
+    <h2><strong>最终想法</strong></h2>
+    
+    <p>在《逃离达科夫》中，最适合你的武器取决于你如何玩。如果你想要一把万能武器，那就**改装 DT MDR-556 并坚持使用它**——它是最可靠的全能型武器。如果你更喜欢专精，**M107 或 SV-98** 将主宰长视线，**MP-155 ULTIMA** 将横扫走廊，而 **MP7** 将处理快速推进。</p>
+    
+    <p>请记住，这不仅仅关乎武器本身——**正确地改装它、选择正确的弹药，并将其与你的游戏风格匹配**同样重要。有了这份指南在手，你将能够为每一场战斗挑选完美的武器，并增加你活着逃离达科夫的机会。</p>
+    
+        `,
+  },
+
+  {
+    id: 21,
+    title: "The Complete Lore of Escape From Duckov: From Duck Planet to Galactic Betrayal",
+    iframeUrl: "1",
+    description: "Dive deep into the captivating story of Escape From Duckov. Uncover the origins of the duck civilization, the unseen cosmic threat, the purple storm, J-Laboratory's desperate escape plan, super soldiers, and the player's role in a world on the brink of destruction.",
+    tags: ["<p>released", "october", "16th", "<em>escape", "from"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/guide/guide21.webp",
+    imageAlt: "duckovgame 11",
+    category: "advanced",
+    seo: {
+      title: "The Complete Lore of Escape From Duckov | Duckovgame.com",
+      description: "Dive deep into the captivating story of Escape From Duckov. Uncover the origins of the duck civilization, the unseen cosmic threat,J-Laboratory's desperate escape plan.",
+      keywords: "Escape From Duckov lore, game story, Duckov backstory, Akov planet, J-Laboratory, purple storm, cosmic civilization, super soldiers, Bomb Maniac, Blue-Skinned God, game narrative, player's journey, game plot, Escape From Duckov universe, alien invasion, betrayal",
+    },
+    addressBar: "/the-complete-lore-of-escape-from-duckov",
+    detailsHtml: `
+        <p>《逃离达科夫》（<em>Escape From Duckov</em>）于 10 月 16 日发布，在短短一周内就取得了显著的成功，销量超过一百万份，并发玩家数达到了 30 多万的峰值。到 28 日，销量再次飙升至惊人的 200 万。许多玩家可能抱着“试试看”的心态进入，却被这些可爱的鸭子迷住了。这款游戏，也许是所有主要搜刮游戏中“最不像《逃离塔科夫》”的一款，甚至获得了塔科夫创作者本人的认可。达科夫的爆炸性人气源于其幽默而硬核的玩法，以及所有模组作者的奉献。搜刮和进度带来的长期乐趣，加上各种武器——甚至是近战——提供的独特游戏体验，使其令人难以置信地上瘾。但今天，让我们换个角度来看待这款日益流行的游戏，探索它真正讲述的故事。</p>
+    
+    <p><img src="/images/guide/guide21-01.webp" alt="duckovgame 1" width="50%" style="width: 50%;"></p>
+    
+    <h2><strong>第一章：鸭子星球与一个看不见的威胁</strong></h2>
+    
+    <p>在浩瀚的宇宙中，存在着一个名为 **Akov（阿科夫）**的星球。它的居民是智慧的鸭子状生物，他们在自己的星球上建立了美丽繁荣的城镇。我们的故事发生在一个这样的城镇，那里隐藏着一个名为 **J-Laboratory（J 实验室）**的设施。他们的野心延伸到无边的星域，但他们是天真的，仿佛宇宙是一位会满足他们所有愿望的仁慈神祇。镇上的设施完全自给自足，证明了他们安逸的生活，照料着他们的“一亩三分地”。这种生活似乎可以无限期地持续下去，直到一个来自星星的文明到来。然而，这个文明甚至从未露面，让鸭子们对迫在眉睫的危机完全措手不及。对于鸭子们来说，这个文明甚至不能被称为敌人；两者之间的差距实在太大。因此，新来者并不是来敌对鸭子们的。</p>
+    
+    <p>如果宇宙是一棵繁茂的树，每个星球都是它结出的果实，那么这个文明就像一条虫子。他们直接从星球中提取能量。虽然“杀鸡取卵”并不理想，但当那是别人的鹅时，情况就不同了。这个文明，类似于星际海盗，已经这样做了很长时间。他们甚至奴役了神祇。但俗话说，夜路走多了总会遇到鬼。他们之前的行为为他们赢得了永恒的敌人。毕竟，在神祇几乎无限的生命周期中，他们只需要一些娱乐，只要他们不再做得太过分。例如，这次，这位神祇决定给这些海盗制造一些麻烦。至于鸭子们，谁在乎呢？</p>
+    
+    <h2><strong>第二章：紫色风暴与一个注定灭亡的星球</strong></h2>
+    
+    <p>在从 Akov 提取能量时，海盗们发现了神祇添加的“调料”。从星球内部提取的通常的蓝色晶体消失了，取而代之的是狂暴的**紫色能量**。突然爆发的紫色能量让海盗们措手不及。一艘飞船甚至坠毁了，未能及时逃离爆炸区。直到那时，舰队指挥官才终于意识到他们被骗了。指挥官命令舰队放弃行动。因此，海盗付出了代价，神祇获得了乐趣，而鸭子们只剩下一个垂死的星球。它注定要灭亡，尽管毁灭不会在一夜之间到来。在风暴爆发的初期，鸭子们甚至没有意识到他们不可逃避的命运。在第一次风暴期间，一些人目睹了**形似水熊虫的外星飞船**，与一个名为“**Scattered Cult（分散教派）**”的古代宗教中对邪神的描述惊人地相似。通过耳语和谣言，分散教派秘密获得了许多稀奇古怪的故事和追随者。从那时起，Akov 每 10 天就会经历一次紫色风暴。好消息是风暴不会永远持续；坏消息是它们完全消失的那一天，就是每个人都将不复存在的那一天。</p>
+    
+    <h2><strong>第三章：J 实验室的逃生计划与超级士兵</strong></h2>
+    
+    <p>如前所述，**J 实验室**，由于离风暴区不远，立即秘密派遣了一支考察队。通过研究坠毁的飞船，他们的技术迅速发展，并掌握了制造**能量武器**的方法。尽管能量武器相对于传统火药武器改进有限，但这种垄断产品迅速为 J 实验室积累了巨额财富。与此同时，他们发现了星球即将毁灭的消息。为了生存，他们将所有这些财富投入到开发一艘**飞船**上，试图逃离 Akov，一艘注定要沉没的船。为了实现这个计划，他们招募了大量的**雇佣兵**来确保他们研究的安全，并承诺带这些雇佣兵离开星球作为报酬。他们中的精英，在实验室的帮助下，通过将**风暴物质注入的药物**从睡眠舱中融合，获得了强大的能力。然而，实验室无法完全控制这种源自星球的能量，导致这些超级士兵存在缺陷。毫无例外，他们的个性变得更加冲动、暴躁，或者说，好战，为未来的混乱埋下了种子。</p>
+    
+    <h2><strong>第四章：失败的造物与蓝皮神</strong></h2>
+    
+    <p>也许是察觉到雇佣兵的不可靠性，实验室创造了一个不该存在于这个世界的战士：**[REDACTED]（已编辑）**。然而，这个宏伟的造物完全超出了他们的控制。因此，为了限制 [REDACTED]，他们立即启动了**“四骑士计划”**。但完成计划后，他们意识到他们也无法完全控制四骑士。一个谎言引出十个，也许不该被控制的东西就应该保持原样。当实验室执行其逃生计划时，始作俑者，分散的神祇——**蓝皮神**，无论是出于愧疚还是其他原因，也降临到了 Akov。然后，他又被镇压了。在被一个更高级的文明控制了 50 年之后，蓝皮神再次被囚禁。他被一个与能量融合的超级士兵——**Bomb Maniac（炸弹狂人）**，囚禁在一个仓库区内，一个充满**有毒气体**的峡谷中。顺便说一句，炸弹狂人是从邪教领袖那里偷走了他的睡眠舱。对于蓝皮神来说，这是**报应**，因为有毒气体源于他自己提供的技术——一种据说用于净化灵魂的邪恶技术。净化后的蓝色灵魂方块，经过进一步加工，会变成一种**绿色挥发性液体**。他称这种绿色液体为“**可乐糖浆**”。这种糖浆具有腐蚀性，不能直接饮用，但经过简单的再加工，它将成为世界上最好喝的可乐。附带一提，即使世界上最好的可乐摆在我们泥土人面前，他也不会看一眼；他真是酷得不可思议。也许是因为能量融合，或者炸弹狂人天生鲁莽，他把事情搞砸了。可乐糖浆泄漏了，毒气弥漫了整个峡谷，他没有办法处理。所以，他决定搬到**农场镇**，开另一家工厂。他相信他从蓝皮神那里得知了一切，所以无意释放他。但他在农场镇的进展并不顺利。事情败露了；实验室发现了他的睡眠舱盗窃行为，并派遣了一队**机械蜘蛛**来对付这个小偷。然而，机械蜘蛛不在乎有毒气体，或者可能是实验室知道可乐糖浆的事情后派它们来的。无论如何，尽管炸弹狂人逃脱了，但他的可乐工厂再次被摧毁，他的快速致富计划也受挫了。</p>
+    
+    <h2><strong>第五章：一个绝望的世界与背叛</strong></h2>
+    
+    <p>在一个垂死的世界的背景下，贪婪的人层出不穷。例如，有利用实验室委托给他的显卡**挖掘加密货币的矿工**，有作为城市掷锤比赛冠军占据学校的**校园恶霸**，以及到处搜刮的**玩家**。还有那些被实验室抛弃的人，被留在星球上享受**“零尸体计数”**的最终特权。哦，是的，实验室违背了诺言；他们没有带走那些嗜血的雇佣兵，甚至没有带走所有自己的研究人员。为了生产足够的飞船，实验室**加速了晶体开采**，随着开采的增加，星球的崩溃也加速了。实验室很快得出结论，他们在星球毁灭之前无法生产足够的飞船。那么，他们需要多少飞船呢？答案随着问题浮现：**刚好够不可或缺的人员逃生**。毕竟，没有人能预测星球灭亡的确切时间。因此，雇佣兵，甚至非关键的实验室员工都被抛弃了。一旦他们建造了足够的飞船，知情者就悄悄登船逃离了星球，留下了一个绝望的世界和一群在末日中挣扎的无助个体。</p>
+    
+    <p><br></p>
+    
+    <h2><strong>第六章：杰夫的第二次机会与玩家的角色</strong></h2>
+    
+    <p>自从实验室离开 Akov 以来，已经过去了相当长的一段时间，星球即将毁灭的消息广为流传。秩序、规则和所有形式的有组织的存在都消失得无影无踪。每个人都陷入了一种奇怪的、享乐主义的麻木状态，但有些人拒绝放弃。以 **Jeff（杰夫）**为例，他曾是 J 实验室的员工。他对被实验室抛弃感到愤怒和无助。毕竟，他是在偷懒时被抓到的。既然他无法融入以前的团队，他决定建立自己的团队。作为一名技术人员，他显然不是粗鲁战士的对手，所以他寻找一个能干而敏捷的**执行者**。为此，他将目标锁定在**囚犯**身上。然后，他潜入监狱，救出了一个重要人物——**我们，玩家**。逃离监狱并到达杰夫的藏身处后，杰夫联系了两位从事武器和装备业务的老朋友，为我们提供必要的装备。在零尸体区徘徊时，我们还遇到了一个运动员——**Niba（尼巴）**。相信我，他简直就是个超人。一切进展顺利，但杰夫有一件事没有告诉任何人。他工作偷懒并不是因为他的工作能力出色到可以在偷懒的同时完成任务——否则，实验室可能就不会解雇他了。他勉强能处理 Akov 的基本技术，但他缺乏对尖端飞船和风暴能量技术的深入了解。也许他自己觉得，如果他告诉我们真相，我们可能会直接向他开枪。</p>
+    
+    <p><img src="/images/guide/guide21-02.webp" alt="duckovgame 3" width="50%" style="width: 50%;"></p>
+    
+    <h2><strong>第七章：新计划、背叛与防空导弹</strong></h2>
+    
+    <p>好了，当问题解决后，**Xiao Ming（小明）**，一个也被解雇的杰夫的前同事，主动联系了他并加入了团队。对于逃生，小明比杰夫可靠得多。按照他的指示，我们从零尸体区一路战斗到农场镇，找到了实验室的**地下研究区**。这里的安保人员已经完全沦为**暴徒**：持枪者、投弹手，甚至是“**玩屎人**”，每个人都形成了自己的派系，相互之间保持着脆弱的平衡。经过多次生死攸关的渗透，我们终于获得了飞船所需的所有系统。小明不负众望，将一辆**旅行露营车改装成了一艘飞船**。但在改装完成的那天，杰夫和他的团队送来了一个消息：系统不允许我们撤离，因为**非法组队**。好吧，实际上，是因为船上系统太多，**座位不够**。他们的计划是他们先离开，然后再回来接我们。你相信吗？我不相信，但他们只是在通知我们。明天，他们将正式撤离。谁在乎呢？最坏的情况是，我们明天干掉他们中的一个，腾出空间给我们。</p>
+    
+    <p>第二天，当飞船即将起飞时，我们发现自己无法开火，犹豫不决。好吧，我们最后一次相信他们。我们挥手告别，但就在那时，一枚**防空导弹**从无法进入的风暴区内的某个地方发射。导弹准确地击中了杰夫的飞船。现在我是**最后的幸存者**，目睹了这一切，心灰意冷。在最终目睹世界的毁灭之后，我将与它一同灭亡。结局之后，我们在**末日前一天重生**了。在上一世，我们独自死去，被抛弃。在这一世，我们绝对不会重蹈覆辙。我告诉杰夫和他的团队关于防空导弹的事情。作为内部实验室人员，他们以前听说过谣言，但在上一世，逃生如此接近，他们忘记了这个关键信息。因此，他们再次引导我潜入地下实验室。在实验室上层的**西北角**，我们发现了一个以前没有进入过的房间。为了潜入这个房间，我们进入了实验室的 1 层，**恢复了房间的电源**，并因此遇到了实验室**完全隐形**的造物。</p>
+    
+    <h2><strong>第八章：直面威胁与新的希望</strong></h2>
+    
+    <p>回到上层西北角的房间，我们遇到了一个名为 **Barricade（路障）**的造物。击败它之后，我们获得了实验室**风暴区 3 级通行证**。最终，我们可以解决一切了。我们竭尽全力战斗，最终在风暴区杀死了实验室的中级武器 **[REDACTED]**，获得了**禁用防空系统**的钥匙。在禁用防空导弹时，还有一个意外的收获。从风暴区的一台电脑上，我们可以**下载新的飞船技术**。有了这项技术，小明和他的团队可以为飞船**再增加一个座位**。我们的家人终于可以一起撤离了，圆满结束。</p>
+    
+        `,
   }
 ]

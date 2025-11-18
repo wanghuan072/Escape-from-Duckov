@@ -2414,7 +2414,237 @@ export const guides = [
           </li>
       </ul>
           `
+    },
+
+    {
+        "id": 20,
+        "title": "Le Guide Ultime des Meilleures Armes dans Escape From Duckov",
+        "iframeUrl": "1",
+        "description": "Dominez Escape From Duckov avec le bon arsenal ! Ce guide révèle les meilleurs choix d'armes pour chaque style de jeu, du corps à corps furtif au tir de précision à longue portée. Découvrez les munitions, mods et atouts essentiels pour maximiser votre survie dans ce monde brutal !",
+        "tags": [
+            "Escape From Duckov",
+            "Guide des Meilleures Armes",
+            "Armes de Mêlée",
+            "Armes à Distance",
+            "Mods d'Armes"
+        ],
+        "publishDate": "2025-11-17",
+        "imageUrl": "/images/guide20.webp",
+        "imageAlt": "Un personnage joueur dans Escape From Duckov maniant un puissant fusil, présentant le guide ultime des armes.",
+        "category": "advanced",
+        "seo": {
+            "title": "Le Guide Ultime des Meilleures Armes dans Escape From Duckov",
+            "description": "Débloquez les meilleures armes dans Escape From Duckov ! Ce guide ultime fournit une analyse approfondie des armes de mêlée et à distance, des mods et des atouts pour la survie.",
+            "keywords": "Escape From Duckov, guide des armes, meilleures armes, mêlée, à distance, MDR-556, MDR-762, Hache Épique, munitions, mods, atouts, survie, trucs et astuces"
+        },
+        "addressBar": "/the-ultimate-guide-to-the-best-weapons-in-escape-from-duckov",
+        "detailsHtml": `
+          <p>Dans le monde intense et impitoyable de <em>Escape From Duckov</em>, chaque combat est bref mais brutal. Choisir la bonne arme peut faire la différence entre survivre à un raid et connaître une fin prématurée, mais il n'existe pas de "meilleure arme" universelle. Comme le soulignent les joueurs chevronnés, le choix idéal dépend de trois facteurs fondamentaux : votre style de jeu, votre étape de progression dans le jeu et l'équipement dont vous disposez. Pire encore, demander une réponse "taille unique" néglige souvent l'équilibre surprenant des armes du jeu : aucun outil ne domine tous les scénarios, et des tâches spécifiques feront toujours briller certaines options plus que d'autres. Ce guide intègre les informations de la communauté et l'expérience 实战 (pratique) pour présenter les meilleures armes pour chaque rôle, de la mêlée et des armes polyvalentes aux snipers spécialisés, ainsi que des conseils cruciaux sur les munitions, les mods et les atouts qui comptent souvent plus que l'arme elle-même.</p>
+      
+      <p>
+        <img src="/images/guide/guide20-01.webp" alt="Les Meilleures Armes dans Escape From Duckov 2" width="50%" style="width: 50%;">
+      </p>
+      
+      <h2><strong>Mêlée et Polyvalentes : Choix Fondamentaux pour Chaque Joueur</strong></h2>
+      
+      <p>Avant de plonger dans les armes à distance, ne négligez pas la mêlée : le consensus de la communauté confirme la **Hache Épique** comme le choix suprême incontesté pour les bagarres rapprochées lorsque la furtivité ou la conservation des munitions est essentielle. Pour les armes polyvalentes à distance, deux options se démarquent : le classique **DT MDR-556** et le **MDR-762** à fort impact.</p>
+      
+      <p>Le **DT MDR-556** reste un bourreau de travail fiable. Sur le papier, il n'est peut-être pas en tête de toutes les listes de niveaux, mais dans les raids réels, sa vitesse, sa contrôlabilité et sa précision lors du tir soutenu (avec des mods) en font un favori tant pour les nouveaux joueurs que pour les vétérans. Pour ceux qui recherchent plus de puissance d'arrêt, le **MDR-762** (une alternative recommandée par la communauté) se présente comme une option de fusil de combat, équilibrant les dégâts avec la polyvalence. Pendant ce temps, le **RPK** obtient de bonnes notes de la part des joueurs en tant qu'arme polyvalente exceptionnelle – sa performance constante en fait un choix solide lorsque vous avez besoin d'une arme qui s'adapte à la plupart des rencontres sans spécialisation.</p>
+      
+      <p>Pour maximiser ces armes polyvalentes, donnez la priorité aux mods qui ciblent les statistiques critiques. Les joueurs ne jurent que par l'ajustement du **recul horizontal** en premier – cette statistique a un impact plus important sur le contrôle que le recul vertical pour la plupart des styles de jeu. Pour le DT MDR-556, associez le **Muzzle de Dégâts de Fusil II** à une **Poignée Équilibrée** pour resserrer le recul, maintenant votre visée stable pour les tirs à la tête consécutifs. Cette configuration en fait un véritable outil toutes portées, gérant les engagements à moyenne portée et les rencontres rapprochées inattendues avec la même facilité. Pour le MDR-762, concentrez-vous sur les accessoires de réduction de recul pour atténuer son léger coup de pied plus élevé, et ajoutez une visée à acquisition rapide pour maintenir sa polyvalence.</p>
+      
+      <h2><strong>Meilleures Armes par Rôle</strong></h2>
+      
+      <p>Différents rôles exigent différents outils, et maîtriser cette correspondance augmentera considérablement votre taux de survie. Vous trouverez ci-dessous les choix approuvés par la communauté, organisés par rôle, avec des notes spéciales sur les cas d'utilisation spécifiques aux ennemis (comme les fusils de chasse pour les fantômes, selon les conseils des joueurs).</p>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Snipers : Dominance à Longue Portée</strong></h3>
+      
+      <p>Lors de l'élimination d'ennemis à distance, trois snipers obtiennent les éloges de la communauté : le **M107** de haute puissance, le **SV-98** précis et le **VPO-101 (Lordon)** sous-estimé. Chacun répond à différents styles de jeu, de la force brute à la furtivité.</p>
+      
+      <ol>
+        <li>**M107** : Si la puissance d'arrêt brute n'est pas négociable, le M107 est inégalé. Il élimine les cibles blindées et les boss avec facilité, ce qui vaut le compromis de son poids et de sa manipulation lente pour un potentiel de tir unique. Associez-le à des atouts Tireur d'élite/Totem, des balles bleues AP et une lunette de précision pour maximiser sa létalité ; cette configuration vous offre une plus grande marge d'erreur que la plupart des snipers.</li>
+      
+        <li>**SV-98** : Un favori constant pour les joueurs qui valorisent la précision et la vitesse plutôt que la force brute. Son excellente vitesse de balle et sa visée rapide le rendent parfait pour des tirs fiables à longue portée sans l'encombrement du M107. Comme pour le M107, les atouts Tireur d'élite/Totem et les balles bleues AP garantissent des éliminations en un seul coup sur la plupart des ennemis typiques.</li>
+      
+        <li>**VPO-101 (Lordon)** : Un joyau axé sur la furtivité mis en évidence par les membres de la communauté. Il excelle pour les joueurs qui préfèrent les éliminations silencieuses à longue portée, idéal pour éviter la détection tout en contrôlant les lignes de vue. Associez-le à des mods de silencieux et à des munitions à haute pénétration pour garder votre présence cachée tout en éliminant des cibles clés.</li>
+      </ol>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Combat Rapproché (CQC) : Dominer les Espaces Restreints</strong></h3>
+      
+      <p>Dans les espaces restreints comme les bâtiments ou les couloirs, vous avez besoin d'armes qui infligent des dégâts rapides et massifs, essentiels pour arrêter les ennemis fantômes (comme le notent les joueurs) ou repousser les assauts de pièces. Les fusils de chasse et les SMG dominent ici, avec des favoris de la communauté ajoutant de la profondeur à la méta.</p>
+      
+      <ol>
+        <li>**MP-155 ULTIMA (Fusil de Chasse)** : Le meilleur fusil de chasse pour le CQC, selon les listes de niveaux et les retours des joueurs. Sa grande capacité de cartouches et ses rechargements rapides interrompent les poussées ennemies avant qu'elles ne prennent de l'ampleur, parfait pour les rencontres de fantômes ou le nettoyage de pièces encombrées. Modifiez-le avec un canon court et un viseur réflexe pour améliorer la maniabilité dans les espaces restreints.</li>
+      
+        <li>**MP7 (y compris la variante Électrique)** : Le roi des SMG en CQC, grâce à son temps de tuer imbattable et à sa manipulation rapide. Les joueurs agressifs qui sprintent, glissent et nettoient les pièces adoreront ses performances de tir au jugé. Comme le conseille un joueur, le tir en rafale (au lieu de la pulvérisation) maximise la précision sans gaspiller de munitions, même avec son faible recul.</li>
+      
+        <li>**Vector (SMG)** : Une option légère et économique pour le nettoyage de pièces en début de partie. Il n'est peut-être pas à la hauteur des performances du MP7, mais sa maniabilité vive en fait un tremplin solide jusqu'à ce que vous débloquiez un meilleur équipement.</li>
+      
+        <li>**MP5 et SR-3M (SMG)** : Chouchous de la communauté pour un jeu CQC équilibré. Le MP5 offre un contrôle de recul fiable pour les combats soutenus, tandis que le SR-3M mise sur des dégâts plus élevés pour des éliminations rapides. Les deux fonctionnent bien avec des tactiques de rafales au jugé et sont faciles à modifier pour réduire le recul horizontal.</li>
+      
+        <li>**Bizon-2 (SMG)** : Un succès inattendu mis en évidence par les joueurs. Sa grande capacité de chargeur le rend idéal pour les engagements CQC prolongés, et son recul gérable (avec des mods) le maintient compétitif face aux SMG de niveau supérieur. Il est particulièrement utile pour les nouveaux joueurs qui maîtrisent encore la gestion des munitions.</li>
+      </ol>
+      
+      <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Fusils et Fusils de Combat : Maîtres de Moyenne Portée</strong></h3>
+      
+      <p>Les fusils trouvent l'équilibre parfait entre le combat rapproché et le combat à moyenne portée, tandis que les fusils de combat misent sur la précision ADS (viser avec la mire) pour les engagements plus longs. Les retours de la communauté ajoutent plusieurs choix clés à la méta, avec l'**AK-103** se démarquant comme un favori des fans.</p>
+      
+      <ol>
+        <li>**AK-103** : Comme les joueurs le confirment à plusieurs reprises, ce fusil est un choix de premier ordre "solide". Il frappe fort, gère les combats à moyenne portée avec facilité et répond bien aux mods, ce qui en fait un choix fiable pour les joueurs équilibrés. Concentrez-vous sur les accessoires de réduction de recul et les munitions à haute pénétration pour nettoyer efficacement les ennemis.</li>
+      
+        <li>**AK-47 de Flamme** : Une variante qui échange un recul mineur contre un effet de brûlure. Cela le rend plus facile à contrôler que les AK de base, en particulier dans les escarmouches chaotiques à moyenne portée où chaque seconde compte.</li>
+      
+        <li>**STG 77A3 et MF (Fusils)** : Alternatives recommandées par la communauté à la ligne AK. Le STG 77A3 offre un recul plus doux pour les nouveaux joueurs, tandis que le MF mise sur une cadence de tir plus rapide pour les poussées agressives à moyenne portée. Les deux se marient bien avec des mods hybrides (réduction de la dispersion du tir au jugé + vitesse ADS) pour s'adapter aux rencontres changeantes.</li>
+      
+        <li>**M1A et MCX Spear (Fusils de Combat)** : Pour les joueurs qui privilégient la précision ADS, ces armes sont des incontournables. Le M1A est un choix classique avec des dégâts constants, tandis que le **MCX Spear** très recherché (souvent appelé "Sig Spear" par les joueurs) est un favori de fin de partie, bien que de nombreux joueurs notent qu'ils utilisent le MDR-762 comme alternative de premier niveau jusqu'à ce qu'ils le débloquent. Les deux exigent un engagement envers les lignes de vue et les tirs à la tête, mais leur production de dégâts récompense une visée prudente.</li>
+      </ol>
+      
+      <h2><strong>Aperçu de la Liste de Niveaux : Classements Populaires des Armes</strong></h2>
+      
+      <p>
+        <img src="/images/guide/guide20-02.webp" alt="Les Meilleures Armes dans Escape From Duckov 3 " width="50%" style="width: 50%;">
+      </p>
+      
+      <p>Dans divers classements, il existe un consensus général sur les armes qui se démarquent. Voici un aperçu de la liste de niveaux pour vous aider à évaluer la performance globale des différentes armes :</p>
+      
+      <p>Niveau Armes</p>
+      
+      <p> S</p>
+      
+      <p>Hache Épique (Mêlée), MCX Spear, SV-98, MP7, M14, AS Val, M700, Desert Eagle</p>
+      
+      <p>A</p>
+      
+      <p>UZI, M1A, RPG-7, Mosin-Nagant, DT MDR-556, MDR-762, MP-155 ULTIMA, AK-103</p>
+      
+      <p>B</p>
+      
+      <p>Vector, MP5, StG 77A3, SR-3M, AK-47 de Flamme, Bizon-2, VPO-101 (Lordon)</p>
+      
+      <p>C</p>
+      
+      <p>SKS-45, PPSh, MP-155, ADAR 2-15, Pistolet PM, Fusil de Chasse Fait Main</p>
+      
+      <p>Certains classements incluent un niveau S+, qui présente généralement le **M107** (sniper) et le **MCX Spear** (fusil de combat) comme pinacles de fin de partie. L'UZI reste un joker, oscillant entre les niveaux, mais il est universellement salué comme un choix solide en début de partie ou pour la mobilité, et non comme une arme principale en fin de partie. N'oubliez pas : cette liste de niveaux est un point de départ, pas une règle. L'équilibre du jeu signifie qu'une arme de niveau B avec les bonnes munitions et les bons atouts peut surpasser une arme de niveau S entre de bonnes mains.</p>
+      
+      <p><br></p>
+      
+      <h2><strong>Choisir des Armes Basé sur le Style de Jeu : Tir au Jugé vs. ADS</strong></h2>
+      
+      <p>Votre style de jeu est le facteur décisif ultime pour le choix des armes, et nulle part cela n'est plus clair que dans le débat tir au jugé contre ADS. Les joueurs soulignent que même au sein des classes d'armes, des tactiques comme le tir en rafale peuvent changer considérablement les performances, alors ne vous contentez pas de choisir une arme, choisissez une stratégie.</p>
+      
+      <ol>
+        <li>**Amateurs de Tir au Jugé** : Les SMG comme le MP7, le MP5 et le Bizon-2 sont idéaux. Conçus pour un gameplay de course et tir, ils vous permettent de sprinter, de glisser et de nettoyer des pièces sans ralentir pour viser. Conseil de pro de la communauté : évitez de maintenir la gâchette enfoncée pour pulvériser – les tirs en rafale rapides maintiennent la précision tout en capitalisant sur leur faible recul.</li>
+      
+        <li>**Joueurs Équilibrés** : Les fusils comme le DT MDR-556, l'AK-103 et le STG 77A3 atteignent le point idéal. Ils ont un tir au jugé fonctionnel pour les rencontres rapprochées et un ADS plus rapide et plus stable pour la précision à moyenne portée. Les mods qui réduisent à la fois la dispersion du tir au jugé et le recul horizontal maximiseront leur adaptabilité.</li>
+      
+        <li>**Spécialistes ADS** : Les fusils de combat et les snipers sont votre domaine. Les fusils de combat comme le M1A et le MCX Spear exigent un engagement envers les lignes de vue et les tirs à la tête – oubliez les dispersions de tir au jugé indulgentes. Les snipers (M107, SV-98, VPO-101) reposent entièrement sur l'ADS ; contrôlez les angles, pré-visez les points d'étranglement et utilisez la furtivité à votre avantage. Pour une mobilité extrême avec un potentiel ADS, essayez des pistolets comme le Desert Eagle (qui utilise des munitions MAG de haute puissance) comme arme principale, bien que la plupart des joueurs sautent les armes secondaires pour économiser du poids.</li>
+      </ol>
+      
+      <h2><strong>Munitions, Mods et Atouts : Les Secrets de la Dominance des Armes</strong></h2>
+      
+      <p>Voici une dure vérité de la communauté : les munitions, les accessoires, les totems et les atouts ont un impact plus important sur les dégâts que l'arme elle-même. Même une arme économique avec des munitions de premier niveau surpassera une arme légendaire avec des cartouches de base. Vous trouverez ci-dessous les conseils les plus critiques :</p>
+      
+      <ol>
+        <li>**Munitions D'abord, Arme Ensuite** : C'est le conseil n° 1 de la communauté. Faites toujours correspondre vos munitions au niveau d'armure de l'ennemi : les munitions à haute pénétration (comme les balles bleues AP) transformeront un fusil de niveau intermédiaire en un tueur d'ennemis blindés, tandis que les munitions faibles rendent même les armes de niveau S inefficaces. Pour les snipers, les munitions Tireur d'élite/Totem sont non négociables pour un potentiel de tir unique ; pour les SMG, privilégiez les cartouches à pointe creuse pour les éliminations en CQC.</li>
+      
+        <li>**Modifiez Intelligemment, Pas Lourdement** : Ne surconstruisez pas en début de partie. Donnez la priorité à deux statistiques clés : le **recul horizontal** (le plus grand facteur de contrôle, selon les joueurs) et la **vitesse de visée** (une visée à acquisition rapide bat les lunettes sophistiquées pour la plupart des combats). Pour les SMG, ajoutez une réduction de la dispersion du tir au jugé ; pour les fusils, équilibrez la vitesse ADS et le recul. Réservez les mods lourds comme les chargeurs étendus pour la fin de partie lorsque la gestion du poids est moins critique.</li>
+      
+        <li>**Optiques pour Votre Style de Jeu** : Les lunettes sont excellentes pour le contrôle des couloirs et l'acquisition de cibles hors écran (parfaites pour les snipers et les fusils de combat), mais les viseurs réflexes ou les points rouges sont meilleurs pour le CQC et le jeu de course et tir. Évitez de trop zoomer – une lunette variable 1x-4x est plus polyvalente qu'un 8x fixe pour la plupart des raids.</li>
+      
+        <li>**Les Atouts et les Totems Comptent** : Associez les armes à des atouts complémentaires. Les atouts Tireur d'élite/Totem augmentent les dégâts des snipers, tandis que les atouts de mobilité rendent les SMG encore plus agiles. Ne négligez pas les totems – ils sont souvent la pièce finale qui transforme une bonne arme en une excellente.</li>
+      </ol>
+      
+      <h2><strong>Choix de Début de Partie pour Éviter de Gâcher Votre Raid</strong></h2>
+      
+      <p>Lorsque vous débutez et n'avez pas accès à des armes de haut niveau, ces choix de début de partie vous aideront à survivre et à progresser :</p>
+      
+      <ol>
+        <li>**Pistolet PM** : Une arme de poing de départ pratique avec des rechargements rapides et un faible recul. Il n'est pas puissant, mais il est fiable pour vos premiers raids – associez-le à des munitions à pointe creuse de base pour abattre les ennemis sans armure.</li>
+      
+        <li>**Fusil de Chasse Fait Main** : Simple et fiable, ce fusil inflige des dégâts décents dans les zones d'ouverture pendant que vous vous équipez. C'est une excellente option pour les joueurs qui veulent jouer la sécurité au début.</li>
+      
+        <li>**UZI** : Le meilleur SMG de début de partie. Son excellente mobilité et son contrôle facile le rendent parfait pour apprendre les tactiques de nettoyage de pièce. Vous le trouverez souvent dans les zones d'entrepôt, et avec des mods de recul de base et de bonnes munitions, il tient bon jusqu'à ce que vous débloquiez de meilleures options comme le MP5.</li>
+      </ol>
+      
+      <h2><strong>Réflexions Finales</strong></h2>
+      
+      <p>Dans <em>Escape From Duckov</em>, la meilleure arme pour vous dépend de votre façon de jouer. Si vous voulez une arme qui fait tout, construisez le DT MDR-556 et gardez-le, c'est le tout-rond le plus fiable. Si vous préférez vous spécialiser, le M107 ou le SV-98 domineront les longues lignes de mire, le MP-155 ULTIMA déchirera les couloirs et le MP7 gérera les poussées rapides.</p>
+      
+      <p>N'oubliez pas, il ne s'agit pas seulement de l'arme elle-même : la modifier correctement, choisir les bonnes munitions et l'adapter à votre style de jeu sont tout aussi importants. Avec ce guide en main, vous serez en mesure de choisir l'arme parfaite pour chaque combat et d'augmenter vos chances de vous échapper de Duckov vivant.</p>
+      
+          `
+    },
+    {
+        "id": 21,
+        "title": "L'Histoire Complète de Escape From Duckov : De la Planète Canard à la Trahison Galactique",
+        "iframeUrl": "1",
+        "description": "Plongez dans l'histoire captivante de Escape From Duckov. Découvrez les origines de la civilisation des canards, la menace cosmique invisible, la tempête violette, le plan d'évasion désespéré du Laboratoire J, les super soldats et le rôle du joueur dans un monde au bord de la destruction.",
+        "tags": [
+            "publié",
+            "octobre",
+            "16",
+            "<em>escape",
+            "from"
+        ],
+        "publishDate": "2025-11-17",
+        "imageUrl": "/images/guide/guide21.webp",
+        "imageAlt": "duckovgame 11",
+        "category": "advanced",
+        "seo": {
+            "title": "L'Histoire Complète de Escape From Duckov | Duckovgame.com",
+            "description": "Plongez dans l'histoire captivante de Escape From Duckov. Découvrez les origines de la civilisation des canards, la menace cosmique invisible, le plan d'évasion désespéré du Laboratoire J.",
+            "keywords": "Histoire de Escape From Duckov, histoire du jeu, Contexte de Duckov, planète Akov, Laboratoire J, tempête violette, civilisation cosmique, super soldats, Bomb Maniac, Dieu à Peau Bleue, récit du jeu, voyage du joueur, intrigue du jeu, univers de Escape From Duckov, invasion extraterrestre, trahison"
+        },
+        "addressBar": "/the-complete-lore-of-escape-from-duckov",
+        "detailsHtml": `
+          <p>Sorti le 16 octobre, <em>Escape From Duckov</em> a connu un succès remarquable en seulement une semaine, se vendant à plus d'un million d'exemplaires et atteignant un pic de joueurs simultanés de plus de 300 000. Le 28, les ventes ont de nouveau grimpé à un étonnant 2 millions. De nombreux joueurs sont probablement entrés avec un état d'esprit de « essayons », seulement pour être accrochés par ces adorables canards. Ce jeu, peut-être le jeu de récupération majeur le moins « Escape From Tarkov-like », a même été reconnu par le créateur de Tarkov lui-même. La popularité explosive de Duckov provient de son gameplay humoristique mais hardcore et du dévouement de tous ses auteurs de mods. Le plaisir à long terme dérivé de la récupération et de la progression, associé à l'expérience de jeu distincte offerte par diverses armes – même le combat de mêlée – le rend incroyablement addictif. Mais aujourd'hui, changeons notre perspective sur ce jeu de plus en plus populaire et explorons l'histoire qu'il raconte vraiment.</p>
+      
+      <p><img src="/images/guide/guide21-01.webp" alt="duckovgame 1" width="50%" style="width: 50%;"></p>
+      
+      <h2><strong>Chapitre 1 : La Planète Canard et une Menace Invisible</strong></h2>
+      
+      <p>Dans le vaste cosmos, il existe une planète appelée Akov. Ses habitants sont des créatures intelligentes ressemblant à des canards qui ont construit de belles et prospères villes à travers leur monde. Notre histoire se déroule dans l'une de ces villes, où réside une installation cachée connue sous le nom de **Laboratoire J**. Leur ambition s'étendait au champ stellaire illimité, mais ils étaient naïfs, comme si le cosmos était une divinité bienveillante qui leur accorderait tous leurs souhaits. Les installations de la ville étaient entièrement autosuffisantes, un témoignage de leur vie douillette, s'occupant de leur « lopin de terre d'un acre ». Il semblait que cette vie pouvait continuer indéfiniment, jusqu'à ce qu'une civilisation des étoiles arrive. Cependant, cette civilisation n'a même jamais montré son visage, laissant les canards complètement non préparés à la crise imminente. Pour les canards, cette civilisation ne pouvait même pas être qualifiée d'ennemi ; la disparité entre eux était tout simplement trop vaste. Ainsi, les nouveaux arrivants n'étaient pas là pour antagoniser les canards.</p>
+      
+      <p>Si l'univers était un arbre florissant, chaque planète étant un fruit qu'il portait, alors cette civilisation était comme un ver. Ils extrayaient directement l'énergie des planètes. Bien que « tuer la poule aux œufs d'or » ne soit pas idéal, c'est différent quand il s'agit de la poule de quelqu'un d'autre. Cette civilisation, semblable à des pirates interstellaires, faisait cela depuis longtemps. Ils avaient même asservi des divinités. Mais comme le dit le proverbe, tant va la cruche à l'eau qu'à la fin elle se brise. Leurs actions précédentes leur avaient valu un ennemi éternel. Après tout, dans la durée de vie presque infinie d'une divinité, ils avaient simplement besoin d'un peu de divertissement, tant qu'ils n'en faisaient plus trop. Cette fois, par exemple, la divinité décida de causer des problèmes à ces pirates. Quant aux canards, qui s'en souciait ?</p>
+      
+      <h2><strong>Chapitre 2 : La Tempête Violette et une Planète Condamnée</strong></h2>
+      
+      <p>Alors qu'ils extrayaient de l'énergie d'Akov, les pirates découvrirent l'« assaisonnement » ajouté par la divinité. Les cristaux bleus habituels extraits de l'intérieur de la planète avaient disparu, remplacés par une énergie violette furieuse. L'explosion soudaine d'énergie violette prit les pirates au dépourvu. Un vaisseau spatial s'est même écrasé, incapable d'échapper à la zone d'explosion à temps. C'est alors que le commandant de la flotte réalisa finalement qu'ils avaient été trompés. Le commandant ordonna à la flotte d'abandonner l'opération. Ainsi, les pirates payèrent le prix, la divinité récolta de la joie, et les canards se retrouvèrent avec une planète mourante. Elle était condamnée, bien que la destruction ne vienne pas du jour au lendemain. Aux premiers stades de l'éruption de la tempête, les canards ne réalisaient même pas leur destin inéluctable. Lors de la première tempête, certains ont été témoins de vaisseaux spatiaux extraterrestres ressemblant à des ours d'eau, étonnamment similaires aux descriptions de dieux maléfiques dans une ancienne religion appelée le « Culte Dispersé ». Par des murmures et des rumeurs, le Culte Dispersé gagna secrètement de nombreux contes bizarres et adeptes. À partir de ce moment, Akov subit une tempête violette tous les 10 jours. La bonne nouvelle était que les tempêtes n'étaient pas perpétuelles ; la mauvaise nouvelle était que le jour où elles disparaîtraient entièrement serait le jour où tout le monde cesserait d'exister.</p>
+      
+      <h2><strong>Chapitre 3 : Le Plan d'Évasion du Laboratoire J et les Super Soldats</strong></h2>
+      
+      <p>Comme mentionné précédemment, le **Laboratoire J**, n'étant pas loin de la zone de tempête, dépêcha secrètement une équipe d'expédition immédiatement. En étudiant le vaisseau spatial écrasé, leur technologie progressa rapidement et ils maîtrisèrent la méthode de création d'armes à énergie. Bien que les armes à énergie n'offrent qu'une amélioration limitée par rapport aux armes à poudre traditionnelles, ce produit monopolisé amassa rapidement une vaste richesse pour le Laboratoire J. Simultanément, ils découvrirent la destruction imminente de la planète. Pour survivre, ils investirent toute cette richesse dans le développement d'un vaisseau spatial, cherchant à s'échapper d'Akov, un navire destiné à couler. Pour réaliser ce plan, ils recrutèrent un grand nombre de mercenaires pour assurer la sécurité de leur recherche, promettant d'emmener ces mercenaires hors de la planète en guise de paiement. L'élite parmi eux, avec l'aide du laboratoire, gagna de puissantes capacités en fusionnant des drogues infusées de substance de tempête provenant de capsules de sommeil. Cependant, le laboratoire ne pouvait pas contrôler complètement cette énergie dérivée de la planète, ce qui entraînait des défauts chez ces super soldats. Sans exception, leurs personnalités devinrent plus impulsives, irritables ou plutôt guerrières, semant les graines du chaos futur.</p>
+      
+      <h2><strong>Chapitre 4 : Créations Ratées et le Dieu à Peau Bleue</strong></h2>
+      
+      <p>Peut-être sentant le manque de fiabilité des mercenaires, le laboratoire créa un guerrier qui n'aurait pas dû exister dans ce monde : [DONNÉES CENSURÉES]. Cependant, cette magnifique création était entièrement au-delà de leur contrôle. Alors, pour restreindre [DONNÉES CENSURÉES], ils lancèrent immédiatement le **Projet Quatre Cavaliers**. Mais en achevant le plan, ils réalisèrent qu'ils ne pouvaient pas non plus contrôler complètement les Quatre Cavaliers. Un mensonge en entraîne dix, et peut-être que les choses qui ne sont pas destinées à être contrôlées devraient le rester. Pendant que le laboratoire exécutait son plan d'évasion, l'instigateur, la divinité dispersée, le **Dieu à Peau Bleue**, que ce soit par culpabilité ou pour d'autres raisons, descendit également sur Akov. Ensuite, il fut à nouveau réprimé. Après avoir été contrôlé par une civilisation supérieure pendant 50 ans, le Dieu à Peau Bleue fut de nouveau tenu captif. Il fut emprisonné par **Bomb Maniac**, un super soldat fusionné avec de l'énergie, dans un quartier d'entrepôts, au sein d'un ravin rempli de gaz toxique. Incidemment, Bomb Maniac vola sa capsule de sommeil au chef du culte. Pour le Dieu à Peau Bleue, c'était une justice poétique, car le gaz toxique provenait d'une technologie qu'il avait lui-même fournie – une technologie maléfique censée purifier les âmes. Les cubes d'âme bleus purifiés, après un traitement ultérieur, deviendraient un liquide volatil vert. Il appelait ce liquide vert « sirop de cola ». Le sirop était corrosif et non directement buvable, mais après un simple retraitement, il deviendrait le meilleur cola du monde. Soit dit en passant, même avec le meilleur cola du monde devant nous, notre Type de Boue n'y jetterait pas un coup d'œil ; il est vraiment, incroyablement cool. Peut-être à cause de la fusion d'énergie, ou peut-être que Bomb Maniac était simplement intrinsèquement imprudent, il a gâché les choses. Le sirop de cola a fui, remplissant le ravin de gaz toxique, et il n'avait aucun moyen de s'en occuper. Alors, il décida de déménager à Farm Town et d'ouvrir une autre usine. Croyant qu'il savait tout grâce au Dieu à Peau Bleue, il n'avait aucune intention de le libérer. Mais ses progrès à Farm Town n'ont pas été fluides. Le pot aux roses a été découvert ; le laboratoire découvrit son vol de la capsule de sommeil et dépêcha une équipe d'araignées mécaniques pour s'occuper du voleur. Cependant, les araignées mécaniques ne se soucient pas du gaz toxique, ou peut-être que le laboratoire les a envoyées en connaissant le sirop de cola. En tout cas, bien que Bomb Maniac se soit échappé, son usine de cola fut une fois de plus détruite et son plan pour devenir riche rapidement fut contrecarré.</p>
+      
+      <h2><strong>Chapitre 5 : Un Monde Désespéré et la Trahison</strong></h2>
+      
+      <p>Dans le contexte d'un monde mourant, les individus cupides ne manquent pas. Par exemple, il y a le **Mineur** qui utilise les cartes graphiques que le laboratoire lui a confiées pour miner de la crypto-monnaie, le **Intimidateur de l'École** qui, en tant que champion de la ville d'un concours de lancer de marteau, occupe l'école, et les joueurs qui récupèrent partout. Il y a aussi ceux abandonnés par le laboratoire, laissés sur la planète pour profiter des derniers privilèges du **Compte Zéro de Corps**. Oh oui, le laboratoire a rompu sa promesse ; ils n'ont pas emmené ces mercenaires sanguinaires, ni même tous leurs propres chercheurs. Pour produire suffisamment de vaisseaux spatiaux, le laboratoire a accéléré l'extraction de cristaux, et avec l'augmentation de l'extraction, l'effondrement de la planète s'est également accéléré. Le laboratoire a rapidement conclu qu'ils ne pouvaient pas produire suffisamment de vaisseaux spatiaux avant la destruction de la planète. De combien de vaisseaux spatiaux avaient-ils besoin alors ? La réponse a émergé avec la question : juste assez pour que les parties indispensables puissent s'échapper. Après tout, personne ne pouvait prédire l'heure exacte de la disparition de la planète. Ainsi, les mercenaires, et même les employés non essentiels du laboratoire, ont été abandonnés. Une fois qu'ils eurent construit suffisamment de navires, ceux qui étaient au courant montèrent tranquillement à bord et s'enfuirent de la planète, laissant derrière eux un monde désespéré et un groupe d'individus sans espoir luttant dans l'apocalypse.</p>
+      
+      <p><br></p>
+      
+      <h2><strong>Chapitre 6 : La Seconde Chance de Jeff et le Rôle du Joueur</strong></h2>
+      
+      <p>Une quantité considérable de temps s'est écoulée depuis que le laboratoire a quitté Akov, et la nouvelle de la destruction imminente de la planète est très répandue. L'ordre, les règles et toutes les formes d'existence structurée ont disparu sans laisser de trace. Tout le monde est tombé dans une stupeur bizarre et hédoniste, pourtant certains refusent d'abandonner. Prenez **Jeff**, un ancien employé du Laboratoire J. Il ressentait à la fois de la colère et de l'impuissance d'être abandonné par le laboratoire. Après tout, il a été surpris en train de se relâcher. Comme il ne pouvait pas s'intégrer dans l'équipe précédente, il décida de construire la sienne. Étant technicien, il n'était clairement pas à la hauteur des combattants bruts, alors il chercha un exécuteur capable et agile. Pour cela, il a ciblé les prisonniers. Il s'est ensuite infiltré dans la prison, sauvant une figure importante : nous, les joueurs. Après s'être échappé de la prison et être arrivé à la cachette de Jeff, Jeff a contacté deux vieux amis dans le secteur des armes et de l'équipement pour nous fournir l'équipement nécessaire. En errant dans la Zone Compte Zéro de Corps, nous avons également rencontré un sportif : **Niba**. Croyez-moi, c'est pratiquement un surhomme. Tout s'est déroulé sans heurts, mais Jeff avait une chose qu'il n'avait dite à personne. Il se relâchait au travail non pas parce que sa capacité de travail était suffisamment exceptionnelle pour accomplir des tâches en se relâchant – sinon, le laboratoire n'aurait peut-être pas l'aurait pas renvoyé. Il pouvait à peine gérer la technologie de base d'Akov, mais il manquait de compréhension approfondie des technologies de pointe des vaisseaux spatiaux et de l'énergie de tempête. Peut-être qu'il sentait lui-même que s'il nous disait la vérité, nous pourrions simplement lui tirer dessus.</p>
+      
+      <p><img src="/images/guide/guide21-02.webp" alt="duckovgame 3" width="50%" style="width: 50%;"></p>
+      
+      <h2><strong>Chapitre 7 : Un Nouveau Plan, la Trahison et le Missile Antiaérien</strong></h2>
+      
+      <p>Eh bien, lorsque le problème fut résolu, **Xiao Ming**, un ancien collègue de Jeff qui a également été renvoyé, le contacta de manière proactive et rejoignit l'équipe. Pour l'évasion, Xiao Ming était bien plus fiable que Jeff. En suivant ses instructions, nous nous sommes frayé un chemin de la Zone Compte Zéro de Corps à Farm Town et avons trouvé la zone de recherche souterraine du laboratoire. Le personnel de sécurité ici avait complètement dégénéré en émeutiers : porteurs d'armes à feu, lanceurs de bombes et même « joueurs de caca », chacun formant sa propre faction, maintenant un équilibre fragile entre eux. Après de multiples infiltrations de vie ou de mort, nous avons finalement obtenu tous les systèmes nécessaires pour le vaisseau spatial. Xiao Ming, à la hauteur des attentes, a converti un camping-car de voyage en vaisseau spatial. Mais le jour où la conversion fut terminée, Jeff et son équipe livrèrent un message : le système ne nous permettrait pas d'évacuer en raison d'une équipe illégale. D'accord, en fait, c'était parce que le navire contenait trop de systèmes et qu'il n'y avait pas assez de sièges. Leur plan était qu'ils partent en premier, puis reviennent nous chercher plus tard. Croyez-vous cela ? Je ne l'ai pas cru, mais ils nous informaient simplement. Demain, ils évacueraient officiellement. Qui s'en soucie ? Au pire, nous en éliminerions un demain pour faire de la place pour nous.</p>
+      
+      <p>Le lendemain, alors que le vaisseau spatial était sur le point de décoller, nous nous sommes retrouvés incapables d'ouvrir le feu, indécis. Très bien, nous leur ferions confiance une dernière fois. Nous avons fait signe de la main, mais juste à ce moment-là, un missile antiaérien a été lancé de quelque part dans la zone de tempête inaccessible. Le missile a touché avec précision le vaisseau spatial de Jeff. Maintenant, j'étais le dernier survivant, témoin de tout cela, découragé. Après avoir finalement assisté à la destruction du monde, je périrais avec lui. Après la fin, nous sommes renés la veille de la fin. Dans la vie précédente, nous sommes morts seuls, abandonnés. Dans cette vie, nous ne répéterions absolument pas cette erreur. J'ai parlé à Jeff et à son équipe du missile antiaérien. Étant du personnel interne du laboratoire, ils avaient déjà entendu des rumeurs, mais dans la vie précédente, avec l'évasion si proche, ils avaient oublié cette information cruciale. Ainsi, ils m'ont à nouveau guidé pour infiltrer le laboratoire souterrain. Dans le coin nord-ouest du niveau supérieur du laboratoire, nous avons trouvé une pièce dans laquelle nous n'étions pas entrés auparavant. Pour nous infiltrer dans cette pièce, nous sommes entrés dans ce 1er étage du laboratoire, avons rétabli l'alimentation électrique de la pièce et avons par conséquent rencontré des créations entièrement invisibles du laboratoire.</p>
+      
+      <h2><strong>Chapitre 8 : Faire Face à la Menace et un Nouvel Espoir</strong></h2>
+      
+      <p>De retour dans la pièce dans le coin supérieur nord-ouest, nous avons rencontré une création appelée **Barricade**. Après l'avoir vaincue, nous avons obtenu le pass de niveau 3 du laboratoire pour la zone de tempête. Enfin, nous pouvions tout résoudre. Combattant de toutes nos forces, nous avons finalement tué l'arme intermédiaire du laboratoire, [DONNÉES CENSURÉES], dans la zone de tempête, obtenant la clé pour désactiver le système antiaérien. En désactivant le missile antiaérien, il y eut un bonus inattendu. À partir d'un ordinateur dans la zone de tempête, nous pouvions télécharger une nouvelle technologie de vaisseau spatial. Avec cette technologie, Xiao Ming et son équipe pourraient ajouter un siège de plus au vaisseau spatial. Notre famille pourrait enfin évacuer ensemble, complet.</p>
+      
+          `
     }
+
 
 
 

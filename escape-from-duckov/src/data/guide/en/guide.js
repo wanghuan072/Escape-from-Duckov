@@ -245,7 +245,7 @@ export const guides = [
         <p>This walkthrough covers the essential first steps in Escape from Duckov. You've successfully escaped the prison, established your base, completed your first Ground Zero expedition, and unlocked multiple quest lines. Check our <a href="/wiki/quests">complete quest database</a> for all available missions. Focus on completing the available quests, upgrading your equipment, and preparing for more challenging expeditions ahead. Explore more <a href="/guides">advanced guides</a> for deeper strategies.</p>
         `
   },
-  
+
   {
     id: 4,
     title: 'Master Core Game Mechanics & Systems',
@@ -1320,7 +1320,7 @@ export const guides = [
     id: 6,
     title: "Escape from Duckov LEDX Acquisition Guide（Update）",
     description: "Looking for the elusive LEDX in Escape from Duckov? This guide breaks down the best methods for acquisition, covering spawn locations, key usage, enemy drops, and market value. Maximize your chances of finding this vital medical item and discover smart trading tips!",
-    tags: ["Escape from Duckov","LEDX","Rare Item","Loot Guide","Sanatorium Key"],
+    tags: ["Escape from Duckov", "LEDX", "Rare Item", "Loot Guide", "Sanatorium Key"],
     publishDate: "2025-11-11",
     imageUrl: "/images/guide/guide06-01.webp",
     imageAlt: "A LEDX Skin Transilluminator in Escape from Duckov displayed on a workbench.",
@@ -1440,7 +1440,7 @@ export const guides = [
   This guide details how to find each J-Lab card, its confirmed spawn areas, and the best search routes to make your lab raids efficient and repeatable. For detailed <a href="/maps">map locations</a> and lab access points, visit our maps section.
 </p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;"><strong>What are J-Lab Cards?</strong></h2>
+<h2><strong>What are J-Lab Cards?</strong></h2>
 
 <p>
   J-Lab Cards are security passes used to access underground research facilities located throughout the Duckov region.
@@ -1457,7 +1457,7 @@ export const guides = [
 
 <p><strong>Note:</strong> Unlike typical key items, these cards are <strong>consumable</strong>; one is consumed each time you enter the lab.</p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 1 Card – Basic Access</strong></h2>
+<h2><strong>J-Lab 1 Card – Basic Access</strong></h2>
 
 <h3 style="font-size: 1.17em; font-weight: bold;"><strong>How to Obtain</strong></h3>
 
@@ -1479,7 +1479,7 @@ export const guides = [
   <li>Required for completing several early objectives related to the main storyline and loot milestones.</li>
 </ol>
 
-<h2 style="font-size: 1.5em; font-weight: bold;"><strong>J-Lab 2 Cards – Deeper Lab Access (Level B1)</strong></h2>
+<h2><strong>J-Lab 2 Cards – Deeper Lab Access (Level B1)</strong></h2>
 
 <h3 style="font-size: 1.17em; font-weight: bold;"><strong>Where to Find It</strong></h3>
 
@@ -1494,7 +1494,7 @@ export const guides = [
   <strong>Tips:</strong> Focus your search on areas patrolled by Wanderers, as they have the highest reported drop rate. Restarting a raid or switching servers may refresh the loot table, increasing your chances of finding a card.
 </p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;"><strong>Colored Access Cards</strong></h2>
+<h2><strong>Colored Access Cards</strong></h2>
 
 <p>
   There are several ways to collect colored access cards for the Laboratory.
@@ -1548,7 +1548,7 @@ export const guides = [
   <img src="/images/guide/guide07-02.webp" alt="J-Lab Access Card (Purple)">
 </p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;"><strong>Scouting and Development Strategy</strong></h2>
+<h2><strong>Scouting and Development Strategy</strong></h2>
 
 <p>For maximum efficiency, follow this route:</p>
 
@@ -1595,7 +1595,7 @@ export const guides = [
   One of the early missions you'll receive in <a href="/">Escape from Duckov</a> is the <strong>"Hunter's Path"</strong> quest, which tasks you with hunting down and eliminating some of the wasteland's more aggressive inhabitants: Rampaging Scavengers. This guide will show you exactly where to find these nimble foes, how to kill them efficiently, and how to complete the quest. Check our <a href="/wiki/quests">quest database</a> for all available missions.
 </p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">
+<h2>
   <strong>Step 1: Where to Find Rampaging Scavengers</strong>
 </h2>
 
@@ -1630,7 +1630,7 @@ export const guides = [
   <strong>Warning:</strong> Be cautious! Once they spot you, Rampaging Scavengers are incredibly fast and will chase you relentlessly, potentially all the way back to the bunker. Do not underestimate their pursuit.
 </p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">
+<h2>
   <strong>Step 2: How to Quickly Kill Rampaging Scavengers</strong>
 </h2>
 
@@ -1657,7 +1657,7 @@ export const guides = [
   <li><strong>Prepare for the Aftermath:</strong> Even if you kill them quickly, you might take a hit. <strong>Bring bandages</strong> to stop any bleeding effects you may suffer during the fight.</li>
 </ul>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">
+<h2>
   <strong>Step 3: Completing the Hunter's Path Quest</strong>
 </h2>
 
@@ -1703,7 +1703,7 @@ export const guides = [
   This guide covers what the Tote Bag does, where to find it, and why you should absolutely keep it.
 </p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">
+<h2>
   <strong>What is the Tote Bag?</strong>
 </h2>
 
@@ -1726,7 +1726,7 @@ export const guides = [
   Unlike other bags, the Tote Bag provides no general inventory bonus, such as extra capacity or weight limit. Its value is entirely functional. Compare it with other <a href="/items/equipment">backpacks and storage items</a> in our equipment database.
 </p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">
+<h2>
   <strong>Where to Find the Tote Bag</strong>
 </h2>
 
@@ -1743,7 +1743,7 @@ export const guides = [
   Once you find a Tote Bag, <strong>do not sell it</strong>. Store it safely in your hideout's warehouse until you are ready to use it.
 </p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">
+<h2>
   <strong>The True Purpose: How to Use the Tote Bag</strong>
 </h2>
 
@@ -1762,7 +1762,7 @@ export const guides = [
   The Red Eye itself provides a powerful and lasting enhancement when used, making the Tote Bag an essential item for any player looking to farm this boss for its unique reward.
 </p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">
+<h2>
   <strong>Tote Bag vs. Decoration Bag: What's the Difference?</strong>
 </h2>
 
@@ -1824,7 +1824,7 @@ export const guides = [
   </li>
 </ul>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">
+<h2>
   <strong>Why You Should Never Sell the Tote Bag</strong>
 </h2>
 
@@ -2018,7 +2018,7 @@ export const guides = [
 
 <p>Let's be real: <strong>You can't keep everything.</strong> Learning what to hoard and what to turn into cold, hard cash is one of the most important skills in this game. So, let's break it down.</p>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">The Golden Rules of Looting</h2>
+<h2>The Golden Rules of Looting</h2>
 
 <p>Before we get into lists, let's start with a mindset.</p>
 
@@ -2028,7 +2028,7 @@ export const guides = [
   <li><strong>The "One of Each" Rule:</strong> When in doubt, keep at least one of every unique item you find. If you find a second one and don't have an immediate use for it, that’s a good candidate for selling.</li>
 </ol>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">The "Never Sell" List: Hoard These Like Your Life Depends On It</h2>
+<h2>The "Never Sell" List: Hoard These Like Your Life Depends On It</h2>
 
 <h3 style="font-size: 1.17em; font-weight: bold;">Quest &amp; Upgrade Essentials:</h3>
 
@@ -2059,7 +2059,7 @@ export const guides = [
   <li>All Keys: Find a key? Keep it. Register it. You never know which one will open a door to life-changing loot.</li>
 </ul>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">The "Safe to Sell" List: Your Money-Makers</h2>
+<h2>The "Safe to Sell" List: Your Money-Makers</h2>
 
 <p>Free up that precious space and line your pockets. These items are generally safe to offload.</p>
 
@@ -2070,7 +2070,7 @@ export const guides = [
   <li><strong>Most Food and Water:</strong> Unless you need a specific type for an upgrade, food and drinks are plentiful. Don't let them clog your inventory.</li>
 </ul>
 
-<h2 style="font-size: 1.5em; font-weight: bold;">The Grey Area: Items to Think Twice About</h2>
+<h2>The Grey Area: Items to Think Twice About</h2>
 
 <p>Some items aren't a simple keep-or-sell.</p>
 
@@ -2219,7 +2219,7 @@ export const guides = [
     id: 19,
     title: "Escape From Duckov: A Complete Guide to the Bronze Pocket Watch Quest",
     description: "Navigate the treacherous landscape of Escape From Duckov to secure the Bronze Pocket Watch! This comprehensive guide provides step-by-step instructions, from acquiring the Mechanical Key to safely extracting with your prize. Master the game's core mechanics and claim your reward from Xavier.",
-    tags: ["Escape From Duckov","Bronze Pocket Watch","Quest Guide","Ground Zero","Xavier"],
+    tags: ["Escape From Duckov", "Bronze Pocket Watch", "Quest Guide", "Ground Zero", "Xavier"],
     publishDate: "2025-11-03",
     imageUrl: "/images/guide19.webp",
     imageAlt: "A player character in Escape From Duckov looting the Bronze Pocket Watch from a truck.",
@@ -2346,6 +2346,224 @@ export const guides = [
         <p>It provides a great early-game boost of XP and currency, teaches essential skills, and unlocks further quests to progress your main storyline.</p>
     </li>
 </ul>
+    `,
+  },
+
+  {
+    id: 20,
+    title: "The Ultimate Guide to the Best Weapons in Escape From Duckov",
+    iframeUrl: "1",
+    description: "Dominate Escape From Duckov with the right arsenal! This guide reveals top weapon choices for every playstyle, from stealthy melee to long-range sniping. Discover essential ammo, mods, and perks to maximize your survival in this brutal world!",
+    tags: ["Escape From Duckov", "Best Weapons Guide", "Melee Weapons", "Ranged Weapons", "Weapon Mods"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/guide20.webp",
+    imageAlt: "A player character in Escape From Duckov wielding a powerful rifle, showcasing the ultimate weapons guide.",
+    category: "advanced",
+    seo: {
+      title: "The Ultimate Guide to the Best Weapons in Escape From Duckov",
+      description: "Unlock the best weapons in Escape From Duckov! This ultimate guide provides in-depth analysis of melee & ranged weapons, mods, and perks for survival.",
+      keywords: "Escape From Duckov, weapons guide, best weapons, melee, ranged, MDR-556, MDR-762, Epic Axe, ammo, mods, perks, survival, tips and tricks",
+    },
+    addressBar: "/the-ultimate-guide-to-the-best-weapons-in-escape-from-duckov",
+    detailsHtml: `
+    <p>In the intense and unforgiving world of <em>Escape From Duckov</em>, every fight is brief yet brutal. Choosing the right weapon can mean the difference between surviving a raid and meeting an untimely end—but there’s no universal "best weapon." As seasoned players emphasize, the ideal pick hinges on three core factors: your playstyle, your in-game progress stage, and the gear available to you. Worse yet, asking for a "one-size-fits-all" answer often overlooks the game’s surprising weapon balance—no single tool dominates every scenario, and specific tasks will always make certain options shine brighter than others. This guide integrates community insights and实战 (hands-on) experience to break down top weapons for every role, from melee and all-rounders to specialized snipers, plus critical tips on ammo, mods, and perks that often matter more than the weapon itself.</p>
+
+<p>
+  <img src="/images/guide/guide20-01.webp" alt="the Best Weapons in Escape From Duckov 2" width="50%" style="width: 50%;">
+</p>
+
+<h2><strong>Melee &amp; All-Rounders: Foundational Picks for Every Player</strong></h2>
+
+<p>Before diving into ranged weapons, don’t overlook melee—community consensus confirms the <strong>Epic Axe</strong> as the undisputed top choice for close-quarters brawls when stealth or ammo conservation is key. For ranged all-rounders, two options stand out: the classic <strong>DT MDR-556</strong> and the hard-hitting <strong>MDR-762</strong>.</p>
+
+<p>The <strong>DT MDR-556</strong> remains a reliable workhorse. On paper, it may not top every tier list, but in real raids, its speed, controllability, and accuracy during sustained fire (with mods) make it a favorite for new and veteran players alike. For those seeking more stopping power, the <strong>MDR-762</strong> (a community-recommended alternative) steps up as a battle rifle option, balancing damage with versatility. Meanwhile, the <strong>RPK</strong> earns high marks from players as a general-purpose standout—its consistent performance makes it a solid pick when you need a weapon that adapts to most encounters without specialization.</p>
+
+<p>To maximize these all-rounders, prioritize mods that target critical stats. Players swear by tweaking <strong>horizontal recoil</strong> first—this stat has a bigger impact on control than vertical recoil for most playstyles. For the DT MDR-556, pair the <strong>Rifle Damage Muzzle II</strong> with a <strong>Balanced Grip</strong> to tighten recoil, keeping your sights steady for consecutive headshots. This setup turns it into a true all-range tool, handling mid-range engagements and unexpected close encounters with equal ease. For the MDR-762, focus on recoil reduction attachments to mitigate its slightly higher kick, and add a quick-acquire sight to maintain its versatility.</p>
+
+<h2><strong>Top Weapons by Role</strong></h2>
+
+<p>Different roles demand different tools, and mastering this match will drastically boost your survival rate. Below are community-vetted picks, organized by role—with special notes on enemy-specific use cases (like shotguns for ghosts, per player tips).</p>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Snipers: Long - Range Dominance</strong></h3>
+
+<p>When eliminating enemies from a distance, three snipers earn community acclaim: the high-power <strong>M107</strong>, the precise <strong>SV-98</strong>, and the underrated <strong>VPO-101 (Lordon)</strong>. Each caters to different playstyles, from brute force to stealth.</p>
+
+<ol>
+  <li><strong>M107</strong>: If raw stopping power is non-negotiable, the M107 is unparalleled. It deletes armored targets and bosses with ease—worth the trade-off of its weight and slow handling for one-shot potential. Pair it with Marksman/Totem perks, AP blue bullets, and a precision scope to maximize its lethality; this setup gives you a larger margin for error than most snipers.</li>
+
+  <li><strong>SV-98</strong>: A consistent favorite for players who value precision and speed over brute force. Its excellent bullet velocity and quick aiming make it perfect for reliable long-range picks without the M107’s bulk. Like the M107, Marksman/Totem perks and AP blue bullets ensure one-shot kills on most typical enemies.</li>
+
+  <li><strong>VPO-101 (Lordon)</strong>: A stealth-focused gem highlighted by community members. It excels for players who prefer quiet, long-range takedowns—ideal for avoiding detection while controlling sightlines. Pair it with suppressor mods and high-penetration ammo to keep your presence hidden while taking out key targets.</li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Close - Quarters Combat (CQC): Dominating Tight Spaces</strong></h3>
+
+<p>In tight spaces like buildings or hallways, you need weapons that deliver fast, massive damage—critical for stopping ghost enemies (as players note) or repelling room rushes. Shotguns and SMGs dominate here, with community favorites adding depth to the meta.</p>
+
+<ol>
+  <li><strong>MP-155 ULTIMA (Shotgun)</strong>: The top shotgun for CQC, per both tier lists and player feedback. Its high shell capacity and quick reloads shut down enemy pushes before they gain momentum—perfect for ghost encounters or clearing clustered rooms. Mod it with a short barrel and reflex sight to boost maneuverability in tight quarters.</li>
+
+  <li><strong>MP7 (including Electric variant)</strong>: The SMG king of CQC, thanks to its unbeatable time-to-kill and quick handling. Aggressive players who sprint, slide, and clear rooms will love its hip-fire performance. As one player advises, burst-firing (instead of spraying) maximizes accuracy without wasting ammo—even with its low recoil.</li>
+
+  <li><strong>Vector (SMG)</strong>: A lightweight, budget-friendly option for early-game room clears. It may not match the MP7’s performance, but its snappy handling makes it a solid stepping stone until you unlock better gear.</li>
+
+  <li><strong>MP5 &amp; SR-3M (SMGs)</strong>: Community darlings for balanced CQC play. The MP5 offers reliable recoil control for sustained fights, while the SR-3M leans into higher damage for quick takedowns. Both work well with hip-fire burst tactics and are easy to mod for horizontal recoil reduction.</li>
+
+  <li><strong>Bizon-2 (SMG)</strong>: A sleeper hit highlighted by players. Its large magazine capacity makes it great for extended CQC engagements, and its manageable recoil (with mods) keeps it competitive against higher-tier SMGs. It’s especially useful for new players still mastering ammo management.</li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;"><strong>Rifles &amp; Battle Rifles: Mid-Range Masters</strong></h3>
+
+<p>Rifles strike the perfect balance between close and mid-range combat, while battle rifles double down on ADS (aiming down sights) precision for longer engagements. Community feedback adds several key picks to the meta, with the <strong>AK-103</strong> standing out as a fan favorite.</p>
+
+<ol>
+  <li><strong>AK-103</strong>: As players repeatedly confirm, this rifle is a "solid" top choice. It hits hard, handles mid-range fights with ease, and responds well to mods—making it a reliable pick for balanced players. Focus on recoil-reducing attachments and high-penetration ammo to clean up enemies efficiently.</li>
+
+  <li><strong>Flame AK-47</strong>: A variant that trades minor recoil for a burn effect. This makes it easier to control than stock AKs, especially in chaotic mid-range skirmishes where every second counts.</li>
+
+  <li><strong>STG 77A3 &amp; MF (Rifles)</strong>: Community-recommended alternatives to the AK line. The STG 77A3 offers smoother recoil for new players, while the MF leans into faster fire rate for aggressive mid-range pushes. Both pair well with hybrid mods (hip-fire spread reduction + ADS speed) to adapt to changing encounters.</li>
+
+  <li><strong>M1A &amp; MCX Spear (Battle Rifles)</strong>: For players who prioritize ADS precision, these are must-tries. The M1A is a classic choice with consistent damage, while the highly sought-after <strong>MCX Spear</strong> (often called "Sig Spear" by players) is a endgame favorite—though many players note they use the MDR-762 as a top-tier alternative until they unlock it. Both require commitment to sightlines and headshots, but their damage output rewards careful aiming.</li>
+</ol>
+
+<h2><strong>Tier List Snapshot: Popular Weapon Rankings</strong></h2>
+
+<p>
+  <img src="/images/guide/guide20-02.webp" alt="the Best Weapons in Escape From Duckov 3 " width="50%" style="width: 50%;">
+</p>
+
+<p>Across various rankings, there’s a general consensus on which weapons stand out. Here’s a snapshot of the tier list to help you gauge the overall performance of different weapons:</p>
+
+<p>Tier Weapons</p>
+
+<p> S</p>
+
+<p>Epic Axe (Melee), MCX Spear, SV-98, MP7, M14, AS Val, M700, Desert Eagle</p>
+
+<p>A</p>
+
+<p>UZI, M1A, RPG-7, Mosin-Nagant, DT MDR-556, MDR-762, MP-155 ULTIMA, AK-103</p>
+
+<p>B</p>
+
+<p>Vector, MP5, StG 77A3, SR-3M, Flame AK-47, Bizon-2, VPO-101 (Lordon)</p>
+
+<p>C</p>
+
+<p>SKS-45, PPSh, MP-155, ADAR 2-15, PM Pistol, Handmade Hunting Gun</p>
+
+<p>Some rankings include an S+ tier, which typically features the <strong>M107</strong> (sniper) and <strong>MCX Spear</strong> (battle rifle) as endgame pinnacles. The UZI remains a wildcard—swinging between tiers—but it’s universally praised as a strong early-game or mobility pick, not a late-game main. Remember: this tier list is a starting point, not a rule. The game’s balance means a B-tier weapon with the right ammo and perks can outperform an S-tier one in the right hands.</p>
+
+<p><br></p>
+
+<h2><strong>Choosing Weapons Based on Playstyle: Hip Fire vs. ADS</strong></h2>
+
+<p>Your playstyle is the ultimate decider for weapon choice, and nowhere is this clearer than in the hip fire vs. ADS debate. Players emphasize that even within weapon classes, tactics like burst-firing can drastically change performance—so don’t just pick a weapon, pick a strategy.</p>
+
+<ol>
+  <li><strong>Hip Fire Lovers</strong>: SMGs like the MP7, MP5, and Bizon-2 are ideal. Designed for run-and-gun gameplay, they let you sprint, slide, and clear rooms without slowing to aim. Pro tip from the community: avoid holding down the trigger to spray—quick burst-fires maintain accuracy while capitalizing on their low recoil.</li>
+
+  <li><strong>Balanced Players</strong>: Rifles like the DT MDR-556, AK-103, and STG 77A3 hit the sweet spot. They have workable hip fire for close encounters and faster, more stable ADS for mid-range precision. Mods that reduce both hip fire spread and horizontal recoil will maximize their adaptability.</li>
+
+  <li><strong>ADS Specialists</strong>: Battle rifles and snipers are your domain. Battle rifles like the M1A and MCX Spear demand commitment to sightlines and headshots—forget forgiving hip fire spreads. Snipers (M107, SV-98, VPO-101) rely entirely on ADS; control angles, pre-aim chokepoints, and use stealth to your advantage. For extreme mobility with ADS potential, try pistols like the Desert Eagle (which uses high-power MAG ammo) as a primary—though most players skip second weapons to save weight.</li>
+</ol>
+
+<h2><strong>Ammo, Mods &amp; Perks: The Secrets to Weapon Dominance</strong></h2>
+
+<p>Here’s a hard truth from the community: ammo, attachments, totems, and perks have a bigger impact on damage than the weapon itself. Even a budget weapon with top-tier ammo will outperform a legendary weapon with basic rounds. Below are the most critical tips:</p>
+
+<ol>
+  <li><strong>Ammo First, Weapon Second</strong>: This is the #1 community tip. Always match your ammo to the enemy’s armor level—high-penetration rounds (like AP blue bullets) will turn a mid-tier rifle into an armored enemy killer, while weak ammo renders even S-tier weapons ineffective. For snipers, Marksman/Totem ammo is non-negotiable for one-shot potential; for SMGs, prioritize hollow-point rounds for CQC takedowns.</li>
+
+  <li><strong>Mod Smart, Not Heavy</strong>: Don’t overbuild early-game. Prioritize two key stats: <strong>horizontal recoil</strong> (the biggest control factor, per players) and <strong>sight speed</strong> (a quick-acquire sight beats fancy scopes for most fights). For SMGs, add hip fire spread reduction; for rifles, balance ADS speed and recoil. Save heavy mods like extended magazines for late-game when weight management is less critical.</li>
+
+  <li><strong>Optics for Your Playstyle</strong>: Scopes are great for lane control and off-screen target acquisition (perfect for snipers and battle rifles), but reflex sights or red dots are better for CQC and run-and-gun play. Avoid overscoping— a 1x-4x variable scope is more versatile than a fixed 8x for most raids.</li>
+
+  <li><strong>Perks &amp; Totems Matter</strong>: Pair weapons with complementary perks. Marksman/Totem perks boost sniper damage, while mobility perks make SMGs even more agile. Don’t overlook totems—they’re often the final piece that turns a good weapon into a great one.</li>
+</ol>
+
+<h2><strong>Early - Game Picks to Avoid Wasting Your Raid</strong></h2>
+
+<p>When you’re just starting out and don’t have access to high - tier weapons, these early - game picks will help you survive and progress:</p>
+
+<ol>
+  <li><strong>PM Pistol</strong>: A practical starter sidearm with fast reloads and low recoil. It’s not powerful, but it’s reliable for your first few raids—pair it with basic hollow-point ammo to take down unarmored enemies.</li>
+
+  <li><strong>Handmade Hunting Gun</strong>: Simple and reliable, this gun delivers decent damage in the opening zones while you’re gearing up. It’s a great option for players who want to play it safe early on.</li>
+
+  <li><strong>UZI</strong>: The best early-game SMG. Its excellent mobility and easy control make it perfect for learning room-clearing tactics. You’ll often find it in warehouse areas, and with basic recoil mods and good ammo, it holds its own until you unlock better options like the MP5.</li>
+</ol>
+
+<h2><strong>Final Thoughts</strong></h2>
+
+<p>In <em>Escape From Duckov</em>, the best weapon for you depends on how you play. If you want one weapon that does it all, build the DT MDR - 556 and stick with it — it’s the most dependable all - rounder. If you prefer to specialize, the M107 or SV - 98 will dominate long sightlines, the MP - 155 ULTIMA will tear through hallways, and the MP7 will handle fast pushes.</p>
+
+<p>Remember, it’s not just about the weapon itself — modding it correctly, choosing the right ammo, and matching it to your playstyle are just as important. With this guide in hand, you’ll be able to pick the perfect weapon for every fight and increase your chances of escaping Duckov alive.</p>
+
+    `,
+  },
+
+  {
+    id: 21,
+    title: "The Complete Lore of Escape From Duckov: From Duck Planet to Galactic Betrayal",
+    iframeUrl: "1",
+    description: "Dive deep into the captivating story of Escape From Duckov. Uncover the origins of the duck civilization, the unseen cosmic threat, the purple storm, J-Laboratory's desperate escape plan, super soldiers, and the player's role in a world on the brink of destruction.",
+    tags: ["<p>released","october","16th","<em>escape","from"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/guide/guide21.webp",
+    imageAlt: "duckovgame 11",
+    category: "advanced",
+    seo: {
+      title: "The Complete Lore of Escape From Duckov | Duckovgame.com",
+      description: "Dive deep into the captivating story of Escape From Duckov. Uncover the origins of the duck civilization, the unseen cosmic threat,J-Laboratory's desperate escape plan.",
+      keywords: "Escape From Duckov lore, game story, Duckov backstory, Akov planet, J-Laboratory, purple storm, cosmic civilization, super soldiers, Bomb Maniac, Blue-Skinned God, game narrative, player's journey, game plot, Escape From Duckov universe, alien invasion, betrayal",
+    },
+    addressBar: "/the-complete-lore-of-escape-from-duckov",
+    detailsHtml: `
+    <p>Released on October 16th, <em>Escape From Duckov</em> achieved remarkable success within just a week, selling over a million copies and hitting a peak concurrent player count of over 300,000. By the 28th, sales surged again to an astonishing 2 million. Many players likely entered with a "let's try it" mindset, only to be hooked by these adorable ducks. This game, perhaps the least "Escape From Tarkov-like" major scavenging game, even earned recognition from the creator of Tarkov himself. Duckov's explosive popularity stems from its humorous yet hardcore gameplay and the dedication of all its mod authors. The long-term enjoyment derived from scavenging and progression, coupled with the distinct gameplay experience offered by various weapons—even melee combat—makes it incredibly addictive. But today, let's shift our perspective on this increasingly popular game and explore the story it truly tells.</p>
+
+<p><img src="/images/guide/guide21-01.webp" alt="duckovgame 1" width="50%" style="width: 50%;"></p>
+
+<h2><strong>Chapter 1: The Duck Planet and an Unseen Threat</strong></h2>
+
+<p>In the vast cosmos, there exists a planet called Akov. Its inhabitants are intelligent duck-like creatures who built beautiful and prosperous towns across their world. Our story unfolds in one such town, where a hidden facility known as <strong>J-Laboratory</strong> resides. Their ambition stretched to the boundless starfield, but they were naive, as if the cosmos were a benevolent deity that would grant their every wish. The town's facilities were entirely self-sufficient, a testament to their cozy life, tending to their "one-acre plot." It seemed this life could continue indefinitely, until a civilization from the stars arrived. However, this civilization never even showed its face, leaving the ducks completely unprepared for the impending crisis. For the ducks, this civilization couldn't even be called an enemy; the disparity between them was simply too vast. Thus, the newcomers weren't here to antagonize the ducks.</p>
+
+<p>If the universe were a flourishing tree, with each planet being a fruit it bore, then this civilization was like a worm. They directly extracted energy from planets. While "killing the goose that lays the golden eggs" isn't ideal, it's different when it's someone else's goose. This civilization, akin to interstellar pirates, had been doing this for a long time. They had even enslaved deities. But as the saying goes, the pitcher goes so often to the well that it is broken at last. Their previous actions earned them an eternal enemy. After all, in the almost infinite lifespan of a deity, they simply needed some amusement, as long as they didn't overdo it again. This time, for instance, the deity decided to stir up some trouble for these pirates. As for the ducks, who cared?</p>
+
+<h2><strong>Chapter 2: The Purple Storm and a Doomed Planet</strong></h2>
+
+<p>While extracting energy from Akov, the pirates discovered the "seasoning" added by the deity. The usual blue crystals extracted from within the planet were gone, replaced by a furious purple energy. The sudden burst of purple energy caught the pirates off guard. One spaceship even crashed, unable to escape the blast zone in time. It was then that the fleet commander finally realized they had been tricked. The commander ordered the fleet to abandon the operation. Thus, the pirates paid the price, the deity reaped joy, and the ducks were left with a dying planet. It was doomed, though destruction wouldn't come overnight. In the initial stages of the storm's eruption, the ducks didn't even realize their inescapable fate. During the first storm, some witnessed alien spaceships resembling water bears, strikingly similar to descriptions of evil gods in an ancient religion called the "Scattered Cult." Through whispers and rumors, the Scattered Cult secretly gained numerous bizarre tales and followers. From then on, Akov experienced a purple storm every 10 days. The good news was the storms weren't perpetual; the bad news was the day they vanished entirely would be the day everyone ceased to exist.</p>
+
+<h2><strong>Chapter 3: J-Laboratory's Escape Plan and Super Soldiers</strong></h2>
+
+<p>As mentioned earlier, <strong>J-Laboratory</strong>, being not far from the storm zone, covertly dispatched an expedition team immediately. Through studying the crashed spaceship, their technology rapidly advanced, and they mastered the method of creating energy weapons. Although energy weapons offered limited improvement over traditional gunpowder weapons, this monopolized product quickly amassed vast wealth for J-Laboratory. Simultaneously, they discovered the impending destruction of the planet. To survive, they invested all this wealth into developing a spaceship, seeking to escape from Akov, a ship destined to sink. To realize this plan, they recruited a large number of mercenaries to ensure the security of their research, promising to take these mercenaries off the planet as payment. The elite among them, with the lab's assistance, gained powerful abilities by fusing storm-substance-infused drugs from sleep pods. However, the lab couldn't fully control this planet-derived energy, leading to flaws in these super soldiers. Without exception, their personalities became more impulsive, irritable, or rather, warlike, sowing the seeds for future chaos.</p>
+
+<h2><strong>Chapter 4: Failed Creations and the Blue-Skinned God</strong></h2>
+
+<p>Perhaps sensing the unreliability of the mercenaries, the lab created a warrior who shouldn't have existed in this world: [REDACTED]. However, this magnificent creation was entirely beyond their control. So, to restrict [REDACTED], they immediately initiated the <strong>Four Horsemen Project</strong>. But upon completing the plan, they realized they couldn't fully control the Four Horsemen either. One lie leads to ten, and perhaps things not meant to be controlled should remain so. While the lab executed its escape plan, the instigator, the scattered deity, the <strong>Blue-Skinned God</strong>, whether out of guilt or other reasons, also descended upon Akov. Then, he was suppressed again. After being controlled by a higher civilization for 50 years, the Blue-Skinned God was once more held captive. He was imprisoned by <strong>Bomb Maniac</strong>, a super soldier fused with energy, in a warehouse district, within a toxic gas-filled ravine. Incidentally, Bomb Maniac stole his sleep pod from the cult leader. For the Blue-Skinned God, this was poetic justice, as the toxic gas originated from technology he himself provided—an evil tech supposedly for purifying souls. The purified blue soul cubes, after further processing, would become a green volatile liquid. He called this green liquid "cola syrup." The syrup was corrosive and not directly drinkable, but after simple reprocessing, it would become the best-tasting cola in the world. On a side note, even with the world's best cola in front of us, our Mud Guy wouldn't spare it a glance; he's truly, incredibly cool. Perhaps because of the energy fusion, or perhaps Bomb Maniac was just inherently reckless, he messed things up. The cola syrup leaked, filling the ravine with toxic gas, and he had no way to deal with it. So, he decided to move to Farm Town and open another factory. Believing he knew everything from the Blue-Skinned God, he had no intention of releasing him. But his progress in Farm Town wasn't smooth. The cat was out of the bag; the lab discovered his theft of the sleep pod and dispatched a team of mechanical spiders to deal with the thief. However, mechanical spiders don't care about toxic gas, or perhaps the lab sent them knowing about the cola syrup. In any case, though Bomb Maniac escaped, his cola factory was once again destroyed, and his get-rich-quick scheme was thwarted.</p>
+
+<h2><strong>Chapter 5: A Desperate World and Betrayal</strong></h2>
+
+<p>Against the backdrop of a dying world, there's no shortage of greedy individuals. For instance, there's the <strong>Miner</strong> who uses the graphics cards entrusted to him by the lab to mine cryptocurrency, the <strong>School Bully</strong> who, as the city's champion of a hammer-throwing competition, occupies the school, and the players who scavenge everywhere. There are also those abandoned by the lab, left on the planet to enjoy the final privileges of the <strong>Zero-Body Count</strong>. Oh yes, the lab broke its promise; they didn't take those bloodthirsty mercenaries, nor even all their own researchers. To produce enough spaceships, the lab accelerated crystal mining, and with increased extraction, the planet's collapse also hastened. The lab soon concluded that they couldn't produce enough spaceships before the planet's destruction. How many spaceships did they need, then? The answer emerged with the question: just enough for the indispensable parties to escape. After all, no one could predict the exact time of the planet's demise. Thus, the mercenaries, and even non-critical lab employees, were abandoned. Once they had built enough ships, those in the know quietly boarded and fled the planet, leaving behind a desperate world and a group of hopeless individuals struggling in the apocalypse.</p>
+
+<p><br></p>
+
+<h2><strong>Chapter 6: Jeff's Second Chance and the Player's Role</strong></h2>
+
+<p>A considerable amount of time has passed since the lab departed Akov, and the news of the planet's imminent destruction is widespread. Order, rules, and all forms of structured existence have vanished without a trace. Everyone has fallen into a bizarre, hedonistic stupor, yet some refuse to give up. Take <strong>Jeff</strong>, a former employee of J-Laboratory. He felt both anger and helplessness about being abandoned by the lab. After all, he was caught slacking off. Since he couldn't integrate into the previous team, he decided to build his own. Being a technician, he was clearly no match for crude fighters, so he sought a capable and agile enforcer. For this, he targeted prisoners. He then infiltrated the prison, rescuing a significant figure—us, the players. After escaping the prison and arriving at Jeff's hideout, Jeff contacted two old friends in the weapons and equipment business to provide us with necessary gear. While wandering in the Zero-Body Zone, we also encountered a jock—<strong>Niba</strong>. Believe me, he's practically a superman. Everything proceeded smoothly, but Jeff had one thing he hadn't told anyone. He slacked off at work not because his work ability was outstanding enough to complete tasks while slacking—otherwise, the lab might not have fired him. He could barely handle the basic technology of Akov, but he lacked deep understanding of cutting-edge spaceship and storm energy technologies. Perhaps he himself felt that if he told us the truth, we might just shoot him.</p>
+
+<p><img src="/images/guide/guide21-02.webp" alt="duckovgame 3" width="50%" style="width: 50%;"></p>
+
+<h2><strong>Chapter 7: A New Plan, Betrayal, and the Antiair Missile</strong></h2>
+
+<p>Well, when the problem was solved, <strong>Xiao Ming</strong>, a former colleague of Jeff who was also fired, proactively contacted him and joined the team. For escape, Xiao Ming was far more reliable than Jeff. Following his instructions, we fought our way from the Zero-Body Zone to Farm Town and found the lab's underground research area. The security personnel here had completely devolved into rioters: gun-wielders, bomb-throwers, and even "poop-players," each forming their own faction, maintaining a fragile balance among themselves. After multiple life-or-death infiltrations, we finally obtained all the systems required for the spaceship. Xiao Ming, living up to expectations, converted a travel camper into a spaceship. But on the day the conversion was complete, Jeff and his team delivered a message: the system wouldn't allow us to evacuate due to illegal teaming. Okay, actually, it was because the ship contained too many systems, and there weren't enough seats. Their plan was for them to leave first, and then come back for us later. Do you believe that? I didn't, but they were merely informing us. Tomorrow, they would officially evacuate. Who cares? Worst case, we'd take one of them out tomorrow to make space for us.</p>
+
+<p>The next day, as the spaceship was about to take off, we found ourselves unable to open fire, indecisive. Fine, we'd trust them one last time. We waved goodbye, but just then, an anti-aircraft missile was launched from somewhere within the inaccessible storm zone. The missile accurately hit Jeff's spaceship. Now I was the last survivor, witnessing all of this, disheartened. After finally witnessing the destruction of the world, I would perish with it. After the ending, we were reborn on the day before the end. In the previous life, we died alone, abandoned. In this life, we absolutely wouldn't repeat that mistake. I told Jeff and his team about the anti-aircraft missile. Being internal lab personnel, they had heard rumors before, but in the previous life, with escape so close, they had forgotten this crucial information. Thus, they once again guided me to infiltrate the underground lab. In the northwest corner of the lab's upper level, we found a room we hadn't entered before. To infiltrate this room, we entered this 1st floor of the lab, restored power to the room, and consequently encountered fully invisible creations of the lab.</p>
+
+<h2><strong>Chapter 8: Confronting the Threat and a New Hope</strong></h2>
+
+<p>Returning to the room in the upper northwest corner, we encountered a creation called <strong>Barricade</strong>. After defeating it, we obtained the lab's Level 3 pass for the storm zone. Finally, we could resolve everything. Fighting with all our might, we finally killed the lab's intermediate weapon, [REDACTED], in the storm zone, obtaining the key to disable the anti-aircraft system. While disabling the anti-aircraft missile, there was an unexpected bonus. From a computer in the storm zone, we could download new spaceship technology. With this technology, Xiao Ming and his team could add one more seat to the spaceship. Our family could finally evacuate together, complete.</p>
+
     `,
   }
 
