@@ -352,7 +352,13 @@
         "viewGuide": "ПОСМОТРЕТЬ ГАЙД >",
         "updated": "Обновлено"
     },
-    "GuideDetailPage": {},
+  "GuideDetailPage": {
+    "breadcrumb": "Гайды",
+    "navigationTitle": "Навигация по гайдам",
+    "previousGuide": "Предыдущий гайд",
+    "nextGuide": "Следующий гайд",
+    "latestTitle": "Новые гайды"
+  },
     "SearchPage": {
         "title": "Поиск по Escape from Duckov",
         "subtitle": "Найдите все гайды, карты, моды, статьи wiki и предметы, соответствующие вашему запросу.",

@@ -352,7 +352,13 @@
         "viewGuide": "查看指南 >",
         "updated": "已更新"
     },
-    "GuideDetailPage": {},
+  "GuideDetailPage": {
+    "breadcrumb": "指南",
+    "navigationTitle": "指南导航",
+    "previousGuide": "上一篇指南",
+    "nextGuide": "下一篇指南",
+    "latestTitle": "最新指南"
+  },
     "SearchPage": {
         "title": "搜索 Escape from Duckov",
         "subtitle": "根据关键词快速浏览所有匹配的指南、地图、模组、百科条目与物品数据。",

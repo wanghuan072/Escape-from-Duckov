@@ -352,7 +352,13 @@
         "viewGuide": "가이드 보기 >",
         "updated": "업데이트됨"
     },
-    "GuideDetailPage": {},
+  "GuideDetailPage": {
+    "breadcrumb": "가이드",
+    "navigationTitle": "가이드 내비게이션",
+    "previousGuide": "이전 가이드",
+    "nextGuide": "다음 가이드",
+    "latestTitle": "최신 가이드"
+  },
     "SearchPage": {
         "title": "Escape from Duckov 검색",
         "subtitle": "입력한 키워드와 일치하는 모든 가이드, 지도, 모드, 위키 항목, 아이템을 확인하세요.",

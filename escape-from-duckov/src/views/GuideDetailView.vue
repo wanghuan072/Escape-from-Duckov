@@ -18,7 +18,7 @@
                             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                             <polyline points="9,22 9,12 15,12 15,22" />
                         </svg>
-                        Guides
+                        {{ t('GuideDetailPage.breadcrumb') }}
                     </a>
                     <svg class="breadcrumb-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                         stroke-width="2">
@@ -96,14 +96,14 @@
 
                         <!-- Guide navigation -->
                         <div class="guide-navigation" v-if="previousGuide || nextGuide">
-                            <h4 class="nav-title">Guide Navigation</h4>
+                            <h4 class="nav-title">{{ t('GuideDetailPage.navigationTitle') }}</h4>
                             <div class="nav-grid">
                                 <a
                                     v-if="previousGuide"
                                     :href="getLocalizedPathForCurrentLang(`/guides${previousGuide.addressBar}`)"
                                     class="nav-card nav-card-prev"
                                 >
-                                    <div class="nav-card-direction">← Previous Guide</div>
+                                    <div class="nav-card-direction">← {{ t('GuideDetailPage.previousGuide') }}</div>
                                     <div class="nav-card-title">{{ previousGuide.title }}</div>
                                     <div class="nav-card-meta">
                                         <span>{{ getCategoryName(previousGuide.category) }}</span>
@@ -115,11 +115,30 @@
                                     :href="getLocalizedPathForCurrentLang(`/guides${nextGuide.addressBar}`)"
                                     class="nav-card nav-card-next"
                                 >
-                                    <div class="nav-card-direction">Next Guide →</div>
+                                    <div class="nav-card-direction">{{ t('GuideDetailPage.nextGuide') }} →</div>
                                     <div class="nav-card-title">{{ nextGuide.title }}</div>
                                     <div class="nav-card-meta">
                                         <span>{{ getCategoryName(nextGuide.category) }}</span>
                                         <span>{{ formatDate(nextGuide.publishDate) }}</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Latest Guides -->
+                        <div class="latest-guides" v-if="latestGuides.length">
+                            <h4 class="nav-title">{{ t('GuideDetailPage.latestTitle') }}</h4>
+                            <div class="latest-guides-list">
+                                <a
+                                    v-for="item in latestGuides"
+                                    :key="item.id"
+                                    :href="getLocalizedPathForCurrentLang(`/guides${item.addressBar}`)"
+                                    class="latest-guide-card"
+                                >
+                                    <div class="latest-guide-title">{{ item.title }}</div>
+                                    <div class="latest-guide-meta">
+                                        <span>{{ getCategoryName(item.category) }}</span>
+                                        <span>{{ formatDate(item.publishDate) }}</span>
                                     </div>
                                 </a>
                             </div>
@@ -141,7 +160,7 @@ import { useSEO } from '../seo/composables.js'
 import { seoConfig } from '../seo/config.js'
 
 const route = useRoute()
-const { locale } = useI18n()
+const { locale, t } = useI18n()
 const { guides, loadData, findGuideByAddressBar } = useGuideData()
 const guide = ref(null)
 const { setSEO } = useSEO()
@@ -226,6 +245,12 @@ const previousGuide = computed(() => {
 const nextGuide = computed(() => {
     if (currentGuideIndex.value === -1) return null
     return guides.value[currentGuideIndex.value + 1] || null
+})
+
+const latestGuides = computed(() => {
+    if (!guides.value || !guides.value.length) return []
+    const filtered = guides.value.filter(g => g.id !== guide.value?.id)
+    return filtered.slice(-5).reverse()
 })
 
 const formatDate = (dateString) => {
@@ -495,6 +520,50 @@ const getCategoryName = (category) => {
 .nav-card-next .nav-card-meta {
     flex-direction: row-reverse;
     text-align: right;
+}
+
+.latest-guides {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.latest-guides-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.latest-guide-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-primary);
+    border: 1px solid rgba(250, 147, 23, 0.15);
+    transition: all 0.2s ease;
+}
+
+.latest-guide-card:hover {
+    border-color: rgba(250, 147, 23, 0.35);
+    background: rgba(250, 147, 23, 0.08);
+    transform: translateY(-1px);
+}
+
+.latest-guide-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.latest-guide-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
 }
 
 

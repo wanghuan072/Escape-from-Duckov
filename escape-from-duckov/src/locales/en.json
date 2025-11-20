@@ -352,7 +352,13 @@
     "viewGuide": "VIEW GUIDE >",
     "updated": "Updated"
   },
-  "GuideDetailPage": {},
+  "GuideDetailPage": {
+    "breadcrumb": "Guides",
+    "navigationTitle": "Guide Navigation",
+    "previousGuide": "Previous Guide",
+    "nextGuide": "Next Guide",
+    "latestTitle": "Latest Guides"
+  },
   "SearchPage": {
     "title": "Search Escape from Duckov",
     "subtitle": "Browse every guide, map, mod, wiki entry, and item that matches your keywords.",

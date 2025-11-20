@@ -352,7 +352,13 @@
         "viewGuide": "ガイドを見る >",
         "updated": "更新日"
     },
-    "GuideDetailPage": {},
+  "GuideDetailPage": {
+    "breadcrumb": "ガイド",
+    "navigationTitle": "ガイドナビゲーション",
+    "previousGuide": "前のガイド",
+    "nextGuide": "次のガイド",
+    "latestTitle": "最新ガイド"
+  },
     "SearchPage": {
         "title": "Escape from Duckov を検索",
         "subtitle": "キーワードに一致するガイド、マップ、MOD、Wiki項目、アイテムをまとめて確認できます。",
